@@ -14,11 +14,9 @@ German example:
 #: classes/help/pagesource.py:360
 #, python-brace-format
 msgid ""
-"You can get more help if you join the official server at\n"
-"[https://discord.gg/shake]({support_server})"
+"You can get more help if you join the official server [here](https://discord.gg/shake)"
 msgstr ""
-"Weitere Hilfe erhalten Sie, wenn Sie dem offiziellen Server beitreten unter\n"
-"[https://discord.gg/shake]({support_server})"
+"Weitere Hilfe erhalten Sie, wenn Sie dem offiziellen Server [hier](https://discord.gg/shake) beitreten"
 ```
 
 ### What should I do with placeholders?
