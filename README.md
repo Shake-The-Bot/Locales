@@ -10,7 +10,7 @@ Placeholders like {member} or {value} will be replaced with channel names, numbe
 ## What should I do with newlines?
 **\n** is the code for end-of-line and also **should not** be changed in locale files
 
-"example_text" : "This is an example! Following language has been added to TempVoice:{val1}. Take a look at the official [Website](www.tempvoice.xyz).",
+```"example_text" : "This is an example! Following language has been added to TempVoice:{val1}. Take a look at the official [Website](www.tempvoice.xyz).",```
 
 
 ## What should I do with hyperlinks?
