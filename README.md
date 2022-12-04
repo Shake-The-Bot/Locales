@@ -1,6 +1,5 @@
 # Shake - Locales
-This project is a community one for everyone who wants to help translating the official Shake Discord-Bot. It includes all current gettext translations and the template of them.
-*Remember that any language can have errors or be incorrect, if something bothers you then read this*
+This project is a community one for everyone who wants to help translating the official Shake Discord-Bot. It includes all current gettext translations and the template of them.\n*Remember that any language can have errors or be incorrect, if something bothers you then read this*
 
 ## How to add a new language to Shake?
 Download the shake.po template file, create a new file from the template file with a optional Translation Editor (like Poedit) set the translated text and send it back to @KidusTV on the [official Shake Discord server](discord.gg/hMBPhYsXkc).
