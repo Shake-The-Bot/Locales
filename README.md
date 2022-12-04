@@ -13,7 +13,6 @@ Placeholders like `{member}` or `{value}` will be replaced with channel names, n
 Only edit the blue part:
 ```json
 "example_text" : "This is an example! Following language has been added to TempVoice:{val1}. Take a look at the official [Website](www.tempvoice.xyz).",
-What sh
 ```
 
 ### What should I do with hyperlinks?
