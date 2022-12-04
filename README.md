@@ -23,4 +23,4 @@ Placeholders like `{member}` or `{value}` will be replaced with channel names, n
 `\n` is the code for end-of-line and also **should not** be changed in locale files
 
 ### What should I do with hyperlinks?
-`[Text](url-link)` is a clickable text for an url. Its important that the brackets [ ]( ) stay together. The text inside of [ ] brackets should be translated **not the () one**.
+`[Text](url-link)` is a clickable text for an url. Its important that the brackets [ ]( ) stay together. The text inside of [ ] brackets should be translated but **not the () one**.
