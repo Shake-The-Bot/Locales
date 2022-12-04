@@ -5,7 +5,7 @@
 Download the shake.po template file, create a new file from the template file with a optional Translation Editor (like Poedit) set the translated text and send it back to @KidusTV on the [official Shake Discord server](discord.gg/hMBPhYsXkc).
 
 Example: 
-```json
+```po
 #: classes/help/pagesource.py:360
 #, python-brace-format
 msgid ""
