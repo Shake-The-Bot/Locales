@@ -4,11 +4,7 @@ This project is a community one for everyone who wants to help translating the o
 *Remember that any language can have errors or be incorrect, if something bothers you then read this*
 
 ## How to add a new language to Shake?
-Download the shake.po template file, create a new file from the template file with a optional Translation Editor (like Poedit) set the translated text and send it back to @KidusTV on the [official Shake Discord server](https://discord.gg/hMBPhYsXkc).
-
-![button](https://readme-components.vercel.app/api?component=button&text=Button&fill=000000&textfill=ffffff)
-
-[![button](https://readme-components.vercel.app/api?component=button&text=Button&fill=000000&textfill=ffffff)](https://discord.gg/hMBPhYsXkc)
+Download the shake.po template file, create a new file from the template file with a optional Translation Editor (like Poedit) set the translated text and send it back to @KidusTV on the official Shake Discord server. [![Join the official Shake Discord Server](https://readme-components.vercel.app/api?component=button&text=Button&fill=000000&textfill=ffffff)](https://discord.gg/hMBPhYsXkc)
 
 
 German example: 
