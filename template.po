@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-11-30 15:17+0100\n"
-"PO-Revision-Date: 2022-12-05 16:29+0100\n"
+"POT-Creation-Date: 2022-12-05 16:33+0100\n"
+"PO-Revision-Date: 2022-12-05 16:33+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -11,9 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
-"X-Poedit-Basepath: ../../..\n"
-"X-Poedit-SearchPath-0: locales\n"
-"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: classes/converter/dourationdelta.py:27
 #, python-brace-format
@@ -46,7 +45,8 @@ msgstr ""
 msgid "An unknown error has occurred, sorry"
 msgstr ""
 
-#: classes/help/page.py:290 exts/commands/music/stop/__init__.py:29
+#: classes/help/page.py:290
+#: classes/unreleased/testing/music/stop/__init__.py:29
 msgid "stop"
 msgstr ""
 
@@ -138,15 +138,15 @@ msgid ""
 "information about a command."
 msgstr ""
 
-#: classes/help/pagesource.py:324
+#: classes/help/pagesource.py:325
 msgid "No help given... (use bugreport)"
 msgstr ""
 
-#: classes/help/pagesource.py:348
+#: classes/help/pagesource.py:349
 msgid "Bot Help"
 msgstr ""
 
-#: classes/help/pagesource.py:351
+#: classes/help/pagesource.py:352
 #, python-brace-format
 msgid ""
 "Hello and welcome to my help page {emoji}\n"
@@ -157,43 +157,29 @@ msgid ""
 "command/category."
 msgstr ""
 
-#: classes/help/pagesource.py:358
+#: classes/help/pagesource.py:359
 msgid "Support Server"
 msgstr ""
 
-#: classes/help/pagesource.py:359
+#: classes/help/pagesource.py:360
 #, python-brace-format
 msgid ""
 "You can get more help if you join the official server at\n"
 "[https://discord.gg/shake]({support_server})"
 msgstr ""
 
-#: classes/help/pagesource.py:368
+#: classes/help/pagesource.py:369
 msgid "Who am I?"
 msgstr ""
 
-#: classes/help/pagesource.py:370
+#: classes/help/pagesource.py:371
 msgid ""
 "{} bot, which is partially intended for the public.\n"
 "                    Written with only `{:,}` lines. Please be nice"
 msgstr ""
 
-#: classes/help/pagesource.py:376
+#: classes/help/pagesource.py:377
 #, python-brace-format
-#| msgid ""
-#| "I am a functional all-in-one bot that will simplify setting up your "
-#| "server for you!\n"
-#| "\n"
-#| "                    I have been running since {created_at}\n"
-#| "                    and I have functions like voting, level system, \n"
-#| "                    music, moderation & much more. You can get more\n"
-#| "                    information by using the dropdown menu below.\n"
-#| "                    dropdown menu.\n"
-#| "\n"
-#| "                    I am not yet an open-source project, but I could "
-#| "become one\n"
-#| "                    with your support, so feel free to add me to your "
-#| "server as well."
 msgid ""
 "I am a functional all-in-one bot that will simplify setting up your server "
 "for you!\n"
@@ -205,35 +191,35 @@ msgid ""
 "                    dropdown menu."
 msgstr ""
 
-#: classes/help/pagesource.py:385
+#: classes/help/pagesource.py:386
 msgid "<argument>"
 msgstr ""
 
-#: classes/help/pagesource.py:385
+#: classes/help/pagesource.py:386
 msgid "Stands for the argument being __**necessary**__."
 msgstr ""
 
-#: classes/help/pagesource.py:386
+#: classes/help/pagesource.py:387
 msgid "[argument]"
 msgstr ""
 
-#: classes/help/pagesource.py:386
+#: classes/help/pagesource.py:387
 msgid "Stands for that the argument is __**optional**__."
 msgstr ""
 
-#: classes/help/pagesource.py:387
+#: classes/help/pagesource.py:388
 msgid "[A|B]"
 msgstr ""
 
-#: classes/help/pagesource.py:387
+#: classes/help/pagesource.py:388
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr ""
 
-#: classes/help/pagesource.py:388
+#: classes/help/pagesource.py:389
 msgid "[argument]..."
 msgstr ""
 
-#: classes/help/pagesource.py:389
+#: classes/help/pagesource.py:390
 msgid ""
 "Stands for the fact that you can use multiple arguments.\n"
 "\n"
@@ -242,35 +228,85 @@ msgid ""
 "                    __**You don't include the parentheses!**__"
 msgstr ""
 
-#: classes/help/pagesource.py:395
+#: classes/help/pagesource.py:396
 msgid "How do I use the bot?"
 msgstr ""
 
-#: classes/help/pagesource.py:395
+#: classes/help/pagesource.py:396
 msgid "Reading the bot structure is pretty easy."
 msgstr ""
 
-#: classes/utils/time.py:494
+#: classes/unreleased/testing/music/favs/__init__.py:22
+msgid "favs"
+msgstr ""
+
+#: classes/unreleased/testing/music/find/__init__.py:31
+msgid "find"
+msgstr ""
+
+#: classes/unreleased/testing/music/find/__init__.py:35
+#: classes/unreleased/testing/music/play/__init__.py:36
+#: exts/commands/information/google/__init__.py:29
+msgid "query"
+msgstr ""
+
+#: classes/unreleased/testing/music/find/__init__.py:36
+#: classes/unreleased/testing/music/play/__init__.py:37
+#: exts/commands/information/google/__init__.py:30
+msgid "the query"
+msgstr ""
+
+#: classes/unreleased/testing/music/move/__init__.py:27
+msgid "move"
+msgstr ""
+
+#: classes/unreleased/testing/music/move/__init__.py:31
+msgid "seconds"
+msgstr ""
+
+#: classes/unreleased/testing/music/move/__init__.py:32
+msgid "the seconds"
+msgstr ""
+
+#: classes/unreleased/testing/music/music.py:10
+msgid ""
+"Commands to control the player.\n"
+"        (or use the menu)"
+msgstr ""
+
+#: classes/unreleased/testing/music/music.py:23
+msgid "Music"
+msgstr ""
+
+#: classes/unreleased/testing/music/play/__init__.py:32
+msgid "play"
+msgstr ""
+
+#: classes/unreleased/testing/music/resume/__init__.py:27
+msgid "resume"
+msgstr ""
+
+#: classes/utils/time.py:500
 msgid "Years"
 msgstr ""
 
-#: classes/utils/time.py:495
+#: classes/utils/time.py:501
 msgid "Months"
 msgstr ""
 
-#: classes/utils/time.py:496
+#: classes/utils/time.py:502
 msgid "Days"
 msgstr ""
 
-#: classes/utils/time.py:497
+#: classes/utils/time.py:503
 msgid "Hours"
 msgstr ""
 
-#: classes/utils/time.py:498
+#: classes/utils/time.py:504
 msgid "Minutes"
 msgstr ""
 
-#: classes/utils/time.py:499
+#: classes/utils/time.py:505
 msgid "Seconds"
 msgstr ""
 
@@ -313,18 +349,18 @@ msgstr ""
 msgid "member"
 msgstr ""
 
-#: exts/commands/gimmicks/everyone/do.py:22
+#: exts/commands/gimmicks/everyone/do.py:20
 #: exts/commands/information/stats/do.py:22
 msgid "and"
 msgstr ""
 
-#: exts/commands/gimmicks/everyone/do.py:24
+#: exts/commands/gimmicks/everyone/do.py:22
 msgid ""
 "Stop spamming @everyone!\n"
 "It's not that important...."
 msgstr ""
 
-#: exts/commands/gimmicks/everyone/do.py:26
+#: exts/commands/gimmicks/everyone/do.py:24
 #, python-brace-format
 msgid ""
 "{members}, stop spamming @everyone!\n"
@@ -339,15 +375,15 @@ msgstr ""
 msgid "gimmicks"
 msgstr ""
 
-#: exts/commands/gimmicks/gimmicks.py:25
+#: exts/commands/gimmicks/gimmicks.py:26
 msgid "🎮︱Gimmicks"
 msgstr ""
 
-#: exts/commands/gimmicks/gimmicks.py:29
+#: exts/commands/gimmicks/gimmicks.py:30
 msgid "Gimmicks"
 msgstr ""
 
-#: exts/commands/gimmicks/gimmicks.py:32
+#: exts/commands/gimmicks/gimmicks.py:33
 msgid "Gimmick Commands"
 msgstr ""
 
@@ -356,15 +392,6 @@ msgid "pp"
 msgstr ""
 
 #: exts/commands/gimmicks/pp/__init__.py:37
-#| msgid ""
-#| "Reveal the length of a user's pp\n"
-#| "\n"
-#| "            With this command you can find out, using a very clever and "
-#| "definitely not random generator,\n"
-#| "            how long the pp of a selected user is.\n"
-#| "\n"
-#| "            __Please note__: If you don't specify a user, I might reveal "
-#| "your pp as well."
 msgid ""
 "Reveal the length of a user's pp\n"
 "\n"
@@ -384,7 +411,7 @@ msgstr ""
 msgid "Show your support to LGBT+ with a rainbow filter! ^^"
 msgstr ""
 
-#: exts/commands/gimmicks/rainbow/do.py:39
+#: exts/commands/gimmicks/rainbow/do.py:42
 #, python-brace-format
 msgid "**{emoji} {prefix} `{user}` is part of it**"
 msgstr ""
@@ -402,10 +429,6 @@ msgid "the limit"
 msgstr ""
 
 #: exts/commands/gimmicks/roll/__init__.py:34
-#| msgid ""
-#| "Dice random number\n"
-#| "            This command displays a random number in a specified range of "
-#| "values. (Default: 1-6)"
 msgid "displays a random number in a specified range of values. (Default: 1-6)"
 msgstr ""
 
@@ -431,15 +454,6 @@ msgid "the text"
 msgstr ""
 
 #: exts/commands/gimmicks/say/__init__.py:35
-#| msgid ""
-#| "Let the bot repeat after you.\n"
-#| "            With the command, the bot will say whatever you tell it to "
-#| "say.\n"
-#| "\n"
-#| "            - `reply`: \n"
-#| "            \\u2003True or False whether the bot should reply to you.\n"
-#| "            - `text`: \n"
-#| "            \\u2003The text to repeat."
 msgid ""
 "I will say whatever you tell me to say.\n"
 "            \n"
@@ -488,6 +502,7 @@ msgstr ""
 #: exts/commands/information/charinfo/__init__.py:35
 msgid ""
 "Displays information about a set of characters.\n"
+"            \n"
 "            Only up to 25 characters at a time."
 msgstr ""
 
@@ -499,26 +514,11 @@ msgstr ""
 msgid "google"
 msgstr ""
 
-#: exts/commands/information/google/__init__.py:29
-#: exts/commands/music/find/__init__.py:35
-#: exts/commands/music/play/__init__.py:36
-msgid "query"
-msgstr ""
-
-#: exts/commands/information/google/__init__.py:30
-#: exts/commands/music/find/__init__.py:36
-#: exts/commands/music/play/__init__.py:37
-msgid "the query"
-msgstr ""
-
 #: exts/commands/information/google/__init__.py:35
-#| msgid ""
-#| "With this command you can google things\n"
-#| "            Good for use GIDBF \"Google is your best friend"
 msgid ""
-"With this command you can google things\n"
+"With this command you can google things.\n"
 "            \n"
-"            Good for use GIDBF \"Google is your best friend"
+"            Good for use GIDBF \"Google is your best friend\""
 msgstr ""
 
 #: exts/commands/information/information.py:9
@@ -547,10 +547,6 @@ msgid "invite"
 msgstr ""
 
 #: exts/commands/information/invite/__init__.py:32
-#| msgid ""
-#| "Upload the bot to your server.\n"
-#| "            Of course, you can also simply add the bot via its user "
-#| "profile."
 msgid ""
 "Invite the bot to your server.\n"
 "\n"
@@ -559,6 +555,66 @@ msgstr ""
 
 #: exts/commands/information/invite/do.py:17
 msgid "The Shake Team and I thank you for your interest"
+msgstr ""
+
+#: exts/commands/information/premium/__init__.py:24
+msgid "premium"
+msgstr ""
+
+#: exts/commands/information/premium/__init__.py:32
+msgid ""
+"Get information about Shake+.\n"
+"\n"
+"            Of course, you dont have to. It's like a tip"
+msgstr ""
+
+#: exts/commands/information/premium/do.py:16
+msgid "> Shake Premium (Shake+)"
+msgstr ""
+
+#: exts/commands/information/premium/do.py:17
+#, python-brace-format
+msgid "{emoji} This Discord server has no premium activated."
+msgstr ""
+
+#: exts/commands/information/premium/do.py:19
+#, python-brace-format
+msgid "{emoji} The benefit of supporting Shake as Patreon"
+msgstr ""
+
+#: exts/commands/information/premium/do.py:21
+msgid ""
+"Supporting the Bot as Patreon will keep the motivation for the development "
+"of Shake and make sure that all hosting costs are covered.\n"
+"\n"
+"                Premium makes **voting no longer necessary** and gives you "
+"**more creator channel** to customize! \n"
+"                "
+msgstr ""
+
+#: exts/commands/information/premium/do.py:26
+#, python-brace-format
+msgid "{emoji} Helpful links for understanding Patreon"
+msgstr ""
+
+#: exts/commands/information/premium/do.py:28
+msgid ""
+"**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-"
+"is-Patreon-)**\n"
+"                **[What currencies does Patreon support?](https://support."
+"patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
+"                **[How do I connect Discord to Patreon?](https://support."
+"patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-"
+"Patron-)**\n"
+"                "
+msgstr ""
+
+#: exts/commands/information/premium/do.py:33
+msgid "Freemium | Premium isn't required"
+msgstr ""
+
+#: exts/commands/information/premium/do.py:42
+msgid "Add Shake to your server"
 msgstr ""
 
 #: exts/commands/information/rtfm/__init__.py:37
@@ -570,12 +626,8 @@ msgid "the obj"
 msgstr ""
 
 #: exts/commands/information/rtfm/__init__.py:42
-#| msgid ""
-#| "With this command you can view objects from certain documentation\n"
-#| "            RTFM is internet slang for the phrase \"read the damn "
-#| "manual\"."
 msgid ""
-"view objects from certain documentation\n"
+"View objects from certain documentation.\n"
 "\n"
 "            RTFM is internet slang for the phrase \"read the damn manual\"."
 msgstr ""
@@ -617,14 +669,8 @@ msgid "guild"
 msgstr ""
 
 #: exts/commands/information/serverinfo/__init__.py:39
-#| msgid ""
-#| "Server information command.\n"
-#| "            This command will show you some information about a server.\n"
-#| "\n"
-#| "            - `information`: \n"
-#| "            \\u2003[owner, member, creation, ...]."
 msgid ""
-"get information about a specific server.\n"
+"Get information about a specific server.\n"
 "\n"
 "            This command will show you some information about a server.\n"
 "\n"
@@ -677,9 +723,8 @@ msgid "Created"
 msgstr ""
 
 #: exts/commands/information/stats/__init__.py:33
-#| msgid "Returns basic information and statistics about Shake"
 msgid ""
-"get some basic information and statistics about me\n"
+"Get some basic information and statistics about me.\n"
 "            \n"
 "            very useful to stalk"
 msgstr ""
@@ -761,8 +806,7 @@ msgid "userinfo"
 msgstr ""
 
 #: exts/commands/information/userinfo/__init__.py:33
-#| msgid "Displays information about itself or the specified user"
-msgid "get information about you or a specified user"
+msgid "Get information about you or a specified user."
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:24
@@ -782,67 +826,54 @@ msgid "Online"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:27
-#| msgid "Name:"
 msgid "Name"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:28
-#| msgid "#tag:"
 msgid "#tag"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:34
-#| msgid "Seen:"
 msgid "Seen"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:35
-#| msgid "Mutual Servers:"
 msgid "Mutual Servers"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:36
-#| msgid "Discord-System:"
 msgid "Discord-System"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:41
-#| msgid "Joined:"
 msgid "Joined"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:42
-#| msgid "Mitglied:"
 msgid "Mitglied"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:43
-#| msgid "Top-Role:"
 msgid "Top-Role"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:44
-#| msgid "Color:"
 msgid "Color"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:45
-#| msgid "Perms:"
 msgid "Perms"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:46
-#| msgid "Activity:"
 msgid "Activity"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:47
-#| msgid "Status:"
 msgid "Status"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:48
-#| msgid "Device:"
 msgid "Device"
 msgstr ""
 
@@ -871,32 +902,10 @@ msgid "rank"
 msgstr ""
 
 #: exts/commands/leveling/rank/__init__.py:37
-#| msgid "See your current level status"
 msgid "get your current level status"
 msgstr ""
 
 #: exts/commands/moderation/clear/__init__.py:56
-#| msgid ""
-#| "Command to empty messages in text channels.\n"
-#| "\n"
-#| "            This command deletes a certain number of messages while "
-#| "various filters can be applied.\n"
-#| "            Pinned messages are ignored. You can also filter by one or "
-#| "more members.\n"
-#| "\n"
-#| "            - `users`: \n"
-#| "            \\u2003@mentions, IDs or names.\n"
-#| "            - `first_limit` and `second_limit`: \n"
-#| "            \\`u2003@one message, one delta or ISO datetime each.\n"
-#| "            - `regex`: \n"
-#| "            \\u2003A regex pattern that the message must contain to be "
-#| "deleted.\n"
-#| "            - `bots_only`: \n"
-#| "            \\`u2003Whether only bots should be deleted. Specify "
-#| "`bots_only` or `users`.\n"
-#| "            - `channels`: \n"
-#| "            \\u2003#textchannels or * for all text channels in which to "
-#| "delete."
 msgid ""
 "Command to empty messages in text channels.\n"
 "\n"
@@ -944,8 +953,7 @@ msgstr ""
 msgid "do"
 msgstr ""
 
-#: exts/commands/moderation/do/__init__.py:33
-#| msgid "do it multiple times"
+#: exts/commands/moderation/do/__init__.py:34
 msgid "run commands multiple times"
 msgstr ""
 
@@ -964,7 +972,6 @@ msgid "the time"
 msgstr ""
 
 #: exts/commands/moderation/mute/__init__.py:44
-#| msgid "Put a user in the timeout"
 msgid "put a user in the timeout"
 msgstr ""
 
@@ -992,92 +999,49 @@ msgstr ""
 msgid "the arguments"
 msgstr ""
 
-#: exts/commands/moderation/sudo/__init__.py:46
-#| msgid ""
-#| "With this command you can execute commands with the rights of another "
-#| "user\n"
-#| "            You can specify who executes this command in which text "
-#| "channel"
+#: exts/commands/moderation/sudo/__init__.py:47
 msgid ""
 "execute commands with the rights of another user\n"
 "\n"
 "            You can specify who executes this command in which text channel"
 msgstr ""
 
-#: exts/commands/moderation/sync/__init__.py:26
-msgid "sync"
+#: exts/commands/other/aboveme/__init__.py:26
+msgid "aboveme"
 msgstr ""
 
-#: exts/commands/moderation/sync/__init__.py:38
-#| msgid ""
-#| "Synchronize the bot with its commands\n"
-#| "\n"
-#| "            The synchronization is used to reload the changes.\n"
-#| "            Synchronize when ...\n"
-#| "            - ...commands have been added, removed or changed\n"
-#| "            - ...arguments are added, removed or changed\n"
-#| "            - ...permissions are added, removed or changed\n"
-#| "            - ...a global/server command becomes a server/global command"
-msgid ""
-"synchronize the bot with its commands\n"
-"\n"
-"            The synchronization is used to reload the changes.\n"
-"            Synchronize when ...\n"
-"            - ...commands have been added, removed or changed\n"
-"            - ...arguments are added, removed or changed\n"
-"            - ...permissions are added, removed or changed\n"
-"            - ...a global/server command becomes a server/global command"
+#: exts/commands/other/aboveme/__init__.py:33
+msgid "Manage the aboveme features of the bot"
 msgstr ""
 
-#: exts/commands/moderation/sync/do.py:44
+#: exts/commands/other/aboveme/__init__.py:38
+#: exts/commands/other/counting/__init__.py:39
+#: exts/commands/other/oneword/__init__.py:38
+#: exts/commands/other/tempvoice/__init__.py:38
+msgid "setup"
+msgstr ""
+
+#: exts/commands/other/aboveme/__init__.py:47
+msgid "Set up the Aboveme-Game with a wizard in seconds."
+msgstr ""
+
+#: exts/commands/other/aboveme/do.py:34
+msgid "aboveme category"
+msgstr ""
+
+#: exts/commands/other/aboveme/do.py:42
+msgid "︱aboveme"
+msgstr ""
+
+#: exts/commands/other/aboveme/do.py:43
+msgid "The one above me has certainly not played this excellent game yet..."
+msgstr ""
+
+#: exts/commands/other/aboveme/do.py:50
 #, python-brace-format
-msgid "{amount} Command*s {where} synchronized."
-msgstr ""
-
-#: exts/commands/moderation/sync/do.py:45
-msgid "globally"
-msgstr ""
-
-#: exts/commands/moderation/sync/do.py:45
-msgid "to the current guild"
-msgstr ""
-
-#: exts/commands/music/favs/__init__.py:22
-msgid "favs"
-msgstr ""
-
-#: exts/commands/music/find/__init__.py:31
-msgid "find"
-msgstr ""
-
-#: exts/commands/music/move/__init__.py:27
-msgid "move"
-msgstr ""
-
-#: exts/commands/music/move/__init__.py:31
-msgid "seconds"
-msgstr ""
-
-#: exts/commands/music/move/__init__.py:32
-msgid "the seconds"
-msgstr ""
-
-#: exts/commands/music/music.py:10
 msgid ""
-"Commands to control the player.\n"
-"        (or use the menu)"
-msgstr ""
-
-#: exts/commands/music/music.py:23
-msgid "Music"
-msgstr ""
-
-#: exts/commands/music/play/__init__.py:32
-msgid "play"
-msgstr ""
-
-#: exts/commands/music/resume/__init__.py:27
-msgid "resume"
+"{emoji} {prefix} **Setup completed**. {channel} can now be used to play "
+"aboveme on this Discord server!"
 msgstr ""
 
 #: exts/commands/other/bash/__init__.py:26
@@ -1086,6 +1050,50 @@ msgstr ""
 
 #: exts/commands/other/bash/__init__.py:36
 msgid "Run shell commands."
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:26
+msgid "counting"
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:33
+msgid "Manage the counting features of the bot"
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:43
+msgid "hardcore"
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:44
+msgid "numbersonly"
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:45
+msgid "goal"
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:46
+msgid "if hardcore"
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:47
+msgid "if numbersonly"
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:48
+msgid "the goal"
+msgstr ""
+
+#: exts/commands/other/counting/__init__.py:57
+msgid "Set up Counting with a wizard in seconds."
+msgstr ""
+
+#: exts/commands/other/counting/do.py:32
+msgid "counting category"
+msgstr ""
+
+#: exts/commands/other/counting/do.py:40
+msgid "︱counting"
 msgstr ""
 
 #: exts/commands/other/dispatch/__init__.py:28
@@ -1117,15 +1125,6 @@ msgid "language"
 msgstr ""
 
 #: exts/commands/other/language/__init__.py:41
-#| msgid ""
-#| "View all available languages' locale codes. \n"
-#| "\n"
-#| "            You can check if your language is available by comparing "
-#| "against [this list](https://saimana.com/list-of-country-locale-code/)\n"
-#| "            Some of these languages, like xtreme-owo or unplayable are no "
-#| "real languages but serve as a way to spice up the english text.\n"
-#| "            If something is not yet translated, the english original text "
-#| "is used."
 msgid ""
 "View all available languages' locale codes.\n"
 "\n"
@@ -1149,11 +1148,6 @@ msgstr ""
 
 #: exts/commands/other/language/__init__.py:62
 #, python-brace-format
-#| msgid ""
-#| "Changes the language the bot replies for you.\n"
-#| "\n"
-#| "            `<locale>` - The locale code of the language you want to use; "
-#| "full list can be found in `{prefix}language`"
 msgid ""
 "Changes the language the bot replies for the guild.\n"
 "\n"
@@ -1163,11 +1157,6 @@ msgstr ""
 
 #: exts/commands/other/language/__init__.py:81
 #, python-brace-format
-#| msgid ""
-#| "Changes the language the bot replies for you.\n"
-#| "\n"
-#| "            `<locale>` - The locale code of the language you want to use; "
-#| "full list can be found in `{prefix}language`"
 msgid ""
 "Changes the language the bot replies for you.\n"
 "            \n"
@@ -1205,8 +1194,38 @@ msgid "the extension"
 msgstr ""
 
 #: exts/commands/other/load/__init__.py:41
-#| msgid "Load an extension"
 msgid "Load an extension of the bot"
+msgstr ""
+
+#: exts/commands/other/oneword/__init__.py:26
+msgid "oneword"
+msgstr ""
+
+#: exts/commands/other/oneword/__init__.py:33
+msgid "Manage the oneword features of the bot"
+msgstr ""
+
+#: exts/commands/other/oneword/__init__.py:47
+msgid "Set up the Oneword-Game with a wizard in seconds."
+msgstr ""
+
+#: exts/commands/other/oneword/do.py:32
+msgid "oneword category"
+msgstr ""
+
+#: exts/commands/other/oneword/do.py:40
+msgid "︱oneword"
+msgstr ""
+
+#: exts/commands/other/oneword/do.py:41
+msgid "I"
+msgstr ""
+
+#: exts/commands/other/oneword/do.py:48
+#, python-brace-format
+msgid ""
+"{emoji} {prefix} **Setup completed**. {channel} can now be used to play "
+"oneword on this Discord server!"
 msgstr ""
 
 #: exts/commands/other/other.py:11
@@ -1231,7 +1250,6 @@ msgid "reload"
 msgstr ""
 
 #: exts/commands/other/reload/__init__.py:40
-#| msgid "Reload extensions"
 msgid "Reload extensions of the bot"
 msgstr ""
 
@@ -1244,14 +1262,6 @@ msgid "the code"
 msgstr ""
 
 #: exts/commands/other/repl/__init__.py:36
-#| msgid ""
-#| "Load an extension new function that allows you to run your own python "
-#| "codes.\n"
-#| "\n"
-#| "            You can simply specify this code as an argument and also in "
-#| "quotes (`).\n"
-#| "            Optionally you can use common attributes like ctx, bot, "
-#| "player etc. in the code."
 msgid ""
 "Run your own xyz codes.\n"
 "            \n"
@@ -1259,185 +1269,6 @@ msgid ""
 "quotes (`).\n"
 "            Optionally you can use common attributes like ctx, bot, player "
 "etc. in the code."
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:26
-msgid "setup"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:33
-msgid "Setup the bot with its features"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:38
-msgid "tempvoice"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:42
-msgid "prefix"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:43
-msgid "suffix"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:44
-#: exts/functions/Voice/voice_state_update/system.py:176
-msgid "locked"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:45
-msgid "user_limit"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:46
-msgid "the prefix"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:47
-msgid "the suffix"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:48
-msgid "if locked"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:49
-msgid "the user_limit"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:58
-msgid "Set up TempVoice with a wizard in seconds."
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:67
-#| msgid "Inviting"
-msgid "counting"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:71
-msgid "hardcore"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:72
-msgid "numbersonly"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:73
-msgid "goal"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:74
-msgid "if hardcore"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:75
-msgid "if numbersonly"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:76
-#| msgid "the locale"
-msgid "the goal"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:85
-msgid "Set up Counting with a wizard in seconds."
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:94
-msgid "aboveme"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:103
-msgid "Set up the Aboveme-Game with a wizard in seconds."
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:109
-msgid "oneword"
-msgstr ""
-
-#: exts/commands/other/setup/__init__.py:118
-msgid "Set up the Oneword-Game with a wizard in seconds."
-msgstr ""
-
-#: exts/commands/other/setup/do.py:34
-msgid "tempvoice category"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:42
-#| msgid "➕ Creator Channel"
-msgid "︱Creator Channel"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:44
-#| msgid "🟣┃interface"
-msgid "︱interface"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:63
-msgid "TempVoice Interface"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:66
-#, python-brace-format
-#| msgid "{emoji} This interface can be used to edit your temporary channel."
-msgid ""
-"{emoji} This interface can be used to edit your temporary channel.\n"
-"            More options are available with {command} commands."
-msgstr ""
-
-#: exts/commands/other/setup/do.py:71
-msgid "The interface can be used with the buttons below."
-msgstr ""
-
-#: exts/commands/other/setup/do.py:96
-#| msgid "the category"
-msgid "counting category"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:104
-msgid "︱counting"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:128
-#| msgid "the category"
-msgid "aboveme category"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:136
-msgid "︱aboveme"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:137
-msgid "The one above me has certainly not played this excellent game yet..."
-msgstr ""
-
-#: exts/commands/other/setup/do.py:144
-#, python-brace-format
-msgid ""
-"{emoji} {prefix} **Setup completed**. {channel} can now be used to play "
-"aboveme on this Discord server!"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:156
-#| msgid "the category"
-msgid "oneword category"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:164
-msgid "︱oneword"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:165
-#| msgid "ID"
-msgid "I"
-msgstr ""
-
-#: exts/commands/other/setup/do.py:172
-#, python-brace-format
-msgid ""
-"{emoji} {prefix} **Setup completed**. {channel} can now be used to play "
-"oneword on this Discord server!"
 msgstr ""
 
 #: exts/commands/other/shutdown/__init__.py:26
@@ -1450,6 +1281,118 @@ msgstr ""
 
 #: exts/commands/other/shutdown/do.py:13
 msgid "Bot is shutting down"
+msgstr ""
+
+#: exts/commands/other/sync/__init__.py:27
+msgid "sync"
+msgstr ""
+
+#: exts/commands/other/sync/__init__.py:32
+msgid "the guilds"
+msgstr ""
+
+#: exts/commands/other/sync/__init__.py:33
+msgid "the spec"
+msgstr ""
+
+#: exts/commands/other/sync/__init__.py:34
+msgid "if dump"
+msgstr ""
+
+#: exts/commands/other/sync/__init__.py:43
+msgid ""
+"synchronize the bot with its commands\n"
+"\n"
+"            The synchronization is used to reload the changes.\n"
+"            Synchronize when ...\n"
+"            - ...commands have been added, removed or changed\n"
+"            - ...arguments are added, removed or changed\n"
+"            - ...permissions are added, removed or changed\n"
+"            - ...a global/server command becomes a server/global command"
+msgstr ""
+
+#: exts/commands/other/sync/do.py:46
+msgid "globally"
+msgstr ""
+
+#: exts/commands/other/sync/do.py:46
+msgid "to the current guild"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:26
+msgid "tempvoice"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:33
+msgid "Setup the tempvoice features of the bot"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:42
+msgid "prefix"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:43
+msgid "suffix"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:44
+#: exts/functions/Voice/voice_state_update/system.py:157
+msgid "locked"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:45
+msgid "user_limit"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:46
+msgid "the prefix"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:47
+msgid "the suffix"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:48
+msgid "if locked"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:49
+msgid "the user_limit"
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:58
+msgid "Set up TempVoice with a wizard in seconds."
+msgstr ""
+
+#: exts/commands/other/tempvoice/do.py:32
+msgid "tempvoice category"
+msgstr ""
+
+#: exts/commands/other/tempvoice/do.py:40
+msgid "︱Creator Channel"
+msgstr ""
+
+#: exts/commands/other/tempvoice/do.py:48
+msgid "︱interface"
+msgstr ""
+
+#: exts/commands/other/tempvoice/do.py:67
+msgid "TempVoice Interface"
+msgstr ""
+
+#: exts/commands/other/tempvoice/do.py:70
+#, python-brace-format
+msgid ""
+"{emoji} This interface can be used to edit your temporary channel.\n"
+"            More options are available with {command} commands."
+msgstr ""
+
+#: exts/commands/other/tempvoice/do.py:75
+msgid "The interface can be used with the buttons below."
+msgstr ""
+
+#: exts/commands/other/tempvoice/do.py:92
+msgid "Support"
 msgstr ""
 
 #: exts/commands/other/test/__init__.py:26
@@ -1465,7 +1408,6 @@ msgid "unload"
 msgstr ""
 
 #: exts/commands/other/unload/__init__.py:41
-#| msgid "Unload extensions"
 msgid "Unload extensions of the bot"
 msgstr ""
 
@@ -1502,18 +1444,6 @@ msgid "Welcome to {guild_name}"
 msgstr ""
 
 #: exts/functions/Members/member/join/do.py:26
-#| msgid ""
-#| "Please send the captcha code here.\n"
-#| "\n"
-#| "            Hello! You are required to complete a captcha before entering "
-#| "the server.\n"
-#| "            __**NOTE:**__ This is **not** Case Sensitive.\n"
-#| "\n"
-#| "            **Why?**\n"
-#| "            This is to protect the server against\n"
-#| "            targeted attacks using automated user accounts.\n"
-#| "\n"
-#| "            **Your Captcha:**"
 msgid ""
 "Please send the captcha code here.\n"
 "\n"
@@ -1537,16 +1467,11 @@ msgstr ""
 
 #: exts/functions/Messages/message/systems.py:64
 #, python-brace-format
-#| msgid "{user} you are not allowed to count multiple numbers in a row."
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr ""
 
 #: exts/functions/Messages/message/systems.py:71
 #, python-brace-format
-#| msgid ""
-#| "{user} ruined it at **{count}** {facepalm} **You can't count multiple "
-#| "numbers in a row**.\n"
-#| "                       The __next__ number {verb} ` {last} `. {streak}"
 msgid ""
 "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
@@ -1555,7 +1480,6 @@ msgstr ""
 #: exts/functions/Messages/message/systems.py:82
 #: exts/functions/Messages/message/systems.py:85
 #: exts/functions/Messages/message/systems.py:187
-#| msgid "the event name"
 msgid "the one above me"
 msgstr ""
 
@@ -1571,16 +1495,11 @@ msgstr ""
 
 #: exts/functions/Messages/message/systems.py:163
 #, python-brace-format
-#| msgid "{user} you are not allowed to count multiple numbers in a row."
 msgid "{user} you can't change the course of history several times in a row."
 msgstr ""
 
 #: exts/functions/Messages/message/systems.py:170
 #, python-brace-format
-#| msgid ""
-#| "{user} ruined it at **{count}** {facepalm} **You can't count multiple "
-#| "numbers in a row**.\n"
-#| "                       The __next__ number {verb} ` {last} `. {streak}"
 msgid ""
 "{user} ruined it {facepalm} **You can't change the course of history several "
 "times in a row**.\n"
@@ -1604,10 +1523,6 @@ msgstr ""
 
 #: exts/functions/Messages/message/systems.py:311
 #, python-brace-format
-#| msgid ""
-#| "{user} ruined it at **{count}** {facepalm}. **You apparently can't count "
-#| "properly**.\n"
-#| "                The __next__ number {verb} ` {last} `. {streak}"
 msgid ""
 "{user} ruined it at **{count}** {facepalm}. **You apparently can't count "
 "properly**. The __next__ number {verb} ` {last} `. {streak}"
@@ -1637,151 +1552,215 @@ msgstr ""
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/do.py:69
+#: exts/functions/Voice/voice_state_update/do.py:70
 #, python-brace-format
 msgid "{emoji} {prefix} **Wait before you open another temp channel directly**"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/do.py:128
+#: exts/functions/Voice/voice_state_update/do.py:129
 #, python-brace-format
 msgid "{emoji} {prefix} **You've already registered a voice channel**"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:52
-#: exts/functions/Voice/voice_state_update/system.py:59
-#: exts/functions/Voice/voice_state_update/system.py:93
-#: exts/functions/Voice/voice_state_update/system.py:138
+#: exts/functions/Voice/voice_state_update/system.py:49
+#: exts/functions/Voice/voice_state_update/system.py:57
 #, python-brace-format
-#| msgid "{emoji} {prefix} **You've already registered a voice channel**"
 msgid "{emoji} **Invalid**! You are not in a valid temporary voice channel."
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:78
+#: exts/functions/Voice/voice_state_update/system.py:77
 msgid "CHOOSE A NAME FOR YOUR VOICE CHANNEL"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:78
+#: exts/functions/Voice/voice_state_update/system.py:77
 msgid "Leave blank to reset the name"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:111
+#: exts/functions/Voice/voice_state_update/system.py:100
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s name is now `{name}`!"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:122
+#: exts/functions/Voice/voice_state_update/system.py:111
 msgid "CHOOSE A LIMIT FOR YOUR VOICE CHANNEL"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:122
+#: exts/functions/Voice/voice_state_update/system.py:112
 msgid "Leave blank to reset the limit"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:146
+#: exts/functions/Voice/voice_state_update/system.py:130
 #, python-brace-format
 msgid "{emoji} **Invalid!** ` {value} ` is not a valid Value!!"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:157
+#: exts/functions/Voice/voice_state_update/system.py:138
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s limit is now ` {limit} `!"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:158
-#| msgid "limit"
+#: exts/functions/Voice/voice_state_update/system.py:139
 msgid "unlimited"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:167
+#: exts/functions/Voice/voice_state_update/system.py:148
 msgid "Select a Privacy Option"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:176
-#| msgid "locked"
+#: exts/functions/Voice/voice_state_update/system.py:157
 msgid "unlocked"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:176
-#| msgid "invite"
+#: exts/functions/Voice/voice_state_update/system.py:157
 msgid "invisible"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:176
+#: exts/functions/Voice/voice_state_update/system.py:157
 msgid "visible"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:192
+#: exts/functions/Voice/voice_state_update/system.py:173
 #, python-brace-format
 msgid "{emoji} **Updated!** {channel} is now ` {mode} `!"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:208
+#: exts/functions/Voice/voice_state_update/system.py:189
 msgid "Invisible"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:208
+#: exts/functions/Voice/voice_state_update/system.py:189
 msgid "Everyone will be able to view your voice channel"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:209
+#: exts/functions/Voice/voice_state_update/system.py:190
 msgid "Visible"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:209
+#: exts/functions/Voice/voice_state_update/system.py:190
 msgid "Only trusted users will be able to view your voice channel"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:210
+#: exts/functions/Voice/voice_state_update/system.py:191
 msgid "Lock"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:210
+#: exts/functions/Voice/voice_state_update/system.py:191
 msgid "Only trusted users will be able to join your voice channel"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:211
-#| msgid "locked"
+#: exts/functions/Voice/voice_state_update/system.py:192
 msgid "Unlock"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:211
+#: exts/functions/Voice/voice_state_update/system.py:192
 msgid "Everyone will be able to join your voice channel"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:218
-#: exts/functions/Voice/voice_state_update/system.py:312
+#: exts/functions/Voice/voice_state_update/system.py:199
+#: exts/functions/Voice/voice_state_update/system.py:255
+#: exts/functions/Voice/voice_state_update/system.py:305
+#: exts/functions/Voice/voice_state_update/system.py:357
+#: exts/functions/Voice/voice_state_update/system.py:406
+#: exts/functions/Voice/voice_state_update/system.py:498
+#: exts/functions/Voice/voice_state_update/system.py:549
 #, python-brace-format
 msgid "{emoji} Use this menu to select an option:"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:235
+#: exts/functions/Voice/voice_state_update/system.py:218
 msgid "Selected user will own your tempvoice channel!"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:243
-#, python-brace-format
-#| msgid "{emoji} This interface can be used to edit your temporary channel."
-msgid ""
-"{emoji} **Invalid**! The selected user is not in your temporary voice "
-"channel."
-msgstr ""
-
-#: exts/functions/Voice/voice_state_update/system.py:262
+#: exts/functions/Voice/voice_state_update/system.py:230
 #, python-brace-format
 msgid ""
-"{emoji} **Updated!** The selected user is now ` owner ` of your temporary "
-"{channel} channel!"
+"{emoji} **Invalid**! The selected member is not a valid user in your "
+"temporary voice channel."
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:285
+#: exts/functions/Voice/voice_state_update/system.py:250
+#, python-brace-format
+msgid ""
+"{emoji} **Updated!** The {user} is now ` owner ` of your temporary {channel} "
+"channel!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:274
 msgid "Selected users will be trusted to join!"
 msgstr ""
 
-#: exts/functions/Voice/voice_state_update/system.py:307
+#: exts/functions/Voice/voice_state_update/system.py:300
 #, python-brace-format
-#| msgid "{emoji} This interface can be used to edit your temporary channel."
 msgid ""
-"{emoji} **Updated!** The selected users are now ` trusted ` in your "
+"{emoji} **Updated!** The selected users are now ` trusted ` of your "
+"temporary {channel} channel!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:323
+msgid "Selected users will be kicked and blocked!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:352
+#, python-brace-format
+msgid ""
+"{emoji} **Updated!** The selected users are now ` blocked ` of your "
+"temporary {channel} channel!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:376
+msgid "Selected user will be kicked from your tempvoice channel!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:393
+#, python-brace-format
+msgid ""
+"{emoji} **Invalid**! None of the selected users are valid members of your "
+"temporary voice channel."
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:401
+#, python-brace-format
+msgid ""
+"{emoji} **Updated!** The selected users got kicked from your temporary "
+"{channel} channel!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:414
+#, python-brace-format
+msgid "{emoji} this option is only for admins!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:427
+#, python-brace-format
+msgid "{emoji} Selected user is alredy owner of a temporary channel!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:447
+#, python-brace-format
+msgid ""
+"{emoji} **Updated!** You are now ` owner ` of the temporary {channel} "
+"channel!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:466
+msgid "Selected users will be untrusted from joining!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:493
+#, python-brace-format
+msgid ""
+"{emoji} **Updated!** The selected users are now ` untrusted ` of your "
+"temporary {channel} channel!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:517
+msgid "Selected users will be unblocked from joining!"
+msgstr ""
+
+#: exts/functions/Voice/voice_state_update/system.py:544
+#, python-brace-format
+msgid ""
+"{emoji} **Updated!** The selected users are now ` unblocked ` of your "
 "temporary {channel} channel!"
 msgstr ""
 
