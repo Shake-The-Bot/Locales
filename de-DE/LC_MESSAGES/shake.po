@@ -728,7 +728,7 @@ msgstr "statistiken"
 
 #: exts/commands/information/rtfm/do.py:103
 msgid "Couldn't find anything."
-msgstr "Ich habe nichts gefunden."
+msgstr "Ich habe nichts finden können."
 
 #: exts/commands/information/rtfm/do.py:120
 msgid "Uses"
