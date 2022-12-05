@@ -1,5 +1,6 @@
 # Shake - Locales
-This project is a community one for everyone who wants to help translating the official Shake Discord-Bot. It includes all current gettext translations and the template of them.
+This project is a community one for everyone who wants to help translating the official Shake Discord-Bot. 
+This repository includes all current gettext translations and the template of them.
 
 *Remember that any language can have errors or be incorrect, if something bothers you then read this*
 
