@@ -19,13 +19,13 @@ msgstr ""
 "Weitere Hilfe erhalten Sie, wenn Sie dem offiziellen Server [hier](https://discord.gg/shake) beitreten"
 ```
 
-### What should I do with ...
+## What should I do with ...
 
-#### ...placeholders?
+### ...placeholders?
 Placeholders like `{member}` or `{value}` will be replaced with channel names, numbers and other information. You **should not** change them as they are still needed for the information and the bot can only read them this way
 
-#### ...newlines?
+### ...newlines?
 `\n` is the code for end-of-line and also **should not** be changed in locale files
 
-#### ...hyperlinks?
+### ...hyperlinks?
 `[Text](url-link)` is a clickable text for an url. Its important that the brackets [ ]( ) stay together. The text inside of [ ] brackets should be translated but **not the () one**.
