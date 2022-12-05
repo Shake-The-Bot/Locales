@@ -20,7 +20,7 @@ msgstr ""
 ```
 
 ### What should I do with placeholders?
-Placeholders like `{member}` or `{value}` will be replaced with channel names, numbers and other information. You **should not** change them as they are still needed for the information and the bot can only read them this way**
+Placeholders like `{member}` or `{value}` will be replaced with channel names, numbers and other information. You **should not** change them as they are still needed for the information and the bot can only read them this way
 
 ### What should I do with newlines?
 `\n` is the code for end-of-line and also **should not** be changed in locale files
