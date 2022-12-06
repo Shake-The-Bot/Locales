@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-05 16:33+0100\n"
-"PO-Revision-Date: 2022-12-05 16:33+0100\n"
+"POT-Creation-Date: 2022-12-06 12:18+0100\n"
+"PO-Revision-Date: 2022-12-06 12:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -45,8 +45,7 @@ msgstr ""
 msgid "An unknown error has occurred, sorry"
 msgstr ""
 
-#: classes/help/page.py:290
-#: classes/unreleased/testing/music/stop/__init__.py:29
+#: classes/help/page.py:290 classes/unreleased/music/stop/__init__.py:29
 msgid "stop"
 msgstr ""
 
@@ -184,42 +183,43 @@ msgid ""
 "I am a functional all-in-one bot that will simplify setting up your server "
 "for you!\n"
 "\n"
-"                    I have been running since {created_at}\n"
-"                    and I have functions like voting, level system, \n"
-"                    music, moderation & much more. You can get more\n"
-"                    information by using the dropdown menu below.\n"
+"                    I have been created {created_at} and I have functions "
+"like \n"
+"                    voting, level system, music, moderation & much more. \n"
+"                    You can get more information by using the dropdown menu "
+"below.\n"
 "                    dropdown menu."
 msgstr ""
 
-#: classes/help/pagesource.py:386
+#: classes/help/pagesource.py:385
 msgid "<argument>"
 msgstr ""
 
-#: classes/help/pagesource.py:386
+#: classes/help/pagesource.py:385
 msgid "Stands for the argument being __**necessary**__."
 msgstr ""
 
-#: classes/help/pagesource.py:387
+#: classes/help/pagesource.py:386
 msgid "[argument]"
 msgstr ""
 
-#: classes/help/pagesource.py:387
+#: classes/help/pagesource.py:386
 msgid "Stands for that the argument is __**optional**__."
 msgstr ""
 
-#: classes/help/pagesource.py:388
+#: classes/help/pagesource.py:387
 msgid "[A|B]"
 msgstr ""
 
-#: classes/help/pagesource.py:388
+#: classes/help/pagesource.py:387
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr ""
 
-#: classes/help/pagesource.py:389
+#: classes/help/pagesource.py:388
 msgid "[argument]..."
 msgstr ""
 
-#: classes/help/pagesource.py:390
+#: classes/help/pagesource.py:389
 msgid ""
 "Stands for the fact that you can use multiple arguments.\n"
 "\n"
@@ -228,85 +228,85 @@ msgid ""
 "                    __**You don't include the parentheses!**__"
 msgstr ""
 
-#: classes/help/pagesource.py:396
+#: classes/help/pagesource.py:395
 msgid "How do I use the bot?"
 msgstr ""
 
-#: classes/help/pagesource.py:396
+#: classes/help/pagesource.py:395
 msgid "Reading the bot structure is pretty easy."
 msgstr ""
 
-#: classes/unreleased/testing/music/favs/__init__.py:22
+#: classes/unreleased/music/favs/__init__.py:22
 msgid "favs"
 msgstr ""
 
-#: classes/unreleased/testing/music/find/__init__.py:31
+#: classes/unreleased/music/find/__init__.py:31
 msgid "find"
 msgstr ""
 
-#: classes/unreleased/testing/music/find/__init__.py:35
-#: classes/unreleased/testing/music/play/__init__.py:36
+#: classes/unreleased/music/find/__init__.py:35
+#: classes/unreleased/music/play/__init__.py:36
 #: exts/commands/information/google/__init__.py:29
 msgid "query"
 msgstr ""
 
-#: classes/unreleased/testing/music/find/__init__.py:36
-#: classes/unreleased/testing/music/play/__init__.py:37
+#: classes/unreleased/music/find/__init__.py:36
+#: classes/unreleased/music/play/__init__.py:37
 #: exts/commands/information/google/__init__.py:30
 msgid "the query"
 msgstr ""
 
-#: classes/unreleased/testing/music/move/__init__.py:27
+#: classes/unreleased/music/move/__init__.py:27
 msgid "move"
 msgstr ""
 
-#: classes/unreleased/testing/music/move/__init__.py:31
+#: classes/unreleased/music/move/__init__.py:31
 msgid "seconds"
 msgstr ""
 
-#: classes/unreleased/testing/music/move/__init__.py:32
+#: classes/unreleased/music/move/__init__.py:32
 msgid "the seconds"
 msgstr ""
 
-#: classes/unreleased/testing/music/music.py:10
+#: classes/unreleased/music/music.py:10
 msgid ""
 "Commands to control the player.\n"
 "        (or use the menu)"
 msgstr ""
 
-#: classes/unreleased/testing/music/music.py:23
+#: classes/unreleased/music/music.py:23
 msgid "Music"
 msgstr ""
 
-#: classes/unreleased/testing/music/play/__init__.py:32
+#: classes/unreleased/music/play/__init__.py:32
 msgid "play"
 msgstr ""
 
-#: classes/unreleased/testing/music/resume/__init__.py:27
+#: classes/unreleased/music/resume/__init__.py:27
 msgid "resume"
 msgstr ""
 
-#: classes/utils/time.py:500
+#: classes/unreleased/utils/time.py:500
 msgid "Years"
 msgstr ""
 
-#: classes/utils/time.py:501
+#: classes/unreleased/utils/time.py:501
 msgid "Months"
 msgstr ""
 
-#: classes/utils/time.py:502
+#: classes/unreleased/utils/time.py:502
 msgid "Days"
 msgstr ""
 
-#: classes/utils/time.py:503
+#: classes/unreleased/utils/time.py:503
 msgid "Hours"
 msgstr ""
 
-#: classes/utils/time.py:504
+#: classes/unreleased/utils/time.py:504
 msgid "Minutes"
 msgstr ""
 
-#: classes/utils/time.py:505
+#: classes/unreleased/utils/time.py:505
 msgid "Seconds"
 msgstr ""
 
@@ -1465,40 +1465,40 @@ msgid ""
 "__**"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:64
+#: exts/functions/Messages/message/systems.py:63
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:71
+#: exts/functions/Messages/message/systems.py:70
 #, python-brace-format
 msgid ""
 "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:82
-#: exts/functions/Messages/message/systems.py:85
-#: exts/functions/Messages/message/systems.py:187
+#: exts/functions/Messages/message/systems.py:81
+#: exts/functions/Messages/message/systems.py:84
+#: exts/functions/Messages/message/systems.py:186
 msgid "the one above me"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:84
+#: exts/functions/Messages/message/systems.py:83
 #, python-brace-format
 msgid "{emoji} Your message should start with **{trigger}**"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:94
+#: exts/functions/Messages/message/systems.py:93
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:163
+#: exts/functions/Messages/message/systems.py:162
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:170
+#: exts/functions/Messages/message/systems.py:169
 #, python-brace-format
 msgid ""
 "{user} ruined it {facepalm} **You can't change the course of history several "
@@ -1506,48 +1506,48 @@ msgid ""
 "                    Someone should still go on."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:186
+#: exts/functions/Messages/message/systems.py:185
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:275
+#: exts/functions/Messages/message/systems.py:274
 #, python-brace-format
 msgid "{user} you are not allowed to count multiple numbers in a row."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:299
+#: exts/functions/Messages/message/systems.py:298
 #, python-brace-format
 msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:311
+#: exts/functions/Messages/message/systems.py:310
 #, python-brace-format
 msgid ""
 "{user} ruined it at **{count}** {facepalm}. **You apparently can't count "
 "properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:313
+#: exts/functions/Messages/message/systems.py:312
 msgid "**You've topped your best streak with {} 🔥**"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:314
+#: exts/functions/Messages/message/systems.py:313
 msgid "is"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:314
+#: exts/functions/Messages/message/systems.py:313
 msgid "remains"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:316
+#: exts/functions/Messages/message/systems.py:315
 #, python-brace-format
 msgid ""
 "Incorrect number! The __next__ number is ` {last} `. **No stats have been "
 "changed since the current number was {count}.**"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:332
+#: exts/functions/Messages/message/systems.py:331
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr ""
