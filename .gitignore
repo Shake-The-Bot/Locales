@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+.vscode
+
+
 # Translations
 *.mo
 *.pot
