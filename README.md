@@ -1,11 +1,11 @@
 # Shake - Locales
-This project is a community one for everyone who wants to help translating the official Shake Discord-Bot. 
-This repository includes all current gettext translations and the template of them.
+This project is a community one for everyone who wants to help translating the official Shake Discord-Bot
+This repository includes all current gettext translations and the template of them
 
 *Remember that any language can have errors or be incorrect, if something bothers you then read this*
 
 ## How to add a new language to Shake?
-Download the shake.po template file, create a new file from the template file with a optional Translation Editor (like Poedit) set the translated text and send it back to @KidusTV on the official Shake Discord server. 
+Download the shake.po template file, create a new file from the template file with a optional Translation Editor (like Poedit) set the translated text and send it back to @KidusTV on the official Shake Discord server
 
 [![Button](https://readme-components.vercel.app/api?component=button&text=Join%20Developer%20Server&fill=6175f5&textfill=ffffff&size=small)](https://discord.gg/hMBPhYsXkc)
 
@@ -29,4 +29,4 @@ Placeholders like `{member}` or `{value}` will be replaced with channel names, n
 `\n` is the code for end-of-line and also **should not** be changed in locale files
 
 ### ...hyperlinks?
-`[Text](url-link)` is a clickable text for an url. Its important that the brackets [ ]( ) stay together. The text inside of [ ] brackets should be translated but **not the () one**.
+`[Text](url-link)` is a clickable text for an url. Its important that the brackets [ ]( ) stay together. The text inside of [ ] brackets should be translated but **not the () one**
