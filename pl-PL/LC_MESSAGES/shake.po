@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-10 10:31+0100\n"
-"PO-Revision-Date: 2022-12-10 10:36+0100\n"
+"PO-Revision-Date: 2022-12-10 11:34+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -682,10 +682,8 @@ msgid ""
 msgstr ""
 
 #: exts/commands/information/stats/do.py:45
-#, fuzzy
-#| msgid "Start?"
 msgid "started"
-msgstr "Start?"
+msgstr "rozpoczął"
 
 #: exts/commands/information/stats/do.py:48
 msgid "host"
@@ -772,10 +770,8 @@ msgid "Seen"
 msgstr ""
 
 #: exts/commands/information/userinfo/do.py:36
-#, fuzzy
-#| msgid "Support Server"
 msgid "Mutual Servers"
-msgstr "Support Serwer"
+msgstr "Serwery wzajemne"
 
 #: exts/commands/information/userinfo/do.py:37
 msgid "Discord-System"
@@ -954,10 +950,8 @@ msgid "Run shell commands."
 msgstr ""
 
 #: exts/commands/other/counting/__init__.py:32
-#, fuzzy
-#| msgid "Be the owner of the shake bot"
 msgid "Manage the counting features of the bot"
-msgstr "Bądź właścicielem Shake Bota"
+msgstr "Zarządzaj counting funkcjami bota"
 
 #: exts/commands/other/counting/__init__.py:53
 msgid "Set up Counting with a wizard in seconds."
@@ -1034,10 +1028,9 @@ msgstr ""
 "Proszę użyć `{prefix}language set language_code`, aby wybrać jedną z nich."
 
 #: exts/commands/other/language/do.py:35 exts/commands/other/language/do.py:54
-#, fuzzy, python-brace-format
-#| msgid "**{emoji} {prefix} `{user}` is part of it**"
+#, python-brace-format
 msgid "{emoji} {prefix} **Your given locale is not valid**"
-msgstr "**{emoji} {prefix} `{user}` jest jego częścią**"
+msgstr "{emoji} {prefix} **Twój podany język nie jest ważny**"
 
 #: exts/commands/other/language/do.py:41 exts/commands/other/language/do.py:60
 #, python-brace-format
@@ -1051,10 +1044,8 @@ msgid "Load an extension of the bot"
 msgstr ""
 
 #: exts/commands/other/oneword/__init__.py:31
-#, fuzzy
-#| msgid "Be the owner of the shake bot"
 msgid "Manage the oneword features of the bot"
-msgstr "Bądź właścicielem Shake Bota"
+msgstr "Zarządzaj oneword funkcjami bota"
 
 #: exts/commands/other/oneword/__init__.py:45
 msgid "Set up the Oneword-Game with a wizard in seconds."
@@ -1166,10 +1157,8 @@ msgid "The interface can be used with the buttons below."
 msgstr ""
 
 #: exts/commands/other/tempvoice/do.py:92
-#, fuzzy
-#| msgid "Support Server"
 msgid "Support"
-msgstr "Support Serwer"
+msgstr "Wsparcie"
 
 #: exts/commands/other/test/__init__.py:36
 msgid "Test temporary commands"
@@ -1239,17 +1228,9 @@ msgid ""
 msgstr ""
 
 #: exts/functions/Messages/message/systems.py:62
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "\n"
-#| "                    {user} you are not allowed to count multiple numbers "
-#| "in a row.\n"
-#| "                "
+#, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
-msgstr ""
-"\n"
-"                    {user} nie wolno liczyć wielu liczb w rzędzie.\n"
-"                "
+msgstr "{user} nie możesz pokazać wielu numerów z rzędu."
 
 #: exts/functions/Messages/message/systems.py:69
 #, python-brace-format
@@ -1293,17 +1274,9 @@ msgid "{emoji} your message should contain **only one** word"
 msgstr ""
 
 #: exts/functions/Messages/message/systems.py:273
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "\n"
-#| "                    {user} you are not allowed to count multiple numbers "
-#| "in a row.\n"
-#| "                "
+#, python-brace-format
 msgid "{user} you are not allowed to count multiple numbers in a row."
-msgstr ""
-"\n"
-"                    {user} nie wolno liczyć wielu liczb w rzędzie.\n"
-"                "
+msgstr "{user} nie wolno ci liczyć wielu liczb w rzędzie."
 
 #: exts/functions/Messages/message/systems.py:297
 #, python-brace-format
@@ -1311,22 +1284,13 @@ msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr ""
 
 #: exts/functions/Messages/message/systems.py:309
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "\n"
-#| "                        {user} ruined it at **{count}** {facepalm} **You "
-#| "can't count multiple numbers in a row**.\n"
-#| "                        The __next__ number {verb} ` {last} `. {streak}\n"
-#| "                    "
+#, python-brace-format
 msgid ""
 "{user} ruined it at **{count}** {facepalm}. **You apparently can't count "
 "properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr ""
-"\n"
-"                        {user} zrujnował ją na **{count}** {facepalm} **Nie "
-"można liczyć wielu liczb w rzędzie**.\n"
-"                        Następna liczba {verb} ` {last} `. {streak}\n"
-"                    "
+"{user} to na **{count}** {facepalm}. **Najwyraźniej nie potrafisz poprawnie "
+"liczyć**. Następny numer {verb} ` {last} `. {streak}"
 
 #: exts/functions/Messages/message/systems.py:311
 msgid "**You've topped your best streak with {} 🔥**"
@@ -1341,21 +1305,13 @@ msgid "remains"
 msgstr "pozostaje"
 
 #: exts/functions/Messages/message/systems.py:314
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "\n"
-#| "                Incorrect number! The __next__ number is ` {last} `. **No "
-#| "stats have been changed since the current number was {count}.**\n"
-#| "            "
+#, python-brace-format
 msgid ""
 "Incorrect number! The __next__ number is ` {last} `. **No stats have been "
 "changed since the current number was {count}.**"
 msgstr ""
-"\n"
-"                Nieprawidłowy numer! __następna__ liczba to ` {last} `. "
-"**Żadne statystyki nie zostały zmienione, ponieważ obecna liczba to {count}."
-"**\n"
-"            "
+"Nieprawidłowy numer! Następnym numerem jest `{last}`. **Żadne statystyki nie "
+"zostały zmienione od czasu, gdy aktualnym numerem był {count}.**"
 
 #: exts/functions/Messages/message/systems.py:330
 #, python-brace-format
