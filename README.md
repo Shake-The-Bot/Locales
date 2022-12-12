@@ -9,7 +9,7 @@ Download the shake.po template file, create a new file from the template file wi
 
 [![Button](https://readme-components.vercel.app/api?component=button&text=Join%20Developer%20Server&fill=6175f5&textfill=ffffff&size=small)](https://discord.gg/hMBPhYsXkc)
 
-[![Crowdin](https://badges.crowdin.net/shake-bot/localized.svg)](https://crowdin.com/project/shake-bot)
+Crowdin Progress: [![Crowdin](https://badges.crowdin.net/shake-bot/localized.svg)](https://crowdin.com/project/shake-bot)
 
 
 German example: 
