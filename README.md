@@ -3,6 +3,7 @@ This project is a community one for everyone who wants to help translating the o
 This repository includes all current gettext translations and the template of them
 
 [![Crowdin](https://badges.crowdin.net/shake-bot/localized.svg)](https://crowdin.com/project/shake-bot)
+
 *Remember that any language can have errors or be incorrect, if something bothers you then read this*
 
 ## How to add a new language to Shake?
