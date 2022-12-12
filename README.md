@@ -2,16 +2,13 @@
 This project is a community one for everyone who wants to help translating the official Shake Discord-Bot
 This repository includes all current gettext translations and the template of them
 
+[![Crowdin](https://badges.crowdin.net/shake-bot/localized.svg)](https://crowdin.com/project/shake-bot)
 *Remember that any language can have errors or be incorrect, if something bothers you then read this*
 
 ## How to add a new language to Shake?
 Download the shake.po template file, create a new file from the template file with a optional Translation Editor (like Poedit) set the translated text and send it back to @KidusTV on the official Shake Discord server
 
 [![Button](https://readme-components.vercel.app/api?component=button&text=Join%20Developer%20Server&fill=6175f5&textfill=ffffff&size=small)](https://discord.gg/hMBPhYsXkc)
-
-Crowdin Progress: 
-
-[![Crowdin](https://badges.crowdin.net/shake-bot/localized.svg)](https://crowdin.com/project/shake-bot)
 
 
 German example: 
