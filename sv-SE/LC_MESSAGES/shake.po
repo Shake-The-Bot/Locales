@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-13 12:52\n"
+"PO-Revision-Date: 2022-12-13 12:54\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -1097,79 +1097,79 @@ msgstr "{emoji} **Ogiltigt**! Du är inte i en giltig tillfällig röstkanal."
 
 #: exts/functions/Voice/voice_state_update/system.py:74
 msgid "CHOOSE A NAME FOR YOUR VOICE CHANNEL"
-msgstr ""
+msgstr "VÄLJ ETT NAMN FÖR DIN VOICE CHANNEL"
 
 #: exts/functions/Voice/voice_state_update/system.py:74
 msgid "Leave blank to reset the name"
-msgstr ""
+msgstr "Lämna tomt för att återställa namnet"
 
 #: exts/functions/Voice/voice_state_update/system.py:97
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s name is now `{name}`!"
-msgstr ""
+msgstr "{emoji} **Uppdaterad!** Din kanals namn är nu `{name}`!"
 
 #: exts/functions/Voice/voice_state_update/system.py:108
 msgid "CHOOSE A LIMIT FOR YOUR VOICE CHANNEL"
-msgstr ""
+msgstr "VÄLJ EN BEGRÄNSNING FÖR DIN RÖST ÄNDRING"
 
 #: exts/functions/Voice/voice_state_update/system.py:109
 msgid "Leave blank to reset the limit"
-msgstr ""
+msgstr "Lämna tomt för att återställa gränsen"
 
 #: exts/functions/Voice/voice_state_update/system.py:127
 #, python-brace-format
 msgid "{emoji} **Invalid!** ` {value} ` is not a valid Value!!"
-msgstr ""
+msgstr "{emoji} **Ogiltig!** ` {value} ` är inte ett giltigt värde!!"
 
 #: exts/functions/Voice/voice_state_update/system.py:135
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s limit is now ` {limit} `!"
-msgstr ""
+msgstr "{emoji} **Uppdaterad!** Din kanals gräns är nu ` {limit}`!"
 
 #: exts/functions/Voice/voice_state_update/system.py:136
 msgid "unlimited"
-msgstr ""
+msgstr "obegränsad"
 
 #: exts/functions/Voice/voice_state_update/system.py:145
 msgid "Select a Privacy Option"
-msgstr ""
+msgstr "Välj ett sekretessalternativ"
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "unlocked"
-msgstr ""
+msgstr "upplåst"
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "locked"
-msgstr ""
+msgstr "låst"
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "invisible"
-msgstr ""
+msgstr "osynlig"
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "visible"
-msgstr ""
+msgstr "synlig"
 
 #: exts/functions/Voice/voice_state_update/system.py:170
 #, python-brace-format
 msgid "{emoji} **Updated!** {channel} is now ` {mode} `!"
-msgstr ""
+msgstr "{emoji} **Uppdaterad!** {channel} är nu ` {mode}`!"
 
 #: exts/functions/Voice/voice_state_update/system.py:186
 msgid "Invisible"
-msgstr ""
+msgstr "Osynlig"
 
 #: exts/functions/Voice/voice_state_update/system.py:186
 msgid "Everyone will be able to view your voice channel"
-msgstr ""
+msgstr "Alla kommer att kunna se din röstkanal"
 
 #: exts/functions/Voice/voice_state_update/system.py:187
 msgid "Visible"
-msgstr ""
+msgstr "Synlig"
 
 #: exts/functions/Voice/voice_state_update/system.py:187
 msgid "Only trusted users will be able to view your voice channel"
-msgstr ""
+msgstr "Endast betrodda användare kommer att kunna visa din röstkanal"
 
 #: exts/functions/Voice/voice_state_update/system.py:188
 msgid "Lock"
