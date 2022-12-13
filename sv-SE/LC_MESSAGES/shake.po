@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-13 12:54\n"
+"PO-Revision-Date: 2022-12-13 14:33\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -267,27 +267,28 @@ msgstr "Sluta skrämma @alla!\n"
 #, python-brace-format
 msgid "{members}, stop spamming @everyone!\n"
 "It's not that important..."
-msgstr ""
+msgstr "{members}, sluta spamma @alla!\n"
+"Det är inte så viktigt..."
 
 #: exts/commands/gimmicks/gimmicks.py:10
 msgid "Commands for fun and distraction"
-msgstr ""
+msgstr "Kommandon för skoj och distraktion"
 
 #: exts/commands/gimmicks/gimmicks.py:13
 msgid "gimmicks"
-msgstr ""
+msgstr "gimmicks"
 
 #: exts/commands/gimmicks/gimmicks.py:26
 msgid "🎮︱Gimmicks"
-msgstr ""
+msgstr "🎮—Gimmicks"
 
 #: exts/commands/gimmicks/gimmicks.py:30
 msgid "Gimmicks"
-msgstr ""
+msgstr "Gimmicks"
 
 #: exts/commands/gimmicks/gimmicks.py:33
 msgid "Gimmick Commands"
-msgstr ""
+msgstr "Gimmick kommandon"
 
 #: exts/commands/gimmicks/pp/__init__.py:35
 msgid "Reveal the length of a user's pp\n\n"
@@ -295,29 +296,33 @@ msgid "Reveal the length of a user's pp\n\n"
 "            how long the pp of a selected user is.\n"
 "            \n"
 "            __Please note__: If you don't specify a user, I might reveal your pp as well."
-msgstr ""
+msgstr "Avslöja längden på en användares pp\n\n"
+"            Med detta kommando kan du ta reda på, använda en mycket smart och definitivt inte slumpgenerator,\n"
+"            hur länge en vald användare är.\n"
+"            \n"
+"            __Observera__: Om du inte anger en användare, Jag kan avslöja din pp också."
 
 #: exts/commands/gimmicks/rainbow/__init__.py:34
 msgid "Show your support to LGBT+ with a rainbow filter! ^^"
-msgstr ""
+msgstr "Visa ditt stöd för HBT+ med ett regnbågsfilter! ^^"
 
 #: exts/commands/gimmicks/rainbow/do.py:42
 #, python-brace-format
 msgid "**{emoji} {prefix} `{user}` is part of it**"
-msgstr ""
+msgstr "**{emoji} {prefix} `{user}` är en del av det**"
 
 #: exts/commands/gimmicks/roll/__init__.py:33
 msgid "displays a random number in a specified range of values. (Default: 1-6)"
-msgstr ""
+msgstr "visar ett slumptal i ett angivet intervall av värden. (Standard: 1-6)"
 
 #: exts/commands/gimmicks/roll/do.py:18
 msgid "🎲 Dice roll"
-msgstr ""
+msgstr "🎲 Dice roll"
 
 #: exts/commands/gimmicks/roll/do.py:19
 #, python-brace-format
 msgid "You have rolled a random number and the result is __**{number}**__"
-msgstr ""
+msgstr "Du har rullat ett slumptal och resultatet är __**{number}**__"
 
 #: exts/commands/gimmicks/say/__init__.py:33
 msgid "I will say whatever you tell me to say.\n"
@@ -326,188 +331,209 @@ msgid "I will say whatever you tell me to say.\n"
 "            \\u2003True or False whether the bot should reply to you.\n"
 "            - `text`: \n"
 "            \\u2003The text to repeat."
-msgstr ""
+msgstr "Jag kommer att säga vad ni än säger till mig.\n"
+"            \n"
+"            - `reply`: \n"
+"            \\u2003Sant eller Falskt om boten ska svara dig.\n"
+"            - `text`: \n"
+"            \\u2003Texten att upprepa."
 
 #: exts/commands/information/charinfo/__init__.py:33
 msgid "Displays information about a set of characters.\n"
 "            \n"
 "            Only up to 25 characters at a time."
-msgstr ""
+msgstr "Visar information om en uppsättning tecken.\n"
+"            \n"
+"            Endast upp till 25 tecken åt gången."
 
 #: exts/commands/information/charinfo/do.py:19
 msgid "Charinfo Command"
-msgstr ""
+msgstr "Charinfo kommando"
 
 #: exts/commands/information/information.py:10
 msgid "Informative commands about a wide variety of things.\n"
 "        Sometimes you find out new things 🤷"
-msgstr ""
+msgstr "Informativa kommandon om en mängd olika saker.\n"
+"        Ibland får du reda på nya saker 🤷"
 
 #: exts/commands/information/information.py:15
 #: exts/commands/inviting/inviting.py:14
 msgid "information"
-msgstr ""
+msgstr "information"
 
 #: exts/commands/information/information.py:15
 #: exts/commands/inviting/inviting.py:14
 msgid "info"
-msgstr ""
+msgstr "information"
 
 #: exts/commands/information/information.py:26
 #: exts/commands/information/userinfo/do copy.py:51
 #: exts/commands/information/userinfo/do.py:65
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: exts/commands/information/invite/__init__.py:31
 msgid "Invite the bot to your server.\n\n"
 "            Of course, you can also simply add the bot via its user profile."
-msgstr ""
+msgstr "Bjud in boten till din server.\n\n"
+"            Självklart kan du också helt enkelt lägga till boten via sin användarprofil."
 
 #: exts/commands/information/invite/do copy.py:17
 #: exts/commands/information/invite/do.py:17
 msgid "The Shake Team and I thank you for your interest"
-msgstr ""
+msgstr "The Shake Team och jag tackar dig för ditt intresse"
 
 #: exts/commands/information/invite/do copy.py:25
 #: exts/commands/information/invite/do.py:26
 msgid "Add Shake to your Server"
-msgstr ""
+msgstr "Lägg till skaka på din server"
 
 #: exts/commands/information/premium/__init__.py:31
 msgid "Get information about Shake+.\n\n"
 "            Of course, you dont have to. It's like a tip"
-msgstr ""
+msgstr "Få information om Shake+.\n\n"
+"            Naturligtvis behöver du inte. Det är som ett tips"
 
 #: exts/commands/information/premium/do.py:16
 msgid "> Shake Premium (Shake+)"
-msgstr ""
+msgstr "> Skaka Premium (Shake+)"
 
 #: exts/commands/information/premium/do.py:17
 #, python-brace-format
 msgid "{emoji} This Discord server has no premium activated."
-msgstr ""
+msgstr "{emoji} Denna Discord-server har ingen premie aktiverad."
 
 #: exts/commands/information/premium/do.py:19
 #, python-brace-format
 msgid "{emoji} The benefit of supporting Shake as Patreon"
-msgstr ""
+msgstr "{emoji} Fördelen med att stödja skaka som Patreon"
 
 #: exts/commands/information/premium/do.py:21
 msgid "Supporting the Bot as Patreon will keep the motivation for the development of Shake and make sure that all hosting costs are covered.\n\n"
 "                Premium makes **voting no longer necessary** and gives you **more creator channel** to customize! \n"
 "                "
-msgstr ""
+msgstr "Stöd Bot som Patreon kommer att hålla motivationen för utvecklingen av Shake och se till att alla hosting kostnader täcks.\n\n"
+"                Premium gör att **röstning inte längre behövs** och ger dig **mer skaparkanal** för att anpassa! \n"
+"                "
 
 #: exts/commands/information/premium/do.py:26
 #, python-brace-format
 msgid "{emoji} Helpful links for understanding Patreon"
-msgstr ""
+msgstr "{emoji} Hjälpsamma länkar för att förstå Patreon"
 
 #: exts/commands/information/premium/do.py:28
 msgid "**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
 "                **[What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
 "                **[How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
 "                "
-msgstr ""
+msgstr "**[Vad är Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
+"                **[Vilka valutor stöder Patreon?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
+"                **[Hur ansluter jag Discord till Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
+"                "
 
 #: exts/commands/information/premium/do.py:33
 msgid "Freemium | Premium isn't required"
-msgstr ""
+msgstr "Freemium <unk> Premium krävs inte"
 
 #: exts/commands/information/premium/do.py:42
 msgid "Add Shake to your server"
-msgstr ""
+msgstr "Lägg till skaka på din server"
 
 #: exts/commands/information/rtfm/__init__.py:36
 msgid "View objects from certain documentation.\n\n"
 "            RTFM is internet slang for the phrase \"read the damn manual\"."
-msgstr ""
+msgstr "Visa objekt från viss dokumentation.\n\n"
+"            RTFM är internet slang för frasen \"läs den jävla manualen\"."
 
 #: exts/commands/information/rtfm/do.py:101
 msgid "Couldn't find anything."
-msgstr ""
+msgstr "Kunde inte hitta något."
 
 #: exts/commands/information/rtfm/do.py:118
 msgid "Uses"
-msgstr ""
+msgstr "Användning"
 
 #: exts/commands/information/rtfm/do.py:119
 msgid "Total"
-msgstr ""
+msgstr "Totalt"
 
 #: exts/commands/information/rtfm/do.py:135
 #, python-brace-format
 msgid "**Total uses**: {total_uses}"
-msgstr ""
+msgstr "**Total användning**: {total_uses}"
 
 #: exts/commands/information/rtfm/do.py:138
 #, python-brace-format
 msgid "**Top {top} member**:"
-msgstr ""
+msgstr "**Topp {top} medlem**:"
 
 #: exts/commands/information/serverinfo/__init__.py:37
 msgid "Get information about a specific server.\n\n"
 "            This command will show you some information about a server.\n\n"
 "            - `information`: \n"
 "            \\u2003[owner, member, creation, ...]."
-msgstr ""
+msgstr "Få information om en specifik server.\n\n"
+"            Detta kommando visar lite information om en server.\n\n"
+"            - `information`: \n"
+"            \\u2003[ägare, medlem, skapa, . .]."
 
 #: exts/commands/information/serverinfo/do.py:46
 #, python-brace-format
 msgid "Info for {guild_name}"
-msgstr ""
+msgstr "Information för {guild_name}"
 
 #: exts/commands/information/serverinfo/do.py:47
 #: exts/commands/information/userinfo/do copy.py:30
 #: exts/commands/information/userinfo/do.py:44
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: exts/commands/information/serverinfo/do.py:48
 msgid "Owner"
-msgstr ""
+msgstr "Ägare"
 
 #: exts/commands/information/serverinfo/do.py:56
 msgid "Partnered"
-msgstr ""
+msgstr "Partnerad"
 
 #: exts/commands/information/serverinfo/do.py:59
 msgid "Safe for work"
-msgstr ""
+msgstr "Säker för arbete"
 
 #: exts/commands/information/serverinfo/do.py:60
 msgid "Large"
-msgstr ""
+msgstr "Stor"
 
 #: exts/commands/information/serverinfo/do.py:70
 #, python-brace-format
 msgid "Total: {members}"
-msgstr ""
+msgstr "Totalt: {members}"
 
 #: exts/commands/information/serverinfo/do.py:74
 msgid "Members"
-msgstr ""
+msgstr "Medlemmar"
 
 #: exts/commands/information/serverinfo/do.py:75
 msgid "Roles"
-msgstr ""
+msgstr "Roller"
 
 #: exts/commands/information/serverinfo/do.py:76
 #: exts/commands/information/userinfo/do copy.py:34
 #: exts/commands/information/userinfo/do.py:48
 msgid "Created"
-msgstr ""
+msgstr "Skapad"
 
 #: exts/commands/information/stats/__init__.py:33
 msgid "Get some basic information and statistics about me.\n"
 "            \n"
 "            very useful to stalk"
-msgstr ""
+msgstr "Få lite grundläggande information och statistik om mig.\n"
+"            \n"
+"            mycket användbar för att stjälka"
 
 #: exts/commands/information/stats/do.py:26
 msgid "Shake Statistics"
-msgstr ""
+msgstr "Skaka statistik"
 
 #: exts/commands/information/stats/do.py:38
 msgid "general"
@@ -764,124 +790,133 @@ msgstr "—ovanpå"
 
 #: exts/commands/other/aboveme/do.py:42
 msgid "The one above me has certainly not played this excellent game yet..."
-msgstr ""
+msgstr "Den ovanför mig har verkligen inte spelat detta utmärkta spel ännu..."
 
 #: exts/commands/other/aboveme/do.py:49
 #, python-brace-format
 msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play aboveme on this Discord server!"
-msgstr ""
+msgstr "{emoji} {prefix} **Konfigurationen slutförd**. {channel} kan nu användas för att spela ovan på denna Discord-server!"
 
 #: exts/commands/other/bash/__init__.py:34
 msgid "Run shell commands."
-msgstr ""
+msgstr "Kör skalkommandon."
 
 #: exts/commands/other/counting/__init__.py:32
 msgid "Manage the counting features of the bot"
-msgstr ""
+msgstr "Hantera ovanstående funktioner i boten"
 
 #: exts/commands/other/counting/__init__.py:53
 msgid "Set up Counting with a wizard in seconds."
-msgstr ""
+msgstr "Ställ in Räkna med en guide på några sekunder."
 
 #: exts/commands/other/counting/do.py:32
 msgid "counting category"
-msgstr ""
+msgstr "räknar kategori"
 
 #: exts/commands/other/counting/do.py:39
 msgid "︱counting"
-msgstr ""
+msgstr "—Räkna"
 
 #: exts/commands/other/dispatch/__init__.py:38
 msgid "Send an event"
-msgstr ""
+msgstr "Skicka en händelse"
 
 #: exts/commands/other/language/__init__.py:40
 msgid "View all available languages' locale codes.\n\n"
 "            You can check if your language is available by comparing against [this list](https://saimana.com/list-of-country-locale-code/)\n"
 "            Some of these languages are no real languages but serve as a way to spice up the text.\n"
 "            (If something is not yet translated, the english original text is used.)"
-msgstr ""
+msgstr "Visa alla språkkoder som finns tillgängliga.\n\n"
+"            Du kan kontrollera om ditt språk är tillgängligt genom att jämföra med [den här listan] (https://saimana. om/list-of-country-locale-code/)\n"
+"            Några av dessa språk är inga riktiga språk men fungerar som ett sätt att krydda upp texten.\n"
+"            (Om något ännu inte är översatt, används den engelska originaltexten.)"
 
 #: exts/commands/other/language/__init__.py:60
 #, python-brace-format
 msgid "Changes the language the bot replies for the guild.\n\n"
 "            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`"
-msgstr ""
+msgstr "Ändrar språket som boten svarar för guilden.\n\n"
+"            `<locale>` - Lokalkoden för det språk du vill använda; full lista kan hittas i `{prefix}language`"
 
 #: exts/commands/other/language/__init__.py:78
 #, python-brace-format
 msgid "Changes the language the bot replies for you.\n"
 "            \n"
 "            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`"
-msgstr ""
+msgstr "Ändrar språket som boten svarar för guilden.\n\n"
+"            `<locale>` - Lokalkoden för det språk du vill använda; full lista kan hittas i `{prefix}language`"
 
 #: exts/commands/other/language/do.py:22
 #, python-brace-format
 msgid "{emoji} {prefix} **Your given locale is not valid. Use <!language> to get a list of all locales)**"
-msgstr ""
+msgstr "{emoji} {prefix} **Ditt angivna språk är inte giltigt. Använd <!language> för att få en lista över alla lokaler)**"
 
 #: exts/commands/other/language/do.py:28
 #, python-brace-format
 msgid "{emoji} {prefix} **I'm sorry to say that I dont have your given locale.**\n"
 "                Try to contribute [here]({link}) if you want to!"
-msgstr ""
+msgstr "{emoji} {prefix} **Jag är ledsen att säga att jag inte har din givna lokal.**\n"
+"                Försök att bidra [here]({link}) om du vill!"
 
 #: exts/commands/other/load/__init__.py:39
 msgid "Load an extension of the bot"
-msgstr ""
+msgstr "Ladda ett tillägg av boten"
 
 #: exts/commands/other/oneword/__init__.py:31
 msgid "Manage the oneword features of the bot"
-msgstr ""
+msgstr "Hantera ovanstående funktioner i boten"
 
 #: exts/commands/other/oneword/__init__.py:45
 msgid "Set up the Oneword-Game with a wizard in seconds."
-msgstr ""
+msgstr "Ställ in Ovaneme-spelet med en trollkarl på några sekunder."
 
 #: exts/commands/other/oneword/do.py:32
 msgid "oneword category"
-msgstr ""
+msgstr "kategori för ett ord"
 
 #: exts/commands/other/oneword/do.py:39
 msgid "︱oneword"
-msgstr ""
+msgstr "—ett ord"
 
 #: exts/commands/other/oneword/do.py:40
 msgid "I"
-msgstr ""
+msgstr "Jag"
 
 #: exts/commands/other/oneword/do.py:51
 #, python-brace-format
 msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play oneword on this Discord server!"
-msgstr ""
+msgstr "{emoji} {prefix} **Konfigurationen slutförd**. {channel} kan nu användas för att spela ovan på denna Discord-server!"
 
 #: exts/commands/other/other.py:11
 msgid "Other commands without categories"
-msgstr ""
+msgstr "Andra kommandon utan kategorier"
 
 #: exts/commands/other/other.py:23
 #, python-brace-format
 msgid "{emoji}︱Other"
-msgstr ""
+msgstr "{emoji}- Annan"
 
 #: exts/commands/other/other.py:29
 msgid "Other"
-msgstr ""
+msgstr "Annat"
 
 #: exts/commands/other/other.py:32
 msgid "Other Commands"
-msgstr ""
+msgstr "Andra kommandon"
 
 #: exts/commands/other/reload/__init__.py:38
 msgid "Reload extensions of the bot"
-msgstr ""
+msgstr "Ladda ett tillägg av boten"
 
 #: exts/commands/other/repl/__init__.py:34
 msgid "Run your own xyz codes.\n"
 "            \n"
 "            You can simply specify this code as an argument and also in quotes (`).\n"
 "            Optionally you can use common attributes like ctx, bot etc. in the code."
-msgstr ""
+msgstr "Kör dina egna xyz-koder.\n"
+"            \n"
+"            Du kan helt enkelt ange den här koden som ett argument och även i citattecken (`).\n"
+"            Alternativt kan du använda vanliga attribut som ctx, bot etc. i koden."
 
 #: exts/commands/other/sync/__init__.py:43
 msgid "synchronize the bot with its commands\n\n"
@@ -891,95 +926,102 @@ msgid "synchronize the bot with its commands\n\n"
 "            - ...arguments are added, removed or changed\n"
 "            - ...permissions are added, removed or changed\n"
 "            - ...a global/server command becomes a server/global command"
-msgstr ""
+msgstr "synkronisera boten med sina kommandon\n\n"
+"            Synkroniseringen används för att ladda om ändringarna.\n"
+"            Synkronisera när . .\n"
+"            - ... ommands har lagts till, tagits bort eller ändrats\n"
+"            - . .argumenten läggs till, tas bort eller ändras\n"
+"            - ... ermissions läggs till, tas bort eller ändras\n"
+"            - . .a global/server kommando blir ett server/globalt kommando"
 
 #: exts/commands/other/sync/do.py:46
 msgid "globally"
-msgstr ""
+msgstr "globalt"
 
 #: exts/commands/other/sync/do.py:46
 msgid "to the current guild"
-msgstr ""
+msgstr "till nuvarande guild"
 
 #: exts/commands/other/tempvoice/__init__.py:32
 msgid "Setup the tempvoice features of the bot"
-msgstr ""
+msgstr "Konfigurera tempvoice funktioner i boten"
 
 #: exts/commands/other/tempvoice/__init__.py:53
 msgid "Set up TempVoice with a wizard in seconds."
-msgstr ""
+msgstr "Ställ in Räkna med en guide på några sekunder."
 
 #: exts/commands/other/tempvoice/do.py:32
 msgid "tempvoice category"
-msgstr ""
+msgstr "tempröstkategori"
 
 #: exts/commands/other/tempvoice/do.py:40
 msgid "︱Creator Channel"
-msgstr ""
+msgstr "—Skaparkanal"
 
 #: exts/commands/other/tempvoice/do.py:48
 msgid "︱interface"
-msgstr ""
+msgstr "—Gränssnitt"
 
 #: exts/commands/other/tempvoice/do.py:67
 msgid "TempVoice Interface"
-msgstr ""
+msgstr "TempVoice Interface"
 
 #: exts/commands/other/tempvoice/do.py:70
 #, python-brace-format
 msgid "{emoji} This interface can be used to edit your temporary channel.\n"
 "            More options will be available with {command} commands."
-msgstr ""
+msgstr "{emoji} Detta gränssnitt kan användas för att redigera din tillfälliga kanal.\n"
+"            Fler alternativ kommer att finnas tillgängliga med {command} kommandon."
 
 #: exts/commands/other/tempvoice/do.py:75
 msgid "The interface can be used with the buttons below."
-msgstr ""
+msgstr "Gränssnittet kan användas med knapparna nedan."
 
 #: exts/commands/other/tempvoice/do.py:92
 msgid "Support"
-msgstr ""
+msgstr "Stöd"
 
 #: exts/commands/other/test/__init__.py:36
 msgid "Test temporary commands"
-msgstr ""
+msgstr "Testa tillfälliga kommandon"
 
 #: exts/commands/other/unload/__init__.py:39
 msgid "Unload extensions of the bot"
-msgstr ""
+msgstr "Ladda ett tillägg av boten"
 
 #: exts/functions/Commands/command/error/do.py:27
 #, python-brace-format
 msgid "If you think that's a mistake. Report per `{command_sig}`"
-msgstr ""
+msgstr "Om du tror att det är ett misstag. Rapportera per `{command_sig}`"
 
 #: exts/functions/Commands/command/error/do.py:38
 msgid "You did something wrong, try !help"
-msgstr ""
+msgstr "Du gjorde något fel, försök !help"
 
 #: exts/functions/Commands/command/error/do.py:52
 #, python-brace-format
 msgid "Only the bot owner can run the command `{command}`."
-msgstr ""
+msgstr "Endast botägaren kan köra kommandot `{command}`."
 
 #: exts/functions/Commands/command/error/do.py:56
 #, python-brace-format
 msgid "You are missing `{permission}` permission(s) to run this command."
-msgstr ""
+msgstr "Du saknar `{permission}` behörighet(er) för att köra detta kommando."
 
 #: exts/functions/Commands/command/error/do.py:81
 #, python-brace-format
 msgid "No command named `{invoked_command}` found. Use \"{prefix}help\" for help."
-msgstr ""
+msgstr "Inget kommando som heter `{invoked_command}` hittades. Använd \"{prefix}help\" för hjälp."
 
 #: exts/functions/Commands/command/error/do.py:87
 #, python-brace-format
 msgid "No command named `{invoked_command}` found. Did you perhaps mean `{prefix}{closest_1}` {closest_2}?"
-msgstr ""
+msgstr "Inget kommando som heter `{invoked_command}` hittades. Menade du kanske `{prefix}{closest_1}` {closest_2}?"
 
 #: exts/functions/Members/member/join/do.py:24
 #, python-brace-format
 msgid "Welcome to {guild_name}"
-msgstr ""
+msgstr "Välkommen till {guild_name}"
 
 #: exts/functions/Members/member/join/do.py:26
 msgid "Please send the captcha code here.\n\n"
@@ -990,17 +1032,24 @@ msgid "Please send the captcha code here.\n\n"
 "            targeted attacks using automated user accounts.\n"
 "            \n"
 "            **Your Captcha:**"
-msgstr ""
+msgstr "Vänligen skicka captcha-koden här.\n\n"
+"            Hej! Du måste slutföra en captcha innan du går in på servern.\n"
+"            __**OBS: **__ Detta är **inte** Ärendekänsligt.\n\n"
+"            **Varför? *\n"
+"            Detta är att skydda servern mot\n"
+"            riktade attacker med hjälp av automatiserade användarkonton.\n"
+"            \n"
+"            **Din Captcha:**"
 
 #: exts/functions/Members/member/join/do.py:50
 #, python-brace-format
 msgid "{emoji} {prefix} **Thank you! You have been verified in guild __{guild_name}__**"
-msgstr ""
+msgstr "{emoji} {prefix} **Tack! Du har verifierats i guild __{guild_name}__**"
 
 #: exts/functions/Messages/message/systems.py:62
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
-msgstr ""
+msgstr "{user} du inte får räkna flera nummer i rad."
 
 #: exts/functions/Messages/message/systems.py:69
 #, python-brace-format
@@ -1173,19 +1222,19 @@ msgstr "Endast betrodda användare kommer att kunna visa din röstkanal"
 
 #: exts/functions/Voice/voice_state_update/system.py:188
 msgid "Lock"
-msgstr ""
+msgstr "Lås"
 
 #: exts/functions/Voice/voice_state_update/system.py:188
 msgid "Only trusted users will be able to join your voice channel"
-msgstr ""
+msgstr "Endast betrodda användare kommer att kunna ansluta till din röstkanal"
 
 #: exts/functions/Voice/voice_state_update/system.py:189
 msgid "Unlock"
-msgstr ""
+msgstr "Lås upp"
 
 #: exts/functions/Voice/voice_state_update/system.py:189
 msgid "Everyone will be able to join your voice channel"
-msgstr ""
+msgstr "Alla kommer att kunna ansluta sig till din röstkanal"
 
 #: exts/functions/Voice/voice_state_update/system.py:196
 #: exts/functions/Voice/voice_state_update/system.py:252
@@ -1196,86 +1245,86 @@ msgstr ""
 #: exts/functions/Voice/voice_state_update/system.py:546
 #, python-brace-format
 msgid "{emoji} Use this menu to select an option:"
-msgstr ""
+msgstr "{emoji} Använd denna meny för att välja ett alternativ:"
 
 #: exts/functions/Voice/voice_state_update/system.py:215
 msgid "Selected user will own your tempvoice channel!"
-msgstr ""
+msgstr "Vald användare kommer att äga din frestande röstkanal!"
 
 #: exts/functions/Voice/voice_state_update/system.py:227
 #, python-brace-format
 msgid "{emoji} **Invalid**! The selected member is not a valid user in your temporary voice channel."
-msgstr ""
+msgstr "{emoji} **Ogiltigt**! Den valda medlemmen är inte en giltig användare i din tillfälliga röstkanal."
 
 #: exts/functions/Voice/voice_state_update/system.py:247
 #, python-brace-format
 msgid "{emoji} **Updated!** The {user} is now ` owner ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Uppdaterad!** {user} är nu ` ägare ` av din tillfälliga {channel} kanal!"
 
 #: exts/functions/Voice/voice_state_update/system.py:271
 msgid "Selected users will be trusted to join!"
-msgstr ""
+msgstr "Valda användare kommer att bli betrodda att gå med!"
 
 #: exts/functions/Voice/voice_state_update/system.py:297
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` trusted ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Uppdaterad!** De valda användarna är nu ` betrodda ` av din tillfälliga {channel} kanal!"
 
 #: exts/functions/Voice/voice_state_update/system.py:320
 msgid "Selected users will be kicked and blocked!"
-msgstr ""
+msgstr "Valda användare kommer att sparkas och blockeras!"
 
 #: exts/functions/Voice/voice_state_update/system.py:349
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` blocked ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **uppdaterade!** De valda användarna är nu ` blockerade` av din tillfälliga {channel} kanal!"
 
 #: exts/functions/Voice/voice_state_update/system.py:373
 msgid "Selected user will be kicked from your tempvoice channel!"
-msgstr ""
+msgstr "Vald användare kommer att sparkas från din frestande röstkanal!"
 
 #: exts/functions/Voice/voice_state_update/system.py:390
 #, python-brace-format
 msgid "{emoji} **Invalid**! None of the selected users are valid members of your temporary voice channel."
-msgstr ""
+msgstr "{emoji} **Ogiltigt**! Ingen av de valda användarna är giltiga medlemmar i din tillfälliga röstkanal."
 
 #: exts/functions/Voice/voice_state_update/system.py:398
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users got kicked from your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Uppdaterad!** De valda användarna blev sparkade från din tillfälliga {channel} -kanal!"
 
 #: exts/functions/Voice/voice_state_update/system.py:411
 #, python-brace-format
 msgid "{emoji} this option is only for admins!"
-msgstr ""
+msgstr "{emoji} det här alternativet är bara för administratörer!"
 
 #: exts/functions/Voice/voice_state_update/system.py:424
 #, python-brace-format
 msgid "{emoji} Selected user is alredy owner of a temporary channel!"
-msgstr ""
+msgstr "{emoji} Vald användare är redy ägare av en temporär kanal!"
 
 #: exts/functions/Voice/voice_state_update/system.py:444
 #, python-brace-format
 msgid "{emoji} **Updated!** You are now ` owner ` of the temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Uppdaterad!** Du är nu ` ägare ` av den tillfälliga {channel} kanalen!"
 
 #: exts/functions/Voice/voice_state_update/system.py:463
 msgid "Selected users will be untrusted from joining!"
-msgstr ""
+msgstr "Valda användare kommer inte att lita på att gå med!"
 
 #: exts/functions/Voice/voice_state_update/system.py:490
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` untrusted ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **uppdaterade!** De valda användarna är nu ` opålitliga ` i din tillfälliga {channel} kanal!"
 
 #: exts/functions/Voice/voice_state_update/system.py:514
 msgid "Selected users will be unblocked from joining!"
-msgstr ""
+msgstr "Valda användare kommer att bli betrodda att gå med!"
 
 #: exts/functions/Voice/voice_state_update/system.py:541
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` unblocked ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **uppdaterade!** De valda användarna är nu ` blockerade` av din tillfälliga {channel} kanal!"
 
 #~ msgid "ID:"
 #~ msgstr "ID:"
