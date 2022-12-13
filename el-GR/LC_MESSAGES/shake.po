@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-13 18:36\n"
+"PO-Revision-Date: 2022-12-13 19:37\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el\n"
@@ -406,103 +406,112 @@ msgstr "{emoji} Αυτός ο διακομιστής του Discord δεν έχ�
 #: exts/commands/information/premium/do.py:19
 #, python-brace-format
 msgid "{emoji} The benefit of supporting Shake as Patreon"
-msgstr ""
+msgstr "{emoji} Το όφελος από την υποστήριξη του Shake ως Patreon"
 
 #: exts/commands/information/premium/do.py:21
 msgid "Supporting the Bot as Patreon will keep the motivation for the development of Shake and make sure that all hosting costs are covered.\n\n"
 "                Premium makes **voting no longer necessary** and gives you **more creator channel** to customize! \n"
 "                "
-msgstr ""
+msgstr "Υποστηρίζοντας το Bot ως Patreon θα κρατήσει το κίνητρο για την ανάπτυξη του Shake και βεβαιωθείτε ότι όλα τα έξοδα φιλοξενίας καλύπτονται.\n\n"
+"                Το Premium κάνει **την ψήφο να μην είναι πλέον απαραίτητη** και σας δίνει **περισσότερο κανάλι δημιουργού** για να προσαρμόσετε! \n"
+"                "
 
 #: exts/commands/information/premium/do.py:26
 #, python-brace-format
 msgid "{emoji} Helpful links for understanding Patreon"
-msgstr ""
+msgstr "{emoji} Χρήσιμοι σύνδεσμοι για την κατανόηση Patreon"
 
 #: exts/commands/information/premium/do.py:28
 msgid "**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
 "                **[What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
 "                **[How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
 "                "
-msgstr ""
+msgstr "**[Τι είναι το Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
+"                **[Τι νομίσματα κάνει το Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
+"                **[How do connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
+"                "
 
 #: exts/commands/information/premium/do.py:33
 msgid "Freemium | Premium isn't required"
-msgstr ""
+msgstr "Δεν απαιτείται Freemium - Premium"
 
 #: exts/commands/information/premium/do.py:42
 msgid "Add Shake to your server"
-msgstr ""
+msgstr "Προσθήκη κουνήματος στον διακομιστή σας"
 
 #: exts/commands/information/rtfm/__init__.py:36
 msgid "View objects from certain documentation.\n\n"
 "            RTFM is internet slang for the phrase \"read the damn manual\"."
-msgstr ""
+msgstr "Προβολή αντικειμένων από συγκεκριμένη τεκμηρίωση.\n\n"
+"            RTFM είναι διαδικτύου παρόρμηση για τη φράση \"διαβάστε το καταραμένο εγχειρίδιο\"."
 
 #: exts/commands/information/rtfm/do.py:101
 msgid "Couldn't find anything."
-msgstr ""
+msgstr "Δεν μπόρεσε να βρει τίποτα."
 
 #: exts/commands/information/rtfm/do.py:118
 msgid "Uses"
-msgstr ""
+msgstr "Χρησιμοποιεί"
 
 #: exts/commands/information/rtfm/do.py:119
 msgid "Total"
-msgstr ""
+msgstr "Σύνολο"
 
 #: exts/commands/information/rtfm/do.py:135
 #, python-brace-format
 msgid "**Total uses**: {total_uses}"
-msgstr ""
+msgstr "**Συνολικές χρήσεις**: {total_uses}"
 
 #: exts/commands/information/rtfm/do.py:138
 #, python-brace-format
 msgid "**Top {top} member**:"
-msgstr ""
+msgstr "**Top {top} μέλος**:"
 
 #: exts/commands/information/serverinfo/__init__.py:37
 msgid "Get information about a specific server.\n\n"
 "            This command will show you some information about a server.\n\n"
 "            - `information`: \n"
 "            \\u2003[owner, member, creation, ...]."
-msgstr ""
+msgstr "Λάβετε πληροφορίες σχετικά με έναν συγκεκριμένο διακομιστή.\n\n"
+"            Αυτή η εντολή θα σας δείξει κάποιες πληροφορίες σχετικά με έναν διακομιστή.\n\n"
+"            - `information`: \n"
+"            \\u2003[owner, μέλος, δημιουργία, . .]."
 
 #: exts/commands/information/serverinfo/do.py:46
 #, python-brace-format
 msgid "Info for {guild_name}"
-msgstr ""
+msgstr "Πληροφορίες για το {guild_name}"
 
 #: exts/commands/information/serverinfo/do.py:47
 #: exts/commands/information/userinfo/do copy.py:30
 #: exts/commands/information/userinfo/do.py:44
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: exts/commands/information/serverinfo/do.py:48
 msgid "Owner"
-msgstr ""
+msgstr "Ιδιοκτήτης"
 
 #: exts/commands/information/serverinfo/do.py:56
 msgid "Partnered"
-msgstr ""
+msgstr "Συνεργάτης"
 
 #: exts/commands/information/serverinfo/do.py:59
 msgid "Safe for work"
-msgstr ""
+msgstr "Ασφαλής για εργασία"
 
 #: exts/commands/information/serverinfo/do.py:60
 msgid "Large"
-msgstr ""
+msgstr "Μεγάλο"
 
 #: exts/commands/information/serverinfo/do.py:70
 #, python-brace-format
 msgid "Total: {members}"
-msgstr ""
+msgstr "Σύνολο: {members}"
 
 #: exts/commands/information/serverinfo/do.py:74
 msgid "Members"
-msgstr ""
+msgstr "Μέλη"
 
 #: exts/commands/information/serverinfo/do.py:75
 msgid "Roles"
