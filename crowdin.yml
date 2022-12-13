@@ -1,0 +1,3 @@
+files:
+  - source: /template.po
+    translation: /%locale%/LC_MESSAGES/shake.po
