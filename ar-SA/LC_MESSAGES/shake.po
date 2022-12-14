@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-13 12:51\n"
+"PO-Revision-Date: 2022-12-14 17:52\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -22,149 +22,154 @@ msgstr ""
 #: classes/converter/dourationdelta.py:27
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr ""
+msgstr "`{duration}` ليست سلسلة مدة صالحة."
 
 #: classes/converter/isodatetime.py:40
 #, python-brace-format
 msgid "`{datetime_string}` is not a valid ISO-8601 datetime string"
-msgstr ""
+msgstr "`{datetime_string}` ليست سلسلة مدة صالحة"
 
 #: classes/converter/regex.py:11
 msgid "Regex pattern missing wrapping backticks"
-msgstr ""
+msgstr "ريجكس نمط تغليف الخلفيات المفقودة"
 
 #: classes/converter/regex.py:15
 #, python-brace-format
 msgid "Regex error: {e_msg}"
-msgstr ""
+msgstr "خطأ Regex: {e_msg}"
 
 #: classes/help/menu.py:50
 msgid "Choose a Category..."
-msgstr ""
+msgstr "اختر فئة..."
 
 #: classes/help/page.py:110
 msgid "Page"
-msgstr ""
+msgstr "الصفحة"
 
 #: classes/help/page.py:217
 msgid "An unknown error has occurred, sorry"
-msgstr ""
+msgstr "حدث خطأ غير معروف، عذراً"
 
 #: classes/help/page.py:290
 msgid "stop"
-msgstr ""
+msgstr "إيقاف"
 
 #: classes/help/pagesource.py:89 classes/help/pagesource.py:90
 #, python-brace-format
 msgid "[{name} (upload a file)]"
-msgstr ""
+msgstr "[{name} (تحميل ملف)]"
 
 #: classes/help/pagesource.py:92
 #, python-brace-format
 msgid "<{name} (upload a file)>"
-msgstr ""
+msgstr "[{name} (تحميل ملف)]"
 
 #: classes/help/pagesource.py:92
 #, python-brace-format
 msgid "[{name} (upload files)]..."
-msgstr ""
+msgstr "[{name} (تحميل ملف)]..."
 
 #: classes/help/pagesource.py:138
 msgid "No help available"
-msgstr ""
+msgstr "لا توجد مساعدة متوفرة"
 
 #: classes/help/pagesource.py:161
 msgid "Usage"
-msgstr ""
+msgstr "الاستخدام"
 
 #: classes/help/pagesource.py:180
 msgid "Examples"
-msgstr ""
+msgstr "أمثلة"
 
 #: classes/help/pagesource.py:187 classes/help/pagesource.py:188
 msgid "None"
-msgstr ""
+msgstr "لا"
 
 #: classes/help/pagesource.py:195
 msgid "Necessary user permissions"
-msgstr ""
+msgstr "أذونات المستخدم الضرورية"
 
 #: classes/help/pagesource.py:195
 msgid "User"
-msgstr ""
+msgstr "المستخدم"
 
 #: classes/help/pagesource.py:195 exts/commands/information/userinfo/do
 #: copy.py:31 exts/commands/information/userinfo/do.py:45
 msgid "Bot"
-msgstr ""
+msgstr "Bot"
 
 #: classes/help/pagesource.py:209
 msgid "This command is new and is in its beta version"
-msgstr ""
+msgstr "هذا الأمر جديد و هو في النسخة التجريبية"
 
 #: classes/help/pagesource.py:213
 msgid "Only the owner of the shake bot can run this command"
-msgstr ""
+msgstr "فقط مالك بوت الاهتزاز يمكنه تشغيل هذا الأمر"
 
 #: classes/help/pagesource.py:217
 msgid "Start a Shake Pro subscription to run this command"
-msgstr ""
+msgstr "ابدأ اشتراك «اهتزاز برو» لتشغيل هذا الأمر"
 
 #: classes/help/pagesource.py:221
 msgid "This command requires certain rights from the user to be executed"
-msgstr ""
+msgstr "يتطلب هذا الأمر بعض الحقوق من المستخدم ليتم تنفيذها"
 
 #: classes/help/pagesource.py:225
 msgid "Announce"
-msgstr ""
+msgstr "اعلان"
 
 #: classes/help/pagesource.py:247 classes/help/pagesource.py:305
 msgid "Write the command name (without the prefix) in this chat to get more specific\n"
 "information about a command."
-msgstr ""
+msgstr "اكتب اسم الأمر (بدون البادئة) في هذه المحادثة للحصول على معلومات أكثر دقة\n"
+"حول الأمر."
 
 #: classes/help/pagesource.py:250 classes/help/pagesource.py:308
 #, python-brace-format
 msgid "Page {current}/{max} ({entries} commands)"
-msgstr ""
+msgstr "الصفحة {current}/{max} ( أوامر{entries})"
 
 #: classes/help/pagesource.py:272
 msgid "No help given... (maybe report to team)"
-msgstr ""
+msgstr "لا مساعدة مقدمة... (ربما تقرير الفريق)"
 
 #: classes/help/pagesource.py:326
 msgid "No help given... (use bugreport)"
-msgstr ""
+msgstr "لا توجد مساعدة مقدمة... (استخدم البخار)"
 
 #: classes/help/pagesource.py:350
 msgid "Bot Help"
-msgstr ""
+msgstr "Bot Help"
 
 #: classes/help/pagesource.py:353
 #, python-brace-format
 msgid "Hello and welcome to my help page {emoji}\n\n\n"
 "                Type `{prefix}help <command/category>` to get more information on a\n"
 "command/category."
-msgstr ""
+msgstr "مرحبا و مرحبا بك في صفحة مساعدتي {emoji}\n\n\n"
+"                اكتب `{prefix}مساعدة <command/category>` للحصول على مزيد من المعلومات على\n"
+"أمر / فئة"
 
 #: classes/help/pagesource.py:360
 msgid "Support Server"
-msgstr ""
+msgstr "خادم الدعم"
 
 #: classes/help/pagesource.py:361
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "[https://discord.gg/shake]({support_server})"
-msgstr ""
+msgstr "يمكنك الحصول على المزيد من المساعدة إذا كنت تنضم إلى الخادم الرسمي على\n"
+"[https://discord.gg/shake]({support_server})"
 
 #: classes/help/pagesource.py:370
 msgid "Who am I?"
-msgstr ""
+msgstr "من أنا؟"
 
 #: classes/help/pagesource.py:372
 msgid "{} bot, which is partially intended for the public.\n"
 "                    Written with only `{:,}` lines. Please be nice"
-msgstr ""
+msgstr "{} بوت مخصص جزئياً للجمهور.\n"
+"                    مكتوب مع خطوط '{:}' فقط. يرجى أن تكون لطيفة"
 
 #: classes/help/pagesource.py:378
 #, python-brace-format
@@ -173,25 +178,31 @@ msgid "I am a functional all-in-one bot that will simplify setting up your serve
 "                    I have functions like voting, level system, music, moderation & much more. \n"
 "                    You can get more information by using the dropdown menu below.\n"
 "                    dropdown menu."
-msgstr ""
+msgstr "أنا بوت وظيفي كل في واحد سيبسط إعداد الخادم الخاص بك لك!\n\n"
+"                    لقد تم إنشاء {created_at} و \n"
+"                    لدي وظائف مثل التصويت، مستوى النظام، الموسيقى، الاعتدال وأكثر من ذلك بكثير. \n"
+"                    يمكنك الحصول على المزيد من المعلومات باستخدام القائمة المنسدلة أدناه.\n"
+"                    القائمة المنسدلة."
 
 #: classes/help/pagesource.py:386
 msgid "Stands for the argument being __**necessary**__."
-msgstr ""
+msgstr "دعامات للسيارة هي __**ضروري**__."
 
 #: classes/help/pagesource.py:387
 msgid "Stands for that the argument is __**optional**__."
-msgstr ""
+msgstr "هذه الوسيطة هي __**اختياري**__."
 
 #: classes/help/pagesource.py:388
 msgid "Stands for the argument can be __**either A or B**__."
-msgstr ""
+msgstr "يمكن أن تكون دعامات الوسيط __**A أو B**__."
 
 #: classes/help/pagesource.py:390
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                    Now that you know the basics, you should still know that...\n"
 "                    __**You don't include the parentheses!**__"
-msgstr ""
+msgstr "يدعم حقيقة أنه يمكنك استخدام حجج متعددة.\n\n"
+"                    الآن بعد أن كنت تعرف الأساسيات، لا يزال عليك أن تعرف ذلك. .\n"
+"                    __**لا تتضمن الأقواس! *_"
 
 #: classes/help/pagesource.py:396
 msgid "How do I use the bot?"
