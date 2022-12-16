@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-12 21:46+0100\n"
+"POT-Creation-Date: 2022-12-16 07:36+0100\n"
 "PO-Revision-Date: 2022-12-12 21:26+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -34,20 +34,8 @@ msgstr ""
 msgid "Regex error: {e_msg}"
 msgstr ""
 
-#: classes/help/menu.py:50
+#: classes/help/menu.py:140
 msgid "Choose a Category..."
-msgstr ""
-
-#: classes/help/page.py:110
-msgid "Page"
-msgstr ""
-
-#: classes/help/page.py:217
-msgid "An unknown error has occurred, sorry"
-msgstr ""
-
-#: classes/help/page.py:290
-msgid "stop"
 msgstr ""
 
 #: classes/help/pagesource.py:89 classes/help/pagesource.py:90
@@ -90,7 +78,7 @@ msgid "User"
 msgstr ""
 
 #: classes/help/pagesource.py:195 exts/commands/information/userinfo/do
-#: copy.py:31 exts/commands/information/userinfo/do.py:45
+#: copy.py:31 exts/commands/information/userinfo/do.py:44
 msgid "Bot"
 msgstr ""
 
@@ -134,11 +122,11 @@ msgstr ""
 msgid "No help given... (use bugreport)"
 msgstr ""
 
-#: classes/help/pagesource.py:350
+#: classes/help/pagesource.py:353
 msgid "Bot Help"
 msgstr ""
 
-#: classes/help/pagesource.py:353
+#: classes/help/pagesource.py:356
 #, python-brace-format
 msgid ""
 "Hello and welcome to my help page {emoji}\n"
@@ -149,28 +137,28 @@ msgid ""
 "command/category."
 msgstr ""
 
-#: classes/help/pagesource.py:360
+#: classes/help/pagesource.py:363
 msgid "Support Server"
 msgstr ""
 
-#: classes/help/pagesource.py:361
+#: classes/help/pagesource.py:364
 #, python-brace-format
 msgid ""
 "You can get more help if you join the official server at\n"
 "[https://discord.gg/shake]({support_server})"
 msgstr ""
 
-#: classes/help/pagesource.py:370
+#: classes/help/pagesource.py:373
 msgid "Who am I?"
 msgstr ""
 
-#: classes/help/pagesource.py:372
+#: classes/help/pagesource.py:375
 msgid ""
-"{} bot, which is partially intended for the public.\n"
-"                    Written with only `{:,}` lines. Please be nice"
+"{user}, which is partially intended for the public.\n"
+"                    Written with only `{lines:,}` lines. Please be nice"
 msgstr ""
 
-#: classes/help/pagesource.py:378
+#: classes/help/pagesource.py:382
 #, python-brace-format
 msgid ""
 "I am a functional all-in-one bot that will simplify setting up your server "
@@ -184,19 +172,19 @@ msgid ""
 "                    dropdown menu."
 msgstr ""
 
-#: classes/help/pagesource.py:386
+#: classes/help/pagesource.py:390
 msgid "Stands for the argument being __**necessary**__."
 msgstr ""
 
-#: classes/help/pagesource.py:387
+#: classes/help/pagesource.py:391
 msgid "Stands for that the argument is __**optional**__."
 msgstr ""
 
-#: classes/help/pagesource.py:388
+#: classes/help/pagesource.py:392
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr ""
 
-#: classes/help/pagesource.py:390
+#: classes/help/pagesource.py:394
 msgid ""
 "Stands for the fact that you can use multiple arguments.\n"
 "\n"
@@ -205,23 +193,27 @@ msgid ""
 "                    __**You don't include the parentheses!**__"
 msgstr ""
 
-#: classes/help/pagesource.py:396
+#: classes/help/pagesource.py:400
 msgid "How do I use the bot?"
 msgstr ""
 
-#: classes/help/pagesource.py:396
+#: classes/help/pagesource.py:400
 msgid "Reading the bot structure is pretty easy."
 msgstr ""
 
-#: classes/help/paginatedcommand.py:32
+#: classes/help/paginatedcommand.py:34
 msgid ""
 "An unknown error has occurred, I apologize, the responsible developers will "
 "be notified"
 msgstr ""
 
-#: classes/help/paginatedcommand.py:52
+#: classes/help/paginatedcommand.py:54
 msgid ""
 "\"{command}\" \\N{EM DASH} Unknown command. Use \"{prefix}help\" for help."
+msgstr ""
+
+#: classes/pages/page.py:89 classes/pages/page.py:191
+msgid "Stop"
 msgstr ""
 
 #: exts/commands/gimmicks/count/__init__.py:31
@@ -306,6 +298,10 @@ msgid ""
 "your pp as well."
 msgstr ""
 
+#: exts/commands/gimmicks/pp/do.py:19
+msgid "Peepee lenght"
+msgstr ""
+
 #: exts/commands/gimmicks/rainbow/__init__.py:34
 msgid "Show your support to LGBT+ with a rainbow filter! ^^"
 msgstr ""
@@ -319,11 +315,11 @@ msgstr ""
 msgid "displays a random number in a specified range of values. (Default: 1-6)"
 msgstr ""
 
-#: exts/commands/gimmicks/roll/do.py:18
-msgid "🎲 Dice roll"
+#: exts/commands/gimmicks/roll/do.py:19
+msgid "Dice roll"
 msgstr ""
 
-#: exts/commands/gimmicks/roll/do.py:19
+#: exts/commands/gimmicks/roll/do.py:24
 #, python-brace-format
 msgid "You have rolled a random number and the result is __**{number}**__"
 msgstr ""
@@ -336,6 +332,20 @@ msgid ""
 "            \\u2003True or False whether the bot should reply to you.\n"
 "            - `text`: \n"
 "            \\u2003The text to repeat."
+msgstr ""
+
+#: exts/commands/help/__init__.py:25
+msgid ""
+"help\n"
+"        \n"
+"            Parameters\n"
+"            -----------\n"
+"            category: Optional[str]\n"
+"                the category\n"
+"\n"
+"            command: Optional[str]\n"
+"                the command   \n"
+"            "
 msgstr ""
 
 #: exts/commands/information/charinfo/__init__.py:33
@@ -367,7 +377,7 @@ msgstr ""
 
 #: exts/commands/information/information.py:26
 #: exts/commands/information/userinfo/do copy.py:51
-#: exts/commands/information/userinfo/do.py:65
+#: exts/commands/information/userinfo/do.py:64
 msgid "Information"
 msgstr ""
 
@@ -379,12 +389,12 @@ msgid ""
 msgstr ""
 
 #: exts/commands/information/invite/do copy.py:17
-#: exts/commands/information/invite/do.py:17
+#: exts/commands/information/invite/do.py:18
 msgid "The Shake Team and I thank you for your interest"
 msgstr ""
 
 #: exts/commands/information/invite/do copy.py:25
-#: exts/commands/information/invite/do.py:26
+#: exts/commands/information/invite/do.py:28
 msgid "Add Shake to your Server"
 msgstr ""
 
@@ -490,7 +500,7 @@ msgstr ""
 
 #: exts/commands/information/serverinfo/do.py:47
 #: exts/commands/information/userinfo/do copy.py:30
-#: exts/commands/information/userinfo/do.py:44
+#: exts/commands/information/userinfo/do.py:43
 msgid "ID"
 msgstr ""
 
@@ -525,7 +535,7 @@ msgstr ""
 
 #: exts/commands/information/serverinfo/do.py:76
 #: exts/commands/information/userinfo/do copy.py:34
-#: exts/commands/information/userinfo/do.py:48
+#: exts/commands/information/userinfo/do.py:47
 msgid "Created"
 msgstr ""
 
@@ -602,32 +612,32 @@ msgid "Get information about you or a specified user."
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
+#: exts/commands/information/userinfo/do.py:38
 msgid "Idle"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
+#: exts/commands/information/userinfo/do.py:38
 msgid "Please do not disturb"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
+#: exts/commands/information/userinfo/do.py:38
 msgid "Offline"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
+#: exts/commands/information/userinfo/do.py:38
 msgid "Online"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:28
-#: exts/commands/information/userinfo/do.py:42
+#: exts/commands/information/userinfo/do.py:41
 msgid "Name"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:29
-#: exts/commands/information/userinfo/do.py:43
+#: exts/commands/information/userinfo/do.py:42
 msgid "#tag"
 msgstr ""
 
@@ -636,32 +646,32 @@ msgid "Seen"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:36
-#: exts/commands/information/userinfo/do.py:50
+#: exts/commands/information/userinfo/do.py:49
 msgid "Mutual Servers"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:37
-#: exts/commands/information/userinfo/do.py:51
+#: exts/commands/information/userinfo/do.py:50
 msgid "Discord-System"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:42
-#: exts/commands/information/userinfo/do.py:56
+#: exts/commands/information/userinfo/do.py:55
 msgid "Joined"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:43
-#: exts/commands/information/userinfo/do.py:57
+#: exts/commands/information/userinfo/do.py:56
 msgid "Mitglied"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:44
-#: exts/commands/information/userinfo/do.py:58
+#: exts/commands/information/userinfo/do.py:57
 msgid "Top-Role"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:45
-#: exts/commands/information/userinfo/do.py:59
+#: exts/commands/information/userinfo/do.py:58
 msgid "Color"
 msgstr ""
 
@@ -670,22 +680,22 @@ msgid "Perms"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:47
-#: exts/commands/information/userinfo/do.py:61
+#: exts/commands/information/userinfo/do.py:60
 msgid "Activity"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:48
-#: exts/commands/information/userinfo/do.py:62
+#: exts/commands/information/userinfo/do.py:61
 msgid "Status"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:49
-#: exts/commands/information/userinfo/do.py:63
+#: exts/commands/information/userinfo/do.py:62
 msgid "Device"
 msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:52
-#: exts/commands/information/userinfo/do.py:66
+#: exts/commands/information/userinfo/do.py:65
 msgid "Server Related"
 msgstr ""
 
@@ -825,10 +835,10 @@ msgstr ""
 msgid "Send an event"
 msgstr ""
 
-#: exts/commands/other/language/__init__.py:40
+#: exts/commands/other/language/__init__.py:43
 msgid ""
-"View all available languages' locale codes.\n"
-"\n"
+"Display a list of availible languages and locale codes.\n"
+"            \n"
 "            You can check if your language is available by comparing against "
 "[this list](https://saimana.com/list-of-country-locale-code/)\n"
 "            Some of these languages are no real languages but serve as a way "
@@ -837,36 +847,44 @@ msgid ""
 "is used.)"
 msgstr ""
 
-#: exts/commands/other/language/__init__.py:60
+#: exts/commands/other/language/__init__.py:57
 #, python-brace-format
 msgid ""
-"Changes the language the bot replies for the guild.\n"
-"\n"
-"            `<locale>` - The locale code of the language you want to use; "
-"full list can be found in `{prefix}language`"
-msgstr ""
-
-#: exts/commands/other/language/__init__.py:78
-#, python-brace-format
-msgid ""
-"Changes the language the bot replies for you.\n"
+"Set your language for Shake.\n"
+"            Full list of available languages can be found with `{prefix}"
+"language`\n"
 "            \n"
-"            `<locale>` - The locale code of the language you want to use; "
-"full list can be found in `{prefix}language`"
+"            Parameters\n"
+"            -----------\n"
+"            language: str\n"
+"                The locale code of the language you want to use\n"
+"            \n"
+"            server: Optional[bool]\n"
+"                If the language should be for the whole server"
 msgstr ""
 
-#: exts/commands/other/language/do.py:22
+#: exts/commands/other/language/do.py:66
 #, python-brace-format
 msgid ""
-"{emoji} {prefix} **Your given locale is not valid. Use <!language> to get a "
-"list of all locales)**"
+"{emoji} {prefix} **Your given language is not valid. Use </language list> to "
+"get a list of all available languages**"
 msgstr ""
 
-#: exts/commands/other/language/do.py:28
+#: exts/commands/other/language/do.py:72
 #, python-brace-format
 msgid ""
-"{emoji} {prefix} **I'm sorry to say that I dont have your given locale.**\n"
+"{emoji} {prefix} **I'm sorry to say that I dont have your given locale ready."
+"**\n"
 "                Try to contribute [here]({link}) if you want to!"
+msgstr ""
+
+#: exts/commands/other/language/do.py:78
+#, python-brace-format
+msgid "{emoji} {prefix} **The specified language was set successfully!**"
+msgstr ""
+
+#: exts/commands/other/language/do.py:135
+msgid "Available Translations"
 msgstr ""
 
 #: exts/commands/other/load/__init__.py:39
@@ -955,8 +973,14 @@ msgstr ""
 msgid "Setup the tempvoice features of the bot"
 msgstr ""
 
-#: exts/commands/other/tempvoice/__init__.py:53
+#: exts/commands/other/tempvoice/__init__.py:50
 msgid "Set up TempVoice with a wizard in seconds."
+msgstr ""
+
+#: exts/commands/other/tempvoice/__init__.py:52
+msgid ""
+"I am sorry to say that this feature is currently under maintenance. Try "
+"again later!"
 msgstr ""
 
 #: exts/commands/other/tempvoice/do.py:32
@@ -1057,40 +1081,40 @@ msgid ""
 "__**"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:62
+#: exts/functions/Messages/message/systems.py:61
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:69
+#: exts/functions/Messages/message/systems.py:68
 #, python-brace-format
 msgid ""
 "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:80
-#: exts/functions/Messages/message/systems.py:83
-#: exts/functions/Messages/message/systems.py:185
+#: exts/functions/Messages/message/systems.py:79
+#: exts/functions/Messages/message/systems.py:82
+#: exts/functions/Messages/message/systems.py:184
 msgid "the one above me"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:82
+#: exts/functions/Messages/message/systems.py:81
 #, python-brace-format
 msgid "{emoji} Your message should start with **{trigger}**"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:92
+#: exts/functions/Messages/message/systems.py:91
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:161
+#: exts/functions/Messages/message/systems.py:160
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:168
+#: exts/functions/Messages/message/systems.py:167
 #, python-brace-format
 msgid ""
 "{user} ruined it {facepalm} **You can't change the course of history several "
@@ -1098,48 +1122,48 @@ msgid ""
 "                    Someone should still go on."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:184
+#: exts/functions/Messages/message/systems.py:183
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:273
+#: exts/functions/Messages/message/systems.py:272
 #, python-brace-format
 msgid "{user} you are not allowed to count multiple numbers in a row."
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:297
+#: exts/functions/Messages/message/systems.py:296
 #, python-brace-format
 msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:309
+#: exts/functions/Messages/message/systems.py:308
 #, python-brace-format
 msgid ""
 "{user} ruined it at **{count}** {facepalm}. **You apparently can't count "
 "properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:311
+#: exts/functions/Messages/message/systems.py:310
 msgid "**You've topped your best streak with {} 🔥**"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:312
+#: exts/functions/Messages/message/systems.py:311
 msgid "is"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:312
+#: exts/functions/Messages/message/systems.py:311
 msgid "remains"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:314
+#: exts/functions/Messages/message/systems.py:313
 #, python-brace-format
 msgid ""
 "Incorrect number! The __next__ number is ` {last} `. **No stats have been "
 "changed since the current number was {count}.**"
 msgstr ""
 
-#: exts/functions/Messages/message/systems.py:330
+#: exts/functions/Messages/message/systems.py:329
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr ""
