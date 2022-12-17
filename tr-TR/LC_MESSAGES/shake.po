@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-13 12:52\n"
+"PO-Revision-Date: 2022-12-17 00:31\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -48,7 +48,7 @@ msgstr "Seite"
 
 #: classes/help/page.py:217
 msgid "An unknown error has occurred, sorry"
-msgstr ""
+msgstr "Bilinmedik bir hata oluştu, üzgünüm"
 
 #: classes/help/page.py:290
 msgid "stop"
@@ -100,7 +100,7 @@ msgstr ""
 
 #: classes/help/pagesource.py:209
 msgid "This command is new and is in its beta version"
-msgstr ""
+msgstr "Bu komut yeni ve şu anda beta sürümünde"
 
 #: classes/help/pagesource.py:213
 msgid "Only the owner of the shake bot can run this command"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: classes/help/pagesource.py:370
 msgid "Who am I?"
-msgstr ""
+msgstr "Ben kimim?"
 
 #: classes/help/pagesource.py:372
 msgid "{} bot, which is partially intended for the public.\n"
