@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-17 00:31\n"
+"PO-Revision-Date: 2022-12-17 01:31\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: classes/help/pagesource.py:225
 msgid "Announce"
-msgstr ""
+msgstr "Duyuru"
 
 #: classes/help/pagesource.py:247 classes/help/pagesource.py:305
 msgid "Write the command name (without the prefix) in this chat to get more specific\n"
@@ -145,7 +145,8 @@ msgstr ""
 msgid "Hello and welcome to my help page {emoji}\n\n\n"
 "                Type `{prefix}help <command/category>` to get more information on a\n"
 "command/category."
-msgstr ""
+msgstr "Merhaba ve sayfama hoş geldiniz {emoji}\n\n\n"
+"                 komut/kategori hakkında daha fazla bilgi almak için `{prefix}help <command/category>` yazın."
 
 #: classes/help/pagesource.py:360
 msgid "Support Server"
@@ -356,7 +357,7 @@ msgstr ""
 #: exts/commands/information/invite/do copy.py:25
 #: exts/commands/information/invite/do.py:26
 msgid "Add Shake to your Server"
-msgstr ""
+msgstr "Shake'i Sunucunuza ekleyin"
 
 #: exts/commands/information/premium/__init__.py:31
 msgid "Get information about Shake+.\n\n"
@@ -418,7 +419,7 @@ msgstr ""
 
 #: exts/commands/information/rtfm/do.py:119
 msgid "Total"
-msgstr ""
+msgstr "Toplam"
 
 #: exts/commands/information/rtfm/do.py:135
 #, python-brace-format
@@ -446,7 +447,7 @@ msgstr ""
 #: exts/commands/information/userinfo/do copy.py:30
 #: exts/commands/information/userinfo/do.py:44
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: exts/commands/information/serverinfo/do.py:48
 msgid "Owner"
@@ -556,22 +557,22 @@ msgstr ""
 #: exts/commands/information/userinfo/do copy.py:25
 #: exts/commands/information/userinfo/do.py:39
 msgid "Idle"
-msgstr ""
+msgstr "Boşta"
 
 #: exts/commands/information/userinfo/do copy.py:25
 #: exts/commands/information/userinfo/do.py:39
 msgid "Please do not disturb"
-msgstr ""
+msgstr "Rahatsız etmeyin"
 
 #: exts/commands/information/userinfo/do copy.py:25
 #: exts/commands/information/userinfo/do.py:39
 msgid "Offline"
-msgstr ""
+msgstr "Çevrimdışı"
 
 #: exts/commands/information/userinfo/do copy.py:25
 #: exts/commands/information/userinfo/do.py:39
 msgid "Online"
-msgstr ""
+msgstr "Çevrimiçi"
 
 #: exts/commands/information/userinfo/do copy.py:28
 #: exts/commands/information/userinfo/do.py:42
@@ -585,12 +586,12 @@ msgstr ""
 
 #: exts/commands/information/userinfo/do copy.py:35
 msgid "Seen"
-msgstr ""
+msgstr "Görüldü"
 
 #: exts/commands/information/userinfo/do copy.py:36
 #: exts/commands/information/userinfo/do.py:50
 msgid "Mutual Servers"
-msgstr ""
+msgstr "Ortak Sunucular"
 
 #: exts/commands/information/userinfo/do copy.py:37
 #: exts/commands/information/userinfo/do.py:51
@@ -600,7 +601,7 @@ msgstr ""
 #: exts/commands/information/userinfo/do copy.py:42
 #: exts/commands/information/userinfo/do.py:56
 msgid "Joined"
-msgstr ""
+msgstr "Katıldı"
 
 #: exts/commands/information/userinfo/do copy.py:43
 #: exts/commands/information/userinfo/do.py:57
@@ -615,7 +616,7 @@ msgstr ""
 #: exts/commands/information/userinfo/do copy.py:45
 #: exts/commands/information/userinfo/do.py:59
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: exts/commands/information/userinfo/do copy.py:46
 msgid "Perms"
@@ -832,7 +833,7 @@ msgstr ""
 
 #: exts/commands/other/other.py:29
 msgid "Other"
-msgstr ""
+msgstr "Diğer"
 
 #: exts/commands/other/other.py:32
 msgid "Other Commands"
@@ -1031,7 +1032,7 @@ msgstr ""
 
 #: exts/functions/Messages/message/systems.py:312
 msgid "remains"
-msgstr ""
+msgstr "kaldı"
 
 #: exts/functions/Messages/message/systems.py:314
 #, python-brace-format
@@ -1092,7 +1093,7 @@ msgstr ""
 
 #: exts/functions/Voice/voice_state_update/system.py:136
 msgid "unlimited"
-msgstr ""
+msgstr "sınırsız"
 
 #: exts/functions/Voice/voice_state_update/system.py:145
 msgid "Select a Privacy Option"
@@ -1108,32 +1109,32 @@ msgstr ""
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "invisible"
-msgstr ""
+msgstr "görünmez"
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "visible"
-msgstr ""
+msgstr "görünür"
 
 #: exts/functions/Voice/voice_state_update/system.py:170
 #, python-brace-format
 msgid "{emoji} **Updated!** {channel} is now ` {mode} `!"
-msgstr ""
+msgstr "{emoji} **Güncellendi!** {channel} artık ` {mode} `!"
 
 #: exts/functions/Voice/voice_state_update/system.py:186
 msgid "Invisible"
-msgstr ""
+msgstr "Görünmez"
 
 #: exts/functions/Voice/voice_state_update/system.py:186
 msgid "Everyone will be able to view your voice channel"
-msgstr ""
+msgstr "Ses kanalınızı herkes görüntüleyebilecek"
 
 #: exts/functions/Voice/voice_state_update/system.py:187
 msgid "Visible"
-msgstr ""
+msgstr "Görünür"
 
 #: exts/functions/Voice/voice_state_update/system.py:187
 msgid "Only trusted users will be able to view your voice channel"
-msgstr ""
+msgstr "Yalnızca güvenilir kullanıcılar ses kanalınızı görüntüleyebilir"
 
 #: exts/functions/Voice/voice_state_update/system.py:188
 msgid "Lock"
@@ -1141,7 +1142,7 @@ msgstr ""
 
 #: exts/functions/Voice/voice_state_update/system.py:188
 msgid "Only trusted users will be able to join your voice channel"
-msgstr ""
+msgstr "Yalnızca güvenilir kullanıcılar ses kanalınıza katılabilir"
 
 #: exts/functions/Voice/voice_state_update/system.py:189
 msgid "Unlock"
