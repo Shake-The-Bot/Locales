@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-18 02:24\n"
+"PO-Revision-Date: 2022-12-18 11:35\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -633,7 +633,7 @@ msgstr ""
 #: exts/commands/information/userinfo/do copy.py:48
 #: exts/commands/information/userinfo/do.py:62
 msgid "Status"
-msgstr ""
+msgstr "Durum"
 
 #: exts/commands/information/userinfo/do copy.py:49
 #: exts/commands/information/userinfo/do.py:63
