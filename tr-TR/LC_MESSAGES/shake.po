@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-17 01:31\n"
+"PO-Revision-Date: 2022-12-18 01:24\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: classes/help/pagesource.py:161
 msgid "Usage"
-msgstr ""
+msgstr "Kullanım"
 
 #: classes/help/pagesource.py:180
 msgid "Examples"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: classes/help/pagesource.py:396
 msgid "How do I use the bot?"
-msgstr ""
+msgstr "Botu nasıl kullanırım?"
 
 #: classes/help/pagesource.py:396
 msgid "Reading the bot structure is pretty easy."
@@ -224,7 +224,7 @@ msgstr ""
 
 #: exts/commands/gimmicks/count/do.py:30
 msgid "Yes"
-msgstr ""
+msgstr "Evet"
 
 #: exts/commands/gimmicks/count/do.py:32
 msgid "Have fun!"
@@ -241,7 +241,7 @@ msgstr ""
 #: exts/commands/gimmicks/everyone/do.py:20
 #: exts/commands/information/stats/do.py:22
 msgid "and"
-msgstr ""
+msgstr "ve"
 
 #: exts/commands/gimmicks/everyone/do.py:22
 msgid "Stop spamming @everyone!\n"
@@ -520,7 +520,7 @@ msgstr ""
 
 #: exts/commands/information/stats/do.py:55
 msgid "ram"
-msgstr ""
+msgstr "ram"
 
 #: exts/commands/information/stats/do.py:58
 msgid "bot"
