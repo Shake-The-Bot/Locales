@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-18 01:24\n"
+"PO-Revision-Date: 2022-12-18 02:24\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -415,7 +415,7 @@ msgstr ""
 
 #: exts/commands/information/rtfm/do.py:118
 msgid "Uses"
-msgstr ""
+msgstr "Kullanım"
 
 #: exts/commands/information/rtfm/do.py:119
 msgid "Total"
@@ -424,12 +424,12 @@ msgstr "Toplam"
 #: exts/commands/information/rtfm/do.py:135
 #, python-brace-format
 msgid "**Total uses**: {total_uses}"
-msgstr ""
+msgstr "**Toplam kullanım**: {total_uses}"
 
 #: exts/commands/information/rtfm/do.py:138
 #, python-brace-format
 msgid "**Top {top} member**:"
-msgstr ""
+msgstr "**{top} En iyi üye**:"
 
 #: exts/commands/information/serverinfo/__init__.py:37
 msgid "Get information about a specific server.\n\n"
@@ -441,7 +441,7 @@ msgstr ""
 #: exts/commands/information/serverinfo/do.py:46
 #, python-brace-format
 msgid "Info for {guild_name}"
-msgstr ""
+msgstr "{guild_name} sunucusu için bilgi"
 
 #: exts/commands/information/serverinfo/do.py:47
 #: exts/commands/information/userinfo/do copy.py:30
@@ -451,24 +451,24 @@ msgstr "ID"
 
 #: exts/commands/information/serverinfo/do.py:48
 msgid "Owner"
-msgstr ""
+msgstr "Sahip"
 
 #: exts/commands/information/serverinfo/do.py:56
 msgid "Partnered"
-msgstr ""
+msgstr "Ortak"
 
 #: exts/commands/information/serverinfo/do.py:59
 msgid "Safe for work"
-msgstr ""
+msgstr "Çalışmak için güvenli"
 
 #: exts/commands/information/serverinfo/do.py:60
 msgid "Large"
-msgstr ""
+msgstr "Büyük"
 
 #: exts/commands/information/serverinfo/do.py:70
 #, python-brace-format
 msgid "Total: {members}"
-msgstr ""
+msgstr "Toplam: {members}"
 
 #: exts/commands/information/serverinfo/do.py:74
 msgid "Members"
@@ -476,7 +476,7 @@ msgstr ""
 
 #: exts/commands/information/serverinfo/do.py:75
 msgid "Roles"
-msgstr ""
+msgstr "Roller"
 
 #: exts/commands/information/serverinfo/do.py:76
 #: exts/commands/information/userinfo/do copy.py:34
@@ -492,11 +492,11 @@ msgstr ""
 
 #: exts/commands/information/stats/do.py:26
 msgid "Shake Statistics"
-msgstr ""
+msgstr "Shake'in istatistikleri"
 
 #: exts/commands/information/stats/do.py:38
 msgid "general"
-msgstr ""
+msgstr "genel"
 
 #: exts/commands/information/stats/do.py:39
 #, python-brace-format
@@ -504,19 +504,22 @@ msgid "```py\n"
 "                v{version} from {owner}\n"
 "                {_started} {time} {date}\n"
 "                ```"
-msgstr ""
+msgstr "```py\n"
+"                v{version} {owner} tarafından\n"
+"                {_started} {time} {date}\n"
+"                ```"
 
 #: exts/commands/information/stats/do.py:45
 msgid "started"
-msgstr ""
+msgstr "başladı"
 
 #: exts/commands/information/stats/do.py:48
 msgid "host"
-msgstr ""
+msgstr "host"
 
 #: exts/commands/information/stats/do.py:55
 msgid "cpu"
-msgstr ""
+msgstr "cpu"
 
 #: exts/commands/information/stats/do.py:55
 msgid "ram"
@@ -524,35 +527,35 @@ msgstr "ram"
 
 #: exts/commands/information/stats/do.py:58
 msgid "bot"
-msgstr ""
+msgstr "bot"
 
 #: exts/commands/information/stats/do.py:65
 msgid "server"
-msgstr ""
+msgstr "sunucu"
 
 #: exts/commands/information/stats/do.py:65
 msgid "user"
-msgstr ""
+msgstr "kullanıcı"
 
 #: exts/commands/information/stats/do.py:68
 msgid "utils"
-msgstr ""
+msgstr "utils"
 
 #: exts/commands/information/stats/do.py:77
 msgid "commands"
-msgstr ""
+msgstr "komutlar"
 
 #: exts/commands/information/stats/do.py:83
 msgid "amout"
-msgstr ""
+msgstr "sayı"
 
 #: exts/commands/information/stats/do.py:83
 msgid "used"
-msgstr ""
+msgstr "kullanıldı"
 
 #: exts/commands/information/userinfo/__init__.py:33
 msgid "Get information about you or a specified user."
-msgstr ""
+msgstr "Kendiniz veya belirli bir kullanıcı hakkında bilgi alın."
 
 #: exts/commands/information/userinfo/do copy.py:25
 #: exts/commands/information/userinfo/do.py:39
@@ -577,12 +580,12 @@ msgstr "Çevrimiçi"
 #: exts/commands/information/userinfo/do copy.py:28
 #: exts/commands/information/userinfo/do.py:42
 msgid "Name"
-msgstr ""
+msgstr "İsim"
 
 #: exts/commands/information/userinfo/do copy.py:29
 #: exts/commands/information/userinfo/do.py:43
 msgid "#tag"
-msgstr ""
+msgstr "#etiket"
 
 #: exts/commands/information/userinfo/do copy.py:35
 msgid "Seen"
@@ -596,7 +599,7 @@ msgstr "Ortak Sunucular"
 #: exts/commands/information/userinfo/do copy.py:37
 #: exts/commands/information/userinfo/do.py:51
 msgid "Discord-System"
-msgstr ""
+msgstr "Discord-Sistemi"
 
 #: exts/commands/information/userinfo/do copy.py:42
 #: exts/commands/information/userinfo/do.py:56
@@ -606,7 +609,7 @@ msgstr "Katıldı"
 #: exts/commands/information/userinfo/do copy.py:43
 #: exts/commands/information/userinfo/do.py:57
 msgid "Mitglied"
-msgstr ""
+msgstr "Üye"
 
 #: exts/commands/information/userinfo/do copy.py:44
 #: exts/commands/information/userinfo/do.py:58
@@ -785,7 +788,7 @@ msgstr ""
 #: exts/commands/other/language/do.py:22
 #, python-brace-format
 msgid "{emoji} {prefix} **Your given locale is not valid. Use <!language> to get a list of all locales)**"
-msgstr ""
+msgstr "{emoji} {prefix} **Verdiğiniz dil ayarı geçerli değil. Tüm dil ayarlarının bir listesini almak için <!language> kullanın)**"
 
 #: exts/commands/other/language/do.py:28
 #, python-brace-format
@@ -1042,12 +1045,12 @@ msgstr ""
 #: exts/functions/Messages/message/systems.py:330
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
-msgstr ""
+msgstr "**{goal} {emoji} hedefinize ulaştınız Tebrikler**"
 
 #: exts/functions/Voice/voice_state_update/do.py:67
 #, python-brace-format
 msgid "{emoji} {prefix} **Wait before you open another temp channel directly**"
-msgstr ""
+msgstr "{emoji} {prefix} **Doğrudan başka bir geçici kanalı açmadan önce bekleyin**"
 
 #: exts/functions/Voice/voice_state_update/do.py:107
 #, python-brace-format
@@ -1062,11 +1065,11 @@ msgstr ""
 
 #: exts/functions/Voice/voice_state_update/system.py:74
 msgid "CHOOSE A NAME FOR YOUR VOICE CHANNEL"
-msgstr ""
+msgstr "SES KANALINIZ İÇİN BİR İSİM KOYUN"
 
 #: exts/functions/Voice/voice_state_update/system.py:74
 msgid "Leave blank to reset the name"
-msgstr ""
+msgstr "Adı sıfırlamak için boş bırakın"
 
 #: exts/functions/Voice/voice_state_update/system.py:97
 #, python-brace-format
@@ -1075,11 +1078,11 @@ msgstr ""
 
 #: exts/functions/Voice/voice_state_update/system.py:108
 msgid "CHOOSE A LIMIT FOR YOUR VOICE CHANNEL"
-msgstr ""
+msgstr "SES KANALINIZ İÇİN BİR LİMİT BELİRLEYİN"
 
 #: exts/functions/Voice/voice_state_update/system.py:109
 msgid "Leave blank to reset the limit"
-msgstr ""
+msgstr "Limiti sıfırlamak için boş bırakın"
 
 #: exts/functions/Voice/voice_state_update/system.py:127
 #, python-brace-format
@@ -1089,7 +1092,7 @@ msgstr ""
 #: exts/functions/Voice/voice_state_update/system.py:135
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s limit is now ` {limit} `!"
-msgstr ""
+msgstr "{emoji} **Güncellendi!** Kanalınızın limiti artık ` {limit} `!"
 
 #: exts/functions/Voice/voice_state_update/system.py:136
 msgid "unlimited"
@@ -1097,15 +1100,15 @@ msgstr "sınırsız"
 
 #: exts/functions/Voice/voice_state_update/system.py:145
 msgid "Select a Privacy Option"
-msgstr ""
+msgstr "Bir Gizlilik Seçeneği seçin"
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "unlocked"
-msgstr ""
+msgstr "kilitsiz"
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "locked"
-msgstr ""
+msgstr "kilitlendi"
 
 #: exts/functions/Voice/voice_state_update/system.py:154
 msgid "invisible"
@@ -1126,7 +1129,7 @@ msgstr "Görünmez"
 
 #: exts/functions/Voice/voice_state_update/system.py:186
 msgid "Everyone will be able to view your voice channel"
-msgstr "Ses kanalınızı herkes görüntüleyebilecek"
+msgstr "Yalnızca güvenilir kullanıcılar ses kanalınızı görüntüleyebilir"
 
 #: exts/functions/Voice/voice_state_update/system.py:187
 msgid "Visible"
@@ -1138,7 +1141,7 @@ msgstr "Yalnızca güvenilir kullanıcılar ses kanalınızı görüntüleyebili
 
 #: exts/functions/Voice/voice_state_update/system.py:188
 msgid "Lock"
-msgstr ""
+msgstr "Kilitle"
 
 #: exts/functions/Voice/voice_state_update/system.py:188
 msgid "Only trusted users will be able to join your voice channel"
@@ -1146,11 +1149,11 @@ msgstr "Yalnızca güvenilir kullanıcılar ses kanalınıza katılabilir"
 
 #: exts/functions/Voice/voice_state_update/system.py:189
 msgid "Unlock"
-msgstr ""
+msgstr "Kilidi aç"
 
 #: exts/functions/Voice/voice_state_update/system.py:189
 msgid "Everyone will be able to join your voice channel"
-msgstr ""
+msgstr "Ses kanalınıza herkes katılabilir"
 
 #: exts/functions/Voice/voice_state_update/system.py:196
 #: exts/functions/Voice/voice_state_update/system.py:252
@@ -1161,16 +1164,16 @@ msgstr ""
 #: exts/functions/Voice/voice_state_update/system.py:546
 #, python-brace-format
 msgid "{emoji} Use this menu to select an option:"
-msgstr ""
+msgstr "{emoji} Bir seçenek belirlemek için bu menüyü kullanın:"
 
 #: exts/functions/Voice/voice_state_update/system.py:215
 msgid "Selected user will own your tempvoice channel!"
-msgstr ""
+msgstr "Seçilen kullanıcı geçici ses kanalınıza sahip olacak!"
 
 #: exts/functions/Voice/voice_state_update/system.py:227
 #, python-brace-format
 msgid "{emoji} **Invalid**! The selected member is not a valid user in your temporary voice channel."
-msgstr ""
+msgstr "{emoji} **Geçersiz**! Seçilen üye geçici ses kanalınızda geçerli bir kullanıcı değil."
 
 #: exts/functions/Voice/voice_state_update/system.py:247
 #, python-brace-format
