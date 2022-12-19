@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-13 12:51\n"
+"PO-Revision-Date: 2022-12-19 17:30\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -104,11 +104,11 @@ msgstr "Această comandă este nouă și este în versiunea beta"
 
 #: classes/help/pagesource.py:213
 msgid "Only the owner of the shake bot can run this command"
-msgstr "Doar proprietarul botului de shake poate rula această comandă"
+msgstr "Doar proprietarul botului \"Shake\" poate folosi această comandă"
 
 #: classes/help/pagesource.py:217
 msgid "Start a Shake Pro subscription to run this command"
-msgstr "Începe un abonament Shake Pro pentru a rula această comandă"
+msgstr "Începe un abonament \"Shake Pro\" pentru a putea folosi această comandă"
 
 #: classes/help/pagesource.py:221
 msgid "This command requires certain rights from the user to be executed"
@@ -135,41 +135,41 @@ msgstr "Nici un ajutor dat... (poate raporta echipei)"
 
 #: classes/help/pagesource.py:326
 msgid "No help given... (use bugreport)"
-msgstr "Nu ai ajutor dat... (folosește bugreportul)"
+msgstr "Nu ai ajutor dat... (folosește raport de eroare!)"
 
 #: classes/help/pagesource.py:350
 msgid "Bot Help"
-msgstr "Bot Help"
+msgstr "Ajutor pentru Bot"
 
 #: classes/help/pagesource.py:353
 #, python-brace-format
 msgid "Hello and welcome to my help page {emoji}\n\n\n"
 "                Type `{prefix}help <command/category>` to get more information on a\n"
 "command/category."
-msgstr "Salut și bun venit la pagina mea de ajutor {emoji}\n\n\n"
-"                Tastați `{prefix}ajutor <command/category>` pentru a obține mai multe informații despre o comandă\n"
-"/categorie."
+msgstr "Salut și bun venit pe pagina mea de ajutor {emoji}\n\n\n"
+"                Tastează `{prefix}ajutor, <command/category>` pentru a obține mai multe informații despre o comandă\n"
+"sau categorie."
 
 #: classes/help/pagesource.py:360
 msgid "Support Server"
-msgstr "Server de Suport"
+msgstr "Server de Ajutor"
 
 #: classes/help/pagesource.py:361
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "[https://discord.gg/shake]({support_server})"
-msgstr "Poți obține mai mult ajutor dacă te alături serverului oficial la\n"
+msgstr "Poți obține mai mult ajutor dacă te alături Serverului oficial la\n"
 "[https://discord.gg/shake]({support_server})"
 
 #: classes/help/pagesource.py:370
 msgid "Who am I?"
-msgstr "Cine sunt?"
+msgstr "Cine sunt eu?"
 
 #: classes/help/pagesource.py:372
 msgid "{} bot, which is partially intended for the public.\n"
 "                    Written with only `{:,}` lines. Please be nice"
 msgstr "{} bot, care este parțial destinat publicului.\n"
-"                    Scris cu doar linii `{:,}`. Te rugăm să fii frumos"
+"                    Scris cu doar linii `{:, }`. Te rugăm să fii frumos"
 
 #: classes/help/pagesource.py:378
 #, python-brace-format
@@ -180,49 +180,49 @@ msgid "I am a functional all-in-one bot that will simplify setting up your serve
 "                    dropdown menu."
 msgstr "Sunt un bot funcțional care va simplifica configurarea serverului pentru tine!\n\n"
 "                    Am fost creat {created_at} & \n"
-"                    Am funcții ca votul, nivelul sistemului, muzică, moderare și multe altele. \n"
-"                    Poți obține mai multe informații folosind meniul derulant de mai jos.\n"
-"                    Meniul derulant."
+"                    Am funcții ca votul,sistem de nivel, muzică, moderare și mai multe alte lucruri. \n"
+"                    Poți obține mai multe informații, folosind meniul de mai jos.\n"
+"                    Meniul."
 
 #: classes/help/pagesource.py:386
 msgid "Stands for the argument being __**necessary**__."
-msgstr "Stands for the argument being __**necessary**__."
+msgstr "Reprezintă argumentul __**necesar**__."
 
 #: classes/help/pagesource.py:387
 msgid "Stands for that the argument is __**optional**__."
-msgstr "Stands for that the argument is __**optional**__."
+msgstr "Înseamnă că argumentul este __** opțional **__."
 
 #: classes/help/pagesource.py:388
 msgid "Stands for the argument can be __**either A or B**__."
-msgstr "Stands for the argument can be __**fie A, fie B**__."
+msgstr "Standurile pentru argument pot fi ___**pentru A sau B**__."
 
 #: classes/help/pagesource.py:390
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                    Now that you know the basics, you should still know that...\n"
 "                    __**You don't include the parentheses!**__"
 msgstr "Stadii pentru faptul că poți folosi argumente multiple.\n\n"
-"                    Acum că cunoașteți elementele de bază, ar trebui să mai ştiţi asta. .\n"
-"                    __**Nu incluzi parantezele! *__"
+"                    Acum, că cunoașteți elementele de bază, ar trebui să mai știți asta. \n"
+"                    __** Nu incluzi parantezele! *__"
 
 #: classes/help/pagesource.py:396
 msgid "How do I use the bot?"
-msgstr "Cum pot folosi bot-ul?"
+msgstr "Cum pot eu sa folosesc bot-ul?"
 
 #: classes/help/pagesource.py:396
 msgid "Reading the bot structure is pretty easy."
-msgstr "A citi structura botului este destul de ușor."
+msgstr "A citi structura botului este într-adevăr destul de ușor."
 
 #: classes/help/paginatedcommand.py:32
 msgid "An unknown error has occurred, I apologize, the responsible developers will be notified"
-msgstr "A apărut o eroare necunoscută, îmi cer scuze, dezvoltatorii responsabili vor fi notificați"
+msgstr "A apărut o eroare necunoscută, îmi cer scuze, dezvoltatorii responsabili vor fi notificați! "
 
 #: classes/help/paginatedcommand.py:52
 msgid "\"{command}\" \\N{EM DASH} Unknown command. Use \"{prefix}help\" for help."
-msgstr "\"{command}\" \\N{EM DASH} Comandă necunoscută. Folosește \"{prefix}ajutor\" pentru ajutor."
+msgstr "\"{command}\" \\N{EM DASH} Comandă necunoscută. Folosește \"{prefix}help\" pentru ajutor."
 
 #: exts/commands/gimmicks/count/__init__.py:31
 msgid "Count for yourself"
-msgstr "Numără pentru tine"
+msgstr "Numără pentru tine însuși."
 
 #: exts/commands/gimmicks/count/do.py:15
 msgid "Start?"
