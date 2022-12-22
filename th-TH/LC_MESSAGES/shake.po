@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-22 19:45\n"
+"PO-Revision-Date: 2022-12-22 19:47\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th\n"
@@ -91,7 +91,7 @@ msgstr "สิทธิ์ของผู้ใช้ที่จำเป็น
 
 #: classes/help/pagesource.py:195
 msgid "User"
-msgstr ""
+msgstr "ผู้ใช้"
 
 #: classes/help/pagesource.py:195 exts/commands/information/userinfo/do
 #: copy.py:31 exts/commands/information/userinfo/do.py:45
