@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-19 20:07\n"
+"PO-Revision-Date: 2022-12-22 14:10\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: classes/converter/dourationdelta.py:27
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr "`{duration}` nu este un şir de durată valid."
+msgstr "`{duration}` nu este un șir de durată valid."
 
 #: classes/converter/isodatetime.py:40
 #, python-brace-format
@@ -455,17 +455,17 @@ msgstr "Utilizări"
 
 #: exts/commands/information/rtfm/do.py:119
 msgid "Total"
-msgstr "Total"
+msgstr "In Total"
 
 #: exts/commands/information/rtfm/do.py:135
 #, python-brace-format
 msgid "**Total uses**: {total_uses}"
-msgstr "** Utilizări totale **: {total_uses}"
+msgstr "** Utilizări in total **: {total_uses}"
 
 #: exts/commands/information/rtfm/do.py:138
 #, python-brace-format
 msgid "**Top {top} member**:"
-msgstr "** Top {top} membri **:"
+msgstr "** Top {top} membrii **:"
 
 #: exts/commands/information/serverinfo/__init__.py:37
 msgid "Get information about a specific server.\n\n"
@@ -474,8 +474,8 @@ msgid "Get information about a specific server.\n\n"
 "            \\u2003[owner, member, creation, ...]."
 msgstr "Obțineți informații despre un anumit server.\n\n"
 "            Această comandă îți va arăta câteva informații despre server.\n\n"
-"            - `information`: \n"
-"            \\u2003[proprietarul, membri, creație, . .]."
+"            - ` informații `: \n"
+"            \\u2003[proprietarul, membri, creație,. .]."
 
 #: exts/commands/information/serverinfo/do.py:46
 #, python-brace-format
@@ -640,7 +640,7 @@ msgstr "Servere reciproce"
 #: exts/commands/information/userinfo/do copy.py:37
 #: exts/commands/information/userinfo/do.py:51
 msgid "Discord-System"
-msgstr "Discord-System"
+msgstr "Discord-Sistem"
 
 #: exts/commands/information/userinfo/do copy.py:42
 #: exts/commands/information/userinfo/do.py:56
@@ -704,7 +704,7 @@ msgstr "Cântărire"
 
 #: exts/commands/leveling/rank/__init__.py:35
 msgid "get your current level status"
-msgstr "obțineți starea nivelului dvs. curent"
+msgstr "Obțineți starea nivelului dvs. curent"
 
 #: exts/commands/moderation/clear/__init__.py:56
 msgid "Command to empty messages in text channels.\n\n"
@@ -725,7 +725,7 @@ msgstr "Comanda către mesaje goale în canalele de text.\n\n"
 "            Această comandă șterge un anumit număr de mesaje, în timp ce diverse filtre pot fi aplicate.\n"
 "            Mesajele fixate sunt ignorate. De asemenea, poți filtra unul sau mai mulți membri.\n"
 "            \n"
-"            - `utilizatori`: \n"
+"            - `users`: \n"
 "            \\u2003@menționări, ID-uri sau nume.\n"
 "            - `first_limit` şi `second_limit`: \n"
 "            \\`u2003@one mesaj, o delta sau ISO pentru fiecare data.\n"
@@ -733,12 +733,12 @@ msgstr "Comanda către mesaje goale în canalele de text.\n\n"
 "            \\u2003Un model regex pe care mesajul trebuie să-l conțină pentru a fi șters.\n"
 "            - `bots_only`: \n"
 "            \\`u2003Dacă doar boții ar trebui șterși. Specificați `bots_only` sau `utilizatorii`.\n"
-"            - `canale`: \n"
+"            - `channels`: \n"
 "            \\u2003#textchannels sau * pentru toate canalele de text în care să se ștergă."
 
 #: exts/commands/moderation/clear/do.py:83
 msgid "Message limits are in different channels."
-msgstr "Limitele mesajelor sunt în canale diferite."
+msgstr "Limitele mesajelor sunt în fiecare canale diferite."
 
 #: exts/commands/moderation/clear/do.py:84
 msgid "Marked as bots only, but users were specified."
