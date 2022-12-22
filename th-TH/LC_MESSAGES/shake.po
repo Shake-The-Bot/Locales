@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-13 12:52\n"
+"PO-Revision-Date: 2022-12-22 19:45\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th\n"
@@ -22,72 +22,72 @@ msgstr ""
 #: classes/converter/dourationdelta.py:27
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr ""
+msgstr "`{duration} ` ไม่ใช่สตริงระยะเวลาที่ถูกต้อง"
 
 #: classes/converter/isodatetime.py:40
 #, python-brace-format
 msgid "`{datetime_string}` is not a valid ISO-8601 datetime string"
-msgstr ""
+msgstr "`{datetime_string} ` ไม่ใช่สตริงวันที่และเวลา ISO-8601 ที่ถูกต้อง"
 
 #: classes/converter/regex.py:11
 msgid "Regex pattern missing wrapping backticks"
-msgstr ""
+msgstr "รูปแบบ Regex ไม่มีการห่อ backtics"
 
 #: classes/converter/regex.py:15
 #, python-brace-format
 msgid "Regex error: {e_msg}"
-msgstr ""
+msgstr "ข้อผิดพลาด Regex: {e_msg}"
 
 #: classes/help/menu.py:50
 msgid "Choose a Category..."
-msgstr ""
+msgstr "เลือกหมวด..."
 
 #: classes/help/page.py:110
 msgid "Page"
-msgstr ""
+msgstr "หน้าหนังสือ"
 
 #: classes/help/page.py:217
 msgid "An unknown error has occurred, sorry"
-msgstr ""
+msgstr "ข้อผิดพลาดที่ไม่รู้จักได้เกิดขึ้น. เสียใจ."
 
 #: classes/help/page.py:290
 msgid "stop"
-msgstr ""
+msgstr "หยุด"
 
 #: classes/help/pagesource.py:89 classes/help/pagesource.py:90
 #, python-brace-format
 msgid "[{name} (upload a file)]"
-msgstr ""
+msgstr "[{name}(อัปโหลดไฟล์)]"
 
 #: classes/help/pagesource.py:92
 #, python-brace-format
 msgid "<{name} (upload a file)>"
-msgstr ""
+msgstr "<{name} (อัปโหลดไฟล์)>"
 
 #: classes/help/pagesource.py:92
 #, python-brace-format
 msgid "[{name} (upload files)]..."
-msgstr ""
+msgstr "[{name} (อัพโหลดไฟล์)]..."
 
 #: classes/help/pagesource.py:138
 msgid "No help available"
-msgstr ""
+msgstr "ไม่มีความช่วยเหลือ"
 
 #: classes/help/pagesource.py:161
 msgid "Usage"
-msgstr ""
+msgstr "การใช้งาน"
 
 #: classes/help/pagesource.py:180
 msgid "Examples"
-msgstr ""
+msgstr "ตัวอย่าง"
 
 #: classes/help/pagesource.py:187 classes/help/pagesource.py:188
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #: classes/help/pagesource.py:195
 msgid "Necessary user permissions"
-msgstr ""
+msgstr "สิทธิ์ของผู้ใช้ที่จำเป็น"
 
 #: classes/help/pagesource.py:195
 msgid "User"
