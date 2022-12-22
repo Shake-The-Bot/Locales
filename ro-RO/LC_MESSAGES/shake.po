@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-22 14:10\n"
+"PO-Revision-Date: 2022-12-22 16:59\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -965,64 +965,64 @@ msgstr "-interfata"
 
 #: exts/commands/other/tempvoice/do.py:67
 msgid "TempVoice Interface"
-msgstr "Interfaţă TempVoice"
+msgstr "Interfața TempVoice"
 
 #: exts/commands/other/tempvoice/do.py:70
 #, python-brace-format
 msgid "{emoji} This interface can be used to edit your temporary channel.\n"
 "            More options will be available with {command} commands."
-msgstr "{emoji} Aceasta interfata poate fi folosita pentru a edita canalul temporar.\n"
-"            Vor fi disponibile mai multe optiuni cu comenzile {command}."
+msgstr "{emoji} Aceasta interfață poate fi folosita pentru a edita canalul temporar.\n"
+"            Vor fi disponibile mai multe opțiuni cu comenzile {command}."
 
 #: exts/commands/other/tempvoice/do.py:75
 msgid "The interface can be used with the buttons below."
-msgstr "Interfaţa poate fi utilizată cu butoanele de mai jos."
+msgstr "Interfață poate fi utilizată cu butoanele de mai jos."
 
 #: exts/commands/other/tempvoice/do.py:92
 msgid "Support"
-msgstr "Suport"
+msgstr "Ajutor"
 
 #: exts/commands/other/test/__init__.py:36
 msgid "Test temporary commands"
-msgstr "Testează comenzile temporare"
+msgstr "Testați comenzile temporare"
 
 #: exts/commands/other/unload/__init__.py:39
 msgid "Unload extensions of the bot"
-msgstr "Descarca extensiile botului"
+msgstr "Descărcați extensiile botului"
 
 #: exts/functions/Commands/command/error/do.py:27
 #, python-brace-format
 msgid "If you think that's a mistake. Report per `{command_sig}`"
-msgstr "Dacă credeți că asta este o greșeală. Raportează per `{command_sig}`"
+msgstr "Dacă crezi că asta este o greșeală. Raportează pe `{command_sig}`"
 
 #: exts/functions/Commands/command/error/do.py:38
 msgid "You did something wrong, try !help"
-msgstr "Ai făcut ceva greșit, încearcă!help"
+msgstr "Ai făcut ceva greșit, încearcă \" !help \""
 
 #: exts/functions/Commands/command/error/do.py:52
 #, python-brace-format
 msgid "Only the bot owner can run the command `{command}`."
-msgstr "Doar proprietarul bot-ului poate rula comanda `{command}`."
+msgstr "Doar proprietarul bot-ului poate rula aceasta comanda `{command}`."
 
 #: exts/functions/Commands/command/error/do.py:56
 #, python-brace-format
 msgid "You are missing `{permission}` permission(s) to run this command."
-msgstr "Nu aveţi permisiunea de a rula această comandă de{permission}` ."
+msgstr "Nu aveți permisiunea de a folosi această comandă de `{permission}`."
 
 #: exts/functions/Commands/command/error/do.py:81
 #, python-brace-format
 msgid "No command named `{invoked_command}` found. Use \"{prefix}help\" for help."
-msgstr "Nici o comandă numită `{invoked_command}a fost găsită. Folosește \"{prefix}ajutor\" pentru ajutor."
+msgstr "Nici o comandă numită `{invoked_command}` a fost găsită. Folosește \"{prefix}help\" pentru ajutor."
 
 #: exts/functions/Commands/command/error/do.py:87
 #, python-brace-format
 msgid "No command named `{invoked_command}` found. Did you perhaps mean `{prefix}{closest_1}` {closest_2}?"
-msgstr "Nici o comandă numită `{invoked_command}a găsit. Poate ați vrut să spuneți `{prefix}{closest_1}` {closest_2}?"
+msgstr "Nu exista o comandă cu numele `{invoked_command}` a găsit. Poate ai vrut să spui `{prefix}{closest_1}` {closest_2}?"
 
 #: exts/functions/Members/member/join/do.py:24
 #, python-brace-format
 msgid "Welcome to {guild_name}"
-msgstr "Bun venit la {guild_name}"
+msgstr "Bun venit pe {guild_name}"
 
 #: exts/functions/Members/member/join/do.py:26
 msgid "Please send the captcha code here.\n\n"
@@ -1045,25 +1045,25 @@ msgstr "Te rugăm să trimiți codul captcha aici.\n\n"
 #: exts/functions/Members/member/join/do.py:50
 #, python-brace-format
 msgid "{emoji} {prefix} **Thank you! You have been verified in guild __{guild_name}__**"
-msgstr "{emoji} {prefix} **Mulțumim! Ai fost verificat în breasla __{guild_name}__**"
+msgstr "{emoji} {prefix} ** mulțumim! Ai fost verificat în breasla __{guild_name}__ **"
 
 #: exts/functions/Messages/message/systems.py:62
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
-msgstr "{user} nu ai permisiunea de a număra mai multe numere la rând."
+msgstr "{user} Nu ai permisiunea de a număra mai multe numere la rând."
 
 #: exts/functions/Messages/message/systems.py:69
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
-msgstr "{user} l-a distrus pe {facepalm} **Nu poți apărea de mai multe ori la rând**.\n"
+msgstr "{user} A distrus asta {facepalm} ** Nu poți scrie mai multe numere in un rând **.\n"
 "                    Cineva ar trebui să mai continue."
 
 #: exts/functions/Messages/message/systems.py:80
 #: exts/functions/Messages/message/systems.py:83
 #: exts/functions/Messages/message/systems.py:185
 msgid "the one above me"
-msgstr "cel de deasupra mea"
+msgstr "Ala de deasupra mea"
 
 #: exts/functions/Messages/message/systems.py:82
 #, python-brace-format
@@ -1073,29 +1073,29 @@ msgstr "{emoji} Mesajul tău ar trebui să înceapă cu **{trigger}**"
 #: exts/functions/Messages/message/systems.py:92
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
-msgstr "{emoji} Mesajul tău ar trebui să fie ceva nou"
+msgstr "{emoji} Mesajul tău ar trebui să fie altceva nou"
 
 #: exts/functions/Messages/message/systems.py:161
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
-msgstr "{user} nu poți schimba cursul istoriei de mai multe ori la rând."
+msgstr "{user} Tu nu poți schimba cursul istoriei de mai multe ori la rând."
 
 #: exts/functions/Messages/message/systems.py:168
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
 "                    Someone should still go on."
-msgstr "{user} l-a distrus pe {facepalm} **Nu poți schimba cursul istoriei de mai multe ori la rând**.\n"
+msgstr "{user} A distrus asta {facepalm} ** Nu poți sa schimbi cursul istoriei de mai multe ori la rând **.\n"
 "                    Cineva ar trebui să continue în continuare."
 
 #: exts/functions/Messages/message/systems.py:184
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
-msgstr "{emoji} mesajul tău trebuie să conțină **doar unul** cuvânt"
+msgstr "{emoji} Mesajul tău trebuie să conțină ** doar unul ** cuvânt"
 
 #: exts/functions/Messages/message/systems.py:273
 #, python-brace-format
 msgid "{user} you are not allowed to count multiple numbers in a row."
-msgstr "{user} nu ai permisiunea de a număra mai multe numere la rând."
+msgstr "{user} Tu nu ai permisiunea de a număra mai multe numere la rând."
 
 #: exts/functions/Messages/message/systems.py:297
 #, python-brace-format
@@ -1105,11 +1105,11 @@ msgstr "{emoji} Nu ai permisiunea să folosești nimic cu excepția numerelor ai
 #: exts/functions/Messages/message/systems.py:309
 #, python-brace-format
 msgid "{user} ruined it at **{count}** {facepalm}. **You apparently can't count properly**. The __next__ number {verb} ` {last} `. {streak}"
-msgstr "{user} l-a distrus la **{count}** {facepalm}. **Se pare că nu poți număra corespunzător**. Numărul __next__ {verb} ` {last} `. {streak}"
+msgstr "{user} A distrus la **{count}** {facepalm}. ** Se pare că nu poți număra corespunzător **. Numărul __next__ {verb} ` {last} `. {streak}"
 
 #: exts/functions/Messages/message/systems.py:311
 msgid "**You've topped your best streak with {} 🔥**"
-msgstr "**Ai topit cel mai bun streak cu {} 🔥**"
+msgstr "** Ai topit cel mai bun streak cu {} 🔥**"
 
 #: exts/functions/Messages/message/systems.py:312
 msgid "is"
@@ -1117,33 +1117,33 @@ msgstr "este"
 
 #: exts/functions/Messages/message/systems.py:312
 msgid "remains"
-msgstr "ramase"
+msgstr "rămas"
 
 #: exts/functions/Messages/message/systems.py:314
 #, python-brace-format
 msgid "Incorrect number! The __next__ number is ` {last} `. **No stats have been changed since the current number was {count}.**"
-msgstr "Număr incorect! Numărul __next__ este ` {last} `. **Nicio statistică nu a fost modificată deoarece numărul curent a fost {count}.**"
+msgstr "Număr incorect! Numărul următorul este __next__ ` {last} `. ** Nicio statistică nu a fost modificată deoarece numărul curent a fost {count}.**"
 
 #: exts/functions/Messages/message/systems.py:330
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
-msgstr "**Ai atins obiectivul de {goal} {emoji} Felicitări**"
+msgstr "** Ai atins obiectivul de {goal} {emoji} Felicitări!! **"
 
 #: exts/functions/Voice/voice_state_update/do.py:67
 #, python-brace-format
 msgid "{emoji} {prefix} **Wait before you open another temp channel directly**"
-msgstr "{emoji} {prefix} **Așteptați înainte de a deschide direct un alt canal temporar**"
+msgstr "{emoji} {prefix} ** Așteaptă înainte de a deschide direct un alt canal temporar **"
 
 #: exts/functions/Voice/voice_state_update/do.py:107
 #, python-brace-format
 msgid "{emoji} {prefix} **You've already registered a voice channel**"
-msgstr "{emoji} {prefix} **Deja ai înregistrat un canal de voce**"
+msgstr "{emoji} {prefix} ** Deja ai înregistrat un canal de voce **"
 
 #: exts/functions/Voice/voice_state_update/system.py:46
 #: exts/functions/Voice/voice_state_update/system.py:54
 #, python-brace-format
 msgid "{emoji} **Invalid**! You are not in a valid temporary voice channel."
-msgstr "{emoji} **Invalid**! Nu ești într-un canal de voce temporar valid."
+msgstr "{emoji} ** Invalid **! Nu ești într-un canal de voce temporar valid."
 
 #: exts/functions/Voice/voice_state_update/system.py:74
 msgid "CHOOSE A NAME FOR YOUR VOICE CHANNEL"
@@ -1156,7 +1156,7 @@ msgstr "Lăsați necompletat pentru a reseta numele"
 #: exts/functions/Voice/voice_state_update/system.py:97
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s name is now `{name}`!"
-msgstr "{emoji} **Actualizat!** Numele canalului tău este acum `{name}`!"
+msgstr "{emoji} ** Actualizat! ** Numele canalului tău este acum `{name}`!"
 
 #: exts/functions/Voice/voice_state_update/system.py:108
 msgid "CHOOSE A LIMIT FOR YOUR VOICE CHANNEL"
