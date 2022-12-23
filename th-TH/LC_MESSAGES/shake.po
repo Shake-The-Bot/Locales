@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
 "POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-22 21:00\n"
+"PO-Revision-Date: 2022-12-23 17:13\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th\n"
@@ -329,38 +329,40 @@ msgstr "คำสั่งชาร์อินโฟ"
 #: exts/commands/information/information.py:10
 msgid "Informative commands about a wide variety of things.\n"
 "        Sometimes you find out new things 🤷"
-msgstr ""
+msgstr "คำสั่งที่ให้ข้อมูลเกี่ยวกับสิ่งต่าง ๆ มากมาย\n"
+"        บางครั้งคุณจะพบกับสิ่งใหม่ๆ 🤷"
 
 #: exts/commands/information/information.py:15
 #: exts/commands/inviting/inviting.py:14
 msgid "information"
-msgstr ""
+msgstr "ข้อมูล"
 
 #: exts/commands/information/information.py:15
 #: exts/commands/inviting/inviting.py:14
 msgid "info"
-msgstr ""
+msgstr "ข้อมูล"
 
 #: exts/commands/information/information.py:26
 #: exts/commands/information/userinfo/do copy.py:51
 #: exts/commands/information/userinfo/do.py:65
 msgid "Information"
-msgstr ""
+msgstr "ข้อมูล"
 
 #: exts/commands/information/invite/__init__.py:31
 msgid "Invite the bot to your server.\n\n"
 "            Of course, you can also simply add the bot via its user profile."
-msgstr ""
+msgstr "เชิญบอทไปที่เซิร์ฟเวอร์ของคุณ\n\n"
+"            แน่นอน คุณสามารถเพิ่มบอทผ่านโปรไฟล์ผู้ใช้ได้"
 
 #: exts/commands/information/invite/do copy.py:17
 #: exts/commands/information/invite/do.py:17
 msgid "The Shake Team and I thank you for your interest"
-msgstr ""
+msgstr "The Shake Team และฉันขอขอบคุณที่ให้ความสนใจ"
 
 #: exts/commands/information/invite/do copy.py:25
 #: exts/commands/information/invite/do.py:26
 msgid "Add Shake to your Server"
-msgstr ""
+msgstr "เพิ่ม Shake ให้กับเซิร์ฟเวอร์ของคุณ"
 
 #: exts/commands/information/premium/__init__.py:31
 msgid "Get information about Shake+.\n\n"
@@ -401,11 +403,11 @@ msgstr ""
 
 #: exts/commands/information/premium/do.py:33
 msgid "Freemium | Premium isn't required"
-msgstr ""
+msgstr "ฟรีเมียม | ไม่จำเป็นต้องมีพรีเมี่ยม"
 
 #: exts/commands/information/premium/do.py:42
 msgid "Add Shake to your server"
-msgstr ""
+msgstr "เพิ่ม Shake ให้กับเซิร์ฟเวอร์ของคุณ"
 
 #: exts/commands/information/rtfm/__init__.py:36
 msgid "View objects from certain documentation.\n\n"
