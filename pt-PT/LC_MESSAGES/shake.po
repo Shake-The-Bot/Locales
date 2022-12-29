@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
-"POT-Creation-Date: 2022-12-24 00:59+0100\n"
-"PO-Revision-Date: 2022-12-24 00:03\n"
+"POT-Creation-Date: 2022-12-29 01:58+0100\n"
+"PO-Revision-Date: 2022-12-29 01:00\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -18,6 +18,10 @@ msgstr ""
 "X-Crowdin-Language: pt-PT\n"
 "X-Crowdin-File: /crowdin/template.pot\n"
 "X-Crowdin-File-ID: 375\n"
+
+#: classes/context.py:136
+msgid "**Enjoying using Shake? We would love it if you [vote]({}) for us!**"
+msgstr ""
 
 #: classes/converter/dourationdelta.py:27
 #, python-brace-format
@@ -38,732 +42,18 @@ msgstr "Padrão Regex sem embalagem de backticks"
 msgid "Regex error: {e_msg}"
 msgstr "Erro Regex: {e_msg}"
 
-#: classes/functions/wouldyou/power.py:5
-msgid "Every time you fart you become invisible"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:6
-msgid "After exactly 1000 failed attepts in a certain task, you get an unhunan boost that allows you to beat the current world record, by the smallest „in competition“ messurable unit."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:7
-msgid "Every time you throw a chair at someone's head, you know the exact location of the nearest stick of butter."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:8
-msgid "Whenever you stub your toe, you know the exact location of Queen Elizabeth for 12 seconds :)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:9
-msgid "You can turn invisible, but only when nobody is looking."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:10
-msgid "Every time you blink, you lose the ability to see until you open your eyes again."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:11
-msgid "For every occurrence in which thee pleasures thyself whilst in the process of interacting with an electronic visual interface, thy wordsmithing abilities is incrementally augmented a thousandfold."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:12
-msgid "You are invisible to all doors, faucets, soaps, paper towels and hand dryer sensors."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:13
-msgid "Everytime you get sad, drops of water excrete from your eyes."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:14
-msgid "You can add pedals to any wheelchair that a disabled person is using."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:15
-msgid "You can kill everyone using one punch but you don't have hands"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:16
-msgid "You never have to pee again. But you always feel like you have to pee."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:17
-msgid "Your toenails taste like cinnamon, but only to other people"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:18
-msgid "You are invisible but only to yourself"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:19
-msgid "You can hear anyone when they talk about you behind your back... but only when they are complementing your a$$"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:20
-msgid "You can undo the folding marks on any paper you unfold."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:21
-msgid "Everytime you don't have enough money to buy something, you can spawn Elon Musk to buy it for you, but he forgot his wallet."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:22
-msgid "You are able to watch any movie you want whenever you want, but all of the characters look like Danny DeVito."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:23
-msgid "Every time you or someone near you says elephant, you summon an elephant but it has no legs"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:24
-msgid "Whenever wifi, bluetooth, or power goes out you're allowed to use an audio outputting device to play music, but you can only play payphone by maroon5 (and yes it can loop)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:25
-msgid "You are infinitely intelligent at the cost of losing the ability to talk, type or write (basically relay any information)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:26
-msgid "You can turn yourself into a furniture."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:27
-msgid "You know what time it is if you have a watch on your wrist"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:28
-msgid "You can listen to and understand animals but can't talk to them."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:29
-msgid "You can change the composition of any star big than the nearest star by pointing at it."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:30
-msgid "You can turn small amounts of water to lead when fully submerged in the ocean"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:31
-msgid "You have the ability to fly! But you're scared of heights forever..."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:32
-msgid "You can chew two different flavors of gum at the same time without getting combining the flavors."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:33
-msgid "You can go through walls but you can't get out"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:34
-msgid "Ever time you sneeze you turn invisible for 2 seconds"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:35
-msgid "Whenever you pick up a phone it will return to full charges, but it doesn't work on your own phone"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:36
-msgid "Being able to set yourself on fire, but you're not resistant to fire, so the fire hurts when you do."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:37
-#, python-format
-msgid "When you sneeze, you have a 0.005% chance of causing a small explosion, you are harmed by it and everything else is fine"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:38
-msgid "Whenever you yawn summons 2 - 3 opened packets of any fast food condiment/sauce midair within a 15 meter radius."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:39
-msgid "You glow in the dark but only when you close your eyes"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:40
-msgid "You can spawn any soda at will, but it will always be flat"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:41
-msgid "Every time bodily gases leave your body it makes the sound of a turbo"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:42
-msgid "You can turn your fingers into any type of gun, but you can't never touch anyone or anything you don't want to destroy"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:43
-msgid "You can enumerate all the numbers from 1 to a google in any order without losing track of any. You also know how to read them all."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:44
-msgid "You can make balloons that are filled with helium go down."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:45
-msgid "When you smell a fart, you can tell exactly who that fart belongs to"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:46
-msgid "You can unlock all the smartphones in the world but only if the owner is ok with it"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:47
-msgid "You have a glass that's filled infinite with water, but the water is always way too salty."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:48
-msgid "You can always guess the first letter of whatever people is thinking on at the moment."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:49
-msgid "When you get angry you get superhuman strenght that allows you to surpass your limits by 1%"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:50
-msgid "Everytime you try to sleep, a horn blares in your ear"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:51
-msgid "you can eat metal but only osmium"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:52
-msgid "You can summon any video game character you want, but only while using them in game. They are also confined inside the game, they cannot escape to reality. Releases when game ends (leaving, crashing, corrupted, you lose/win, etc.)."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:53
-msgid "You can swap places of two nearly identical objects on your sight."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:54
-msgid "You can suck people into your butthole"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:55
-msgid "You have the power to telekinetically move spoons and nothing else"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:56
-msgid "When you open a door someone will spawn behind you"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:57
-msgid "Every time you turn on the fan it turns off"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:58
-msgid "Every time you wear glasses you don't see clearly"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:62
-msgid "Any damage taken is negated to the nearest rapist"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:63
-msgid "You can get as drunk or high as you want without any negative effects,only the positives."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:64
-msgid "Any time you don't understand something time freezes and David Attenborough explains how the thing works"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:65
-msgid "Every time you drink water, it tastes like 3am water."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:66
-msgid "Everytime you stub your toe a girl of your dream in a maid suit seduces you"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:67
-msgid "You gain immortality but can choose to die whenever you please by saying „fuck this shit I'm out“"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:68
-msgid "If you yell „Kobe“ before doing anything the success rate goes up by 84%"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:69
-msgid "Whenever you say „I wish I was better at that“ you suddenly become 50% better at what you wished to become better at (stackable)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:70
-msgid "Typing „Password“in to any account will let you in no matter who it is"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:71
-msgid "You never run out of comebacks, and can precisely predict any insults the other person is gonna say"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:72
-msgid "Every time you crack a finger you gain 5x power, speed, and intelligence for 10 minutes (stackable)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:73
-msgid "You can mentally grab someone's ip through a video game and subconsciously order an excessive amount of pineapple pizza to their house without spending a dime"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:74
-msgid "A siren blares in your head 1 minute before you're about to get caught doing something you shouldn't be doing"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:75
-msgid "Every time you say to yourself, „think think think.“ you automatically think the best possible solution for whatever situation you're in."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:76
-msgid "You gain all the abilities and items from every single video game where you have at least one hour total playtime"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:77
-msgid "A 5 minute sleep is an equivalent of 8 hours of sleep"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:78
-msgid "You can get rid of people's addictions by just saying „Get over it“"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:79
-msgid "Once a week, you are allowed to make an announcement to the world that everyone hears telepathically."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:80
-msgid "Any illness is diagnosed as just a Case of the Mondays. Next day, you're fine."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:81
-msgid "Your chance of the person saying „yes“ when you ask them out increases by 50%"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:82
-msgid "If you dont like the way you look, you can go into a „customization mode“that lets you change anything and everything about your looks"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:83
-msgid "Anytime a girl touches you she is now 53% more attracted towards you"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:84
-msgid "You can eat infinite food without getting fat"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:85
-msgid "Any gun you touch has infinite ammo (video games included)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:86
-msgid "You can summon a perfect version of any product: food, tech, chemicals, weapons, tools etc."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:87
-msgid "Whenever you feel like playing a video game, a PS5/Xbox, or high end pc will appear and load up that game no matter where you are"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:88
-msgid "You become the last character you played as in any game for an hour(get abilitys, items, powers, ect.)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:89
-msgid "You have a pocket dimension in your pockets, where you can grab any item that you want or need."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:90
-msgid "If you are every attacked by anyone, Arthur Morgan will come out of nowhere and say „your ok boah“. from then on, you will gain a western revolver, and your punching strength will be upped by 37%."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:91
-msgid "You have an irl minecraft inventory, no weight limit, 64 per stack."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:92
-msgid "You can change the color and pattern of your eyes"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:93
-msgid "You can make anything have the opposite effect of what was supposed to be"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:94
-msgid "Every time you you see something you want/need but dont want to pay for it you can summon Elon Musk to buy it for you"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:95
-msgid "You can always lucid dream when you sleep"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:96
-msgid "Your burrito doesn't fall apart"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:97
-msgid "You have a Life Navigator, in short, it shows you the goals you want to achieve. For example you want $1 million? here's the way, you want to impress the girl next door? here is the way to it and so on."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:98
-msgid "Your pocket can hold 10 items no matter what size they are"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:99
-msgid "You can summon a raccoon henchmen that is capable of any task, including murder."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:100
-msgid "For each bacteria in your body, you get 1 dollar a month transferred to your bank acc at the last day of the month"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:101
-msgid "You can recover from any injury, death included, on the condition that when questioned on it you say „i got better“and refuse to elaborate further."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:102
-msgid "You own the rights to any word you want, then if someone says it you get 20$"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:103
-#, python-format
-msgid "You gain 2000% strength for 15 seconds after being hit in the balls"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:104
-msgid "Whenever you feel like it you can enter your very own pocket dimension/universe"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:105
-msgid "You only need to watch one 10 minute YouTube totorial and you are now a master of the video's subject."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:106
-msgid "Everytime you ask a girl out and they reject you become more handsome and smarter"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:107
-msgid "Whenever you stare at someone for more than 5 seconds, they get sent into a dimension where they can eat as many doritos locos tacos from taco bell as they want. (they get kicked out in 8 mins, but they can leave whenever)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:108
-msgid "You get all powers you upvote"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:109
-msgid "You can say „fuck this shit“ and you automatically don't have to do it anymore"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:110
-#, python-format
-msgid "You are 100% silent when you tiptoe"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:111
-msgid "Every time you rage in a game, you become 15% better at it"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:112
-#, python-format
-msgid "If you say „ill try“whatever you do will have a 99% chance of working"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:113
-msgid "When someone says „who asked“, One person spawns out of nowhere and says „I did“ before disappearing!"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:114
-msgid "Everytime you see something and say „Dang, that's too expensive.“a random person buys it and gives it to you"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:115
-msgid "Your body no longer requires sleep, therefore it will perform at 100% without sleeping. However, choosing to sleep will give extra benefits (e.g. more energy, better focus, etc. and sleeping wont take your ability away)."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:116
-#, python-format
-msgid "You get 3% smarter every time someone calls you dumb"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:117
-msgid "Each time someone compliments you a turtle will appear and give you a sandwich"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:118
-msgid "You can download mods to your life"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:119
-msgid "Any question you ask is answered fully and truthfully by Universe, even if it isn't known by anybody on Earth"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:120
-msgid "Everytime you say trickshot in a game you will 100% always hit it"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:121
-msgid "Every time someone says „who asked“a random midget will then come out of their own shoe and say „I asked“in a Db voice and vanish and leave behind a random number of shits in their shoe."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:122
-msgid "Your pockets have infinite inventory space."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:123
-msgid "Everytime you say you're hungry an old lady will appear and give you an all-you-can-eat buffet"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:124
-msgid "Everytime you do a good deed, 1 million dollars is added in your bank account"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:125
-msgid "You have 9 lives, everytime you die you get ressurected before the events leading to your death"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:126
-msgid "You have the power to bring your OC's to the real world"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:127
-msgid "You can get into any account just by putting „password“ as their password"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:128
-msgid "You have the power to pause online games"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:129
-msgid "All the food you eat is always at the optimal temperature you want it to be."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:130
-msgid "You can now see everybody's S.P.E.C.I.A.L stats, including your own (Strength, Perception, Endurance, Charisma, Intelligence, Agility and Luck)."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:131
-msgid "Everytime you think of a bad/cringey memory, you earn 1000 dollars."
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:132
-msgid "You get maximum comfort when sleeping in any position"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:133
-msgid "Every firearm in your hand will have unlimited ammunition and will never jam"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:134
-msgid "Every time you go to sleep you will experience the best most vivid dream ever (including naps)"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:135
-msgid "You can replay a day as many times as you want, and fix your mistakes"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:136
-msgid "You can install a universal adblocker on any phone or computer you touch"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:137
-msgid "You can summon a random person to do any task you want"
-msgstr ""
-
-#: classes/functions/wouldyou/power.py:138
-msgid "When you poop there will be no sound!"
-msgstr ""
-
-#: classes/functions/wouldyou/wwyd.py:7
-msgid "Every country has decided to unite, what would do if you are the president"
-msgstr ""
-
-#: classes/functions/wouldyou/wwyd.py:8
-msgid "What would you do if your discord direct messages were seen"
-msgstr ""
-
-#: classes/functions/wouldyou/wwyd.py:9
-msgid "What would you do if you are the president"
-msgstr ""
-
-#: classes/functions/wouldyou/wwyd.py:10
-msgid "What would you do if you could control minds?"
-msgstr ""
-
-#: classes/functions/wouldyou/wwyd.py:11
-msgid "What would you do if you only have 24 hours left on the internet."
-msgstr ""
-
-#: classes/help/menu.py:96 classes/pages/page.py:89 classes/pages/page.py:190
+#: classes/pages/page.py:105 classes/pages/page.py:211
+#: exts/commands/help/menu.py:123
 msgid "Stop"
 msgstr ""
 
-#: classes/help/menu.py:144
-msgid "Choose a Category..."
-msgstr "Escolha uma Categoria..."
-
-#: classes/help/pagesource.py:90 classes/help/pagesource.py:91
-#, python-brace-format
-msgid "[{name} (upload a file)]"
-msgstr "[{name} (enviar um arquivo)]"
-
-#: classes/help/pagesource.py:93
-#, python-brace-format
-msgid "<{name} (upload a file)>"
-msgstr "[{name} (enviar um arquivo)]"
-
-#: classes/help/pagesource.py:93
-#, python-brace-format
-msgid "[{name} (upload files)]..."
-msgstr "[{name} (enviar um arquivo)]..."
-
-#: classes/help/pagesource.py:139
-msgid "No help available"
-msgstr "Nenhuma ajuda disponível"
-
-#: classes/help/pagesource.py:162
-msgid "Usage"
-msgstr "Utilização"
-
-#: classes/help/pagesource.py:181
-msgid "Examples"
-msgstr "Exemplos"
-
-#: classes/help/pagesource.py:188 classes/help/pagesource.py:189
-msgid "None"
-msgstr "Nenhuma"
-
-#: classes/help/pagesource.py:196
-msgid "Necessary user permissions"
-msgstr "Necessário permissões de usuário"
-
-#: classes/help/pagesource.py:196
-msgid "User"
-msgstr "Usuário"
-
-#: classes/help/pagesource.py:196 exts/commands/information/userinfo/do.py:72
-msgid "Bot"
-msgstr "Bot"
-
-#: classes/help/pagesource.py:210
-msgid "This command is new and is in its beta version"
-msgstr "Este comando é novo e está em sua versão beta"
-
-#: classes/help/pagesource.py:214
-msgid "Only the owner of the shake bot can run this command"
-msgstr "Apenas o dono do bot shake pode executar este comando"
-
-#: classes/help/pagesource.py:218
-msgid "Start a Shake Pro subscription to run this command"
-msgstr "Inicie uma assinatura de Shake Pro para executar este comando"
-
-#: classes/help/pagesource.py:222
-msgid "This command requires certain rights from the user to be executed"
-msgstr "Este comando requer que certos direitos do usuário sejam executados"
-
-#: classes/help/pagesource.py:226
-msgid "Announce"
-msgstr "Anunciar"
-
-#: classes/help/pagesource.py:256 classes/help/pagesource.py:313
-msgid "Write the command name (without the prefix) in this chat to get more specific\n"
-"information about a command."
-msgstr "Escreva o nome do comando (sem o prefixo) nesse chat para obter informações mais específicas de\n"
-"sobre um comando."
-
-#: classes/help/pagesource.py:259 classes/help/pagesource.py:316
-#, python-brace-format
-msgid "Page {current}/{max} ({entries} commands)"
-msgstr "Página {current}/{max} ({entries} comandos)"
-
-#: classes/help/pagesource.py:280
-msgid "No help given... (maybe report to team)"
-msgstr "Nenhuma ajuda dada... (talvez reportar para a equipe)"
-
-#: classes/help/pagesource.py:334
-msgid "No help given... (use bugreport)"
-msgstr "Nenhuma ajuda fornecida... (use o bugreport)"
-
-#: classes/help/pagesource.py:361
-msgid "Bot Help"
-msgstr "Bot Help"
-
-#: classes/help/pagesource.py:364
-#, python-brace-format
-msgid "Hello and welcome to my help page {emoji}\n"
-"                Type `{prefix}help <command/category>` to get more information on a\n"
-"command/category."
+#: classes/utils.py:183
+msgid " and "
 msgstr ""
-
-#: classes/help/pagesource.py:371
-msgid "Support Server"
-msgstr "Servidor de suporte"
-
-#: classes/help/pagesource.py:372
-#, python-brace-format
-msgid "You can get more help if you join the official server at\n"
-"[https://discord.gg/shake]({support_server})"
-msgstr "Você pode obter mais ajuda se entrar no servidor oficial em\n"
-"[https://discord.gg/shake]({support_server})"
-
-#: classes/help/pagesource.py:381
-msgid "Who am I?"
-msgstr "Quem sou eu?"
-
-#: classes/help/pagesource.py:383
-msgid "{user}, which is partially intended for the public.\n"
-"                    Written with only `{lines:,}` lines. Please be nice"
-msgstr ""
-
-#: classes/help/pagesource.py:388
-msgid "What am I for?"
-msgstr ""
-
-#: classes/help/pagesource.py:390
-#, python-brace-format
-msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
-"                    I have been created {created_at} & \n"
-"                    I have functions like voting, level system, music, moderation & much more. \n"
-"                    You can get more information by using the dropdown menu below.\n"
-"                    dropdown menu."
-msgstr "Eu sou um bot totalmente funcional que simplificará a configuração do seu servidor para você!\n\n"
-"                    Fui criado {created_at} & \n"
-"                    Eu tenho funções como votar, sistema de nível, música, moderação e muito mais. \n"
-"                    Você pode obter mais informações usando o menu suspenso abaixo.\n"
-"                    menu suspenso."
-
-#: classes/help/pagesource.py:398
-msgid "Stands for the argument being __**necessary**__."
-msgstr "Faz de conta que o argumento __**necessário**__."
-
-#: classes/help/pagesource.py:399
-msgid "Stands for that the argument is __**optional**__."
-msgstr "Para isso, o argumento é __**opcional**__."
-
-#: classes/help/pagesource.py:400
-msgid "Stands for the argument can be __**either A or B**__."
-msgstr "Os suporte para o argumento podem ser __**A ou B**__."
-
-#: classes/help/pagesource.py:402
-msgid "Stands for the fact that you can use multiple arguments.\n\n"
-"                    Now that you know the basics, you should still know that...\n"
-"                    __**You don't include the parentheses!**__"
-msgstr "Stands pelo fato de que você pode usar vários argumentos.\n\n"
-"                    Agora que você sabe o básico, você ainda deveria saber disso. .\n"
-"                    __**Você não inclui os parênteses! *__"
-
-#: classes/help/pagesource.py:408
-msgid "How do I use the bot?"
-msgstr "Como eu uso o bot?"
-
-#: classes/help/pagesource.py:408
-msgid "Reading the bot structure is pretty easy."
-msgstr "Ler a estrutura do bot é bem fácil."
-
-#: classes/help/paginatedcommand.py:34
-msgid "An unknown error has occurred, I apologize, the responsible developers will be notified"
-msgstr "Ocorreu um erro desconhecido, peço desculpa, os desenvolvedores responsáveis serão notificados"
-
-#: classes/help/paginatedcommand.py:54
-msgid "\"{command}\" \\N{EM DASH} Unknown command. Use \"{prefix}help\" for help."
-msgstr "\"{command}\" \\N{EM DASH} Comando desconhecido. Use \"{prefix}help\" para ajudar."
 
 #: exts/commands/functions/aboveme/__init__.py:31
 #: exts/commands/functions/freegames/__init__.py:30
-#: exts/commands/wouldyou/rather/__init__.py:28 exts/commands/wouldyou/would
+#: exts/commands/wouldyou/rather/__init__.py:30 exts/commands/wouldyou/would
 #: you/__init__.py:28
 msgid "Manage the aboveme features of the bot"
 msgstr "Gerenciar as funcionalidades acima do bot"
@@ -941,50 +231,45 @@ msgstr "A interface pode ser usada com os botões abaixo."
 msgid "Support"
 msgstr "SUPORTE"
 
-#: exts/commands/gimmicks/count/__init__.py:31
+#: exts/commands/gimmicks/count/__init__.py:32
 msgid "Count for yourself"
 msgstr "Conte para você mesmo"
 
-#: exts/commands/gimmicks/count/do.py:15
+#: exts/commands/gimmicks/count/count.py:15
 msgid "Start?"
 msgstr "Começar?"
 
-#: exts/commands/gimmicks/count/do.py:24
+#: exts/commands/gimmicks/count/count.py:24
 msgid "Congratulation"
 msgstr "Parabéns"
 
-#: exts/commands/gimmicks/count/do.py:30
+#: exts/commands/gimmicks/count/count.py:30
 msgid "Yes"
 msgstr "sim"
 
-#: exts/commands/gimmicks/count/do.py:32
+#: exts/commands/gimmicks/count/count.py:32
 msgid "Have fun!"
 msgstr "Divirta-se!"
 
-#: exts/commands/gimmicks/everyone/__init__.py:34
+#: exts/commands/gimmicks/everyone/__init__.py:29
 msgid "Remind others how bad @everyone actually is\n\n"
 "            With this command you can show other people with a picture/gif alone,\n"
 "            how unnecessary a @everyone ping is. \n"
 "        \n"
-"            You can also use this command to express that someone is spamming @everyone again."
-msgstr "Lembre aos outros como o @all é realmente\n\n"
-"            Com este comando você pode mostrar a outras pessoas apenas com imagem/gif\n"
-"            o quão desnecessário é um @all. \n"
-"        \n"
-"            Você também pode usar este comando para expressar que alguém está enviando spam a @everyone novamente."
+"            You can also use this command to express that someone is spamming @everyone again.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: commands.Greedy[Member]\n"
+"                the member to blame"
+msgstr ""
 
-#: exts/commands/gimmicks/everyone/do.py:20
-#: exts/commands/information/stats/do.py:22
-msgid "and"
-msgstr "e"
-
-#: exts/commands/gimmicks/everyone/do.py:22
+#: exts/commands/gimmicks/everyone/everyone.py:23
 msgid "Stop spamming @everyone!\n"
 "It's not that important...."
 msgstr "Pare de fazer spam a todo mundo!\n"
 "Não é tão importante..."
 
-#: exts/commands/gimmicks/everyone/do.py:24
+#: exts/commands/gimmicks/everyone/everyone.py:25
 #, python-brace-format
 msgid "{members}, stop spamming @everyone!\n"
 "It's not that important..."
@@ -1011,59 +296,65 @@ msgstr "Gimmicks"
 msgid "Gimmick Commands"
 msgstr "Comandos de Gimmick"
 
-#: exts/commands/gimmicks/pp/__init__.py:35
+#: exts/commands/gimmicks/pp/__init__.py:34
 msgid "Reveal the length of a user's pp\n\n"
 "            With this command you can find out, using a very clever and definitely not random generator,\n"
 "            how long the pp of a selected user is.\n"
 "            \n"
-"            __Please note__: If you don't specify a user, I might reveal your pp as well."
-msgstr "Revelar o comprimento do p do usuário\n\n"
-"            Com esse comando você pode descobrir, usando um gerador muito inteligente e definitivamente não aleatório,\n"
-"            quanto tempo tem o p de um usuário selecionado.\n"
-"            \n"
-"            __Por favor, note__: Se você não especificar um usuário, Eu também posso revelar seu pp."
+"            __Please note__: If you don't specify a user, I might reveal your pp as well.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: Greedy[Member]\n"
+"                the member to ban"
+msgstr ""
 
-#: exts/commands/gimmicks/pp/do.py:19
+#: exts/commands/gimmicks/pp/pp.py:19
 msgid "Peepee lenght"
 msgstr ""
 
-#: exts/commands/gimmicks/rainbow/__init__.py:34
-msgid "Show your support to LGBT+ with a rainbow filter! ^^"
-msgstr "Mostre seu apoio a LGBT+ com um filtro arco-íris! ^^"
+#: exts/commands/gimmicks/rainbow/__init__.py:30
+msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: discord.Member\n"
+"                the member to add"
+msgstr ""
 
-#: exts/commands/gimmicks/rainbow/do.py:42
+#: exts/commands/gimmicks/rainbow/rainbow.py:42
 #, python-brace-format
 msgid "**{emoji} {prefix} `{user}` is part of it**"
 msgstr "**{emoji} {prefix} `{user}` ` faz parte dele**"
 
-#: exts/commands/gimmicks/roll/__init__.py:33
-msgid "displays a random number in a specified range of values. (Default: 1-6)"
-msgstr "exibe um número aleatório em um intervalo de valores especificado. (Padrão: 1-6)"
+#: exts/commands/gimmicks/roll/__init__.py:30
+msgid "Displays a random number in a specified range of values. (Default: 1-6)\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            start: Optional[int]\n"
+"                the start to roll at\n\n"
+"            limit: Optional[int]\n"
+"                the limit to roll till"
+msgstr ""
 
-#: exts/commands/gimmicks/roll/do.py:19
+#: exts/commands/gimmicks/roll/roll.py:20
 msgid "Dice roll"
 msgstr ""
 
-#: exts/commands/gimmicks/roll/do.py:24
+#: exts/commands/gimmicks/roll/roll.py:25
 #, python-brace-format
 msgid "You have rolled a random number and the result is __**{number}**__"
 msgstr "Você rolou um número aleatório e o resultado é __**{number}**__"
 
-#: exts/commands/gimmicks/say/__init__.py:33
-msgid "I will say whatever you tell me to say.\n"
-"            \n"
-"            - `reply`: \n"
-"            \\u2003True or False whether the bot should reply to you.\n"
-"            - `text`: \n"
-"            \\u2003The text to repeat."
-msgstr "Vou dizer tudo o que me disser para dizer.\n"
-"            \n"
-"            - `responde`: \n"
-"            \\u2003Verdadeiro ou falso se o bot deve lhe responder.\n"
-"            - `texto`: \n"
-"            \\u2003O texto a repetir."
+#: exts/commands/gimmicks/say/__init__.py:29
+msgid "I will say whatever you tell me to say.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            reply: Optional[bool]\n"
+"                True or False whether the bot should reply to you\n\n"
+"            text: str\n"
+"                What the bot should echo"
+msgstr ""
 
-#: exts/commands/help/__init__.py:25
+#: exts/commands/help/__init__.py:24
 msgid "Shows all Shake bot commands and provides helpful links\n"
 "        \n"
 "            Parameters\n"
@@ -1075,17 +366,201 @@ msgid "Shows all Shake bot commands and provides helpful links\n"
 "            "
 msgstr ""
 
+#: exts/commands/help/menu.py:183
+msgid "Choose a Category..."
+msgstr "Escolha uma Categoria..."
+
+#: exts/commands/help/menu.py:213
+msgid "This category does not exist."
+msgstr ""
+
+#: exts/commands/help/menu.py:216
+msgid "This category has no commands for you."
+msgstr ""
+
+#: exts/commands/help/menu.py:288 exts/commands/help/menu.py:289
+#, python-brace-format
+msgid "[{name} (upload a file)]"
+msgstr "[{name} (enviar um arquivo)]"
+
+#: exts/commands/help/menu.py:291 exts/commands/help/menu.py:292
+#, python-brace-format
+msgid "<{name} (upload a file)>"
+msgstr "[{name} (enviar um arquivo)]"
+
+#: exts/commands/help/menu.py:291 exts/commands/help/menu.py:292
+#, python-brace-format
+msgid "[{name} (upload files)]..."
+msgstr "[{name} (enviar um arquivo)]..."
+
+#: exts/commands/help/menu.py:337
+msgid "More detailed command description"
+msgstr ""
+
+#: exts/commands/help/menu.py:338
+#, python-brace-format
+msgid "{category} » {command} Command"
+msgstr ""
+
+#: exts/commands/help/menu.py:342
+msgid "No more detailed description given."
+msgstr ""
+
+#: exts/commands/help/menu.py:358
+msgid "Usage"
+msgstr "Utilização"
+
+#: exts/commands/help/menu.py:376
+msgid "Examples"
+msgstr "Exemplos"
+
+#: exts/commands/help/menu.py:382 exts/commands/help/menu.py:383
+msgid "None"
+msgstr "Nenhuma"
+
+#: exts/commands/help/menu.py:390
+msgid "Necessary user permissions"
+msgstr "Necessário permissões de usuário"
+
+#: exts/commands/help/menu.py:390
+msgid "User"
+msgstr "Usuário"
+
+#: exts/commands/help/menu.py:390
+#: exts/commands/information/userinfo/userinfo.py:72
+msgid "Bot"
+msgstr "Bot"
+
+#: exts/commands/help/menu.py:404
+msgid "This command is new and is in its beta version"
+msgstr "Este comando é novo e está em sua versão beta"
+
+#: exts/commands/help/menu.py:408
+msgid "Only the owner of the shake bot can run this command"
+msgstr "Apenas o dono do bot shake pode executar este comando"
+
+#: exts/commands/help/menu.py:412
+msgid "Start a Shake Pro subscription to run this command"
+msgstr "Inicie uma assinatura de Shake Pro para executar este comando"
+
+#: exts/commands/help/menu.py:416
+msgid "This command requires certain rights from the user to be executed"
+msgstr "Este comando requer que certos direitos do usuário sejam executados"
+
+#: exts/commands/help/menu.py:420
+msgid "Announce"
+msgstr "Anunciar"
+
+#: exts/commands/help/menu.py:451 exts/commands/help/menu.py:509
+msgid "Write the command name (without the prefix) in this chat to get more specific\n"
+"information about a command."
+msgstr "Escreva o nome do comando (sem o prefixo) nesse chat para obter informações mais específicas de\n"
+"sobre um comando."
+
+#: exts/commands/help/menu.py:454 exts/commands/help/menu.py:512
+#, python-brace-format
+msgid "Page {current}/{max} ({entries} commands)"
+msgstr "Página {current}/{max} ({entries} comandos)"
+
+#: exts/commands/help/menu.py:475
+msgid "No help given... (maybe report to team)"
+msgstr "Nenhuma ajuda dada... (talvez reportar para a equipe)"
+
+#: exts/commands/help/menu.py:530
+msgid "No help given... (use bugreport)"
+msgstr "Nenhuma ajuda fornecida... (use o bugreport)"
+
+#: exts/commands/help/menu.py:558
+msgid "Bot Help"
+msgstr "Bot Help"
+
+#: exts/commands/help/menu.py:561
+#, python-brace-format
+msgid "Hello and welcome to my help page {emoji}\n"
+"                Type `{prefix}help <command/category>` to get more information on a\n"
+"command/category."
+msgstr ""
+
+#: exts/commands/help/menu.py:568
+msgid "Support Server"
+msgstr "Servidor de suporte"
+
+#: exts/commands/help/menu.py:569
+#, python-brace-format
+msgid "You can get more help if you join the official server at\n"
+"[https://discord.gg/shake]({support_server})"
+msgstr "Você pode obter mais ajuda se entrar no servidor oficial em\n"
+"[https://discord.gg/shake]({support_server})"
+
+#: exts/commands/help/menu.py:578
+msgid "Who am I?"
+msgstr "Quem sou eu?"
+
+#: exts/commands/help/menu.py:580
+msgid "{user}, which is partially intended for the public.\n"
+"                    Written with only `{lines:,}` lines. Please be nice"
+msgstr ""
+
+#: exts/commands/help/menu.py:585
+msgid "What am I for?"
+msgstr ""
+
+#: exts/commands/help/menu.py:587
+#, python-brace-format
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
+"                    I have been created {created_at} & \n"
+"                    I have functions like voting, level system, music, moderation & much more. \n"
+"                    You can get more information by using the dropdown menu below.\n"
+"                    dropdown menu."
+msgstr "Eu sou um bot totalmente funcional que simplificará a configuração do seu servidor para você!\n\n"
+"                    Fui criado {created_at} & \n"
+"                    Eu tenho funções como votar, sistema de nível, música, moderação e muito mais. \n"
+"                    Você pode obter mais informações usando o menu suspenso abaixo.\n"
+"                    menu suspenso."
+
+#: exts/commands/help/menu.py:595
+msgid "Stands for the argument being __**necessary**__."
+msgstr "Faz de conta que o argumento __**necessário**__."
+
+#: exts/commands/help/menu.py:596
+msgid "Stands for that the argument is __**optional**__."
+msgstr "Para isso, o argumento é __**opcional**__."
+
+#: exts/commands/help/menu.py:597
+msgid "Stands for the argument can be __**either A or B**__."
+msgstr "Os suporte para o argumento podem ser __**A ou B**__."
+
+#: exts/commands/help/menu.py:599
+msgid "Stands for the fact that you can use multiple arguments.\n\n"
+"                    Now that you know the basics, you should still know that...\n"
+"                    __**You don't include the parentheses!**__"
+msgstr "Stands pelo fato de que você pode usar vários argumentos.\n\n"
+"                    Agora que você sabe o básico, você ainda deveria saber disso. .\n"
+"                    __**Você não inclui os parênteses! *__"
+
+#: exts/commands/help/menu.py:605
+msgid "How do I use the bot?"
+msgstr "Como eu uso o bot?"
+
+#: exts/commands/help/menu.py:605
+msgid "Reading the bot structure is pretty easy."
+msgstr "Ler a estrutura do bot é bem fácil."
+
+#: exts/commands/help/paginated.py:51
+msgid "\"{command}\" \\N{EM DASH} Unknown command. Use \"{prefix}help\" for help."
+msgstr "\"{command}\" \\N{EM DASH} Comando desconhecido. Use \"{prefix}help\" para ajudar."
+
 #: exts/commands/information/charinfo/__init__.py:28
 msgid "Displays information about a set of characters.\n"
 "            \n"
 "            Note: Only up to 25 characters at a time."
 msgstr ""
 
-#: exts/commands/information/charinfo/do.py:17
+#: exts/commands/information/charinfo/charinfo.py:17
 msgid "To many characters ({}/15)"
 msgstr ""
 
-#: exts/commands/information/charinfo/do.py:19
+#: exts/commands/information/charinfo/charinfo.py:19
 msgid "Charinfo Command"
 msgstr "Comando Charinfo"
 
@@ -1106,8 +581,9 @@ msgid "info"
 msgstr "informações"
 
 #: exts/commands/information/information.py:26
-#: exts/commands/information/userinfo/do.py:99
-#: exts/commands/information/userinfo/do.py:105
+#: exts/commands/information/serverinfo/serverinfo.py:85
+#: exts/commands/information/userinfo/userinfo.py:98
+#: exts/commands/information/userinfo/userinfo.py:104
 msgid "Information"
 msgstr "Informação"
 
@@ -1117,31 +593,35 @@ msgid "Invite the bot to your server.\n\n"
 msgstr "Convide o bot para o seu servidor.\n\n"
 "            Claro, você também pode simplesmente adicionar o bot através de seu perfil de usuário."
 
-#: exts/commands/information/invite/do.py:18
+#: exts/commands/information/invite/invite.py:18
 msgid "The Shake Team and I thank you for your interest"
 msgstr "A Equipe de Agitação e eu agradecemos a você pelo seu interesse"
 
-#: exts/commands/information/invite/do.py:28
+#: exts/commands/information/invite/invite.py:28
 msgid "Add Shake to your Server"
 msgstr "Adicionar agitar ao seu servidor"
+
+#: exts/commands/information/invite/invite.py:29
+msgid "Join Shake's Server"
+msgstr ""
 
 #: exts/commands/information/ping/__init__.py:28
 msgid "Get some ping"
 msgstr ""
 
-#: exts/commands/information/ping/do.py:16
+#: exts/commands/information/ping/ping.py:16
 msgid "Pong! 🏓"
 msgstr ""
 
-#: exts/commands/information/ping/do.py:20
+#: exts/commands/information/ping/ping.py:20
 msgid "Discord Gateway"
 msgstr ""
 
-#: exts/commands/information/ping/do.py:24
+#: exts/commands/information/ping/ping.py:24
 msgid "Client Latency"
 msgstr ""
 
-#: exts/commands/information/ping/do.py:35
+#: exts/commands/information/ping/ping.py:35
 msgid "Discord Status"
 msgstr ""
 
@@ -1152,21 +632,21 @@ msgid "Get information about Shake+.\n\n"
 msgstr "Obtenha informações sobre Shake+.\n\n"
 "            Claro, você não precisa. É como uma gorjeta."
 
-#: exts/commands/information/premium/do.py:16
+#: exts/commands/information/premium/premium.py:16
 msgid "> Shake Premium (Shake+)"
 msgstr "> Agitar a conta Premium (Shake+)"
 
-#: exts/commands/information/premium/do.py:17
+#: exts/commands/information/premium/premium.py:17
 #, python-brace-format
 msgid "{emoji} This Discord server has no premium activated."
 msgstr "{emoji} Este servidor Discord não tem um premium ativado."
 
-#: exts/commands/information/premium/do.py:19
+#: exts/commands/information/premium/premium.py:19
 #, python-brace-format
 msgid "{emoji} The benefit of supporting Shake as Patreon"
 msgstr "{emoji} O benefício de apoiar Agitar como Patreon"
 
-#: exts/commands/information/premium/do.py:21
+#: exts/commands/information/premium/premium.py:21
 msgid "Supporting the Bot as Patreon will keep the motivation for the development of Shake and make sure that all hosting costs are covered.\n\n"
 "                Premium makes **voting no longer necessary** and gives you **more creator channel** to customize! \n"
 "                "
@@ -1174,12 +654,12 @@ msgstr "Apoiar o Bot como Patreon vai manter a motivação para o desenvolviment
 "                O Premium torna **a votação desnecessária** e lhe dá **mais canais de criação** para personalizar! \n"
 "                "
 
-#: exts/commands/information/premium/do.py:26
+#: exts/commands/information/premium/premium.py:26
 #, python-brace-format
 msgid "{emoji} Helpful links for understanding Patreon"
 msgstr "{emoji} Links úteis para entender Patreon"
 
-#: exts/commands/information/premium/do.py:28
+#: exts/commands/information/premium/premium.py:28
 msgid "**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
 "                **[What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
 "                **[How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
@@ -1189,21 +669,21 @@ msgstr "**[O que é o Patreon?](https://support.patreon.com/hc/articles/20460631
 "                **[Como conectar o Discord ao Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
 "                "
 
-#: exts/commands/information/premium/do.py:33
+#: exts/commands/information/premium/premium.py:33
 msgid "Freemium | Premium isn't required"
 msgstr "Freemium →Premium não é necessário"
 
-#: exts/commands/information/premium/do.py:42
+#: exts/commands/information/premium/premium.py:42
 msgid "Add Shake to your server"
 msgstr "Adicionar agitar ao seu servidor"
 
-#: exts/commands/information/rtfm/__init__.py:32
+#: exts/commands/information/rtfm/__init__.py:94
 msgid "View objects from certain documentation.\n\n"
 "            RTFM is internet slang for the phrase \"read the damn manual\"."
 msgstr "Ver objetos a partir de determinada documentação.\n\n"
 "            RTFM é um slang na Internet para a frase \"leia o manual damn\"."
 
-#: exts/commands/information/rtfm/__init__.py:43
+#: exts/commands/information/rtfm/__init__.py:108
 msgid "View certain objects from the official discord.py documentation.\n"
 "            \n"
 "            Parameters\n"
@@ -1212,7 +692,7 @@ msgid "View certain objects from the official discord.py documentation.\n"
 "                the entity to look for in the documentation"
 msgstr ""
 
-#: exts/commands/information/rtfm/__init__.py:58
+#: exts/commands/information/rtfm/__init__.py:125
 msgid "View certain objects from official python documentation. \n\n"
 "            RTFM is internet slang for the phrase \"read the damn manual\".\n"
 "            \n"
@@ -1222,7 +702,7 @@ msgid "View certain objects from official python documentation. \n\n"
 "                the entity to look for in the documentation"
 msgstr ""
 
-#: exts/commands/information/rtfm/__init__.py:75
+#: exts/commands/information/rtfm/__init__.py:143
 msgid "View the members stats of the rtfm command.\n"
 "            \n"
 "            Parameters\n"
@@ -1231,24 +711,24 @@ msgid "View the members stats of the rtfm command.\n"
 "                the members you want to get the stats from"
 msgstr ""
 
-#: exts/commands/information/rtfm/do.py:101
+#: exts/commands/information/rtfm/rtfm.py:69
 msgid "Couldn't find anything."
 msgstr "Não foi possível encontrar nada."
 
-#: exts/commands/information/rtfm/do.py:118
+#: exts/commands/information/rtfm/rtfm.py:86
 msgid "Uses"
 msgstr "Utiliza"
 
-#: exts/commands/information/rtfm/do.py:119
+#: exts/commands/information/rtfm/rtfm.py:87
 msgid "Total"
 msgstr "Total:"
 
-#: exts/commands/information/rtfm/do.py:135
+#: exts/commands/information/rtfm/rtfm.py:103
 #, python-brace-format
 msgid "**Total uses**: {total_uses}"
 msgstr "**Total usados**: {total_uses}"
 
-#: exts/commands/information/rtfm/do.py:138
+#: exts/commands/information/rtfm/rtfm.py:106
 #, python-brace-format
 msgid "**Top {top} member**:"
 msgstr "**Top {top} membro**:"
@@ -1263,49 +743,50 @@ msgstr "Obter informações sobre um servidor específico.\n\n"
 "            - `informação`: \n"
 "            \\u2003[proprietário, membro, criação, . .]."
 
-#: exts/commands/information/serverinfo/do.py:46
+#: exts/commands/information/serverinfo/serverinfo.py:62
 #, python-brace-format
-msgid "Info for {guild_name}"
-msgstr "Informações sobre {guild_name}"
+msgid "**Avatar**: {avatars}"
+msgstr ""
 
-#: exts/commands/information/serverinfo/do.py:53
-#, python-brace-format
-msgid "Total: {members}"
-msgstr "Total: {members}"
+#: exts/commands/information/serverinfo/serverinfo.py:66
+#: exts/commands/information/userinfo/userinfo.py:65
+msgid "Idle"
+msgstr "Inativo"
 
-#: exts/commands/information/serverinfo/do.py:57
+#: exts/commands/information/serverinfo/serverinfo.py:72
+#: exts/commands/information/userinfo/userinfo.py:69
+msgid "Name"
+msgstr "Nome:"
+
+#: exts/commands/information/serverinfo/serverinfo.py:73
 msgid "Members"
 msgstr "membros"
 
-#: exts/commands/information/serverinfo/do.py:59
-#: exts/commands/information/userinfo/do.py:71
+#: exts/commands/information/serverinfo/serverinfo.py:74
+msgid "Statuses"
+msgstr ""
+
+#: exts/commands/information/serverinfo/serverinfo.py:75
+#: exts/commands/information/userinfo/userinfo.py:71
 msgid "ID"
 msgstr "ID"
 
-#: exts/commands/information/serverinfo/do.py:60
-msgid "Owner"
-msgstr "Proprietário"
+#: exts/commands/information/serverinfo/serverinfo.py:76
+msgid "Bots"
+msgstr ""
 
-#: exts/commands/information/serverinfo/do.py:68
-msgid "Partnered"
-msgstr "Parceiro"
+#: exts/commands/information/serverinfo/serverinfo.py:77
+#: exts/commands/information/userinfo/userinfo.py:73
+msgid "Created"
+msgstr "Criado"
 
-#: exts/commands/information/serverinfo/do.py:70
-msgid "Safe for work"
-msgstr "Seguro para o trabalho"
-
-#: exts/commands/information/serverinfo/do.py:71
-msgid "Large"
-msgstr "grande"
-
-#: exts/commands/information/serverinfo/do.py:79
+#: exts/commands/information/serverinfo/serverinfo.py:78
 msgid "Roles"
 msgstr "Papéis"
 
-#: exts/commands/information/serverinfo/do.py:80
-#: exts/commands/information/userinfo/do.py:73
-msgid "Created"
-msgstr "Criado"
+#: exts/commands/information/serverinfo/serverinfo.py:79
+msgid "Owner"
+msgstr "Proprietário"
 
 #: exts/commands/information/stats/__init__.py:33
 msgid "Get some basic information and statistics about me.\n"
@@ -1315,66 +796,55 @@ msgstr "Obtenha algumas informações básicas e estatísticas sobre mim.\n"
 "            \n"
 "            muito útil para espreitar"
 
+#: exts/commands/information/stats/do.py:22
+msgid "and"
+msgstr "e"
+
 #: exts/commands/information/stats/do.py:25
 msgid "Shake Statistics"
 msgstr "Estatísticas de agitação"
 
-#: exts/commands/information/stats/do.py:37
-msgid "general"
-msgstr "Geral"
-
-#: exts/commands/information/stats/do.py:38
-#, python-brace-format
-msgid "```py\n"
-"                v{version} from {owner}\n"
-"                {_started} {time} {date}\n"
-"                ```"
-msgstr "```py\n"
-"                v{version} de {owner}\n"
-"                {_started} {time} {date}\n"
-"```"
-
-#: exts/commands/information/stats/do.py:44
+#: exts/commands/information/stats/do.py:40
 msgid "started"
 msgstr "começar?"
 
-#: exts/commands/information/stats/do.py:47
+#: exts/commands/information/stats/do.py:42
 msgid "host"
 msgstr "hospedeiro"
 
-#: exts/commands/information/stats/do.py:54
+#: exts/commands/information/stats/do.py:49
 msgid "cpu"
 msgstr "CPF"
 
-#: exts/commands/information/stats/do.py:54
+#: exts/commands/information/stats/do.py:49
 msgid "ram"
 msgstr "ram"
 
-#: exts/commands/information/stats/do.py:57
+#: exts/commands/information/stats/do.py:52
 msgid "bot"
 msgstr "bot"
 
-#: exts/commands/information/stats/do.py:64
+#: exts/commands/information/stats/do.py:59
 msgid "server"
 msgstr "Servidor"
 
-#: exts/commands/information/stats/do.py:64
+#: exts/commands/information/stats/do.py:59
 msgid "user"
 msgstr "usuário"
 
-#: exts/commands/information/stats/do.py:67
+#: exts/commands/information/stats/do.py:62
 msgid "utils"
 msgstr "utils"
 
-#: exts/commands/information/stats/do.py:76
+#: exts/commands/information/stats/do.py:71
 msgid "commands"
 msgstr "comandos"
 
-#: exts/commands/information/stats/do.py:82
+#: exts/commands/information/stats/do.py:77
 msgid "amout"
 msgstr "amout"
 
-#: exts/commands/information/stats/do.py:82
+#: exts/commands/information/stats/do.py:77
 msgid "used"
 msgstr "Utilizado"
 
@@ -1387,110 +857,112 @@ msgid "Get information about you or a specified user.\n"
 "                @mention, ID or name."
 msgstr ""
 
-#: exts/commands/information/userinfo/do.py:65
-msgid "Idle"
-msgstr "Inativo"
+#: exts/commands/information/userinfo/userinfo.py:61
+#, python-brace-format
+msgid "{mention} {badges}\n"
+"                **Avatar**: {avatars}"
+msgstr ""
 
-#: exts/commands/information/userinfo/do.py:65
+#: exts/commands/information/userinfo/userinfo.py:65
 msgid "Please do not disturb"
 msgstr "Não perturbe por favor"
 
-#: exts/commands/information/userinfo/do.py:65
+#: exts/commands/information/userinfo/userinfo.py:65
 msgid "Offline"
 msgstr "Desconectado"
 
-#: exts/commands/information/userinfo/do.py:65
+#: exts/commands/information/userinfo/userinfo.py:65
 msgid "Online"
 msgstr "Disponível"
 
-#: exts/commands/information/userinfo/do.py:69
-msgid "Name"
-msgstr "Nome:"
-
-#: exts/commands/information/userinfo/do.py:70
+#: exts/commands/information/userinfo/userinfo.py:70
 msgid "#tag"
 msgstr "#tag"
 
-#: exts/commands/information/userinfo/do.py:74
+#: exts/commands/information/userinfo/userinfo.py:74
 msgid "Mutual Servers"
 msgstr "Servidores mútuos"
 
-#: exts/commands/information/userinfo/do.py:75
+#: exts/commands/information/userinfo/userinfo.py:75
 msgid "Discord-System"
 msgstr "Discord-System"
 
-#: exts/commands/information/userinfo/do.py:83
+#: exts/commands/information/userinfo/userinfo.py:82
 msgid "Member"
 msgstr ""
 
-#: exts/commands/information/userinfo/do.py:84
+#: exts/commands/information/userinfo/userinfo.py:83
 msgid "Since"
 msgstr ""
 
-#: exts/commands/information/userinfo/do.py:85
+#: exts/commands/information/userinfo/userinfo.py:84
 msgid "Top-Role"
 msgstr "Superior-Função"
 
-#: exts/commands/information/userinfo/do.py:86
+#: exts/commands/information/userinfo/userinfo.py:85
 msgid "Color"
 msgstr "Cor"
 
-#: exts/commands/information/userinfo/do.py:87
+#: exts/commands/information/userinfo/userinfo.py:86
 msgid "Activity"
 msgstr "Atividade"
 
-#: exts/commands/information/userinfo/do.py:88
+#: exts/commands/information/userinfo/userinfo.py:87
 msgid "Status"
 msgstr "SItuação"
 
-#: exts/commands/information/userinfo/do.py:89
+#: exts/commands/information/userinfo/userinfo.py:88
 msgid "Device"
 msgstr "Dispositivo"
 
-#: exts/commands/information/userinfo/do.py:94
+#: exts/commands/information/userinfo/userinfo.py:93
 msgid "Server Related"
 msgstr "Servidor relacionado"
 
-#: exts/commands/information/vote/do.py:17
+#: exts/commands/information/vote/do.py:16
 msgid "> Help Shake on its way (Vote)"
 msgstr ""
 
 #: exts/commands/information/vote/do.py:18
 #, python-brace-format
-msgid "{emoji} You did vote for Shake on top.gg today, thanks <3"
-msgstr ""
-
-#: exts/commands/information/vote/do.py:18
-#, python-brace-format
-msgid "{emoji} You didn't vote for Shake on top.gg today."
-msgstr ""
-
-#: exts/commands/information/vote/do.py:22
-#, python-brace-format
 msgid "{emoji} The benefit of supporting Shake with Voting"
 msgstr ""
 
-#: exts/commands/information/vote/do.py:24
-msgid "> _Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility nd helps others discover Shake too._\n\n"
+#: exts/commands/information/vote/do.py:20
+msgid "> _Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility and helps others discover Shake too._\n\n"
 "                **Thanks for every vote!!**\n"
 "                "
 msgstr ""
 
-#: exts/commands/information/vote/do.py:29
+#: exts/commands/information/vote/do.py:25
 #, python-brace-format
 msgid "{emoji} Sites the bot is listed at"
 msgstr ""
 
-#: exts/commands/information/vote/do.py:31
+#: exts/commands/information/vote/do.py:27
 #, python-brace-format
-msgid "**[Vote on Top.gg]({topgg})**"
+msgid "**[Vote for Shake on Top.gg]({topgg})**\n"
+"                **[Vote for Shake on Discordbotlist.com]({discordbotlist})**\n"
+"                **[Vote for Shake on discord-botlist.eu]({botlisteu})\n"
+"                **[Vote for Shake on infinitybots.gg]({infinitybots})****"
 msgstr ""
 
-#: exts/commands/information/vote/do.py:37
+#: exts/commands/information/vote/do.py:36
+#, python-brace-format
+msgid "{emoji} Other related links"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:38
+#, python-brace-format
+msgid "**[Shake on Discord Bots]({discordbots})**\n"
+"                **[Shake's Server on Discords]({discords})**"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:45
 msgid "Freemium | Vote isn't required"
 msgstr ""
 
-#: exts/commands/information/vote/do.py:46
+#: exts/commands/information/vote/do.py:54
 msgid "Vote for Shake"
 msgstr ""
 
@@ -1617,23 +1089,23 @@ msgid "Set your language for Shake.\n"
 "                If the language should be for the whole server"
 msgstr ""
 
-#: exts/commands/other/language/do.py:69
+#: exts/commands/other/language/do.py:67
 #, python-brace-format
 msgid "{emoji} {prefix} **Your given language is not valid. Use </language list> to get a list of all available languages**"
 msgstr ""
 
-#: exts/commands/other/language/do.py:75
+#: exts/commands/other/language/do.py:73
 #, python-brace-format
 msgid "{emoji} {prefix} **I'm sorry to say that I dont have your given locale ready.**\n"
 "                Try to contribute [here]({link}) if you want to!"
 msgstr ""
 
-#: exts/commands/other/language/do.py:81
+#: exts/commands/other/language/do.py:79
 #, python-brace-format
 msgid "{emoji} {prefix} **The specified language was set successfully!**"
 msgstr ""
 
-#: exts/commands/other/language/do.py:138
+#: exts/commands/other/language/do.py:137
 msgid "Available Translations"
 msgstr ""
 
@@ -1688,11 +1160,11 @@ msgid "synchronize the bot with its commands\n\n"
 "                if dump"
 msgstr ""
 
-#: exts/commands/other/sync/do.py:46
+#: exts/commands/other/sync/do.py:45
 msgid "globally"
 msgstr "globalmente"
 
-#: exts/commands/other/sync/do.py:46
+#: exts/commands/other/sync/do.py:45
 msgid "to the current guild"
 msgstr "para a guilda atual"
 
@@ -1704,7 +1176,7 @@ msgstr "Testar comandos temporários"
 msgid "Unload extensions of the bot"
 msgstr "Carregar uma extensão do bot"
 
-#: exts/commands/wouldyou/rather/__init__.py:36
+#: exts/commands/wouldyou/rather/__init__.py:39
 msgid "Get a useful would you rather question.\n\n"
 "            Parameters\n"
 "            -----------\n"
@@ -1712,7 +1184,7 @@ msgid "Get a useful would you rather question.\n\n"
 "                Do you want the users to be able to vote?"
 msgstr ""
 
-#: exts/commands/wouldyou/rather/__init__.py:51
+#: exts/commands/wouldyou/rather/__init__.py:55
 msgid "Get a useless would you rather question.\n\n"
 "            Parameters\n"
 "            -----------\n"
@@ -1720,21 +1192,35 @@ msgid "Get a useless would you rather question.\n\n"
 "                Do you want the users to be able to vote?"
 msgstr ""
 
-#: exts/commands/wouldyou/rather/do.py:26
+#: exts/commands/wouldyou/rather/do.py:33
 msgid "Would you rather have this"
 msgstr ""
 
-#: exts/commands/wouldyou/rather/do.py:30
+#: exts/commands/wouldyou/rather/do.py:37
 #, python-brace-format
 msgid "or this {adjective} Power?"
 msgstr ""
 
-#: exts/commands/wouldyou/rather/do.py:30
+#: exts/commands/wouldyou/rather/do.py:37
 msgid "useful"
 msgstr ""
 
-#: exts/commands/wouldyou/rather/do.py:30
+#: exts/commands/wouldyou/rather/do.py:37
 msgid "useless"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:81 exts/commands/wouldyou/would
+#: you/do.py:90
+msgid "Stats"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:82
+#, python-brace-format
+msgid "**{users}** of **{total}** user (**{procent}%**) would take power nr. {power}"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:84
+msgid "No one would take any power?"
 msgstr ""
 
 #: exts/commands/wouldyou/would you/__init__.py:36
@@ -1753,12 +1239,13 @@ msgid "Useless Power.\n\n"
 "                Do you want the users to be able to vote?"
 msgstr ""
 
-#: exts/commands/wouldyou/would you/do.py:26
+#: exts/commands/wouldyou/would you/do.py:52
 msgid "Would you want this power?"
 msgstr ""
 
-#: exts/commands/wouldyou/would you/do.py:30
-msgid "Stats"
+#: exts/commands/wouldyou/would you/do.py:91
+#, python-brace-format
+msgid "**{yes}** of **{total}** user (**{procent}%**) would take this power."
 msgstr ""
 
 #: exts/commands/wouldyou/wouldyou.py:10
@@ -1778,47 +1265,61 @@ msgstr ""
 msgid "WouldYou Commands"
 msgstr ""
 
-#: exts/commands/wouldyou/wwyd/__init__.py:27
+#: exts/commands/wouldyou/wwyd/__init__.py:28
 msgid "What would you do in this situation."
 msgstr ""
 
-#: exts/commands/wouldyou/wwyd/do.py:24
-msgid "What would you do?"
+#: exts/commands/wouldyou/wwyd/do.py:25
+msgid "What would you do? Explain what and why!"
 msgstr ""
 
-#: exts/commands/wouldyou/wwyd/do.py:26
-msgid "Explain what and why"
-msgstr ""
-
-#: exts/functions/Commands/command/error/do.py:27
+#: exts/functions/Commands/command/error/do.py:28
 #, python-brace-format
 msgid "If you think that's a mistake. Report per `{command_sig}`"
 msgstr "Se você acha que isso é um erro. Relate por `{command_sig}`"
 
-#: exts/functions/Commands/command/error/do.py:38
+#: exts/functions/Commands/command/error/do.py:42
 msgid "You did something wrong, try !help"
 msgstr "Você fez algo errado, tente !help"
 
+#: exts/functions/Commands/command/error/do.py:46
+msgid "I do not have permission to execute this action."
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:49
+#, python-brace-format
+msgid "This entity does not exist: {original.text}"
+msgstr ""
+
 #: exts/functions/Commands/command/error/do.py:52
+msgid "Somehow, an unexpected error occurred. Try again later?"
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:55
+#, python-brace-format
+msgid "You can use this command in {0:.0f} seconds."
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:58
 #, python-brace-format
 msgid "Only the bot owner can run the command `{command}`."
 msgstr "Apenas o dono do bot pode executar o comando `{command}`."
 
-#: exts/functions/Commands/command/error/do.py:56
+#: exts/functions/Commands/command/error/do.py:61
 #, python-brace-format
 msgid "You are missing `{permission}` permission(s) to run this command."
 msgstr "Você está faltando permissão `{permission}` para executar este comando."
 
-#: exts/functions/Commands/command/error/do.py:58
+#: exts/functions/Commands/command/error/do.py:64
 msgid "There happened something wrong, try again!"
 msgstr ""
 
-#: exts/functions/Commands/command/error/do.py:84
+#: exts/functions/Commands/command/error/do.py:94
 #, python-brace-format
 msgid "No command named `{invoked_command}` found. Use \"{prefix}help\" for help."
 msgstr "Nenhum comando chamado `{invoked_command}` encontrado. Use \"{prefix}ajuda\" para obter ajuda."
 
-#: exts/functions/Commands/command/error/do.py:90
+#: exts/functions/Commands/command/error/do.py:100
 #, python-brace-format
 msgid "No command named `{invoked_command}` found. Did you perhaps mean\n"
 "                > {prefix}{closest_1}?"
