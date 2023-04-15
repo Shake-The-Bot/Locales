@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
-"POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-13 12:52\n"
+"POT-Creation-Date: 2022-12-29 01:58+0100\n"
+"PO-Revision-Date: 2023-04-15 14:08\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh\n"
@@ -18,6 +18,10 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /crowdin/template.pot\n"
 "X-Crowdin-File-ID: 375\n"
+
+#: classes/context.py:136
+msgid "**Enjoying using Shake? We would love it if you [vote]({}) for us!**"
+msgstr ""
 
 #: classes/converter/dourationdelta.py:27
 #, python-brace-format
@@ -38,228 +42,234 @@ msgstr "正则表达式缺少包装后划线"
 msgid "Regex error: {e_msg}"
 msgstr "正则表达式错误: {e_msg}"
 
-#: classes/help/menu.py:50
-msgid "Choose a Category..."
-msgstr "选择一个类别..."
+#: classes/pages/page.py:105 classes/pages/page.py:211
+#: exts/commands/help/menu.py:123
+msgid "Stop"
+msgstr ""
 
-#: classes/help/page.py:110
-msgid "Page"
-msgstr "页"
+#: classes/utils.py:183
+msgid " and "
+msgstr ""
 
-#: classes/help/page.py:217
-msgid "An unknown error has occurred, sorry"
-msgstr "发生了一个未知错误，很抱歉。"
+#: exts/commands/functions/aboveme/__init__.py:31
+#: exts/commands/functions/freegames/__init__.py:30
+#: exts/commands/wouldyou/rather/__init__.py:30 exts/commands/wouldyou/would
+#: you/__init__.py:28
+msgid "Manage the aboveme features of the bot"
+msgstr "管理机器人的运营商功能"
 
-#: classes/help/page.py:290
-msgid "stop"
-msgstr "停止"
+#: exts/commands/functions/aboveme/__init__.py:45
+msgid "Set up the Aboveme-Game with a wizard in seconds."
+msgstr "用向导设置Aboveme-Game 在几秒钟内完成。"
 
-#: classes/help/pagesource.py:89 classes/help/pagesource.py:90
+#: exts/commands/functions/aboveme/do.py:33
+msgid "aboveme category"
+msgstr "博夫梅类别"
+
+#: exts/commands/functions/aboveme/do.py:41
+#: exts/commands/functions/freegames/do.py:40
+msgid "︱aboveme"
+msgstr "__aboveme"
+
+#: exts/commands/functions/aboveme/do.py:42
+msgid "The one above me has certainly not played this excellent game yet..."
+msgstr "我上面的人当然还没有玩过这场杰出的游戏..."
+
+#: exts/commands/functions/aboveme/do.py:49
 #, python-brace-format
-msgid "[{name} (upload a file)]"
-msgstr "[{name} (上传文件)]"
+msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play aboveme on this Discord server!"
+msgstr "{emoji} {prefix} **安装完成 **。 {channel} 现在可以在此 Discord 服务器上玩游戏！"
 
-#: classes/help/pagesource.py:92
+#: exts/commands/functions/counting/__init__.py:32
+msgid "Manage the counting features of the bot"
+msgstr "管理机器人的运营商功能"
+
+#: exts/commands/functions/counting/__init__.py:43
+msgid "Set up Counting with a wizard in seconds.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            hardcore: Optional[bool]\n"
+"                if hardcore\n\n"
+"            numbersonly: Optional[bool]\n"
+"                if numbersonly\n\n"
+"            goal: Optional[int]\n"
+"                the goal\n"
+"            "
+msgstr ""
+
+#: exts/commands/functions/counting/do.py:32
+msgid "counting category"
+msgstr "正在计算类别"
+
+#: exts/commands/functions/counting/do.py:39
+msgid "︱counting"
+msgstr "-计算"
+
+#: exts/commands/functions/freegames/__init__.py:38
+msgid "Set up the Aboveme-Game with a wizard in seconds.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            stores: Literal['steam', 'epicgames', 'gog']\n"
+"                the stores which the channel should support\n"
+"            "
+msgstr ""
+
+#: exts/commands/functions/freegames/do.py:34
+msgid "freegames category"
+msgstr ""
+
+#: exts/commands/functions/freegames/do.py:43
+msgid "Preview Game"
+msgstr ""
+
+#: exts/commands/functions/freegames/do.py:44
+msgid "This is a preview of this function. It brings a lot with it for example a overview of the prizes and an instant link to the launcher!"
+msgstr ""
+
+#: exts/commands/functions/freegames/do.py:57
 #, python-brace-format
-msgid "<{name} (upload a file)>"
-msgstr "[{name} (上传文件)]"
+msgid "{emoji} {prefix} **Setup completed**. {channel} now will be used to announce newly free games from the selected stores!"
+msgstr ""
 
-#: classes/help/pagesource.py:92
+#: exts/commands/functions/functions.py:10
+msgid "Commands for the functions of mine"
+msgstr ""
+
+#: exts/commands/functions/functions.py:13
+msgid "functions"
+msgstr ""
+
+#: exts/commands/functions/functions.py:26
+msgid "🧷︱Functions"
+msgstr ""
+
+#: exts/commands/functions/functions.py:30
+msgid "Functions"
+msgstr ""
+
+#: exts/commands/functions/functions.py:33
+msgid "Functions Commands"
+msgstr ""
+
+#: exts/commands/functions/oneword/__init__.py:31
+msgid "Manage the oneword features of the bot"
+msgstr "管理机器人的运营商功能"
+
+#: exts/commands/functions/oneword/__init__.py:45
+msgid "Set up the Oneword-Game with a wizard in seconds."
+msgstr "用向导设置Aboveme-Game 在几秒钟内完成。"
+
+#: exts/commands/functions/oneword/do.py:32
+msgid "oneword category"
+msgstr "单词类别"
+
+#: exts/commands/functions/oneword/do.py:39
+msgid "︱oneword"
+msgstr "— 一词"
+
+#: exts/commands/functions/oneword/do.py:40
+msgid "I"
+msgstr "一"
+
+#: exts/commands/functions/oneword/do.py:51
 #, python-brace-format
-msgid "[{name} (upload files)]..."
-msgstr "[{name} (上传文件)]..."
+msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play oneword on this Discord server!"
+msgstr "{emoji} {prefix} **安装完成 **。 {channel} 现在可以在此 Discord 服务器上玩游戏！"
 
-#: classes/help/pagesource.py:138
-msgid "No help available"
-msgstr "无可用帮助"
+#: exts/commands/functions/tempvoice/__init__.py:32
+msgid "Setup the tempvoice features of mine"
+msgstr ""
 
-#: classes/help/pagesource.py:161
-msgid "Usage"
-msgstr "用法"
+#: exts/commands/functions/tempvoice/__init__.py:41
+msgid "Set up TempVoice with a wizard in seconds.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            prefix: Optional[strl]\n"
+"                the prefix\n\n"
+"            suffix: Optional[str]\n"
+"                the suffix\n\n"
+"            locked: Optional[bool]\n"
+"                if locked\n\n"
+"            user_limit: Optional[int]\n"
+"                the user limit\n"
+"            "
+msgstr ""
 
-#: classes/help/pagesource.py:180
-msgid "Examples"
-msgstr "示例："
+#: exts/commands/functions/tempvoice/__init__.py:58
+msgid "I am sorry to say that this feature is currently under maintenance. Try again later!"
+msgstr ""
 
-#: classes/help/pagesource.py:187 classes/help/pagesource.py:188
-msgid "None"
-msgstr "无"
+#: exts/commands/functions/tempvoice/do.py:32
+msgid "tempvoice category"
+msgstr "节奏语音类别"
 
-#: classes/help/pagesource.py:195
-msgid "Necessary user permissions"
-msgstr "必要的用户权限"
+#: exts/commands/functions/tempvoice/do.py:40
+msgid "︱Creator Channel"
+msgstr "— 创作者频道"
 
-#: classes/help/pagesource.py:195
-msgid "User"
-msgstr "用户"
+#: exts/commands/functions/tempvoice/do.py:48
+msgid "︱interface"
+msgstr "-接口"
 
-#: classes/help/pagesource.py:195 exts/commands/information/userinfo/do
-#: copy.py:31 exts/commands/information/userinfo/do.py:45
-msgid "Bot"
-msgstr "Bot"
+#: exts/commands/functions/tempvoice/do.py:67
+msgid "TempVoice Interface"
+msgstr "TempVoice 界面"
 
-#: classes/help/pagesource.py:209
-msgid "This command is new and is in its beta version"
-msgstr "此命令是新的并且是测试版"
-
-#: classes/help/pagesource.py:213
-msgid "Only the owner of the shake bot can run this command"
-msgstr "只有摇动机器人的所有者可以运行此命令"
-
-#: classes/help/pagesource.py:217
-msgid "Start a Shake Pro subscription to run this command"
-msgstr "启动Shake Pro 订阅来运行此命令"
-
-#: classes/help/pagesource.py:221
-msgid "This command requires certain rights from the user to be executed"
-msgstr "此命令要求用户执行某些权限"
-
-#: classes/help/pagesource.py:225
-msgid "Announce"
-msgstr "公告"
-
-#: classes/help/pagesource.py:247 classes/help/pagesource.py:305
-msgid "Write the command name (without the prefix) in this chat to get more specific\n"
-"information about a command."
-msgstr "在此聊天中写下命令名称 (无前缀) 以获取更多关于命令的\n"
-"信息。"
-
-#: classes/help/pagesource.py:250 classes/help/pagesource.py:308
+#: exts/commands/functions/tempvoice/do.py:70
 #, python-brace-format
-msgid "Page {current}/{max} ({entries} commands)"
-msgstr "页面 {current}/{max} ({entries} 命令)"
+msgid "{emoji} This interface can be used to edit your temporary channel.\n"
+"            More options will be available with {command} commands."
+msgstr "{emoji} 此接口可以用来编辑您的临时频道。\n"
+"            更多选项可以使用 {command} 命令。"
 
-#: classes/help/pagesource.py:272
-msgid "No help given... (maybe report to team)"
-msgstr "没有提供帮助... (可能向团队报告)"
+#: exts/commands/functions/tempvoice/do.py:75
+msgid "The interface can be used with the buttons below."
+msgstr "接口可以与下面的按钮一起使用。"
 
-#: classes/help/pagesource.py:326
-msgid "No help given... (use bugreport)"
-msgstr "没有提供帮助... (使用bugreport)"
+#: exts/commands/functions/tempvoice/do.py:92
+msgid "Support"
+msgstr "支持"
 
-#: classes/help/pagesource.py:350
-msgid "Bot Help"
-msgstr "Bot Help"
-
-#: classes/help/pagesource.py:353
-#, python-brace-format
-msgid "Hello and welcome to my help page {emoji}\n\n\n"
-"                Type `{prefix}help <command/category>` to get more information on a\n"
-"command/category."
-msgstr "您好并欢迎您来到我的帮助页面 {emoji}\n\n\n"
-"                输入 `{prefix}帮助 <command/category>` 来获取更多关于一个\n"
-"命令/类别的信息。"
-
-#: classes/help/pagesource.py:360
-msgid "Support Server"
-msgstr "支持服务器"
-
-#: classes/help/pagesource.py:361
-#, python-brace-format
-msgid "You can get more help if you join the official server at\n"
-"[https://discord.gg/shake]({support_server})"
-msgstr "如果您加入官方服务器在\n"
-"[https://discord.gg/shake]({support_server})"
-
-#: classes/help/pagesource.py:370
-msgid "Who am I?"
-msgstr "我是谁？"
-
-#: classes/help/pagesource.py:372
-msgid "{} bot, which is partially intended for the public.\n"
-"                    Written with only `{:,}` lines. Please be nice"
-msgstr "{} 个机器人，部分是为公众准备的。\n"
-"                    只用 \"{:}\" 行编写。请很好"
-
-#: classes/help/pagesource.py:378
-#, python-brace-format
-msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
-"                    I have been created {created_at} & \n"
-"                    I have functions like voting, level system, music, moderation & much more. \n"
-"                    You can get more information by using the dropdown menu below.\n"
-"                    dropdown menu."
-msgstr "我是一个可以简化为您设置服务器的功能的机器人！\n\n"
-"                    我已创建 {created_at} & \n"
-"                    我有像投票这样的功能 级别系统、音乐、调节和更多。 \n"
-"                    您可以通过下面的下拉菜单获得更多信息。\n"
-"                    下拉菜单。"
-
-#: classes/help/pagesource.py:386
-msgid "Stands for the argument being __**necessary**__."
-msgstr "参数的位置是 __**necessary**__ 。"
-
-#: classes/help/pagesource.py:387
-msgid "Stands for that the argument is __**optional**__."
-msgstr "这个参数的位置是 __**optional**__ 。"
-
-#: classes/help/pagesource.py:388
-msgid "Stands for the argument can be __**either A or B**__."
-msgstr "参数可以是 __**A 或 B**__。"
-
-#: classes/help/pagesource.py:390
-msgid "Stands for the fact that you can use multiple arguments.\n\n"
-"                    Now that you know the basics, you should still know that...\n"
-"                    __**You don't include the parentheses!**__"
-msgstr "设置您可以使用多个参数的事实。\n\n"
-"                    现在你知道基础知识， 你应该仍然知道这一点。 。\n"
-"                    __**你不包含括号！ *__"
-
-#: classes/help/pagesource.py:396
-msgid "How do I use the bot?"
-msgstr "如何使用机器人？"
-
-#: classes/help/pagesource.py:396
-msgid "Reading the bot structure is pretty easy."
-msgstr "阅读机器人结构非常容易。"
-
-#: classes/help/paginatedcommand.py:32
-msgid "An unknown error has occurred, I apologize, the responsible developers will be notified"
-msgstr "发生未知错误，我很抱歉，负责的开发者将会被通知"
-
-#: classes/help/paginatedcommand.py:52
-msgid "\"{command}\" \\N{EM DASH} Unknown command. Use \"{prefix}help\" for help."
-msgstr "\"{command}\" \\N{EM DASH} 未知命令。使用 \"{prefix}帮助\"寻求帮助。"
-
-#: exts/commands/gimmicks/count/__init__.py:31
+#: exts/commands/gimmicks/count/__init__.py:32
 msgid "Count for yourself"
 msgstr "为自己计数"
 
-#: exts/commands/gimmicks/count/do.py:15
+#: exts/commands/gimmicks/count/count.py:15
 msgid "Start?"
 msgstr "开始吗？"
 
-#: exts/commands/gimmicks/count/do.py:24
+#: exts/commands/gimmicks/count/count.py:24
 msgid "Congratulation"
 msgstr "祝贺你"
 
-#: exts/commands/gimmicks/count/do.py:30
+#: exts/commands/gimmicks/count/count.py:30
 msgid "Yes"
 msgstr "否"
 
-#: exts/commands/gimmicks/count/do.py:32
+#: exts/commands/gimmicks/count/count.py:32
 msgid "Have fun!"
 msgstr "玩得开心！"
 
-#: exts/commands/gimmicks/everyone/__init__.py:34
+#: exts/commands/gimmicks/everyone/__init__.py:29
 msgid "Remind others how bad @everyone actually is\n\n"
 "            With this command you can show other people with a picture/gif alone,\n"
 "            how unnecessary a @everyone ping is. \n"
 "        \n"
-"            You can also use this command to express that someone is spamming @everyone again."
+"            You can also use this command to express that someone is spamming @everyone again.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: commands.Greedy[Member]\n"
+"                the member to blame"
 msgstr ""
 
-#: exts/commands/gimmicks/everyone/do.py:20
-#: exts/commands/information/stats/do.py:22
-msgid "and"
-msgstr "和"
-
-#: exts/commands/gimmicks/everyone/do.py:22
+#: exts/commands/gimmicks/everyone/everyone.py:23
 msgid "Stop spamming @everyone!\n"
 "It's not that important...."
 msgstr "停止垃圾邮件@所有人！\n"
 "这不是重要的......"
 
-#: exts/commands/gimmicks/everyone/do.py:24
+#: exts/commands/gimmicks/everyone/everyone.py:25
 #, python-brace-format
 msgid "{members}, stop spamming @everyone!\n"
 "It's not that important..."
@@ -286,63 +296,271 @@ msgstr "Gimmicks"
 msgid "Gimmick Commands"
 msgstr "Gimmick 命令"
 
-#: exts/commands/gimmicks/pp/__init__.py:35
+#: exts/commands/gimmicks/pp/__init__.py:34
 msgid "Reveal the length of a user's pp\n\n"
 "            With this command you can find out, using a very clever and definitely not random generator,\n"
 "            how long the pp of a selected user is.\n"
 "            \n"
-"            __Please note__: If you don't specify a user, I might reveal your pp as well."
-msgstr "使用此命令显示用户pp\n\n"
-"            的长度，您可以找到： 使用一个非常聪明而且绝对不是随机生成器，\n"
-"            所选用户的 pp 是多长时间。\n"
-"            \n"
-"            __请注意：如果您没有指定用户， 我也可以透露你的pp"
+"            __Please note__: If you don't specify a user, I might reveal your pp as well.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: Greedy[Member]\n"
+"                the member to ban"
+msgstr ""
 
-#: exts/commands/gimmicks/rainbow/__init__.py:34
-msgid "Show your support to LGBT+ with a rainbow filter! ^^"
-msgstr "用彩虹过滤器向LGBT+显示你的支持！^^"
+#: exts/commands/gimmicks/pp/pp.py:19
+msgid "Peepee lenght"
+msgstr ""
 
-#: exts/commands/gimmicks/rainbow/do.py:42
+#: exts/commands/gimmicks/rainbow/__init__.py:30
+msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: discord.Member\n"
+"                the member to add"
+msgstr ""
+
+#: exts/commands/gimmicks/rainbow/rainbow.py:42
 #, python-brace-format
 msgid "**{emoji} {prefix} `{user}` is part of it**"
 msgstr "**{emoji} {prefix}{user}`是** 的一部分。"
 
-#: exts/commands/gimmicks/roll/__init__.py:33
-msgid "displays a random number in a specified range of values. (Default: 1-6)"
-msgstr "在指定的数值范围内显示随机数字。(默认：1-6)"
+#: exts/commands/gimmicks/roll/__init__.py:30
+msgid "Displays a random number in a specified range of values. (Default: 1-6)\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            start: Optional[int]\n"
+"                the start to roll at\n\n"
+"            limit: Optional[int]\n"
+"                the limit to roll till"
+msgstr ""
 
-#: exts/commands/gimmicks/roll/do.py:18
-msgid "🎲 Dice roll"
-msgstr "🎲 Dice rol"
+#: exts/commands/gimmicks/roll/roll.py:20
+msgid "Dice roll"
+msgstr ""
 
-#: exts/commands/gimmicks/roll/do.py:19
+#: exts/commands/gimmicks/roll/roll.py:25
 #, python-brace-format
 msgid "You have rolled a random number and the result is __**{number}**__"
 msgstr "您随机滚动了一个数字，结果是 __**{number}**__"
 
-#: exts/commands/gimmicks/say/__init__.py:33
-msgid "I will say whatever you tell me to say.\n"
-"            \n"
-"            - `reply`: \n"
-"            \\u2003True or False whether the bot should reply to you.\n"
-"            - `text`: \n"
-"            \\u2003The text to repeat."
-msgstr "我要说你告诉我的话。\n"
-"            \n"
-"            - '回复'： \n"
-"            \\u2003True 或 False 机器人是否应该回复您。\n"
-"            - `text`: \n"
-"            \\u2003要重复的文本。"
+#: exts/commands/gimmicks/say/__init__.py:29
+msgid "I will say whatever you tell me to say.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            reply: Optional[bool]\n"
+"                True or False whether the bot should reply to you\n\n"
+"            text: str\n"
+"                What the bot should echo"
+msgstr ""
 
-#: exts/commands/information/charinfo/__init__.py:33
+#: exts/commands/help/__init__.py:24
+msgid "Shows all Shake bot commands and provides helpful links\n"
+"        \n"
+"            Parameters\n"
+"            -----------\n"
+"            category: Optional[str]\n"
+"                the category\n\n"
+"            command: Optional[str]\n"
+"                the command   \n"
+"            "
+msgstr ""
+
+#: exts/commands/help/menu.py:183
+msgid "Choose a Category..."
+msgstr "选择一个类别..."
+
+#: exts/commands/help/menu.py:213
+msgid "This category does not exist."
+msgstr ""
+
+#: exts/commands/help/menu.py:216
+msgid "This category has no commands for you."
+msgstr ""
+
+#: exts/commands/help/menu.py:288 exts/commands/help/menu.py:289
+#, python-brace-format
+msgid "[{name} (upload a file)]"
+msgstr "[{name} (上传文件)]"
+
+#: exts/commands/help/menu.py:291 exts/commands/help/menu.py:292
+#, python-brace-format
+msgid "<{name} (upload a file)>"
+msgstr "[{name} (上传文件)]"
+
+#: exts/commands/help/menu.py:291 exts/commands/help/menu.py:292
+#, python-brace-format
+msgid "[{name} (upload files)]..."
+msgstr "[{name} (上传文件)]..."
+
+#: exts/commands/help/menu.py:337
+msgid "More detailed command description"
+msgstr ""
+
+#: exts/commands/help/menu.py:338
+#, python-brace-format
+msgid "{category} » {command} Command"
+msgstr ""
+
+#: exts/commands/help/menu.py:342
+msgid "No more detailed description given."
+msgstr ""
+
+#: exts/commands/help/menu.py:358
+msgid "Usage"
+msgstr "用法"
+
+#: exts/commands/help/menu.py:376
+msgid "Examples"
+msgstr "示例："
+
+#: exts/commands/help/menu.py:382 exts/commands/help/menu.py:383
+msgid "None"
+msgstr "无"
+
+#: exts/commands/help/menu.py:390
+msgid "Necessary user permissions"
+msgstr "必要的用户权限"
+
+#: exts/commands/help/menu.py:390
+msgid "User"
+msgstr "用户"
+
+#: exts/commands/help/menu.py:390
+#: exts/commands/information/userinfo/userinfo.py:72
+msgid "Bot"
+msgstr "Bot"
+
+#: exts/commands/help/menu.py:404
+msgid "This command is new and is in its beta version"
+msgstr "此命令是新的并且是测试版"
+
+#: exts/commands/help/menu.py:408
+msgid "Only the owner of the shake bot can run this command"
+msgstr "只有摇动机器人的所有者可以运行此命令"
+
+#: exts/commands/help/menu.py:412
+msgid "Start a Shake Pro subscription to run this command"
+msgstr "启动Shake Pro 订阅来运行此命令"
+
+#: exts/commands/help/menu.py:416
+msgid "This command requires certain rights from the user to be executed"
+msgstr "此命令要求用户执行某些权限"
+
+#: exts/commands/help/menu.py:420
+msgid "Announce"
+msgstr "公告"
+
+#: exts/commands/help/menu.py:451 exts/commands/help/menu.py:509
+msgid "Write the command name (without the prefix) in this chat to get more specific\n"
+"information about a command."
+msgstr "在此聊天中写下命令名称 (无前缀) 以获取更多关于命令的\n"
+"信息。"
+
+#: exts/commands/help/menu.py:454 exts/commands/help/menu.py:512
+#, python-brace-format
+msgid "Page {current}/{max} ({entries} commands)"
+msgstr "页面 {current}/{max} ({entries} 命令)"
+
+#: exts/commands/help/menu.py:475
+msgid "No help given... (maybe report to team)"
+msgstr "没有提供帮助... (可能向团队报告)"
+
+#: exts/commands/help/menu.py:530
+msgid "No help given... (use bugreport)"
+msgstr "没有提供帮助... (使用bugreport)"
+
+#: exts/commands/help/menu.py:558
+msgid "Bot Help"
+msgstr "Bot Help"
+
+#: exts/commands/help/menu.py:561
+#, python-brace-format
+msgid "Hello and welcome to my help page {emoji}\n"
+"                Type `{prefix}help <command/category>` to get more information on a\n"
+"command/category."
+msgstr ""
+
+#: exts/commands/help/menu.py:568
+msgid "Support Server"
+msgstr "支持服务器"
+
+#: exts/commands/help/menu.py:569
+#, python-brace-format
+msgid "You can get more help if you join the official server at\n"
+"[https://discord.gg/shake]({support_server})"
+msgstr "如果您加入官方服务器在\n"
+"[https://discord.gg/shake]({support_server})"
+
+#: exts/commands/help/menu.py:578
+msgid "Who am I?"
+msgstr "我是谁？"
+
+#: exts/commands/help/menu.py:580
+msgid "{user}, which is partially intended for the public.\n"
+"                    Written with only `{lines:,}` lines. Please be nice"
+msgstr ""
+
+#: exts/commands/help/menu.py:585
+msgid "What am I for?"
+msgstr ""
+
+#: exts/commands/help/menu.py:587
+#, python-brace-format
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
+"                    I have been created {created_at} & \n"
+"                    I have functions like voting, level system, music, moderation & much more. \n"
+"                    You can get more information by using the dropdown menu below.\n"
+"                    dropdown menu."
+msgstr "我是一个可以简化为您设置服务器的功能的机器人！\n\n"
+"                    我已创建 {created_at} & \n"
+"                    我有像投票这样的功能 级别系统、音乐、调节和更多。 \n"
+"                    您可以通过下面的下拉菜单获得更多信息。\n"
+"                    下拉菜单。"
+
+#: exts/commands/help/menu.py:595
+msgid "Stands for the argument being __**necessary**__."
+msgstr "参数的位置是 __**necessary**__ 。"
+
+#: exts/commands/help/menu.py:596
+msgid "Stands for that the argument is __**optional**__."
+msgstr "这个参数的位置是 __**optional**__ 。"
+
+#: exts/commands/help/menu.py:597
+msgid "Stands for the argument can be __**either A or B**__."
+msgstr "参数可以是 __**A 或 B**__。"
+
+#: exts/commands/help/menu.py:599
+msgid "Stands for the fact that you can use multiple arguments.\n\n"
+"                    Now that you know the basics, you should still know that...\n"
+"                    __**You don't include the parentheses!**__"
+msgstr "设置您可以使用多个参数的事实。\n\n"
+"                    现在你知道基础知识， 你应该仍然知道这一点。 。\n"
+"                    __**你不包含括号！ *__"
+
+#: exts/commands/help/menu.py:605
+msgid "How do I use the bot?"
+msgstr "如何使用机器人？"
+
+#: exts/commands/help/menu.py:605
+msgid "Reading the bot structure is pretty easy."
+msgstr "阅读机器人结构非常容易。"
+
+#: exts/commands/help/paginated.py:51
+msgid "\"{command}\" \\N{EM DASH} Unknown command. Use \"{prefix}help\" for help."
+msgstr "\"{command}\" \\N{EM DASH} 未知命令。使用 \"{prefix}帮助\"寻求帮助。"
+
+#: exts/commands/information/charinfo/__init__.py:28
 msgid "Displays information about a set of characters.\n"
 "            \n"
-"            Only up to 25 characters at a time."
-msgstr "显示一组字符的信息。\n"
-"            \n"
-"            每次最多25个字符。"
+"            Note: Only up to 25 characters at a time."
+msgstr ""
 
-#: exts/commands/information/charinfo/do.py:19
+#: exts/commands/information/charinfo/charinfo.py:17
+msgid "To many characters ({}/15)"
+msgstr ""
+
+#: exts/commands/information/charinfo/charinfo.py:19
 msgid "Charinfo Command"
 msgstr "Charinfo 命令"
 
@@ -363,8 +581,9 @@ msgid "info"
 msgstr "信息"
 
 #: exts/commands/information/information.py:26
-#: exts/commands/information/userinfo/do copy.py:51
-#: exts/commands/information/userinfo/do.py:65
+#: exts/commands/information/serverinfo/serverinfo.py:85
+#: exts/commands/information/userinfo/userinfo.py:98
+#: exts/commands/information/userinfo/userinfo.py:104
 msgid "Information"
 msgstr "信息"
 
@@ -374,37 +593,60 @@ msgid "Invite the bot to your server.\n\n"
 msgstr "邀请机器人到您的服务器。\n\n"
 "            当然，您也可以简单地通过其用户个人资料添加机器人。"
 
-#: exts/commands/information/invite/do copy.py:17
-#: exts/commands/information/invite/do.py:17
+#: exts/commands/information/invite/invite.py:18
 msgid "The Shake Team and I thank you for your interest"
 msgstr "摇晃团队和我感谢您的关注"
 
-#: exts/commands/information/invite/do copy.py:25
-#: exts/commands/information/invite/do.py:26
+#: exts/commands/information/invite/invite.py:28
 msgid "Add Shake to your Server"
 msgstr "将摇晃添加到您的服务器"
 
+#: exts/commands/information/invite/invite.py:29
+msgid "Join Shake's Server"
+msgstr ""
+
+#: exts/commands/information/ping/__init__.py:28
+msgid "Get some ping"
+msgstr ""
+
+#: exts/commands/information/ping/ping.py:16
+msgid "Pong! 🏓"
+msgstr ""
+
+#: exts/commands/information/ping/ping.py:20
+msgid "Discord Gateway"
+msgstr ""
+
+#: exts/commands/information/ping/ping.py:24
+msgid "Client Latency"
+msgstr ""
+
+#: exts/commands/information/ping/ping.py:35
+msgid "Discord Status"
+msgstr ""
+
 #: exts/commands/information/premium/__init__.py:31
+#: exts/commands/information/vote/__init__.py:29
 msgid "Get information about Shake+.\n\n"
 "            Of course, you dont have to. It's like a tip"
 msgstr "获取关于Shake+的信息。\n\n"
 "            当然你不必。这就像一个小贴士。"
 
-#: exts/commands/information/premium/do.py:16
+#: exts/commands/information/premium/premium.py:16
 msgid "> Shake Premium (Shake+)"
 msgstr "> 摇晃高级版 (Shake+)"
 
-#: exts/commands/information/premium/do.py:17
+#: exts/commands/information/premium/premium.py:17
 #, python-brace-format
 msgid "{emoji} This Discord server has no premium activated."
 msgstr "{emoji} 此 Discord 服务器没有激活高级版。"
 
-#: exts/commands/information/premium/do.py:19
+#: exts/commands/information/premium/premium.py:19
 #, python-brace-format
 msgid "{emoji} The benefit of supporting Shake as Patreon"
 msgstr "{emoji} 支持摇晃作为Patreon的利益"
 
-#: exts/commands/information/premium/do.py:21
+#: exts/commands/information/premium/premium.py:21
 msgid "Supporting the Bot as Patreon will keep the motivation for the development of Shake and make sure that all hosting costs are covered.\n\n"
 "                Premium makes **voting no longer necessary** and gives you **more creator channel** to customize! \n"
 "                "
@@ -412,12 +654,12 @@ msgstr "支持Bot as Patreon将保持开发摇晃的动力，并确保支付所�
 "                高级版使得**投票不再需要** 并使您可以**更多的创建者频道** 自定义！ \n"
 "                "
 
-#: exts/commands/information/premium/do.py:26
+#: exts/commands/information/premium/premium.py:26
 #, python-brace-format
 msgid "{emoji} Helpful links for understanding Patreon"
 msgstr "{emoji} 有助于理解专利的链接"
 
-#: exts/commands/information/premium/do.py:28
+#: exts/commands/information/premium/premium.py:28
 msgid "**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
 "                **[What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
 "                **[How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
@@ -427,38 +669,66 @@ msgstr "**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-W
 "                **[我如何将Discord 连接到Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-connect-Discord-to Patreon-Patron)**\n"
 "                "
 
-#: exts/commands/information/premium/do.py:33
+#: exts/commands/information/premium/premium.py:33
 msgid "Freemium | Premium isn't required"
 msgstr "Freemium | 高级版不需要"
 
-#: exts/commands/information/premium/do.py:42
+#: exts/commands/information/premium/premium.py:42
 msgid "Add Shake to your server"
 msgstr "将摇晃添加到您的服务器"
 
-#: exts/commands/information/rtfm/__init__.py:36
+#: exts/commands/information/rtfm/__init__.py:94
 msgid "View objects from certain documentation.\n\n"
 "            RTFM is internet slang for the phrase \"read the damn manual\"."
 msgstr "查看特定文档中的对象。\n\n"
 "            RTFM 是 Internet slang“read the damn manual”短语的 Internet slang。"
 
-#: exts/commands/information/rtfm/do.py:101
+#: exts/commands/information/rtfm/__init__.py:108
+msgid "View certain objects from the official discord.py documentation.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            entity: Optional[str]\n"
+"                the entity to look for in the documentation"
+msgstr ""
+
+#: exts/commands/information/rtfm/__init__.py:125
+msgid "View certain objects from official python documentation. \n\n"
+"            RTFM is internet slang for the phrase \"read the damn manual\".\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            entity: Optional[str]\n"
+"                the entity to look for in the documentation"
+msgstr ""
+
+#: exts/commands/information/rtfm/__init__.py:143
+msgid "View the members stats of the rtfm command.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            member: Greedy[Member]\n"
+"                the members you want to get the stats from"
+msgstr ""
+
+#: exts/commands/information/rtfm/rtfm.py:69
 msgid "Couldn't find anything."
 msgstr "找不到任何东西。"
 
-#: exts/commands/information/rtfm/do.py:118
+#: exts/commands/information/rtfm/rtfm.py:86
 msgid "Uses"
 msgstr "使用"
 
-#: exts/commands/information/rtfm/do.py:119
+#: exts/commands/information/rtfm/rtfm.py:87
 msgid "Total"
 msgstr "总计"
 
-#: exts/commands/information/rtfm/do.py:135
+#: exts/commands/information/rtfm/rtfm.py:103
 #, python-brace-format
 msgid "**Total uses**: {total_uses}"
 msgstr "**总使用量**: {total_uses}"
 
-#: exts/commands/information/rtfm/do.py:138
+#: exts/commands/information/rtfm/rtfm.py:106
 #, python-brace-format
 msgid "**Top {top} member**:"
 msgstr "**前 {top} 位成员**："
@@ -473,51 +743,50 @@ msgstr "获取特定服务器的信息。\n\n"
 "            - \"信息\": \n"
 "            \\u2003[所有者, 会员，创建。 。"
 
-#: exts/commands/information/serverinfo/do.py:46
+#: exts/commands/information/serverinfo/serverinfo.py:62
 #, python-brace-format
-msgid "Info for {guild_name}"
-msgstr "{guild_name} 的信息"
+msgid "**Avatar**: {avatars}"
+msgstr ""
 
-#: exts/commands/information/serverinfo/do.py:47
-#: exts/commands/information/userinfo/do copy.py:30
-#: exts/commands/information/userinfo/do.py:44
-msgid "ID"
-msgstr "ID"
+#: exts/commands/information/serverinfo/serverinfo.py:66
+#: exts/commands/information/userinfo/userinfo.py:65
+msgid "Idle"
+msgstr "空闲的"
 
-#: exts/commands/information/serverinfo/do.py:48
-msgid "Owner"
-msgstr "所有者"
+#: exts/commands/information/serverinfo/serverinfo.py:72
+#: exts/commands/information/userinfo/userinfo.py:69
+msgid "Name"
+msgstr "名称"
 
-#: exts/commands/information/serverinfo/do.py:56
-msgid "Partnered"
-msgstr "合作伙伴的"
-
-#: exts/commands/information/serverinfo/do.py:59
-msgid "Safe for work"
-msgstr "工作安全"
-
-#: exts/commands/information/serverinfo/do.py:60
-msgid "Large"
-msgstr "大的"
-
-#: exts/commands/information/serverinfo/do.py:70
-#, python-brace-format
-msgid "Total: {members}"
-msgstr "总计: {members}"
-
-#: exts/commands/information/serverinfo/do.py:74
+#: exts/commands/information/serverinfo/serverinfo.py:73
 msgid "Members"
 msgstr "成员"
 
-#: exts/commands/information/serverinfo/do.py:75
+#: exts/commands/information/serverinfo/serverinfo.py:74
+msgid "Statuses"
+msgstr ""
+
+#: exts/commands/information/serverinfo/serverinfo.py:75
+#: exts/commands/information/userinfo/userinfo.py:71
+msgid "ID"
+msgstr "ID"
+
+#: exts/commands/information/serverinfo/serverinfo.py:76
+msgid "Bots"
+msgstr ""
+
+#: exts/commands/information/serverinfo/serverinfo.py:77
+#: exts/commands/information/userinfo/userinfo.py:73
+msgid "Created"
+msgstr "已创建"
+
+#: exts/commands/information/serverinfo/serverinfo.py:78
 msgid "Roles"
 msgstr "角色"
 
-#: exts/commands/information/serverinfo/do.py:76
-#: exts/commands/information/userinfo/do copy.py:34
-#: exts/commands/information/userinfo/do.py:48
-msgid "Created"
-msgstr "已创建"
+#: exts/commands/information/serverinfo/serverinfo.py:79
+msgid "Owner"
+msgstr "所有者"
 
 #: exts/commands/information/stats/__init__.py:33
 msgid "Get some basic information and statistics about me.\n"
@@ -527,160 +796,175 @@ msgstr "获取一些有关我的基本信息和统计。\n"
 "            \n"
 "            非常有用以跟踪我的信息"
 
-#: exts/commands/information/stats/do.py:26
+#: exts/commands/information/stats/do.py:22
+msgid "and"
+msgstr "和"
+
+#: exts/commands/information/stats/do.py:25
 msgid "Shake Statistics"
 msgstr "摇动统计"
 
-#: exts/commands/information/stats/do.py:38
-msgid "general"
-msgstr "常规的"
-
-#: exts/commands/information/stats/do.py:39
-#, python-brace-format
-msgid "```py\n"
-"                v{version} from {owner}\n"
-"                {_started} {time} {date}\n"
-"                ```"
-msgstr "```py\n"
-"                v{version} from {owner}\n"
-"                {_started} {time} {date}\n"
-"```"
-
-#: exts/commands/information/stats/do.py:45
+#: exts/commands/information/stats/do.py:40
 msgid "started"
 msgstr "开始吗？"
 
-#: exts/commands/information/stats/do.py:48
+#: exts/commands/information/stats/do.py:42
 msgid "host"
 msgstr "主机"
 
-#: exts/commands/information/stats/do.py:55
+#: exts/commands/information/stats/do.py:49
 msgid "cpu"
 msgstr "奇普文"
 
-#: exts/commands/information/stats/do.py:55
+#: exts/commands/information/stats/do.py:49
 msgid "ram"
 msgstr "ram"
 
-#: exts/commands/information/stats/do.py:58
+#: exts/commands/information/stats/do.py:52
 msgid "bot"
 msgstr "bot"
 
-#: exts/commands/information/stats/do.py:65
+#: exts/commands/information/stats/do.py:59
 msgid "server"
 msgstr "服务器"
 
-#: exts/commands/information/stats/do.py:65
+#: exts/commands/information/stats/do.py:59
 msgid "user"
 msgstr "用户"
 
-#: exts/commands/information/stats/do.py:68
+#: exts/commands/information/stats/do.py:62
 msgid "utils"
 msgstr "utils"
 
-#: exts/commands/information/stats/do.py:77
+#: exts/commands/information/stats/do.py:71
 msgid "commands"
 msgstr "命令"
 
-#: exts/commands/information/stats/do.py:83
+#: exts/commands/information/stats/do.py:77
 msgid "amout"
 msgstr "amout"
 
-#: exts/commands/information/stats/do.py:83
+#: exts/commands/information/stats/do.py:77
 msgid "used"
 msgstr "已使用"
 
-#: exts/commands/information/userinfo/__init__.py:33
-msgid "Get information about you or a specified user."
-msgstr "获取有关您或指定用户的信息。"
+#: exts/commands/information/userinfo/__init__.py:29
+msgid "Get information about you or a specified user.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            user: Optional[Union[Member, User]]\n"
+"                @mention, ID or name."
+msgstr ""
 
-#: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
-msgid "Idle"
-msgstr "空闲的"
+#: exts/commands/information/userinfo/userinfo.py:61
+#, python-brace-format
+msgid "{mention} {badges}\n"
+"                **Avatar**: {avatars}"
+msgstr ""
 
-#: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
+#: exts/commands/information/userinfo/userinfo.py:65
 msgid "Please do not disturb"
 msgstr "请勿打扰模式"
 
-#: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
+#: exts/commands/information/userinfo/userinfo.py:65
 msgid "Offline"
 msgstr "离线的"
 
-#: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
+#: exts/commands/information/userinfo/userinfo.py:65
 msgid "Online"
 msgstr "在线"
 
-#: exts/commands/information/userinfo/do copy.py:28
-#: exts/commands/information/userinfo/do.py:42
-msgid "Name"
-msgstr "名称"
-
-#: exts/commands/information/userinfo/do copy.py:29
-#: exts/commands/information/userinfo/do.py:43
+#: exts/commands/information/userinfo/userinfo.py:70
 msgid "#tag"
 msgstr "#标签"
 
-#: exts/commands/information/userinfo/do copy.py:35
-msgid "Seen"
-msgstr "已查看"
-
-#: exts/commands/information/userinfo/do copy.py:36
-#: exts/commands/information/userinfo/do.py:50
+#: exts/commands/information/userinfo/userinfo.py:74
 msgid "Mutual Servers"
 msgstr "互用服务器"
 
-#: exts/commands/information/userinfo/do copy.py:37
-#: exts/commands/information/userinfo/do.py:51
+#: exts/commands/information/userinfo/userinfo.py:75
 msgid "Discord-System"
 msgstr "Discord-System"
 
-#: exts/commands/information/userinfo/do copy.py:42
-#: exts/commands/information/userinfo/do.py:56
-msgid "Joined"
-msgstr "已加入"
+#: exts/commands/information/userinfo/userinfo.py:82
+msgid "Member"
+msgstr ""
 
-#: exts/commands/information/userinfo/do copy.py:43
-#: exts/commands/information/userinfo/do.py:57
-msgid "Mitglied"
-msgstr "Mitglied"
+#: exts/commands/information/userinfo/userinfo.py:83
+msgid "Since"
+msgstr ""
 
-#: exts/commands/information/userinfo/do copy.py:44
-#: exts/commands/information/userinfo/do.py:58
+#: exts/commands/information/userinfo/userinfo.py:84
 msgid "Top-Role"
 msgstr "顶部角色"
 
-#: exts/commands/information/userinfo/do copy.py:45
-#: exts/commands/information/userinfo/do.py:59
+#: exts/commands/information/userinfo/userinfo.py:85
 msgid "Color"
 msgstr "颜色"
 
-#: exts/commands/information/userinfo/do copy.py:46
-msgid "Perms"
-msgstr "权限"
-
-#: exts/commands/information/userinfo/do copy.py:47
-#: exts/commands/information/userinfo/do.py:61
+#: exts/commands/information/userinfo/userinfo.py:86
 msgid "Activity"
 msgstr "活动"
 
-#: exts/commands/information/userinfo/do copy.py:48
-#: exts/commands/information/userinfo/do.py:62
+#: exts/commands/information/userinfo/userinfo.py:87
 msgid "Status"
 msgstr "状态"
 
-#: exts/commands/information/userinfo/do copy.py:49
-#: exts/commands/information/userinfo/do.py:63
+#: exts/commands/information/userinfo/userinfo.py:88
 msgid "Device"
 msgstr "设备"
 
-#: exts/commands/information/userinfo/do copy.py:52
-#: exts/commands/information/userinfo/do.py:66
+#: exts/commands/information/userinfo/userinfo.py:93
 msgid "Server Related"
 msgstr "服务器相关的"
+
+#: exts/commands/information/vote/do.py:16
+msgid "> Help Shake on its way (Vote)"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:18
+#, python-brace-format
+msgid "{emoji} The benefit of supporting Shake with Voting"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:20
+msgid "> _Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility and helps others discover Shake too._\n\n"
+"                **Thanks for every vote!!**\n"
+"                "
+msgstr ""
+
+#: exts/commands/information/vote/do.py:25
+#, python-brace-format
+msgid "{emoji} Sites the bot is listed at"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:27
+#, python-brace-format
+msgid "**[Vote for Shake on Top.gg]({topgg})**\n"
+"                **[Vote for Shake on Discordbotlist.com]({discordbotlist})**\n"
+"                **[Vote for Shake on discord-botlist.eu]({botlisteu})\n"
+"                **[Vote for Shake on infinitybots.gg]({infinitybots})****"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:36
+#, python-brace-format
+msgid "{emoji} Other related links"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:38
+#, python-brace-format
+msgid "**[Shake on Discord Bots]({discordbots})**\n"
+"                **[Shake's Server on Discords]({discords})**"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:45
+msgid "Freemium | Vote isn't required"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:54
+msgid "Vote for Shake"
+msgstr ""
 
 #: exts/commands/inviting/inviting.py:10
 msgid "Inviting Commands are useful to track these and get some members"
@@ -702,35 +986,26 @@ msgstr "等级"
 msgid "get your current level status"
 msgstr "获取当前关卡状态"
 
-#: exts/commands/moderation/clear/__init__.py:56
+#: exts/commands/moderation/clear/__init__.py:40
 msgid "Command to empty messages in text channels.\n\n"
 "            This command deletes a certain number of messages while various filters can be applied.\n"
 "            Pinned messages are ignored. You can also filter by one or more members.\n"
 "            \n"
-"            - `users`: \n"
-"            \\u2003@mentions, IDs or names.\n"
-"            - `first_limit` and `second_limit`: \n"
-"            \\`u2003@one message, one delta or ISO datetime each.\n"
-"            - `regex`: \n"
-"            \\u2003A regex pattern that the message must contain to be deleted.\n"
-"            - `bots_only`: \n"
-"            \\`u2003Whether only bots should be deleted. Specify `bots_only` or `users`.\n"
-"            - `channels`: \n"
-"            \\u2003#textchannels or * for all text channels in which to delete."
-msgstr "在文本频道中空消息的命令。\n\n"
-"            此命令删除一定数量的消息，同时可以应用各种筛选器。\n"
-"            置顶的消息被忽略。 您也可以通过一个或多个成员过滤。\n"
-"            \n"
-"            - “用户”: \n"
-"            \\u2003@mentions, ID或名称。\n"
-"            - `first_limit` 和 `second_limit`： \n"
-"            \\`u2003@one message, 每个三角形或ISO 日期时间。\n"
-"            - \"regex\"： \n"
-"            \\u2003消息必须包含的正则表达式必须删除。\n"
-"            - 只有`bots_only`: \n"
-"            \\`u2003是否只应删除bots。 指定 `bots_only` 或 `users` 。\n"
-"            - 要删除的所有文本频道的频道： \n"
-"            \\u2003#textchannels或*"
+"            Parameters\n"
+"            -----------\n"
+"            users: Greedy[User]\n"
+"                @mentions, IDs or names.\n\n"
+"            first_limit: Union[Message, Age, ISODateTime, None]\n"
+"                one message, one delta or ISO datetime each.\n\n"
+"            second_limit: Union[Message, Age, ISODateTime, None]\n"
+"                one message, one delta or ISO datetime each.\n\n"
+"            regex: Optional[Regex]\n"
+"                A regex pattern that the message must contain to be deleted.\n\n"
+"            bots_only: Optional[bool]\n"
+"                Whether only bots should be deleted. Specify `bots_only` or `users`.\n\n"
+"            channels: Greedy[TextChannel]\n"
+"                #textchannels or * for all text channels in which to delete."
+msgstr ""
 
 #: exts/commands/moderation/clear/do.py:83
 msgid "Message limits are in different channels."
@@ -762,126 +1037,81 @@ msgstr "管理相关命令。\n"
 msgid "put a user in the timeout"
 msgstr "将用户置于超时状态"
 
-#: exts/commands/moderation/sudo/__init__.py:41
+#: exts/commands/moderation/sudo/__init__.py:37
 msgid "execute commands with the rights of another user\n\n"
-"            You can specify who executes this command in which text channel"
-msgstr "使用另一用户的权限执行命令\n\n"
-"            您可以指定谁执行此命令在哪个文本频道"
+"            You can specify who executes this command in which text channel\"\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            channel: Optional[TextChannel]\n"
+"                the channel\n\n"
+"            user: Union[Member, User]\n"
+"                the user\n\n"
+"            command: str\n"
+"                the command\n\n"
+"            arguments: Optional[str]\n"
+"                the arguments\n"
+"            "
+msgstr ""
 
-#: exts/commands/other/aboveme/__init__.py:31
-msgid "Manage the aboveme features of the bot"
-msgstr "管理机器人的运营商功能"
-
-#: exts/commands/other/aboveme/__init__.py:45
-msgid "Set up the Aboveme-Game with a wizard in seconds."
-msgstr "用向导设置Aboveme-Game 在几秒钟内完成。"
-
-#: exts/commands/other/aboveme/do.py:33
-msgid "aboveme category"
-msgstr "博夫梅类别"
-
-#: exts/commands/other/aboveme/do.py:41
-msgid "︱aboveme"
-msgstr "__aboveme"
-
-#: exts/commands/other/aboveme/do.py:42
-msgid "The one above me has certainly not played this excellent game yet..."
-msgstr "我上面的人当然还没有玩过这场杰出的游戏..."
-
-#: exts/commands/other/aboveme/do.py:49
-#, python-brace-format
-msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play aboveme on this Discord server!"
-msgstr "{emoji} {prefix} **安装完成 **。 {channel} 现在可以在此 Discord 服务器上玩游戏！"
-
-#: exts/commands/other/bash/__init__.py:34
+#: exts/commands/other/bash/__init__.py:35
 msgid "Run shell commands."
 msgstr "运行 shell命令。"
 
-#: exts/commands/other/counting/__init__.py:32
-msgid "Manage the counting features of the bot"
-msgstr "管理机器人的运营商功能"
+#: exts/commands/other/dispatch/__init__.py:30
+msgid "Send an event\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            event: Optional[strl]\n"
+"                the event\n\n"
+"            kwargs: Any\n"
+"                the kwargs"
+msgstr ""
 
-#: exts/commands/other/counting/__init__.py:53
-msgid "Set up Counting with a wizard in seconds."
-msgstr "用向导设置计数。"
-
-#: exts/commands/other/counting/do.py:32
-msgid "counting category"
-msgstr "正在计算类别"
-
-#: exts/commands/other/counting/do.py:39
-msgid "︱counting"
-msgstr "-计算"
-
-#: exts/commands/other/dispatch/__init__.py:38
-msgid "Send an event"
-msgstr "发送事件"
-
-#: exts/commands/other/language/__init__.py:40
-msgid "View all available languages' locale codes.\n\n"
+#: exts/commands/other/language/__init__.py:35
+msgid "Display a list of availible languages and locale codes.\n"
+"            \n"
 "            You can check if your language is available by comparing against [this list](https://saimana.com/list-of-country-locale-code/)\n"
 "            Some of these languages are no real languages but serve as a way to spice up the text.\n"
 "            (If something is not yet translated, the english original text is used.)"
-msgstr "查看所有可用语言的区域代码。\n\n"
-"            您可以通过比较[此列表](https://saimana)来检查您的语言是否可用。 om/list-country-locale-code/\n"
-"            这些语言中有些不是真正的语言，而是增加文本的一种方式。\n"
-"            (如果尚未翻译，则使用英文原文。)"
+msgstr ""
 
-#: exts/commands/other/language/__init__.py:60
+#: exts/commands/other/language/__init__.py:49
 #, python-brace-format
-msgid "Changes the language the bot replies for the guild.\n\n"
-"            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`"
-msgstr "更改公会机器人回复的语言。\n\n"
-"<locale>` ' ' ' ' ' - 你想要使用的语言的区域代码; 完整列表可以在 `{prefix}语言中找到"
-
-#: exts/commands/other/language/__init__.py:78
-#, python-brace-format
-msgid "Changes the language the bot replies for you.\n"
+msgid "Set your language for Shake.\n"
+"            Full list of available languages can be found with `{prefix}language`\n"
 "            \n"
-"            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`"
-msgstr "更改公会机器人回复的语言。\n\n"
-"<locale>` ' ' ' ' ' - 你想要使用的语言的区域代码; 完整列表可以在 `{prefix}语言中找到"
+"            Parameters\n"
+"            -----------\n"
+"            language: str\n"
+"                The locale code of the language you want to use\n"
+"            \n"
+"            server: Optional[bool]\n"
+"                If the language should be for the whole server"
+msgstr ""
 
-#: exts/commands/other/language/do.py:22
+#: exts/commands/other/language/do.py:67
 #, python-brace-format
-msgid "{emoji} {prefix} **Your given locale is not valid. Use <!language> to get a list of all locales)**"
-msgstr "{emoji} {prefix} **您给定的区域设置无效。使用 <!language> 获取所有区域的列表)**"
+msgid "{emoji} {prefix} **Your given language is not valid. Use </language list> to get a list of all available languages**"
+msgstr ""
 
-#: exts/commands/other/language/do.py:28
+#: exts/commands/other/language/do.py:73
 #, python-brace-format
-msgid "{emoji} {prefix} **I'm sorry to say that I dont have your given locale.**\n"
+msgid "{emoji} {prefix} **I'm sorry to say that I dont have your given locale ready.**\n"
 "                Try to contribute [here]({link}) if you want to!"
-msgstr "{emoji} {prefix} **我很抱歉说我没有给定的本地化语言。**\n"
-"                如果你想要贡献 [here]({link}) ！"
+msgstr ""
+
+#: exts/commands/other/language/do.py:79
+#, python-brace-format
+msgid "{emoji} {prefix} **The specified language was set successfully!**"
+msgstr ""
+
+#: exts/commands/other/language/do.py:137
+msgid "Available Translations"
+msgstr ""
 
 #: exts/commands/other/load/__init__.py:39
 msgid "Load an extension of the bot"
 msgstr "加载机器人扩展"
-
-#: exts/commands/other/oneword/__init__.py:31
-msgid "Manage the oneword features of the bot"
-msgstr "管理机器人的运营商功能"
-
-#: exts/commands/other/oneword/__init__.py:45
-msgid "Set up the Oneword-Game with a wizard in seconds."
-msgstr "用向导设置Aboveme-Game 在几秒钟内完成。"
-
-#: exts/commands/other/oneword/do.py:32
-msgid "oneword category"
-msgstr "单词类别"
-
-#: exts/commands/other/oneword/do.py:39
-msgid "︱oneword"
-msgstr "— 一词"
-
-#: exts/commands/other/oneword/do.py:40
-msgid "I"
-msgstr "一"
-
-#: exts/commands/other/oneword/do.py:51
-#, python-brace-format
-msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play oneword on this Discord server!"
-msgstr "{emoji} {prefix} **安装完成 **。 {channel} 现在可以在此 Discord 服务器上玩游戏！"
 
 #: exts/commands/other/other.py:11
 msgid "Other commands without categories"
@@ -914,68 +1144,29 @@ msgstr "运行您自己的 xyz 代码。\n"
 "            你可以简单地指定这个代码作为一个参数，也可以在引号 (`)中。\n"
 "            您可选地使用诸如ctx、bot 等共同属性。 在代码中。"
 
-#: exts/commands/other/sync/__init__.py:43
+#: exts/commands/other/sync/__init__.py:35
 msgid "synchronize the bot with its commands\n\n"
 "            The synchronization is used to reload the changes.\n"
 "            Synchronize when ...\n"
-"            - ...commands have been added, removed or changed\n"
-"            - ...arguments are added, removed or changed\n"
-"            - ...permissions are added, removed or changed\n"
-"            - ...a global/server command becomes a server/global command"
-msgstr "同步机器人与其命令\n\n"
-"            。同步用于重新加载更改。\n"
-"            同步时间 。\n"
-"            - ... ommands 已被添加、删除或更改\n"
-"            - 。 .参数已添加、删除或更改\n"
-"            - ... 更新被添加、删除或更改\n"
-"            - 。 全局/服务器命令变成服务器/全局命令"
+"            - ...commands, arguments or permissions have been added, removed or changed\n"
+"            - ...a global/server command becomes a server/global command\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guilds: Optional[strl]\n"
+"                the guilds\n\n"
+"            spec: Optional[Literal[\"~\", \"*\", \"^\"]]\n"
+"                the spec\n\n"
+"            dump: Optional[bool]\n"
+"                if dump"
+msgstr ""
 
-#: exts/commands/other/sync/do.py:46
+#: exts/commands/other/sync/do.py:45
 msgid "globally"
 msgstr "全局设置"
 
-#: exts/commands/other/sync/do.py:46
+#: exts/commands/other/sync/do.py:45
 msgid "to the current guild"
 msgstr "到当前公会。"
-
-#: exts/commands/other/tempvoice/__init__.py:32
-msgid "Setup the tempvoice features of the bot"
-msgstr "设置机器人的节奏语音功能"
-
-#: exts/commands/other/tempvoice/__init__.py:53
-msgid "Set up TempVoice with a wizard in seconds."
-msgstr "用向导设置计数。"
-
-#: exts/commands/other/tempvoice/do.py:32
-msgid "tempvoice category"
-msgstr "节奏语音类别"
-
-#: exts/commands/other/tempvoice/do.py:40
-msgid "︱Creator Channel"
-msgstr "— 创作者频道"
-
-#: exts/commands/other/tempvoice/do.py:48
-msgid "︱interface"
-msgstr "-接口"
-
-#: exts/commands/other/tempvoice/do.py:67
-msgid "TempVoice Interface"
-msgstr "TempVoice 界面"
-
-#: exts/commands/other/tempvoice/do.py:70
-#, python-brace-format
-msgid "{emoji} This interface can be used to edit your temporary channel.\n"
-"            More options will be available with {command} commands."
-msgstr "{emoji} 此接口可以用来编辑您的临时频道。\n"
-"            更多选项可以使用 {command} 命令。"
-
-#: exts/commands/other/tempvoice/do.py:75
-msgid "The interface can be used with the buttons below."
-msgstr "接口可以与下面的按钮一起使用。"
-
-#: exts/commands/other/tempvoice/do.py:92
-msgid "Support"
-msgstr "支持"
 
 #: exts/commands/other/test/__init__.py:36
 msgid "Test temporary commands"
@@ -985,34 +1176,154 @@ msgstr "测试临时命令"
 msgid "Unload extensions of the bot"
 msgstr "加载机器人扩展"
 
-#: exts/functions/Commands/command/error/do.py:27
+#: exts/commands/wouldyou/rather/__init__.py:39
+msgid "Get a useful would you rather question.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            voting: Optional[bool]\n"
+"                Do you want the users to be able to vote?"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/__init__.py:55
+msgid "Get a useless would you rather question.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            voting: Optional[bool]\n"
+"                Do you want the users to be able to vote?"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:33
+msgid "Would you rather have this"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:37
+#, python-brace-format
+msgid "or this {adjective} Power?"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:37
+msgid "useful"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:37
+msgid "useless"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:81 exts/commands/wouldyou/would
+#: you/do.py:90
+msgid "Stats"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:82
+#, python-brace-format
+msgid "**{users}** of **{total}** user (**{procent}%**) would take power nr. {power}"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:84
+msgid "No one would take any power?"
+msgstr ""
+
+#: exts/commands/wouldyou/would you/__init__.py:36
+msgid "Useful Power.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            voting: Optional[bool]\n"
+"                Do you want the users to be able to vote?"
+msgstr ""
+
+#: exts/commands/wouldyou/would you/__init__.py:51
+msgid "Useless Power.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            voting: Optional[bool]\n"
+"                Do you want the users to be able to vote?"
+msgstr ""
+
+#: exts/commands/wouldyou/would you/do.py:52
+msgid "Would you want this power?"
+msgstr ""
+
+#: exts/commands/wouldyou/would you/do.py:91
+#, python-brace-format
+msgid "**{yes}** of **{total}** user (**{procent}%**) would take this power."
+msgstr ""
+
+#: exts/commands/wouldyou/wouldyou.py:10
+msgid "WouldYou commands"
+msgstr ""
+
+#: exts/commands/wouldyou/wouldyou.py:22
+#, python-brace-format
+msgid "{emoji}︱WouldYou"
+msgstr ""
+
+#: exts/commands/wouldyou/wouldyou.py:28
+msgid "WouldYou"
+msgstr ""
+
+#: exts/commands/wouldyou/wouldyou.py:31
+msgid "WouldYou Commands"
+msgstr ""
+
+#: exts/commands/wouldyou/wwyd/__init__.py:28
+msgid "What would you do in this situation."
+msgstr ""
+
+#: exts/commands/wouldyou/wwyd/do.py:25
+msgid "What would you do? Explain what and why!"
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:28
 #, python-brace-format
 msgid "If you think that's a mistake. Report per `{command_sig}`"
 msgstr "如果你认为这是一个错误，请报告一个{command_sig}`"
 
-#: exts/functions/Commands/command/error/do.py:38
+#: exts/functions/Commands/command/error/do.py:42
 msgid "You did something wrong, try !help"
 msgstr "您做了一些错误，请尝试!help"
 
+#: exts/functions/Commands/command/error/do.py:46
+msgid "I do not have permission to execute this action."
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:49
+#, python-brace-format
+msgid "This entity does not exist: {original.text}"
+msgstr ""
+
 #: exts/functions/Commands/command/error/do.py:52
+msgid "Somehow, an unexpected error occurred. Try again later?"
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:55
+#, python-brace-format
+msgid "You can use this command in {0:.0f} seconds."
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:58
 #, python-brace-format
 msgid "Only the bot owner can run the command `{command}`."
 msgstr "只有机器人所有者可以运行命令 `{command} ` 。"
 
-#: exts/functions/Commands/command/error/do.py:56
+#: exts/functions/Commands/command/error/do.py:61
 #, python-brace-format
 msgid "You are missing `{permission}` permission(s) to run this command."
 msgstr "你丢失了`{permission}`的权限(s)来运行此命令。"
 
-#: exts/functions/Commands/command/error/do.py:81
+#: exts/functions/Commands/command/error/do.py:64
+msgid "There happened something wrong, try again!"
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:94
 #, python-brace-format
 msgid "No command named `{invoked_command}` found. Use \"{prefix}help\" for help."
 msgstr "未找到名为 `{invoked_command}` 的命令。使用 \"{prefix}help\" 寻求帮助。"
 
-#: exts/functions/Commands/command/error/do.py:87
+#: exts/functions/Commands/command/error/do.py:100
 #, python-brace-format
-msgid "No command named `{invoked_command}` found. Did you perhaps mean `{prefix}{closest_1}` {closest_2}?"
-msgstr "找不到命名为`{invoked_command}`的命令。你也许意味着`{prefix}`{closest_1}` {closest_2}？"
+msgid "No command named `{invoked_command}` found. Did you perhaps mean\n"
+"                > {prefix}{closest_1}?"
+msgstr ""
 
 #: exts/functions/Members/member/join/do.py:24
 #, python-brace-format
@@ -1042,87 +1353,112 @@ msgstr "请在此发送验证码。\n\n"
 msgid "{emoji} {prefix} **Thank you! You have been verified in guild __{guild_name}__**"
 msgstr "{emoji} {prefix} **谢谢！您已经在公会认证了 _{guild_name}__**"
 
-#: exts/functions/Messages/message/systems.py:62
+#: exts/functions/Messages/message/systems.py:61
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr "{user} 您不允许连续显示多个号码。"
 
-#: exts/functions/Messages/message/systems.py:69
+#: exts/functions/Messages/message/systems.py:68
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
 msgstr "{user} 破坏了 {facepalm} **你不能连续显示多次**。\n"
 "                    有人仍然应该继续。"
 
-#: exts/functions/Messages/message/systems.py:80
-#: exts/functions/Messages/message/systems.py:83
-#: exts/functions/Messages/message/systems.py:185
+#: exts/functions/Messages/message/systems.py:79
+#: exts/functions/Messages/message/systems.py:82
+#: exts/functions/Messages/message/systems.py:184
 msgid "the one above me"
 msgstr "我上面的一个"
 
-#: exts/functions/Messages/message/systems.py:82
+#: exts/functions/Messages/message/systems.py:81
 #, python-brace-format
 msgid "{emoji} Your message should start with **{trigger}**"
 msgstr "{emoji} 您的消息应该以 **{trigger} 开头**"
 
-#: exts/functions/Messages/message/systems.py:92
+#: exts/functions/Messages/message/systems.py:91
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
 msgstr "{emoji} 您的消息应该是新的"
 
-#: exts/functions/Messages/message/systems.py:161
+#: exts/functions/Messages/message/systems.py:160
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
 msgstr "{user} 您不能连续几次更改历史课程。"
 
-#: exts/functions/Messages/message/systems.py:168
+#: exts/functions/Messages/message/systems.py:167
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
 "                    Someone should still go on."
 msgstr "{user} 破坏了 {facepalm} **你不能连续显示多次**。\n"
 "                    有人仍然应该继续。"
 
-#: exts/functions/Messages/message/systems.py:184
+#: exts/functions/Messages/message/systems.py:183
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
 msgstr "{emoji} 您的消息应该包含**仅一个**单词**"
 
-#: exts/functions/Messages/message/systems.py:273
-#, python-brace-format
-msgid "{user} you are not allowed to count multiple numbers in a row."
-msgstr "{user} 您不允许连续显示多个号码。"
-
-#: exts/functions/Messages/message/systems.py:297
+#: exts/functions/Messages/message/systems.py:271
 #, python-brace-format
 msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr "{emoji} 您在此不允许使用除数字外的任何内容"
 
-#: exts/functions/Messages/message/systems.py:309
+#: exts/functions/Messages/message/systems.py:282
+#, python-brace-format
+msgid "{user} you are not allowed to count multiple numbers in a row."
+msgstr "{user} 您不允许连续显示多个号码。"
+
+#: exts/functions/Messages/message/systems.py:308
 #, python-brace-format
 msgid "{user} ruined it at **{count}** {facepalm}. **You apparently can't count properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr "{user} 在 **{count}** {facepalm}摧毁了它。**你显然无法正确计数**。 __next__ number {verb} ` {last} `. {streak}"
 
-#: exts/functions/Messages/message/systems.py:311
+#: exts/functions/Messages/message/systems.py:310
 msgid "**You've topped your best streak with {} 🔥**"
 msgstr "**您已经在 {} :fire中顶了您最好的连环：**"
 
-#: exts/functions/Messages/message/systems.py:312
+#: exts/functions/Messages/message/systems.py:311
 msgid "is"
 msgstr "是"
 
-#: exts/functions/Messages/message/systems.py:312
+#: exts/functions/Messages/message/systems.py:311
 msgid "remains"
 msgstr "遗体"
 
-#: exts/functions/Messages/message/systems.py:314
+#: exts/functions/Messages/message/systems.py:313
 #, python-brace-format
 msgid "Incorrect number! The __next__ number is ` {last} `. **No stats have been changed since the current number was {count}.**"
 msgstr "不正确的数字！ __next__ 数字是 ` {last} `。**当前数字为 {count} 后没有改变数据。**"
 
-#: exts/functions/Messages/message/systems.py:330
+#: exts/functions/Messages/message/systems.py:329
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr "**你已经达到了 {goal} {emoji} 恭喜的目标**"
+
+#: exts/functions/Scheduled/freegames/do.py:41
+msgid "Unknown"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:51
+msgid "Get free now"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:52
+#, python-brace-format
+msgid "until **{datetime}** (GMT)"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:54
+msgid "Free"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:59
+msgid "Or open directly in launcher"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:61
+msgid "Check for platform availability and price!"
+msgstr ""
 
 #: exts/functions/Voice/voice_state_update/do.py:67
 #, python-brace-format
