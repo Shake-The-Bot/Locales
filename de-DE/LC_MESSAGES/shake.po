@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: shake-bot\n"
+"Project-Id-Version: shake\n"
 "POT-Creation-Date: 2022-12-29 01:58+0100\n"
-"PO-Revision-Date: 2023-04-15 14:07\n"
+"PO-Revision-Date: 2023-04-21 15:09\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Crowdin-Project: shake-bot\n"
+"X-Crowdin-Project: shake\n"
 "X-Crowdin-Project-ID: 555309\n"
 "X-Crowdin-Language: de\n"
 "X-Crowdin-File: /crowdin/template.pot\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: classes/context.py:136
 msgid "**Enjoying using Shake? We would love it if you [vote]({}) for us!**"
-msgstr ""
+msgstr "**Gefällt dir Shake? Wir würden es lieben, wenn du für uns [voten]({}) würdest!**"
 
 #: classes/converter/dourationdelta.py:27
 #, python-brace-format
@@ -45,11 +45,11 @@ msgstr "Regex-Fehler: {e_msg}"
 #: classes/pages/page.py:105 classes/pages/page.py:211
 #: exts/commands/help/menu.py:123
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #: classes/utils.py:183
 msgid " and "
-msgstr ""
+msgstr " und "
 
 #: exts/commands/functions/aboveme/__init__.py:31
 #: exts/commands/functions/freegames/__init__.py:30
