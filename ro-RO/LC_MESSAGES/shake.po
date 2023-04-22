@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shake-bot\n"
-"POT-Creation-Date: 2022-12-12 21:46+0100\n"
-"PO-Revision-Date: 2022-12-22 21:42+0100\n"
+"POT-Creation-Date: 2022-12-29 01:58+0100\n"
+"PO-Revision-Date: 2023-04-15 14:07\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -12,12 +12,16 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
 "X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 "X-Crowdin-Project: shake-bot\n"
 "X-Crowdin-Project-ID: 555309\n"
 "X-Crowdin-Language: ro\n"
 "X-Crowdin-File: /crowdin/template.pot\n"
 "X-Crowdin-File-ID: 375\n"
-"X-Poedit-SearchPath-0: .\n"
+
+#: classes/context.py:136
+msgid "**Enjoying using Shake? We would love it if you [vote]({}) for us!**"
+msgstr ""
 
 #: classes/converter/dourationdelta.py:27
 #, python-brace-format
@@ -38,264 +42,238 @@ msgstr "Modelul regex lipsă de backticks"
 msgid "Regex error: {e_msg}"
 msgstr "Eroare Regex: {e_msg}"
 
-#: classes/help/menu.py:50
-msgid "Choose a Category..."
-msgstr "Alege o categorie..."
-
-#: classes/help/page.py:110
-msgid "Page"
-msgstr "Pagină"
-
-#: classes/help/page.py:217
-msgid "An unknown error has occurred, sorry"
-msgstr "A apărut o eroare necunoscută, ne pare rău"
-
-#: classes/help/page.py:290
-msgid "stop"
-msgstr "oprire"
-
-#: classes/help/pagesource.py:89 classes/help/pagesource.py:90
-#, python-brace-format
-msgid "[{name} (upload a file)]"
-msgstr "[{name} (încărcați un fișier)]"
-
-#: classes/help/pagesource.py:92
-#, python-brace-format
-msgid "<{name} (upload a file)>"
-msgstr "<{name} (încărcați un fișier)>"
-
-#: classes/help/pagesource.py:92
-#, python-brace-format
-msgid "[{name} (upload files)]..."
-msgstr "[{name} (încărcare fișiere)]..."
-
-#: classes/help/pagesource.py:138
-msgid "No help available"
-msgstr "Nici un ajutor disponibil"
-
-#: classes/help/pagesource.py:161
-msgid "Usage"
-msgstr "Utilizare"
-
-#: classes/help/pagesource.py:180
-msgid "Examples"
-msgstr "Exemple"
-
-#: classes/help/pagesource.py:187 classes/help/pagesource.py:188
-msgid "None"
-msgstr "Niciunul"
-
-#: classes/help/pagesource.py:195
-msgid "Necessary user permissions"
-msgstr "Permisiuni necesare pentru utilizator"
-
-#: classes/help/pagesource.py:195
-msgid "User"
-msgstr "Utilizator"
-
-#: classes/help/pagesource.py:195 exts/commands/information/userinfo/do
-#: copy.py:31 exts/commands/information/userinfo/do.py:45
-msgid "Bot"
-msgstr "Bot"
-
-#: classes/help/pagesource.py:209
-msgid "This command is new and is in its beta version"
-msgstr "Această comandă este nouă și este în versiunea beta"
-
-#: classes/help/pagesource.py:213
-msgid "Only the owner of the shake bot can run this command"
-msgstr "Doar proprietarul botului de shake poate rula această comandă"
-
-#: classes/help/pagesource.py:217
-msgid "Start a Shake Pro subscription to run this command"
-msgstr "Începe un abonament Shake Pro pentru a rula această comandă"
-
-#: classes/help/pagesource.py:221
-msgid "This command requires certain rights from the user to be executed"
-msgstr "Această comandă necesită anumite drepturi de la utilizator pentru a fi executată"
-
-#: classes/help/pagesource.py:225
-msgid "Announce"
-msgstr "Anunțați"
-
-#: classes/help/pagesource.py:247 classes/help/pagesource.py:305
-msgid ""
-"Write the command name (without the prefix) in this chat to get more specific\n"
-"information about a command."
+#: classes/pages/page.py:105 classes/pages/page.py:211
+#: exts/commands/help/menu.py:123
+msgid "Stop"
 msgstr ""
-"Scrie numele de comandă (fără prefix) în această conversație pentru a obține informații mai specifice\n"
-"despre o comandă."
 
-#: classes/help/pagesource.py:250 classes/help/pagesource.py:308
+#: classes/utils.py:183
+msgid " and "
+msgstr ""
+
+#: exts/commands/functions/aboveme/__init__.py:31
+#: exts/commands/functions/freegames/__init__.py:30
+#: exts/commands/wouldyou/rather/__init__.py:30 exts/commands/wouldyou/would
+#: you/__init__.py:28
+msgid "Manage the aboveme features of the bot"
+msgstr "Administreaza caracteristicilele bot-ului"
+
+#: exts/commands/functions/aboveme/__init__.py:45
+msgid "Set up the Aboveme-Game with a wizard in seconds."
+msgstr "Configurați jocul de Aboveme-cu un vrăjitor în câteva secunde."
+
+#: exts/commands/functions/aboveme/do.py:33
+msgid "aboveme category"
+msgstr "Categoria (e)"
+
+#: exts/commands/functions/aboveme/do.py:41
+#: exts/commands/functions/freegames/do.py:40
+msgid "︱aboveme"
+msgstr "—herea e"
+
+#: exts/commands/functions/aboveme/do.py:42
+msgid "The one above me has certainly not played this excellent game yet..."
+msgstr "Cel de mai sus nu a jucat încă acest joc excelent..."
+
+#: exts/commands/functions/aboveme/do.py:49
 #, python-brace-format
-msgid "Page {current}/{max} ({entries} commands)"
-msgstr "Pagina {current}/{max} ({entries} comenzi)"
+msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play aboveme on this Discord server!"
+msgstr "{emoji} {prefix} **Instalare completă**. {channel} poate fi folosit acum pentru a juca Always e pe acest server Discord!"
 
-#: classes/help/pagesource.py:272
-msgid "No help given... (maybe report to team)"
-msgstr "Nici un ajutor dat... (poate raporta echipei)"
+#: exts/commands/functions/counting/__init__.py:32
+msgid "Manage the counting features of the bot"
+msgstr "Gestionează funcțiile de numărare ale bot-ului"
 
-#: classes/help/pagesource.py:326
-msgid "No help given... (use bugreport)"
-msgstr "Nu ai ajutor dat... (folosește bugreportul)"
+#: exts/commands/functions/counting/__init__.py:43
+msgid "Set up Counting with a wizard in seconds.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            hardcore: Optional[bool]\n"
+"                if hardcore\n\n"
+"            numbersonly: Optional[bool]\n"
+"                if numbersonly\n\n"
+"            goal: Optional[int]\n"
+"                the goal\n"
+"            "
+msgstr ""
 
-#: classes/help/pagesource.py:350
-msgid "Bot Help"
-msgstr "Bot Help"
+#: exts/commands/functions/counting/do.py:32
+msgid "counting category"
+msgstr "numărătoarea categoriei"
 
-#: classes/help/pagesource.py:353
+#: exts/commands/functions/counting/do.py:39
+msgid "︱counting"
+msgstr "—numărătoare"
+
+#: exts/commands/functions/freegames/__init__.py:38
+msgid "Set up the Aboveme-Game with a wizard in seconds.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            stores: Literal['steam', 'epicgames', 'gog']\n"
+"                the stores which the channel should support\n"
+"            "
+msgstr ""
+
+#: exts/commands/functions/freegames/do.py:34
+msgid "freegames category"
+msgstr ""
+
+#: exts/commands/functions/freegames/do.py:43
+msgid "Preview Game"
+msgstr ""
+
+#: exts/commands/functions/freegames/do.py:44
+msgid "This is a preview of this function. It brings a lot with it for example a overview of the prizes and an instant link to the launcher!"
+msgstr ""
+
+#: exts/commands/functions/freegames/do.py:57
 #, python-brace-format
-msgid ""
-"Hello and welcome to my help page {emoji}\n"
-"\n"
-"\n"
-"                Type `{prefix}help <command/category>` to get more information on a\n"
-"command/category."
+msgid "{emoji} {prefix} **Setup completed**. {channel} now will be used to announce newly free games from the selected stores!"
 msgstr ""
-"Salut și bun venit la pagina mea de ajutor {emoji}\n"
-"\n"
-"\n"
-"                Tastați `{prefix}ajutor <command/category>` pentru a obține mai multe informații despre o comandă\n"
-"/categorie."
 
-#: classes/help/pagesource.py:360
-msgid "Support Server"
-msgstr "Server de Suport"
+#: exts/commands/functions/functions.py:10
+msgid "Commands for the functions of mine"
+msgstr ""
 
-#: classes/help/pagesource.py:361
+#: exts/commands/functions/functions.py:13
+msgid "functions"
+msgstr ""
+
+#: exts/commands/functions/functions.py:26
+msgid "🧷︱Functions"
+msgstr ""
+
+#: exts/commands/functions/functions.py:30
+msgid "Functions"
+msgstr ""
+
+#: exts/commands/functions/functions.py:33
+msgid "Functions Commands"
+msgstr ""
+
+#: exts/commands/functions/oneword/__init__.py:31
+msgid "Manage the oneword features of the bot"
+msgstr "Gestionează funcțiile cu un singur cuvânt ale bot-ului"
+
+#: exts/commands/functions/oneword/__init__.py:45
+msgid "Set up the Oneword-Game with a wizard in seconds."
+msgstr "Configurați jocul Oneword-Game cu un asistent în câteva secunde."
+
+#: exts/commands/functions/oneword/do.py:32
+msgid "oneword category"
+msgstr "Categorie cu un singur cuvânt"
+
+#: exts/commands/functions/oneword/do.py:39
+msgid "︱oneword"
+msgstr "—unul"
+
+#: exts/commands/functions/oneword/do.py:40
+msgid "I"
+msgstr "I"
+
+#: exts/commands/functions/oneword/do.py:51
 #, python-brace-format
-msgid ""
-"You can get more help if you join the official server at\n"
-"[https://discord.gg/shake]({support_server})"
+msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play oneword on this Discord server!"
+msgstr "{emoji} {prefix} **Instalare completă**. {channel} poate fi folosit acum pentru a juca un singur cuvânt pe acest server Discord!"
+
+#: exts/commands/functions/tempvoice/__init__.py:32
+msgid "Setup the tempvoice features of mine"
 msgstr ""
-"Poți obține mai mult ajutor dacă te alături serverului oficial la\n"
-"[https://discord.gg/shake]({support_server})"
 
-#: classes/help/pagesource.py:370
-msgid "Who am I?"
-msgstr "Cine sunt?"
-
-#: classes/help/pagesource.py:372
-msgid ""
-"{} bot, which is partially intended for the public.\n"
-"                    Written with only `{:,}` lines. Please be nice"
+#: exts/commands/functions/tempvoice/__init__.py:41
+msgid "Set up TempVoice with a wizard in seconds.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            prefix: Optional[strl]\n"
+"                the prefix\n\n"
+"            suffix: Optional[str]\n"
+"                the suffix\n\n"
+"            locked: Optional[bool]\n"
+"                if locked\n\n"
+"            user_limit: Optional[int]\n"
+"                the user limit\n"
+"            "
 msgstr ""
-"{} bot, care este parțial destinat publicului.\n"
-"                    Scris cu doar linii `{:,}`. Te rugăm să fii frumos"
 
-#: classes/help/pagesource.py:378
+#: exts/commands/functions/tempvoice/__init__.py:58
+msgid "I am sorry to say that this feature is currently under maintenance. Try again later!"
+msgstr ""
+
+#: exts/commands/functions/tempvoice/do.py:32
+msgid "tempvoice category"
+msgstr "Categorie de voce temporară"
+
+#: exts/commands/functions/tempvoice/do.py:40
+msgid "︱Creator Channel"
+msgstr "—Canal creator"
+
+#: exts/commands/functions/tempvoice/do.py:48
+msgid "︱interface"
+msgstr "-interfata"
+
+#: exts/commands/functions/tempvoice/do.py:67
+msgid "TempVoice Interface"
+msgstr "Interfaţă TempVoice"
+
+#: exts/commands/functions/tempvoice/do.py:70
 #, python-brace-format
-msgid ""
-"I am a functional all-in-one bot that will simplify setting up your server for you!\n"
-"\n"
-"                    I have been created {created_at} & \n"
-"                    I have functions like voting, level system, music, moderation & much more. \n"
-"                    You can get more information by using the dropdown menu below.\n"
-"                    dropdown menu."
-msgstr ""
-"Sunt un bot funcțional care va simplifica configurarea serverului pentru tine!\n"
-"\n"
-"                    Am fost creat {created_at} & \n"
-"                    Am funcții ca votul, nivelul sistemului, muzică, moderare și multe altele. \n"
-"                    Poți obține mai multe informații folosind meniul derulant de mai jos.\n"
-"                    Meniul derulant."
+msgid "{emoji} This interface can be used to edit your temporary channel.\n"
+"            More options will be available with {command} commands."
+msgstr "{emoji} Aceasta interfata poate fi folosita pentru a edita canalul temporar.\n"
+"            Vor fi disponibile mai multe optiuni cu comenzile {command}."
 
-#: classes/help/pagesource.py:386
-msgid "Stands for the argument being __**necessary**__."
-msgstr "Stands for the argument being __**necessary**__."
+#: exts/commands/functions/tempvoice/do.py:75
+msgid "The interface can be used with the buttons below."
+msgstr "Interfaţa poate fi utilizată cu butoanele de mai jos."
 
-#: classes/help/pagesource.py:387
-msgid "Stands for that the argument is __**optional**__."
-msgstr "Stands for that the argument is __**optional**__."
+#: exts/commands/functions/tempvoice/do.py:92
+msgid "Support"
+msgstr "Suport"
 
-#: classes/help/pagesource.py:388
-msgid "Stands for the argument can be __**either A or B**__."
-msgstr "Stands for the argument can be __**fie A, fie B**__."
-
-#: classes/help/pagesource.py:390
-msgid ""
-"Stands for the fact that you can use multiple arguments.\n"
-"\n"
-"                    Now that you know the basics, you should still know that...\n"
-"                    __**You don't include the parentheses!**__"
-msgstr ""
-"Stadii pentru faptul că poți folosi argumente multiple.\n"
-"\n"
-"                    Acum că cunoașteți elementele de bază, ar trebui să mai ştiţi asta. .\n"
-"                    __**Nu incluzi parantezele! *__"
-
-#: classes/help/pagesource.py:396
-msgid "How do I use the bot?"
-msgstr "Cum pot folosi bot-ul?"
-
-#: classes/help/pagesource.py:396
-msgid "Reading the bot structure is pretty easy."
-msgstr "A citi structura botului este destul de ușor."
-
-#: classes/help/paginatedcommand.py:32
-msgid "An unknown error has occurred, I apologize, the responsible developers will be notified"
-msgstr "A apărut o eroare necunoscută, îmi cer scuze, dezvoltatorii responsabili vor fi notificați"
-
-#: classes/help/paginatedcommand.py:52
-msgid "\"{command}\" \\N{EM DASH} Unknown command. Use \"{prefix}help\" for help."
-msgstr "\"{command}\" \\N{EM DASH} Comandă necunoscută. Folosește \"{prefix}ajutor\" pentru ajutor."
-
-#: exts/commands/gimmicks/count/__init__.py:31
+#: exts/commands/gimmicks/count/__init__.py:32
 msgid "Count for yourself"
 msgstr "Numără pentru tine"
 
-#: exts/commands/gimmicks/count/do.py:15
+#: exts/commands/gimmicks/count/count.py:15
 msgid "Start?"
 msgstr "Începe?"
 
-#: exts/commands/gimmicks/count/do.py:24
+#: exts/commands/gimmicks/count/count.py:24
 msgid "Congratulation"
 msgstr "Felicitări"
 
-#: exts/commands/gimmicks/count/do.py:30
+#: exts/commands/gimmicks/count/count.py:30
 msgid "Yes"
 msgstr "Da"
 
-#: exts/commands/gimmicks/count/do.py:32
+#: exts/commands/gimmicks/count/count.py:32
 msgid "Have fun!"
 msgstr "Distracție plăcută!"
 
-#: exts/commands/gimmicks/everyone/__init__.py:34
-msgid ""
-"Remind others how bad @everyone actually is\n"
-"\n"
+#: exts/commands/gimmicks/everyone/__init__.py:29
+msgid "Remind others how bad @everyone actually is\n\n"
 "            With this command you can show other people with a picture/gif alone,\n"
 "            how unnecessary a @everyone ping is. \n"
 "        \n"
-"            You can also use this command to express that someone is spamming @everyone again."
+"            You can also use this command to express that someone is spamming @everyone again.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: commands.Greedy[Member]\n"
+"                the member to blame"
 msgstr ""
-"Amintește-ți altora cât de rău este de fapt @toată lumea\n"
-"\n"
-"            Cu această comandă poți arăta altor persoane doar cu o imagine/gif.\n"
-"            cât de inutilă este un @toata ping-ul. \n"
-"        \n"
-"            De asemenea, poți folosi această comandă pentru a exprima faptul că cineva trimite din nou un spam lui @oricine."
 
-#: exts/commands/gimmicks/everyone/do.py:20
-#: exts/commands/information/stats/do.py:22
-msgid "and"
-msgstr "şi"
-
-#: exts/commands/gimmicks/everyone/do.py:22
-msgid ""
-"Stop spamming @everyone!\n"
+#: exts/commands/gimmicks/everyone/everyone.py:23
+msgid "Stop spamming @everyone!\n"
 "It's not that important...."
-msgstr ""
-"Nu mai spam @fiecare!\n"
+msgstr "Nu mai spam @fiecare!\n"
 "Nu este atât de important...."
 
-#: exts/commands/gimmicks/everyone/do.py:24
+#: exts/commands/gimmicks/everyone/everyone.py:25
 #, python-brace-format
-msgid ""
-"{members}, stop spamming @everyone!\n"
+msgid "{members}, stop spamming @everyone!\n"
 "It's not that important..."
-msgstr ""
-"{members}, nu mai spam @fiecare!\n"
+msgstr "nu mai spam @fiecare!\n"
 "nu este atât de important..."
 
 #: exts/commands/gimmicks/gimmicks.py:10
@@ -318,80 +296,278 @@ msgstr "Gimmicks"
 msgid "Gimmick Commands"
 msgstr "Comenzi Gimmick"
 
-#: exts/commands/gimmicks/pp/__init__.py:35
-msgid ""
-"Reveal the length of a user's pp\n"
-"\n"
+#: exts/commands/gimmicks/pp/__init__.py:34
+msgid "Reveal the length of a user's pp\n\n"
 "            With this command you can find out, using a very clever and definitely not random generator,\n"
 "            how long the pp of a selected user is.\n"
 "            \n"
-"            __Please note__: If you don't specify a user, I might reveal your pp as well."
+"            __Please note__: If you don't specify a user, I might reveal your pp as well.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: Greedy[Member]\n"
+"                the member to ban"
 msgstr ""
-"Afișează lungimea pp-ului utilizatorului\n"
-"\n"
-"            Cu această comandă pe care o poți afla, folosind un generator foarte inteligent şi cu siguranţă nu aleatoriu,\n"
-"            cât timp este p pentru un utilizator selectat.\n"
-"            \n"
-"            __Te rugăm să note__: Dacă nu specifici un utilizator, V-aş putea dezvălui şi punctul de vedere."
 
-#: exts/commands/gimmicks/rainbow/__init__.py:34
-msgid "Show your support to LGBT+ with a rainbow filter! ^^"
-msgstr "Arătați suportul pentru LGBT+ cu un filtru curcubeu! ^^"
+#: exts/commands/gimmicks/pp/pp.py:19
+msgid "Peepee lenght"
+msgstr ""
 
-#: exts/commands/gimmicks/rainbow/do.py:42
+#: exts/commands/gimmicks/rainbow/__init__.py:30
+msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: discord.Member\n"
+"                the member to add"
+msgstr ""
+
+#: exts/commands/gimmicks/rainbow/rainbow.py:42
 #, python-brace-format
 msgid "**{emoji} {prefix} `{user}` is part of it**"
 msgstr "**{emoji} {prefix} `{user}e parte din ea**"
 
-#: exts/commands/gimmicks/roll/__init__.py:33
-msgid "displays a random number in a specified range of values. (Default: 1-6)"
-msgstr "afișează un număr aleatoriu într-un interval specificat de valori. (implicit: 1-6)"
+#: exts/commands/gimmicks/roll/__init__.py:30
+msgid "Displays a random number in a specified range of values. (Default: 1-6)\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            start: Optional[int]\n"
+"                the start to roll at\n\n"
+"            limit: Optional[int]\n"
+"                the limit to roll till"
+msgstr ""
 
-#: exts/commands/gimmicks/roll/do.py:18
-msgid "🎲 Dice roll"
-msgstr "🎲 Dice roll"
+#: exts/commands/gimmicks/roll/roll.py:20
+msgid "Dice roll"
+msgstr ""
 
-#: exts/commands/gimmicks/roll/do.py:19
+#: exts/commands/gimmicks/roll/roll.py:25
 #, python-brace-format
 msgid "You have rolled a random number and the result is __**{number}**__"
 msgstr "Ai rulat un număr aleatoriu și rezultatul este __**{number}**__"
 
-#: exts/commands/gimmicks/say/__init__.py:33
-msgid ""
-"I will say whatever you tell me to say.\n"
-"            \n"
-"            - `reply`: \n"
-"            \\u2003True or False whether the bot should reply to you.\n"
-"            - `text`: \n"
-"            \\u2003The text to repeat."
+#: exts/commands/gimmicks/say/__init__.py:29
+msgid "I will say whatever you tell me to say.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            reply: Optional[bool]\n"
+"                True or False whether the bot should reply to you\n\n"
+"            text: str\n"
+"                What the bot should echo"
 msgstr ""
-"Voi spune orice îmi spuneţi să spun.\n"
-"            \n"
-"            - `răspuns`: \n"
-"            \\u2003Adevărat sau Fals dacă bot-ul ar trebui să îți răspundă.\n"
-"            - `text`: \n"
-"            \\u2003Textul de repetat."
 
-#: exts/commands/information/charinfo/__init__.py:33
-msgid ""
-"Displays information about a set of characters.\n"
-"            \n"
-"            Only up to 25 characters at a time."
+#: exts/commands/help/__init__.py:24
+msgid "Shows all Shake bot commands and provides helpful links\n"
+"        \n"
+"            Parameters\n"
+"            -----------\n"
+"            category: Optional[str]\n"
+"                the category\n\n"
+"            command: Optional[str]\n"
+"                the command   \n"
+"            "
 msgstr ""
-"Afişează informaţii despre un set de caractere.\n"
-"            \n"
-"            Doar până la 25 de caractere odată."
 
-#: exts/commands/information/charinfo/do.py:19
+#: exts/commands/help/menu.py:183
+msgid "Choose a Category..."
+msgstr "Alege o categorie..."
+
+#: exts/commands/help/menu.py:213
+msgid "This category does not exist."
+msgstr ""
+
+#: exts/commands/help/menu.py:216
+msgid "This category has no commands for you."
+msgstr ""
+
+#: exts/commands/help/menu.py:288 exts/commands/help/menu.py:289
+#, python-brace-format
+msgid "[{name} (upload a file)]"
+msgstr "[{name} (încărcați un fișier)]"
+
+#: exts/commands/help/menu.py:291 exts/commands/help/menu.py:292
+#, python-brace-format
+msgid "<{name} (upload a file)>"
+msgstr "<{name} (încărcați un fișier)>"
+
+#: exts/commands/help/menu.py:291 exts/commands/help/menu.py:292
+#, python-brace-format
+msgid "[{name} (upload files)]..."
+msgstr "[{name} (încărcare fișiere)]..."
+
+#: exts/commands/help/menu.py:337
+msgid "More detailed command description"
+msgstr ""
+
+#: exts/commands/help/menu.py:338
+#, python-brace-format
+msgid "{category} » {command} Command"
+msgstr ""
+
+#: exts/commands/help/menu.py:342
+msgid "No more detailed description given."
+msgstr ""
+
+#: exts/commands/help/menu.py:358
+msgid "Usage"
+msgstr "Utilizare"
+
+#: exts/commands/help/menu.py:376
+msgid "Examples"
+msgstr "Exemple"
+
+#: exts/commands/help/menu.py:382 exts/commands/help/menu.py:383
+msgid "None"
+msgstr "Niciunul"
+
+#: exts/commands/help/menu.py:390
+msgid "Necessary user permissions"
+msgstr "Permisiuni necesare pentru utilizator"
+
+#: exts/commands/help/menu.py:390
+msgid "User"
+msgstr "Utilizator"
+
+#: exts/commands/help/menu.py:390
+#: exts/commands/information/userinfo/userinfo.py:72
+msgid "Bot"
+msgstr "Bot"
+
+#: exts/commands/help/menu.py:404
+msgid "This command is new and is in its beta version"
+msgstr "Această comandă este nouă și este în versiunea beta"
+
+#: exts/commands/help/menu.py:408
+msgid "Only the owner of the shake bot can run this command"
+msgstr "Doar proprietarul botului de shake poate rula această comandă"
+
+#: exts/commands/help/menu.py:412
+msgid "Start a Shake Pro subscription to run this command"
+msgstr "Începe un abonament Shake Pro pentru a rula această comandă"
+
+#: exts/commands/help/menu.py:416
+msgid "This command requires certain rights from the user to be executed"
+msgstr "Această comandă necesită anumite drepturi de la utilizator pentru a fi executată"
+
+#: exts/commands/help/menu.py:420
+msgid "Announce"
+msgstr "Anunțați"
+
+#: exts/commands/help/menu.py:451 exts/commands/help/menu.py:509
+msgid "Write the command name (without the prefix) in this chat to get more specific\n"
+"information about a command."
+msgstr "Scrie numele de comandă (fără prefix) în această conversație pentru a obține informații mai specifice\n"
+"despre o comandă."
+
+#: exts/commands/help/menu.py:454 exts/commands/help/menu.py:512
+#, python-brace-format
+msgid "Page {current}/{max} ({entries} commands)"
+msgstr "Pagina {current}/{max} ({entries} comenzi)"
+
+#: exts/commands/help/menu.py:475
+msgid "No help given... (maybe report to team)"
+msgstr "Nici un ajutor dat... (poate raporta echipei)"
+
+#: exts/commands/help/menu.py:530
+msgid "No help given... (use bugreport)"
+msgstr "Nu ai ajutor dat... (folosește bugreportul)"
+
+#: exts/commands/help/menu.py:558
+msgid "Bot Help"
+msgstr "Bot Help"
+
+#: exts/commands/help/menu.py:561
+#, python-brace-format
+msgid "Hello and welcome to my help page {emoji}\n"
+"                Type `{prefix}help <command/category>` to get more information on a\n"
+"command/category."
+msgstr ""
+
+#: exts/commands/help/menu.py:568
+msgid "Support Server"
+msgstr "Server de Suport"
+
+#: exts/commands/help/menu.py:569
+#, python-brace-format
+msgid "You can get more help if you join the official server at\n"
+"[https://discord.gg/shake]({support_server})"
+msgstr "Poți obține mai mult ajutor dacă te alături serverului oficial la\n"
+"[https://discord.gg/shake]({support_server})"
+
+#: exts/commands/help/menu.py:578
+msgid "Who am I?"
+msgstr "Cine sunt?"
+
+#: exts/commands/help/menu.py:580
+msgid "{user}, which is partially intended for the public.\n"
+"                    Written with only `{lines:,}` lines. Please be nice"
+msgstr ""
+
+#: exts/commands/help/menu.py:585
+msgid "What am I for?"
+msgstr ""
+
+#: exts/commands/help/menu.py:587
+#, python-brace-format
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
+"                    I have been created {created_at} & \n"
+"                    I have functions like voting, level system, music, moderation & much more. \n"
+"                    You can get more information by using the dropdown menu below.\n"
+"                    dropdown menu."
+msgstr "Sunt un bot funcțional care va simplifica configurarea serverului pentru tine!\n\n"
+"                    Am fost creat {created_at} & \n"
+"                    Am funcții ca votul, nivelul sistemului, muzică, moderare și multe altele. \n"
+"                    Poți obține mai multe informații folosind meniul derulant de mai jos.\n"
+"                    Meniul derulant."
+
+#: exts/commands/help/menu.py:595
+msgid "Stands for the argument being __**necessary**__."
+msgstr "Stands for the argument being __**necessary**__."
+
+#: exts/commands/help/menu.py:596
+msgid "Stands for that the argument is __**optional**__."
+msgstr "Stands for that the argument is __**optional**__."
+
+#: exts/commands/help/menu.py:597
+msgid "Stands for the argument can be __**either A or B**__."
+msgstr "Stands for the argument can be __**fie A, fie B**__."
+
+#: exts/commands/help/menu.py:599
+msgid "Stands for the fact that you can use multiple arguments.\n\n"
+"                    Now that you know the basics, you should still know that...\n"
+"                    __**You don't include the parentheses!**__"
+msgstr "Stadii pentru faptul că poți folosi argumente multiple.\n\n"
+"                    Acum că cunoașteți elementele de bază, ar trebui să mai ştiţi asta. .\n"
+"                    __**Nu incluzi parantezele! *__"
+
+#: exts/commands/help/menu.py:605
+msgid "How do I use the bot?"
+msgstr "Cum pot folosi bot-ul?"
+
+#: exts/commands/help/menu.py:605
+msgid "Reading the bot structure is pretty easy."
+msgstr "A citi structura botului este destul de ușor."
+
+#: exts/commands/help/paginated.py:51
+msgid "\"{command}\" \\N{EM DASH} Unknown command. Use \"{prefix}help\" for help."
+msgstr "\"{command}\" \\N{EM DASH} Comandă necunoscută. Folosește \"{prefix}ajutor\" pentru ajutor."
+
+#: exts/commands/information/charinfo/__init__.py:28
+msgid "Displays information about a set of characters.\n"
+"            \n"
+"            Note: Only up to 25 characters at a time."
+msgstr ""
+
+#: exts/commands/information/charinfo/charinfo.py:17
+msgid "To many characters ({}/15)"
+msgstr ""
+
+#: exts/commands/information/charinfo/charinfo.py:19
 msgid "Charinfo Command"
 msgstr "Comanda Charinfo"
 
 #: exts/commands/information/information.py:10
-msgid ""
-"Informative commands about a wide variety of things.\n"
+msgid "Informative commands about a wide variety of things.\n"
 "        Sometimes you find out new things 🤷"
-msgstr ""
-"Informatii de comenzi despre o mare varietate de lucruri.\n"
+msgstr "Informatii de comenzi despre o mare varietate de lucruri.\n"
 "        Uneori afli lucruri noi 🤷"
 
 #: exts/commands/information/information.py:15
@@ -405,352 +581,390 @@ msgid "info"
 msgstr "informaţii"
 
 #: exts/commands/information/information.py:26
-#: exts/commands/information/userinfo/do copy.py:51
-#: exts/commands/information/userinfo/do.py:65
+#: exts/commands/information/serverinfo/serverinfo.py:85
+#: exts/commands/information/userinfo/userinfo.py:98
+#: exts/commands/information/userinfo/userinfo.py:104
 msgid "Information"
 msgstr "Informare"
 
 #: exts/commands/information/invite/__init__.py:31
-msgid ""
-"Invite the bot to your server.\n"
-"\n"
+msgid "Invite the bot to your server.\n\n"
 "            Of course, you can also simply add the bot via its user profile."
-msgstr ""
-"Invită botul pe serverul tău.\n"
-"\n"
+msgstr "Invită botul pe serverul tău.\n\n"
 "            Bineînțeles, poți adăuga și botul prin intermediul profilului său de utilizator."
 
-#: exts/commands/information/invite/do copy.py:17
-#: exts/commands/information/invite/do.py:17
+#: exts/commands/information/invite/invite.py:18
 msgid "The Shake Team and I thank you for your interest"
 msgstr "Echipa de agitare și vă mulțumesc pentru interesul dvs."
 
-#: exts/commands/information/invite/do copy.py:25
-#: exts/commands/information/invite/do.py:26
+#: exts/commands/information/invite/invite.py:28
 msgid "Add Shake to your Server"
 msgstr "Adaugă Shake la Serverul tău"
 
-#: exts/commands/information/premium/__init__.py:31
-msgid ""
-"Get information about Shake+.\n"
-"\n"
-"            Of course, you dont have to. It's like a tip"
+#: exts/commands/information/invite/invite.py:29
+msgid "Join Shake's Server"
 msgstr ""
-"Obține informații despre Shake+.\n"
-"\n"
+
+#: exts/commands/information/ping/__init__.py:28
+msgid "Get some ping"
+msgstr ""
+
+#: exts/commands/information/ping/ping.py:16
+msgid "Pong! 🏓"
+msgstr ""
+
+#: exts/commands/information/ping/ping.py:20
+msgid "Discord Gateway"
+msgstr ""
+
+#: exts/commands/information/ping/ping.py:24
+msgid "Client Latency"
+msgstr ""
+
+#: exts/commands/information/ping/ping.py:35
+msgid "Discord Status"
+msgstr ""
+
+#: exts/commands/information/premium/__init__.py:31
+#: exts/commands/information/vote/__init__.py:29
+msgid "Get information about Shake+.\n\n"
+"            Of course, you dont have to. It's like a tip"
+msgstr "Obține informații despre Shake+.\n\n"
 "            Bineînțeles că nu trebuie să le faci. Este ca un pont"
 
-#: exts/commands/information/premium/do.py:16
+#: exts/commands/information/premium/premium.py:16
 msgid "> Shake Premium (Shake+)"
 msgstr "> Scuturați Premium (hake+)"
 
-#: exts/commands/information/premium/do.py:17
+#: exts/commands/information/premium/premium.py:17
 #, python-brace-format
 msgid "{emoji} This Discord server has no premium activated."
 msgstr "{emoji} Acest server Discord nu are activat premium."
 
-#: exts/commands/information/premium/do.py:19
+#: exts/commands/information/premium/premium.py:19
 #, python-brace-format
 msgid "{emoji} The benefit of supporting Shake as Patreon"
 msgstr "{emoji} Beneficiul suportului lui Shake ca Patreon"
 
-#: exts/commands/information/premium/do.py:21
-msgid ""
-"Supporting the Bot as Patreon will keep the motivation for the development of Shake and make sure that all hosting costs are covered.\n"
-"\n"
+#: exts/commands/information/premium/premium.py:21
+msgid "Supporting the Bot as Patreon will keep the motivation for the development of Shake and make sure that all hosting costs are covered.\n\n"
 "                Premium makes **voting no longer necessary** and gives you **more creator channel** to customize! \n"
 "                "
-msgstr ""
-"Sprijinirea bot-ului ca Patreon va menține motivația pentru dezvoltarea lui Shake și se va asigura că toate costurile de găzduire sunt acoperite.\n"
-"\n"
+msgstr "Sprijinirea bot-ului ca Patreon va menține motivația pentru dezvoltarea lui Shake și se va asigura că toate costurile de găzduire sunt acoperite.\n\n"
 "                Premium face ca **votul să nu mai fie necesar** și îți oferă **mai mult canal de creator** pentru a personaliza! \n"
 "                "
 
-#: exts/commands/information/premium/do.py:26
+#: exts/commands/information/premium/premium.py:26
 #, python-brace-format
 msgid "{emoji} Helpful links for understanding Patreon"
 msgstr "{emoji} link-uri utile pentru înțelegerea Patreonului"
 
-#: exts/commands/information/premium/do.py:28
-msgid ""
-"**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
+#: exts/commands/information/premium/premium.py:28
+msgid "**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
 "                **[What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
 "                **[How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
 "                "
-msgstr ""
-"**[Ce este Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
+msgstr "**[Ce este Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
 "                **[Ce monede sprijină Patreon?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
 "                **[Cum conectez Discord la Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patron-**\n"
 "                "
 
-#: exts/commands/information/premium/do.py:33
+#: exts/commands/information/premium/premium.py:33
 msgid "Freemium | Premium isn't required"
 msgstr "Freemium Premium nu este necesar"
 
-#: exts/commands/information/premium/do.py:42
+#: exts/commands/information/premium/premium.py:42
 msgid "Add Shake to your server"
 msgstr "Adaugă Shake la serverul tău"
 
-#: exts/commands/information/rtfm/__init__.py:36
-msgid ""
-"View objects from certain documentation.\n"
-"\n"
+#: exts/commands/information/rtfm/__init__.py:94
+msgid "View objects from certain documentation.\n\n"
 "            RTFM is internet slang for the phrase \"read the damn manual\"."
-msgstr ""
-"Vizualizați obiecte din anumite documentații.\n"
-"\n"
+msgstr "Vizualizați obiecte din anumite documentații.\n\n"
 "            RTFM este o slang de internet pentru fraza „citiți manualul de acces”."
 
-#: exts/commands/information/rtfm/do.py:101
+#: exts/commands/information/rtfm/__init__.py:108
+msgid "View certain objects from the official discord.py documentation.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            entity: Optional[str]\n"
+"                the entity to look for in the documentation"
+msgstr ""
+
+#: exts/commands/information/rtfm/__init__.py:125
+msgid "View certain objects from official python documentation. \n\n"
+"            RTFM is internet slang for the phrase \"read the damn manual\".\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            entity: Optional[str]\n"
+"                the entity to look for in the documentation"
+msgstr ""
+
+#: exts/commands/information/rtfm/__init__.py:143
+msgid "View the members stats of the rtfm command.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            member: Greedy[Member]\n"
+"                the members you want to get the stats from"
+msgstr ""
+
+#: exts/commands/information/rtfm/rtfm.py:69
 msgid "Couldn't find anything."
 msgstr "Nu s-a putut găsi nimic."
 
-#: exts/commands/information/rtfm/do.py:118
+#: exts/commands/information/rtfm/rtfm.py:86
 msgid "Uses"
 msgstr "Utilizări"
 
-#: exts/commands/information/rtfm/do.py:119
+#: exts/commands/information/rtfm/rtfm.py:87
 msgid "Total"
 msgstr "Total"
 
-#: exts/commands/information/rtfm/do.py:135
+#: exts/commands/information/rtfm/rtfm.py:103
 #, python-brace-format
 msgid "**Total uses**: {total_uses}"
 msgstr "**Utilizări totale**: {total_uses}"
 
-#: exts/commands/information/rtfm/do.py:138
+#: exts/commands/information/rtfm/rtfm.py:106
 #, python-brace-format
 msgid "**Top {top} member**:"
 msgstr "**Top {top} membru**:"
 
 #: exts/commands/information/serverinfo/__init__.py:37
-msgid ""
-"Get information about a specific server.\n"
-"\n"
-"            This command will show you some information about a server.\n"
-"\n"
+msgid "Get information about a specific server.\n\n"
+"            This command will show you some information about a server.\n\n"
 "            - `information`: \n"
 "            \\u2003[owner, member, creation, ...]."
-msgstr ""
-"Obțineți informații despre un anumit server.\n"
-"\n"
-"            Această comandă îți va arăta câteva informații despre server.\n"
-"\n"
+msgstr "Obțineți informații despre un anumit server.\n\n"
+"            Această comandă îți va arăta câteva informații despre server.\n\n"
 "            - `information`: \n"
 "            \\u2003[proprietarul, membri, creatie, . .]."
 
-#: exts/commands/information/serverinfo/do.py:46
+#: exts/commands/information/serverinfo/serverinfo.py:62
 #, python-brace-format
-msgid "Info for {guild_name}"
-msgstr "Informații pentru {guild_name}"
-
-#: exts/commands/information/serverinfo/do.py:47
-#: exts/commands/information/userinfo/do copy.py:30
-#: exts/commands/information/userinfo/do.py:44
-msgid "ID"
-msgstr "ID"
-
-#: exts/commands/information/serverinfo/do.py:48
-msgid "Owner"
-msgstr "Proprietar"
-
-#: exts/commands/information/serverinfo/do.py:56
-msgid "Partnered"
-msgstr "Partener"
-
-#: exts/commands/information/serverinfo/do.py:59
-msgid "Safe for work"
-msgstr "Sigur de lucru"
-
-#: exts/commands/information/serverinfo/do.py:60
-msgid "Large"
-msgstr "Mare"
-
-#: exts/commands/information/serverinfo/do.py:70
-#, python-brace-format
-msgid "Total: {members}"
-msgstr "Total: {members}"
-
-#: exts/commands/information/serverinfo/do.py:74
-msgid "Members"
-msgstr "Membri"
-
-#: exts/commands/information/serverinfo/do.py:75
-msgid "Roles"
-msgstr "Roluri"
-
-#: exts/commands/information/serverinfo/do.py:76
-#: exts/commands/information/userinfo/do copy.py:34
-#: exts/commands/information/userinfo/do.py:48
-msgid "Created"
-msgstr "Creat"
-
-#: exts/commands/information/stats/__init__.py:33
-msgid ""
-"Get some basic information and statistics about me.\n"
-"            \n"
-"            very useful to stalk"
+msgid "**Avatar**: {avatars}"
 msgstr ""
-"Obține câteva informații de bază și statistici despre mine.\n"
-"            \n"
-"            foarte util pentru a bloca"
 
-#: exts/commands/information/stats/do.py:26
-msgid "Shake Statistics"
-msgstr "Statistici agitare"
-
-#: exts/commands/information/stats/do.py:38
-msgid "general"
-msgstr "generală"
-
-#: exts/commands/information/stats/do.py:39
-#, python-brace-format
-msgid ""
-"```py\n"
-"                v{version} from {owner}\n"
-"                {_started} {time} {date}\n"
-"                ```"
-msgstr ""
-"```py\n"
-"                v{version} din {owner}\n"
-"                {_started} {time} {date}\n"
-"```"
-
-#: exts/commands/information/stats/do.py:45
-msgid "started"
-msgstr "început"
-
-#: exts/commands/information/stats/do.py:48
-msgid "host"
-msgstr "gazdă"
-
-#: exts/commands/information/stats/do.py:55
-msgid "cpu"
-msgstr "cpu"
-
-#: exts/commands/information/stats/do.py:55
-msgid "ram"
-msgstr "ram"
-
-#: exts/commands/information/stats/do.py:58
-msgid "bot"
-msgstr "bot"
-
-#: exts/commands/information/stats/do.py:65
-msgid "server"
-msgstr "server"
-
-#: exts/commands/information/stats/do.py:65
-msgid "user"
-msgstr "utilizator"
-
-#: exts/commands/information/stats/do.py:68
-msgid "utils"
-msgstr "utils"
-
-#: exts/commands/information/stats/do.py:77
-msgid "commands"
-msgstr "comenzi"
-
-#: exts/commands/information/stats/do.py:83
-msgid "amout"
-msgstr "amout"
-
-#: exts/commands/information/stats/do.py:83
-msgid "used"
-msgstr "folosit"
-
-#: exts/commands/information/userinfo/__init__.py:33
-msgid "Get information about you or a specified user."
-msgstr "Obține informații despre tine sau un utilizator specificat."
-
-#: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
+#: exts/commands/information/serverinfo/serverinfo.py:66
+#: exts/commands/information/userinfo/userinfo.py:65
 msgid "Idle"
 msgstr "Inactiv"
 
-#: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
-msgid "Please do not disturb"
-msgstr "Vă rugăm să nu deranjați"
-
-#: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
-msgid "Offline"
-msgstr "Offline"
-
-#: exts/commands/information/userinfo/do copy.py:25
-#: exts/commands/information/userinfo/do.py:39
-msgid "Online"
-msgstr "Online"
-
-#: exts/commands/information/userinfo/do copy.py:28
-#: exts/commands/information/userinfo/do.py:42
+#: exts/commands/information/serverinfo/serverinfo.py:72
+#: exts/commands/information/userinfo/userinfo.py:69
 msgid "Name"
 msgstr "Nume"
 
-#: exts/commands/information/userinfo/do copy.py:29
-#: exts/commands/information/userinfo/do.py:43
+#: exts/commands/information/serverinfo/serverinfo.py:73
+msgid "Members"
+msgstr "Membri"
+
+#: exts/commands/information/serverinfo/serverinfo.py:74
+msgid "Statuses"
+msgstr ""
+
+#: exts/commands/information/serverinfo/serverinfo.py:75
+#: exts/commands/information/userinfo/userinfo.py:71
+msgid "ID"
+msgstr "ID"
+
+#: exts/commands/information/serverinfo/serverinfo.py:76
+msgid "Bots"
+msgstr ""
+
+#: exts/commands/information/serverinfo/serverinfo.py:77
+#: exts/commands/information/userinfo/userinfo.py:73
+msgid "Created"
+msgstr "Creat"
+
+#: exts/commands/information/serverinfo/serverinfo.py:78
+msgid "Roles"
+msgstr "Roluri"
+
+#: exts/commands/information/serverinfo/serverinfo.py:79
+msgid "Owner"
+msgstr "Proprietar"
+
+#: exts/commands/information/stats/__init__.py:33
+msgid "Get some basic information and statistics about me.\n"
+"            \n"
+"            very useful to stalk"
+msgstr "Obține câteva informații de bază și statistici despre mine.\n"
+"            \n"
+"            foarte util pentru a bloca"
+
+#: exts/commands/information/stats/do.py:22
+msgid "and"
+msgstr "şi"
+
+#: exts/commands/information/stats/do.py:25
+msgid "Shake Statistics"
+msgstr "Statistici agitare"
+
+#: exts/commands/information/stats/do.py:40
+msgid "started"
+msgstr "început"
+
+#: exts/commands/information/stats/do.py:42
+msgid "host"
+msgstr "gazdă"
+
+#: exts/commands/information/stats/do.py:49
+msgid "cpu"
+msgstr "cpu"
+
+#: exts/commands/information/stats/do.py:49
+msgid "ram"
+msgstr "ram"
+
+#: exts/commands/information/stats/do.py:52
+msgid "bot"
+msgstr "bot"
+
+#: exts/commands/information/stats/do.py:59
+msgid "server"
+msgstr "server"
+
+#: exts/commands/information/stats/do.py:59
+msgid "user"
+msgstr "utilizator"
+
+#: exts/commands/information/stats/do.py:62
+msgid "utils"
+msgstr "utils"
+
+#: exts/commands/information/stats/do.py:71
+msgid "commands"
+msgstr "comenzi"
+
+#: exts/commands/information/stats/do.py:77
+msgid "amout"
+msgstr "amout"
+
+#: exts/commands/information/stats/do.py:77
+msgid "used"
+msgstr "folosit"
+
+#: exts/commands/information/userinfo/__init__.py:29
+msgid "Get information about you or a specified user.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            user: Optional[Union[Member, User]]\n"
+"                @mention, ID or name."
+msgstr ""
+
+#: exts/commands/information/userinfo/userinfo.py:61
+#, python-brace-format
+msgid "{mention} {badges}\n"
+"                **Avatar**: {avatars}"
+msgstr ""
+
+#: exts/commands/information/userinfo/userinfo.py:65
+msgid "Please do not disturb"
+msgstr "Vă rugăm să nu deranjați"
+
+#: exts/commands/information/userinfo/userinfo.py:65
+msgid "Offline"
+msgstr "Offline"
+
+#: exts/commands/information/userinfo/userinfo.py:65
+msgid "Online"
+msgstr "Online"
+
+#: exts/commands/information/userinfo/userinfo.py:70
 msgid "#tag"
 msgstr "#tag"
 
-#: exts/commands/information/userinfo/do copy.py:35
-msgid "Seen"
-msgstr "Văzut"
-
-#: exts/commands/information/userinfo/do copy.py:36
-#: exts/commands/information/userinfo/do.py:50
+#: exts/commands/information/userinfo/userinfo.py:74
 msgid "Mutual Servers"
 msgstr "Servere mutuale"
 
-#: exts/commands/information/userinfo/do copy.py:37
-#: exts/commands/information/userinfo/do.py:51
+#: exts/commands/information/userinfo/userinfo.py:75
 msgid "Discord-System"
 msgstr "Discord-System"
 
-#: exts/commands/information/userinfo/do copy.py:42
-#: exts/commands/information/userinfo/do.py:56
-msgid "Joined"
-msgstr "S-a alăturat"
+#: exts/commands/information/userinfo/userinfo.py:82
+msgid "Member"
+msgstr ""
 
-#: exts/commands/information/userinfo/do copy.py:43
-#: exts/commands/information/userinfo/do.py:57
-msgid "Mitglied"
-msgstr "Mitglied"
+#: exts/commands/information/userinfo/userinfo.py:83
+msgid "Since"
+msgstr ""
 
-#: exts/commands/information/userinfo/do copy.py:44
-#: exts/commands/information/userinfo/do.py:58
+#: exts/commands/information/userinfo/userinfo.py:84
 msgid "Top-Role"
 msgstr "Rolul de sus"
 
-#: exts/commands/information/userinfo/do copy.py:45
-#: exts/commands/information/userinfo/do.py:59
+#: exts/commands/information/userinfo/userinfo.py:85
 msgid "Color"
 msgstr "Culoare"
 
-#: exts/commands/information/userinfo/do copy.py:46
-msgid "Perms"
-msgstr "Permise"
-
-#: exts/commands/information/userinfo/do copy.py:47
-#: exts/commands/information/userinfo/do.py:61
+#: exts/commands/information/userinfo/userinfo.py:86
 msgid "Activity"
 msgstr "Activitate"
 
-#: exts/commands/information/userinfo/do copy.py:48
-#: exts/commands/information/userinfo/do.py:62
+#: exts/commands/information/userinfo/userinfo.py:87
 msgid "Status"
 msgstr "Status"
 
-#: exts/commands/information/userinfo/do copy.py:49
-#: exts/commands/information/userinfo/do.py:63
+#: exts/commands/information/userinfo/userinfo.py:88
 msgid "Device"
 msgstr "Dispozitiv"
 
-#: exts/commands/information/userinfo/do copy.py:52
-#: exts/commands/information/userinfo/do.py:66
+#: exts/commands/information/userinfo/userinfo.py:93
 msgid "Server Related"
 msgstr "Asemănător serverului"
+
+#: exts/commands/information/vote/do.py:16
+msgid "> Help Shake on its way (Vote)"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:18
+#, python-brace-format
+msgid "{emoji} The benefit of supporting Shake with Voting"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:20
+msgid "> _Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility and helps others discover Shake too._\n\n"
+"                **Thanks for every vote!!**\n"
+"                "
+msgstr ""
+
+#: exts/commands/information/vote/do.py:25
+#, python-brace-format
+msgid "{emoji} Sites the bot is listed at"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:27
+#, python-brace-format
+msgid "**[Vote for Shake on Top.gg]({topgg})**\n"
+"                **[Vote for Shake on Discordbotlist.com]({discordbotlist})**\n"
+"                **[Vote for Shake on discord-botlist.eu]({botlisteu})\n"
+"                **[Vote for Shake on infinitybots.gg]({infinitybots})****"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:36
+#, python-brace-format
+msgid "{emoji} Other related links"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:38
+#, python-brace-format
+msgid "**[Shake on Discord Bots]({discordbots})**\n"
+"                **[Shake's Server on Discords]({discords})**"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:45
+msgid "Freemium | Vote isn't required"
+msgstr ""
+
+#: exts/commands/information/vote/do.py:54
+msgid "Vote for Shake"
+msgstr ""
 
 #: exts/commands/inviting/inviting.py:10
 msgid "Inviting Commands are useful to track these and get some members"
@@ -772,39 +986,26 @@ msgstr "Cântărire"
 msgid "get your current level status"
 msgstr "obțineți starea nivelului dvs. curent"
 
-#: exts/commands/moderation/clear/__init__.py:56
-msgid ""
-"Command to empty messages in text channels.\n"
-"\n"
+#: exts/commands/moderation/clear/__init__.py:40
+msgid "Command to empty messages in text channels.\n\n"
 "            This command deletes a certain number of messages while various filters can be applied.\n"
 "            Pinned messages are ignored. You can also filter by one or more members.\n"
 "            \n"
-"            - `users`: \n"
-"            \\u2003@mentions, IDs or names.\n"
-"            - `first_limit` and `second_limit`: \n"
-"            \\`u2003@one message, one delta or ISO datetime each.\n"
-"            - `regex`: \n"
-"            \\u2003A regex pattern that the message must contain to be deleted.\n"
-"            - `bots_only`: \n"
-"            \\`u2003Whether only bots should be deleted. Specify `bots_only` or `users`.\n"
-"            - `channels`: \n"
-"            \\u2003#textchannels or * for all text channels in which to delete."
+"            Parameters\n"
+"            -----------\n"
+"            users: Greedy[User]\n"
+"                @mentions, IDs or names.\n\n"
+"            first_limit: Union[Message, Age, ISODateTime, None]\n"
+"                one message, one delta or ISO datetime each.\n\n"
+"            second_limit: Union[Message, Age, ISODateTime, None]\n"
+"                one message, one delta or ISO datetime each.\n\n"
+"            regex: Optional[Regex]\n"
+"                A regex pattern that the message must contain to be deleted.\n\n"
+"            bots_only: Optional[bool]\n"
+"                Whether only bots should be deleted. Specify `bots_only` or `users`.\n\n"
+"            channels: Greedy[TextChannel]\n"
+"                #textchannels or * for all text channels in which to delete."
 msgstr ""
-"Comanda către mesaje goale în canalele de text.\n"
-"\n"
-"            Această comandă șterge un anumit număr de mesaje, în timp ce diverse filtre pot fi aplicate.\n"
-"            Mesajele fixate sunt ignorate. De asemenea, poți filtra unul sau mai mulți membri.\n"
-"            \n"
-"            - `utilizatori`: \n"
-"            \\u2003@menționări, ID-uri sau nume.\n"
-"            - `first_limit` şi `second_limit`: \n"
-"            \\`u2003@one mesaj, o delta sau ISO pentru fiecare data.\n"
-"            - `regex`: \n"
-"            \\u2003Un model regex pe care mesajul trebuie să-l conțină pentru a fi șters.\n"
-"            - `bots_only`: \n"
-"            \\`u2003Dacă doar boții ar trebui șterși. Specificați `bots_only` sau `utilizatorii`.\n"
-"            - `canale`: \n"
-"            \\u2003#textchannels sau * pentru toate canalele de text în care să se ștergă."
 
 #: exts/commands/moderation/clear/do.py:83
 msgid "Message limits are in different channels."
@@ -827,154 +1028,90 @@ msgid "run commands multiple times"
 msgstr "execută comenzi de mai multe ori"
 
 #: exts/commands/moderation/moderation.py:10
-msgid ""
-"Moderation related commands.\n"
+msgid "Moderation related commands.\n"
 "        (Each of these commands requires certain authorization)."
-msgstr ""
-"Comenzi legate de moderare.\n"
+msgstr "Comenzi legate de moderare.\n"
 "        (Fiecare dintre aceste comenzi necesită o anumită autorizare)."
 
 #: exts/commands/moderation/mute/__init__.py:41
 msgid "put a user in the timeout"
 msgstr "pune un utilizator în timp expirat"
 
-#: exts/commands/moderation/sudo/__init__.py:41
-msgid ""
-"execute commands with the rights of another user\n"
-"\n"
-"            You can specify who executes this command in which text channel"
+#: exts/commands/moderation/sudo/__init__.py:37
+msgid "execute commands with the rights of another user\n\n"
+"            You can specify who executes this command in which text channel\"\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            channel: Optional[TextChannel]\n"
+"                the channel\n\n"
+"            user: Union[Member, User]\n"
+"                the user\n\n"
+"            command: str\n"
+"                the command\n\n"
+"            arguments: Optional[str]\n"
+"                the arguments\n"
+"            "
 msgstr ""
-"execută comenzi cu drepturile unui alt utilizator\n"
-"\n"
-"            Puteţi specifica cine execută această comandă în care canal text"
 
-#: exts/commands/other/aboveme/__init__.py:31
-msgid "Manage the aboveme features of the bot"
-msgstr "Administreaza caracteristicilele bot-ului"
-
-#: exts/commands/other/aboveme/__init__.py:45
-msgid "Set up the Aboveme-Game with a wizard in seconds."
-msgstr "Configurați jocul de Aboveme-cu un vrăjitor în câteva secunde."
-
-#: exts/commands/other/aboveme/do.py:33
-msgid "aboveme category"
-msgstr "Categoria (e)"
-
-#: exts/commands/other/aboveme/do.py:41
-msgid "︱aboveme"
-msgstr "—herea e"
-
-#: exts/commands/other/aboveme/do.py:42
-msgid "The one above me has certainly not played this excellent game yet..."
-msgstr "Cel de mai sus nu a jucat încă acest joc excelent..."
-
-#: exts/commands/other/aboveme/do.py:49
-#, python-brace-format
-msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play aboveme on this Discord server!"
-msgstr "{emoji} {prefix} **Instalare completă**. {channel} poate fi folosit acum pentru a juca Always e pe acest server Discord!"
-
-#: exts/commands/other/bash/__init__.py:34
+#: exts/commands/other/bash/__init__.py:35
 msgid "Run shell commands."
 msgstr "Rulează comenzile de shell."
 
-#: exts/commands/other/counting/__init__.py:32
-msgid "Manage the counting features of the bot"
-msgstr "Gestionează funcțiile de numărare ale bot-ului"
+#: exts/commands/other/dispatch/__init__.py:30
+msgid "Send an event\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            event: Optional[strl]\n"
+"                the event\n\n"
+"            kwargs: Any\n"
+"                the kwargs"
+msgstr ""
 
-#: exts/commands/other/counting/__init__.py:53
-msgid "Set up Counting with a wizard in seconds."
-msgstr "Configurați Numărarea cu un asistent în câteva secunde."
-
-#: exts/commands/other/counting/do.py:32
-msgid "counting category"
-msgstr "numărătoarea categoriei"
-
-#: exts/commands/other/counting/do.py:39
-msgid "︱counting"
-msgstr "—numărătoare"
-
-#: exts/commands/other/dispatch/__init__.py:38
-msgid "Send an event"
-msgstr "Trimite un eveniment"
-
-#: exts/commands/other/language/__init__.py:40
-msgid ""
-"View all available languages' locale codes.\n"
-"\n"
+#: exts/commands/other/language/__init__.py:35
+msgid "Display a list of availible languages and locale codes.\n"
+"            \n"
 "            You can check if your language is available by comparing against [this list](https://saimana.com/list-of-country-locale-code/)\n"
 "            Some of these languages are no real languages but serve as a way to spice up the text.\n"
 "            (If something is not yet translated, the english original text is used.)"
 msgstr ""
-"Vezi toate codurile locale disponibile ale limbilor.\n"
-"\n"
-"            Puteți verifica dacă limba dvs. este disponibilă prin compararea cu [această listă](https://saimana. /lista locală/locală a țării\n"
-"            Unele dintre aceste limbi nu sunt limbi reale, ci servesc ca modalitate de a înfrumuseța textul.\n"
-"            (dacă ceva nu este încă tradus, se folosește textul original în limba engleză.)"
 
-#: exts/commands/other/language/__init__.py:60
+#: exts/commands/other/language/__init__.py:49
 #, python-brace-format
-msgid ""
-"Changes the language the bot replies for the guild.\n"
-"\n"
-"            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`"
-msgstr ""
-"Schimbă limba în care bot-ul răspunde pentru breaslă.\n"
-"\n"
-"            `<locale>- Codul local al limbii pe care dorești să o utilizezi; lista completă poate fi găsită în `{prefix}limbă`"
-
-#: exts/commands/other/language/__init__.py:78
-#, python-brace-format
-msgid ""
-"Changes the language the bot replies for you.\n"
+msgid "Set your language for Shake.\n"
+"            Full list of available languages can be found with `{prefix}language`\n"
 "            \n"
-"            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`"
-msgstr ""
-"Schimbă limba pe care bot-ul o răspunde pentru tine.\n"
+"            Parameters\n"
+"            -----------\n"
+"            language: str\n"
+"                The locale code of the language you want to use\n"
 "            \n"
-"            `<locale>- Codul local al limbii pe care doriţi să o utilizaţi; lista completă poate fi găsită în limba{prefix}\""
+"            server: Optional[bool]\n"
+"                If the language should be for the whole server"
+msgstr ""
 
-#: exts/commands/other/language/do.py:22
+#: exts/commands/other/language/do.py:67
 #, python-brace-format
-msgid "{emoji} {prefix} **Your given locale is not valid. Use <!language> to get a list of all locales)**"
-msgstr "{emoji} {prefix} **Localizarea dată nu este validă. Folosește <!language> pentru a obține o listă cu toate localele)**"
+msgid "{emoji} {prefix} **Your given language is not valid. Use </language list> to get a list of all available languages**"
+msgstr ""
 
-#: exts/commands/other/language/do.py:28
+#: exts/commands/other/language/do.py:73
 #, python-brace-format
-msgid ""
-"{emoji} {prefix} **I'm sorry to say that I dont have your given locale.**\n"
+msgid "{emoji} {prefix} **I'm sorry to say that I dont have your given locale ready.**\n"
 "                Try to contribute [here]({link}) if you want to!"
 msgstr ""
-"{emoji} {prefix} **Îmi pare rău să spun că nu am dat date locale.**\n"
-"                Încearcă să contribui [here]({link}) dacă vrei!"
+
+#: exts/commands/other/language/do.py:79
+#, python-brace-format
+msgid "{emoji} {prefix} **The specified language was set successfully!**"
+msgstr ""
+
+#: exts/commands/other/language/do.py:137
+msgid "Available Translations"
+msgstr ""
 
 #: exts/commands/other/load/__init__.py:39
 msgid "Load an extension of the bot"
 msgstr "Încarcă o extensie a bot-ului"
-
-#: exts/commands/other/oneword/__init__.py:31
-msgid "Manage the oneword features of the bot"
-msgstr "Gestionează funcțiile cu un singur cuvânt ale bot-ului"
-
-#: exts/commands/other/oneword/__init__.py:45
-msgid "Set up the Oneword-Game with a wizard in seconds."
-msgstr "Configurați jocul Oneword-Game cu un asistent în câteva secunde."
-
-#: exts/commands/other/oneword/do.py:32
-msgid "oneword category"
-msgstr "Categorie cu un singur cuvânt"
-
-#: exts/commands/other/oneword/do.py:39
-msgid "︱oneword"
-msgstr "—unul"
-
-#: exts/commands/other/oneword/do.py:40
-msgid "I"
-msgstr "I"
-
-#: exts/commands/other/oneword/do.py:51
-#, python-brace-format
-msgid "{emoji} {prefix} **Setup completed**. {channel} can now be used to play oneword on this Discord server!"
-msgstr "{emoji} {prefix} **Instalare completă**. {channel} poate fi folosit acum pentru a juca un singur cuvânt pe acest server Discord!"
 
 #: exts/commands/other/other.py:11
 msgid "Other commands without categories"
@@ -998,85 +1135,38 @@ msgid "Reload extensions of the bot"
 msgstr "Reîncarcă extensiile botului"
 
 #: exts/commands/other/repl/__init__.py:34
-msgid ""
-"Run your own xyz codes.\n"
+msgid "Run your own xyz codes.\n"
 "            \n"
 "            You can simply specify this code as an argument and also in quotes (`).\n"
 "            Optionally you can use common attributes like ctx, bot etc. in the code."
-msgstr ""
-"Rulează propriile coduri xyz.\n"
+msgstr "Rulează propriile coduri xyz.\n"
 "            \n"
 "            Puteți specifica pur și simplu acest cod ca argument și, de asemenea, în citate (`).\n"
 "            Opțional puteți utiliza atribute comune precum ctx, bot etc. în cod."
 
-#: exts/commands/other/sync/__init__.py:43
-msgid ""
-"synchronize the bot with its commands\n"
-"\n"
+#: exts/commands/other/sync/__init__.py:35
+msgid "synchronize the bot with its commands\n\n"
 "            The synchronization is used to reload the changes.\n"
 "            Synchronize when ...\n"
-"            - ...commands have been added, removed or changed\n"
-"            - ...arguments are added, removed or changed\n"
-"            - ...permissions are added, removed or changed\n"
-"            - ...a global/server command becomes a server/global command"
+"            - ...commands, arguments or permissions have been added, removed or changed\n"
+"            - ...a global/server command becomes a server/global command\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guilds: Optional[strl]\n"
+"                the guilds\n\n"
+"            spec: Optional[Literal[\"~\", \"*\", \"^\"]]\n"
+"                the spec\n\n"
+"            dump: Optional[bool]\n"
+"                if dump"
 msgstr ""
-"Sincronizează bot-ul cu comenzile sale\n"
-"\n"
-"            Sincronizarea este folosită pentru a reîncărca modificările.\n"
-"            Sincronizează când . .\n"
-"            - ... ommandatele au fost adăugate, eliminate sau modificate\n"
-"            - . .Argumentele sunt adăugate, eliminate sau modificate\n"
-"            - ... ermisiunile sunt adăugate, șterse sau schimbate\n"
-"            - . .a comanda global/server devine o comandă server/globală"
 
-#: exts/commands/other/sync/do.py:46
+#: exts/commands/other/sync/do.py:45
 msgid "globally"
 msgstr "global"
 
-#: exts/commands/other/sync/do.py:46
+#: exts/commands/other/sync/do.py:45
 msgid "to the current guild"
 msgstr "la breasla curentă"
-
-#: exts/commands/other/tempvoice/__init__.py:32
-msgid "Setup the tempvoice features of the bot"
-msgstr "Configurați funcțiile de voce temporară ale bot-ului"
-
-#: exts/commands/other/tempvoice/__init__.py:53
-msgid "Set up TempVoice with a wizard in seconds."
-msgstr "Configurați jocul de Aboveme-cu un vrăjitor în câteva secunde."
-
-#: exts/commands/other/tempvoice/do.py:32
-msgid "tempvoice category"
-msgstr "Categorie de voce temporară"
-
-#: exts/commands/other/tempvoice/do.py:40
-msgid "︱Creator Channel"
-msgstr "—Canal creator"
-
-#: exts/commands/other/tempvoice/do.py:48
-msgid "︱interface"
-msgstr "-interfata"
-
-#: exts/commands/other/tempvoice/do.py:67
-msgid "TempVoice Interface"
-msgstr "Interfaţă TempVoice"
-
-#: exts/commands/other/tempvoice/do.py:70
-#, python-brace-format
-msgid ""
-"{emoji} This interface can be used to edit your temporary channel.\n"
-"            More options will be available with {command} commands."
-msgstr ""
-"{emoji} Aceasta interfata poate fi folosita pentru a edita canalul temporar.\n"
-"            Vor fi disponibile mai multe optiuni cu comenzile {command}."
-
-#: exts/commands/other/tempvoice/do.py:75
-msgid "The interface can be used with the buttons below."
-msgstr "Interfaţa poate fi utilizată cu butoanele de mai jos."
-
-#: exts/commands/other/tempvoice/do.py:92
-msgid "Support"
-msgstr "Suport"
 
 #: exts/commands/other/test/__init__.py:36
 msgid "Test temporary commands"
@@ -1086,34 +1176,154 @@ msgstr "Testează comenzile temporare"
 msgid "Unload extensions of the bot"
 msgstr "Descarca extensiile botului"
 
-#: exts/functions/Commands/command/error/do.py:27
+#: exts/commands/wouldyou/rather/__init__.py:39
+msgid "Get a useful would you rather question.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            voting: Optional[bool]\n"
+"                Do you want the users to be able to vote?"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/__init__.py:55
+msgid "Get a useless would you rather question.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            voting: Optional[bool]\n"
+"                Do you want the users to be able to vote?"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:33
+msgid "Would you rather have this"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:37
+#, python-brace-format
+msgid "or this {adjective} Power?"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:37
+msgid "useful"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:37
+msgid "useless"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:81 exts/commands/wouldyou/would
+#: you/do.py:90
+msgid "Stats"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:82
+#, python-brace-format
+msgid "**{users}** of **{total}** user (**{procent}%**) would take power nr. {power}"
+msgstr ""
+
+#: exts/commands/wouldyou/rather/do.py:84
+msgid "No one would take any power?"
+msgstr ""
+
+#: exts/commands/wouldyou/would you/__init__.py:36
+msgid "Useful Power.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            voting: Optional[bool]\n"
+"                Do you want the users to be able to vote?"
+msgstr ""
+
+#: exts/commands/wouldyou/would you/__init__.py:51
+msgid "Useless Power.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            voting: Optional[bool]\n"
+"                Do you want the users to be able to vote?"
+msgstr ""
+
+#: exts/commands/wouldyou/would you/do.py:52
+msgid "Would you want this power?"
+msgstr ""
+
+#: exts/commands/wouldyou/would you/do.py:91
+#, python-brace-format
+msgid "**{yes}** of **{total}** user (**{procent}%**) would take this power."
+msgstr ""
+
+#: exts/commands/wouldyou/wouldyou.py:10
+msgid "WouldYou commands"
+msgstr ""
+
+#: exts/commands/wouldyou/wouldyou.py:22
+#, python-brace-format
+msgid "{emoji}︱WouldYou"
+msgstr ""
+
+#: exts/commands/wouldyou/wouldyou.py:28
+msgid "WouldYou"
+msgstr ""
+
+#: exts/commands/wouldyou/wouldyou.py:31
+msgid "WouldYou Commands"
+msgstr ""
+
+#: exts/commands/wouldyou/wwyd/__init__.py:28
+msgid "What would you do in this situation."
+msgstr ""
+
+#: exts/commands/wouldyou/wwyd/do.py:25
+msgid "What would you do? Explain what and why!"
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:28
 #, python-brace-format
 msgid "If you think that's a mistake. Report per `{command_sig}`"
 msgstr "Dacă credeți că asta este o greșeală. Raportează per `{command_sig}`"
 
-#: exts/functions/Commands/command/error/do.py:38
+#: exts/functions/Commands/command/error/do.py:42
 msgid "You did something wrong, try !help"
 msgstr "Ai făcut ceva greșit, încearcă!help"
 
+#: exts/functions/Commands/command/error/do.py:46
+msgid "I do not have permission to execute this action."
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:49
+#, python-brace-format
+msgid "This entity does not exist: {original.text}"
+msgstr ""
+
 #: exts/functions/Commands/command/error/do.py:52
+msgid "Somehow, an unexpected error occurred. Try again later?"
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:55
+#, python-brace-format
+msgid "You can use this command in {0:.0f} seconds."
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:58
 #, python-brace-format
 msgid "Only the bot owner can run the command `{command}`."
 msgstr "Doar proprietarul bot-ului poate rula comanda `{command}`."
 
-#: exts/functions/Commands/command/error/do.py:56
+#: exts/functions/Commands/command/error/do.py:61
 #, python-brace-format
 msgid "You are missing `{permission}` permission(s) to run this command."
 msgstr "Nu aveţi permisiunea de a rula această comandă de{permission}` ."
 
-#: exts/functions/Commands/command/error/do.py:81
+#: exts/functions/Commands/command/error/do.py:64
+msgid "There happened something wrong, try again!"
+msgstr ""
+
+#: exts/functions/Commands/command/error/do.py:94
 #, python-brace-format
 msgid "No command named `{invoked_command}` found. Use \"{prefix}help\" for help."
 msgstr "Nici o comandă numită `{invoked_command}a fost găsită. Folosește \"{prefix}ajutor\" pentru ajutor."
 
-#: exts/functions/Commands/command/error/do.py:87
+#: exts/functions/Commands/command/error/do.py:100
 #, python-brace-format
-msgid "No command named `{invoked_command}` found. Did you perhaps mean `{prefix}{closest_1}` {closest_2}?"
-msgstr "Nici o comandă numită `{invoked_command}a găsit. Poate ați vrut să spuneți `{prefix}{closest_1}` {closest_2}?"
+msgid "No command named `{invoked_command}` found. Did you perhaps mean\n"
+"                > {prefix}{closest_1}?"
+msgstr ""
 
 #: exts/functions/Members/member/join/do.py:24
 #, python-brace-format
@@ -1121,23 +1331,17 @@ msgid "Welcome to {guild_name}"
 msgstr "Bun venit la {guild_name}"
 
 #: exts/functions/Members/member/join/do.py:26
-msgid ""
-"Please send the captcha code here.\n"
-"\n"
+msgid "Please send the captcha code here.\n\n"
 "            Hello! You are required to complete a captcha before entering the server.\n"
-"            __**NOTE:**__ This is **not** Case Sensitive.\n"
-"\n"
+"            __**NOTE:**__ This is **not** Case Sensitive.\n\n"
 "            **Why?**\n"
 "            This is to protect the server against\n"
 "            targeted attacks using automated user accounts.\n"
 "            \n"
 "            **Your Captcha:**"
-msgstr ""
-"Te rugăm să trimiți codul captcha aici.\n"
-"\n"
+msgstr "Te rugăm să trimiți codul captcha aici.\n\n"
 "            Salut! Trebuie să completați un captcha înainte de a intra pe server.\n"
-"            __**NOTĂ:**__ Acesta este **nu** Cazului Senitiv.\n"
-"\n"
+"            __**NOTĂ:**__ Acesta este **nu** Cazului Senitiv.\n\n"
 "            **De ce? *\n"
 "            Acest lucru este pentru a proteja serverul împotriva\n"
 "            atacuri țintite folosind conturi automate de utilizatori.\n"
@@ -1149,91 +1353,112 @@ msgstr ""
 msgid "{emoji} {prefix} **Thank you! You have been verified in guild __{guild_name}__**"
 msgstr "{emoji} {prefix} **Mulțumim! Ai fost verificat în breasla __{guild_name}__**"
 
-#: exts/functions/Messages/message/systems.py:62
+#: exts/functions/Messages/message/systems.py:61
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr "{user} nu ai permisiunea de a număra mai multe numere la rând."
 
-#: exts/functions/Messages/message/systems.py:69
+#: exts/functions/Messages/message/systems.py:68
 #, python-brace-format
-msgid ""
-"{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
+msgid "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
-msgstr ""
-"{user} l-a distrus pe {facepalm} **Nu poți apărea de mai multe ori la rând**.\n"
+msgstr "{user} l-a distrus pe {facepalm} **Nu poți apărea de mai multe ori la rând**.\n"
 "                    Cineva ar trebui să mai continue."
 
-#: exts/functions/Messages/message/systems.py:80
-#: exts/functions/Messages/message/systems.py:83
-#: exts/functions/Messages/message/systems.py:185
+#: exts/functions/Messages/message/systems.py:79
+#: exts/functions/Messages/message/systems.py:82
+#: exts/functions/Messages/message/systems.py:184
 msgid "the one above me"
 msgstr "cel de deasupra mea"
 
-#: exts/functions/Messages/message/systems.py:82
+#: exts/functions/Messages/message/systems.py:81
 #, python-brace-format
 msgid "{emoji} Your message should start with **{trigger}**"
 msgstr "{emoji} Mesajul tău ar trebui să înceapă cu **{trigger}**"
 
-#: exts/functions/Messages/message/systems.py:92
+#: exts/functions/Messages/message/systems.py:91
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
 msgstr "{emoji} Mesajul tău ar trebui să fie ceva nou"
 
-#: exts/functions/Messages/message/systems.py:161
+#: exts/functions/Messages/message/systems.py:160
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
 msgstr "{user} nu poți schimba cursul istoriei de mai multe ori la rând."
 
-#: exts/functions/Messages/message/systems.py:168
+#: exts/functions/Messages/message/systems.py:167
 #, python-brace-format
-msgid ""
-"{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
+msgid "{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
 "                    Someone should still go on."
-msgstr ""
-"{user} l-a distrus pe {facepalm} **Nu poți schimba cursul istoriei de mai multe ori la rând**.\n"
+msgstr "{user} l-a distrus pe {facepalm} **Nu poți schimba cursul istoriei de mai multe ori la rând**.\n"
 "                    Cineva ar trebui să continue în continuare."
 
-#: exts/functions/Messages/message/systems.py:184
+#: exts/functions/Messages/message/systems.py:183
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
 msgstr "{emoji} mesajul tău trebuie să conțină **doar unul** cuvânt"
 
-#: exts/functions/Messages/message/systems.py:273
-#, python-brace-format
-msgid "{user} you are not allowed to count multiple numbers in a row."
-msgstr "{user} nu ai permisiunea de a număra mai multe numere la rând."
-
-#: exts/functions/Messages/message/systems.py:297
+#: exts/functions/Messages/message/systems.py:271
 #, python-brace-format
 msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr "{emoji} Nu ai permisiunea să folosești nimic cu excepția numerelor aici"
 
-#: exts/functions/Messages/message/systems.py:309
+#: exts/functions/Messages/message/systems.py:282
+#, python-brace-format
+msgid "{user} you are not allowed to count multiple numbers in a row."
+msgstr "{user} nu ai permisiunea de a număra mai multe numere la rând."
+
+#: exts/functions/Messages/message/systems.py:308
 #, python-brace-format
 msgid "{user} ruined it at **{count}** {facepalm}. **You apparently can't count properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr "{user} l-a distrus la **{count}** {facepalm}. **Se pare că nu poți număra corespunzător**. Numărul __next__ {verb} ` {last} `. {streak}"
 
-#: exts/functions/Messages/message/systems.py:311
+#: exts/functions/Messages/message/systems.py:310
 msgid "**You've topped your best streak with {} 🔥**"
 msgstr "**Ai topit cel mai bun streak cu {} 🔥**"
 
-#: exts/functions/Messages/message/systems.py:312
+#: exts/functions/Messages/message/systems.py:311
 msgid "is"
 msgstr "este"
 
-#: exts/functions/Messages/message/systems.py:312
+#: exts/functions/Messages/message/systems.py:311
 msgid "remains"
 msgstr "ramase"
 
-#: exts/functions/Messages/message/systems.py:314
+#: exts/functions/Messages/message/systems.py:313
 #, python-brace-format
 msgid "Incorrect number! The __next__ number is ` {last} `. **No stats have been changed since the current number was {count}.**"
 msgstr "Număr incorect! Numărul __next__ este ` {last} `. **Nicio statistică nu a fost modificată deoarece numărul curent a fost {count}.**"
 
-#: exts/functions/Messages/message/systems.py:330
+#: exts/functions/Messages/message/systems.py:329
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr "**Ai atins obiectivul de {goal} {emoji} Felicitări**"
+
+#: exts/functions/Scheduled/freegames/do.py:41
+msgid "Unknown"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:51
+msgid "Get free now"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:52
+#, python-brace-format
+msgid "until **{datetime}** (GMT)"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:54
+msgid "Free"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:59
+msgid "Or open directly in launcher"
+msgstr ""
+
+#: exts/functions/Scheduled/freegames/do.py:61
+msgid "Check for platform availability and price!"
+msgstr ""
 
 #: exts/functions/Voice/voice_state_update/do.py:67
 #, python-brace-format
@@ -1413,7 +1638,7 @@ msgstr "{emoji} Utilizatorul selectat este proprietarul permanent al unui canal 
 #: exts/functions/Voice/voice_state_update/system.py:444
 #, python-brace-format
 msgid "{emoji} **Updated!** You are now ` owner ` of the temporary {channel} channel!"
-msgstr "{emoji} **Actualizat!** este acum proprietarul ` al canalului temporar {channel}!"
+msgstr "{emoji} **Actualizat!** {user} este acum proprietarul ` al canalului temporar {channel}!"
 
 #: exts/functions/Voice/voice_state_update/system.py:463
 msgid "Selected users will be untrusted from joining!"
@@ -1447,16 +1672,21 @@ msgstr "{emoji} **Actualizat!** Utilizatorii selectați sunt acum ` blocați ` d
 #~| "\n"
 #~| "            Changes the language the bot replies for you.\n"
 #~| "            \n"
-#~| "            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`\n"
+#~| "            `<locale>` - The locale code of the language you want to "
+#~| "use; full list can be found in `{prefix}language`\n"
 #~| "            "
 #~ msgid ""
-#~ "Changes the language the bot replies for you in games and other guild stuff.\n"
+#~ "Changes the language the bot replies for you in games and other guild "
+#~ "stuff.\n"
 #~ "\n"
-#~ "            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`"
+#~ "            `<locale>` - The locale code of the language you want to use; "
+#~ "full list can be found in `{prefix}language`"
 #~ msgstr ""
-#~ "Changes the language the bot replies for you in games and other guild stuff.\n"
+#~ "Changes the language the bot replies for you in games and other guild "
+#~ "stuff.\n"
 #~ "\n"
-#~ "            `<locale>` - The locale code of the language you want to use; full list can be found in `{prefix}language`"
+#~ "            `<locale>` - The locale code of the language you want to use; "
+#~ "full list can be found in `{prefix}language`"
 
 #~ msgid "Setup the bot"
 #~ msgstr "Setup the bot"
@@ -1489,8 +1719,12 @@ msgstr "{emoji} **Actualizat!** Utilizatorii selectați sunt acum ` blocați ` d
 #~ "        "
 
 #, python-brace-format
-#~ msgid "To permanently choose a language, please create a character and enter this command again. I set it to {language} temporarily."
-#~ msgstr "To permanently choose a language, please create a character and enter this command again. I set it to {language} temporarily."
+#~ msgid ""
+#~ "To permanently choose a language, please create a character and enter "
+#~ "this command again. I set it to {language} temporarily."
+#~ msgstr ""
+#~ "To permanently choose a language, please create a character and enter "
+#~ "this command again. I set it to {language} temporarily."
 
 #~ msgid ""
 #~ "\n"
@@ -1522,12 +1756,14 @@ msgstr "{emoji} **Actualizat!** Utilizatorii selectați sunt acum ` blocați ` d
 #~ msgid ""
 #~ "\n"
 #~ "            Zufällige Zahl würfeln\n"
-#~ "            Mit diesem Befehl wird eine zufällige Zahl in einem bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
+#~ "            Mit diesem Befehl wird eine zufällige Zahl in einem "
+#~ "bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
 #~ "        "
 #~ msgstr ""
 #~ "\n"
 #~ "            Zufällige Zahl würfeln\n"
-#~ "            Mit diesem Befehl wird eine zufällige Zahl in einem bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
+#~ "            Mit diesem Befehl wird eine zufällige Zahl in einem "
+#~ "bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
 #~ "        "
 
 #~ msgid ""
@@ -1538,3 +1774,4 @@ msgstr "{emoji} **Actualizat!** Utilizatorii selectați sunt acum ` blocați ` d
 #~ "\n"
 #~ "            biggo configuration\n"
 #~ "        "
+
