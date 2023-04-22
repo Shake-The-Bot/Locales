@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2022-12-29 01:58+0100\n"
-"PO-Revision-Date: 2023-04-21 16:06\n"
+"PO-Revision-Date: 2023-04-22 12:10\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -45,7 +45,7 @@ msgstr "Regex-Fehler: {e_msg}"
 #: classes/pages/page.py:105 classes/pages/page.py:211
 #: exts/commands/help/menu.py:123
 msgid "Stop"
-msgstr "Stop"
+msgstr "Stopp"
 
 #: classes/utils.py:183
 msgid " and "
