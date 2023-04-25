@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-04-22 14:29+0200\n"
-"PO-Revision-Date: 2023-04-25 12:07\n"
+"PO-Revision-Date: 2023-04-25 17:46\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -36,15 +36,15 @@ msgstr "Błąd Regex: {e_msg}"
 
 #: Classes/helpful.py:303
 msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!"
-msgstr ""
+msgstr "Podoba Ci się używanie Shake? Byłoby mi miło, gdybyś zagłosował (</vote:1056920829620924439>) na mnie lub udostępnił mnie swoim znajomym!"
 
 #: Classes/helpful.py:592
 msgid "I could not find the given VoiceChannel "
-msgstr ""
+msgstr "Nie mogę znaleźć danego kanału głosowego "
 
 #: Classes/pages/page.py:103 Classes/pages/page.py:199
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #: Classes/pages/select.py:15
 msgid "Choose a Category..."
@@ -52,19 +52,19 @@ msgstr "Wybierz kategorię..."
 
 #: Classes/pages/select.py:24
 msgid "Back"
-msgstr ""
+msgstr "Powrót"
 
 #: Classes/pages/select.py:45
 msgid "This category does not exist."
-msgstr ""
+msgstr "Ta kategoria nie istnieje."
 
 #: Classes/pages/select.py:48
 msgid "This category has no items for you."
-msgstr ""
+msgstr "Ta kategoria nie ma dla Ciebie żadnych przedmiotów."
 
 #: Classes/useful.py:180
 msgid "or"
-msgstr ""
+msgstr "lub"
 
 #: Classes/useful.py:180 Exts/Commands/Gimmicks/everyone/everyone.py:22
 #: Exts/Commands/Gimmicks/everyone/testing.py:22
