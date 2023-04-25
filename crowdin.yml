@@ -1,5 +1,3 @@
 files:
   - source: /template.pot
-    translation: /%locale%/LC_MESSAGES/shake.po
-  - source: /template.pot
     translation: /%locale%/LC_MESSAGES/shake.mo
