@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-04-22 14:29+0200\n"
-"PO-Revision-Date: 2023-04-25 12:07\n"
+"PO-Revision-Date: 2023-04-25 12:34\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -36,7 +36,7 @@ msgstr "Regex-Fehler: {e_msg}"
 
 #: Classes/helpful.py:303
 msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!"
-msgstr ""
+msgstr "Gefällt dir Shake? Ich würde es lieben, wenn du für mich voten (</vote:1056920829620924439>) oder mich an deine Freunde **teile** könntest!"
 
 #: Classes/helpful.py:592
 msgid "I could not find the given VoiceChannel "
