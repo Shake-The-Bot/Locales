@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-04-22 14:29+0200\n"
-"PO-Revision-Date: 2023-04-25 12:34\n"
+"PO-Revision-Date: 2023-04-25 13:31\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -40,7 +40,7 @@ msgstr "Gefällt dir Shake? Ich würde es lieben, wenn du für mich voten (</vot
 
 #: Classes/helpful.py:592
 msgid "I could not find the given VoiceChannel "
-msgstr ""
+msgstr "Ich konnte den angegebenen Sprachkanal nicht finden "
 
 #: Classes/pages/page.py:103 Classes/pages/page.py:199
 msgid "Stop"
