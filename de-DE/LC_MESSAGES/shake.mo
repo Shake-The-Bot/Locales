@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-04-22 14:29+0200\n"
-"PO-Revision-Date: 2023-04-25 13:31\n"
+"PO-Revision-Date: 2023-04-28 02:14\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -997,7 +997,7 @@ msgstr "Bots"
 #: Exts/Commands/Information/serverinfo/serverinfo.py:60
 #: Exts/Commands/Information/serverinfo/testing.py:60
 msgid "Roles"
-msgstr "Rolle"
+msgstr "Rollen"
 
 #: Exts/Commands/Information/serverinfo/serverinfo.py:63
 #: Exts/Commands/Information/serverinfo/testing.py:63
@@ -1215,7 +1215,7 @@ msgstr "Seit"
 #: Exts/Commands/Information/userinfo/testing.py:98
 #: Exts/Commands/Information/userinfo/userinfo.py:98
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 #: Exts/Commands/Information/userinfo/testing.py:99
 #: Exts/Commands/Information/userinfo/userinfo.py:99
