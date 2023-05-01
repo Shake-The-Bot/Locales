@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-05-01 16:13+0200\n"
-"PO-Revision-Date: 2023-05-01 14:14\n"
+"PO-Revision-Date: 2023-05-01 15:46\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -40,7 +40,7 @@ msgstr "Ich konnte den angegebenen Sprachkanal nicht finden "
 
 #: Classes/pages/page.py:105 Classes/pages/page.py:204
 msgid "Done"
-msgstr ""
+msgstr "Fertig"
 
 #: Classes/pages/select.py:21
 msgid "Choose a Category..."
@@ -48,7 +48,7 @@ msgstr "Wählen Sie eine Kategorie..."
 
 #: Classes/pages/select.py:42
 msgid "Back"
-msgstr ""
+msgstr "Zurück"
 
 #: Classes/pages/select.py:65
 msgid "This category either does not exist or has no items for you."
@@ -56,7 +56,7 @@ msgstr ""
 
 #: Classes/useful.py:180
 msgid "or"
-msgstr ""
+msgstr "oder"
 
 #: Classes/useful.py:180 Exts/Commands/Gimmicks/everyone/everyone.py:22
 #: Exts/Commands/Gimmicks/everyone/testing.py:22
