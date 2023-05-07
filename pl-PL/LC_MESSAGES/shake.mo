@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-05-01 16:13+0200\n"
-"PO-Revision-Date: 2023-05-01 14:14\n"
+"PO-Revision-Date: 2023-05-07 19:38\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -1498,7 +1498,7 @@ msgstr "do bieżącej gildii"
 
 #: Exts/Functions/Commands/command/completion/command_completion.py:17
 msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!"
-msgstr "Podoba Ci się używanie Shake? Byłoby mi miło, gdybyś zagłosował (</vote:1056920829620924439>) na mnie lub udostępnił mnie swoim znajomym!"
+msgstr "Lubisz używać Shake? Chciałbym, gdybyś </vote:1056920829620924439> dla mnie lub **podziel się mną** ze znajomymi!"
 
 #: Exts/Functions/Commands/command/completion/testing.py:22
 #, python-brace-format
