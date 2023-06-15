@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-05-01 16:13+0200\n"
-"PO-Revision-Date: 2023-05-01 15:46\n"
+"PO-Revision-Date: 2023-06-15 19:33\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -68,7 +68,7 @@ msgstr "und"
 #: Exts/Commands/Functions/aboveme/__init__.py:33
 #: Exts/Commands/Functions/freegames/__init__.py:35
 msgid "Manage the aboveme features of Shake"
-msgstr ""
+msgstr "Verwalte die \"aboveme\"-Funktionen von Shake"
 
 #: Exts/Commands/Functions/aboveme/__init__.py:45
 msgid "Set up the Aboveme-Game with a wizard in seconds."
@@ -316,17 +316,17 @@ msgstr ""
 #: Exts/Commands/Gimmicks/countdown/countdown.py:14
 #: Exts/Commands/Gimmicks/countdown/testing.py:14
 msgid "five"
-msgstr ""
+msgstr "fünf"
 
 #: Exts/Commands/Gimmicks/countdown/countdown.py:14
 #: Exts/Commands/Gimmicks/countdown/testing.py:14
 msgid "two"
-msgstr ""
+msgstr "zwei"
 
 #: Exts/Commands/Gimmicks/countdown/countdown.py:14
 #: Exts/Commands/Gimmicks/countdown/testing.py:14
 msgid "one"
-msgstr ""
+msgstr "eins"
 
 #: Exts/Commands/Gimmicks/countdown/countdown.py:15
 #, python-brace-format
@@ -897,7 +897,7 @@ msgstr ""
 
 #: Exts/Commands/Information/serverinfo/__init__.py:56
 msgid "Either this server does not exist or I am not on it."
-msgstr ""
+msgstr "Entweder gibt es diesen Server nicht oder ich bin nicht darauf."
 
 #: Exts/Commands/Information/serverinfo/serverinfo.py:43
 #: Exts/Commands/Information/userinfo/testing.py:77
@@ -919,7 +919,7 @@ msgstr "Eigentümer"
 
 #: Exts/Commands/Information/serverinfo/serverinfo.py:48
 msgid "All Members"
-msgstr ""
+msgstr "Alle Mitglieder"
 
 #: Exts/Commands/Information/serverinfo/serverinfo.py:57
 msgid "Bots"
@@ -932,7 +932,7 @@ msgstr "Rollen"
 
 #: Exts/Commands/Information/serverinfo/serverinfo.py:63
 msgid "Boosts"
-msgstr ""
+msgstr "Boosts"
 
 #: Exts/Commands/Information/serverinfo/serverinfo.py:63
 #, python-brace-format
