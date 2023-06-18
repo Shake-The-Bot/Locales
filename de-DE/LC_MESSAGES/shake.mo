@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-05-01 16:13+0200\n"
-"PO-Revision-Date: 2023-06-15 19:33\n"
+"PO-Revision-Date: 2023-06-18 10:49\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -68,7 +68,7 @@ msgstr "und"
 #: Exts/Commands/Functions/aboveme/__init__.py:33
 #: Exts/Commands/Functions/freegames/__init__.py:35
 msgid "Manage the aboveme features of Shake"
-msgstr "Verwalte die \"aboveme\"-Funktionen von Shake"
+msgstr "Verwalte die AboveMe-Funktionen von Shake"
 
 #: Exts/Commands/Functions/aboveme/__init__.py:45
 msgid "Set up the Aboveme-Game with a wizard in seconds."
