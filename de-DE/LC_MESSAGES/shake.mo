@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-03 17:07+0200\n"
-"PO-Revision-Date: 2023-07-03 15:08\n"
+"PO-Revision-Date: 2023-07-03 16:11\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -239,12 +239,12 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:156
 #: Extensions/Commands/Community/counting/testing.py:156
 msgid "Counting direction"
-msgstr ""
+msgstr "Zählrichtung"
 
 #: Extensions/Commands/Community/counting/counting.py:157
 #: Extensions/Commands/Community/counting/testing.py:157
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "Wähle in welcher Richtung Counting gehen sollte!"
 
 #: Extensions/Commands/Community/counting/counting.py:160
 #: Extensions/Commands/Community/counting/testing.py:160
@@ -2296,7 +2296,7 @@ msgstr ""
 #: Extensions/Functions/Commands/command/error/testing.py:78
 #, python-brace-format
 msgid "This type of entity does not exist: {original.text}"
-msgstr ""
+msgstr "Diese Entität existiert nicht: {original.text}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:83
 #: Extensions/Functions/Commands/command/error/testing.py:83
@@ -2307,7 +2307,7 @@ msgstr "Es ist ein unerwarteter Fehler aufgetreten. Versuchen Sie es später noc
 #: Extensions/Functions/Commands/command/error/testing.py:87
 #, python-brace-format
 msgid "You can use this command in {retry} seconds."
-msgstr ""
+msgstr "Du kannst diesen Befehl in {retry} Sekunden verwenden."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:93
 #: Extensions/Functions/Commands/command/error/testing.py:93
@@ -2324,41 +2324,41 @@ msgstr "Dir fehlen `{permission}` Berechtigung(en) um diesen Befehl auszuführen
 #: Extensions/Functions/Commands/command/error/command_error.py:103
 #: Extensions/Functions/Commands/command/error/testing.py:103
 msgid "Something wrong happened"
-msgstr ""
+msgstr "Es ist ein Problem aufgetreten"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:125
 #: Extensions/Functions/Commands/command/error/testing.py:125
 #, python-brace-format
 msgid "No command named `{invoked}` found. Use {help} for help."
-msgstr ""
+msgstr "Kein Befehl mit dem Namen `{invoked}` gefunden. Verwende \"{help}\" für Hilfe."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:133
 #: Extensions/Functions/Commands/command/error/testing.py:133
 #, python-brace-format
 msgid "Nothing named `{invoked}` found. Did you mean {closest}?"
-msgstr ""
+msgstr "Nichts mit dem Namen `{invoked}` gefunden. Meintest du {closest}?"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:177
 #: Extensions/Functions/Commands/command/error/testing.py:177
 #, python-brace-format
 msgid "The {type} {error} was reported to the Shake-Team!"
-msgstr ""
+msgstr "{type} {error} wurde dem Shake-Team gemeldet!"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:182
 #: Extensions/Functions/Commands/command/error/testing.py:182
 msgid "error"
-msgstr ""
+msgstr "Fehler"
 
 #: Extensions/Functions/Members/member/join/member_join.py:27
 #: Extensions/Functions/Members/member/join/testing.py:27
 #, python-brace-format
 msgid "Welcome to {guild}"
-msgstr ""
+msgstr "Willkommen bei {guild}"
 
 #: Extensions/Functions/Members/member/join/member_join.py:30
 #: Extensions/Functions/Members/member/join/testing.py:30
 msgid "Please send the captcha code here"
-msgstr ""
+msgstr "Bitte sende den Captcha-Code hier"
 
 #: Extensions/Functions/Members/member/join/member_join.py:34
 #: Extensions/Functions/Members/member/join/testing.py:34
@@ -2369,13 +2369,20 @@ msgid "Hello! You are required to complete a captcha before entering the server.
 "            targeted attacks using automated user accounts.\n"
 "            \n"
 "            **Your Captcha:**"
-msgstr ""
+msgstr "Bitte senden Sie hier den Captcha-Code.\n\n"
+"            Hallo! Du musst ein Captcha vor dem Betreten des Servers abschließen.\n"
+"            __**NOTE:**__ Dies ist **nicht** Groß-/Kleinschreibung.\n\n"
+"            **Warum? *\n"
+"            Damit wird der Server gegen\n"
+"            gezielte Angriffe mittels automatisierter Benutzerkonten geschützt.\n"
+"            \n"
+"            **Dein Captcha:**"
 
 #: Extensions/Functions/Members/member/join/member_join.py:64
 #: Extensions/Functions/Members/member/join/testing.py:64
 #, python-brace-format
 msgid "{emoji} {prefix} Thank you! You have been verified in guild `{guild}`"
-msgstr ""
+msgstr "{emoji} {prefix} **Danke! Du wurdest in auf dem Server __{guild}__** verifiziert"
 
 #: Extensions/Functions/Messages/message/delete/delete.py:119
 #, python-brace-format
