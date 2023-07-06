@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-03 17:07+0200\n"
-"PO-Revision-Date: 2023-07-03 15:08\n"
+"PO-Revision-Date: 2023-07-06 20:35\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he\n"
@@ -233,7 +233,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/testing.py:169
 #: Extensions/Commands/Community/counting/testing.py:222
 #: Extensions/Commands/Community/counting/testing.py:276
-msgid "You can always go back here in the setup to change settings."
+msgid "You can go back here in the setup to change settings.."
 msgstr ""
 
 #: Extensions/Commands/Community/counting/counting.py:156
