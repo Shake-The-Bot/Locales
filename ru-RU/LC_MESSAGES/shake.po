@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-09 00:15+0200\n"
-"PO-Revision-Date: 2023-07-09 00:15\n"
+"PO-Revision-Date: 2023-07-09 09:16\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -541,26 +541,27 @@ msgstr "Создайте несколько забавных предложен�
 #, python-brace-format
 msgid "Setup the whole OneWord game in seconds\n"
 "            Get more information about the OneWord game with {command}"
-msgstr ""
+msgstr "Настройте всю игру OneWord за несколько секунд\n"
+"            Получите дополнительную информацию об игре OneWord с помощью {command}"
 
 #: Extensions/Commands/Community/oneword/__init__.py:76
 msgid "Everything you need to know about the OneWord game"
-msgstr ""
+msgstr "Все, что вам нужно знать об игре \"Одно слово\""
 
 #: Extensions/Commands/Community/oneword/oneword.py:92
 #: Extensions/Commands/Community/oneword/testing.py:92
 msgid "OneWord channel"
-msgstr ""
+msgstr "Канал для игры \"Одно слово\""
 
 #: Extensions/Commands/Community/oneword/oneword.py:149
 #: Extensions/Commands/Community/oneword/testing.py:149
 msgid "OneWord bot reactions"
-msgstr ""
+msgstr "Реакции бота на \"Одно слово\""
 
 #: Extensions/Commands/Community/oneword/oneword.py:314
 #: Extensions/Commands/Community/oneword/testing.py:314
 msgid "Welcome to „OneWord“"
-msgstr ""
+msgstr "Приветствуем в игре \"Одно слово\""
 
 #: Extensions/Commands/Community/oneword/oneword.py:317
 #: Extensions/Commands/Community/oneword/testing.py:317
