@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
-"POT-Creation-Date: 2023-07-09 00:15+0200\n"
-"PO-Revision-Date: 2023-07-08 22:16\n"
+"POT-Creation-Date: 2023-07-09 14:25+0200\n"
+"PO-Revision-Date: 2023-07-09 12:27\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh\n"
@@ -84,8 +84,8 @@ msgstr ""
 msgid "playing"
 msgstr ""
 
-#: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:919
-#: Extensions/Commands/Information/userinfo/userinfo.py:919
+#: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:920
+#: Extensions/Commands/Information/userinfo/userinfo.py:920
 msgid "streaming"
 msgstr ""
 
@@ -847,7 +847,7 @@ msgstr ""
 
 #: Extensions/Commands/Help/help.py:565 Extensions/Commands/Help/help.py:781
 #: Extensions/Commands/Help/testing.py:565
-#: Extensions/Commands/Help/testing.py:814
+#: Extensions/Commands/Help/testing.py:781
 msgid "No help given... (You should report this)"
 msgstr ""
 
@@ -857,105 +857,119 @@ msgid "Page {current}/{max} ({entries} commands)"
 msgstr "页面 {current}/{max} ({entries} 命令)"
 
 #: Extensions/Commands/Help/help.py:622 Extensions/Commands/Help/help.py:724
-#: Extensions/Commands/Help/testing.py:628
-#: Extensions/Commands/Help/testing.py:757
+#: Extensions/Commands/Help/testing.py:622
+#: Extensions/Commands/Help/testing.py:724
 msgid "No more detailed description given."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:627 Extensions/Commands/Help/testing.py:633
+#: Extensions/Commands/Help/help.py:627 Extensions/Commands/Help/testing.py:627
 #, python-brace-format
 msgid "{category} » {command} Command"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:635 Extensions/Commands/Help/testing.py:641
+#: Extensions/Commands/Help/help.py:635 Extensions/Commands/Help/testing.py:635
 msgid "More detailed command description"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:694 Extensions/Commands/Help/testing.py:727
+#: Extensions/Commands/Help/help.py:694 Extensions/Commands/Help/testing.py:694
 msgid "Necessary user permissions"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:696 Extensions/Commands/Help/testing.py:729
+#: Extensions/Commands/Help/help.py:696 Extensions/Commands/Help/testing.py:696
 msgid "Necessary bot permissions"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:715 Extensions/Commands/Help/testing.py:748
+#: Extensions/Commands/Help/help.py:715 Extensions/Commands/Help/testing.py:715
 #, python-brace-format
 msgid "Commands of the {group} group"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:797 Extensions/Commands/Help/testing.py:830
+#: Extensions/Commands/Help/help.py:797 Extensions/Commands/Help/testing.py:797
 #, python-brace-format
 msgid "Page {current} of {max} ({entries} subcommands)"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:839 Extensions/Commands/Help/testing.py:872
+#: Extensions/Commands/Help/help.py:839 Extensions/Commands/Help/testing.py:839
 #, python-brace-format
 msgid "{emoji} Bot Help (Timeouted type /help again!)"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:841 Extensions/Commands/Help/testing.py:874
+#: Extensions/Commands/Help/help.py:841 Extensions/Commands/Help/testing.py:841
 #, python-brace-format
 msgid "{emoji} Bot Help"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:887
+#: Extensions/Commands/Help/help.py:849 Extensions/Commands/Help/testing.py:849
+#, python-brace-format
+msgid "Hello and welcome to my help page {emoji}\n"
+"                Type `{prefix}help <command/category>` to get more information on a\n"
+"command/category."
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:854
 msgid "Support Server"
 msgstr "支持服务器"
 
-#: Extensions/Commands/Help/help.py:857 Extensions/Commands/Help/testing.py:890
+#: Extensions/Commands/Help/help.py:857 Extensions/Commands/Help/testing.py:857
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "{support_server}"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:866 Extensions/Commands/Help/testing.py:899
+#: Extensions/Commands/Help/help.py:866 Extensions/Commands/Help/testing.py:866
 msgid "Who am I?"
 msgstr "我是谁？"
 
-#: Extensions/Commands/Help/help.py:880 Extensions/Commands/Help/testing.py:913
+#: Extensions/Commands/Help/help.py:870 Extensions/Commands/Help/testing.py:870
+#, python-brace-format
+msgid "{user}, which is partially intended for the public.\n"
+"                    Written with only `{lines}` lines of code. Please be nice"
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:880 Extensions/Commands/Help/testing.py:880
 msgid "What am I for?"
 msgstr ""
 
+#: Extensions/Commands/Help/help.py:884 Extensions/Commands/Help/testing.py:884
+#, python-brace-format
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
+"                    I have been created {created_at} & \n"
+"                    I have functions like voting, level system, music, moderation & much more. \n"
+"                    You can get more information by using the dropdown menu below.\n"
+"                    dropdown menu."
+msgstr ""
+
 #: Extensions/Commands/Help/help.py:896 Extensions/Commands/Help/help.py:900
-#: Extensions/Commands/Help/testing.py:929
-#: Extensions/Commands/Help/testing.py:933
+#: Extensions/Commands/Help/testing.py:896
+#: Extensions/Commands/Help/testing.py:900
 msgid "argument"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:897 Extensions/Commands/Help/testing.py:930
+#: Extensions/Commands/Help/help.py:897 Extensions/Commands/Help/testing.py:897
 msgid "Stands for the argument being __**necessary**__."
 msgstr "参数的位置是 __**necessary**__ 。"
 
-#: Extensions/Commands/Help/help.py:901 Extensions/Commands/Help/testing.py:934
+#: Extensions/Commands/Help/help.py:901 Extensions/Commands/Help/testing.py:901
 msgid "Stands for that the argument is __**optional**__."
 msgstr "这个参数的位置是 __**optional**__ 。"
 
-#: Extensions/Commands/Help/help.py:903 Extensions/Commands/Help/testing.py:936
+#: Extensions/Commands/Help/help.py:903 Extensions/Commands/Help/testing.py:903
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr "参数可以是 __**A 或 B**__。"
 
-#: Extensions/Commands/Help/help.py:917 Extensions/Commands/Help/testing.py:950
+#: Extensions/Commands/Help/help.py:908 Extensions/Commands/Help/testing.py:908
+msgid "Stands for the fact that you can use multiple arguments.\n\n"
+"                        Now that you know the basics, you should still know that...\n"
+"                        __**You don't include the parentheses!**__"
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:918 Extensions/Commands/Help/testing.py:918
 msgid "How do I use the bot?"
 msgstr "如何使用机器人？"
 
-#: Extensions/Commands/Help/help.py:918 Extensions/Commands/Help/testing.py:951
+#: Extensions/Commands/Help/help.py:919 Extensions/Commands/Help/testing.py:919
 msgid "Reading the bot structure is pretty easy."
 msgstr "阅读机器人结构非常容易。"
-
-#: Extensions/Commands/Help/testing.py:644
-msgid "This command got aliases which you can use"
-msgstr ""
-
-#: Extensions/Commands/Help/testing.py:678
-#, python-brace-format
-msgid "Usage of the {command} command"
-msgstr ""
-
-#: Extensions/Commands/Help/testing.py:699
-#, python-brace-format
-msgid "Examples of the {command} command"
-msgstr ""
 
 #: Extensions/Commands/Information/channelinfo/__init__.py:37
 msgid "Get information about a specific channel.\n"
@@ -1283,9 +1297,9 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/testing.py:269
 #: Extensions/Commands/Information/serverinfo/testing.py:647
 #: Extensions/Commands/Information/userinfo/testing.py:188
-#: Extensions/Commands/Information/userinfo/testing.py:958
+#: Extensions/Commands/Information/userinfo/testing.py:959
 #: Extensions/Commands/Information/userinfo/userinfo.py:188
-#: Extensions/Commands/Information/userinfo/userinfo.py:958
+#: Extensions/Commands/Information/userinfo/userinfo.py:959
 msgid "Created"
 msgstr "已创建"
 
@@ -1513,9 +1527,9 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:533
 #: Extensions/Commands/Information/serverinfo/testing.py:533
 #: Extensions/Commands/Information/userinfo/testing.py:405
-#: Extensions/Commands/Information/userinfo/testing.py:962
+#: Extensions/Commands/Information/userinfo/testing.py:963
 #: Extensions/Commands/Information/userinfo/userinfo.py:405
-#: Extensions/Commands/Information/userinfo/userinfo.py:962
+#: Extensions/Commands/Information/userinfo/userinfo.py:963
 msgid "Badges"
 msgstr ""
 
@@ -1556,8 +1570,8 @@ msgstr ""
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:679
 #: Extensions/Commands/Information/serverinfo/testing.py:679
-#: Extensions/Commands/Information/userinfo/testing.py:957
-#: Extensions/Commands/Information/userinfo/userinfo.py:957
+#: Extensions/Commands/Information/userinfo/testing.py:958
+#: Extensions/Commands/Information/userinfo/userinfo.py:958
 msgid "ID"
 msgstr "ID"
 
@@ -1578,8 +1592,8 @@ msgstr ""
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:690
 #: Extensions/Commands/Information/serverinfo/testing.py:690
-#: Extensions/Commands/Information/userinfo/testing.py:966
-#: Extensions/Commands/Information/userinfo/userinfo.py:966
+#: Extensions/Commands/Information/userinfo/testing.py:967
+#: Extensions/Commands/Information/userinfo/userinfo.py:967
 msgid "More Information"
 msgstr ""
 
@@ -1910,63 +1924,63 @@ msgstr ""
 msgid "Member"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:917
-#: Extensions/Commands/Information/userinfo/userinfo.py:917
+#: Extensions/Commands/Information/userinfo/testing.py:918
+#: Extensions/Commands/Information/userinfo/userinfo.py:918
 msgid "online"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:918
-#: Extensions/Commands/Information/userinfo/userinfo.py:918
+#: Extensions/Commands/Information/userinfo/testing.py:919
+#: Extensions/Commands/Information/userinfo/userinfo.py:919
 msgid "offline"
-msgstr ""
-
-#: Extensions/Commands/Information/userinfo/testing.py:920
-#: Extensions/Commands/Information/userinfo/userinfo.py:920
-msgid "idle"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:921
 #: Extensions/Commands/Information/userinfo/userinfo.py:921
+msgid "idle"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:922
+#: Extensions/Commands/Information/userinfo/userinfo.py:922
 msgid "dnd"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:927
-#: Extensions/Commands/Information/userinfo/userinfo.py:927
+#: Extensions/Commands/Information/userinfo/testing.py:928
+#: Extensions/Commands/Information/userinfo/userinfo.py:928
 msgid "Status"
 msgstr "状态"
 
-#: Extensions/Commands/Information/userinfo/testing.py:932
-#: Extensions/Commands/Information/userinfo/userinfo.py:932
+#: Extensions/Commands/Information/userinfo/testing.py:933
+#: Extensions/Commands/Information/userinfo/userinfo.py:933
 msgid "Top Role"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:936
-#: Extensions/Commands/Information/userinfo/userinfo.py:936
+#: Extensions/Commands/Information/userinfo/testing.py:937
+#: Extensions/Commands/Information/userinfo/userinfo.py:937
 msgid "Server Owner"
-msgstr ""
-
-#: Extensions/Commands/Information/userinfo/testing.py:951
-#: Extensions/Commands/Information/userinfo/userinfo.py:951
-msgid "Display name"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:952
 #: Extensions/Commands/Information/userinfo/userinfo.py:952
-msgid "#Tag"
+msgid "Display name"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:953
 #: Extensions/Commands/Information/userinfo/userinfo.py:953
-msgid "Migrated to username"
+msgid "#Tag"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:959
-#: Extensions/Commands/Information/userinfo/userinfo.py:959
-msgid "Shared Servers"
+#: Extensions/Commands/Information/userinfo/testing.py:954
+#: Extensions/Commands/Information/userinfo/userinfo.py:954
+msgid "Migrated to username"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:960
 #: Extensions/Commands/Information/userinfo/userinfo.py:960
+msgid "Shared Servers"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:961
+#: Extensions/Commands/Information/userinfo/userinfo.py:961
 msgid "None"
 msgstr ""
 
@@ -2190,45 +2204,45 @@ msgid "Reset your language for Shake to the good old language\n"
 "                If the language should be reset for the whole server"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:99
-#: Extensions/Commands/Other/language/testing.py:99
+#: Extensions/Commands/Other/language/language.py:97
+#: Extensions/Commands/Other/language/testing.py:97
 msgid "Your given language is not valid."
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:102
-#: Extensions/Commands/Other/language/testing.py:102
+#: Extensions/Commands/Other/language/language.py:100
+#: Extensions/Commands/Other/language/testing.py:100
 #, python-brace-format
 msgid "Use {command} to get a list of all available languages"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:108
-#: Extensions/Commands/Other/language/testing.py:108
+#: Extensions/Commands/Other/language/language.py:106
+#: Extensions/Commands/Other/language/testing.py:106
 msgid "I'm sorry to say that I dont have your given locale ready."
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:112
-#: Extensions/Commands/Other/language/testing.py:112
+#: Extensions/Commands/Other/language/language.py:110
+#: Extensions/Commands/Other/language/testing.py:110
 #, python-brace-format
 msgid "Try to contribute [here]({link}) if you want to!"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:118
-#: Extensions/Commands/Other/language/testing.py:118
+#: Extensions/Commands/Other/language/language.py:116
+#: Extensions/Commands/Other/language/testing.py:116
 #, python-brace-format
 msgid "{name} was successfully set as language!"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:145
-#: Extensions/Commands/Other/language/testing.py:145
+#: Extensions/Commands/Other/language/language.py:141
+#: Extensions/Commands/Other/language/testing.py:141
 msgid "Available Translations"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:147
-#: Extensions/Commands/Other/language/testing.py:147
+#: Extensions/Commands/Other/language/language.py:143
+#: Extensions/Commands/Other/language/testing.py:143
 #, python-brace-format
 msgid "There are currently translations for `{languages}` languages \n"
 "and your current language is **{current}**.\n\n"
-"{_}Don't you see your language or is incomplete?{_} \n"
+"{_}Don't you see your language or is it incomplete?{_} \n"
 "Then come help us out on [Crowdin]({link})!"
 msgstr ""
 
@@ -2530,9 +2544,9 @@ msgstr ""
 
 #: Extensions/Functions/Messages/message/message.py:467
 #: Extensions/Functions/Messages/message/testing.py:467
-#: Extensions/Functions/Messages/message/utils/systems.py:98
-#: Extensions/Functions/Messages/message/utils/systems.py:105
-#: Extensions/Functions/Messages/message/utils/systems.py:237
+#: Extensions/Functions/Messages/message/utils/systems.py:99
+#: Extensions/Functions/Messages/message/utils/systems.py:106
+#: Extensions/Functions/Messages/message/utils/systems.py:238
 msgid "the one above me"
 msgstr "我上面的一个"
 
@@ -2603,78 +2617,78 @@ msgstr ""
 msgid "You've reached the end of the numbers until 0 {emoji} Congratulations!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:73
+#: Extensions/Functions/Messages/message/utils/systems.py:74
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr "{user} 您不允许连续显示多个号码。"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:82
+#: Extensions/Functions/Messages/message/utils/systems.py:83
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
 msgstr "{user} 破坏了 {facepalm} **你不能连续显示多次**。\n"
 "                    有人仍然应该继续。"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:102
+#: Extensions/Functions/Messages/message/utils/systems.py:103
 #, python-brace-format
 msgid "{emoji} Your message should start with **{trigger}**"
 msgstr "{emoji} 您的消息应该以 **{trigger} 开头**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:115
+#: Extensions/Functions/Messages/message/utils/systems.py:116
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
 msgstr "{emoji} 您的消息应该是新的"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:200
+#: Extensions/Functions/Messages/message/utils/systems.py:201
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
 msgstr "{user} 您不能连续几次更改历史课程。"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:209
+#: Extensions/Functions/Messages/message/utils/systems.py:210
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
 "                    Someone should still go on."
 msgstr "{user} 破坏了 {facepalm} **你不能连续显示多次**。\n"
 "                    有人仍然应该继续。"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:234
+#: Extensions/Functions/Messages/message/utils/systems.py:235
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
 msgstr "{emoji} 您的消息应该包含**仅一个**单词**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:336
+#: Extensions/Functions/Messages/message/utils/systems.py:337
 #, python-brace-format
 msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr "{emoji} 您在此不允许使用除数字外的任何内容"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:352
+#: Extensions/Functions/Messages/message/utils/systems.py:353
 #, python-brace-format
 msgid "{user} you are not allowed to count multiple numbers in a row."
 msgstr "{user} 您不允许连续显示多个号码。"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:379
+#: Extensions/Functions/Messages/message/utils/systems.py:380
 #, python-brace-format
 msgid "{user} ruined it at **{count}** {facepalm}. **You apparently can't count properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr "{user} 在 **{count}** {facepalm}摧毁了它。**你显然无法正确计数**。 __next__ number {verb} ` {last} `. {streak}"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:385
+#: Extensions/Functions/Messages/message/utils/systems.py:386
 msgid "**You've topped your best streak with {} 🔥**"
 msgstr "**您已经在 {} :fire中顶了您最好的连环：**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:391
+#: Extensions/Functions/Messages/message/utils/systems.py:392
 msgid "is"
 msgstr "是"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:391
+#: Extensions/Functions/Messages/message/utils/systems.py:392
 msgid "remains"
 msgstr "遗体"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:397
+#: Extensions/Functions/Messages/message/utils/systems.py:398
 #, python-brace-format
 msgid "Incorrect number! The __next__ number is ` {last} `. **No stats have been changed since the current number was {count}.**"
 msgstr "不正确的数字！ __next__ 数字是 ` {last} `。**当前数字为 {count} 后没有改变数据。**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:421
+#: Extensions/Functions/Messages/message/utils/systems.py:422
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr "**你已经达到了 {goal} {emoji} 恭喜的目标**"
