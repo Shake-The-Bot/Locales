@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-09 00:15+0200\n"
-"PO-Revision-Date: 2023-07-08 22:49\n"
+"PO-Revision-Date: 2023-07-09 11:43\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -1278,7 +1278,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:171
 #: Extensions/Commands/Information/userinfo/userinfo.py:171
 msgid "Roles"
-msgstr "Rollen"
+msgstr "Rolle"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:162
 #: Extensions/Commands/Information/serverinfo/testing.py:162
