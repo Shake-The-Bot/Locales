@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-09 00:15+0200\n"
-"PO-Revision-Date: 2023-07-08 23:15\n"
+"PO-Revision-Date: 2023-07-09 00:15\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -398,76 +398,76 @@ msgstr "Вы можете разрешить математические рас
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr ""
+msgstr "Вы можете запретить математические расчеты, чтобы {game} оставалось таким же, как и задумывался."
 
 #: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr ""
+msgstr "Вы можете вернуться сюда в настройках, чтобы изменить эти параметры"
 
 #: Extensions/Commands/Community/counting/counting.py:327
 #: Extensions/Commands/Community/counting/testing.py:392
 msgid "Counting bot reactions"
-msgstr ""
+msgstr "Подсчет реакций которые оставили боты"
 
 #: Extensions/Commands/Community/counting/counting.py:467
 #: Extensions/Commands/Community/counting/testing.py:532
 msgid "Welcome to „Counting“"
-msgstr ""
+msgstr "Добро пожаловать в «Подсчет»"
 
 #: Extensions/Commands/Community/counting/counting.py:469
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "Спасибо за интерес к игре в этом боте!"
 
 #: Extensions/Commands/Community/counting/counting.py:476
 #: Extensions/Commands/Community/counting/testing.py:541
 msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
-msgstr ""
+msgstr "Счетная игра — это интерактивная игра, в которой участники по очереди пишут свои числа в порядке возрастания/убывания в специальном текстовом канале, который указала администрация сервера "
 
 #: Extensions/Commands/Community/counting/counting.py:480
 #: Extensions/Commands/Community/counting/testing.py:545
 msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
-msgstr ""
+msgstr "Цель игры состоит в том, чтобы постоянно увеличивать/уменьшать числовую последовательность, в зависимости от написанного числа каждого игрока. "
 
 #: Extensions/Commands/Community/counting/counting.py:483
 #: Extensions/Commands/Community/counting/testing.py:548
 msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
-msgstr ""
+msgstr "Это может потребовать внимания, и быстрых действий, чтобы поддерживать счёт и избегать возможных ошибок в счёте. Игра поощряет командную работу, и конкуренцию вместе с интерактивным общение внутри сервера. "
 
 #: Extensions/Commands/Community/counting/counting.py:487
 #: Extensions/Commands/Community/counting/testing.py:552
 msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
-msgstr ""
+msgstr "Это может быть забавной задачей, чтобы увидеть, как высоко может подняться числовая последовательность, когда игроки работают вместе, чтобы продолжать играть достаточно долго в игру со счетом."
 
 #: Extensions/Commands/Community/counting/counting.py:493
 #: Extensions/Commands/Community/counting/testing.py:558
 msgid "One person can't count numbers in a row (others are required)."
-msgstr ""
+msgstr "Один человек не может считать числа подряд (требуются другие участники счёта или сервера, позовите их, и считайте вместе)"
 
 #: Extensions/Commands/Community/counting/counting.py:494
 #: Extensions/Commands/Community/counting/testing.py:559
 #: Extensions/Commands/Community/oneword/oneword.py:339
 #: Extensions/Commands/Community/oneword/testing.py:339
 msgid "No botting, if you have fail to often, you'll get muted."
-msgstr ""
+msgstr "Никаких ботов, если вы часто ошибаетесь, вам будет выдан мьют в счёте!"
 
 #: Extensions/Commands/Community/counting/counting.py:496
 #: Extensions/Commands/Community/counting/testing.py:561
 msgid "If you break the count, the count will reset to a calculated checkpoint."
-msgstr ""
+msgstr "Если вы прервете счет, счетчик будет сброшен до расчета конечной точки, которой достиг сервер."
 
 #: Extensions/Commands/Community/counting/counting.py:501
 #: Extensions/Commands/Community/counting/testing.py:566
 msgid "The rules are simple"
-msgstr ""
+msgstr "Правила очень просты"
 
 #: Extensions/Commands/Community/counting/counting.py:507
 #: Extensions/Commands/Community/counting/testing.py:572
 #: Extensions/Commands/Community/oneword/oneword.py:323
 #: Extensions/Commands/Community/oneword/testing.py:323
 msgid "How to setup the game?"
-msgstr ""
+msgstr "Как настроить игру?"
 
 #: Extensions/Commands/Community/counting/counting.py:509
 #: Extensions/Commands/Community/counting/testing.py:574
@@ -475,67 +475,67 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:325
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
-msgstr ""
+msgstr "Начните с использования команды {command} для создания и настройки основного канала для счёта, и начинайте считать вместе с участниками сервера."
 
 #: Extensions/Commands/Community/counting/counting.py:514
 #: Extensions/Commands/Community/counting/testing.py:579
 #: Extensions/Commands/Community/oneword/oneword.py:348
 #: Extensions/Commands/Community/oneword/testing.py:348
 msgid "How to configure the game?"
-msgstr ""
+msgstr "Как настроить игру?"
 
 #: Extensions/Commands/Community/counting/counting.py:516
 #: Extensions/Commands/Community/counting/testing.py:581
 #, python-brace-format
 msgid "Customize all kind of properties for Counting by using the the command {command}!"
-msgstr ""
+msgstr "Настройте все свойства для подсчета с помощью команды {command}!"
 
 #: Extensions/Commands/Community/counting/counting.py:521
 #: Extensions/Commands/Community/counting/testing.py:586
 msgid "The higher the number, the harder you fall!"
-msgstr ""
+msgstr "Чем выше число, тем сильнее вы падаете!"
 
 #: Extensions/Commands/Community/counting/counting.py:539
 #: Extensions/Commands/Community/counting/testing.py:604
 #, python-brace-format
 msgid "There is no Counting-Game in the given channel {channel} that we could configure."
-msgstr ""
+msgstr "В данном канале {channel} нет счётной игры, которую бот или администрация могли бы настроить!"
 
 #: Extensions/Commands/Community/counting/counting.py:551
 #: Extensions/Commands/Community/counting/testing.py:616
 #, python-brace-format
 msgid "The next number in here has been set to {count}"
-msgstr ""
+msgstr "Следующий номер установлен на {count}"
 
 #: Extensions/Commands/Community/counting/counting.py:556
 #: Extensions/Commands/Community/counting/testing.py:621
 #, python-brace-format
 msgid "The stats of the Counting-Game in {channel} has been succsessfully configured."
-msgstr ""
+msgstr "Статистика счётной игры в {channel} успешно настроена!"
 
 #: Extensions/Commands/Community/counting/testing.py:332
 msgid "Counting bot responses"
-msgstr ""
+msgstr "Подсчет ответов ботов"
 
 #: Extensions/Commands/Community/counting/testing.py:333
 msgid "Decide in which way I should response to fails, edits, etc."
-msgstr ""
+msgstr "Решите, как я должен реагировать на сбои, правки и т. д, что бы улучшить игру и качество работы."
 
 #: Extensions/Commands/Community/counting/testing.py:337
 msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
-msgstr ""
+msgstr "Вы можете позволить мне отправлять ответы через вебхуки, чтобы все выглядело более естественно?"
 
 #: Extensions/Commands/Community/counting/testing.py:340
 msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
-msgstr ""
+msgstr "Вы также можете разрешить мне отправлять все сообщения от имени пользователя, чтобы упростить обзор действий, и качественнее следить за счётом участников."
 
 #: Extensions/Commands/Community/counting/testing.py:718
 msgid "I could not create a webhook in the TextChannel! Aborting..."
-msgstr ""
+msgstr "Я не смог создать вебхук в текстовом канале! Ошибка..."
 
 #: Extensions/Commands/Community/oneword/__init__.py:35
 msgid "Create some funny sentances with the help of other users!"
-msgstr ""
+msgstr "Создайте несколько забавных предложений с помощью других пользователей!"
 
 #: Extensions/Commands/Community/oneword/__init__.py:50
 #, python-brace-format
