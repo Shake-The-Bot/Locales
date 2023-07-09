@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
-"POT-Creation-Date: 2023-07-09 00:15+0200\n"
-"PO-Revision-Date: 2023-07-08 22:15\n"
+"POT-Creation-Date: 2023-07-09 14:25+0200\n"
+"PO-Revision-Date: 2023-07-09 12:26\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -23,27 +23,27 @@ msgstr ""
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "Înainte de a continua, trebuie să dați click pe butonul de configurare."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "Meniul lui Shake a fost anulat din cauza inactivității"
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
-msgstr ""
+msgstr "Începe"
 
 #: Classes/accessoires/menu.py:284
 msgid "Cancel"
-msgstr ""
+msgstr "Anulare"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "Meniul ShakeMenu a fost anulat"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Finalizat"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a Category..."
@@ -51,16 +51,16 @@ msgstr "Alege o categorie..."
 
 #: Classes/accessoires/select.py:98
 msgid "Back"
-msgstr ""
+msgstr "Înapoi"
 
 #: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:342
 #: Extensions/Commands/Help/testing.py:342
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Această categorie fie nu există fie nu are articole pentru tine."
 
 #: Classes/accessoires/source.py:249
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "Vă rugăm să confirmaţi selecţia pentru a ieşi din meniu."
 
 #: Classes/converter.py:94
 #, python-brace-format
@@ -78,36 +78,36 @@ msgstr "Eroare Regex: {e_msg}"
 
 #: Classes/types.py:39
 msgid "unknown"
-msgstr ""
+msgstr "necunoscut"
 
 #: Classes/types.py:40
 msgid "playing"
-msgstr ""
+msgstr "se joaca"
 
-#: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:919
-#: Extensions/Commands/Information/userinfo/userinfo.py:919
+#: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:920
+#: Extensions/Commands/Information/userinfo/userinfo.py:920
 msgid "streaming"
-msgstr ""
+msgstr "vizualizează"
 
 #: Classes/types.py:42
 msgid "listening"
-msgstr ""
+msgstr "asculta"
 
 #: Classes/types.py:43
 msgid "watching"
-msgstr ""
+msgstr "privește"
 
 #: Classes/types.py:44
 msgid "custom"
-msgstr ""
+msgstr "personalizat"
 
 #: Classes/types.py:45
 msgid "competing in"
-msgstr ""
+msgstr "concurează în"
 
 #: Classes/useful.py:102
 msgid "or"
-msgstr ""
+msgstr "sau"
 
 #: Classes/useful.py:103
 msgid "and"
@@ -126,23 +126,25 @@ msgstr "<{name} (încărcați un fișier)>"
 #: Classes/useful.py:413
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (alege fisele)]…"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "Aruncă comentarii frumoase, amuzante și uneori enervante către utilizatorul de mai sus! \n"
+"            Jocul AboveMe oferă o grămadă de distracție și creează momente distractive între ele!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with /aboveme info"
-msgstr ""
+msgstr "Configurați întregul joc AboveMe în câteva secunde\n"
+"            Obțineți mai multe informații despre joc cu /aboveme info"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "Vezi top utilizatori și servere de numărare"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
@@ -151,12 +153,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "Creează-ți unul"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
 msgid "AboveMe channel"
-msgstr ""
+msgstr "Canalul AboveMe"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
@@ -165,7 +167,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "Alege în ce canal de text ar trebui să fie acest joc!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -174,7 +176,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "Poți configura un canal text existent de pe serverul tău."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
@@ -183,7 +185,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:97
 #: Extensions/Commands/Community/oneword/testing.py:97
 msgid "Alternatively, you have the option to have a new text channel created for it."
-msgstr ""
+msgstr "Alternativ, aveți opțiunea de a avea un nou canal text creat pentru el."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:101
 #: Extensions/Commands/Community/aboveme/aboveme.py:159
@@ -203,12 +205,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:103
 #: Extensions/Commands/Community/oneword/testing.py:161
 msgid "You can go back here in the setup to change settings.."
-msgstr ""
+msgstr "Puteți merge înapoi aici în configurare pentru a modifica setările.."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "Reacţia la botul AboveMe"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:148
 #: Extensions/Commands/Community/aboveme/testing.py:148
@@ -217,7 +219,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "Decide dacă mi se permite să reacționez la postările din joc"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:152
 #: Extensions/Commands/Community/aboveme/testing.py:152
@@ -226,7 +228,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:154
 #: Extensions/Commands/Community/oneword/testing.py:154
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "Îmi puteţi permite reacţii, astfel încât utilizatorii să ştie direct dacă intrările sunt acceptate ca fiind corecte."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
@@ -235,7 +237,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny me reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "De asemenea, îmi puteţi refuza reacţiile pentru a suprima spamul reacţiilor adverse."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:222
 #: Extensions/Commands/Community/aboveme/testing.py:222
@@ -244,7 +246,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:222
 #: Extensions/Commands/Community/oneword/testing.py:222
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "SCORES DE SERVER CURENT"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:224
 #: Extensions/Commands/Community/aboveme/testing.py:224
@@ -253,7 +255,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:224
 #: Extensions/Commands/Community/oneword/testing.py:224
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "CODURI DE UTILIZATOR CURENTE"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:263
 #: Extensions/Commands/Community/aboveme/testing.py:263
@@ -262,7 +264,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:261
 #: Extensions/Commands/Community/oneword/testing.py:261
 msgid "I could not create a TextChannel. Aborting..."
-msgstr ""
+msgstr "Nu am putut crea un TextChannel. Se abandonează..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:275
 #: Extensions/Commands/Community/aboveme/testing.py:275
@@ -271,7 +273,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:273
 #: Extensions/Commands/Community/oneword/testing.py:273
 msgid "I could not edit the TextChannel! Aborting..."
-msgstr ""
+msgstr "Nu am putut edita TextChannel! Se abandonează..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:287
 #: Extensions/Commands/Community/aboveme/testing.py:287
@@ -281,7 +283,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:285
 #, python-brace-format
 msgid "In {channel} is alredy a Counting game set up. Aborting..."
-msgstr ""
+msgstr "În {channel} este deja un joc de numărare configurat. Se abandonează..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:298
 #: Extensions/Commands/Community/aboveme/testing.py:298
@@ -291,7 +293,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:296
 #, python-brace-format
 msgid "{game} is succsessfully set up in {channel}!"
-msgstr ""
+msgstr "{game} este configurat cu succes în {channel}!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:302
 #: Extensions/Commands/Community/aboveme/testing.py:302
@@ -300,65 +302,66 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:300
 #: Extensions/Commands/Community/oneword/testing.py:300
 msgid "Note: you can freely edit the text channel now"
-msgstr ""
+msgstr "Notă: puteți edita liber canalul text acum"
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
-msgstr ""
+msgstr "Comenzi pentru caracteristicile comunitare pe care le ofer"
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
-msgstr ""
+msgstr "Funcții"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
-msgstr ""
+msgstr "Începeți cu 1 și nu opriți niciodată numărarea din nou!"
 
 #: Extensions/Commands/Community/counting/__init__.py:58
 #, python-brace-format
 msgid "Setup the whole Counting game in seconds\n"
 "            Get more information about the counting game with {command}"
-msgstr ""
+msgstr "Configurați întregul joc de Numărare în secunde\n"
+"            Obțineți mai multe informații despre jocul de numărare cu {command}"
 
 #: Extensions/Commands/Community/counting/__init__.py:114
 msgid "Everything you need to know about the Counting game"
-msgstr ""
+msgstr "Tot ce trebuie să știi despre jocul Numărător"
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
-msgstr ""
+msgstr "Modifică unele proprietăți despre jocul de Numărare"
 
 #: Extensions/Commands/Community/counting/counting.py:107
 #: Extensions/Commands/Community/counting/testing.py:116
 msgid "Counting channel"
-msgstr ""
+msgstr "Canal de numărare"
 
 #: Extensions/Commands/Community/counting/counting.py:160
 #: Extensions/Commands/Community/counting/testing.py:169
 msgid "Counting direction"
-msgstr ""
+msgstr "Direcția numărării"
 
 #: Extensions/Commands/Community/counting/counting.py:161
 #: Extensions/Commands/Community/counting/testing.py:170
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "Alege în ce direcţie ar trebui să meargă Numărarea!"
 
 #: Extensions/Commands/Community/counting/counting.py:164
 #: Extensions/Commands/Community/counting/testing.py:173
 #, python-brace-format
 msgid "You can start counting at the number 1 and continue {game} in ascending order."
-msgstr ""
+msgstr "Puteți începe să numărați la numărul 1 și să continuați {game} în ordine crescătoare."
 
 #: Extensions/Commands/Community/counting/counting.py:167
 #: Extensions/Commands/Community/counting/testing.py:176
 #, python-brace-format
 msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
-msgstr ""
+msgstr "Alternativ, puteți specifica un punct de plecare din care {game} începe în ordine descrescătoare."
 
 #: Extensions/Commands/Community/counting/counting.py:215
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr ""
+msgstr "Reguli de numărare"
 
 #: Extensions/Commands/Community/counting/counting.py:216
 #: Extensions/Commands/Community/counting/testing.py:225
@@ -847,7 +850,7 @@ msgstr ""
 
 #: Extensions/Commands/Help/help.py:565 Extensions/Commands/Help/help.py:781
 #: Extensions/Commands/Help/testing.py:565
-#: Extensions/Commands/Help/testing.py:814
+#: Extensions/Commands/Help/testing.py:781
 msgid "No help given... (You should report this)"
 msgstr ""
 
@@ -857,105 +860,119 @@ msgid "Page {current}/{max} ({entries} commands)"
 msgstr "Pagina {current}/{max} ({entries} comenzi)"
 
 #: Extensions/Commands/Help/help.py:622 Extensions/Commands/Help/help.py:724
-#: Extensions/Commands/Help/testing.py:628
-#: Extensions/Commands/Help/testing.py:757
+#: Extensions/Commands/Help/testing.py:622
+#: Extensions/Commands/Help/testing.py:724
 msgid "No more detailed description given."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:627 Extensions/Commands/Help/testing.py:633
+#: Extensions/Commands/Help/help.py:627 Extensions/Commands/Help/testing.py:627
 #, python-brace-format
 msgid "{category} » {command} Command"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:635 Extensions/Commands/Help/testing.py:641
+#: Extensions/Commands/Help/help.py:635 Extensions/Commands/Help/testing.py:635
 msgid "More detailed command description"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:694 Extensions/Commands/Help/testing.py:727
+#: Extensions/Commands/Help/help.py:694 Extensions/Commands/Help/testing.py:694
 msgid "Necessary user permissions"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:696 Extensions/Commands/Help/testing.py:729
+#: Extensions/Commands/Help/help.py:696 Extensions/Commands/Help/testing.py:696
 msgid "Necessary bot permissions"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:715 Extensions/Commands/Help/testing.py:748
+#: Extensions/Commands/Help/help.py:715 Extensions/Commands/Help/testing.py:715
 #, python-brace-format
 msgid "Commands of the {group} group"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:797 Extensions/Commands/Help/testing.py:830
+#: Extensions/Commands/Help/help.py:797 Extensions/Commands/Help/testing.py:797
 #, python-brace-format
 msgid "Page {current} of {max} ({entries} subcommands)"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:839 Extensions/Commands/Help/testing.py:872
+#: Extensions/Commands/Help/help.py:839 Extensions/Commands/Help/testing.py:839
 #, python-brace-format
 msgid "{emoji} Bot Help (Timeouted type /help again!)"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:841 Extensions/Commands/Help/testing.py:874
+#: Extensions/Commands/Help/help.py:841 Extensions/Commands/Help/testing.py:841
 #, python-brace-format
 msgid "{emoji} Bot Help"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:887
+#: Extensions/Commands/Help/help.py:849 Extensions/Commands/Help/testing.py:849
+#, python-brace-format
+msgid "Hello and welcome to my help page {emoji}\n"
+"                Type `{prefix}help <command/category>` to get more information on a\n"
+"command/category."
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:854
 msgid "Support Server"
 msgstr "Server de Suport"
 
-#: Extensions/Commands/Help/help.py:857 Extensions/Commands/Help/testing.py:890
+#: Extensions/Commands/Help/help.py:857 Extensions/Commands/Help/testing.py:857
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "{support_server}"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:866 Extensions/Commands/Help/testing.py:899
+#: Extensions/Commands/Help/help.py:866 Extensions/Commands/Help/testing.py:866
 msgid "Who am I?"
 msgstr "Cine sunt?"
 
-#: Extensions/Commands/Help/help.py:880 Extensions/Commands/Help/testing.py:913
+#: Extensions/Commands/Help/help.py:870 Extensions/Commands/Help/testing.py:870
+#, python-brace-format
+msgid "{user}, which is partially intended for the public.\n"
+"                    Written with only `{lines}` lines of code. Please be nice"
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:880 Extensions/Commands/Help/testing.py:880
 msgid "What am I for?"
 msgstr ""
 
+#: Extensions/Commands/Help/help.py:884 Extensions/Commands/Help/testing.py:884
+#, python-brace-format
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
+"                    I have been created {created_at} & \n"
+"                    I have functions like voting, level system, music, moderation & much more. \n"
+"                    You can get more information by using the dropdown menu below.\n"
+"                    dropdown menu."
+msgstr ""
+
 #: Extensions/Commands/Help/help.py:896 Extensions/Commands/Help/help.py:900
-#: Extensions/Commands/Help/testing.py:929
-#: Extensions/Commands/Help/testing.py:933
+#: Extensions/Commands/Help/testing.py:896
+#: Extensions/Commands/Help/testing.py:900
 msgid "argument"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:897 Extensions/Commands/Help/testing.py:930
+#: Extensions/Commands/Help/help.py:897 Extensions/Commands/Help/testing.py:897
 msgid "Stands for the argument being __**necessary**__."
 msgstr "Stands for the argument being __**necessary**__."
 
-#: Extensions/Commands/Help/help.py:901 Extensions/Commands/Help/testing.py:934
+#: Extensions/Commands/Help/help.py:901 Extensions/Commands/Help/testing.py:901
 msgid "Stands for that the argument is __**optional**__."
 msgstr "Stands for that the argument is __**optional**__."
 
-#: Extensions/Commands/Help/help.py:903 Extensions/Commands/Help/testing.py:936
+#: Extensions/Commands/Help/help.py:903 Extensions/Commands/Help/testing.py:903
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr "Stands for the argument can be __**fie A, fie B**__."
 
-#: Extensions/Commands/Help/help.py:917 Extensions/Commands/Help/testing.py:950
+#: Extensions/Commands/Help/help.py:908 Extensions/Commands/Help/testing.py:908
+msgid "Stands for the fact that you can use multiple arguments.\n\n"
+"                        Now that you know the basics, you should still know that...\n"
+"                        __**You don't include the parentheses!**__"
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:918 Extensions/Commands/Help/testing.py:918
 msgid "How do I use the bot?"
 msgstr "Cum pot folosi bot-ul?"
 
-#: Extensions/Commands/Help/help.py:918 Extensions/Commands/Help/testing.py:951
+#: Extensions/Commands/Help/help.py:919 Extensions/Commands/Help/testing.py:919
 msgid "Reading the bot structure is pretty easy."
 msgstr "A citi structura botului este destul de ușor."
-
-#: Extensions/Commands/Help/testing.py:644
-msgid "This command got aliases which you can use"
-msgstr ""
-
-#: Extensions/Commands/Help/testing.py:678
-#, python-brace-format
-msgid "Usage of the {command} command"
-msgstr ""
-
-#: Extensions/Commands/Help/testing.py:699
-#, python-brace-format
-msgid "Examples of the {command} command"
-msgstr ""
 
 #: Extensions/Commands/Information/channelinfo/__init__.py:37
 msgid "Get information about a specific channel.\n"
@@ -1283,9 +1300,9 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/testing.py:269
 #: Extensions/Commands/Information/serverinfo/testing.py:647
 #: Extensions/Commands/Information/userinfo/testing.py:188
-#: Extensions/Commands/Information/userinfo/testing.py:958
+#: Extensions/Commands/Information/userinfo/testing.py:959
 #: Extensions/Commands/Information/userinfo/userinfo.py:188
-#: Extensions/Commands/Information/userinfo/userinfo.py:958
+#: Extensions/Commands/Information/userinfo/userinfo.py:959
 msgid "Created"
 msgstr "Creat"
 
@@ -1513,9 +1530,9 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:533
 #: Extensions/Commands/Information/serverinfo/testing.py:533
 #: Extensions/Commands/Information/userinfo/testing.py:405
-#: Extensions/Commands/Information/userinfo/testing.py:962
+#: Extensions/Commands/Information/userinfo/testing.py:963
 #: Extensions/Commands/Information/userinfo/userinfo.py:405
-#: Extensions/Commands/Information/userinfo/userinfo.py:962
+#: Extensions/Commands/Information/userinfo/userinfo.py:963
 msgid "Badges"
 msgstr ""
 
@@ -1556,8 +1573,8 @@ msgstr ""
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:679
 #: Extensions/Commands/Information/serverinfo/testing.py:679
-#: Extensions/Commands/Information/userinfo/testing.py:957
-#: Extensions/Commands/Information/userinfo/userinfo.py:957
+#: Extensions/Commands/Information/userinfo/testing.py:958
+#: Extensions/Commands/Information/userinfo/userinfo.py:958
 msgid "ID"
 msgstr "ID"
 
@@ -1578,8 +1595,8 @@ msgstr ""
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:690
 #: Extensions/Commands/Information/serverinfo/testing.py:690
-#: Extensions/Commands/Information/userinfo/testing.py:966
-#: Extensions/Commands/Information/userinfo/userinfo.py:966
+#: Extensions/Commands/Information/userinfo/testing.py:967
+#: Extensions/Commands/Information/userinfo/userinfo.py:967
 msgid "More Information"
 msgstr ""
 
@@ -1910,63 +1927,63 @@ msgstr ""
 msgid "Member"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:917
-#: Extensions/Commands/Information/userinfo/userinfo.py:917
+#: Extensions/Commands/Information/userinfo/testing.py:918
+#: Extensions/Commands/Information/userinfo/userinfo.py:918
 msgid "online"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:918
-#: Extensions/Commands/Information/userinfo/userinfo.py:918
+#: Extensions/Commands/Information/userinfo/testing.py:919
+#: Extensions/Commands/Information/userinfo/userinfo.py:919
 msgid "offline"
-msgstr ""
-
-#: Extensions/Commands/Information/userinfo/testing.py:920
-#: Extensions/Commands/Information/userinfo/userinfo.py:920
-msgid "idle"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:921
 #: Extensions/Commands/Information/userinfo/userinfo.py:921
+msgid "idle"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:922
+#: Extensions/Commands/Information/userinfo/userinfo.py:922
 msgid "dnd"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:927
-#: Extensions/Commands/Information/userinfo/userinfo.py:927
+#: Extensions/Commands/Information/userinfo/testing.py:928
+#: Extensions/Commands/Information/userinfo/userinfo.py:928
 msgid "Status"
 msgstr "Status"
 
-#: Extensions/Commands/Information/userinfo/testing.py:932
-#: Extensions/Commands/Information/userinfo/userinfo.py:932
+#: Extensions/Commands/Information/userinfo/testing.py:933
+#: Extensions/Commands/Information/userinfo/userinfo.py:933
 msgid "Top Role"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:936
-#: Extensions/Commands/Information/userinfo/userinfo.py:936
+#: Extensions/Commands/Information/userinfo/testing.py:937
+#: Extensions/Commands/Information/userinfo/userinfo.py:937
 msgid "Server Owner"
-msgstr ""
-
-#: Extensions/Commands/Information/userinfo/testing.py:951
-#: Extensions/Commands/Information/userinfo/userinfo.py:951
-msgid "Display name"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:952
 #: Extensions/Commands/Information/userinfo/userinfo.py:952
-msgid "#Tag"
+msgid "Display name"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:953
 #: Extensions/Commands/Information/userinfo/userinfo.py:953
-msgid "Migrated to username"
+msgid "#Tag"
 msgstr ""
 
-#: Extensions/Commands/Information/userinfo/testing.py:959
-#: Extensions/Commands/Information/userinfo/userinfo.py:959
-msgid "Shared Servers"
+#: Extensions/Commands/Information/userinfo/testing.py:954
+#: Extensions/Commands/Information/userinfo/userinfo.py:954
+msgid "Migrated to username"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:960
 #: Extensions/Commands/Information/userinfo/userinfo.py:960
+msgid "Shared Servers"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:961
+#: Extensions/Commands/Information/userinfo/userinfo.py:961
 msgid "None"
 msgstr ""
 
@@ -2190,45 +2207,45 @@ msgid "Reset your language for Shake to the good old language\n"
 "                If the language should be reset for the whole server"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:99
-#: Extensions/Commands/Other/language/testing.py:99
+#: Extensions/Commands/Other/language/language.py:97
+#: Extensions/Commands/Other/language/testing.py:97
 msgid "Your given language is not valid."
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:102
-#: Extensions/Commands/Other/language/testing.py:102
+#: Extensions/Commands/Other/language/language.py:100
+#: Extensions/Commands/Other/language/testing.py:100
 #, python-brace-format
 msgid "Use {command} to get a list of all available languages"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:108
-#: Extensions/Commands/Other/language/testing.py:108
+#: Extensions/Commands/Other/language/language.py:106
+#: Extensions/Commands/Other/language/testing.py:106
 msgid "I'm sorry to say that I dont have your given locale ready."
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:112
-#: Extensions/Commands/Other/language/testing.py:112
+#: Extensions/Commands/Other/language/language.py:110
+#: Extensions/Commands/Other/language/testing.py:110
 #, python-brace-format
 msgid "Try to contribute [here]({link}) if you want to!"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:118
-#: Extensions/Commands/Other/language/testing.py:118
+#: Extensions/Commands/Other/language/language.py:116
+#: Extensions/Commands/Other/language/testing.py:116
 #, python-brace-format
 msgid "{name} was successfully set as language!"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:145
-#: Extensions/Commands/Other/language/testing.py:145
+#: Extensions/Commands/Other/language/language.py:141
+#: Extensions/Commands/Other/language/testing.py:141
 msgid "Available Translations"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:147
-#: Extensions/Commands/Other/language/testing.py:147
+#: Extensions/Commands/Other/language/language.py:143
+#: Extensions/Commands/Other/language/testing.py:143
 #, python-brace-format
 msgid "There are currently translations for `{languages}` languages \n"
 "and your current language is **{current}**.\n\n"
-"{_}Don't you see your language or is incomplete?{_} \n"
+"{_}Don't you see your language or is it incomplete?{_} \n"
 "Then come help us out on [Crowdin]({link})!"
 msgstr ""
 
@@ -2530,9 +2547,9 @@ msgstr ""
 
 #: Extensions/Functions/Messages/message/message.py:467
 #: Extensions/Functions/Messages/message/testing.py:467
-#: Extensions/Functions/Messages/message/utils/systems.py:98
-#: Extensions/Functions/Messages/message/utils/systems.py:105
-#: Extensions/Functions/Messages/message/utils/systems.py:237
+#: Extensions/Functions/Messages/message/utils/systems.py:99
+#: Extensions/Functions/Messages/message/utils/systems.py:106
+#: Extensions/Functions/Messages/message/utils/systems.py:238
 msgid "the one above me"
 msgstr "cel de deasupra mea"
 
@@ -2603,78 +2620,78 @@ msgstr ""
 msgid "You've reached the end of the numbers until 0 {emoji} Congratulations!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:73
+#: Extensions/Functions/Messages/message/utils/systems.py:74
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr "{user} nu ai permisiunea de a număra mai multe numere la rând."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:82
+#: Extensions/Functions/Messages/message/utils/systems.py:83
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
 msgstr "{user} l-a distrus pe {facepalm} **Nu poți apărea de mai multe ori la rând**.\n"
 "                    Cineva ar trebui să mai continue."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:102
+#: Extensions/Functions/Messages/message/utils/systems.py:103
 #, python-brace-format
 msgid "{emoji} Your message should start with **{trigger}**"
 msgstr "{emoji} Mesajul tău ar trebui să înceapă cu **{trigger}**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:115
+#: Extensions/Functions/Messages/message/utils/systems.py:116
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
 msgstr "{emoji} Mesajul tău ar trebui să fie ceva nou"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:200
+#: Extensions/Functions/Messages/message/utils/systems.py:201
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
 msgstr "{user} nu poți schimba cursul istoriei de mai multe ori la rând."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:209
+#: Extensions/Functions/Messages/message/utils/systems.py:210
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
 "                    Someone should still go on."
 msgstr "{user} l-a distrus pe {facepalm} **Nu poți schimba cursul istoriei de mai multe ori la rând**.\n"
 "                    Cineva ar trebui să continue în continuare."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:234
+#: Extensions/Functions/Messages/message/utils/systems.py:235
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
 msgstr "{emoji} mesajul tău trebuie să conțină **doar unul** cuvânt"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:336
+#: Extensions/Functions/Messages/message/utils/systems.py:337
 #, python-brace-format
 msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr "{emoji} Nu ai permisiunea să folosești nimic cu excepția numerelor aici"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:352
+#: Extensions/Functions/Messages/message/utils/systems.py:353
 #, python-brace-format
 msgid "{user} you are not allowed to count multiple numbers in a row."
 msgstr "{user} nu ai permisiunea de a număra mai multe numere la rând."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:379
+#: Extensions/Functions/Messages/message/utils/systems.py:380
 #, python-brace-format
 msgid "{user} ruined it at **{count}** {facepalm}. **You apparently can't count properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr "{user} l-a distrus la **{count}** {facepalm}. **Se pare că nu poți număra corespunzător**. Numărul __next__ {verb} ` {last} `. {streak}"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:385
+#: Extensions/Functions/Messages/message/utils/systems.py:386
 msgid "**You've topped your best streak with {} 🔥**"
 msgstr "**Ai topit cel mai bun streak cu {} 🔥**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:391
+#: Extensions/Functions/Messages/message/utils/systems.py:392
 msgid "is"
 msgstr "este"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:391
+#: Extensions/Functions/Messages/message/utils/systems.py:392
 msgid "remains"
 msgstr "ramase"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:397
+#: Extensions/Functions/Messages/message/utils/systems.py:398
 #, python-brace-format
 msgid "Incorrect number! The __next__ number is ` {last} `. **No stats have been changed since the current number was {count}.**"
 msgstr "Număr incorect! Numărul __next__ este ` {last} `. **Nicio statistică nu a fost modificată deoarece numărul curent a fost {count}.**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:421
+#: Extensions/Functions/Messages/message/utils/systems.py:422
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr "**Ai atins obiectivul de {goal} {emoji} Felicitări**"
