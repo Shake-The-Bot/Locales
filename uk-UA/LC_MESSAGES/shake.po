@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-09 00:15+0200\n"
-"PO-Revision-Date: 2023-07-08 22:16\n"
+"PO-Revision-Date: 2023-07-09 11:44\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -23,126 +23,128 @@ msgstr ""
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "Перш ніж продовжити, ви повинні натиснути на кнопку Налаштування."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "The ShakeMenu було скасовано через неактивність"
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
-msgstr ""
+msgstr "Почати"
 
 #: Classes/accessoires/menu.py:284
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "Було скасовано ShakeMenu"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Готово"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a Category..."
-msgstr ""
+msgstr "Оберіть категорію"
 
 #: Classes/accessoires/select.py:98
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:342
 #: Extensions/Commands/Help/testing.py:342
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Ця категорія не існує або не має для вас жодних елементів."
 
 #: Classes/accessoires/source.py:249
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "Будь ласка, підтвердіть свій вибір для виходу з меню."
 
 #: Classes/converter.py:94
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr ""
+msgstr "`{duration}` не є дійсним рядком тривалості."
 
 #: Classes/converter.py:124
 msgid "Regex pattern missing wrapping backticks"
-msgstr ""
+msgstr "У шаблоні Regex відсутня переадресація тактик"
 
 #: Classes/converter.py:128
 #, python-brace-format
 msgid "Regex error: {e_msg}"
-msgstr ""
+msgstr "Помилка регулярного виразу: {e_msg}"
 
 #: Classes/types.py:39
 msgid "unknown"
-msgstr ""
+msgstr "невідомо"
 
 #: Classes/types.py:40
 msgid "playing"
-msgstr ""
+msgstr "Відтворення"
 
 #: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:919
 #: Extensions/Commands/Information/userinfo/userinfo.py:919
 msgid "streaming"
-msgstr ""
+msgstr "трансляція"
 
 #: Classes/types.py:42
 msgid "listening"
-msgstr ""
+msgstr "слухає!"
 
 #: Classes/types.py:43
 msgid "watching"
-msgstr ""
+msgstr "Спостерігаючи"
 
 #: Classes/types.py:44
 msgid "custom"
-msgstr ""
+msgstr "Спеціальний"
 
 #: Classes/types.py:45
 msgid "competing in"
-msgstr ""
+msgstr "конкуренція в"
 
 #: Classes/useful.py:102
 msgid "or"
-msgstr ""
+msgstr "чи"
 
 #: Classes/useful.py:103
 msgid "and"
-msgstr ""
+msgstr "та"
 
 #: Classes/useful.py:405
 #, python-brace-format
 msgid "[{name} (upload a file)]"
-msgstr ""
+msgstr "[{name} (завантажити файл)]"
 
 #: Classes/useful.py:411
 #, python-brace-format
 msgid "<{name} (upload a file)>"
-msgstr ""
+msgstr "<{name} (завантажити файл)>"
 
 #: Classes/useful.py:413
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[<{name} (завантажити файл)>"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "Ведіть милих, кумедних та іноді надокучливих коментарів користувачу вище вас! \n"
+"            Гра AboveMe пропонує багато веселощів і творців розважальні моменти між собою!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with /aboveme info"
-msgstr ""
+msgstr "Налаштування всієї гри AboveMe за секунд\n"
+"            Отримайте більше інформації про гру в перерахунку за допомогою /aboveme"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "Перегляд верхнього підрахунку користувачів та серверів"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
@@ -151,12 +153,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "Створено"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
 msgid "AboveMe channel"
-msgstr ""
+msgstr "Апосеосейний канал"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
@@ -165,7 +167,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "Виберіть, який текстовий канал цієї гри має бути!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -174,7 +176,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "Ви можете налаштувати існуючий текстовий канал з вашого серверу."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
@@ -183,7 +185,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:97
 #: Extensions/Commands/Community/oneword/testing.py:97
 msgid "Alternatively, you have the option to have a new text channel created for it."
-msgstr ""
+msgstr "Крім того, ви маєте можливість створити новий текстовий канал."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:101
 #: Extensions/Commands/Community/aboveme/aboveme.py:159
@@ -203,12 +205,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:103
 #: Extensions/Commands/Community/oneword/testing.py:161
 msgid "You can go back here in the setup to change settings.."
-msgstr ""
+msgstr "Тут ви можете повернутися в налаштування для зміни налаштувань.."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "Реакція бота AboveMe"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:148
 #: Extensions/Commands/Community/aboveme/testing.py:148
@@ -217,7 +219,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "Вирішіть, чи можу я відреагувати на повідомлення в грі"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:152
 #: Extensions/Commands/Community/aboveme/testing.py:152
@@ -226,7 +228,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:154
 #: Extensions/Commands/Community/oneword/testing.py:154
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "Ви можете дозволити мені реакції, щоб користувачі знали напряму, чи повідомлення є правильними."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
@@ -235,7 +237,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny me reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "Ви також можете заперечувати мені реакції, щоб призупинити спам реакцій."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:222
 #: Extensions/Commands/Community/aboveme/testing.py:222
@@ -244,7 +246,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:222
 #: Extensions/Commands/Community/oneword/testing.py:222
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "НАЛАШТУВАННЯ СЕРВЕРА"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:224
 #: Extensions/Commands/Community/aboveme/testing.py:224
@@ -253,7 +255,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:224
 #: Extensions/Commands/Community/oneword/testing.py:224
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "ПОТОЧНІ КОРИСТУВАЦЬКІ ІСТОРІЇ"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:263
 #: Extensions/Commands/Community/aboveme/testing.py:263
@@ -262,7 +264,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:261
 #: Extensions/Commands/Community/oneword/testing.py:261
 msgid "I could not create a TextChannel. Aborting..."
-msgstr ""
+msgstr "Не вдалося створити TextChannel. Перервання..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:275
 #: Extensions/Commands/Community/aboveme/testing.py:275
@@ -271,7 +273,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:273
 #: Extensions/Commands/Community/oneword/testing.py:273
 msgid "I could not edit the TextChannel! Aborting..."
-msgstr ""
+msgstr "Я не зміг редагувати TextChannel! Скасування..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:287
 #: Extensions/Commands/Community/aboveme/testing.py:287
@@ -281,7 +283,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:285
 #, python-brace-format
 msgid "In {channel} is alredy a Counting game set up. Aborting..."
-msgstr ""
+msgstr "В {channel} встановлено кнопку \"Підрахунок\". Переривання..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:298
 #: Extensions/Commands/Community/aboveme/testing.py:298
@@ -291,7 +293,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:296
 #, python-brace-format
 msgid "{game} is succsessfully set up in {channel}!"
-msgstr ""
+msgstr "{game} успішно настроєний через {channel}!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:302
 #: Extensions/Commands/Community/aboveme/testing.py:302
@@ -300,29 +302,30 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:300
 #: Extensions/Commands/Community/oneword/testing.py:300
 msgid "Note: you can freely edit the text channel now"
-msgstr ""
+msgstr "Примітка: тепер ви можете вільно редагувати текстовий канал"
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
-msgstr ""
+msgstr "Команди функцій Спільнотства, які я пропоную"
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
-msgstr ""
+msgstr "Можливості"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
-msgstr ""
+msgstr "Почніть з 1 і ніколи не припиняйте рахувати знову!"
 
 #: Extensions/Commands/Community/counting/__init__.py:58
 #, python-brace-format
 msgid "Setup the whole Counting game in seconds\n"
 "            Get more information about the counting game with {command}"
-msgstr ""
+msgstr "Налаштування всієї гри з підрахунками в секундах\n"
+"            Отримайте більше інформації про гру для підрахунку {command}"
 
 #: Extensions/Commands/Community/counting/__init__.py:114
 msgid "Everything you need to know about the Counting game"
-msgstr ""
+msgstr "Все, що потрібно знати про гру для підрахунку"
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
@@ -587,91 +590,92 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
 msgid "There is no failing."
-msgstr ""
+msgstr "Сесії немає."
 
 #: Extensions/Commands/Community/oneword/oneword.py:343
 #: Extensions/Commands/Community/oneword/testing.py:343
 msgid "OneWord rules"
-msgstr ""
+msgstr "Правило OneWord"
 
 #: Extensions/Commands/Community/oneword/oneword.py:349
 #: Extensions/Commands/Community/oneword/testing.py:349
 msgid "Currently there is nothing to configure!"
-msgstr ""
+msgstr "В даний час немає чого налаштувати!"
 
 #: Extensions/Commands/Community/schedule/__init__.py:38
 msgid "Scheduled Events are Reminders, which you can let recurr on a chosen Interval. \n"
 "            With a set timezone, you can choose the Start Time and the Message with the corresponding TextChannel."
-msgstr ""
+msgstr "Події у розкладі це Нагадування, які ви можете дозволити рекурсії на обраному інтервалі. \n"
+"            З часовим поясом, ви можете вибрати час початку та Повідомлення з відповідним TextChannel."
 
 #: Extensions/Commands/Community/schedule/testing.py:99
 #: Extensions/Commands/Community/schedule/testing.py:135
 msgid "Repetition"
-msgstr ""
+msgstr "Повторювання"
 
 #: Extensions/Commands/Community/schedule/testing.py:100
 #: Extensions/Commands/Community/schedule/testing.py:136
 msgid "Decide to only get alerted once or choose the interval between the alerts!"
-msgstr ""
+msgstr "Вирішіть сповіщення лише один раз або виберіть інтервал між сповіщеннями!"
 
 #: Extensions/Commands/Community/schedule/testing.py:168
 msgid "Second step: Choose the duration"
-msgstr ""
+msgstr "Другий крок: Оберіть тривалість"
 
 #: Extensions/Commands/Community/schedule/testing.py:192
 msgid "Third step: Choose the Message Type"
-msgstr ""
+msgstr "Третій крок: Виберіть тип повідомлення"
 
 #: Extensions/Commands/Gimmicks/count/__init__.py:33
 msgid "Count for yourself"
-msgstr ""
+msgstr "Підрахуйте собі"
 
 #: Extensions/Commands/Gimmicks/count/count.py:12
 #: Extensions/Commands/Gimmicks/count/testing.py:12
 msgid "Start?"
-msgstr ""
+msgstr "Почати?"
 
 #: Extensions/Commands/Gimmicks/count/count.py:22
 #: Extensions/Commands/Gimmicks/count/testing.py:22
 msgid "Congratulation"
-msgstr ""
+msgstr "Вітання"
 
 #: Extensions/Commands/Gimmicks/count/count.py:28
 #: Extensions/Commands/Gimmicks/count/testing.py:28
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:270
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "Yes"
-msgstr ""
+msgstr "Так"
 
 #: Extensions/Commands/Gimmicks/count/count.py:31
 #: Extensions/Commands/Gimmicks/count/testing.py:31
 msgid "Have fun!"
-msgstr ""
+msgstr "Веселої гри!"
 
 #: Extensions/Commands/Gimmicks/countdown/__init__.py:33
 msgid "It's the final countdown"
-msgstr ""
+msgstr "Це кінцевий відлік"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "five"
-msgstr ""
+msgstr "п'ять"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "two"
-msgstr ""
+msgstr "два"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "one"
-msgstr ""
+msgstr "один"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:13
 #: Extensions/Commands/Gimmicks/countdown/testing.py:13
 #, python-brace-format
 msgid "{__} Lets start this {__}"
-msgstr ""
+msgstr "{__} Давайте розпочнемо з {__}"
 
 #: Extensions/Commands/Gimmicks/everyone/__init__.py:34
 msgid "Remind others how bad @everyone actually is\n\n"
@@ -680,22 +684,28 @@ msgid "Remind others how bad @everyone actually is\n\n"
 "            -----------\n"
 "            member: commands.Greedy[Member]\n"
 "                the member to blame"
-msgstr ""
+msgstr "Нагадати іншим, наскільки погано @everyone насправді є\n\n"
+"            За допомогою цієї команди ви можете показати іншим людям з картинкою/gif наскільки не потрібні файли @everyone або висловити те, що хтось спам @everyone знову.\n\n"
+"            Параметри\n"
+"            -----------\n"
+"            member: команди. повторюйте[Member]\n"
+"                учасника, щоб звинувачувати"
 
 #: Extensions/Commands/Gimmicks/everyone/everyone.py:22
 #: Extensions/Commands/Gimmicks/everyone/testing.py:22
 #, python-brace-format
 msgid "{members} stop spamming @everyone! \n"
 "It's not that important..."
-msgstr ""
+msgstr "{members} припиняти спам @everyon! \n"
+"Це не так вже й важливо..."
 
 #: Extensions/Commands/Gimmicks/gimmicks.py:12
 msgid "Commands for fun and distraction"
-msgstr ""
+msgstr "Команди для розваги та відволікання"
 
 #: Extensions/Commands/Gimmicks/gimmicks.py:20
 msgid "Gimmicks"
-msgstr ""
+msgstr "Трюки"
 
 #: Extensions/Commands/Gimmicks/meme/__init__.py:37
 msgid "Get the latest funny memes of reddit\n\n"
@@ -704,20 +714,26 @@ msgid "Get the latest funny memes of reddit\n\n"
 "            subreddit: Optional[str]\n"
 "                an optional argument to pass a subreddit\n"
 "            "
-msgstr ""
+msgstr "Отримайте останні кумедні меми червоного числа\n\n"
+"            параметрів\n"
+"            -----------\n"
+"            Порахуйте:[str]\n"
+"                не обов'язковий аргумент для того, щоб передати сабреддіт\n"
+"            "
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:30
 #: Extensions/Commands/Gimmicks/meme/testing.py:30
 #, python-brace-format
 msgid "„{title}“ by {author}"
-msgstr ""
+msgstr "режимі.{title}“ — {author}"
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:36
 #: Extensions/Commands/Gimmicks/meme/testing.py:36
 #, python-brace-format
 msgid "Like this meme? Check out others at \n"
 "{subreddit}"
-msgstr ""
+msgstr "Подобається цей мем? Слідкуйте за іншими тут: \n"
+"{subreddit}"
 
 #: Extensions/Commands/Gimmicks/pp/__init__.py:34
 msgid "Reveal the length of a user's pp\n\n"
@@ -729,12 +745,20 @@ msgid "Reveal the length of a user's pp\n\n"
 "            -----------\n"
 "            member: Greedy[Member]\n"
 "                the member to reveal"
-msgstr ""
+msgstr "Показати довжину pp користувача\n\n"
+"            За допомогою цієї команди ви можете дізнатись, використовуючи дуже розумний і, безумовно, не випадковий генератор,\n"
+"            сказати, скільки часу знаходиться pp вибраного користувача.\n"
+"            \n"
+"            __Please note__: Якщо ви не вкажете користувача, І я можу показати ваш pp також.\n\n"
+"            Параметрів\n"
+"            -----------\n"
+"            член: Жадібні[Member]\n"
+"                учасника, який розкриє"
 
 #: Extensions/Commands/Gimmicks/pp/pp.py:23
 #: Extensions/Commands/Gimmicks/pp/testing.py:23
 msgid "Peepee lenght"
-msgstr ""
+msgstr "Довжина піпі"
 
 #: Extensions/Commands/Gimmicks/rainbow/__init__.py:35
 msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
@@ -742,7 +766,10 @@ msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
 "            -----------\n"
 "            member: discord.Member\n"
 "                the member to add"
-msgstr ""
+msgstr "Покажіть свою підтримку LGBT+ фільтру для веселки! ^\n\n"
+"            Параметри\n"
+"            -----------\n"
+"            учасник: discord.Member\n"
 
 #: Extensions/Commands/Gimmicks/random/__init__.py:35
 msgid "Picks a random online user\n\n"
@@ -750,7 +777,11 @@ msgid "Picks a random online user\n\n"
 "            -----------\n"
 "            offline: bool\n"
 "                if offline is ok"
-msgstr ""
+msgstr "Вибирає випадкового онлайн-користувача\n\n"
+"            Параметри\n"
+"            -----------\n"
+"            офлайн: bool\n"
+"                якщо оффлайн -"
 
 #: Extensions/Commands/Gimmicks/roll/__init__.py:37
 msgid "Displays a random number in a specified range of values. (Default: 1-6)\n\n"
@@ -760,7 +791,13 @@ msgid "Displays a random number in a specified range of values. (Default: 1-6)\n
 "                the start to roll at\n\n"
 "            end: Optional[int]\n"
 "                the endlimit to roll till"
-msgstr ""
+msgstr "Відображає випадкове число у вказаному діапазоні значень. (За замовчуванням: 1-6)\n\n"
+"            Параметри\n"
+"            -----------\n"
+"            Розпочати: Необов’язково[int]\n"
+"                початок у\n\n"
+"            кінець: опціональна[int]\n"
+"                кінцевий ліміт і до початку"
 
 #: Extensions/Commands/Gimmicks/say/__init__.py:35
 msgid "I will say whatever you tell me to say, except...\n"
@@ -771,7 +808,14 @@ msgid "I will say whatever you tell me to say, except...\n"
 "                True or False whether the bot should reply to you\n\n"
 "            text: str\n"
 "                What the bot should echo"
-msgstr ""
+msgstr "Скажу все, що ви мені скажете, за винятку...\n"
+"            Говоріть так, як ви були мною. URL-адреси/Запрошення заборонено!\n\n"
+"            Параметри\n"
+"            -----------\n"
+"            відповіст: Optional[bool]\n"
+"                True чи False чи повинен бот відповісти на текст\n\n"
+"            : str\n"
+"                Що бот повинен зараховувати"
 
 #: Extensions/Commands/Gimmicks/say/say.py:25
 #: Extensions/Commands/Gimmicks/say/testing.py:25
