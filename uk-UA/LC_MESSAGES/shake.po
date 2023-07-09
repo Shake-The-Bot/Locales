@@ -770,6 +770,7 @@ msgstr "Покажіть свою підтримку LGBT+ фільтру для
 "            Параметри\n"
 "            -----------\n"
 "            учасник: discord.Member\n"
+"                the member to add"
 
 #: Extensions/Commands/Gimmicks/random/__init__.py:35
 msgid "Picks a random online user\n\n"
