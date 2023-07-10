@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-10 19:48\n"
+"PO-Revision-Date: 2023-07-10 19:53\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -979,7 +979,9 @@ msgstr "Помощь бота {emoji}"
 #, python-brace-format
 msgid "Hello and welcome to my help page\n"
 "Type `{prefix}help <command/category>` to get more information on a command/category."
-msgstr ""
+msgstr "Здравствуйте, и добро пожаловать на мою страницу помощи\n"
+"Вид команд: `{prefix}help <command/category>`, чтобы получить больше информации о\n"
+"командаи/категории."
 
 #: Extensions/Commands/Help/help.py:850 Extensions/Commands/Help/testing.py:850
 msgid "Support Server"
@@ -1000,7 +1002,8 @@ msgstr "Кто я то?"
 #, python-brace-format
 msgid "I am Shake, a bot is partially intended for the public.\n"
 "Written with only {lines} lines of code. Please be nice"
-msgstr ""
+msgstr "Я - Shake, бот, частично предназначенный для публики.\n"
+"Написано всего {lines} кода. Пожалуйста, будьте вежливы"
 
 #: Extensions/Commands/Help/help.py:872 Extensions/Commands/Help/testing.py:872
 msgid "What am I for?"
