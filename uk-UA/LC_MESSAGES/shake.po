@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-09 14:25+0200\n"
-"PO-Revision-Date: 2023-07-10 12:37\n"
+"PO-Revision-Date: 2023-07-10 13:34\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -546,47 +546,47 @@ msgstr "Налаштування всієї гри з підрахунками �
 
 #: Extensions/Commands/Community/oneword/__init__.py:76
 msgid "Everything you need to know about the OneWord game"
-msgstr ""
+msgstr "Все, що потрібно знати про гру в OneWord"
 
 #: Extensions/Commands/Community/oneword/oneword.py:92
 #: Extensions/Commands/Community/oneword/testing.py:92
 msgid "OneWord channel"
-msgstr ""
+msgstr "OneWord канал"
 
 #: Extensions/Commands/Community/oneword/oneword.py:149
 #: Extensions/Commands/Community/oneword/testing.py:149
 msgid "OneWord bot reactions"
-msgstr ""
+msgstr "Реакція бота OneWord"
 
 #: Extensions/Commands/Community/oneword/oneword.py:314
 #: Extensions/Commands/Community/oneword/testing.py:314
 msgid "Welcome to „OneWord“"
-msgstr ""
+msgstr "Ласкаво просимо до сервісу „OneWord“"
 
 #: Extensions/Commands/Community/oneword/oneword.py:317
 #: Extensions/Commands/Community/oneword/testing.py:317
 msgid "Thanks for your interest in the game in this awesome place!"
-msgstr ""
+msgstr "Дякую за інтерес до гри в цьому чудовому місці!"
 
 #: Extensions/Commands/Community/oneword/oneword.py:330
 #: Extensions/Commands/Community/oneword/testing.py:330
 msgid "How to use the game?"
-msgstr ""
+msgstr "Як налаштувати гру?"
 
 #: Extensions/Commands/Community/oneword/oneword.py:332
 #: Extensions/Commands/Community/oneword/testing.py:332
 msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance\n"
-msgstr ""
+msgstr "Ця гра - це всі слова, які розміщуються одна за одною в чаті, щоб створити творче речення\n"
 
 #: Extensions/Commands/Community/oneword/oneword.py:337
 #: Extensions/Commands/Community/oneword/testing.py:337
 msgid "One person can't post words in a row (others are required)."
-msgstr ""
+msgstr "Одна людина не може порахувати цифри поспіль (необхідні для інші)."
 
 #: Extensions/Commands/Community/oneword/oneword.py:338
 #: Extensions/Commands/Community/oneword/testing.py:338
 msgid "The sentance is done with punctuation marks (eg. „!“)."
-msgstr ""
+msgstr "Речення робиться з пунктуаційними знаками (наприклад, „!“)."
 
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
@@ -1100,13 +1100,13 @@ msgstr ""
 #: Extensions/Commands/Information/list/testing.py:22
 #, python-brace-format
 msgid "I'm currently in `{guilds}` guilds & this one is in top **{current}**."
-msgstr ""
+msgstr "Зараз я в даний час `{guilds}` гільдії і ця присутня у топі**{current}**."
 
 #: Extensions/Commands/Information/list/list.py:42
 #: Extensions/Commands/Information/list/testing.py:42
 #, python-brace-format
 msgid "**ID**: `{id}` **OWNER**: `{owner}` **MEMBERS**: `{members}`"
-msgstr ""
+msgstr "**ID**: `{id}` **OWNER**: `{owner}` **MEMBERS**: `{members}`"
 
 #: Extensions/Commands/Information/ping/__init__.py:33
 msgid "Get some ping"
