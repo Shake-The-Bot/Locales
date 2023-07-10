@@ -1,24 +1,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
-"POT-Creation-Date: 2023-07-09 14:25+0200\n"
-"PO-Revision-Date: 2023-07-10 13:34\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-07-10 18:59\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Generator: Poedit 3.2.2\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: .\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Crowdin-Project: shake\n"
 "X-Crowdin-Project-ID: 555309\n"
 "X-Crowdin-Language: ru\n"
 "X-Crowdin-File: /crowdin/template.pot\n"
 "X-Crowdin-File-ID: 375\n"
+"Language: ru_RU\n"
 
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
@@ -75,6 +72,11 @@ msgstr "Отсутствуют обратные галочки для Regex"
 #, python-brace-format
 msgid "Regex error: {e_msg}"
 msgstr "Ошибка выражения: {e_msg}"
+
+#: Classes/helpful.py:631
+#, python-brace-format
+msgid "Requested by {user} • via Shake"
+msgstr ""
 
 #: Classes/types.py:39
 msgid "unknown"
@@ -148,7 +150,7 @@ msgstr "Просмотреть топ-счёт пользователей и/и�
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
-#: Extensions/Commands/Community/counting/counting.py:78
+#: Extensions/Commands/Community/counting/counting.py:87
 #: Extensions/Commands/Community/counting/testing.py:87
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
@@ -162,7 +164,7 @@ msgstr "Канал выше бота"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
-#: Extensions/Commands/Community/counting/counting.py:108
+#: Extensions/Commands/Community/counting/counting.py:117
 #: Extensions/Commands/Community/counting/testing.py:117
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
@@ -171,7 +173,7 @@ msgstr "Выберите, в каком текстовом канале долж
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
-#: Extensions/Commands/Community/counting/counting.py:110
+#: Extensions/Commands/Community/counting/counting.py:119
 #: Extensions/Commands/Community/counting/testing.py:119
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
@@ -180,7 +182,7 @@ msgstr "Вы можете настроить существующий текст
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
-#: Extensions/Commands/Community/counting/counting.py:112
+#: Extensions/Commands/Community/counting/counting.py:121
 #: Extensions/Commands/Community/counting/testing.py:121
 #: Extensions/Commands/Community/oneword/oneword.py:97
 #: Extensions/Commands/Community/oneword/testing.py:97
@@ -191,10 +193,11 @@ msgstr "Кроме того, у вас есть возможность созд�
 #: Extensions/Commands/Community/aboveme/aboveme.py:159
 #: Extensions/Commands/Community/aboveme/testing.py:101
 #: Extensions/Commands/Community/aboveme/testing.py:159
-#: Extensions/Commands/Community/counting/counting.py:118
-#: Extensions/Commands/Community/counting/counting.py:173
-#: Extensions/Commands/Community/counting/counting.py:226
-#: Extensions/Commands/Community/counting/counting.py:339
+#: Extensions/Commands/Community/counting/counting.py:127
+#: Extensions/Commands/Community/counting/counting.py:182
+#: Extensions/Commands/Community/counting/counting.py:235
+#: Extensions/Commands/Community/counting/counting.py:346
+#: Extensions/Commands/Community/counting/counting.py:404
 #: Extensions/Commands/Community/counting/testing.py:127
 #: Extensions/Commands/Community/counting/testing.py:182
 #: Extensions/Commands/Community/counting/testing.py:235
@@ -214,7 +217,7 @@ msgstr "Реакции ботов AboveMe"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:148
 #: Extensions/Commands/Community/aboveme/testing.py:148
-#: Extensions/Commands/Community/counting/counting.py:328
+#: Extensions/Commands/Community/counting/counting.py:393
 #: Extensions/Commands/Community/counting/testing.py:393
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
@@ -223,7 +226,7 @@ msgstr "Решить, могу ли я реагировать на сообще�
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:152
 #: Extensions/Commands/Community/aboveme/testing.py:152
-#: Extensions/Commands/Community/counting/counting.py:332
+#: Extensions/Commands/Community/counting/counting.py:397
 #: Extensions/Commands/Community/counting/testing.py:397
 #: Extensions/Commands/Community/oneword/oneword.py:154
 #: Extensions/Commands/Community/oneword/testing.py:154
@@ -232,75 +235,75 @@ msgstr "Вы можете разрешить мне реагировать, чт
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
-#: Extensions/Commands/Community/counting/counting.py:334
+#: Extensions/Commands/Community/counting/counting.py:399
 #: Extensions/Commands/Community/counting/testing.py:399
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny me reactions to suppress the spam of reactions."
 msgstr "Вы также можете запретить мне оставлять реакции, чтобы не создавать спам реакциями."
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:222
-#: Extensions/Commands/Community/aboveme/testing.py:222
-#: Extensions/Commands/Community/counting/counting.py:581
-#: Extensions/Commands/Community/counting/testing.py:646
-#: Extensions/Commands/Community/oneword/oneword.py:222
-#: Extensions/Commands/Community/oneword/testing.py:222
+#: Extensions/Commands/Community/aboveme/aboveme.py:223
+#: Extensions/Commands/Community/aboveme/testing.py:223
+#: Extensions/Commands/Community/counting/counting.py:647
+#: Extensions/Commands/Community/counting/testing.py:647
+#: Extensions/Commands/Community/oneword/oneword.py:223
+#: Extensions/Commands/Community/oneword/testing.py:223
 msgid "CURRENT SERVER SCORES"
 msgstr "ТЕКУЩИЕ ОЦЕНКИ СЕРВЕРА"
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:224
-#: Extensions/Commands/Community/aboveme/testing.py:224
-#: Extensions/Commands/Community/counting/counting.py:583
-#: Extensions/Commands/Community/counting/testing.py:648
-#: Extensions/Commands/Community/oneword/oneword.py:224
-#: Extensions/Commands/Community/oneword/testing.py:224
+#: Extensions/Commands/Community/aboveme/aboveme.py:225
+#: Extensions/Commands/Community/aboveme/testing.py:225
+#: Extensions/Commands/Community/counting/counting.py:649
+#: Extensions/Commands/Community/counting/testing.py:649
+#: Extensions/Commands/Community/oneword/oneword.py:225
+#: Extensions/Commands/Community/oneword/testing.py:225
 msgid "CURRENT USER SCORES"
 msgstr "ТЕКУЩИЕ ОЦЕНКИ ПОЛЬЗОВАТЕЛЕЙ"
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:263
-#: Extensions/Commands/Community/aboveme/testing.py:263
-#: Extensions/Commands/Community/counting/counting.py:626
-#: Extensions/Commands/Community/counting/testing.py:692
-#: Extensions/Commands/Community/oneword/oneword.py:261
-#: Extensions/Commands/Community/oneword/testing.py:261
+#: Extensions/Commands/Community/aboveme/aboveme.py:264
+#: Extensions/Commands/Community/aboveme/testing.py:264
+#: Extensions/Commands/Community/counting/counting.py:693
+#: Extensions/Commands/Community/counting/testing.py:693
+#: Extensions/Commands/Community/oneword/oneword.py:262
+#: Extensions/Commands/Community/oneword/testing.py:262
 msgid "I could not create a TextChannel. Aborting..."
 msgstr "Я не мог создать текстовый канал. Прерывание..."
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:275
-#: Extensions/Commands/Community/aboveme/testing.py:275
-#: Extensions/Commands/Community/counting/counting.py:638
-#: Extensions/Commands/Community/counting/testing.py:704
-#: Extensions/Commands/Community/oneword/oneword.py:273
-#: Extensions/Commands/Community/oneword/testing.py:273
+#: Extensions/Commands/Community/aboveme/aboveme.py:276
+#: Extensions/Commands/Community/aboveme/testing.py:276
+#: Extensions/Commands/Community/counting/counting.py:705
+#: Extensions/Commands/Community/counting/testing.py:705
+#: Extensions/Commands/Community/oneword/oneword.py:274
+#: Extensions/Commands/Community/oneword/testing.py:274
 msgid "I could not edit the TextChannel! Aborting..."
 msgstr "Я не смог отредактировать текстовый канал! Прерывание..."
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:287
-#: Extensions/Commands/Community/aboveme/testing.py:287
-#: Extensions/Commands/Community/counting/counting.py:650
-#: Extensions/Commands/Community/counting/testing.py:733
-#: Extensions/Commands/Community/oneword/oneword.py:285
-#: Extensions/Commands/Community/oneword/testing.py:285
+#: Extensions/Commands/Community/aboveme/aboveme.py:288
+#: Extensions/Commands/Community/aboveme/testing.py:288
+#: Extensions/Commands/Community/counting/counting.py:734
+#: Extensions/Commands/Community/counting/testing.py:734
+#: Extensions/Commands/Community/oneword/oneword.py:286
+#: Extensions/Commands/Community/oneword/testing.py:286
 #, python-brace-format
 msgid "In {channel} is alredy a Counting game set up. Aborting..."
 msgstr "В {channel} уже является игрой с подсчетом. Прерывание"
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:298
-#: Extensions/Commands/Community/aboveme/testing.py:298
-#: Extensions/Commands/Community/counting/counting.py:676
-#: Extensions/Commands/Community/counting/testing.py:760
-#: Extensions/Commands/Community/oneword/oneword.py:296
-#: Extensions/Commands/Community/oneword/testing.py:296
+#: Extensions/Commands/Community/aboveme/aboveme.py:299
+#: Extensions/Commands/Community/aboveme/testing.py:299
+#: Extensions/Commands/Community/counting/counting.py:761
+#: Extensions/Commands/Community/counting/testing.py:761
+#: Extensions/Commands/Community/oneword/oneword.py:297
+#: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
 msgid "{game} is succsessfully set up in {channel}!"
 msgstr "{game} успешно настроена для канала {channel}!"
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:302
-#: Extensions/Commands/Community/aboveme/testing.py:302
-#: Extensions/Commands/Community/counting/counting.py:680
-#: Extensions/Commands/Community/counting/testing.py:764
-#: Extensions/Commands/Community/oneword/oneword.py:300
-#: Extensions/Commands/Community/oneword/testing.py:300
+#: Extensions/Commands/Community/aboveme/aboveme.py:303
+#: Extensions/Commands/Community/aboveme/testing.py:303
+#: Extensions/Commands/Community/counting/counting.py:765
+#: Extensions/Commands/Community/counting/testing.py:765
+#: Extensions/Commands/Community/oneword/oneword.py:301
+#: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: you can freely edit the text channel now"
 msgstr "Примечание: теперь вы можете свободно редактировать данный текстовый канал."
 
@@ -331,205 +334,210 @@ msgstr "Все, что вам нужно знать об игре «Подсче
 msgid "Change some properties about the Counting game"
 msgstr "Измените некоторые свойства игры «Подсчет»."
 
-#: Extensions/Commands/Community/counting/counting.py:107
+#: Extensions/Commands/Community/counting/counting.py:116
 #: Extensions/Commands/Community/counting/testing.py:116
 msgid "Counting channel"
 msgstr "Канал для счёта"
 
-#: Extensions/Commands/Community/counting/counting.py:160
+#: Extensions/Commands/Community/counting/counting.py:169
 #: Extensions/Commands/Community/counting/testing.py:169
 msgid "Counting direction"
 msgstr "Направить подсчёт"
 
-#: Extensions/Commands/Community/counting/counting.py:161
+#: Extensions/Commands/Community/counting/counting.py:170
 #: Extensions/Commands/Community/counting/testing.py:170
 msgid "Choose in which direction Counting should go!"
 msgstr "Выберите, в каком направлении должен идти подсчет"
 
-#: Extensions/Commands/Community/counting/counting.py:164
+#: Extensions/Commands/Community/counting/counting.py:173
 #: Extensions/Commands/Community/counting/testing.py:173
 #, python-brace-format
 msgid "You can start counting at the number 1 and continue {game} in ascending order."
 msgstr "Вы можете начать считать с цифры один и продолжить {game} в порядке возрастания"
 
-#: Extensions/Commands/Community/counting/counting.py:167
+#: Extensions/Commands/Community/counting/counting.py:176
 #: Extensions/Commands/Community/counting/testing.py:176
 #, python-brace-format
 msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
 msgstr "Кроме того, вы можете указать начальную точку, с которой начинается {game} в порядке убывания."
 
-#: Extensions/Commands/Community/counting/counting.py:215
+#: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
 msgstr "Правила подсчёта"
 
-#: Extensions/Commands/Community/counting/counting.py:216
+#: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
 msgid "Decide if text messages are allowed in Counting"
 msgstr "Кажите, разрешены ли текстовые сообщения в подсчете"
 
-#: Extensions/Commands/Community/counting/counting.py:218
+#: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
 msgstr "Вы можете разрешить текстовые сообщения, чтобы участники могли комментировать друг друга"
 
-#: Extensions/Commands/Community/counting/counting.py:219
+#: Extensions/Commands/Community/counting/counting.py:228
 #: Extensions/Commands/Community/counting/testing.py:228
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
 msgstr "Вы можете запретить текстовые сообщения, чтобы {game} оставалось таким же счётом как и задумано"
 
-#: Extensions/Commands/Community/counting/counting.py:268
+#: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
 msgstr "Способы подсчета"
 
-#: Extensions/Commands/Community/counting/counting.py:269
+#: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
 msgid "Decide if mathematical calculations are allowed in Counting"
 msgstr "Укажите, разрешены ли математические расчеты в счётах"
 
-#: Extensions/Commands/Community/counting/counting.py:272
+#: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:281
 msgid "You can allow mathematical calculations so that members can find new ways."
 msgstr "Вы можете разрешить математические расчеты, чтобы участники могли найти новые способы считать"
 
-#: Extensions/Commands/Community/counting/counting.py:275
+#: Extensions/Commands/Community/counting/counting.py:284
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
 msgstr "Вы можете запретить математические расчеты, чтобы {game} оставалось таким же, как и задумывался."
 
-#: Extensions/Commands/Community/counting/counting.py:281
+#: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
 msgstr "Вы можете вернуться сюда в настройках, чтобы изменить эти параметры"
 
-#: Extensions/Commands/Community/counting/counting.py:327
+#: Extensions/Commands/Community/counting/counting.py:332
+#: Extensions/Commands/Community/counting/testing.py:332
+msgid "Counting bot responses"
+msgstr "Подсчет ответов ботов"
+
+#: Extensions/Commands/Community/counting/counting.py:333
+#: Extensions/Commands/Community/counting/testing.py:333
+msgid "Decide in which way I should response to fails, edits, etc."
+msgstr "Решите, как я должен реагировать на сбои, правки и т. д, что бы улучшить игру и качество работы."
+
+#: Extensions/Commands/Community/counting/counting.py:337
+#: Extensions/Commands/Community/counting/testing.py:337
+msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
+msgstr "Вы можете позволить мне отправлять ответы через вебхуки, чтобы все выглядело более естественно?"
+
+#: Extensions/Commands/Community/counting/counting.py:340
+#: Extensions/Commands/Community/counting/testing.py:340
+msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
+msgstr "Вы также можете разрешить мне отправлять все сообщения от имени пользователя, чтобы упростить обзор действий, и качественнее следить за счётом участников."
+
+#: Extensions/Commands/Community/counting/counting.py:392
 #: Extensions/Commands/Community/counting/testing.py:392
 msgid "Counting bot reactions"
 msgstr "Подсчет реакций которые оставили боты"
 
-#: Extensions/Commands/Community/counting/counting.py:467
+#: Extensions/Commands/Community/counting/counting.py:532
 #: Extensions/Commands/Community/counting/testing.py:532
 msgid "Welcome to „Counting“"
 msgstr "Добро пожаловать в «Подсчет»"
 
-#: Extensions/Commands/Community/counting/counting.py:469
+#: Extensions/Commands/Community/counting/counting.py:534
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
 msgstr "Спасибо за интерес к игре в этом боте!"
 
-#: Extensions/Commands/Community/counting/counting.py:476
+#: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
 msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
 msgstr "Счетная игра — это интерактивная игра, в которой участники по очереди пишут свои числа в порядке возрастания/убывания в специальном текстовом канале, который указала администрация сервера "
 
-#: Extensions/Commands/Community/counting/counting.py:480
+#: Extensions/Commands/Community/counting/counting.py:545
 #: Extensions/Commands/Community/counting/testing.py:545
 msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
 msgstr "Цель игры состоит в том, чтобы постоянно увеличивать/уменьшать числовую последовательность, в зависимости от написанного числа каждого игрока. "
 
-#: Extensions/Commands/Community/counting/counting.py:483
+#: Extensions/Commands/Community/counting/counting.py:548
 #: Extensions/Commands/Community/counting/testing.py:548
 msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
 msgstr "Это может потребовать внимания, и быстрых действий, чтобы поддерживать счёт и избегать возможных ошибок в счёте. Игра поощряет командную работу, и конкуренцию вместе с интерактивным общение внутри сервера. "
 
-#: Extensions/Commands/Community/counting/counting.py:487
+#: Extensions/Commands/Community/counting/counting.py:552
 #: Extensions/Commands/Community/counting/testing.py:552
 msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
 msgstr "Это может быть забавной задачей, чтобы увидеть, как высоко может подняться числовая последовательность, когда игроки работают вместе, чтобы продолжать играть достаточно долго в игру со счетом."
 
-#: Extensions/Commands/Community/counting/counting.py:493
+#: Extensions/Commands/Community/counting/counting.py:558
 #: Extensions/Commands/Community/counting/testing.py:558
 msgid "One person can't count numbers in a row (others are required)."
 msgstr "Один человек не может считать числа подряд (требуются другие участники счёта или сервера, позовите их, и считайте вместе)"
 
-#: Extensions/Commands/Community/counting/counting.py:494
+#: Extensions/Commands/Community/counting/counting.py:559
 #: Extensions/Commands/Community/counting/testing.py:559
-#: Extensions/Commands/Community/oneword/oneword.py:339
-#: Extensions/Commands/Community/oneword/testing.py:339
+#: Extensions/Commands/Community/oneword/oneword.py:340
+#: Extensions/Commands/Community/oneword/testing.py:340
 msgid "No botting, if you have fail to often, you'll get muted."
 msgstr "Никаких ботов, если вы часто ошибаетесь, вам будет выдан мьют в счёте!"
 
-#: Extensions/Commands/Community/counting/counting.py:496
+#: Extensions/Commands/Community/counting/counting.py:561
 #: Extensions/Commands/Community/counting/testing.py:561
 msgid "If you break the count, the count will reset to a calculated checkpoint."
 msgstr "Если вы прервете счет, счетчик будет сброшен до расчета конечной точки, которой достиг сервер."
 
-#: Extensions/Commands/Community/counting/counting.py:501
+#: Extensions/Commands/Community/counting/counting.py:566
 #: Extensions/Commands/Community/counting/testing.py:566
 msgid "The rules are simple"
 msgstr "Правила очень просты"
 
-#: Extensions/Commands/Community/counting/counting.py:507
+#: Extensions/Commands/Community/counting/counting.py:572
 #: Extensions/Commands/Community/counting/testing.py:572
-#: Extensions/Commands/Community/oneword/oneword.py:323
-#: Extensions/Commands/Community/oneword/testing.py:323
+#: Extensions/Commands/Community/oneword/oneword.py:324
+#: Extensions/Commands/Community/oneword/testing.py:324
 msgid "How to setup the game?"
 msgstr "Как настроить игру?"
 
-#: Extensions/Commands/Community/counting/counting.py:509
+#: Extensions/Commands/Community/counting/counting.py:574
 #: Extensions/Commands/Community/counting/testing.py:574
-#: Extensions/Commands/Community/oneword/oneword.py:325
-#: Extensions/Commands/Community/oneword/testing.py:325
+#: Extensions/Commands/Community/oneword/oneword.py:326
+#: Extensions/Commands/Community/oneword/testing.py:326
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
 msgstr "Начните с использования команды {command} для создания и настройки основного канала для счёта, и начинайте считать вместе с участниками сервера."
 
-#: Extensions/Commands/Community/counting/counting.py:514
+#: Extensions/Commands/Community/counting/counting.py:579
 #: Extensions/Commands/Community/counting/testing.py:579
-#: Extensions/Commands/Community/oneword/oneword.py:348
-#: Extensions/Commands/Community/oneword/testing.py:348
+#: Extensions/Commands/Community/oneword/oneword.py:349
+#: Extensions/Commands/Community/oneword/testing.py:349
 msgid "How to configure the game?"
 msgstr "Как настроить игру?"
 
-#: Extensions/Commands/Community/counting/counting.py:516
+#: Extensions/Commands/Community/counting/counting.py:581
 #: Extensions/Commands/Community/counting/testing.py:581
 #, python-brace-format
 msgid "Customize all kind of properties for Counting by using the the command {command}!"
 msgstr "Настройте все свойства для подсчета с помощью команды {command}!"
 
-#: Extensions/Commands/Community/counting/counting.py:521
+#: Extensions/Commands/Community/counting/counting.py:586
 #: Extensions/Commands/Community/counting/testing.py:586
 msgid "The higher the number, the harder you fall!"
 msgstr "Чем выше число, тем сильнее вы падаете!"
 
-#: Extensions/Commands/Community/counting/counting.py:539
+#: Extensions/Commands/Community/counting/counting.py:604
 #: Extensions/Commands/Community/counting/testing.py:604
 #, python-brace-format
 msgid "There is no Counting-Game in the given channel {channel} that we could configure."
 msgstr "В данном канале {channel} нет счётной игры, которую бот или администрация могли бы настроить!"
 
-#: Extensions/Commands/Community/counting/counting.py:551
+#: Extensions/Commands/Community/counting/counting.py:616
 #: Extensions/Commands/Community/counting/testing.py:616
 #, python-brace-format
 msgid "The next number in here has been set to {count}"
 msgstr "Следующий номер установлен на {count}"
 
-#: Extensions/Commands/Community/counting/counting.py:556
+#: Extensions/Commands/Community/counting/counting.py:621
 #: Extensions/Commands/Community/counting/testing.py:621
 #, python-brace-format
 msgid "The stats of the Counting-Game in {channel} has been succsessfully configured."
 msgstr "Статистика счётной игры в {channel} успешно настроена!"
 
-#: Extensions/Commands/Community/counting/testing.py:332
-msgid "Counting bot responses"
-msgstr "Подсчет ответов ботов"
-
-#: Extensions/Commands/Community/counting/testing.py:333
-msgid "Decide in which way I should response to fails, edits, etc."
-msgstr "Решите, как я должен реагировать на сбои, правки и т. д, что бы улучшить игру и качество работы."
-
-#: Extensions/Commands/Community/counting/testing.py:337
-msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
-msgstr "Вы можете позволить мне отправлять ответы через вебхуки, чтобы все выглядело более естественно?"
-
-#: Extensions/Commands/Community/counting/testing.py:340
-msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
-msgstr "Вы также можете разрешить мне отправлять все сообщения от имени пользователя, чтобы упростить обзор действий, и качественнее следить за счётом участников."
-
-#: Extensions/Commands/Community/counting/testing.py:718
+#: Extensions/Commands/Community/counting/counting.py:719
+#: Extensions/Commands/Community/counting/testing.py:719
 msgid "I could not create a webhook in the TextChannel! Aborting..."
 msgstr "Я не смог создать вебхук в текстовом канале! Ошибка..."
 
@@ -558,48 +566,48 @@ msgstr "Канал для игры \"Одно слово\""
 msgid "OneWord bot reactions"
 msgstr "Реакции бота на \"Одно слово\""
 
-#: Extensions/Commands/Community/oneword/oneword.py:314
-#: Extensions/Commands/Community/oneword/testing.py:314
+#: Extensions/Commands/Community/oneword/oneword.py:315
+#: Extensions/Commands/Community/oneword/testing.py:315
 msgid "Welcome to „OneWord“"
 msgstr "Приветствуем в игре \"Одно слово\""
 
-#: Extensions/Commands/Community/oneword/oneword.py:317
-#: Extensions/Commands/Community/oneword/testing.py:317
+#: Extensions/Commands/Community/oneword/oneword.py:318
+#: Extensions/Commands/Community/oneword/testing.py:318
 msgid "Thanks for your interest in the game in this awesome place!"
 msgstr "Спасибо за ваш интерес к игре в этом удивительном сервере!"
 
-#: Extensions/Commands/Community/oneword/oneword.py:330
-#: Extensions/Commands/Community/oneword/testing.py:330
+#: Extensions/Commands/Community/oneword/oneword.py:331
+#: Extensions/Commands/Community/oneword/testing.py:331
 msgid "How to use the game?"
 msgstr "Как играть в \"Одно слово\"?"
 
-#: Extensions/Commands/Community/oneword/oneword.py:332
-#: Extensions/Commands/Community/oneword/testing.py:332
-msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance\n"
-msgstr "В этой игре все дело в словах, которые один за другим пишутся в чате, чтобы создать креативное предложение."
-
-#: Extensions/Commands/Community/oneword/oneword.py:337
-#: Extensions/Commands/Community/oneword/testing.py:337
-msgid "One person can't post words in a row (others are required)."
-msgstr "Один человек не может играть в \"Одно слово\", что бы играть нужно писать слова разным участникам (требуются другие участники сервера)."
+#: Extensions/Commands/Community/oneword/oneword.py:333
+#: Extensions/Commands/Community/oneword/testing.py:333
+msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance"
+msgstr ""
 
 #: Extensions/Commands/Community/oneword/oneword.py:338
 #: Extensions/Commands/Community/oneword/testing.py:338
+msgid "One person can't post words in a row (others are required)."
+msgstr "Один человек не может играть в \"Одно слово\", что бы играть нужно писать слова разным участникам (требуются другие участники сервера)."
+
+#: Extensions/Commands/Community/oneword/oneword.py:339
+#: Extensions/Commands/Community/oneword/testing.py:339
 msgid "The sentance is done with punctuation marks (eg. „!“)."
 msgstr "Передача предложения осуществляется с помощью знаков препинания (например, \"!\")."
 
-#: Extensions/Commands/Community/oneword/oneword.py:340
-#: Extensions/Commands/Community/oneword/testing.py:340
+#: Extensions/Commands/Community/oneword/oneword.py:341
+#: Extensions/Commands/Community/oneword/testing.py:341
 msgid "There is no failing."
 msgstr "Нет никаких ошибок"
 
-#: Extensions/Commands/Community/oneword/oneword.py:343
-#: Extensions/Commands/Community/oneword/testing.py:343
+#: Extensions/Commands/Community/oneword/oneword.py:344
+#: Extensions/Commands/Community/oneword/testing.py:344
 msgid "OneWord rules"
 msgstr "правила игры \"Одно слово\""
 
-#: Extensions/Commands/Community/oneword/oneword.py:349
-#: Extensions/Commands/Community/oneword/testing.py:349
+#: Extensions/Commands/Community/oneword/oneword.py:350
+#: Extensions/Commands/Community/oneword/testing.py:350
 msgid "Currently there is nothing to configure!"
 msgstr "В настоящее время ничего не нужно настраивать!"
 
@@ -911,61 +919,61 @@ msgstr "Эта групповая команда имеет подкоманды
 msgid "Unknown command `{argument}`. Use \"/help\" for help."
 msgstr "Неизвестная команда `{argument}`. Используйте \"/help\" для получения справки."
 
-#: Extensions/Commands/Help/help.py:565 Extensions/Commands/Help/help.py:781
+#: Extensions/Commands/Help/help.py:565 Extensions/Commands/Help/help.py:779
 #: Extensions/Commands/Help/testing.py:565
-#: Extensions/Commands/Help/testing.py:781
+#: Extensions/Commands/Help/testing.py:779
 msgid "No help given... (You should report this)"
 msgstr "Помощь не оказана... (Вы должны сообщить об этом)"
 
-#: Extensions/Commands/Help/help.py:587 Extensions/Commands/Help/testing.py:587
+#: Extensions/Commands/Help/help.py:585 Extensions/Commands/Help/testing.py:585
 #, python-brace-format
 msgid "Page {current}/{max} ({entries} commands)"
 msgstr "Страница {current}/{max} ({entries} команд)"
 
-#: Extensions/Commands/Help/help.py:622 Extensions/Commands/Help/help.py:724
-#: Extensions/Commands/Help/testing.py:622
-#: Extensions/Commands/Help/testing.py:724
+#: Extensions/Commands/Help/help.py:620 Extensions/Commands/Help/help.py:722
+#: Extensions/Commands/Help/testing.py:620
+#: Extensions/Commands/Help/testing.py:722
 msgid "No more detailed description given."
 msgstr "Более подробное описание не приводится."
 
-#: Extensions/Commands/Help/help.py:627 Extensions/Commands/Help/testing.py:627
+#: Extensions/Commands/Help/help.py:625 Extensions/Commands/Help/testing.py:625
 #, python-brace-format
 msgid "{category} » {command} Command"
 msgstr "{category} для копанды {command} "
 
-#: Extensions/Commands/Help/help.py:635 Extensions/Commands/Help/testing.py:635
+#: Extensions/Commands/Help/help.py:633 Extensions/Commands/Help/testing.py:633
 msgid "More detailed command description"
 msgstr "Более подробное описание команды"
 
-#: Extensions/Commands/Help/help.py:694 Extensions/Commands/Help/testing.py:694
+#: Extensions/Commands/Help/help.py:692 Extensions/Commands/Help/testing.py:692
 msgid "Necessary user permissions"
 msgstr "Необходимые разрешения пользователей"
 
-#: Extensions/Commands/Help/help.py:696 Extensions/Commands/Help/testing.py:696
+#: Extensions/Commands/Help/help.py:694 Extensions/Commands/Help/testing.py:694
 msgid "Necessary bot permissions"
 msgstr "Необходимые разрешения для бота"
 
-#: Extensions/Commands/Help/help.py:715 Extensions/Commands/Help/testing.py:715
+#: Extensions/Commands/Help/help.py:713 Extensions/Commands/Help/testing.py:713
 #, python-brace-format
 msgid "Commands of the {group} group"
 msgstr "Команды из группы {group}"
 
-#: Extensions/Commands/Help/help.py:797 Extensions/Commands/Help/testing.py:797
+#: Extensions/Commands/Help/help.py:795 Extensions/Commands/Help/testing.py:795
 #, python-brace-format
 msgid "Page {current} of {max} ({entries} subcommands)"
 msgstr "Страница {current} из {max} ({entries} подкоманда)"
 
-#: Extensions/Commands/Help/help.py:839 Extensions/Commands/Help/testing.py:839
+#: Extensions/Commands/Help/help.py:837 Extensions/Commands/Help/testing.py:837
 #, python-brace-format
 msgid "{emoji} Bot Help (Timeouted type /help again!)"
 msgstr "{emoji} Помощь бота (необходимо ввести /help еще раз!)"
 
-#: Extensions/Commands/Help/help.py:841 Extensions/Commands/Help/testing.py:841
+#: Extensions/Commands/Help/help.py:839 Extensions/Commands/Help/testing.py:839
 #, python-brace-format
 msgid "{emoji} Bot Help"
 msgstr "Помощь бота {emoji}"
 
-#: Extensions/Commands/Help/help.py:849 Extensions/Commands/Help/testing.py:849
+#: Extensions/Commands/Help/help.py:847 Extensions/Commands/Help/testing.py:847
 #, python-brace-format
 msgid "Hello and welcome to my help page {emoji}\n"
 "                Type `{prefix}help <command/category>` to get more information on a\n"
@@ -974,33 +982,33 @@ msgstr "Здравствуйте, и добро пожаловать на мою
 "                Вид команд: `{prefix}help <command/category>`, чтобы получить больше информации о\n"
 "командаи/категории."
 
-#: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:854
+#: Extensions/Commands/Help/help.py:852 Extensions/Commands/Help/testing.py:852
 msgid "Support Server"
 msgstr "Сервер поддержки"
 
-#: Extensions/Commands/Help/help.py:857 Extensions/Commands/Help/testing.py:857
+#: Extensions/Commands/Help/help.py:855 Extensions/Commands/Help/testing.py:855
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "{support_server}"
 msgstr "Вы можете получить больше помощи, если присоединитесь к официальному серверу через -\n"
 "{support_server}"
 
-#: Extensions/Commands/Help/help.py:866 Extensions/Commands/Help/testing.py:866
+#: Extensions/Commands/Help/help.py:864 Extensions/Commands/Help/testing.py:864
 msgid "Who am I?"
 msgstr "Кто я то?"
 
-#: Extensions/Commands/Help/help.py:870 Extensions/Commands/Help/testing.py:870
+#: Extensions/Commands/Help/help.py:868 Extensions/Commands/Help/testing.py:868
 #, python-brace-format
 msgid "{user}, which is partially intended for the public.\n"
 "                    Written with only `{lines}` lines of code. Please be nice"
 msgstr "{user}, частично предназначенный для публики.\n"
 "                    Письменно с только строками `{lines}`. Пожалуйста, будьте вежливы"
 
-#: Extensions/Commands/Help/help.py:880 Extensions/Commands/Help/testing.py:880
+#: Extensions/Commands/Help/help.py:878 Extensions/Commands/Help/testing.py:878
 msgid "What am I for?"
 msgstr "Для чего я нужен?"
 
-#: Extensions/Commands/Help/help.py:884 Extensions/Commands/Help/testing.py:884
+#: Extensions/Commands/Help/help.py:882 Extensions/Commands/Help/testing.py:882
 #, python-brace-format
 msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
 "                    I have been created {created_at} & \n"
@@ -1013,25 +1021,25 @@ msgstr "Я функциональный все-в-одном бот, котор�
 "                    Вы можете получить более подробную информацию с помощью выпадающего меню.\n"
 "                    выпадающее меню."
 
-#: Extensions/Commands/Help/help.py:896 Extensions/Commands/Help/help.py:900
-#: Extensions/Commands/Help/testing.py:896
-#: Extensions/Commands/Help/testing.py:900
+#: Extensions/Commands/Help/help.py:894 Extensions/Commands/Help/help.py:898
+#: Extensions/Commands/Help/testing.py:894
+#: Extensions/Commands/Help/testing.py:898
 msgid "argument"
 msgstr "аргумент"
 
-#: Extensions/Commands/Help/help.py:897 Extensions/Commands/Help/testing.py:897
+#: Extensions/Commands/Help/help.py:895 Extensions/Commands/Help/testing.py:895
 msgid "Stands for the argument being __**necessary**__."
 msgstr "Стенд для аргумента является __**необходимым**__."
 
-#: Extensions/Commands/Help/help.py:901 Extensions/Commands/Help/testing.py:901
+#: Extensions/Commands/Help/help.py:899 Extensions/Commands/Help/testing.py:899
 msgid "Stands for that the argument is __**optional**__."
 msgstr "Ожидает, что аргумент __**необязательный**__."
 
-#: Extensions/Commands/Help/help.py:903 Extensions/Commands/Help/testing.py:903
+#: Extensions/Commands/Help/help.py:901 Extensions/Commands/Help/testing.py:901
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr "Стенды для аргумента могут быть __**или A или B**__."
 
-#: Extensions/Commands/Help/help.py:908 Extensions/Commands/Help/testing.py:908
+#: Extensions/Commands/Help/help.py:906 Extensions/Commands/Help/testing.py:906
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                        Now that you know the basics, you should still know that...\n"
 "                        __**You don't include the parentheses!**__"
@@ -1039,11 +1047,11 @@ msgstr "Стенды для того чтобы можно было исполь
 "                        Теперь, когда вы знаете основы вы все еще должны знать это. .\n"
 "                        __**Вы не включаете круглые скобки: *_"
 
-#: Extensions/Commands/Help/help.py:918 Extensions/Commands/Help/testing.py:918
+#: Extensions/Commands/Help/help.py:916 Extensions/Commands/Help/testing.py:916
 msgid "How do I use the bot?"
 msgstr "Как пользоваться ботом?"
 
-#: Extensions/Commands/Help/help.py:919 Extensions/Commands/Help/testing.py:919
+#: Extensions/Commands/Help/help.py:917 Extensions/Commands/Help/testing.py:917
 msgid "Reading the bot structure is pretty easy."
 msgstr "Чтение структуры бота довольно просто."
 
@@ -1698,7 +1706,7 @@ msgstr "Буст"
 msgid "More Information"
 msgstr "Дополнительная информация"
 
-#: Extensions/Commands/Information/stats/__init__.py:54
+#: Extensions/Commands/Information/stats/__init__.py:61
 msgid "Get some basic information and statistics about me.\n"
 "            \n"
 "            very useful to stalk"
@@ -1746,9 +1754,9 @@ msgid "Users"
 msgstr "Пользователей"
 
 #: Extensions/Commands/Information/stats/stats.py:110
-#: Extensions/Commands/Information/stats/stats.py:209
+#: Extensions/Commands/Information/stats/stats.py:207
 #: Extensions/Commands/Information/stats/testing.py:110
-#: Extensions/Commands/Information/stats/testing.py:209
+#: Extensions/Commands/Information/stats/testing.py:207
 msgid "Commands"
 msgstr "Команд"
 
@@ -1787,43 +1795,43 @@ msgstr "Использование CPU"
 msgid "Plattform"
 msgstr "Платформа"
 
-#: Extensions/Commands/Information/stats/stats.py:224
-#: Extensions/Commands/Information/stats/testing.py:224
+#: Extensions/Commands/Information/stats/stats.py:222
+#: Extensions/Commands/Information/stats/testing.py:222
 msgid "Most used commands"
 msgstr "Основные команды"
 
-#: Extensions/Commands/Information/stats/stats.py:260
-#: Extensions/Commands/Information/stats/testing.py:260
+#: Extensions/Commands/Information/stats/stats.py:258
+#: Extensions/Commands/Information/stats/testing.py:258
 msgid "Shake Statistics Overview"
 msgstr "Статистика встряхивания"
 
-#: Extensions/Commands/Information/stats/stats.py:264
-#: Extensions/Commands/Information/stats/testing.py:264
+#: Extensions/Commands/Information/stats/stats.py:262
+#: Extensions/Commands/Information/stats/testing.py:262
 msgid "Support Server Link"
 msgstr "Сервер поддержки:"
 
-#: Extensions/Commands/Information/stats/stats.py:267
-#: Extensions/Commands/Information/stats/testing.py:267
+#: Extensions/Commands/Information/stats/stats.py:265
+#: Extensions/Commands/Information/stats/testing.py:265
 msgid "Shake Invition Link"
 msgstr "Встряхнуть приглашение, ссылка"
 
-#: Extensions/Commands/Information/stats/stats.py:277
-#: Extensions/Commands/Information/stats/testing.py:277
+#: Extensions/Commands/Information/stats/stats.py:275
+#: Extensions/Commands/Information/stats/testing.py:275
 msgid "Developer"
 msgstr "Разработчик"
 
-#: Extensions/Commands/Information/stats/stats.py:285
-#: Extensions/Commands/Information/stats/testing.py:285
+#: Extensions/Commands/Information/stats/stats.py:283
+#: Extensions/Commands/Information/stats/testing.py:283
 msgid "Bot name"
 msgstr "Имя бота"
 
-#: Extensions/Commands/Information/stats/stats.py:291
-#: Extensions/Commands/Information/stats/testing.py:291
+#: Extensions/Commands/Information/stats/stats.py:289
+#: Extensions/Commands/Information/stats/testing.py:289
 msgid "Bot ID"
 msgstr "ID бота"
 
-#: Extensions/Commands/Information/stats/stats.py:299
-#: Extensions/Commands/Information/stats/testing.py:299
+#: Extensions/Commands/Information/stats/stats.py:297
+#: Extensions/Commands/Information/stats/testing.py:297
 msgid "Bot creation"
 msgstr "Создание бота"
 
@@ -2720,8 +2728,8 @@ msgstr "{user} удалил свое слово. Слово было {word}!"
 msgid "{user} deleted their phrase. The phrase was „{phrase}“!"
 msgstr "{user} удалил свою фразу. Фраза была „{phrase}“!"
 
-#: Extensions/Functions/Messages/message/delete/delete.py:165
-#: Extensions/Functions/Messages/message/delete/testing.py:165
+#: Extensions/Functions/Messages/message/delete/delete.py:167
+#: Extensions/Functions/Messages/message/delete/testing.py:167
 #, python-brace-format
 msgid "{user} deleted their count of {count}. The next number is {next}!"
 msgstr "{user} удалил их количество {count}. Следующее число равно {next}!"
@@ -2738,8 +2746,8 @@ msgstr "{user} отредактировал свое слово. Слово {wor
 msgid "{user} edited their phrase. The phrase was „{phrase}“!"
 msgstr "{user} отредактировал свою фразу. Фраза была „{phrase}“!"
 
-#: Extensions/Functions/Messages/message/edit/edit.py:168
-#: Extensions/Functions/Messages/message/edit/testing.py:168
+#: Extensions/Functions/Messages/message/edit/edit.py:171
+#: Extensions/Functions/Messages/message/edit/testing.py:171
 #, python-brace-format
 msgid "{user} edited their count of {count}. The next number is {next}!"
 msgstr "{user} отредактировал их количество {count}. Следующее число равно {next}!"
