@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-09 14:25+0200\n"
-"PO-Revision-Date: 2023-07-09 12:27\n"
+"PO-Revision-Date: 2023-07-10 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -329,145 +329,145 @@ msgstr "Все, що потрібно знати про гру для підра
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
-msgstr ""
+msgstr "Змінити деякі властивості підрахунку"
 
 #: Extensions/Commands/Community/counting/counting.py:107
 #: Extensions/Commands/Community/counting/testing.py:116
 msgid "Counting channel"
-msgstr ""
+msgstr "Канал підрахунку"
 
 #: Extensions/Commands/Community/counting/counting.py:160
 #: Extensions/Commands/Community/counting/testing.py:169
 msgid "Counting direction"
-msgstr ""
+msgstr "Напрямок підрахунку"
 
 #: Extensions/Commands/Community/counting/counting.py:161
 #: Extensions/Commands/Community/counting/testing.py:170
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "Виберіть, в якому напрямку підрахунок має відбуватися!"
 
 #: Extensions/Commands/Community/counting/counting.py:164
 #: Extensions/Commands/Community/counting/testing.py:173
 #, python-brace-format
 msgid "You can start counting at the number 1 and continue {game} in ascending order."
-msgstr ""
+msgstr "Ви можете почати рахувати з номером 1 і продовжити {game} в порядку зростання."
 
 #: Extensions/Commands/Community/counting/counting.py:167
 #: Extensions/Commands/Community/counting/testing.py:176
 #, python-brace-format
 msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
-msgstr ""
+msgstr "Крім того, можна вказати вихідну точку, з якої {game} починається в порядку спадання."
 
 #: Extensions/Commands/Community/counting/counting.py:215
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr ""
+msgstr "Правила обліку"
 
 #: Extensions/Commands/Community/counting/counting.py:216
 #: Extensions/Commands/Community/counting/testing.py:225
 msgid "Decide if text messages are allowed in Counting"
-msgstr ""
+msgstr "Оберіть, чи дозволені текстові повідомлення в підрахунку"
 
 #: Extensions/Commands/Community/counting/counting.py:218
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
-msgstr ""
+msgstr "Ви можете дозволяти текстові повідомлення, щоб учасники могли коментувати одне одного."
 
 #: Extensions/Commands/Community/counting/counting.py:219
 #: Extensions/Commands/Community/counting/testing.py:228
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
-msgstr ""
+msgstr "Ви можете заборонити текстові повідомлення, щоб {game} став більш чітким."
 
 #: Extensions/Commands/Community/counting/counting.py:268
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
-msgstr ""
+msgstr "Спосіб підрахунку"
 
 #: Extensions/Commands/Community/counting/counting.py:269
 #: Extensions/Commands/Community/counting/testing.py:278
 msgid "Decide if mathematical calculations are allowed in Counting"
-msgstr ""
+msgstr "Вирішіть, чи дозволені математичні розрахунки"
 
 #: Extensions/Commands/Community/counting/counting.py:272
 #: Extensions/Commands/Community/counting/testing.py:281
 msgid "You can allow mathematical calculations so that members can find new ways."
-msgstr ""
+msgstr "Ви можете дозволити математичні розрахунки, щоб учасники могли знайти нові способи."
 
 #: Extensions/Commands/Community/counting/counting.py:275
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr ""
+msgstr "Ви можете заперечувати математичні розрахунки, щоб {game} залишився чіткішим."
 
 #: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr ""
+msgstr "Ви можете повернутися сюди в налаштування для зміни налаштувань."
 
 #: Extensions/Commands/Community/counting/counting.py:327
 #: Extensions/Commands/Community/counting/testing.py:392
 msgid "Counting bot reactions"
-msgstr ""
+msgstr "Підрахуємо реакції бота"
 
 #: Extensions/Commands/Community/counting/counting.py:467
 #: Extensions/Commands/Community/counting/testing.py:532
 msgid "Welcome to „Counting“"
-msgstr ""
+msgstr "Ласкаво просимо до „Підрахунку“"
 
 #: Extensions/Commands/Community/counting/counting.py:469
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "Дякую за інтерес до гри в цьому чудовому місці!"
 
 #: Extensions/Commands/Community/counting/counting.py:476
 #: Extensions/Commands/Community/counting/testing.py:541
 msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
-msgstr ""
+msgstr "Підрахунок гри - це весела та інтерактивна гра, де учасники ведуть публікацію чисел у піднесенні/нижньому порядку на спеціальний текстовий канал. "
 
 #: Extensions/Commands/Community/counting/counting.py:480
 #: Extensions/Commands/Community/counting/testing.py:545
 msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
-msgstr ""
+msgstr "Мета гри - постійно збільшити/зменшити кількість послідовностей за внеском кожного. "
 
 #: Extensions/Commands/Community/counting/counting.py:483
 #: Extensions/Commands/Community/counting/testing.py:548
 msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
-msgstr ""
+msgstr "Він може вимагати уваги, координації та швидких дій для підтримки потоку та уникнення помилок. Гра заохочує командну роботу, здорову конкуренцію та інтерактивну комунікацію до спільноти. "
 
 #: Extensions/Commands/Community/counting/counting.py:487
 #: Extensions/Commands/Community/counting/testing.py:552
 msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
-msgstr ""
+msgstr "Це може бути веселий виклик, щоб побачити, як висока послідовність чисел може йти в роботі разом, щоб продовжити підрахунок гри."
 
 #: Extensions/Commands/Community/counting/counting.py:493
 #: Extensions/Commands/Community/counting/testing.py:558
 msgid "One person can't count numbers in a row (others are required)."
-msgstr ""
+msgstr "Одна людина не може порахувати цифри поспіль (необхідні для інші)."
 
 #: Extensions/Commands/Community/counting/counting.py:494
 #: Extensions/Commands/Community/counting/testing.py:559
 #: Extensions/Commands/Community/oneword/oneword.py:339
 #: Extensions/Commands/Community/oneword/testing.py:339
 msgid "No botting, if you have fail to often, you'll get muted."
-msgstr ""
+msgstr "Якщо ви не часто нічого робити, ви будете писати в звук."
 
 #: Extensions/Commands/Community/counting/counting.py:496
 #: Extensions/Commands/Community/counting/testing.py:561
 msgid "If you break the count, the count will reset to a calculated checkpoint."
-msgstr ""
+msgstr "Якщо ви порушите кількість лічильників, то при цьому лічильник буде скинуто на обчислену контрольну точку."
 
 #: Extensions/Commands/Community/counting/counting.py:501
 #: Extensions/Commands/Community/counting/testing.py:566
 msgid "The rules are simple"
-msgstr ""
+msgstr "Правила прості"
 
 #: Extensions/Commands/Community/counting/counting.py:507
 #: Extensions/Commands/Community/counting/testing.py:572
 #: Extensions/Commands/Community/oneword/oneword.py:323
 #: Extensions/Commands/Community/oneword/testing.py:323
 msgid "How to setup the game?"
-msgstr ""
+msgstr "Як налаштувати гру?"
 
 #: Extensions/Commands/Community/counting/counting.py:509
 #: Extensions/Commands/Community/counting/testing.py:574
@@ -475,73 +475,74 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:325
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
-msgstr ""
+msgstr "Почніть з використання команди {command} для створення та налаштування важливого каналу"
 
 #: Extensions/Commands/Community/counting/counting.py:514
 #: Extensions/Commands/Community/counting/testing.py:579
 #: Extensions/Commands/Community/oneword/oneword.py:348
 #: Extensions/Commands/Community/oneword/testing.py:348
 msgid "How to configure the game?"
-msgstr ""
+msgstr "Як налаштувати гру?"
 
 #: Extensions/Commands/Community/counting/counting.py:516
 #: Extensions/Commands/Community/counting/testing.py:581
 #, python-brace-format
 msgid "Customize all kind of properties for Counting by using the the command {command}!"
-msgstr ""
+msgstr "Налаштуйте всі властивості підрахунку за допомогою команди {command}!"
 
 #: Extensions/Commands/Community/counting/counting.py:521
 #: Extensions/Commands/Community/counting/testing.py:586
 msgid "The higher the number, the harder you fall!"
-msgstr ""
+msgstr "Чим вище число тим складніше ви впадете!"
 
 #: Extensions/Commands/Community/counting/counting.py:539
 #: Extensions/Commands/Community/counting/testing.py:604
 #, python-brace-format
 msgid "There is no Counting-Game in the given channel {channel} that we could configure."
-msgstr ""
+msgstr "У даному каналі немає Рахунків-ігор, який можна налаштувати {channel}."
 
 #: Extensions/Commands/Community/counting/counting.py:551
 #: Extensions/Commands/Community/counting/testing.py:616
 #, python-brace-format
 msgid "The next number in here has been set to {count}"
-msgstr ""
+msgstr "Наступне число встановлено в {count}"
 
 #: Extensions/Commands/Community/counting/counting.py:556
 #: Extensions/Commands/Community/counting/testing.py:621
 #, python-brace-format
 msgid "The stats of the Counting-Game in {channel} has been succsessfully configured."
-msgstr ""
+msgstr "Статистика гри в {channel} була успішно сконфігурована."
 
 #: Extensions/Commands/Community/counting/testing.py:332
 msgid "Counting bot responses"
-msgstr ""
+msgstr "Підраховуючи відповіді на бота"
 
 #: Extensions/Commands/Community/counting/testing.py:333
 msgid "Decide in which way I should response to fails, edits, etc."
-msgstr ""
+msgstr "Вирішіть, яким чином я повинен відповісти на невдачі, редагування, тощо."
 
 #: Extensions/Commands/Community/counting/testing.py:337
 msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
-msgstr ""
+msgstr "Ви можете мені дати відповідь через вебхуки, що зробить всю річ більш природною"
 
 #: Extensions/Commands/Community/counting/testing.py:340
 msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
-msgstr ""
+msgstr "Ви також можете дозволити мені надсилати всі повідомлення як користувача, для полегшення огляду дій в певних випадках."
 
 #: Extensions/Commands/Community/counting/testing.py:718
 msgid "I could not create a webhook in the TextChannel! Aborting..."
-msgstr ""
+msgstr "Не вдалося створити TextChannel. Перервання..."
 
 #: Extensions/Commands/Community/oneword/__init__.py:35
 msgid "Create some funny sentances with the help of other users!"
-msgstr ""
+msgstr "Створіть деякі смішні речення за допомогою інших користувачів!"
 
 #: Extensions/Commands/Community/oneword/__init__.py:50
 #, python-brace-format
 msgid "Setup the whole OneWord game in seconds\n"
 "            Get more information about the OneWord game with {command}"
-msgstr ""
+msgstr "Налаштування всієї гри з підрахунками в секундах\n"
+"            Отримайте більше інформації про гру для підрахунку {command}"
 
 #: Extensions/Commands/Community/oneword/__init__.py:76
 msgid "Everything you need to know about the OneWord game"
