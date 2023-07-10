@@ -2,8 +2,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+<<<<<<< Updated upstream
 "POT-Creation-Date: 2023-07-10 17:32+0200\n"
 "PO-Revision-Date: 2022-12-12 21:26+0100\n"
+=======
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+>>>>>>> Stashed changes
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -12,9 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
+<<<<<<< Updated upstream
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: .\n"
+=======
+>>>>>>> Stashed changes
 
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
