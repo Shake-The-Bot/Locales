@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: 2023-07-09 14:25+0200\n"
-"PO-Revision-Date: 2023-07-09 12:26\n"
+"PO-Revision-Date: 2023-07-10 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -970,7 +970,9 @@ msgstr "Помощь бота {emoji}"
 msgid "Hello and welcome to my help page {emoji}\n"
 "                Type `{prefix}help <command/category>` to get more information on a\n"
 "command/category."
-msgstr ""
+msgstr "Здравствуйте, и добро пожаловать на мою страницу помощи {emoji}\n"
+"                Type `{prefix}help <command/category>`, чтобы получить больше информации о\n"
+"командаи/категории."
 
 #: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:854
 msgid "Support Server"
@@ -991,7 +993,8 @@ msgstr "Кто я то?"
 #, python-brace-format
 msgid "{user}, which is partially intended for the public.\n"
 "                    Written with only `{lines}` lines of code. Please be nice"
-msgstr ""
+msgstr "{user}, частично предназначенный для публики.\n"
+"                    Письменно с только строками `{lines}`. Пожалуйста, будьте вежливы"
 
 #: Extensions/Commands/Help/help.py:880 Extensions/Commands/Help/testing.py:880
 msgid "What am I for?"
@@ -1004,7 +1007,11 @@ msgid "I am a functional all-in-one bot that will simplify setting up your serve
 "                    I have functions like voting, level system, music, moderation & much more. \n"
 "                    You can get more information by using the dropdown menu below.\n"
 "                    dropdown menu."
-msgstr ""
+msgstr "Я функциональный все-в-одном бот, который упростит настройку вашего сервера для вас!\n\n"
+"                    Я был создан {created_at} & \n"
+"                    у меня есть такие функции, как голосование, системы уровней, музыки, модерации и многое другое. \n"
+"                    Вы можете получить более подробную информацию с помощью выпадающего меню.\n"
+"                    выпадающее меню."
 
 #: Extensions/Commands/Help/help.py:896 Extensions/Commands/Help/help.py:900
 #: Extensions/Commands/Help/testing.py:896
@@ -1028,7 +1035,9 @@ msgstr "Стенды для аргумента могут быть __**или A 
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                        Now that you know the basics, you should still know that...\n"
 "                        __**You don't include the parentheses!**__"
-msgstr ""
+msgstr "Стенды для того чтобы можно было использовать несколько аргументов.\n\n"
+"                        Теперь, когда вы знаете основы вы все еще должны знать это. .\n"
+"                        __**Вы не включаете круглые скобки: *_"
 
 #: Extensions/Commands/Help/help.py:918 Extensions/Commands/Help/testing.py:918
 msgid "How do I use the bot?"
@@ -2425,7 +2434,10 @@ msgid "There are currently translations for `{languages}` languages \n"
 "and your current language is **{current}**.\n\n"
 "{_}Don't you see your language or is it incomplete?{_} \n"
 "Then come help us out on [Crowdin]({link})!"
-msgstr ""
+msgstr "В настоящее время существуют переводы для `{languages}` языков \n"
+"и ваш текущий язык - **{current}**.\n\n"
+"{_}Вы не видите свой язык или он неполный?{_} \n"
+"Тогда помогите нам на [Crowdin]({link})!"
 
 #: Extensions/Commands/Other/leave/__init__.py:37
 msgid "Leave a guild\n\n"
