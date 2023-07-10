@@ -575,8 +575,8 @@ msgstr "Как играть в \"Одно слово\"?"
 
 #: Extensions/Commands/Community/oneword/oneword.py:332
 #: Extensions/Commands/Community/oneword/testing.py:332
-msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance\n"
-msgstr "В этой игре все дело в словах, которые один за другим пишутся в чате, чтобы создать креативное предложение.\n"
+msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance"
+msgstr "В этой игре все дело в словах, которые один за другим пишутся в чате, чтобы создать креативное предложение."
 
 #: Extensions/Commands/Community/oneword/oneword.py:337
 #: Extensions/Commands/Community/oneword/testing.py:337
