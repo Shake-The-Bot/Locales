@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-10 18:59\n"
+"PO-Revision-Date: 2023-07-10 19:04\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -584,7 +584,7 @@ msgstr "Как играть в \"Одно слово\"?"
 #: Extensions/Commands/Community/oneword/oneword.py:333
 #: Extensions/Commands/Community/oneword/testing.py:333
 msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance"
-msgstr ""
+msgstr "В этой игре все дело в словах, которые один за другим пишутся в чате, чтобы создать креативное предложение."
 
 #: Extensions/Commands/Community/oneword/oneword.py:338
 #: Extensions/Commands/Community/oneword/testing.py:338
