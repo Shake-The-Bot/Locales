@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-10 19:31\n"
+"PO-Revision-Date: 2023-07-10 19:48\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -975,41 +975,38 @@ msgstr "{emoji} Помощь бота (необходимо ввести /help �
 msgid "{emoji} Bot Help"
 msgstr "Помощь бота {emoji}"
 
-#: Extensions/Commands/Help/help.py:847 Extensions/Commands/Help/testing.py:847
+#: Extensions/Commands/Help/help.py:846 Extensions/Commands/Help/testing.py:846
 #, python-brace-format
-msgid "Hello and welcome to my help page {emoji}\n"
+msgid "Hello and welcome to my help page\n"
 "Type `{prefix}help <command/category>` to get more information on a command/category."
-msgstr "Здравствуйте, и добро пожаловать на мою страницу помощи {emoji}\n"
-"Вид команд: `{prefix}help <command/category>`, чтобы получить больше информации о\n"
-"командаи/категории."
+msgstr ""
 
-#: Extensions/Commands/Help/help.py:851 Extensions/Commands/Help/testing.py:851
+#: Extensions/Commands/Help/help.py:850 Extensions/Commands/Help/testing.py:850
 msgid "Support Server"
 msgstr "Сервер поддержки"
 
-#: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:854
+#: Extensions/Commands/Help/help.py:853 Extensions/Commands/Help/testing.py:853
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "{support_server}"
 msgstr "Вы можете получить больше помощи, если присоединитесь к официальному серверу через -\n"
 "{support_server}"
 
-#: Extensions/Commands/Help/help.py:863 Extensions/Commands/Help/testing.py:863
+#: Extensions/Commands/Help/help.py:862 Extensions/Commands/Help/testing.py:862
 msgid "Who am I?"
 msgstr "Кто я то?"
 
-#: Extensions/Commands/Help/help.py:866 Extensions/Commands/Help/testing.py:866
+#: Extensions/Commands/Help/help.py:865 Extensions/Commands/Help/testing.py:865
 #, python-brace-format
-msgid "{user}, which is partially intended for the public.\n"
-"Written with only `{lines}` lines of code. Please be nice"
-msgstr "{user}, частично предназначенный для публики.\n"
-"Письменно с только строками `{lines}`. Пожалуйста, будьте вежливы"
+msgid "I am Shake, a bot is partially intended for the public.\n"
+"Written with only {lines} lines of code. Please be nice"
+msgstr ""
 
-#: Extensions/Commands/Help/help.py:874 Extensions/Commands/Help/testing.py:874
+#: Extensions/Commands/Help/help.py:872 Extensions/Commands/Help/testing.py:872
 msgid "What am I for?"
 msgstr "Для чего я нужен?"
 
-#: Extensions/Commands/Help/help.py:878 Extensions/Commands/Help/testing.py:878
+#: Extensions/Commands/Help/help.py:876 Extensions/Commands/Help/testing.py:876
 #, python-brace-format
 msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
 "                    I have been created {created_at} & \n"
@@ -1022,25 +1019,25 @@ msgstr "Я функциональный все-в-одном бот, котор�
 "                    Вы можете получить более подробную информацию с помощью выпадающего меню.\n"
 "                    выпадающее меню."
 
-#: Extensions/Commands/Help/help.py:890 Extensions/Commands/Help/help.py:894
-#: Extensions/Commands/Help/testing.py:890
-#: Extensions/Commands/Help/testing.py:894
+#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/help.py:892
+#: Extensions/Commands/Help/testing.py:888
+#: Extensions/Commands/Help/testing.py:892
 msgid "argument"
 msgstr "аргумент"
 
-#: Extensions/Commands/Help/help.py:891 Extensions/Commands/Help/testing.py:891
+#: Extensions/Commands/Help/help.py:889 Extensions/Commands/Help/testing.py:889
 msgid "Stands for the argument being __**necessary**__."
 msgstr "Стенд для аргумента является __**необходимым**__."
 
-#: Extensions/Commands/Help/help.py:895 Extensions/Commands/Help/testing.py:895
+#: Extensions/Commands/Help/help.py:893 Extensions/Commands/Help/testing.py:893
 msgid "Stands for that the argument is __**optional**__."
 msgstr "Ожидает, что аргумент __**необязательный**__."
 
-#: Extensions/Commands/Help/help.py:897 Extensions/Commands/Help/testing.py:897
+#: Extensions/Commands/Help/help.py:895 Extensions/Commands/Help/testing.py:895
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr "Стенды для аргумента могут быть __**или A или B**__."
 
-#: Extensions/Commands/Help/help.py:902 Extensions/Commands/Help/testing.py:902
+#: Extensions/Commands/Help/help.py:900 Extensions/Commands/Help/testing.py:900
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                        Now that you know the basics, you should still know that...\n"
 "                        __**You don't include the parentheses!**__"
@@ -1048,11 +1045,11 @@ msgstr "Стенды для того чтобы можно было исполь
 "                        Теперь, когда вы знаете основы вы все еще должны знать это. .\n"
 "                        __**Вы не включаете круглые скобки: *_"
 
-#: Extensions/Commands/Help/help.py:912 Extensions/Commands/Help/testing.py:912
+#: Extensions/Commands/Help/help.py:910 Extensions/Commands/Help/testing.py:910
 msgid "How do I use the bot?"
 msgstr "Как пользоваться ботом?"
 
-#: Extensions/Commands/Help/help.py:913 Extensions/Commands/Help/testing.py:913
+#: Extensions/Commands/Help/help.py:911 Extensions/Commands/Help/testing.py:911
 msgid "Reading the bot structure is pretty easy."
 msgstr "Чтение структуры бота довольно просто."
 
