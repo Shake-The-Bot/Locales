@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-11 12:29\n"
+"PO-Revision-Date: 2023-07-11 12:34\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
@@ -1855,7 +1855,7 @@ msgstr "Telling Stats"
 #: Extensions/Commands/Information/userinfo/userinfo.py:589
 #, python-brace-format
 msgid "{user} scored a total of {score} valid counts (#{placement})"
-msgstr ""
+msgstr "{user} scoorde een totaal van {score} geldige aantallen (#{placement})"
 
 #: Extensions/Commands/Information/userinfo/testing.py:491
 #: Extensions/Commands/Information/userinfo/testing.py:599
@@ -1864,7 +1864,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:599
 #: Extensions/Commands/Information/userinfo/userinfo.py:703
 msgid "Total passed"
-msgstr ""
+msgstr "Totale passes"
 
 #: Extensions/Commands/Information/userinfo/testing.py:503
 #: Extensions/Commands/Information/userinfo/testing.py:611
@@ -2189,7 +2189,11 @@ msgid "Run shell commands.\n\n"
 "            -----------\n"
 "            command: str\n"
 "                the command"
-msgstr ""
+msgstr "Voer shell commando's uit.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            commando: str\n"
+"                het commando"
 
 #: Extensions/Commands/Other/dispatch/__init__.py:37
 msgid "Send an event\n\n"
@@ -2199,11 +2203,17 @@ msgid "Send an event\n\n"
 "                the name of the event\n\n"
 "            kwargs: Any\n"
 "                event keyword arguments"
-msgstr ""
+msgstr "Stuur een gebeurtenis\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            gebeurtenis: Optioneel[str]\n"
+"                de naam van de gebeurtenis\n\n"
+"            kwargs: Een\n"
+"                gebeurtenis trefwoord argumenten"
 
 #: Extensions/Commands/Other/do/__init__.py:35
 msgid "run commands multiple times"
-msgstr ""
+msgstr "opdrachten meerdere keren uitvoeren"
 
 #: Extensions/Commands/Other/extensions/__init__.py:55
 msgid "Reloads, unloads or loads extensions/commands of the bot\n"
@@ -2214,7 +2224,14 @@ msgid "Reloads, unloads or loads extensions/commands of the bot\n"
 "                re- un- or loading the <extensions>\n\n"
 "            extension: Greedy[ValidCog]\n"
 "                the extension(s) you want to re- un- or load"
-msgstr ""
+msgstr "Herladen, lost extensies/commando's van de bot\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            commando: Letterlijk[laad, onbelast, herladen]\n"
+"                her- un- of laden van de <extensions>\n\n"
+"            extensie: Grijze[ValidCog]\n"
+"                de extensies die u wilt her- of laden"
 
 #: Extensions/Commands/Other/language/__init__.py:43
 msgid "Display a list of availible languages and locale codes.\n"
@@ -2222,7 +2239,11 @@ msgid "Display a list of availible languages and locale codes.\n"
 "            You can check if your language is available by comparing against [this list](https://saimana.com/list-of-country-locale-code/)\n"
 "            Some of these languages are no real languages but serve as a way to spice up the text.\n"
 "            (If something is not yet translated, the english original text is used.)"
-msgstr ""
+msgstr "Toon een lijst met beschikbare talen en lokale codes.\n"
+"            \n"
+"            Je kunt controleren of jouw taal beschikbaar is door te vergelijken met [deze lijst](https://saimana. om/list-of-country-locale-code/)\n"
+"            Sommige van deze talen zijn geen echte talen, maar dienen als een manier om de tekst te verspreiden.\n"
+"            (Als er nog iets niet is vertaald, wordt de Engelse originele tekst gebruikt.)"
 
 #: Extensions/Commands/Other/language/__init__.py:75
 #, python-brace-format
@@ -2236,7 +2257,16 @@ msgid "Set your language for Shake.\n"
 "            \n"
 "            server: Optional[bool]\n"
 "                If the language should be set for the whole server"
-msgstr ""
+msgstr "Stel je taal in voor Shake.\n"
+"            Volledige lijst met beschikbare talen kan gevonden worden met `{prefix}taal`\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            taal: str\n"
+"                De locale code van de taal die je\n"
+"            \n"
+"            server wilt instellen: Optionele[bool]\n"
+"                Als de taal moet worden ingesteld voor de hele server"
 
 #: Extensions/Commands/Other/language/__init__.py:120
 msgid "Reset your language for Shake to the good old language\n"
@@ -2246,40 +2276,46 @@ msgid "Reset your language for Shake to the good old language\n"
 "            -----------\n"
 "            server: Optional[bool]\n"
 "                If the language should be reset for the whole server"
-msgstr ""
+msgstr "Reset je taal voor Shake naar de goede, oude taal\n"
+"            Verander niets als er geen taal is ingesteld\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            server: Optioneel[bool]\n"
+"                Als de taal gereset moet worden voor de hele server"
 
 #: Extensions/Commands/Other/language/language.py:97
 #: Extensions/Commands/Other/language/testing.py:97
 msgid "Your given language is not valid."
-msgstr ""
+msgstr "Uw opgegeven taal is niet geldig."
 
 #: Extensions/Commands/Other/language/language.py:100
 #: Extensions/Commands/Other/language/testing.py:100
 #, python-brace-format
 msgid "Use {command} to get a list of all available languages"
-msgstr ""
+msgstr "Gebruik {command} om een lijst van alle beschikbare talen te krijgen"
 
 #: Extensions/Commands/Other/language/language.py:106
 #: Extensions/Commands/Other/language/testing.py:106
 msgid "I'm sorry to say that I dont have your given locale ready."
-msgstr ""
+msgstr "Het spijt me te moeten zeggen dat ik je gegeven lokale niet klaar heb."
 
 #: Extensions/Commands/Other/language/language.py:110
 #: Extensions/Commands/Other/language/testing.py:110
 #, python-brace-format
 msgid "Try to contribute [here]({link}) if you want to!"
-msgstr ""
+msgstr "Probeer bij te dragen [here]({link}) als je wilt!"
 
 #: Extensions/Commands/Other/language/language.py:116
 #: Extensions/Commands/Other/language/testing.py:116
 #, python-brace-format
 msgid "{name} was successfully set as language!"
-msgstr ""
+msgstr "{name} is succesvol ingesteld als taal!"
 
 #: Extensions/Commands/Other/language/language.py:141
 #: Extensions/Commands/Other/language/testing.py:141
 msgid "Available Translations"
-msgstr ""
+msgstr "Beschikbare Vertalingen"
 
 #: Extensions/Commands/Other/language/language.py:143
 #: Extensions/Commands/Other/language/testing.py:143
@@ -2288,7 +2324,10 @@ msgid "There are currently translations for `{languages}` languages \n"
 "and your current language is **{current}**.\n\n"
 "{_}Don't you see your language or is it incomplete?{_} \n"
 "Then come help us out on [Crowdin]({link})!"
-msgstr ""
+msgstr "Er zijn momenteel vertalingen voor `{languages}` talen \n"
+"en jouw huidige taal is **{current}**.\n\n"
+"{_}Zie je je taal niet of is deze onvolledig?{_} \n"
+"Help ons dan met [Crowdin]({link})!"
 
 #: Extensions/Commands/Other/leave/__init__.py:37
 msgid "Leave a guild\n\n"
@@ -2296,55 +2335,59 @@ msgid "Leave a guild\n\n"
 "            -----------\n"
 "            guild: int\n"
 "                the ID of the server"
-msgstr ""
+msgstr "Verlaat een gilde\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guild: int\n"
+"                de ID van de server"
 
 #: Extensions/Commands/Other/leave/leave.py:23
 #: Extensions/Commands/Other/leave/testing.py:23
 #, python-brace-format
 msgid "{emoji} {prefix} The given server is not valid"
-msgstr ""
+msgstr "{emoji} {prefix} De opgegeven server is niet geldig"
 
 #: Extensions/Commands/Other/leave/leave.py:31
 #: Extensions/Commands/Other/leave/testing.py:31
 #, python-brace-format
 msgid "{emoji} {prefix} leaving the guild raised an error"
-msgstr ""
+msgstr "{emoji} {prefix} verlaten van de gilde heeft een fout veroorzaakt"
 
 #: Extensions/Commands/Other/leave/leave.py:37
 #: Extensions/Commands/Other/leave/testing.py:37
 #, python-brace-format
 msgid "{emoji} {prefix} I'll leave the given server"
-msgstr ""
+msgstr "{emoji} {prefix} Ik zal de gegeven server verlaten"
 
 #: Extensions/Commands/Other/other.py:12
 msgid "Other commands without categories"
-msgstr ""
+msgstr "Andere commando's zonder categorieën"
 
 #: Extensions/Commands/Other/other.py:20
 msgid "Other"
-msgstr ""
+msgstr "Andere"
 
 #: Extensions/Commands/Other/ptb/__init__.py:36
 msgid "Temporarily adds a server/channel/user to the public test build"
-msgstr ""
+msgstr "Voeg tijdelijk een server/kanaal/gebruiker toe aan de publieke test build"
 
 #: Extensions/Commands/Other/ptb/ptb.py:51
 msgid "Your input does not match any server/channel/user I can find"
-msgstr ""
+msgstr "Je invoer komt niet overeen met een server/kanaal/gebruiker die ik kan vinden"
 
 #: Extensions/Commands/Other/ptb/ptb.py:61
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: Extensions/Commands/Other/ptb/ptb.py:66
 #, python-brace-format
 msgid "{name} is __removed__ from the public test build"
-msgstr ""
+msgstr "{name} is __removed__ van de openbare test build"
 
 #: Extensions/Commands/Other/ptb/ptb.py:71
 #, python-brace-format
 msgid "{name} is temporarily __added__ to the public test build"
-msgstr ""
+msgstr "{name} is tijdelijk __added__ naar de openbare test build"
 
 #: Extensions/Commands/Other/repl/__init__.py:41
 msgid "Run your own xyz codes.\n\n"
@@ -2365,16 +2408,33 @@ msgid "Run your own xyz codes.\n\n"
 "            -----------\n"
 "            code: str\n"
 "                the code input to execute"
-msgstr ""
+msgstr "Voer je eigen xyz-codes uit.\n\n"
+"            Een read-eval-print lus (REPL), ook een interactieve toplevel of taalshell, genoemd\n"
+"            neemt enkele gebruiker invoer, Hiermee wordt deze uitgevoerd en retourneert het resultaat terug naar de gebruiker.\n\n"
+"            Je kunt deze code simpelweg opgeven als argument en ook in aanhalingstekens (`).\n"
+"            Optioneel kun je gemeenschappelijke kenmerken zoals ctx, bot etc. gebruiken. in de code.\n\n"
+"            Milieu Variabelen:\n"
+"                ctx - commando aanroep context\n"
+"                bot - ShakeBot\n"
+"                kanaal - huidige kanaal\n"
+"                auteur - bericht van de auteur van het lid\n"
+"                - bericht van de auteur van het commando\n"
+"                __ref - Refereer als je\n"
+"                __last__    - variabelen van de laatste repl\n"
+"                __ - resultaat van het laatste antwoord.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            code: str\n"
+"                de code input om uit te voeren"
 
 #: Extensions/Commands/Other/restart/__init__.py:37
 msgid "Stops and starts the bot like in a regular Restart"
-msgstr ""
+msgstr "Stopt en start de bot zoals in een gewone herstart"
 
 #: Extensions/Commands/Other/restart/restart.py:15
 #: Extensions/Commands/Other/restart/testing.py:15
 msgid "Bot will restart now"
-msgstr ""
+msgstr "Poweramp gaat nu herstarten"
 
 #: Extensions/Commands/Other/sync/__init__.py:43
 msgid "synchronize the bot with its commands\n\n"
@@ -2390,101 +2450,113 @@ msgid "synchronize the bot with its commands\n\n"
 "                the spec\n\n"
 "            dump: Optional[bool]\n"
 "                if dump"
-msgstr ""
+msgstr "synchroniseer de bot met de commando's\n\n"
+"            De synchronisatie wordt gebruikt om de wijzigingen te herladen.\n"
+"            Synchroniseren wanneer . .\n"
+"            - ... ommands, argumenten of permissies zijn toegevoegd, verwijderd of gewijzigd\n"
+"            - ... global/server commando wordt een server/globale opdracht\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            gilden: Optioneel[strl]\n"
+"                the guilds\n\n"
+"            spec: Optioneel[literal[\"~\", \"*\", \"^\"]]\n"
+"                de spec\n\n"
+"            dump: Optional[bool]\n"
+"                if dump"
 
 #: Extensions/Commands/Other/sync/sync.py:53
 #: Extensions/Commands/Other/sync/testing.py:53
 #, python-brace-format
 msgid "{amount} Command*s to the current guild synchronized."
-msgstr ""
+msgstr "{amount} Command*s naar de huidige gilde gesynchroniseerd."
 
 #: Extensions/Commands/Other/sync/sync.py:55
 #: Extensions/Commands/Other/sync/testing.py:55
 #, python-brace-format
 msgid "{amount} Command*s globally synchronized."
-msgstr ""
+msgstr "{amount} Command*s wereldwijd gesynchroniseerd."
 
 #: Extensions/Functions/Commands/command/completion/command_completion.py:28
 #: Extensions/Functions/Commands/command/completion/testing.py:28
 #, python-brace-format
 msgid "{_}Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!{_}"
-msgstr ""
+msgstr "{_}plezier met Shake? Ik zou het leuk vinden als jij </vote:1056920829620924439> voor mij of **deel** me met je vrienden hebt!{_}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:45
 #: Extensions/Functions/Commands/command/error/testing.py:45
 #, python-brace-format
 msgid "I am missing [`{permissions}`](https://support.discord.com/hc/en-us/articles/206029707) permission(s) to run this command."
-msgstr ""
+msgstr "Ik mis de [`{permissions}`](https://support.discord.com/hc/en-us/articles/206029707) permissie(s) om dit commando uit te voeren."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:50
 #: Extensions/Functions/Commands/command/error/testing.py:50
 #, python-brace-format
 msgid "You typed in some bad arguments, try {command}"
-msgstr ""
+msgstr "Je hebt een aantal slechte argumenten ingetypt, probeer {command}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:65
 #: Extensions/Functions/Commands/command/error/testing.py:65
 #, python-brace-format
 msgid "You did something wrong with the arguments, try {command}"
-msgstr ""
+msgstr "Je hebt iets verkeerd gedaan met de argumenten, probeer {command}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:70
 #: Extensions/Functions/Commands/command/error/testing.py:70
 #, python-brace-format
 msgid "I cannot see the server `{argument}` because it does not exist or I am not a member of it."
-msgstr ""
+msgstr "Ik kan de server `{argument}` niet zien omdat deze niet bestaat of omdat ik er geen lid van ben."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:78
 #: Extensions/Functions/Commands/command/error/testing.py:78
 #, python-brace-format
 msgid "This type of entity does not exist: {original.text}"
-msgstr ""
+msgstr "Dit type entiteit bestaat niet: {original.text}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:83
 #: Extensions/Functions/Commands/command/error/testing.py:83
 msgid "Somehow, an unexpected error occurred. Try again later?"
-msgstr ""
+msgstr "Er is een onverwachte fout opgetreden. Probeer het later opnieuw?"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:87
 #: Extensions/Functions/Commands/command/error/testing.py:87
 #, python-brace-format
 msgid "You can use this command in {retry} seconds."
-msgstr ""
+msgstr "Je kunt dit commando gebruiken in {retry} seconden."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:93
 #: Extensions/Functions/Commands/command/error/testing.py:93
 #, python-brace-format
 msgid "Only the bot owner can run the command `{command}`."
-msgstr ""
+msgstr "Alleen de eigenaar van de bot kan het commando `{command} ` uitvoeren."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:98
 #: Extensions/Functions/Commands/command/error/testing.py:98
 #, python-brace-format
 msgid "You are missing `{permission}` permission(s) to run this command."
-msgstr ""
+msgstr "Je mist `{permission}` toestemming(en) om deze opdracht uit te voeren."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:103
 #: Extensions/Functions/Commands/command/error/testing.py:103
 msgid "Something wrong happened"
-msgstr ""
+msgstr "Er is iets fout gegaan"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:125
 #: Extensions/Functions/Commands/command/error/testing.py:125
 #, python-brace-format
 msgid "No command named `{invoked}` found. Use {help} for help."
-msgstr ""
+msgstr "Geen commando genaamd `{invoked}` gevonden. Gebruik {help} voor hulp."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:133
 #: Extensions/Functions/Commands/command/error/testing.py:133
 #, python-brace-format
 msgid "Nothing named `{invoked}` found. Did you mean {closest}?"
-msgstr ""
+msgstr "Niets genaamd `{invoked}` gevonden. Bedoelde je {closest}?"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:177
 #: Extensions/Functions/Commands/command/error/testing.py:177
 #, python-brace-format
 msgid "The {type} {error} was reported to the Shake-Team!"
-msgstr ""
+msgstr "De {type} {error} werd gemeld bij het Shake-Team!"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:182
 #: Extensions/Functions/Commands/command/error/testing.py:182
