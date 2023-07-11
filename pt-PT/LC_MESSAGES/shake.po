@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-10 19:59\n"
+"PO-Revision-Date: 2023-07-11 12:29\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "MIME-Version: 1.0\n"
@@ -939,44 +939,42 @@ msgstr ""
 msgid "What am I for?"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:876 Extensions/Commands/Help/testing.py:876
+#: Extensions/Commands/Help/help.py:875 Extensions/Commands/Help/testing.py:875
 #, python-brace-format
-msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
-"                    I have been created {created_at} & \n"
-"                    I have functions like voting, level system, music, moderation & much more. \n"
-"                    You can get more information by using the dropdown menu below.\n"
-"                    dropdown menu."
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n"
+"                    I have been created at {created_at} & I have functions like games, utilities, gimmicks & much more. \n"
+"                    You can get more information by using the dropdown menu below."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/help.py:892
-#: Extensions/Commands/Help/testing.py:888
-#: Extensions/Commands/Help/testing.py:892
+#: Extensions/Commands/Help/help.py:883 Extensions/Commands/Help/help.py:887
+#: Extensions/Commands/Help/testing.py:883
+#: Extensions/Commands/Help/testing.py:887
 msgid "argument"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:889 Extensions/Commands/Help/testing.py:889
+#: Extensions/Commands/Help/help.py:884 Extensions/Commands/Help/testing.py:884
 msgid "Stands for the argument being __**necessary**__."
 msgstr "Faz de conta que o argumento __**necessário**__."
 
-#: Extensions/Commands/Help/help.py:893 Extensions/Commands/Help/testing.py:893
+#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/testing.py:888
 msgid "Stands for that the argument is __**optional**__."
 msgstr "Para isso, o argumento é __**opcional**__."
 
-#: Extensions/Commands/Help/help.py:895 Extensions/Commands/Help/testing.py:895
+#: Extensions/Commands/Help/help.py:890 Extensions/Commands/Help/testing.py:890
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr "Os suporte para o argumento podem ser __**A ou B**__."
 
-#: Extensions/Commands/Help/help.py:900 Extensions/Commands/Help/testing.py:900
+#: Extensions/Commands/Help/help.py:895 Extensions/Commands/Help/testing.py:895
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                        Now that you know the basics, you should still know that...\n"
 "                        __**You don't include the parentheses!**__"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:910 Extensions/Commands/Help/testing.py:910
+#: Extensions/Commands/Help/help.py:905 Extensions/Commands/Help/testing.py:905
 msgid "How do I use the bot?"
 msgstr "Como eu uso o bot?"
 
-#: Extensions/Commands/Help/help.py:911 Extensions/Commands/Help/testing.py:911
+#: Extensions/Commands/Help/help.py:906 Extensions/Commands/Help/testing.py:906
 msgid "Reading the bot structure is pretty easy."
 msgstr "Ler a estrutura do bot é bem fácil."
 
