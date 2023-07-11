@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-11 12:34\n"
+"PO-Revision-Date: 2023-07-11 13:28\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
@@ -620,7 +620,7 @@ msgstr ""
 #: Extensions/Commands/Community/schedule/testing.py:99
 #: Extensions/Commands/Community/schedule/testing.py:135
 msgid "Repetition"
-msgstr ""
+msgstr "Ismétlés"
 
 #: Extensions/Commands/Community/schedule/testing.py:100
 #: Extensions/Commands/Community/schedule/testing.py:136
@@ -642,7 +642,7 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/count/count.py:12
 #: Extensions/Commands/Gimmicks/count/testing.py:12
 msgid "Start?"
-msgstr ""
+msgstr "Start?"
 
 #: Extensions/Commands/Gimmicks/count/count.py:22
 #: Extensions/Commands/Gimmicks/count/testing.py:22
@@ -654,12 +654,12 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:270
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "Yes"
-msgstr ""
+msgstr "Igen"
 
 #: Extensions/Commands/Gimmicks/count/count.py:31
 #: Extensions/Commands/Gimmicks/count/testing.py:31
 msgid "Have fun!"
-msgstr ""
+msgstr "Jó szórakozást!"
 
 #: Extensions/Commands/Gimmicks/countdown/__init__.py:33
 msgid "It's the final countdown"
@@ -668,17 +668,17 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "five"
-msgstr ""
+msgstr "öt"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "two"
-msgstr ""
+msgstr "kettő"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "one"
-msgstr ""
+msgstr "egy"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:13
 #: Extensions/Commands/Gimmicks/countdown/testing.py:13
@@ -930,7 +930,7 @@ msgstr ""
 
 #: Extensions/Commands/Help/help.py:862 Extensions/Commands/Help/testing.py:862
 msgid "Who am I?"
-msgstr ""
+msgstr "Ki vagyok?"
 
 #: Extensions/Commands/Help/help.py:865 Extensions/Commands/Help/testing.py:865
 #, python-brace-format
@@ -953,7 +953,7 @@ msgstr ""
 #: Extensions/Commands/Help/testing.py:883
 #: Extensions/Commands/Help/testing.py:887
 msgid "argument"
-msgstr ""
+msgstr "paraméter"
 
 #: Extensions/Commands/Help/help.py:884 Extensions/Commands/Help/testing.py:884
 msgid "Stands for the argument being __**necessary**__."
@@ -1029,7 +1029,7 @@ msgstr ""
 
 #: Extensions/Commands/Information/information.py:28
 msgid "Information"
-msgstr ""
+msgstr "Információ"
 
 #: Extensions/Commands/Information/invite/__init__.py:39
 msgid "Invite the bot to your server.\n\n"
@@ -1104,7 +1104,7 @@ msgstr ""
 #: Extensions/Commands/Information/ping/ping.py:60
 #: Extensions/Commands/Information/ping/testing.py:60
 msgid "Postgres Database"
-msgstr ""
+msgstr "Postgres adatbázis"
 
 #: Extensions/Commands/Information/ping/ping.py:64
 #: Extensions/Commands/Information/ping/testing.py:64
@@ -1114,7 +1114,7 @@ msgstr ""
 #: Extensions/Commands/Information/ping/ping.py:79
 #: Extensions/Commands/Information/ping/testing.py:79
 msgid "Discord Status"
-msgstr ""
+msgstr "Discord Státusz"
 
 #: Extensions/Commands/Information/plus/__init__.py:41
 msgid "Get information about Shake+.\n\n"
@@ -1191,7 +1191,7 @@ msgstr ""
 #: Extensions/Commands/Information/rtfm/rtfm.py:170
 #: Extensions/Commands/Information/rtfm/testing.py:170
 msgid "Total"
-msgstr ""
+msgstr "Összesen"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:181
 #: Extensions/Commands/Information/rtfm/testing.py:181
@@ -1242,7 +1242,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:63
 #: Extensions/Commands/Information/serverinfo/testing.py:63
 msgid "Forums"
-msgstr ""
+msgstr "Fórumok"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:64
 #: Extensions/Commands/Information/serverinfo/testing.py:64
@@ -1252,12 +1252,12 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:65
 #: Extensions/Commands/Information/serverinfo/testing.py:65
 msgid "Rules Channel"
-msgstr ""
+msgstr "Szabályzat csatorna"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:66
 #: Extensions/Commands/Information/serverinfo/testing.py:66
 msgid "Announcements"
-msgstr ""
+msgstr "Bejelentések"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:106
 #: Extensions/Commands/Information/serverinfo/testing.py:106
@@ -1286,14 +1286,14 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:171
 #: Extensions/Commands/Information/userinfo/userinfo.py:171
 msgid "Roles"
-msgstr ""
+msgstr "Rangok"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:162
 #: Extensions/Commands/Information/serverinfo/testing.py:162
 #: Extensions/Commands/Information/userinfo/testing.py:179
 #: Extensions/Commands/Information/userinfo/userinfo.py:179
 msgid "Server Roles"
-msgstr ""
+msgstr "Szerver Rangok"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:171
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:269
@@ -1306,7 +1306,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:188
 #: Extensions/Commands/Information/userinfo/userinfo.py:959
 msgid "Created"
-msgstr ""
+msgstr "Létrehozva"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:172
 #: Extensions/Commands/Information/serverinfo/testing.py:172
@@ -1371,27 +1371,27 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/testing.py:255
 #: Extensions/Commands/Information/serverinfo/testing.py:682
 msgid "Emojis"
-msgstr ""
+msgstr "Emojik"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:263
 #: Extensions/Commands/Information/serverinfo/testing.py:263
 msgid "Server Emojis"
-msgstr ""
+msgstr "Szerver emojik"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:270
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:270
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "No"
-msgstr ""
+msgstr "Nem"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:271
 #: Extensions/Commands/Information/serverinfo/testing.py:271
 msgid "Added"
-msgstr ""
+msgstr "Hozzáadva"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:284
 #: Extensions/Commands/Information/serverinfo/testing.py:284
@@ -1402,7 +1402,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:301
 #: Extensions/Commands/Information/serverinfo/testing.py:301
 msgid "Nitro Booster"
-msgstr ""
+msgstr "Nitro Gyorsítás"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:318
 #: Extensions/Commands/Information/serverinfo/testing.py:318
@@ -1418,7 +1418,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:348
 #: Extensions/Commands/Information/serverinfo/testing.py:348
 msgid "Channels"
-msgstr ""
+msgstr "Csatornák"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:368
 #: Extensions/Commands/Information/serverinfo/testing.py:368
@@ -1447,17 +1447,17 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/testing.py:417
 #: Extensions/Commands/Information/serverinfo/testing.py:671
 msgid "Members"
-msgstr ""
+msgstr "Tagok"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:426
 #: Extensions/Commands/Information/serverinfo/testing.py:426
 msgid "Server Members"
-msgstr ""
+msgstr "Szerver tagok"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:434
 #: Extensions/Commands/Information/serverinfo/testing.py:434
 msgid "Total Members"
-msgstr ""
+msgstr "Összes tag"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:437
 #: Extensions/Commands/Information/serverinfo/testing.py:437
@@ -1640,34 +1640,34 @@ msgstr ""
 #: Extensions/Commands/Information/stats/stats.py:96
 #: Extensions/Commands/Information/stats/testing.py:96
 msgid "Servers"
-msgstr ""
+msgstr "Szerverek"
 
 #: Extensions/Commands/Information/stats/stats.py:103
 #: Extensions/Commands/Information/stats/testing.py:103
 msgid "Users"
-msgstr ""
+msgstr "Felhasználók"
 
 #: Extensions/Commands/Information/stats/stats.py:110
 #: Extensions/Commands/Information/stats/stats.py:207
 #: Extensions/Commands/Information/stats/testing.py:110
 #: Extensions/Commands/Information/stats/testing.py:207
 msgid "Commands"
-msgstr ""
+msgstr "Parancsok"
 
 #: Extensions/Commands/Information/stats/stats.py:127
 #: Extensions/Commands/Information/stats/testing.py:127
 msgid "System"
-msgstr ""
+msgstr "Rendszer"
 
 #: Extensions/Commands/Information/stats/stats.py:136
 #: Extensions/Commands/Information/stats/testing.py:136
 msgid "System Info"
-msgstr ""
+msgstr "Rendszerinformáció"
 
 #: Extensions/Commands/Information/stats/stats.py:146
 #: Extensions/Commands/Information/stats/testing.py:146
 msgid "Python version"
-msgstr ""
+msgstr "Python verzió"
 
 #: Extensions/Commands/Information/stats/stats.py:153
 #: Extensions/Commands/Information/stats/testing.py:153
@@ -1677,12 +1677,12 @@ msgstr ""
 #: Extensions/Commands/Information/stats/stats.py:175
 #: Extensions/Commands/Information/stats/testing.py:175
 msgid "Memory Usage"
-msgstr ""
+msgstr "Memóriahasználat"
 
 #: Extensions/Commands/Information/stats/stats.py:182
 #: Extensions/Commands/Information/stats/testing.py:182
 msgid "CPU Usage"
-msgstr ""
+msgstr "Processzorhasználat"
 
 #: Extensions/Commands/Information/stats/stats.py:187
 #: Extensions/Commands/Information/stats/testing.py:187
@@ -2681,7 +2681,7 @@ msgstr ""
 
 #: Extensions/Functions/Messages/message/utils/systems.py:392
 msgid "remains"
-msgstr ""
+msgstr "fennmaradó"
 
 #: Extensions/Functions/Messages/message/utils/systems.py:398
 #, python-brace-format
@@ -2695,7 +2695,7 @@ msgstr ""
 
 #: Extensions/Functions/Scheduled/freegames/freegames.py:42
 msgid "Unknown"
-msgstr ""
+msgstr "Ismeretlen"
 
 #: Extensions/Functions/Scheduled/freegames/freegames.py:48
 msgid "Get free now"
@@ -2708,7 +2708,7 @@ msgstr ""
 
 #: Extensions/Functions/Scheduled/freegames/freegames.py:51
 msgid "Free"
-msgstr ""
+msgstr "Ingyenes"
 
 #: Extensions/Functions/Scheduled/freegames/freegames.py:59
 msgid "Or open directly in launcher"
@@ -2765,7 +2765,7 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:199
 msgid "unlimited"
-msgstr ""
+msgstr "korlátlan"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:213
 msgid "Select a Privacy Option"
@@ -2773,19 +2773,19 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:227
 msgid "unlocked"
-msgstr ""
+msgstr "feloldva"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:228
 msgid "locked"
-msgstr ""
+msgstr "zárolt"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:229
 msgid "invisible"
-msgstr ""
+msgstr "láthatatlan"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:230
 msgid "visible"
-msgstr ""
+msgstr "látható"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:271
 #, python-brace-format
@@ -2810,7 +2810,7 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:314
 msgid "Lock"
-msgstr ""
+msgstr "Zárolás"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:316
 msgid "Only trusted users will be able to join your voice channel"
@@ -2818,7 +2818,7 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:323
 msgid "Unlock"
-msgstr ""
+msgstr "Feloldás"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:325
 msgid "Everyone will be able to join your voice channel"
