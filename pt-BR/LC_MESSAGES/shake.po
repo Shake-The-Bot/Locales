@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-11 12:29\n"
+"PO-Revision-Date: 2023-07-11 18:16\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "Antes de continuar, você deve clicar no botão Configurar."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
@@ -30,11 +30,11 @@ msgstr ""
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
-msgstr ""
+msgstr "Começar"
 
 #: Classes/accessoires/menu.py:284
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Concluído"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a Category..."
@@ -50,7 +50,7 @@ msgstr "Escolha uma Categoria..."
 
 #: Classes/accessoires/select.py:98
 msgid "Back"
-msgstr ""
+msgstr "Voltar"
 
 #: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:342
 #: Extensions/Commands/Help/testing.py:342
@@ -91,27 +91,27 @@ msgstr ""
 #: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:920
 #: Extensions/Commands/Information/userinfo/userinfo.py:920
 msgid "streaming"
-msgstr ""
+msgstr "transmitindo"
 
 #: Classes/types.py:42
 msgid "listening"
-msgstr ""
+msgstr "ouvindo"
 
 #: Classes/types.py:43
 msgid "watching"
-msgstr ""
+msgstr "assistindo"
 
 #: Classes/types.py:44
 msgid "custom"
-msgstr ""
+msgstr "personalizado"
 
 #: Classes/types.py:45
 msgid "competing in"
-msgstr ""
+msgstr "competindo em"
 
 #: Classes/useful.py:102
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: Classes/useful.py:103
 msgid "and"
@@ -130,17 +130,19 @@ msgstr "[{name} (enviar um arquivo)]"
 #: Classes/useful.py:413
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (fazer upload de arquivos)]…"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "Faça comentários legais, engraçados e às vezes irritantes para o jogador acima de você! \n"
+"            O jogo do AcimaDeMim oferece muita alegria e cria momentos divertidos entre as pessoas!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with /aboveme info"
-msgstr ""
+msgstr "Configure todo o jogo AcimaDeMim em segundos\n"
+"            Obtenha mais informações sobre o jogo AcimaDeMim com {command}"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
@@ -155,7 +157,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "Criar um"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
@@ -323,7 +325,8 @@ msgstr ""
 #, python-brace-format
 msgid "Setup the whole Counting game in seconds\n"
 "            Get more information about the counting game with {command}"
-msgstr ""
+msgstr "Configure todo o jogo Contagem em segundos\n"
+"            Obtenha mais informações sobre o jogo Contagem com {command}"
 
 #: Extensions/Commands/Community/counting/__init__.py:114
 msgid "Everything you need to know about the Counting game"
@@ -405,7 +408,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr ""
+msgstr "Você pode voltar aqui na configuração para alterar as configurações."
 
 #: Extensions/Commands/Community/counting/counting.py:332
 #: Extensions/Commands/Community/counting/testing.py:332
@@ -489,7 +492,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:324
 #: Extensions/Commands/Community/oneword/testing.py:324
 msgid "How to setup the game?"
-msgstr ""
+msgstr "Como configurar o jogo?"
 
 #: Extensions/Commands/Community/counting/counting.py:574
 #: Extensions/Commands/Community/counting/testing.py:574
@@ -497,7 +500,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:326
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
-msgstr ""
+msgstr "Comece usando o comando {command} para criar e configurar o canal principal"
 
 #: Extensions/Commands/Community/counting/counting.py:579
 #: Extensions/Commands/Community/counting/testing.py:579
@@ -548,7 +551,8 @@ msgstr ""
 #, python-brace-format
 msgid "Setup the whole OneWord game in seconds\n"
 "            Get more information about the OneWord game with {command}"
-msgstr ""
+msgstr "Configure todo o jogo UmaPalavra em segundos\n"
+"            Obtenha mais informações sobre o jogo UmaPalavra com {command}"
 
 #: Extensions/Commands/Community/oneword/__init__.py:76
 msgid "Everything you need to know about the OneWord game"
