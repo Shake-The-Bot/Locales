@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-10 19:59\n"
+"PO-Revision-Date: 2023-07-11 12:29\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
@@ -22,71 +22,71 @@ msgstr ""
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "A folytatás előtt kattints a Beállítás gombra."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "A ShakeMenu törölve lett inaktivitás miatt"
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: Classes/accessoires/menu.py:284
 msgid "Cancel"
-msgstr ""
+msgstr "Mégse"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "A ShakeMenu törölve lett"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Kész"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a Category..."
-msgstr ""
+msgstr "Válassz egy kategóriát..."
 
 #: Classes/accessoires/select.py:98
 msgid "Back"
-msgstr ""
+msgstr "Vissza"
 
 #: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:342
 #: Extensions/Commands/Help/testing.py:342
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Ez a kategória vagy nem létezik, vagy nem rendelkezik az ön számára tétellel."
 
 #: Classes/accessoires/source.py:249
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "A menüből való kilépéshez erősítse meg a választását."
 
 #: Classes/converter.py:94
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr ""
+msgstr "`{duration}` nem érvényes időtartamú karakterlánc."
 
 #: Classes/converter.py:124
 msgid "Regex pattern missing wrapping backticks"
-msgstr ""
+msgstr "Regex mintából hiányoznak a csomagoló hátlapok"
 
 #: Classes/converter.py:128
 #, python-brace-format
 msgid "Regex error: {e_msg}"
-msgstr ""
+msgstr "Regex hiba: {e_msg}"
 
 #: Classes/helpful.py:631
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "{user} kérte • Shake-n keresztül"
 
 #: Classes/types.py:39
 msgid "unknown"
-msgstr ""
+msgstr "ismeretlen"
 
 #: Classes/types.py:40
 msgid "playing"
-msgstr ""
+msgstr "játszik"
 
 #: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:920
 #: Extensions/Commands/Information/userinfo/userinfo.py:920
@@ -95,58 +95,60 @@ msgstr ""
 
 #: Classes/types.py:42
 msgid "listening"
-msgstr ""
+msgstr "hallgat"
 
 #: Classes/types.py:43
 msgid "watching"
-msgstr ""
+msgstr "néz"
 
 #: Classes/types.py:44
 msgid "custom"
-msgstr ""
+msgstr "egyedi"
 
 #: Classes/types.py:45
 msgid "competing in"
-msgstr ""
+msgstr "versenyben"
 
 #: Classes/useful.py:102
 msgid "or"
-msgstr ""
+msgstr "vagy"
 
 #: Classes/useful.py:103
 msgid "and"
-msgstr ""
+msgstr "és"
 
 #: Classes/useful.py:405
 #, python-brace-format
 msgid "[{name} (upload a file)]"
-msgstr ""
+msgstr "[{name} (tölts fel egy fájlt)]"
 
 #: Classes/useful.py:411
 #, python-brace-format
 msgid "<{name} (upload a file)>"
-msgstr ""
+msgstr "<{name} (tölts fel egy fájlt)>"
 
 #: Classes/useful.py:413
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (tölts fel fájlokat)]…"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "Dobj kedves, vicces és néha idegesítő megjegyzéseket a feletted lévő felhasználónak!\n"
+"            Az AboveMe játék rengeteg szórakozást kínál, és szórakoztató pillanatokat teremt egymás között!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with /aboveme info"
-msgstr ""
+msgstr "Állítsa be az egész AboveMe játékot másodpercek alatt\n"
+"            További információ az AboveMe játékról /aboveme info segítségével"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "Tekintse meg a legnépszerűbb Counting felhasználókat és szervereket"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
@@ -155,12 +157,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "Hozz létre egyet"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
 msgid "AboveMe channel"
-msgstr ""
+msgstr "AboveMe csatorna"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
@@ -169,7 +171,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "Válaszd ki, hogy melyik szöveges csatornán legyen ez a játék!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -178,7 +180,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "Beállíthat egy meglévő szöveges csatornát a szerveréről."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
@@ -187,7 +189,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:97
 #: Extensions/Commands/Community/oneword/testing.py:97
 msgid "Alternatively, you have the option to have a new text channel created for it."
-msgstr ""
+msgstr "Alternatív megoldásként lehetőség van új szöveges csatorna létrehozására is."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:101
 #: Extensions/Commands/Community/aboveme/aboveme.py:159
@@ -208,12 +210,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:103
 #: Extensions/Commands/Community/oneword/testing.py:161
 msgid "You can go back here in the setup to change settings.."
-msgstr ""
+msgstr "Visszatérhet ide a beállításnál a beállítások módosításához.."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "AboveMe bot reakciói"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:148
 #: Extensions/Commands/Community/aboveme/testing.py:148
@@ -222,7 +224,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "Döntse el, hogy reagálhatok-e a bejegyzésekre a játékban"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:152
 #: Extensions/Commands/Community/aboveme/testing.py:152
@@ -231,7 +233,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:154
 #: Extensions/Commands/Community/oneword/testing.py:154
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "Engedélyezheti nekem a reakciókat, hogy a felhasználók közvetlenül tudják, hogy a bejegyzéseket helyesnek fogadják-e el."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
@@ -240,7 +242,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny me reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "Meg is tagadhatja tőlem a reakciókat, hogy elnyomja a reakciók spamjét."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -249,7 +251,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:223
 #: Extensions/Commands/Community/oneword/testing.py:223
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "AKTUÁLIS SZERVER PONTJAI"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:225
 #: Extensions/Commands/Community/aboveme/testing.py:225
@@ -258,7 +260,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:225
 #: Extensions/Commands/Community/oneword/testing.py:225
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "JELENLEGI FELHASZNÁLÓI PONTOK"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:264
 #: Extensions/Commands/Community/aboveme/testing.py:264
@@ -939,44 +941,42 @@ msgstr ""
 msgid "What am I for?"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:876 Extensions/Commands/Help/testing.py:876
+#: Extensions/Commands/Help/help.py:875 Extensions/Commands/Help/testing.py:875
 #, python-brace-format
-msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n\n"
-"                    I have been created {created_at} & \n"
-"                    I have functions like voting, level system, music, moderation & much more. \n"
-"                    You can get more information by using the dropdown menu below.\n"
-"                    dropdown menu."
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n"
+"                    I have been created at {created_at} & I have functions like games, utilities, gimmicks & much more. \n"
+"                    You can get more information by using the dropdown menu below."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/help.py:892
-#: Extensions/Commands/Help/testing.py:888
-#: Extensions/Commands/Help/testing.py:892
+#: Extensions/Commands/Help/help.py:883 Extensions/Commands/Help/help.py:887
+#: Extensions/Commands/Help/testing.py:883
+#: Extensions/Commands/Help/testing.py:887
 msgid "argument"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:889 Extensions/Commands/Help/testing.py:889
+#: Extensions/Commands/Help/help.py:884 Extensions/Commands/Help/testing.py:884
 msgid "Stands for the argument being __**necessary**__."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:893 Extensions/Commands/Help/testing.py:893
+#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/testing.py:888
 msgid "Stands for that the argument is __**optional**__."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:895 Extensions/Commands/Help/testing.py:895
+#: Extensions/Commands/Help/help.py:890 Extensions/Commands/Help/testing.py:890
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:900 Extensions/Commands/Help/testing.py:900
+#: Extensions/Commands/Help/help.py:895 Extensions/Commands/Help/testing.py:895
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                        Now that you know the basics, you should still know that...\n"
 "                        __**You don't include the parentheses!**__"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:910 Extensions/Commands/Help/testing.py:910
+#: Extensions/Commands/Help/help.py:905 Extensions/Commands/Help/testing.py:905
 msgid "How do I use the bot?"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:911 Extensions/Commands/Help/testing.py:911
+#: Extensions/Commands/Help/help.py:906 Extensions/Commands/Help/testing.py:906
 msgid "Reading the bot structure is pretty easy."
 msgstr ""
 
