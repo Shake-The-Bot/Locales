@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 12:47\n"
+"PO-Revision-Date: 2023-07-12 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -26,23 +26,23 @@ msgstr "Przed kontynuacją musisz kliknąć przycisk Ustawienia."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "ShakeMenu zostało anulowane z powodu nieaktywności"
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: Classes/accessoires/menu.py:284
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "ShakeMenu zostało anulowane"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Gotowe"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a Category..."
@@ -55,11 +55,11 @@ msgstr "Powrót"
 #: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:340
 #: Extensions/Commands/Help/testing.py:340
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Ta kategoria nie istnieje lub nie ma żadnych przedmiotów dla Ciebie."
 
 #: Classes/accessoires/source.py:249
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "Potwierdź wybór aby wyjść z menu."
 
 #: Classes/converter.py:94
 #, python-brace-format
@@ -78,7 +78,7 @@ msgstr "Błąd Regex: {e_msg}"
 #: Classes/helpful.py:629
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "Żądane przez {user} • via Shake"
 
 #: Classes/useful.py:102
 msgid "or"
@@ -101,24 +101,26 @@ msgstr "[{name} (wgraj plik)]"
 #: Classes/useful.py:413
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (pliki przesyłania)]…"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "Rzuć miłe, zabawne i czasami irytujące komentarze dla użytkownika powyżej Ciebie! \n"
+"            Gra AboveMe oferuje wiele zabawy i tworzy między sobą momenty rozrywające!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr ""
+msgstr "Skonfiguruj całą grę AboveMe w sekundach\n"
+"            Uzyskaj więcej informacji o grze {command}"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "Zobacz najlepszych użytkowników i serwerów"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
@@ -141,7 +143,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "Wybierz, w jakim kanale tekstowym powinna odbyć się ta gra!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -150,7 +152,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "Możesz skonfigurować istniejący kanał tekstowy ze swojego serwera..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
