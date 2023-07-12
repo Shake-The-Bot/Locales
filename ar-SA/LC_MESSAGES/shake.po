@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 16:13\n"
+"PO-Revision-Date: 2023-07-12 17:32\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "قبل المتابعة، يجب عليك النقر على زر الإ�
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr "تم إلغاء قائمة الهزاز بسبب عدم النشاط."
+msgstr "تم إلغاء قائمة شيك بسبب عدم النشاط."
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
@@ -38,7 +38,7 @@ msgstr "إلغاء"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
-msgstr "تم إلغاء قائمة الShakeMenu."
+msgstr "تم إلغاء قائمة شيك"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
@@ -59,7 +59,7 @@ msgstr "هذا الفئة إما غير موجودة أو ليس لديها عن
 
 #: Classes/accessoires/source.py:249
 msgid "Please confirm your selection to exit the menu."
-msgstr "يرجى تأكيد اختيارك للخروج من القائمة.."
+msgstr "يرجى تأكيد اختيارك للخروج من القائمة."
 
 #: Classes/converter.py:94
 #, python-brace-format
@@ -78,15 +78,15 @@ msgstr "خطأ Regex: {e_msg}"
 #: Classes/helpful.py:629
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "طلب من {user} • عن طريق شيك"
 
 #: Classes/useful.py:102
 msgid "or"
-msgstr ""
+msgstr "أو"
 
 #: Classes/useful.py:103
 msgid "and"
-msgstr ""
+msgstr "و"
 
 #: Classes/useful.py:405
 #, python-brace-format
@@ -101,24 +101,26 @@ msgstr "[{name} (تحميل ملف)]"
 #: Classes/useful.py:413
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (تحميل ملف)]..."
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "ارمِ التعليقات اللطيفة والمضحكة والمزعجة أحيانًا للمستخدم الذي فوقك! \n"
+"            تقدم لعبة فوقي الكثير من المرح وتخلق لحظات مسلية بين بعضها البعض!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr ""
+msgstr "قم بإعداد لعبة فوقي بأكملها في ثوانٍ\n"
+"            احصل على مزيد من المعلومات حول لعبة فوقي باستخدام {command}"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "عرض أفضل مستخدمي وخوادم لعبة العد"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
@@ -127,12 +129,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "قم بإنشاء واحدة"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
 msgid "AboveMe channel"
-msgstr ""
+msgstr "قناة فوقي"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
@@ -141,7 +143,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "اختر في أي قناة نصية يجب أن تكون هذه اللعبة!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -150,7 +152,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "يمكنك إعداد قناة نصية موجودة من الخادم الخاص بك."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
@@ -159,7 +161,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:97
 #: Extensions/Commands/Community/oneword/testing.py:97
 msgid "Alternatively, you have the option to have a new text channel created for it."
-msgstr ""
+msgstr "بدلاً من ذلك ، لديك خيار إنشاء قناة نصية جديدة لها."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:101
 #: Extensions/Commands/Community/aboveme/aboveme.py:159
@@ -180,12 +182,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:103
 #: Extensions/Commands/Community/oneword/testing.py:161
 msgid "You can go back here in the setup to change settings.."
-msgstr ""
+msgstr "يمكنك العودة هنا في الإعداد لتغيير الإعدادات .."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "ردود فعل بوت لعبة فوقي"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:148
 #: Extensions/Commands/Community/aboveme/testing.py:148
@@ -194,7 +196,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "قرر ما إذا كان مسموحًا لي بالرد على المشاركات في اللعبة"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:152
 #: Extensions/Commands/Community/aboveme/testing.py:152
@@ -203,7 +205,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:154
 #: Extensions/Commands/Community/oneword/testing.py:154
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "يمكنك السماح لي بردود الفعل حتى يعرف المستخدمون بشكل مباشر ما إذا كانت المشاركات مقبولة على أنها صحيحة."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
@@ -212,7 +214,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny me reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "يمكنك أيضًا رفض ردود أفعالي لقمع ردود الفعل الغير مرغوب فيها."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -221,7 +223,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:223
 #: Extensions/Commands/Community/oneword/testing.py:223
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "درجات الخادم الحالية"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:225
 #: Extensions/Commands/Community/aboveme/testing.py:225
@@ -230,7 +232,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:225
 #: Extensions/Commands/Community/oneword/testing.py:225
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "درجات المستخدم الحالية"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:264
 #: Extensions/Commands/Community/aboveme/testing.py:264
@@ -239,7 +241,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:262
 #: Extensions/Commands/Community/oneword/testing.py:262
 msgid "I could not create a TextChannel. Aborting..."
-msgstr ""
+msgstr "لم أتمكن من إنشاء قناة نصية. محبط ..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:276
 #: Extensions/Commands/Community/aboveme/testing.py:276
@@ -248,7 +250,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:274
 #: Extensions/Commands/Community/oneword/testing.py:274
 msgid "I could not edit the TextChannel! Aborting..."
-msgstr ""
+msgstr "لم أستطع تعديل القناة النصية! محبط ..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:288
 #: Extensions/Commands/Community/aboveme/testing.py:288
@@ -258,7 +260,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:286
 #, python-brace-format
 msgid "In {channel} is already a Counting game set up. Aborting..."
-msgstr ""
+msgstr "في {channel} هناك بالفعل لعبة العد تم إعدادها. محبط ..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:299
 #: Extensions/Commands/Community/aboveme/testing.py:299
@@ -268,7 +270,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
 msgid "{game} is successfully set up in {channel}!"
-msgstr ""
+msgstr "تم إعداد {game} بنجاح في {channel}!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:303
 #: Extensions/Commands/Community/aboveme/testing.py:303
@@ -277,19 +279,19 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: you can freely edit the text channel now"
-msgstr ""
+msgstr "ملاحظة: يمكنك تعديل القناة النصية بحرية الآن"
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
-msgstr ""
+msgstr "أوامر لميزات المجتمع التي أقدمها"
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
-msgstr ""
+msgstr "ميزات"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
-msgstr ""
+msgstr "ابدأ بالرقم 1 ولا تتوقف عن العد مرة أخرى!"
 
 #: Extensions/Commands/Community/counting/__init__.py:58
 #, python-brace-format
@@ -308,12 +310,12 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:116
 #: Extensions/Commands/Community/counting/testing.py:116
 msgid "Counting channel"
-msgstr ""
+msgstr "قناة العد"
 
 #: Extensions/Commands/Community/counting/counting.py:169
 #: Extensions/Commands/Community/counting/testing.py:169
 msgid "Counting direction"
-msgstr ""
+msgstr "اتجاه العد"
 
 #: Extensions/Commands/Community/counting/counting.py:170
 #: Extensions/Commands/Community/counting/testing.py:170
@@ -335,7 +337,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr ""
+msgstr "قواعد العد"
 
 #: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
@@ -356,7 +358,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
-msgstr ""
+msgstr "طرق العد"
 
 #: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
@@ -407,7 +409,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:532
 #: Extensions/Commands/Community/counting/testing.py:532
 msgid "Welcome to „Counting“"
-msgstr ""
+msgstr "مرحبا بكم في \"العد\""
 
 #: Extensions/Commands/Community/counting/counting.py:534
 #: Extensions/Commands/Community/counting/testing.py:534
@@ -454,14 +456,14 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:566
 #: Extensions/Commands/Community/counting/testing.py:566
 msgid "The rules are simple"
-msgstr ""
+msgstr "القواعد بسيطة"
 
 #: Extensions/Commands/Community/counting/counting.py:572
 #: Extensions/Commands/Community/counting/testing.py:572
 #: Extensions/Commands/Community/oneword/oneword.py:324
 #: Extensions/Commands/Community/oneword/testing.py:324
 msgid "How to setup the game?"
-msgstr ""
+msgstr "كيفية إعداد اللعبة؟"
 
 #: Extensions/Commands/Community/counting/counting.py:574
 #: Extensions/Commands/Community/counting/testing.py:574
@@ -476,7 +478,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:349
 #: Extensions/Commands/Community/oneword/testing.py:349
 msgid "How to configure the game?"
-msgstr ""
+msgstr "كيفية ضبط اللعبة؟"
 
 #: Extensions/Commands/Community/counting/counting.py:581
 #: Extensions/Commands/Community/counting/testing.py:581
@@ -529,7 +531,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:92
 #: Extensions/Commands/Community/oneword/testing.py:92
 msgid "OneWord channel"
-msgstr ""
+msgstr "قناة كلمة واحدة"
 
 #: Extensions/Commands/Community/oneword/oneword.py:149
 #: Extensions/Commands/Community/oneword/testing.py:149
@@ -539,27 +541,27 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:315
 #: Extensions/Commands/Community/oneword/testing.py:315
 msgid "Welcome to „OneWord“"
-msgstr ""
+msgstr "مرحبا بكم في \"كلمة واحدة\""
 
 #: Extensions/Commands/Community/oneword/oneword.py:318
 #: Extensions/Commands/Community/oneword/testing.py:318
 msgid "Thanks for your interest in the game in this awesome place!"
-msgstr ""
+msgstr "شكرا لاهتمامك باللعبة في هذا المكان الرائع!"
 
 #: Extensions/Commands/Community/oneword/oneword.py:331
 #: Extensions/Commands/Community/oneword/testing.py:331
 msgid "How to use the game?"
-msgstr ""
+msgstr "كيف تستخدم اللعبة؟"
 
 #: Extensions/Commands/Community/oneword/oneword.py:333
 #: Extensions/Commands/Community/oneword/testing.py:333
 msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance"
-msgstr ""
+msgstr "تدور هذه اللعبة حول الكلمات ، والتي يتم نشرها واحدة تلو الأخرى في الدردشة لإنشاء جملة إبداعية"
 
 #: Extensions/Commands/Community/oneword/oneword.py:338
 #: Extensions/Commands/Community/oneword/testing.py:338
 msgid "One person can't post words in a row (others are required)."
-msgstr ""
+msgstr "لا يستطيع شخص واحد نشر كلمات متتالية (هناك حاجة إلى الآخرين)."
 
 #: Extensions/Commands/Community/oneword/oneword.py:339
 #: Extensions/Commands/Community/oneword/testing.py:339
@@ -623,7 +625,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:270
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "Yes"
-msgstr ""
+msgstr "نعم"
 
 #: Extensions/Commands/Gimmicks/count/count.py:31
 #: Extensions/Commands/Gimmicks/count/testing.py:31
@@ -637,23 +639,23 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "five"
-msgstr ""
+msgstr "خمسة"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "two"
-msgstr ""
+msgstr "اثنان"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "one"
-msgstr ""
+msgstr "واحد"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:13
 #: Extensions/Commands/Gimmicks/countdown/testing.py:13
 #, python-brace-format
 msgid "{__} Lets start this {__}"
-msgstr ""
+msgstr "{__} لنبدأ هذا {__}"
 
 #: Extensions/Commands/Gimmicks/everyone/__init__.py:34
 msgid "Remind others how bad @everyone actually is\n\n"
@@ -677,7 +679,7 @@ msgstr ""
 
 #: Extensions/Commands/Gimmicks/gimmicks.py:20
 msgid "Gimmicks"
-msgstr ""
+msgstr "الحيل"
 
 #: Extensions/Commands/Gimmicks/meme/__init__.py:37
 msgid "Get the latest funny memes of reddit\n\n"
@@ -692,7 +694,7 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/meme/testing.py:30
 #, python-brace-format
 msgid "„{title}“ by {author}"
-msgstr ""
+msgstr "„{title}“ بواسطة {author}"
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:36
 #: Extensions/Commands/Gimmicks/meme/testing.py:36
@@ -2692,7 +2694,7 @@ msgstr ""
 
 #: Extensions/Functions/Scheduled/freegames/freegames.py:51
 msgid "Free"
-msgstr ""
+msgstr "مجاناً"
 
 #: Extensions/Functions/Scheduled/freegames/freegames.py:59
 msgid "Or open directly in launcher"
@@ -2757,19 +2759,19 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:227
 msgid "unlocked"
-msgstr ""
+msgstr "مفتوح"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:228
 msgid "locked"
-msgstr ""
+msgstr "مقفل"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:229
 msgid "invisible"
-msgstr ""
+msgstr "مخفي"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:230
 msgid "visible"
-msgstr ""
+msgstr "مرئي"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:271
 #, python-brace-format
@@ -2778,19 +2780,19 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:294
 msgid "Invisible"
-msgstr ""
+msgstr "مخفي"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:296
 msgid "Everyone will be able to view your voice channel"
-msgstr ""
+msgstr "سيتمكن الجميع من مشاهدة قناتك الصوتية"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:303
 msgid "Visible"
-msgstr ""
+msgstr "مرئي"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:305
 msgid "Only trusted users will be able to view your voice channel"
-msgstr ""
+msgstr "سيتمكن المستخدمون الموثوق بهم فقط من عرض قناتك الصوتية"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:314
 msgid "Lock"
@@ -2927,7 +2929,7 @@ msgstr ""
 
 #: Testing/tempvoice/tempvoice.py:75 Testing/tempvoice/testing.py:75
 msgid "︱interface"
-msgstr ""
+msgstr "︱الواجهة"
 
 #: Testing/tempvoice/tempvoice.py:102 Testing/tempvoice/testing.py:102
 msgid "TempVoice Interface"
@@ -2941,7 +2943,7 @@ msgstr ""
 
 #: Testing/tempvoice/tempvoice.py:135 Testing/tempvoice/testing.py:135
 msgid "Support"
-msgstr ""
+msgstr "دعم"
 
 #~ msgid "ID:"
 #~ msgstr "ID:"
