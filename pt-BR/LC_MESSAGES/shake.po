@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 12:30\n"
+"PO-Revision-Date: 2023-07-12 12:47\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -2819,7 +2819,7 @@ msgstr "Desbloquear"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:325
 msgid "Everyone will be able to join your voice channel"
-msgstr "Todos poderão ver o seu canal de voz"
+msgstr "Todos poderão entrar no seu canal de voz"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:341
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:439
@@ -2834,7 +2834,7 @@ msgstr "{emoji} Use este menu para selecionar uma opção:"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:369
 msgid "Selected user will own your tempvoice channel!"
-msgstr "O usuário selecionado possuirá seu canal de voz temply!"
+msgstr "O usuário selecionado será dono do seu canal de voz temporário!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:388
 #, python-brace-format
@@ -2895,21 +2895,21 @@ msgstr "{emoji} **Atualizado!** O {user} é agora ` dono ` do seu canal temporá
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:762
 msgid "Selected users will be untrusted from joining!"
-msgstr "Os usuários selecionados serão confiáveis para entrar!"
+msgstr "Os usuários selecionados serão não confiados para entrar!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:808
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` untrusted ` of your temporary {channel} channel!"
-msgstr "{emoji} **Atualizado!** O {user} é agora ` dono ` do seu canal temporário de {channel}!"
+msgstr "{emoji} **Atualizado!** Os usuários selecionados agora são ` não confiados ` no seu canal temporário de {channel}!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:838
 msgid "Selected users will be unblocked from joining!"
-msgstr "Os usuários selecionados serão confiáveis para entrar!"
+msgstr "Os usuários selecionados serão desbloqueados para entrar!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:884
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` unblocked ` of your temporary {channel} channel!"
-msgstr "{emoji} **Atualizado!** O {user} é agora ` dono ` do seu canal temporário de {channel}!"
+msgstr "{emoji} **Atualizado!** Os usuários selecionados agora estão ` desbloqueados ` do seu canal temporário de {channel}!"
 
 #: Testing/tempvoice/__init__.py:35
 msgid "Manage the tempvoice features of Shake"
