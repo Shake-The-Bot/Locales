@@ -74,35 +74,6 @@ msgstr ""
 msgid "Requested by {user} • via Shake"
 msgstr ""
 
-#: Classes/types.py:39
-msgid "unknown"
-msgstr ""
-
-#: Classes/types.py:40
-msgid "playing"
-msgstr ""
-
-#: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:920
-#: Extensions/Commands/Information/userinfo/userinfo.py:920
-msgid "streaming"
-msgstr ""
-
-#: Classes/types.py:42
-msgid "listening"
-msgstr ""
-
-#: Classes/types.py:43
-msgid "watching"
-msgstr ""
-
-#: Classes/types.py:44
-msgid "custom"
-msgstr ""
-
-#: Classes/types.py:45
-msgid "competing in"
-msgstr ""
-
 #: Classes/useful.py:102
 msgid "or"
 msgstr ""
@@ -134,9 +105,10 @@ msgid ""
 msgstr ""
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
+#, python-brace-format
 msgid ""
 "Setup the whole AboveMe game in seconds\n"
-"            Get more information about the aboveme game with /aboveme info"
+"            Get more information about the aboveme game with {command}"
 msgstr ""
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
@@ -2044,6 +2016,11 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:919
 #: Extensions/Commands/Information/userinfo/userinfo.py:919
 msgid "offline"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:920
+#: Extensions/Commands/Information/userinfo/userinfo.py:920
+msgid "streaming"
 msgstr ""
 
 #: Extensions/Commands/Information/userinfo/testing.py:921
