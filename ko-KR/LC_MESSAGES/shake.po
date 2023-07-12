@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 12:30\n"
+"PO-Revision-Date: 2023-07-12 12:47\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -64,61 +64,63 @@ msgstr "메뉴를 나가기 위해 당신의 선택을 확인하십시오."
 #: Classes/converter.py:94
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr ""
+msgstr "'{duration}' 은 유효한 지속 시간 문자열이 아닙니다."
 
 #: Classes/converter.py:124
 msgid "Regex pattern missing wrapping backticks"
-msgstr ""
+msgstr "정규 표현식을 마치는 역따옴표가 없음"
 
 #: Classes/converter.py:128
 #, python-brace-format
 msgid "Regex error: {e_msg}"
-msgstr ""
+msgstr "정규 표현식 오류: {e_msg}"
 
 #: Classes/helpful.py:629
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "{user} 에 의해 요청됨 • 셰이크를 통해"
 
 #: Classes/useful.py:102
 msgid "or"
-msgstr ""
+msgstr "또는"
 
 #: Classes/useful.py:103
 msgid "and"
-msgstr ""
+msgstr "그리고"
 
 #: Classes/useful.py:405
 #, python-brace-format
 msgid "[{name} (upload a file)]"
-msgstr ""
+msgstr "[{name} (파일을 업로드)]"
 
 #: Classes/useful.py:411
 #, python-brace-format
 msgid "<{name} (upload a file)>"
-msgstr ""
+msgstr "<{name} (파일을 업로드)>"
 
 #: Classes/useful.py:413
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (파일을 업로드)]…"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "당신 위의 사용자에게 친절하고, 재밌고, 가끔씩 짜증나는 말들을 해주세요! \n"
+"            AboveMe 는 많은 재미를 제공하고 각자에게 즐거운 순간들을 만들어줍니다!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr ""
+msgstr "몇 초 내로 모든 AboveMe 게임을 준비 중\n"
+"            AboveMe 게임에 대한 정보를 {command} 를 통해 알아보세요"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "상위 유저와 서버 보기"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
@@ -127,12 +129,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "만들기"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
 msgid "AboveMe channel"
-msgstr ""
+msgstr "AboveMe 채널"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
@@ -1471,32 +1473,32 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:477
 #: Extensions/Commands/Information/serverinfo/testing.py:477
 msgid "Total DND"
-msgstr ""
+msgstr "방해 금지인 총 인원"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:482
 #: Extensions/Commands/Information/serverinfo/testing.py:482
 msgid "Humans DND"
-msgstr ""
+msgstr "방해 금지인 모든 사람"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:487
 #: Extensions/Commands/Information/serverinfo/testing.py:487
 msgid "Bots DND"
-msgstr ""
+msgstr "방해 금지인 모든 봇"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:492
 #: Extensions/Commands/Information/serverinfo/testing.py:492
 msgid "Total Offline"
-msgstr ""
+msgstr "오프라인인 총 인원"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:497
 #: Extensions/Commands/Information/serverinfo/testing.py:497
 msgid "Humans Offline"
-msgstr ""
+msgstr "오프라인인 모든 사람"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:502
 #: Extensions/Commands/Information/serverinfo/testing.py:502
 msgid "Bots Offline"
-msgstr ""
+msgstr "오프라인인 모든 봇"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:533
 #: Extensions/Commands/Information/serverinfo/testing.py:533
@@ -1505,24 +1507,24 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:405
 #: Extensions/Commands/Information/userinfo/userinfo.py:963
 msgid "Badges"
-msgstr ""
+msgstr "배지"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:539
 #: Extensions/Commands/Information/serverinfo/testing.py:539
 msgid "Server Member Badges"
-msgstr ""
+msgstr "서버 멤버 배지"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:583
 #: Extensions/Commands/Information/serverinfo/testing.py:583
 #: Extensions/Commands/Information/userinfo/testing.py:826
 #: Extensions/Commands/Information/userinfo/userinfo.py:826
 msgid "Activities"
-msgstr ""
+msgstr "활동"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:593
 #: Extensions/Commands/Information/serverinfo/testing.py:593
 msgid "Server Activities"
-msgstr ""
+msgstr "서버 활동"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:607
 #: Extensions/Commands/Information/serverinfo/testing.py:607
