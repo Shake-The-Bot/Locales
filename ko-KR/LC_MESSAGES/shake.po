@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 12:47\n"
+"PO-Revision-Date: 2023-07-12 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
 msgid "Before continuing you must click on the Setup button."
-msgstr "진행하기 전에 준비 버튼을 눌러야 합니다."
+msgstr "진행하기 전에 설정 버튼을 눌러야 합니다."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
@@ -107,20 +107,20 @@ msgstr "[{name} (파일을 업로드)]…"
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
 msgstr "당신 위의 사용자에게 친절하고, 재밌고, 가끔씩 짜증나는 말들을 해주세요! \n"
-"            AboveMe 는 많은 재미를 제공하고 각자에게 즐거운 순간들을 만들어줍니다!"
+"            내위에 게임은 많은 재미를 제공하고 각자에게 즐거운 순간들을 만들어줍니다!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr "몇 초 내로 모든 AboveMe 게임을 준비 중\n"
-"            AboveMe 게임에 대한 정보를 {command} 를 통해 알아보세요"
+msgstr "몇 초 내로 모든 내위에 게임을 준비 중\n"
+"            내위에 게임에 대한 정보를 {command} 를 통해 알아보세요"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr "상위 유저와 서버 보기"
+msgstr "상위 카운팅 유저와 서버 보기"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
@@ -134,7 +134,7 @@ msgstr "만들기"
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
 msgid "AboveMe channel"
-msgstr "AboveMe 채널"
+msgstr "내위에 게임 채널"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
@@ -143,7 +143,7 @@ msgstr "AboveMe 채널"
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "어떤 채팅 채널에서 게임을 진행할지 고르세요!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -152,7 +152,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "당신은 서버의 채팅 채널에서 설정할 수 있습니다."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
@@ -161,7 +161,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:97
 #: Extensions/Commands/Community/oneword/testing.py:97
 msgid "Alternatively, you have the option to have a new text channel created for it."
-msgstr ""
+msgstr "대신, 당신은 그것을 위한 새로운 채팅 채널을 만들 수 있습니다."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:101
 #: Extensions/Commands/Community/aboveme/aboveme.py:159
@@ -182,12 +182,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:103
 #: Extensions/Commands/Community/oneword/testing.py:161
 msgid "You can go back here in the setup to change settings.."
-msgstr ""
+msgstr "당신은 설정을 바꾸기 위해 이곳으로 돌아올 수 있습니다..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "내위에 게임 봇 반응"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:148
 #: Extensions/Commands/Community/aboveme/testing.py:148
@@ -196,7 +196,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "제가 게임 내의 채팅에 반응해도 될지 결정하세요"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:152
 #: Extensions/Commands/Community/aboveme/testing.py:152
@@ -205,7 +205,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:154
 #: Extensions/Commands/Community/oneword/testing.py:154
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "당신은 유저들이 자신의 채팅이 정확히 입력되었는지 알 수 있게 하기 위해 저의 반응을 허용할 수 있습니다."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
@@ -214,7 +214,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny me reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "또한 반응 도배를 막기 위해 저의 반응을 거부할 수도 있습니다."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -223,7 +223,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:223
 #: Extensions/Commands/Community/oneword/testing.py:223
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "현재 서버 스코어"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:225
 #: Extensions/Commands/Community/aboveme/testing.py:225
@@ -232,7 +232,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:225
 #: Extensions/Commands/Community/oneword/testing.py:225
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "현재 유저 스코어"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:264
 #: Extensions/Commands/Community/aboveme/testing.py:264
@@ -241,7 +241,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:262
 #: Extensions/Commands/Community/oneword/testing.py:262
 msgid "I could not create a TextChannel. Aborting..."
-msgstr ""
+msgstr "채팅 채널을 만들 수 없습니다. 중단 중..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:276
 #: Extensions/Commands/Community/aboveme/testing.py:276
@@ -250,7 +250,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:274
 #: Extensions/Commands/Community/oneword/testing.py:274
 msgid "I could not edit the TextChannel! Aborting..."
-msgstr ""
+msgstr "채팅 채널을 편집할 수 없습니다! 중단 중..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:288
 #: Extensions/Commands/Community/aboveme/testing.py:288
@@ -260,7 +260,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:286
 #, python-brace-format
 msgid "In {channel} is already a Counting game set up. Aborting..."
-msgstr ""
+msgstr "{channel} 에서 이미 카운팅 게임을 준비 중입니다. 중단 중..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:299
 #: Extensions/Commands/Community/aboveme/testing.py:299
@@ -270,7 +270,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
 msgid "{game} is successfully set up in {channel}!"
-msgstr ""
+msgstr "{channel} 에서 {game} 이 성공적으로 준비되었습니다!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:303
 #: Extensions/Commands/Community/aboveme/testing.py:303
@@ -279,91 +279,92 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: you can freely edit the text channel now"
-msgstr ""
+msgstr "추신: 당신은 이제 자유롭게 채팅 채널을 편집할 수 있습니다."
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
-msgstr ""
+msgstr "제가 추천하는 커뮤니티 기능을 위한 명령어"
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
-msgstr ""
+msgstr "기능"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
-msgstr ""
+msgstr "1부터 시작해 세는 걸 멈추지 마세요!"
 
 #: Extensions/Commands/Community/counting/__init__.py:58
 #, python-brace-format
 msgid "Setup the whole Counting game in seconds\n"
 "            Get more information about the counting game with {command}"
-msgstr ""
+msgstr "몇 초 내로 모든 카운팅게임을 준비 중\n"
+"            카운팅 게임에 대한 정보를 {command} 를 통해 알아보세요"
 
 #: Extensions/Commands/Community/counting/__init__.py:114
 msgid "Everything you need to know about the Counting game"
-msgstr ""
+msgstr "당신이 카운팅 게임에 대하여 알아야 하는 모든 것"
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
-msgstr ""
+msgstr "카운팅 게임에 관한 설정 바꾸기"
 
 #: Extensions/Commands/Community/counting/counting.py:116
 #: Extensions/Commands/Community/counting/testing.py:116
 msgid "Counting channel"
-msgstr ""
+msgstr "카운팅 채널"
 
 #: Extensions/Commands/Community/counting/counting.py:169
 #: Extensions/Commands/Community/counting/testing.py:169
 msgid "Counting direction"
-msgstr ""
+msgstr "카운팅 방향"
 
 #: Extensions/Commands/Community/counting/counting.py:170
 #: Extensions/Commands/Community/counting/testing.py:170
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "카운팅 게임이 어느 방향으로 갈지 고르세요!"
 
 #: Extensions/Commands/Community/counting/counting.py:173
 #: Extensions/Commands/Community/counting/testing.py:173
 #, python-brace-format
 msgid "You can start counting at the number 1 and continue {game} in ascending order."
-msgstr ""
+msgstr "당신은 1부터 세기 시작하여 올라감에 따라 {game} 를 이어갈 수 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:176
 #: Extensions/Commands/Community/counting/testing.py:176
 #, python-brace-format
 msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
-msgstr ""
+msgstr "대신, 당신은 {game}으로 시작 지점을 특정해 내려가는 순서로 진행할 수도 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr ""
+msgstr "카운팅 규칙"
 
 #: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
 msgid "Decide if text messages are allowed in Counting"
-msgstr ""
+msgstr "다른 텍스트 메시지가 허용되어도 괜찮을지 결정하세요"
 
 #: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
-msgstr ""
+msgstr "당신은 다른 멤버들이 서로에 관해 이야기할 수 있게 텍스트 메시지를 허용할 수도 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:228
 #: Extensions/Commands/Community/counting/testing.py:228
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
-msgstr ""
+msgstr "또한 당신은 {game} 을 깨끗하게 플레이하기 위해 텍스트 메시지를 거부할 수도 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
-msgstr ""
+msgstr "카운팅 방향"
 
 #: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
 msgid "Decide if mathematical calculations are allowed in Counting"
-msgstr ""
+msgstr "카운팅에서 수학적 계산식들이 허용될지 결정하세요"
 
 #: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:281
@@ -522,7 +523,8 @@ msgstr ""
 #, python-brace-format
 msgid "Setup the whole OneWord game in seconds\n"
 "            Get more information about the OneWord game with {command}"
-msgstr ""
+msgstr "몇 초 내로 모든 한 단어 게임을 준비 중\n"
+"            한 단어 게임에 대한 정보를 {command} 를 통해 알아보세요"
 
 #: Extensions/Commands/Community/oneword/__init__.py:76
 msgid "Everything you need to know about the OneWord game"
@@ -1849,12 +1851,12 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:656
 #: Extensions/Commands/Information/userinfo/userinfo.py:656
 msgid "AboveMe"
-msgstr ""
+msgstr "AboveMe"
 
 #: Extensions/Commands/Information/userinfo/testing.py:662
 #: Extensions/Commands/Information/userinfo/userinfo.py:662
 msgid "AboveMe stats"
-msgstr ""
+msgstr "내위에 게임 정보"
 
 #: Extensions/Commands/Information/userinfo/testing.py:693
 #: Extensions/Commands/Information/userinfo/userinfo.py:693
@@ -2536,7 +2538,7 @@ msgstr ""
 #: Extensions/Functions/Messages/message/utils/systems.py:104
 #: Extensions/Functions/Messages/message/utils/systems.py:234
 msgid "the one above me"
-msgstr ""
+msgstr "내 위의 사람은"
 
 #: Extensions/Functions/Messages/message/message.py:523
 #: Extensions/Functions/Messages/message/testing.py:523
