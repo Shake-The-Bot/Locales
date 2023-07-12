@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 16:13\n"
+"PO-Revision-Date: 2023-07-12 21:54\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -2545,7 +2545,7 @@ msgstr ""
 #: Extensions/Functions/Messages/message/testing.py:59
 #, python-brace-format
 msgid "Hey {user}! My prefix is / or {mention}"
-msgstr ""
+msgstr "Hallo {user}! Mein Präfix ist / oder {mention}"
 
 #: Extensions/Functions/Messages/message/message.py:110
 #: Extensions/Functions/Messages/message/testing.py:110
