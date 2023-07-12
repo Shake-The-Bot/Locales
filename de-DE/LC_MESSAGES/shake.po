@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 21:54\n"
+"PO-Revision-Date: 2023-07-12 22:39\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Crowdin-Project: shake\n"
 "X-Crowdin-Project-ID: 555309\n"
 "X-Crowdin-Language: de\n"
-"X-Crowdin-File: /crowdin/template.pot\n"
-"X-Crowdin-File-ID: 375\n"
+"X-Crowdin-File: /crowdin/messages.pot\n"
+"X-Crowdin-File-ID: 389\n"
 "Language: de_DE\n"
 
 #: Classes/accessoires/menu.py:221
@@ -337,99 +337,99 @@ msgstr "Alternativ kannst du einen Startpunkt angeben, von dem aus das {game} in
 #: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr ""
+msgstr "Counting regeln"
 
 #: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
 msgid "Decide if text messages are allowed in Counting"
-msgstr ""
+msgstr "Entscheide, ob Textnachrichten in Counting erlaubt sind."
 
 #: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
-msgstr ""
+msgstr "Du kannst Textnachrichten zulassen, damit Mitglieder sich gegenseitig kommentieren können."
 
 #: Extensions/Commands/Community/counting/counting.py:228
 #: Extensions/Commands/Community/counting/testing.py:228
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
-msgstr ""
+msgstr "Sie können Textnachrichten ablehnen, damit {game} klarer bleibt."
 
 #: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
-msgstr ""
+msgstr "Counting Möglichkeitne"
 
 #: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
 msgid "Decide if mathematical calculations are allowed in Counting"
-msgstr ""
+msgstr "Entscheide, ob mathematische Berechnungen in Counting erlaubt sind."
 
 #: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:281
 msgid "You can allow mathematical calculations so that members can find new ways."
-msgstr ""
+msgstr "Du kannst mathematische Berechnungen zulassen, sodass die Mitglieder neue Wege finden können."
 
 #: Extensions/Commands/Community/counting/counting.py:284
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr ""
+msgstr "Du kannst mathematische Berechnungen ablehnen, damit {game} klarer bleibt."
 
 #: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr ""
+msgstr "Du kannst hier im Setup zurückkehren, um Einstellungen zu ändern."
 
 #: Extensions/Commands/Community/counting/counting.py:332
 #: Extensions/Commands/Community/counting/testing.py:332
 msgid "Counting bot responses"
-msgstr ""
+msgstr "Counting Bot-Antworten"
 
 #: Extensions/Commands/Community/counting/counting.py:333
 #: Extensions/Commands/Community/counting/testing.py:333
 msgid "Decide in which way I should response to fails, edits, etc."
-msgstr ""
+msgstr "Entscheide, wie ich auf Fehler, Bearbeitungen usw. antworten soll."
 
 #: Extensions/Commands/Community/counting/counting.py:337
 #: Extensions/Commands/Community/counting/testing.py:337
 msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
-msgstr ""
+msgstr "Du kannst mir erlauben, die Antworten über Webhooks zu senden, was das Ganze natürlicher wirken lässt."
 
 #: Extensions/Commands/Community/counting/counting.py:340
 #: Extensions/Commands/Community/counting/testing.py:340
 msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
-msgstr ""
+msgstr "Du kannst mich auch alle Nachrichten als Benutzer senden lassen, um einen einfacheren Überblick über die Aktionen zu erhalten."
 
 #: Extensions/Commands/Community/counting/counting.py:392
 #: Extensions/Commands/Community/counting/testing.py:392
 msgid "Counting bot reactions"
-msgstr ""
+msgstr "Counting Bot-Reaktionen"
 
 #: Extensions/Commands/Community/counting/counting.py:532
 #: Extensions/Commands/Community/counting/testing.py:532
 msgid "Welcome to „Counting“"
-msgstr ""
+msgstr "Willkommen zu \"Counting\"."
 
 #: Extensions/Commands/Community/counting/counting.py:534
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "Vielen Dank für dein Interesse an dem Spiel an diesem großartigen Ort!"
 
 #: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
 msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
-msgstr ""
+msgstr "Counting ist ein lustiges und interaktives Spiel, bei dem die Teilnehmer abwechselnd Zahlen in aufsteigender/absteigender Reihenfolge in einen speziellen Textkanal posten."
 
 #: Extensions/Commands/Community/counting/counting.py:545
 #: Extensions/Commands/Community/counting/testing.py:545
 msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
-msgstr ""
+msgstr "Der Zweck des Spiels besteht darin, die Zahlenfolge durch den Beitrag jedes Spielers kontinuierlich zu erhöhen/verringern."
 
 #: Extensions/Commands/Community/counting/counting.py:548
 #: Extensions/Commands/Community/counting/testing.py:548
 msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
-msgstr ""
+msgstr "Es erfordert Aufmerksamkeit, Koordination und schnelles Handeln, um den Fluss aufrechtzuerhalten und Fehler zu vermeiden. Das Spiel fördert Teamarbeit, gesunden Wettbewerb und interaktive Kommunikation innerhalb der Gemeinschaft."
 
 #: Extensions/Commands/Community/counting/counting.py:552
 #: Extensions/Commands/Community/counting/testing.py:552
