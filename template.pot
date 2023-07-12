@@ -2645,19 +2645,20 @@ msgstr ""
 #: Extensions/Functions/Messages/message/delete/delete.py:131
 #: Extensions/Functions/Messages/message/delete/testing.py:131
 #, python-brace-format
-msgid "{user} deleted their word. The word was {word}!"
+msgid "The word from {user} got deleted. The word was {word}!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/delete/delete.py:148
-#: Extensions/Functions/Messages/message/delete/testing.py:148
+#: Extensions/Functions/Messages/message/delete/delete.py:149
+#: Extensions/Functions/Messages/message/delete/testing.py:149
 #, python-brace-format
-msgid "{user} deleted their phrase. The phrase was „{phrase}“!"
+msgid "The phrase from {user} got deleted. The phrase was „{phrase}“!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/delete/delete.py:167
-#: Extensions/Functions/Messages/message/delete/testing.py:167
+#: Extensions/Functions/Messages/message/delete/delete.py:169
+#: Extensions/Functions/Messages/message/delete/testing.py:169
 #, python-brace-format
-msgid "{user} deleted their count of {count}. The next number is {next}!"
+msgid ""
+"The count of {count} from {user} got deleted. The next number is {next}!"
 msgstr ""
 
 #: Extensions/Functions/Messages/message/edit/edit.py:130
