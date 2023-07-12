@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-11 13:28\n"
+"PO-Revision-Date: 2023-07-12 12:30\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -52,8 +52,8 @@ msgstr "Выберите категорию..."
 msgid "Back"
 msgstr "Назад"
 
-#: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:342
-#: Extensions/Commands/Help/testing.py:342
+#: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:340
+#: Extensions/Commands/Help/testing.py:340
 msgid "This category either does not exist or has no items for you."
 msgstr "Этой категории либо не существует, либо в ней нет товаров для Вас."
 
@@ -75,39 +75,10 @@ msgstr "Отсутствуют обратные галочки для Regex"
 msgid "Regex error: {e_msg}"
 msgstr "Ошибка выражения: {e_msg}"
 
-#: Classes/helpful.py:631
+#: Classes/helpful.py:629
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
 msgstr "По запросу {user} • через встряхивание"
-
-#: Classes/types.py:39
-msgid "unknown"
-msgstr "Не найдено"
-
-#: Classes/types.py:40
-msgid "playing"
-msgstr "Играет"
-
-#: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:920
-#: Extensions/Commands/Information/userinfo/userinfo.py:920
-msgid "streaming"
-msgstr "Стримит"
-
-#: Classes/types.py:42
-msgid "listening"
-msgstr "Слушает"
-
-#: Classes/types.py:43
-msgid "watching"
-msgstr "Смотрит"
-
-#: Classes/types.py:44
-msgid "custom"
-msgstr "Пользовательский"
-
-#: Classes/types.py:45
-msgid "competing in"
-msgstr "Соревнуется в"
 
 #: Classes/useful.py:102
 msgid "or"
@@ -139,10 +110,10 @@ msgstr "Пишите приятные, смешные, а иногда и над
 "            Игра AboveMe предлагает массу удовольствия и создает занимательные моменты между собой!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
+#, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
-"            Get more information about the aboveme game with /aboveme info"
-msgstr "Настройте всю игру AboveMe за считанные секунды\n"
-"            Получить больше информации об игре выше меня можно с помощью команды /aboveme info."
+"            Get more information about the aboveme game with {command}"
+msgstr ""
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
@@ -287,8 +258,8 @@ msgstr "Я не смог отредактировать текстовый ка�
 #: Extensions/Commands/Community/oneword/oneword.py:286
 #: Extensions/Commands/Community/oneword/testing.py:286
 #, python-brace-format
-msgid "In {channel} is alredy a Counting game set up. Aborting..."
-msgstr "В {channel} уже является игрой с подсчетом. Прерывание"
+msgid "In {channel} is already a Counting game set up. Aborting..."
+msgstr ""
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:299
 #: Extensions/Commands/Community/aboveme/testing.py:299
@@ -297,8 +268,8 @@ msgstr "В {channel} уже является игрой с подсчетом. �
 #: Extensions/Commands/Community/oneword/oneword.py:297
 #: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
-msgid "{game} is succsessfully set up in {channel}!"
-msgstr "{game} успешно настроена для канала {channel}!"
+msgid "{game} is successfully set up in {channel}!"
+msgstr ""
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:303
 #: Extensions/Commands/Community/aboveme/testing.py:303
@@ -535,8 +506,8 @@ msgstr "Следующий номер установлен на {count}"
 #: Extensions/Commands/Community/counting/counting.py:621
 #: Extensions/Commands/Community/counting/testing.py:621
 #, python-brace-format
-msgid "The stats of the Counting-Game in {channel} has been succsessfully configured."
-msgstr "Статистика счётной игры в {channel} успешно настроена!"
+msgid "The stats of the Counting-Game in {channel} has been successfully configured."
+msgstr ""
 
 #: Extensions/Commands/Community/counting/counting.py:719
 #: Extensions/Commands/Community/counting/testing.py:719
@@ -921,61 +892,61 @@ msgstr "Эта групповая команда имеет подкоманды
 msgid "Unknown command `{argument}`. Use \"/help\" for help."
 msgstr "Неизвестная команда `{argument}`. Используйте \"/help\" для получения справки."
 
-#: Extensions/Commands/Help/help.py:565 Extensions/Commands/Help/help.py:779
-#: Extensions/Commands/Help/testing.py:565
-#: Extensions/Commands/Help/testing.py:779
+#: Extensions/Commands/Help/help.py:563 Extensions/Commands/Help/help.py:777
+#: Extensions/Commands/Help/testing.py:563
+#: Extensions/Commands/Help/testing.py:777
 msgid "No help given... (You should report this)"
 msgstr "Помощь не оказана... (Вы должны сообщить об этом)"
 
-#: Extensions/Commands/Help/help.py:585 Extensions/Commands/Help/testing.py:585
+#: Extensions/Commands/Help/help.py:583 Extensions/Commands/Help/testing.py:583
 #, python-brace-format
 msgid "Page {current}/{max} ({entries} commands)"
 msgstr "Страница {current}/{max} ({entries} команд)"
 
-#: Extensions/Commands/Help/help.py:620 Extensions/Commands/Help/help.py:722
-#: Extensions/Commands/Help/testing.py:620
-#: Extensions/Commands/Help/testing.py:722
+#: Extensions/Commands/Help/help.py:618 Extensions/Commands/Help/help.py:720
+#: Extensions/Commands/Help/testing.py:618
+#: Extensions/Commands/Help/testing.py:720
 msgid "No more detailed description given."
 msgstr "Более подробное описание не приводится."
 
-#: Extensions/Commands/Help/help.py:625 Extensions/Commands/Help/testing.py:625
+#: Extensions/Commands/Help/help.py:623 Extensions/Commands/Help/testing.py:623
 #, python-brace-format
 msgid "{category} » {command} Command"
 msgstr "{category} для копанды {command} "
 
-#: Extensions/Commands/Help/help.py:633 Extensions/Commands/Help/testing.py:633
+#: Extensions/Commands/Help/help.py:631 Extensions/Commands/Help/testing.py:631
 msgid "More detailed command description"
 msgstr "Более подробное описание команды"
 
-#: Extensions/Commands/Help/help.py:692 Extensions/Commands/Help/testing.py:692
+#: Extensions/Commands/Help/help.py:690 Extensions/Commands/Help/testing.py:690
 msgid "Necessary user permissions"
 msgstr "Необходимые разрешения пользователей"
 
-#: Extensions/Commands/Help/help.py:694 Extensions/Commands/Help/testing.py:694
+#: Extensions/Commands/Help/help.py:692 Extensions/Commands/Help/testing.py:692
 msgid "Necessary bot permissions"
 msgstr "Необходимые разрешения для бота"
 
-#: Extensions/Commands/Help/help.py:713 Extensions/Commands/Help/testing.py:713
+#: Extensions/Commands/Help/help.py:711 Extensions/Commands/Help/testing.py:711
 #, python-brace-format
 msgid "Commands of the {group} group"
 msgstr "Команды из группы {group}"
 
-#: Extensions/Commands/Help/help.py:795 Extensions/Commands/Help/testing.py:795
+#: Extensions/Commands/Help/help.py:793 Extensions/Commands/Help/testing.py:793
 #, python-brace-format
 msgid "Page {current} of {max} ({entries} subcommands)"
 msgstr "Страница {current} из {max} ({entries} подкоманда)"
 
-#: Extensions/Commands/Help/help.py:837 Extensions/Commands/Help/testing.py:837
+#: Extensions/Commands/Help/help.py:835 Extensions/Commands/Help/testing.py:835
 #, python-brace-format
 msgid "{emoji} Bot Help (Timeouted type /help again!)"
 msgstr "{emoji} Помощь бота (необходимо ввести /help еще раз!)"
 
-#: Extensions/Commands/Help/help.py:839 Extensions/Commands/Help/testing.py:839
+#: Extensions/Commands/Help/help.py:837 Extensions/Commands/Help/testing.py:837
 #, python-brace-format
 msgid "{emoji} Bot Help"
 msgstr "Помощь бота {emoji}"
 
-#: Extensions/Commands/Help/help.py:846 Extensions/Commands/Help/testing.py:846
+#: Extensions/Commands/Help/help.py:844 Extensions/Commands/Help/testing.py:844
 #, python-brace-format
 msgid "Hello and welcome to my help page\n"
 "Type `{prefix}help <command/category>` to get more information on a command/category."
@@ -983,33 +954,33 @@ msgstr "Здравствуйте, и добро пожаловать на мою
 "Вид команд: `{prefix}help <command/category>`, чтобы получить больше информации о\n"
 "командаи/категории."
 
-#: Extensions/Commands/Help/help.py:850 Extensions/Commands/Help/testing.py:850
+#: Extensions/Commands/Help/help.py:848 Extensions/Commands/Help/testing.py:848
 msgid "Support Server"
 msgstr "Сервер поддержки"
 
-#: Extensions/Commands/Help/help.py:853 Extensions/Commands/Help/testing.py:853
+#: Extensions/Commands/Help/help.py:851 Extensions/Commands/Help/testing.py:851
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "{support_server}"
 msgstr "Вы можете получить больше помощи, если присоединитесь к официальному серверу через -\n"
 "{support_server}"
 
-#: Extensions/Commands/Help/help.py:862 Extensions/Commands/Help/testing.py:862
+#: Extensions/Commands/Help/help.py:860 Extensions/Commands/Help/testing.py:860
 msgid "Who am I?"
 msgstr "Кто я то?"
 
-#: Extensions/Commands/Help/help.py:865 Extensions/Commands/Help/testing.py:865
+#: Extensions/Commands/Help/help.py:863 Extensions/Commands/Help/testing.py:863
 #, python-brace-format
 msgid "I am Shake, a bot that is partially intended for the public.\n"
 "Written with only {lines} lines of code. Please be nice"
 msgstr "Я - Shake, бот, частично предназначенный для публики.\n"
 "Написано всего {lines} кода. Пожалуйста, будьте вежливы"
 
-#: Extensions/Commands/Help/help.py:872 Extensions/Commands/Help/testing.py:872
+#: Extensions/Commands/Help/help.py:870 Extensions/Commands/Help/testing.py:870
 msgid "What am I for?"
 msgstr "Для чего я нужен?"
 
-#: Extensions/Commands/Help/help.py:875 Extensions/Commands/Help/testing.py:875
+#: Extensions/Commands/Help/help.py:873 Extensions/Commands/Help/testing.py:873
 #, python-brace-format
 msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n"
 "                    I have been created at {created_at} & I have functions like games, utilities, gimmicks & much more. \n"
@@ -1018,25 +989,25 @@ msgstr "Я функциональный все-в-одном бот, котор�
 "                    Я был создан на {created_at} и у меня есть функции, такие как игры, утилиты, гиммики и многое другое. \n"
 "                    Вы можете получить более подробную информацию с помощью выпадающего меню."
 
-#: Extensions/Commands/Help/help.py:883 Extensions/Commands/Help/help.py:887
-#: Extensions/Commands/Help/testing.py:883
-#: Extensions/Commands/Help/testing.py:887
+#: Extensions/Commands/Help/help.py:881 Extensions/Commands/Help/help.py:885
+#: Extensions/Commands/Help/testing.py:881
+#: Extensions/Commands/Help/testing.py:885
 msgid "argument"
 msgstr "аргумент"
 
-#: Extensions/Commands/Help/help.py:884 Extensions/Commands/Help/testing.py:884
+#: Extensions/Commands/Help/help.py:882 Extensions/Commands/Help/testing.py:882
 msgid "Stands for the argument being __**necessary**__."
 msgstr "Стенд для аргумента является __**необходимым**__."
 
-#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/testing.py:888
+#: Extensions/Commands/Help/help.py:886 Extensions/Commands/Help/testing.py:886
 msgid "Stands for that the argument is __**optional**__."
 msgstr "Ожидает, что аргумент __**необязательный**__."
 
-#: Extensions/Commands/Help/help.py:890 Extensions/Commands/Help/testing.py:890
+#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/testing.py:888
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr "Стенды для аргумента могут быть __**или A или B**__."
 
-#: Extensions/Commands/Help/help.py:895 Extensions/Commands/Help/testing.py:895
+#: Extensions/Commands/Help/help.py:893 Extensions/Commands/Help/testing.py:893
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                        Now that you know the basics, you should still know that...\n"
 "                        __**You don't include the parentheses!**__"
@@ -1044,11 +1015,11 @@ msgstr "Стенды для того чтобы можно было исполь
 "                        Теперь, когда вы знаете основы вы все еще должны знать это. .\n"
 "                        __**Вы не включаете круглые скобки: *_"
 
-#: Extensions/Commands/Help/help.py:905 Extensions/Commands/Help/testing.py:905
+#: Extensions/Commands/Help/help.py:903 Extensions/Commands/Help/testing.py:903
 msgid "How do I use the bot?"
 msgstr "Как пользоваться ботом?"
 
-#: Extensions/Commands/Help/help.py:906 Extensions/Commands/Help/testing.py:906
+#: Extensions/Commands/Help/help.py:904 Extensions/Commands/Help/testing.py:904
 msgid "Reading the bot structure is pretty easy."
 msgstr "Чтение структуры бота довольно просто."
 
@@ -2046,6 +2017,11 @@ msgstr "онлайн"
 msgid "offline"
 msgstr "оффлайн"
 
+#: Extensions/Commands/Information/userinfo/testing.py:920
+#: Extensions/Commands/Information/userinfo/userinfo.py:920
+msgid "streaming"
+msgstr "Стримит"
+
 #: Extensions/Commands/Information/userinfo/testing.py:921
 #: Extensions/Commands/Information/userinfo/userinfo.py:921
 msgid "idle"
@@ -2399,41 +2375,13 @@ msgstr "Сброс языка для Shake на старый добрый язы
 "            сервер: Необязательно[bool].\n"
 "                Если язык должен быть сброшен для всего сервера."
 
-#: Extensions/Commands/Other/language/language.py:97
-#: Extensions/Commands/Other/language/testing.py:97
-msgid "Your given language is not valid."
-msgstr "Приведенный вами язык недействителен."
-
-#: Extensions/Commands/Other/language/language.py:100
-#: Extensions/Commands/Other/language/testing.py:100
-#, python-brace-format
-msgid "Use {command} to get a list of all available languages"
-msgstr "Используйте {command}, чтобы получить список всех доступных языков"
-
-#: Extensions/Commands/Other/language/language.py:106
-#: Extensions/Commands/Other/language/testing.py:106
-msgid "I'm sorry to say that I dont have your given locale ready."
-msgstr "К сожалению, у меня нет готовой заданной вами локализации."
-
 #: Extensions/Commands/Other/language/language.py:110
 #: Extensions/Commands/Other/language/testing.py:110
-#, python-brace-format
-msgid "Try to contribute [here]({link}) if you want to!"
-msgstr "Попробуйте внести свой вклад [[here]]({{link}}), если хотите!"
-
-#: Extensions/Commands/Other/language/language.py:116
-#: Extensions/Commands/Other/language/testing.py:116
-#, python-brace-format
-msgid "{name} was successfully set as language!"
-msgstr "{name} успешно установлен в качестве языка бота!"
-
-#: Extensions/Commands/Other/language/language.py:141
-#: Extensions/Commands/Other/language/testing.py:141
 msgid "Available Translations"
 msgstr "Имеющиеся переводы"
 
-#: Extensions/Commands/Other/language/language.py:143
-#: Extensions/Commands/Other/language/testing.py:143
+#: Extensions/Commands/Other/language/language.py:112
+#: Extensions/Commands/Other/language/testing.py:112
 #, python-brace-format
 msgid "There are currently translations for `{languages}` languages \n"
 "and your current language is **{current}**.\n\n"
@@ -2443,6 +2391,44 @@ msgstr "В настоящее время существуют переводы �
 "и ваш текущий язык - **{current}**.\n\n"
 "{_}Вы не видите свой язык или он неполный?{_} \n"
 "Тогда помогите нам на [Crowdin]({link})!"
+
+#: Extensions/Commands/Other/language/language.py:130
+#: Extensions/Commands/Other/language/language.py:164
+#: Extensions/Commands/Other/language/testing.py:130
+#: Extensions/Commands/Other/language/testing.py:164
+msgid "Your given language is not valid."
+msgstr "Приведенный вами язык недействителен."
+
+#: Extensions/Commands/Other/language/language.py:133
+#: Extensions/Commands/Other/language/language.py:167
+#: Extensions/Commands/Other/language/testing.py:133
+#: Extensions/Commands/Other/language/testing.py:167
+#, python-brace-format
+msgid "Use {command} to get a list of all available languages"
+msgstr "Используйте {command}, чтобы получить список всех доступных языков"
+
+#: Extensions/Commands/Other/language/language.py:139
+#: Extensions/Commands/Other/language/language.py:173
+#: Extensions/Commands/Other/language/testing.py:139
+#: Extensions/Commands/Other/language/testing.py:173
+msgid "I'm sorry to say that I dont have your given locale ready."
+msgstr "К сожалению, у меня нет готовой заданной вами локализации."
+
+#: Extensions/Commands/Other/language/language.py:143
+#: Extensions/Commands/Other/language/language.py:177
+#: Extensions/Commands/Other/language/testing.py:143
+#: Extensions/Commands/Other/language/testing.py:177
+#, python-brace-format
+msgid "Try to contribute [here]({link}) if you want to!"
+msgstr "Попробуйте внести свой вклад [[here]]({{link}}), если хотите!"
+
+#: Extensions/Commands/Other/language/language.py:150
+#: Extensions/Commands/Other/language/language.py:184
+#: Extensions/Commands/Other/language/testing.py:150
+#: Extensions/Commands/Other/language/testing.py:184
+#, python-brace-format
+msgid "{name} was successfully set as language!"
+msgstr "{name} успешно установлен в качестве языка бота!"
 
 #: Extensions/Commands/Other/leave/__init__.py:37
 msgid "Leave a guild\n\n"
@@ -2782,9 +2768,9 @@ msgstr "Вы наконец закончили предложение"
 
 #: Extensions/Functions/Messages/message/message.py:467
 #: Extensions/Functions/Messages/message/testing.py:467
-#: Extensions/Functions/Messages/message/utils/systems.py:99
-#: Extensions/Functions/Messages/message/utils/systems.py:106
-#: Extensions/Functions/Messages/message/utils/systems.py:238
+#: Extensions/Functions/Messages/message/utils/systems.py:97
+#: Extensions/Functions/Messages/message/utils/systems.py:104
+#: Extensions/Functions/Messages/message/utils/systems.py:234
 msgid "the one above me"
 msgstr "тот, который над мной"
 
@@ -2804,129 +2790,129 @@ msgstr "Ваше сообщение должно начинаться с «{trig
 msgid "Your message should be something new"
 msgstr "Ваше сообщение должно быть чем-то новым"
 
-#: Extensions/Functions/Messages/message/message.py:664
-#: Extensions/Functions/Messages/message/testing.py:664
+#: Extensions/Functions/Messages/message/message.py:662
+#: Extensions/Functions/Messages/message/testing.py:662
 msgid "You can't use anything but arithmetic here."
 msgstr "Вы ничего не можете использовать здесь, кроме арифметики."
 
-#: Extensions/Functions/Messages/message/message.py:675
-#: Extensions/Functions/Messages/message/testing.py:675
+#: Extensions/Functions/Messages/message/message.py:673
+#: Extensions/Functions/Messages/message/testing.py:673
 msgid "You are not allowed to count multiple numbers in a row."
 msgstr "Вам не разрешено считать несколько чисел в строке."
 
-#: Extensions/Functions/Messages/message/message.py:688
-#: Extensions/Functions/Messages/message/testing.py:688
+#: Extensions/Functions/Messages/message/message.py:686
+#: Extensions/Functions/Messages/message/testing.py:686
 msgid "You failed to often. No stats have been changed!!"
 msgstr "Вы не смогли часто. Никакой статистики не было изменено!!"
 
-#: Extensions/Functions/Messages/message/message.py:695
-#: Extensions/Functions/Messages/message/testing.py:695
+#: Extensions/Functions/Messages/message/message.py:693
+#: Extensions/Functions/Messages/message/testing.py:693
 #, python-brace-format
 msgid "The streak of {streak} was broken!"
 msgstr "Серия {streak} сломана!"
 
-#: Extensions/Functions/Messages/message/message.py:697
-#: Extensions/Functions/Messages/message/testing.py:697
+#: Extensions/Functions/Messages/message/message.py:695
+#: Extensions/Functions/Messages/message/testing.py:695
 #, python-brace-format
 msgid "You've topped your best streak with {streak} numbers 🔥"
 msgstr "Вы пополнили свою лучшую серию с номерами {streak}🔥"
 
-#: Extensions/Functions/Messages/message/message.py:705
-#: Extensions/Functions/Messages/message/testing.py:705
+#: Extensions/Functions/Messages/message/message.py:703
+#: Extensions/Functions/Messages/message/testing.py:703
 #, python-brace-format
 msgid "Incorrect number! The next number remains {start}. {streak}"
 msgstr "Неправильное число! Следующее число остается {start}. {streak}"
 
-#: Extensions/Functions/Messages/message/message.py:715
-#: Extensions/Functions/Messages/message/testing.py:715
+#: Extensions/Functions/Messages/message/message.py:713
+#: Extensions/Functions/Messages/message/testing.py:713
 #, python-brace-format
 msgid "{user} ruined it at {count}. The next number is {start}. {streak}"
 msgstr "{user} разрушил его в {count}. Следующее число равно {start}. {streak}"
 
-#: Extensions/Functions/Messages/message/message.py:735
-#: Extensions/Functions/Messages/message/testing.py:735
+#: Extensions/Functions/Messages/message/message.py:733
+#: Extensions/Functions/Messages/message/testing.py:733
 #, python-brace-format
 msgid "You've reached your goal of {goal} {emoji} Congratulations!"
 msgstr "Вы достигли цели {goal} - {emoji} Поздравляем!"
 
-#: Extensions/Functions/Messages/message/message.py:741
-#: Extensions/Functions/Messages/message/testing.py:741
+#: Extensions/Functions/Messages/message/message.py:739
+#: Extensions/Functions/Messages/message/testing.py:739
 #, python-brace-format
 msgid "You've reached the end of the numbers until 0 {emoji} Congratulations!"
 msgstr "Вы достигли конца числа до 0 {emoji} Поздравляем!"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:74
+#: Extensions/Functions/Messages/message/utils/systems.py:72
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr "{user} вам не разрешено считать несколько чисел в строке."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:83
+#: Extensions/Functions/Messages/message/utils/systems.py:81
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
 msgstr "{user} разорвал {facepalm} **Вы не можете несколько раз появляться подряд**.\n"
 "                    Кто-то все еще должен продолжаться."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:103
+#: Extensions/Functions/Messages/message/utils/systems.py:101
 #, python-brace-format
 msgid "{emoji} Your message should start with **{trigger}**"
 msgstr "{emoji} Ваше сообщение должно начинаться с **{trigger}**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:116
+#: Extensions/Functions/Messages/message/utils/systems.py:114
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
 msgstr "{emoji} Ваше сообщение должно быть чем-то новым"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:201
+#: Extensions/Functions/Messages/message/utils/systems.py:197
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
 msgstr "{user} вы не можете несколько раз менять курс истории подряд."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:210
+#: Extensions/Functions/Messages/message/utils/systems.py:206
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
 "                    Someone should still go on."
 msgstr "{user} разорвал {facepalm} **Вы не можете несколько раз появляться подряд**.\n"
 "                    Кто-то все еще должен продолжаться."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:235
+#: Extensions/Functions/Messages/message/utils/systems.py:231
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
 msgstr "{emoji} ваше сообщение должно содержать **только один** слово"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:337
+#: Extensions/Functions/Messages/message/utils/systems.py:331
 #, python-brace-format
 msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr "{emoji} Вы не можете использовать ничего, кроме чисел здесь"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:353
+#: Extensions/Functions/Messages/message/utils/systems.py:347
 #, python-brace-format
 msgid "{user} you are not allowed to count multiple numbers in a row."
 msgstr "{user} вам не разрешено считать несколько чисел в строке."
 
-#: Extensions/Functions/Messages/message/utils/systems.py:380
+#: Extensions/Functions/Messages/message/utils/systems.py:374
 #, python-brace-format
 msgid "{user} ruined it at **{count}** {facepalm}. **You apparently can't count properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr "{user} разорил его в **{count}** {facepalm}. **Похоже, вы не можете правильно посчитать**. __next__ номер {verb} ` {last} `. {streak}"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:386
+#: Extensions/Functions/Messages/message/utils/systems.py:380
 msgid "**You've topped your best streak with {} 🔥**"
 msgstr "**Вы пополнили свой список лучшей серии с помощью {} 🔥**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:392
+#: Extensions/Functions/Messages/message/utils/systems.py:386
 msgid "is"
 msgstr "это"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:392
+#: Extensions/Functions/Messages/message/utils/systems.py:386
 msgid "remains"
 msgstr "останки"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:398
+#: Extensions/Functions/Messages/message/utils/systems.py:392
 #, python-brace-format
 msgid "Incorrect number! The __next__ number is ` {last} `. **No stats have been changed since the current number was {count}.**"
 msgstr "Неправильное число! Номер __next__ - ` {last} `. **Статистика не была изменена с момента текущего числа {count} раза.**"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:422
+#: Extensions/Functions/Messages/message/utils/systems.py:416
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr "**Вы достигли цели {goal} {emoji} Поздравлений**"
@@ -3126,8 +3112,8 @@ msgstr "{emoji} - только для администраторов!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:696
 #, python-brace-format
-msgid "{emoji} Selected user is alredy owner of a temporary channel!"
-msgstr "{emoji} Выбранный пользователь уже является владельцем временного канала!"
+msgid "{emoji} Selected user is already owner of a temporary channel!"
+msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:737
 #, python-brace-format
