@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 16:13\n"
+"PO-Revision-Date: 2023-07-12 18:37\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -22,19 +22,19 @@ msgstr ""
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "Avant de continuer, vous devez cliquer sur le bouton d'installation."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "Le ShakeMenu a été annulé en raison d'inactivité"
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
-msgstr ""
+msgstr "Démarrer"
 
 #: Classes/accessoires/menu.py:284
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Terminé"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a Category..."
@@ -50,7 +50,7 @@ msgstr "Choisir une catégorie..."
 
 #: Classes/accessoires/select.py:98
 msgid "Back"
-msgstr ""
+msgstr "Retour"
 
 #: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:340
 #: Extensions/Commands/Help/testing.py:340
@@ -59,7 +59,7 @@ msgstr ""
 
 #: Classes/accessoires/source.py:249
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "Confirmez votre sélection pour quitter le menu."
 
 #: Classes/converter.py:94
 #, python-brace-format
@@ -82,7 +82,7 @@ msgstr ""
 
 #: Classes/useful.py:102
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: Classes/useful.py:103
 msgid "and"
@@ -345,7 +345,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
-msgstr ""
+msgstr "Vous pouvez autoriser les messages texte afin que les membres puissent se commenter entre eux."
 
 #: Extensions/Commands/Community/counting/counting.py:228
 #: Extensions/Commands/Community/counting/testing.py:228
