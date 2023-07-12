@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 12:29\n"
+"PO-Revision-Date: 2023-07-12 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "قبل المتابعة، يجب عليك النقر على زر الإ�
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "تم إلغاء قائمة الهزاز بسبب عدم النشاط."
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
@@ -38,7 +38,7 @@ msgstr "إلغاء"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "تم إلغاء قائمة الShakeMenu."
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
@@ -55,11 +55,11 @@ msgstr "عودة"
 #: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:340
 #: Extensions/Commands/Help/testing.py:340
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "هذا الفئة إما غير موجودة أو ليس لديها عناصر لك."
 
 #: Classes/accessoires/source.py:249
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "يرجى تأكيد اختيارك للخروج من القائمة.."
 
 #: Classes/converter.py:94
 #, python-brace-format
