@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 18:37\n"
+"PO-Revision-Date: 2023-07-12 19:43\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -412,7 +412,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:534
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "Merci pour votre intérêt pour le jeu dans cet endroit génial!"
 
 #: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
@@ -454,14 +454,14 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:566
 #: Extensions/Commands/Community/counting/testing.py:566
 msgid "The rules are simple"
-msgstr ""
+msgstr "Les règles sont simples."
 
 #: Extensions/Commands/Community/counting/counting.py:572
 #: Extensions/Commands/Community/counting/testing.py:572
 #: Extensions/Commands/Community/oneword/oneword.py:324
 #: Extensions/Commands/Community/oneword/testing.py:324
 msgid "How to setup the game?"
-msgstr ""
+msgstr "Comment installer le jeu ?"
 
 #: Extensions/Commands/Community/counting/counting.py:574
 #: Extensions/Commands/Community/counting/testing.py:574
@@ -476,7 +476,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:349
 #: Extensions/Commands/Community/oneword/testing.py:349
 msgid "How to configure the game?"
-msgstr ""
+msgstr "Comment configurer le jeu ?"
 
 #: Extensions/Commands/Community/counting/counting.py:581
 #: Extensions/Commands/Community/counting/testing.py:581
@@ -637,17 +637,17 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "five"
-msgstr ""
+msgstr "cinq"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "two"
-msgstr ""
+msgstr "deux"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "one"
-msgstr ""
+msgstr "un"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:13
 #: Extensions/Commands/Gimmicks/countdown/testing.py:13
