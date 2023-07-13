@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-13 15:03\n"
+"PO-Revision-Date: 2023-07-13 16:04\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -1901,12 +1901,12 @@ msgstr "عضو"
 #: Extensions/Commands/Information/userinfo/testing.py:918
 #: Extensions/Commands/Information/userinfo/userinfo.py:918
 msgid "online"
-msgstr ""
+msgstr "متصل"
 
 #: Extensions/Commands/Information/userinfo/testing.py:919
 #: Extensions/Commands/Information/userinfo/userinfo.py:919
 msgid "offline"
-msgstr ""
+msgstr "غير متصل"
 
 #: Extensions/Commands/Information/userinfo/testing.py:920
 #: Extensions/Commands/Information/userinfo/userinfo.py:920
@@ -1961,7 +1961,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:961
 #: Extensions/Commands/Information/userinfo/userinfo.py:961
 msgid "None"
-msgstr ""
+msgstr "لا"
 
 #: Extensions/Commands/Information/vote/__init__.py:36
 msgid "Get information about Shake+.\n\n"
@@ -2266,7 +2266,7 @@ msgstr ""
 
 #: Extensions/Commands/Other/other.py:20
 msgid "Other"
-msgstr ""
+msgstr "أخرى"
 
 #: Extensions/Commands/Other/ptb/__init__.py:36
 msgid "Temporarily adds a server/channel/user to the public test build"
@@ -2278,7 +2278,7 @@ msgstr ""
 
 #: Extensions/Commands/Other/ptb/ptb.py:61
 msgid "Server"
-msgstr ""
+msgstr "خادم"
 
 #: Extensions/Commands/Other/ptb/ptb.py:66
 #, python-brace-format
@@ -2318,7 +2318,7 @@ msgstr ""
 #: Extensions/Commands/Other/restart/restart.py:15
 #: Extensions/Commands/Other/restart/testing.py:15
 msgid "Bot will restart now"
-msgstr ""
+msgstr "سيتم إعادة تشغيل البوت الآن"
 
 #: Extensions/Commands/Other/sync/__init__.py:43
 msgid "synchronize the bot with its commands\n\n"
@@ -2410,7 +2410,7 @@ msgstr ""
 #: Extensions/Functions/Commands/command/error/command_error.py:103
 #: Extensions/Functions/Commands/command/error/testing.py:103
 msgid "Something wrong happened"
-msgstr ""
+msgstr "حدث خطأ ما"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:125
 #: Extensions/Functions/Commands/command/error/testing.py:125
@@ -2681,7 +2681,7 @@ msgstr ""
 
 #: Extensions/Functions/Scheduled/freegames/freegames.py:42
 msgid "Unknown"
-msgstr ""
+msgstr "غير معروف"
 
 #: Extensions/Functions/Scheduled/freegames/freegames.py:48
 msgid "Get free now"
