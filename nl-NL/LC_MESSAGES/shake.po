@@ -1,198 +1,176 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
-"POT-Creation-Date: 2023-07-09 00:15+0200\n"
-"PO-Revision-Date: 2023-07-08 22:16\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-07-13 20:41\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
-"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: shake\n"
 "X-Crowdin-Project-ID: 555309\n"
 "X-Crowdin-Language: nl\n"
-"X-Crowdin-File: /crowdin/template.pot\n"
-"X-Crowdin-File-ID: 375\n"
+"X-Crowdin-File: /crowdin/messages.pot\n"
+"X-Crowdin-File-ID: 389\n"
+"Language: nl_NL\n"
 
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "Voordat je verder gaat moet je klikken op de Setup knop."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "Het ShakeMenu is geannuleerd vanwege inactiviteit"
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: Classes/accessoires/menu.py:284
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleren"
 
 #: Classes/accessoires/menu.py:294
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "Het ShakeMenu is geannuleerd"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Voltooid"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a Category..."
-msgstr ""
+msgstr "Kies een categorie..."
 
 #: Classes/accessoires/select.py:98
 msgid "Back"
-msgstr ""
+msgstr "Vorige"
 
-#: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:342
-#: Extensions/Commands/Help/testing.py:342
+#: Classes/accessoires/select.py:146 Extensions/Commands/Help/help.py:340
+#: Extensions/Commands/Help/testing.py:340
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Deze categorie bestaat niet of heeft geen items voor u."
 
 #: Classes/accessoires/source.py:249
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "Bevestig uw selectie om het menu te verlaten."
 
 #: Classes/converter.py:94
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr ""
+msgstr "`{duration}` is niet een voldoende string."
 
 #: Classes/converter.py:124
 msgid "Regex pattern missing wrapping backticks"
-msgstr ""
+msgstr "Regex patroon ontbreekt backticks"
 
 #: Classes/converter.py:128
 #, python-brace-format
 msgid "Regex error: {e_msg}"
-msgstr ""
+msgstr "Regex fout: {e_msg}"
 
-#: Classes/types.py:39
-msgid "unknown"
-msgstr ""
-
-#: Classes/types.py:40
-msgid "playing"
-msgstr ""
-
-#: Classes/types.py:41 Extensions/Commands/Information/userinfo/testing.py:919
-#: Extensions/Commands/Information/userinfo/userinfo.py:919
-msgid "streaming"
-msgstr ""
-
-#: Classes/types.py:42
-msgid "listening"
-msgstr ""
-
-#: Classes/types.py:43
-msgid "watching"
-msgstr ""
-
-#: Classes/types.py:44
-msgid "custom"
-msgstr ""
-
-#: Classes/types.py:45
-msgid "competing in"
-msgstr ""
+#: Classes/helpful.py:629
+#, python-brace-format
+msgid "Requested by {user} • via Shake"
+msgstr "Aangevraagd door {user} • via Shake"
 
 #: Classes/useful.py:102
 msgid "or"
-msgstr ""
+msgstr "of"
 
 #: Classes/useful.py:103
 msgid "and"
-msgstr ""
+msgstr "en"
 
 #: Classes/useful.py:405
 #, python-brace-format
 msgid "[{name} (upload a file)]"
-msgstr ""
+msgstr "[{name} (upload een bestand)]"
 
 #: Classes/useful.py:411
 #, python-brace-format
 msgid "<{name} (upload a file)>"
-msgstr ""
+msgstr "[{name} (upload een bestand)]"
 
 #: Classes/useful.py:413
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (upload wat bestanden)]…"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "Vertel wat aardige, grappige en soms irritante commentaar tegen the gebruiker boven jou!\n"
+"Het bovenmij spel geeft jou veel leuke en entertaining momenten samen!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
+#, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
-"            Get more information about the aboveme game with /aboveme info"
+"            Get more information about the aboveme game with {command}"
 msgstr ""
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "Bekijk de top telling gebruikers en servers"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
-#: Extensions/Commands/Community/counting/counting.py:78
+#: Extensions/Commands/Community/counting/counting.py:87
 #: Extensions/Commands/Community/counting/testing.py:87
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "Maak éen"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
 msgid "AboveMe channel"
-msgstr ""
+msgstr "BovenMij kanaal"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
-#: Extensions/Commands/Community/counting/counting.py:108
+#: Extensions/Commands/Community/counting/counting.py:117
 #: Extensions/Commands/Community/counting/testing.py:117
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "Kies in welk tekstkanaal dit spel moet zijn!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
-#: Extensions/Commands/Community/counting/counting.py:110
+#: Extensions/Commands/Community/counting/counting.py:119
 #: Extensions/Commands/Community/counting/testing.py:119
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "U kunt een bestaand tekstkanaal instellen van uw server."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
-#: Extensions/Commands/Community/counting/counting.py:112
+#: Extensions/Commands/Community/counting/counting.py:121
 #: Extensions/Commands/Community/counting/testing.py:121
 #: Extensions/Commands/Community/oneword/oneword.py:97
 #: Extensions/Commands/Community/oneword/testing.py:97
 msgid "Alternatively, you have the option to have a new text channel created for it."
-msgstr ""
+msgstr "U hebt ook de optie om een nieuw tekstkanaal hiervoor te maken."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:101
 #: Extensions/Commands/Community/aboveme/aboveme.py:159
 #: Extensions/Commands/Community/aboveme/testing.py:101
 #: Extensions/Commands/Community/aboveme/testing.py:159
-#: Extensions/Commands/Community/counting/counting.py:118
-#: Extensions/Commands/Community/counting/counting.py:173
-#: Extensions/Commands/Community/counting/counting.py:226
-#: Extensions/Commands/Community/counting/counting.py:339
+#: Extensions/Commands/Community/counting/counting.py:127
+#: Extensions/Commands/Community/counting/counting.py:182
+#: Extensions/Commands/Community/counting/counting.py:235
+#: Extensions/Commands/Community/counting/counting.py:346
+#: Extensions/Commands/Community/counting/counting.py:404
 #: Extensions/Commands/Community/counting/testing.py:127
 #: Extensions/Commands/Community/counting/testing.py:182
 #: Extensions/Commands/Community/counting/testing.py:235
@@ -203,475 +181,483 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:103
 #: Extensions/Commands/Community/oneword/testing.py:161
 msgid "You can go back here in the setup to change settings.."
-msgstr ""
+msgstr "U kunt terug gaan in de instellingen om de instellingen te wijzigen.."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "BovenMij bot reacties"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:148
 #: Extensions/Commands/Community/aboveme/testing.py:148
-#: Extensions/Commands/Community/counting/counting.py:328
+#: Extensions/Commands/Community/counting/counting.py:393
 #: Extensions/Commands/Community/counting/testing.py:393
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "Beslis of ik mag reageren op de berichten in het spel"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:152
 #: Extensions/Commands/Community/aboveme/testing.py:152
-#: Extensions/Commands/Community/counting/counting.py:332
+#: Extensions/Commands/Community/counting/counting.py:397
 #: Extensions/Commands/Community/counting/testing.py:397
 #: Extensions/Commands/Community/oneword/oneword.py:154
 #: Extensions/Commands/Community/oneword/testing.py:154
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "Je kunt mij reacties toestaan, zodat gebruikers direct weten of berichten worden geaccepteerd als correct."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
-#: Extensions/Commands/Community/counting/counting.py:334
+#: Extensions/Commands/Community/counting/counting.py:399
 #: Extensions/Commands/Community/counting/testing.py:399
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny me reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "U kunt mij ook de reacties ontzeggen om de spam van reacties te onderdrukken."
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:222
-#: Extensions/Commands/Community/aboveme/testing.py:222
-#: Extensions/Commands/Community/counting/counting.py:581
-#: Extensions/Commands/Community/counting/testing.py:646
-#: Extensions/Commands/Community/oneword/oneword.py:222
-#: Extensions/Commands/Community/oneword/testing.py:222
+#: Extensions/Commands/Community/aboveme/aboveme.py:223
+#: Extensions/Commands/Community/aboveme/testing.py:223
+#: Extensions/Commands/Community/counting/counting.py:647
+#: Extensions/Commands/Community/counting/testing.py:647
+#: Extensions/Commands/Community/oneword/oneword.py:223
+#: Extensions/Commands/Community/oneword/testing.py:223
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "HUIDIGE SERVER SCORES"
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:224
-#: Extensions/Commands/Community/aboveme/testing.py:224
-#: Extensions/Commands/Community/counting/counting.py:583
-#: Extensions/Commands/Community/counting/testing.py:648
-#: Extensions/Commands/Community/oneword/oneword.py:224
-#: Extensions/Commands/Community/oneword/testing.py:224
+#: Extensions/Commands/Community/aboveme/aboveme.py:225
+#: Extensions/Commands/Community/aboveme/testing.py:225
+#: Extensions/Commands/Community/counting/counting.py:649
+#: Extensions/Commands/Community/counting/testing.py:649
+#: Extensions/Commands/Community/oneword/oneword.py:225
+#: Extensions/Commands/Community/oneword/testing.py:225
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "HUIDIGE SERVER SCORES"
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:263
-#: Extensions/Commands/Community/aboveme/testing.py:263
-#: Extensions/Commands/Community/counting/counting.py:626
-#: Extensions/Commands/Community/counting/testing.py:692
-#: Extensions/Commands/Community/oneword/oneword.py:261
-#: Extensions/Commands/Community/oneword/testing.py:261
+#: Extensions/Commands/Community/aboveme/aboveme.py:264
+#: Extensions/Commands/Community/aboveme/testing.py:264
+#: Extensions/Commands/Community/counting/counting.py:693
+#: Extensions/Commands/Community/counting/testing.py:693
+#: Extensions/Commands/Community/oneword/oneword.py:262
+#: Extensions/Commands/Community/oneword/testing.py:262
 msgid "I could not create a TextChannel. Aborting..."
-msgstr ""
+msgstr "Ik kon geen TextChannel maken. Afbreken..."
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:275
-#: Extensions/Commands/Community/aboveme/testing.py:275
-#: Extensions/Commands/Community/counting/counting.py:638
-#: Extensions/Commands/Community/counting/testing.py:704
-#: Extensions/Commands/Community/oneword/oneword.py:273
-#: Extensions/Commands/Community/oneword/testing.py:273
+#: Extensions/Commands/Community/aboveme/aboveme.py:276
+#: Extensions/Commands/Community/aboveme/testing.py:276
+#: Extensions/Commands/Community/counting/counting.py:705
+#: Extensions/Commands/Community/counting/testing.py:705
+#: Extensions/Commands/Community/oneword/oneword.py:274
+#: Extensions/Commands/Community/oneword/testing.py:274
 msgid "I could not edit the TextChannel! Aborting..."
-msgstr ""
+msgstr "Ik kon geen TextChannel bijwerken. Afbreken..."
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:287
-#: Extensions/Commands/Community/aboveme/testing.py:287
-#: Extensions/Commands/Community/counting/counting.py:650
-#: Extensions/Commands/Community/counting/testing.py:733
-#: Extensions/Commands/Community/oneword/oneword.py:285
-#: Extensions/Commands/Community/oneword/testing.py:285
+#: Extensions/Commands/Community/aboveme/aboveme.py:288
+#: Extensions/Commands/Community/aboveme/testing.py:288
+#: Extensions/Commands/Community/counting/counting.py:734
+#: Extensions/Commands/Community/counting/testing.py:734
+#: Extensions/Commands/Community/oneword/oneword.py:286
+#: Extensions/Commands/Community/oneword/testing.py:286
 #, python-brace-format
-msgid "In {channel} is alredy a Counting game set up. Aborting..."
+msgid "In {channel} is already a Counting game set up. Aborting..."
 msgstr ""
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:298
-#: Extensions/Commands/Community/aboveme/testing.py:298
-#: Extensions/Commands/Community/counting/counting.py:676
-#: Extensions/Commands/Community/counting/testing.py:760
-#: Extensions/Commands/Community/oneword/oneword.py:296
-#: Extensions/Commands/Community/oneword/testing.py:296
+#: Extensions/Commands/Community/aboveme/aboveme.py:299
+#: Extensions/Commands/Community/aboveme/testing.py:299
+#: Extensions/Commands/Community/counting/counting.py:761
+#: Extensions/Commands/Community/counting/testing.py:761
+#: Extensions/Commands/Community/oneword/oneword.py:297
+#: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
-msgid "{game} is succsessfully set up in {channel}!"
+msgid "{game} is successfully set up in {channel}!"
 msgstr ""
 
-#: Extensions/Commands/Community/aboveme/aboveme.py:302
-#: Extensions/Commands/Community/aboveme/testing.py:302
-#: Extensions/Commands/Community/counting/counting.py:680
-#: Extensions/Commands/Community/counting/testing.py:764
-#: Extensions/Commands/Community/oneword/oneword.py:300
-#: Extensions/Commands/Community/oneword/testing.py:300
+#: Extensions/Commands/Community/aboveme/aboveme.py:303
+#: Extensions/Commands/Community/aboveme/testing.py:303
+#: Extensions/Commands/Community/counting/counting.py:765
+#: Extensions/Commands/Community/counting/testing.py:765
+#: Extensions/Commands/Community/oneword/oneword.py:301
+#: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: you can freely edit the text channel now"
-msgstr ""
+msgstr "Opmerking: u kunt het tekstkanaal nu vrij bewerken"
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
-msgstr ""
+msgstr "Opdrachten voor de Community die ik bied"
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
-msgstr ""
+msgstr "Functies"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
-msgstr ""
+msgstr "Begin met 1 en tel nooit meer op!"
 
 #: Extensions/Commands/Community/counting/__init__.py:58
 #, python-brace-format
 msgid "Setup the whole Counting game in seconds\n"
 "            Get more information about the counting game with {command}"
-msgstr ""
+msgstr "Setup het hele Tell Spel in seconden\n"
+"           Krijg meer information over het spel met {command}"
 
 #: Extensions/Commands/Community/counting/__init__.py:114
 msgid "Everything you need to know about the Counting game"
-msgstr ""
+msgstr "Alles wat u moet weten over het Tell spel"
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
-msgstr ""
+msgstr "Wijzig sommige eigenschappen over het tellen van het spel"
 
-#: Extensions/Commands/Community/counting/counting.py:107
+#: Extensions/Commands/Community/counting/counting.py:116
 #: Extensions/Commands/Community/counting/testing.py:116
 msgid "Counting channel"
-msgstr ""
+msgstr "Kanaal waar mensen gaan Tellen"
 
-#: Extensions/Commands/Community/counting/counting.py:160
+#: Extensions/Commands/Community/counting/counting.py:169
 #: Extensions/Commands/Community/counting/testing.py:169
 msgid "Counting direction"
-msgstr ""
+msgstr "Tell directie"
 
-#: Extensions/Commands/Community/counting/counting.py:161
+#: Extensions/Commands/Community/counting/counting.py:170
 #: Extensions/Commands/Community/counting/testing.py:170
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "Kies in welke richting telling moet gaan!"
 
-#: Extensions/Commands/Community/counting/counting.py:164
+#: Extensions/Commands/Community/counting/counting.py:173
 #: Extensions/Commands/Community/counting/testing.py:173
 #, python-brace-format
 msgid "You can start counting at the number 1 and continue {game} in ascending order."
-msgstr ""
+msgstr "U kunt beginnen te tellen op nummer 1 en {game} in oplopende volgorde vervolgen."
 
-#: Extensions/Commands/Community/counting/counting.py:167
+#: Extensions/Commands/Community/counting/counting.py:176
 #: Extensions/Commands/Community/counting/testing.py:176
 #, python-brace-format
 msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
-msgstr ""
+msgstr "Als alternatief kunt u een startpunt opgeven waarvan {game} in dalende volgorde begint."
 
-#: Extensions/Commands/Community/counting/counting.py:215
+#: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr ""
+msgstr "Regels tellen"
 
-#: Extensions/Commands/Community/counting/counting.py:216
+#: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
 msgid "Decide if text messages are allowed in Counting"
-msgstr ""
+msgstr "Bepaal of tekstberichten toegestaan zijn bij het tellen van berichten"
 
-#: Extensions/Commands/Community/counting/counting.py:218
+#: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
-msgstr ""
+msgstr "Je kunt tekstberichten toestaan zodat leden op elkaar kunnen reageren."
 
-#: Extensions/Commands/Community/counting/counting.py:219
+#: Extensions/Commands/Community/counting/counting.py:228
 #: Extensions/Commands/Community/counting/testing.py:228
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
-msgstr ""
+msgstr "Je kunt tekstberichten weigeren zodat {game} duidelijker blijft."
 
-#: Extensions/Commands/Community/counting/counting.py:268
+#: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
-msgstr ""
+msgstr "Regels tellen"
 
-#: Extensions/Commands/Community/counting/counting.py:269
+#: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
 msgid "Decide if mathematical calculations are allowed in Counting"
-msgstr ""
+msgstr "Bepaal of wiskundige berekeningen zijn toegestaan bij het tellen van het aantal"
 
-#: Extensions/Commands/Community/counting/counting.py:272
+#: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:281
 msgid "You can allow mathematical calculations so that members can find new ways."
-msgstr ""
+msgstr "Je kunt wiskundige berekeningen toestaan, zodat leden nieuwe manieren kunnen vinden."
 
-#: Extensions/Commands/Community/counting/counting.py:275
+#: Extensions/Commands/Community/counting/counting.py:284
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr ""
+msgstr "Je kunt tekstberichten weigeren zodat {game} duidelijker blijft."
 
-#: Extensions/Commands/Community/counting/counting.py:281
+#: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr ""
+msgstr "U kunt terug gaan in de instellingen om de instellingen te wijzigen."
 
-#: Extensions/Commands/Community/counting/counting.py:327
+#: Extensions/Commands/Community/counting/counting.py:332
+#: Extensions/Commands/Community/counting/testing.py:332
+msgid "Counting bot responses"
+msgstr "Aantal bot-reacties"
+
+#: Extensions/Commands/Community/counting/counting.py:333
+#: Extensions/Commands/Community/counting/testing.py:333
+msgid "Decide in which way I should response to fails, edits, etc."
+msgstr "Beslis op welke manier ik moet reageren op tekortkomingen, bewerkingen, enz."
+
+#: Extensions/Commands/Community/counting/counting.py:337
+#: Extensions/Commands/Community/counting/testing.py:337
+msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
+msgstr "Laat ik de antwoorden doorsturen via webhooks zodat het allemaal natuurlijker zal zijn"
+
+#: Extensions/Commands/Community/counting/counting.py:340
+#: Extensions/Commands/Community/counting/testing.py:340
+msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
+msgstr "Je kunt ook alle berichten als gebruiker versturen om een makkelijker overzicht van de acties te maken."
+
+#: Extensions/Commands/Community/counting/counting.py:392
 #: Extensions/Commands/Community/counting/testing.py:392
 msgid "Counting bot reactions"
-msgstr ""
+msgstr "Aantal bot-reacties"
 
-#: Extensions/Commands/Community/counting/counting.py:467
+#: Extensions/Commands/Community/counting/counting.py:532
 #: Extensions/Commands/Community/counting/testing.py:532
 msgid "Welcome to „Counting“"
-msgstr ""
+msgstr "Welkom bij \"Tellen\""
 
-#: Extensions/Commands/Community/counting/counting.py:469
+#: Extensions/Commands/Community/counting/counting.py:534
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "Bedankt voor je interesse in het spel in deze fantastische plaats!"
 
-#: Extensions/Commands/Community/counting/counting.py:476
+#: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
 msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
-msgstr ""
+msgstr "Het tellen van het spel is een leuk en interactief spel waar deelnemers het postaantal in oplopende / aflopende volgorde omzetten naar een speciaal tekstkanaal. "
 
-#: Extensions/Commands/Community/counting/counting.py:480
+#: Extensions/Commands/Community/counting/counting.py:545
 #: Extensions/Commands/Community/counting/testing.py:545
 msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
-msgstr ""
+msgstr "Het doel van het spel is om de getallensequentie van elke speler voortdurend te verhogen/te verlagen. "
 
-#: Extensions/Commands/Community/counting/counting.py:483
+#: Extensions/Commands/Community/counting/counting.py:548
 #: Extensions/Commands/Community/counting/testing.py:548
 msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
-msgstr ""
+msgstr "Er kan aandacht, coördinatie en snelle actie nodig zijn om de stroom in stand te houden en fouten te voorkomen. Het spel moedigt teamwork, gezonde concurrentie en interactieve communicatie binnen de gemeenschap aan. "
 
-#: Extensions/Commands/Community/counting/counting.py:487
+#: Extensions/Commands/Community/counting/counting.py:552
 #: Extensions/Commands/Community/counting/testing.py:552
 msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
-msgstr ""
+msgstr "Het kan een leuke uitdaging zijn om te zien hoe hoog de nummerreeks kan gaan als spelers samenwerken om door te gaan met het tellen van het spel."
 
-#: Extensions/Commands/Community/counting/counting.py:493
+#: Extensions/Commands/Community/counting/counting.py:558
 #: Extensions/Commands/Community/counting/testing.py:558
 msgid "One person can't count numbers in a row (others are required)."
-msgstr ""
+msgstr "Een persoon kan het aantal nummers op rij niet tellen (anderen zijn vereist)."
 
-#: Extensions/Commands/Community/counting/counting.py:494
+#: Extensions/Commands/Community/counting/counting.py:559
 #: Extensions/Commands/Community/counting/testing.py:559
-#: Extensions/Commands/Community/oneword/oneword.py:339
-#: Extensions/Commands/Community/oneword/testing.py:339
+#: Extensions/Commands/Community/oneword/oneword.py:340
+#: Extensions/Commands/Community/oneword/testing.py:340
 msgid "No botting, if you have fail to often, you'll get muted."
-msgstr ""
+msgstr "Als je niet vaak hebt geflanst, word je niet gedempt."
 
-#: Extensions/Commands/Community/counting/counting.py:496
+#: Extensions/Commands/Community/counting/counting.py:561
 #: Extensions/Commands/Community/counting/testing.py:561
 msgid "If you break the count, the count will reset to a calculated checkpoint."
-msgstr ""
+msgstr "Als je de teller breekt, zal het aantal teruggezet worden naar een berekende controlepunt."
 
-#: Extensions/Commands/Community/counting/counting.py:501
+#: Extensions/Commands/Community/counting/counting.py:566
 #: Extensions/Commands/Community/counting/testing.py:566
 msgid "The rules are simple"
-msgstr ""
+msgstr "De regels zijn eenvoudig"
 
-#: Extensions/Commands/Community/counting/counting.py:507
+#: Extensions/Commands/Community/counting/counting.py:572
 #: Extensions/Commands/Community/counting/testing.py:572
-#: Extensions/Commands/Community/oneword/oneword.py:323
-#: Extensions/Commands/Community/oneword/testing.py:323
+#: Extensions/Commands/Community/oneword/oneword.py:324
+#: Extensions/Commands/Community/oneword/testing.py:324
 msgid "How to setup the game?"
-msgstr ""
+msgstr "Hoe kan ik het spel instellen?"
 
-#: Extensions/Commands/Community/counting/counting.py:509
+#: Extensions/Commands/Community/counting/counting.py:574
 #: Extensions/Commands/Community/counting/testing.py:574
-#: Extensions/Commands/Community/oneword/oneword.py:325
-#: Extensions/Commands/Community/oneword/testing.py:325
+#: Extensions/Commands/Community/oneword/oneword.py:326
+#: Extensions/Commands/Community/oneword/testing.py:326
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
-msgstr ""
+msgstr "Ga aan de slag met het commando {command} om het essentiële kanaal te maken en in te stellen"
 
-#: Extensions/Commands/Community/counting/counting.py:514
+#: Extensions/Commands/Community/counting/counting.py:579
 #: Extensions/Commands/Community/counting/testing.py:579
-#: Extensions/Commands/Community/oneword/oneword.py:348
-#: Extensions/Commands/Community/oneword/testing.py:348
+#: Extensions/Commands/Community/oneword/oneword.py:349
+#: Extensions/Commands/Community/oneword/testing.py:349
 msgid "How to configure the game?"
-msgstr ""
+msgstr "Hoe het spel te configureren?"
 
-#: Extensions/Commands/Community/counting/counting.py:516
+#: Extensions/Commands/Community/counting/counting.py:581
 #: Extensions/Commands/Community/counting/testing.py:581
 #, python-brace-format
 msgid "Customize all kind of properties for Counting by using the the command {command}!"
-msgstr ""
+msgstr "Pas alle soorten eigenschappen aan voor het tellen door het commando {command} te gebruiken!"
 
-#: Extensions/Commands/Community/counting/counting.py:521
+#: Extensions/Commands/Community/counting/counting.py:586
 #: Extensions/Commands/Community/counting/testing.py:586
 msgid "The higher the number, the harder you fall!"
-msgstr ""
+msgstr "Hoe hoger het aantal, hoe harder je valt!"
 
-#: Extensions/Commands/Community/counting/counting.py:539
+#: Extensions/Commands/Community/counting/counting.py:604
 #: Extensions/Commands/Community/counting/testing.py:604
 #, python-brace-format
 msgid "There is no Counting-Game in the given channel {channel} that we could configure."
-msgstr ""
+msgstr "Er is geen Counting-Game in het opgegeven kanaal {channel} dat we konden configureren."
 
-#: Extensions/Commands/Community/counting/counting.py:551
+#: Extensions/Commands/Community/counting/counting.py:616
 #: Extensions/Commands/Community/counting/testing.py:616
 #, python-brace-format
 msgid "The next number in here has been set to {count}"
-msgstr ""
+msgstr "Het volgende nummer hier is ingesteld op {count}"
 
-#: Extensions/Commands/Community/counting/counting.py:556
+#: Extensions/Commands/Community/counting/counting.py:621
 #: Extensions/Commands/Community/counting/testing.py:621
 #, python-brace-format
-msgid "The stats of the Counting-Game in {channel} has been succsessfully configured."
+msgid "The stats of the Counting-Game in {channel} has been successfully configured."
 msgstr ""
 
-#: Extensions/Commands/Community/counting/testing.py:332
-msgid "Counting bot responses"
-msgstr ""
-
-#: Extensions/Commands/Community/counting/testing.py:333
-msgid "Decide in which way I should response to fails, edits, etc."
-msgstr ""
-
-#: Extensions/Commands/Community/counting/testing.py:337
-msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
-msgstr ""
-
-#: Extensions/Commands/Community/counting/testing.py:340
-msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
-msgstr ""
-
-#: Extensions/Commands/Community/counting/testing.py:718
+#: Extensions/Commands/Community/counting/counting.py:719
+#: Extensions/Commands/Community/counting/testing.py:719
 msgid "I could not create a webhook in the TextChannel! Aborting..."
-msgstr ""
+msgstr "Ik kon geen Webhook maken. Afbreken..."
 
 #: Extensions/Commands/Community/oneword/__init__.py:35
 msgid "Create some funny sentances with the help of other users!"
-msgstr ""
+msgstr "Maak een paar grappige zinnen met hulp van andere gebruikers!"
 
 #: Extensions/Commands/Community/oneword/__init__.py:50
 #, python-brace-format
 msgid "Setup the whole OneWord game in seconds\n"
 "            Get more information about the OneWord game with {command}"
-msgstr ""
+msgstr "Setup het hele Tell Spel in seconden\n"
+"           Krijg meer information over het spel met {command}"
 
 #: Extensions/Commands/Community/oneword/__init__.py:76
 msgid "Everything you need to know about the OneWord game"
-msgstr ""
+msgstr "Alles wat u moet weten over het Tell spel"
 
 #: Extensions/Commands/Community/oneword/oneword.py:92
 #: Extensions/Commands/Community/oneword/testing.py:92
 msgid "OneWord channel"
-msgstr ""
+msgstr "Één Woord kanaal"
 
 #: Extensions/Commands/Community/oneword/oneword.py:149
 #: Extensions/Commands/Community/oneword/testing.py:149
 msgid "OneWord bot reactions"
-msgstr ""
+msgstr "OneWord bot reacties"
 
-#: Extensions/Commands/Community/oneword/oneword.py:314
-#: Extensions/Commands/Community/oneword/testing.py:314
+#: Extensions/Commands/Community/oneword/oneword.py:315
+#: Extensions/Commands/Community/oneword/testing.py:315
 msgid "Welcome to „OneWord“"
-msgstr ""
+msgstr "Welkom bij „OneWord“"
 
-#: Extensions/Commands/Community/oneword/oneword.py:317
-#: Extensions/Commands/Community/oneword/testing.py:317
+#: Extensions/Commands/Community/oneword/oneword.py:318
+#: Extensions/Commands/Community/oneword/testing.py:318
 msgid "Thanks for your interest in the game in this awesome place!"
-msgstr ""
+msgstr "Bedankt voor je interesse in het spel in deze fantastische plaats!"
 
-#: Extensions/Commands/Community/oneword/oneword.py:330
-#: Extensions/Commands/Community/oneword/testing.py:330
+#: Extensions/Commands/Community/oneword/oneword.py:331
+#: Extensions/Commands/Community/oneword/testing.py:331
 msgid "How to use the game?"
-msgstr ""
+msgstr "Hoe kan ik het spel instellen?"
 
-#: Extensions/Commands/Community/oneword/oneword.py:332
-#: Extensions/Commands/Community/oneword/testing.py:332
-msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance\n"
-msgstr ""
-
-#: Extensions/Commands/Community/oneword/oneword.py:337
-#: Extensions/Commands/Community/oneword/testing.py:337
-msgid "One person can't post words in a row (others are required)."
-msgstr ""
+#: Extensions/Commands/Community/oneword/oneword.py:333
+#: Extensions/Commands/Community/oneword/testing.py:333
+msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance"
+msgstr "Dit spel gaat allemaal over woorden, die een voor een worden geplaatst in de chat om een creatieve zin te maken"
 
 #: Extensions/Commands/Community/oneword/oneword.py:338
 #: Extensions/Commands/Community/oneword/testing.py:338
+msgid "One person can't post words in a row (others are required)."
+msgstr "Een persoon kan het aantal nummers op rij niet tellen (anderen zijn vereist)."
+
+#: Extensions/Commands/Community/oneword/oneword.py:339
+#: Extensions/Commands/Community/oneword/testing.py:339
 msgid "The sentance is done with punctuation marks (eg. „!“)."
-msgstr ""
+msgstr "De zin wordt gedaan met leestekens (bijv. „!“)."
 
-#: Extensions/Commands/Community/oneword/oneword.py:340
-#: Extensions/Commands/Community/oneword/testing.py:340
+#: Extensions/Commands/Community/oneword/oneword.py:341
+#: Extensions/Commands/Community/oneword/testing.py:341
 msgid "There is no failing."
-msgstr ""
+msgstr "Er is geen student."
 
-#: Extensions/Commands/Community/oneword/oneword.py:343
-#: Extensions/Commands/Community/oneword/testing.py:343
+#: Extensions/Commands/Community/oneword/oneword.py:344
+#: Extensions/Commands/Community/oneword/testing.py:344
 msgid "OneWord rules"
-msgstr ""
+msgstr "Één woord regels"
 
-#: Extensions/Commands/Community/oneword/oneword.py:349
-#: Extensions/Commands/Community/oneword/testing.py:349
+#: Extensions/Commands/Community/oneword/oneword.py:350
+#: Extensions/Commands/Community/oneword/testing.py:350
 msgid "Currently there is nothing to configure!"
-msgstr ""
+msgstr "Momenteel is er niets te configureren!"
 
 #: Extensions/Commands/Community/schedule/__init__.py:38
 msgid "Scheduled Events are Reminders, which you can let recurr on a chosen Interval. \n"
 "            With a set timezone, you can choose the Start Time and the Message with the corresponding TextChannel."
-msgstr ""
+msgstr "Geplande gebeurtenissen zijn Herinneringen, die je kan laten herhalen via een gekozen Interval. \n"
+"            Met een ingestelde tijdzone je kan kiezen voor de starttijd en het bericht met het bijbehorende TextChannel."
 
 #: Extensions/Commands/Community/schedule/testing.py:99
 #: Extensions/Commands/Community/schedule/testing.py:135
 msgid "Repetition"
-msgstr ""
+msgstr "Herhaling"
 
 #: Extensions/Commands/Community/schedule/testing.py:100
 #: Extensions/Commands/Community/schedule/testing.py:136
 msgid "Decide to only get alerted once or choose the interval between the alerts!"
-msgstr ""
+msgstr "Beslis om maar één keer gewaarschuwd te worden of kies het interval tussen de waarschuwingen!"
 
 #: Extensions/Commands/Community/schedule/testing.py:168
 msgid "Second step: Choose the duration"
-msgstr ""
+msgstr "Tweede stap: Kies de duur"
 
 #: Extensions/Commands/Community/schedule/testing.py:192
 msgid "Third step: Choose the Message Type"
-msgstr ""
+msgstr "Derde stap: Kies het type bericht"
 
 #: Extensions/Commands/Gimmicks/count/__init__.py:33
 msgid "Count for yourself"
-msgstr ""
+msgstr "Tell voor jezelf"
 
 #: Extensions/Commands/Gimmicks/count/count.py:12
 #: Extensions/Commands/Gimmicks/count/testing.py:12
 msgid "Start?"
-msgstr ""
+msgstr "Start?"
 
 #: Extensions/Commands/Gimmicks/count/count.py:22
 #: Extensions/Commands/Gimmicks/count/testing.py:22
 msgid "Congratulation"
-msgstr ""
+msgstr "Gefeliciteerd"
 
 #: Extensions/Commands/Gimmicks/count/count.py:28
 #: Extensions/Commands/Gimmicks/count/testing.py:28
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:270
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: Extensions/Commands/Gimmicks/count/count.py:31
 #: Extensions/Commands/Gimmicks/count/testing.py:31
 msgid "Have fun!"
-msgstr ""
+msgstr "Veel plezier!"
 
 #: Extensions/Commands/Gimmicks/countdown/__init__.py:33
 msgid "It's the final countdown"
-msgstr ""
+msgstr "Het is de laatste afteller"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "five"
-msgstr ""
+msgstr "vijf"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "two"
-msgstr ""
+msgstr "twee"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "one"
-msgstr ""
+msgstr "eén"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:13
 #: Extensions/Commands/Gimmicks/countdown/testing.py:13
 #, python-brace-format
 msgid "{__} Lets start this {__}"
-msgstr ""
+msgstr "{__} Laat dit {__} starten"
 
 #: Extensions/Commands/Gimmicks/everyone/__init__.py:34
 msgid "Remind others how bad @everyone actually is\n\n"
@@ -680,22 +666,28 @@ msgid "Remind others how bad @everyone actually is\n\n"
 "            -----------\n"
 "            member: commands.Greedy[Member]\n"
 "                the member to blame"
-msgstr ""
+msgstr "Herinner anderen eraan hoe slecht @everyone eigenlijk\n\n"
+"            Met deze opdracht kun je andere mensen met een afbeelding/gif laten zien hoe onnodig een @iedereen ping is of dat iemand @all weer spammen.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            leden: commando's. beredy[Member]\n"
+"                het lid de schuld geven"
 
 #: Extensions/Commands/Gimmicks/everyone/everyone.py:22
 #: Extensions/Commands/Gimmicks/everyone/testing.py:22
 #, python-brace-format
 msgid "{members} stop spamming @everyone! \n"
 "It's not that important..."
-msgstr ""
+msgstr "{members} stop spamming @iedereen! \n"
+"Dat is niet zo belangrijk..."
 
 #: Extensions/Commands/Gimmicks/gimmicks.py:12
 msgid "Commands for fun and distraction"
-msgstr ""
+msgstr "Commando's voor leuke en afleiding"
 
 #: Extensions/Commands/Gimmicks/gimmicks.py:20
 msgid "Gimmicks"
-msgstr ""
+msgstr "Gimmicks"
 
 #: Extensions/Commands/Gimmicks/meme/__init__.py:37
 msgid "Get the latest funny memes of reddit\n\n"
@@ -704,20 +696,26 @@ msgid "Get the latest funny memes of reddit\n\n"
 "            subreddit: Optional[str]\n"
 "                an optional argument to pass a subreddit\n"
 "            "
-msgstr ""
+msgstr "Krijg de nieuwste grappige memes van reddit\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            subreddit: Optioneel[str]\n"
+"                een optioneel argument om een subreddit\n"
+"            te passeren            "
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:30
 #: Extensions/Commands/Gimmicks/meme/testing.py:30
 #, python-brace-format
 msgid "„{title}“ by {author}"
-msgstr ""
+msgstr "ău{title}\" door {author}"
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:36
 #: Extensions/Commands/Gimmicks/meme/testing.py:36
 #, python-brace-format
 msgid "Like this meme? Check out others at \n"
 "{subreddit}"
-msgstr ""
+msgstr "Vind je dit meme leuk? Bekijk anderen op \n"
+"{subreddit}"
 
 #: Extensions/Commands/Gimmicks/pp/__init__.py:34
 msgid "Reveal the length of a user's pp\n\n"
@@ -845,117 +843,130 @@ msgstr ""
 msgid "Unknown command `{argument}`. Use \"/help\" for help."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:565 Extensions/Commands/Help/help.py:781
-#: Extensions/Commands/Help/testing.py:565
-#: Extensions/Commands/Help/testing.py:814
+#: Extensions/Commands/Help/help.py:563 Extensions/Commands/Help/help.py:777
+#: Extensions/Commands/Help/testing.py:563
+#: Extensions/Commands/Help/testing.py:777
 msgid "No help given... (You should report this)"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:587 Extensions/Commands/Help/testing.py:587
+#: Extensions/Commands/Help/help.py:583 Extensions/Commands/Help/testing.py:583
 #, python-brace-format
 msgid "Page {current}/{max} ({entries} commands)"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:622 Extensions/Commands/Help/help.py:724
-#: Extensions/Commands/Help/testing.py:628
-#: Extensions/Commands/Help/testing.py:757
+#: Extensions/Commands/Help/help.py:618 Extensions/Commands/Help/help.py:720
+#: Extensions/Commands/Help/testing.py:618
+#: Extensions/Commands/Help/testing.py:720
 msgid "No more detailed description given."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:627 Extensions/Commands/Help/testing.py:633
+#: Extensions/Commands/Help/help.py:623 Extensions/Commands/Help/testing.py:623
 #, python-brace-format
 msgid "{category} » {command} Command"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:635 Extensions/Commands/Help/testing.py:641
+#: Extensions/Commands/Help/help.py:631 Extensions/Commands/Help/testing.py:631
 msgid "More detailed command description"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:694 Extensions/Commands/Help/testing.py:727
+#: Extensions/Commands/Help/help.py:690 Extensions/Commands/Help/testing.py:690
 msgid "Necessary user permissions"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:696 Extensions/Commands/Help/testing.py:729
+#: Extensions/Commands/Help/help.py:692 Extensions/Commands/Help/testing.py:692
 msgid "Necessary bot permissions"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:715 Extensions/Commands/Help/testing.py:748
+#: Extensions/Commands/Help/help.py:711 Extensions/Commands/Help/testing.py:711
 #, python-brace-format
 msgid "Commands of the {group} group"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:797 Extensions/Commands/Help/testing.py:830
+#: Extensions/Commands/Help/help.py:793 Extensions/Commands/Help/testing.py:793
 #, python-brace-format
 msgid "Page {current} of {max} ({entries} subcommands)"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:839 Extensions/Commands/Help/testing.py:872
+#: Extensions/Commands/Help/help.py:835 Extensions/Commands/Help/testing.py:835
 #, python-brace-format
 msgid "{emoji} Bot Help (Timeouted type /help again!)"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:841 Extensions/Commands/Help/testing.py:874
+#: Extensions/Commands/Help/help.py:837 Extensions/Commands/Help/testing.py:837
 #, python-brace-format
 msgid "{emoji} Bot Help"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:887
+#: Extensions/Commands/Help/help.py:844 Extensions/Commands/Help/testing.py:844
+#, python-brace-format
+msgid "Hello and welcome to my help page\n"
+"Type `{prefix}help <command/category>` to get more information on a command/category."
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:848 Extensions/Commands/Help/testing.py:848
 msgid "Support Server"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:857 Extensions/Commands/Help/testing.py:890
+#: Extensions/Commands/Help/help.py:851 Extensions/Commands/Help/testing.py:851
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "{support_server}"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:866 Extensions/Commands/Help/testing.py:899
+#: Extensions/Commands/Help/help.py:860 Extensions/Commands/Help/testing.py:860
 msgid "Who am I?"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:880 Extensions/Commands/Help/testing.py:913
+#: Extensions/Commands/Help/help.py:863 Extensions/Commands/Help/testing.py:863
+#, python-brace-format
+msgid "I am Shake, a bot that is partially intended for the public.\n"
+"Written with only {lines} lines of code. Please be nice"
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:870 Extensions/Commands/Help/testing.py:870
 msgid "What am I for?"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:896 Extensions/Commands/Help/help.py:900
-#: Extensions/Commands/Help/testing.py:929
-#: Extensions/Commands/Help/testing.py:933
+#: Extensions/Commands/Help/help.py:873 Extensions/Commands/Help/testing.py:873
+#, python-brace-format
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n"
+"                    I have been created at {created_at} & I have functions like games, utilities, gimmicks & much more. \n"
+"                    You can get more information by using the dropdown menu below."
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:881 Extensions/Commands/Help/help.py:885
+#: Extensions/Commands/Help/testing.py:881
+#: Extensions/Commands/Help/testing.py:885
 msgid "argument"
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:897 Extensions/Commands/Help/testing.py:930
+#: Extensions/Commands/Help/help.py:882 Extensions/Commands/Help/testing.py:882
 msgid "Stands for the argument being __**necessary**__."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:901 Extensions/Commands/Help/testing.py:934
+#: Extensions/Commands/Help/help.py:886 Extensions/Commands/Help/testing.py:886
 msgid "Stands for that the argument is __**optional**__."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:903 Extensions/Commands/Help/testing.py:936
+#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/testing.py:888
 msgid "Stands for the argument can be __**either A or B**__."
 msgstr ""
 
-#: Extensions/Commands/Help/help.py:917 Extensions/Commands/Help/testing.py:950
+#: Extensions/Commands/Help/help.py:893 Extensions/Commands/Help/testing.py:893
+msgid "Stands for the fact that you can use multiple arguments.\n\n"
+"                        Now that you know the basics, you should still know that...\n"
+"                        __**You don't include the parentheses!**__"
+msgstr "Stelt vast dat je meerdere argumenten kunt gebruiken.\n\n"
+"                        Nu je de basis kent, Dat zou je toch moeten weten..\n"
+"                        __**U voegt de haakjes niet toe! *__"
+
+#: Extensions/Commands/Help/help.py:903 Extensions/Commands/Help/testing.py:903
 msgid "How do I use the bot?"
-msgstr ""
+msgstr "Hoe kan ik het gebruiken?"
 
-#: Extensions/Commands/Help/help.py:918 Extensions/Commands/Help/testing.py:951
+#: Extensions/Commands/Help/help.py:904 Extensions/Commands/Help/testing.py:904
 msgid "Reading the bot structure is pretty easy."
-msgstr ""
-
-#: Extensions/Commands/Help/testing.py:644
-msgid "This command got aliases which you can use"
-msgstr ""
-
-#: Extensions/Commands/Help/testing.py:678
-#, python-brace-format
-msgid "Usage of the {command} command"
-msgstr ""
-
-#: Extensions/Commands/Help/testing.py:699
-#, python-brace-format
-msgid "Examples of the {command} command"
-msgstr ""
+msgstr "Het lezen van de bot-structuur is vrij eenvoudig."
 
 #: Extensions/Commands/Information/channelinfo/__init__.py:37
 msgid "Get information about a specific channel.\n"
@@ -965,7 +976,13 @@ msgid "Get information about a specific channel.\n"
 "            -----------\n"
 "            guild: Optional[str]\n"
 "                the guild name or id to get information about"
-msgstr ""
+msgstr "Meer informatie over een specifiek kanaal.\n"
+"            \n"
+"            Deze opdracht toont je wat informatie over een kanaal.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guild: Optionele[str]\n"
+"                de gilde naam of id om informatie te krijgen over"
 
 #: Extensions/Commands/Information/charinfo/__init__.py:34
 #: Extensions/Commands/Information/games/__init__.py:34
@@ -975,157 +992,167 @@ msgid "Displays information about a set of characters.\n"
 "            -----------\n"
 "            characters: str\n"
 "                the symbols to get information about"
-msgstr ""
+msgstr "Toont informatie over een aantal karakters.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            tekens: str\n"
+"                the symbolen to get about"
 
 #: Extensions/Commands/Information/charinfo/charinfo.py:20
 #: Extensions/Commands/Information/charinfo/testing.py:20
 #: Extensions/Commands/Information/games/charinfo.py:20
 #: Extensions/Commands/Information/games/testing.py:20
 msgid "Charinfo Command"
-msgstr ""
+msgstr "Opdracht Charinfo"
 
 #: Extensions/Commands/Information/hoisters/__init__.py:33
 msgid "Shows a sorted list of members that have a nicknname"
-msgstr ""
+msgstr "Toont een gesorteerde lijst van leden die een bijnaam hebben"
 
 #: Extensions/Commands/Information/hoisters/hoisters.py:21
 #: Extensions/Commands/Information/hoisters/testing.py:21
 msgid "There are no members with a nick."
-msgstr ""
+msgstr "Er zijn geen leden op weer te geven."
 
 #: Extensions/Commands/Information/hoisters/hoisters.py:26
 #: Extensions/Commands/Information/hoisters/testing.py:26
 msgid "Here are all members with a nick, sorted by name."
-msgstr ""
+msgstr "Hier zijn alle leden met een bijn, gesorteerd op naam."
 
 #: Extensions/Commands/Information/information.py:14
 msgid "Informative commands about a wide variety of things.\n"
 "            Sometimes you find out new things 🤷"
-msgstr ""
+msgstr "Informatieve commando's over een breed scala aan dingen.\n"
+"            Soms ontdek je nieuwe dingen 🤷"
 
 #: Extensions/Commands/Information/information.py:28
 msgid "Information"
-msgstr ""
+msgstr "Informatie"
 
 #: Extensions/Commands/Information/invite/__init__.py:39
 msgid "Invite the bot to your server.\n\n"
 "            Of course, you can also simply add the bot via its user profile."
-msgstr ""
+msgstr "Nodig de bot uit voor je server.\n\n"
+"            Natuurlijk kan je de bot ook toevoegen via zijn gebruikersprofiel."
 
 #: Extensions/Commands/Information/invite/invite.py:14
 #: Extensions/Commands/Information/invite/testing.py:14
 msgid "The Shake Team and I thank you for your interest"
-msgstr ""
+msgstr "Het Shake Team en ik dank u voor uw interesse"
 
 #: Extensions/Commands/Information/invite/invite.py:34
 #: Extensions/Commands/Information/invite/testing.py:34
 msgid "Add Shake to your Server"
-msgstr ""
+msgstr "Voeg me toe aan jouw server"
 
 #: Extensions/Commands/Information/invite/invite.py:42
 #: Extensions/Commands/Information/invite/testing.py:42
 msgid "Join Shake's Server"
-msgstr ""
+msgstr "Join Shake's server"
 
 #: Extensions/Commands/Information/list/__init__.py:35
 msgid "list all guilds"
-msgstr ""
+msgstr "lijst van alle servers"
 
 #: Extensions/Commands/Information/list/list.py:20
 #: Extensions/Commands/Information/list/testing.py:20
 msgid "Current Guilds"
-msgstr ""
+msgstr "Huidige servers"
 
 #: Extensions/Commands/Information/list/list.py:22
 #: Extensions/Commands/Information/list/testing.py:22
 #, python-brace-format
 msgid "I'm currently in `{guilds}` guilds & this one is in top **{current}**."
-msgstr ""
+msgstr "Ik ben momenteel in `{guilds}` gilden & deze is in de top **{current}**."
 
 #: Extensions/Commands/Information/list/list.py:42
 #: Extensions/Commands/Information/list/testing.py:42
 #, python-brace-format
 msgid "**ID**: `{id}` **OWNER**: `{owner}` **MEMBERS**: `{members}`"
-msgstr ""
+msgstr "**ID**: `{id}` **OWNER**: `{owner}` **LEDEN **: `{members}`"
 
 #: Extensions/Commands/Information/ping/__init__.py:33
 msgid "Get some ping"
-msgstr ""
+msgstr "Krijg wat ping"
 
 #: Extensions/Commands/Information/ping/ping.py:16
 #: Extensions/Commands/Information/ping/testing.py:16
 msgid "Waiting for the \"Pong! 🏓\""
-msgstr ""
+msgstr "Wachten op de \"Pong! 🏓\""
 
 #: Extensions/Commands/Information/ping/ping.py:45
 #: Extensions/Commands/Information/ping/testing.py:45
 msgid "Pong! 🏓"
-msgstr ""
+msgstr "Pong! 🏓"
 
 #: Extensions/Commands/Information/ping/ping.py:48
 #: Extensions/Commands/Information/ping/testing.py:48
 msgid "Discord Gateway"
-msgstr ""
+msgstr "Discord Gateway"
 
 #: Extensions/Commands/Information/ping/ping.py:52
 #: Extensions/Commands/Information/ping/testing.py:52
 msgid "Discord Typing"
-msgstr ""
+msgstr "Discord typen"
 
 #: Extensions/Commands/Information/ping/ping.py:56
 #: Extensions/Commands/Information/ping/testing.py:56
 msgid "Discord Messaging"
-msgstr ""
+msgstr "Discord berichten"
 
 #: Extensions/Commands/Information/ping/ping.py:60
 #: Extensions/Commands/Information/ping/testing.py:60
 msgid "Postgres Database"
-msgstr ""
+msgstr "Postgres database"
 
 #: Extensions/Commands/Information/ping/ping.py:64
 #: Extensions/Commands/Information/ping/testing.py:64
 msgid "Average Latency"
-msgstr ""
+msgstr "Gemiddelde latency"
 
 #: Extensions/Commands/Information/ping/ping.py:79
 #: Extensions/Commands/Information/ping/testing.py:79
 msgid "Discord Status"
-msgstr ""
+msgstr "Discord status"
 
 #: Extensions/Commands/Information/plus/__init__.py:41
 msgid "Get information about Shake+.\n\n"
 "            Of course, you dont need it tho. It's like a tip"
-msgstr ""
+msgstr "Krijg informatie over Shake+.\n\n"
+"            Natuurlijk heb je het die niet nodig. Het is als een tip"
 
 #: Extensions/Commands/Information/plus/plus.py:14
 #: Extensions/Commands/Information/plus/testing.py:14
 msgid "> Shake Plus (Shake+)"
-msgstr ""
+msgstr "> Shake Plus (Shake+)"
 
 #: Extensions/Commands/Information/plus/plus.py:16
 #: Extensions/Commands/Information/plus/testing.py:16
 #, python-brace-format
 msgid "{emoji} This Discord server has no premium activated."
-msgstr ""
+msgstr "{emoji} Deze Discord server heeft geen premium geactiveerd."
 
 #: Extensions/Commands/Information/plus/plus.py:21
 #: Extensions/Commands/Information/plus/testing.py:21
 #, python-brace-format
 msgid "{emoji} The benefit of supporting Shake as Patreon"
-msgstr ""
+msgstr "{emoji} Het voordeel van het ondersteunen van Shake als Patreon"
 
 #: Extensions/Commands/Information/plus/plus.py:25
 #: Extensions/Commands/Information/plus/testing.py:25
 msgid "Supporting the Bot as Patreon will keep the motivation for the development of Shake and make sure that all hosting costs are covered.\n\n"
 "                Plus makes **voting no longer necessary** and gives you **more creator channel** to customize! \n"
 "                "
-msgstr ""
+msgstr "Het steunen van de Bot als Patreon zal de motivatie voor de ontwikkeling van Shake behouden en ervoor zorgen dat alle hosting kosten gedekt zijn.\n\n"
+"                Plus maakt **stemmen niet langer nodig** en geeft je **meer maker kanaal** om aan te passen! \n"
+"                "
 
 #: Extensions/Commands/Information/plus/plus.py:33
 #: Extensions/Commands/Information/plus/testing.py:33
 #, python-brace-format
 msgid "{emoji} Helpful links for understanding Patreon"
-msgstr ""
+msgstr "{emoji} handige links om Patreon te begrijpen"
 
 #: Extensions/Commands/Information/plus/plus.py:37
 #: Extensions/Commands/Information/plus/testing.py:37
@@ -1133,17 +1160,20 @@ msgid "**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-Wh
 "                **[What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
 "                **[How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
 "                "
-msgstr ""
+msgstr "**[Wat is patreon?]](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
+"**[Wat voor geldmethoden kan ik mee betalen?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
+"**[Hoe moet ik discord connecten met Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**                "
 
 #: Extensions/Commands/Information/plus/plus.py:55
 #: Extensions/Commands/Information/plus/testing.py:55
 msgid "Add Shake to your server"
-msgstr ""
+msgstr "Voeg me toe aan jouw server"
 
 #: Extensions/Commands/Information/rtfm/__init__.py:65
 msgid "View objects from certain documentation.\n\n"
 "            RTFM is internet slang for the phrase \"read the damn manual\"."
-msgstr ""
+msgstr "Bekijk objecten uit bepaalde documentatie.\n\n"
+"            LDDH internet slang voor de zin \"lees de damn handleiding\"."
 
 #: Extensions/Commands/Information/rtfm/__init__.py:90
 msgid "View the members stats of the rtfm command.\n"
@@ -1152,34 +1182,39 @@ msgid "View the members stats of the rtfm command.\n"
 "            -----------\n"
 "            member: Greedy[Member]\n"
 "                the members you want to get the stats from"
-msgstr ""
+msgstr "Bekijk de statistieken van de rtfm commando's van de leden.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            lid: Greedy[Member]\n"
+"                de leden waarvan je de statistieken wilt ontvangen"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:136
 #: Extensions/Commands/Information/rtfm/testing.py:136
 msgid "Couldn't find anything."
-msgstr ""
+msgstr "We konden niets vinden."
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:168
 #: Extensions/Commands/Information/rtfm/testing.py:168
 msgid "Uses"
-msgstr ""
+msgstr "Gebruikt"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:170
 #: Extensions/Commands/Information/rtfm/testing.py:170
 msgid "Total"
-msgstr ""
+msgstr "Totaal"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:181
 #: Extensions/Commands/Information/rtfm/testing.py:181
 #, python-brace-format
 msgid "**Total uses**: {total_uses}"
-msgstr ""
+msgstr "**Totaal gebruikt**: {total_uses}"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:184
 #: Extensions/Commands/Information/rtfm/testing.py:184
 #, python-brace-format
 msgid "**Top {top} member**:"
-msgstr ""
+msgstr "**Top {top} lid**:"
 
 #: Extensions/Commands/Information/serverinfo/__init__.py:43
 msgid "Get information about a specific server.\n"
@@ -1189,36 +1224,42 @@ msgid "Get information about a specific server.\n"
 "            -----------\n"
 "            guild: Optional[str]\n"
 "                the guild name or id to get information about"
-msgstr ""
+msgstr "Meer informatie over een specifiek kanaal.\n"
+"            \n"
+"            Deze opdracht toont je wat informatie over een kanaal.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guild: Optionele[str]\n"
+"                de gilde naam of id om informatie te krijgen over"
 
 #: Extensions/Commands/Information/serverinfo/__init__.py:66
 msgid "Either this server does not exist or I am not on it."
-msgstr ""
+msgstr "Deze server bestaat niet of ik zit er niet in."
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:47
 #: Extensions/Commands/Information/serverinfo/testing.py:47
 msgid "Categories"
-msgstr ""
+msgstr "Categorieën"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:50
 #: Extensions/Commands/Information/serverinfo/testing.py:50
 msgid "Text Channels"
-msgstr ""
+msgstr "Tekst Kanalen: {count}"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:59
 #: Extensions/Commands/Information/serverinfo/testing.py:59
 msgid "Voice Channels"
-msgstr ""
+msgstr "Spraakkanalen"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:62
 #: Extensions/Commands/Information/serverinfo/testing.py:62
 msgid "Stages"
-msgstr ""
+msgstr "Stages"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:63
 #: Extensions/Commands/Information/serverinfo/testing.py:63
 msgid "Forums"
-msgstr ""
+msgstr "Forums"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:64
 #: Extensions/Commands/Information/serverinfo/testing.py:64
@@ -1278,9 +1319,9 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/testing.py:269
 #: Extensions/Commands/Information/serverinfo/testing.py:647
 #: Extensions/Commands/Information/userinfo/testing.py:188
-#: Extensions/Commands/Information/userinfo/testing.py:958
+#: Extensions/Commands/Information/userinfo/testing.py:959
 #: Extensions/Commands/Information/userinfo/userinfo.py:188
-#: Extensions/Commands/Information/userinfo/userinfo.py:958
+#: Extensions/Commands/Information/userinfo/userinfo.py:959
 msgid "Created"
 msgstr ""
 
@@ -1508,9 +1549,9 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:533
 #: Extensions/Commands/Information/serverinfo/testing.py:533
 #: Extensions/Commands/Information/userinfo/testing.py:405
-#: Extensions/Commands/Information/userinfo/testing.py:962
+#: Extensions/Commands/Information/userinfo/testing.py:963
 #: Extensions/Commands/Information/userinfo/userinfo.py:405
-#: Extensions/Commands/Information/userinfo/userinfo.py:962
+#: Extensions/Commands/Information/userinfo/userinfo.py:963
 msgid "Badges"
 msgstr ""
 
@@ -1524,65 +1565,67 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:826
 #: Extensions/Commands/Information/userinfo/userinfo.py:826
 msgid "Activities"
-msgstr ""
+msgstr "Activiteiten"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:593
 #: Extensions/Commands/Information/serverinfo/testing.py:593
 msgid "Server Activities"
-msgstr ""
+msgstr "Server Activiteiten"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:607
 #: Extensions/Commands/Information/serverinfo/testing.py:607
 #, python-brace-format
 msgid "Top {index} Activity ({type})"
-msgstr ""
+msgstr "Top {index} activiteit ({type})"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:640
 #: Extensions/Commands/Information/serverinfo/testing.py:640
 #: Extensions/Commands/Information/userinfo/testing.py:888
 #: Extensions/Commands/Information/userinfo/userinfo.py:888
 msgid "General Overview"
-msgstr ""
+msgstr "Gewoon overview"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:657
 #: Extensions/Commands/Information/serverinfo/testing.py:657
 msgid "Region"
-msgstr ""
+msgstr "Regio"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:679
 #: Extensions/Commands/Information/serverinfo/testing.py:679
-#: Extensions/Commands/Information/userinfo/testing.py:957
-#: Extensions/Commands/Information/userinfo/userinfo.py:957
+#: Extensions/Commands/Information/userinfo/testing.py:958
+#: Extensions/Commands/Information/userinfo/userinfo.py:958
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:680
 #: Extensions/Commands/Information/serverinfo/testing.py:680
 msgid "Owner"
-msgstr ""
+msgstr "Eigenaar"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:683
 #: Extensions/Commands/Information/serverinfo/testing.py:683
 msgid "Stickers"
-msgstr ""
+msgstr "Stickers"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:685
 #: Extensions/Commands/Information/serverinfo/testing.py:685
 msgid "Boost"
-msgstr ""
+msgstr "Boost"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:690
 #: Extensions/Commands/Information/serverinfo/testing.py:690
-#: Extensions/Commands/Information/userinfo/testing.py:966
-#: Extensions/Commands/Information/userinfo/userinfo.py:966
+#: Extensions/Commands/Information/userinfo/testing.py:967
+#: Extensions/Commands/Information/userinfo/userinfo.py:967
 msgid "More Information"
-msgstr ""
+msgstr "Meer informatie"
 
-#: Extensions/Commands/Information/stats/__init__.py:54
+#: Extensions/Commands/Information/stats/__init__.py:61
 msgid "Get some basic information and statistics about me.\n"
 "            \n"
 "            very useful to stalk"
-msgstr ""
+msgstr "Verkrijg wat basisinformatie en statistieken over mij.\n"
+"            \n"
+"            erg handig om te stalen"
 
 #: Extensions/Commands/Information/stats/stats.py:71
 #: Extensions/Commands/Information/stats/stats.py:139
@@ -1591,119 +1634,119 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:894
 #: Extensions/Commands/Information/userinfo/userinfo.py:894
 msgid "Bot"
-msgstr ""
+msgstr "Bot"
 
 #: Extensions/Commands/Information/stats/stats.py:80
 #: Extensions/Commands/Information/stats/testing.py:80
 msgid "Bot Info"
-msgstr ""
+msgstr "Bot Info"
 
 #: Extensions/Commands/Information/stats/stats.py:83
 #: Extensions/Commands/Information/stats/testing.py:83
 msgid "Started"
-msgstr ""
+msgstr "Gestart"
 
 #: Extensions/Commands/Information/stats/stats.py:85
 #: Extensions/Commands/Information/stats/testing.py:85
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 #: Extensions/Commands/Information/stats/stats.py:91
 #: Extensions/Commands/Information/stats/testing.py:91
 msgid "Lines of Code"
-msgstr ""
+msgstr "Regels Code"
 
 #: Extensions/Commands/Information/stats/stats.py:96
 #: Extensions/Commands/Information/stats/testing.py:96
 msgid "Servers"
-msgstr ""
+msgstr "Servers"
 
 #: Extensions/Commands/Information/stats/stats.py:103
 #: Extensions/Commands/Information/stats/testing.py:103
 msgid "Users"
-msgstr ""
+msgstr "Users"
 
 #: Extensions/Commands/Information/stats/stats.py:110
-#: Extensions/Commands/Information/stats/stats.py:209
+#: Extensions/Commands/Information/stats/stats.py:207
 #: Extensions/Commands/Information/stats/testing.py:110
-#: Extensions/Commands/Information/stats/testing.py:209
+#: Extensions/Commands/Information/stats/testing.py:207
 msgid "Commands"
-msgstr ""
+msgstr "Opdrachten"
 
 #: Extensions/Commands/Information/stats/stats.py:127
 #: Extensions/Commands/Information/stats/testing.py:127
 msgid "System"
-msgstr ""
+msgstr "Systeem"
 
 #: Extensions/Commands/Information/stats/stats.py:136
 #: Extensions/Commands/Information/stats/testing.py:136
 msgid "System Info"
-msgstr ""
+msgstr "Systeem Info"
 
 #: Extensions/Commands/Information/stats/stats.py:146
 #: Extensions/Commands/Information/stats/testing.py:146
 msgid "Python version"
-msgstr ""
+msgstr "Python versie"
 
 #: Extensions/Commands/Information/stats/stats.py:153
 #: Extensions/Commands/Information/stats/testing.py:153
 msgid "Library version"
-msgstr ""
+msgstr "Library versie"
 
 #: Extensions/Commands/Information/stats/stats.py:175
 #: Extensions/Commands/Information/stats/testing.py:175
 msgid "Memory Usage"
-msgstr ""
+msgstr "Geheugengebruik"
 
 #: Extensions/Commands/Information/stats/stats.py:182
 #: Extensions/Commands/Information/stats/testing.py:182
 msgid "CPU Usage"
-msgstr ""
+msgstr "CPU Gebruik"
 
 #: Extensions/Commands/Information/stats/stats.py:187
 #: Extensions/Commands/Information/stats/testing.py:187
 msgid "Plattform"
-msgstr ""
+msgstr "Plattform"
 
-#: Extensions/Commands/Information/stats/stats.py:224
-#: Extensions/Commands/Information/stats/testing.py:224
+#: Extensions/Commands/Information/stats/stats.py:222
+#: Extensions/Commands/Information/stats/testing.py:222
 msgid "Most used commands"
-msgstr ""
+msgstr "Meest gebruikte opdrachten"
 
-#: Extensions/Commands/Information/stats/stats.py:260
-#: Extensions/Commands/Information/stats/testing.py:260
+#: Extensions/Commands/Information/stats/stats.py:258
+#: Extensions/Commands/Information/stats/testing.py:258
 msgid "Shake Statistics Overview"
-msgstr ""
+msgstr "Statistieken Overzicht"
 
-#: Extensions/Commands/Information/stats/stats.py:264
-#: Extensions/Commands/Information/stats/testing.py:264
+#: Extensions/Commands/Information/stats/stats.py:262
+#: Extensions/Commands/Information/stats/testing.py:262
 msgid "Support Server Link"
-msgstr ""
+msgstr "Ondersteunings- server"
 
-#: Extensions/Commands/Information/stats/stats.py:267
-#: Extensions/Commands/Information/stats/testing.py:267
+#: Extensions/Commands/Information/stats/stats.py:265
+#: Extensions/Commands/Information/stats/testing.py:265
 msgid "Shake Invition Link"
-msgstr ""
+msgstr "Shake Invite Link"
 
-#: Extensions/Commands/Information/stats/stats.py:277
-#: Extensions/Commands/Information/stats/testing.py:277
+#: Extensions/Commands/Information/stats/stats.py:275
+#: Extensions/Commands/Information/stats/testing.py:275
 msgid "Developer"
-msgstr ""
+msgstr "Ontwikkelaar"
 
-#: Extensions/Commands/Information/stats/stats.py:285
-#: Extensions/Commands/Information/stats/testing.py:285
+#: Extensions/Commands/Information/stats/stats.py:283
+#: Extensions/Commands/Information/stats/testing.py:283
 msgid "Bot name"
-msgstr ""
+msgstr "Bot naam"
 
-#: Extensions/Commands/Information/stats/stats.py:291
-#: Extensions/Commands/Information/stats/testing.py:291
+#: Extensions/Commands/Information/stats/stats.py:289
+#: Extensions/Commands/Information/stats/testing.py:289
 msgid "Bot ID"
-msgstr ""
+msgstr "Bot-ID"
 
-#: Extensions/Commands/Information/stats/stats.py:299
-#: Extensions/Commands/Information/stats/testing.py:299
+#: Extensions/Commands/Information/stats/stats.py:297
+#: Extensions/Commands/Information/stats/testing.py:297
 msgid "Bot creation"
-msgstr ""
+msgstr "Bot aanngemaakt"
 
 #: Extensions/Commands/Information/userinfo/__init__.py:56
 msgid "Get information about you or a specified user.\n"
@@ -1712,76 +1755,82 @@ msgid "Get information about you or a specified user.\n"
 "            -----------\n"
 "            user: Optional[Member | User]\n"
 "                @mention, ID or name of the user you want to get information about."
-msgstr ""
+msgstr "Meer informatie over een specifiek kanaal.\n"
+"            \n"
+"            Deze opdracht toont je wat informatie over een kanaal.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guild: Optionele[str]\n"
+"                de gilde naam of id om informatie te krijgen over."
 
 #: Extensions/Commands/Information/userinfo/testing.py:221
 #: Extensions/Commands/Information/userinfo/userinfo.py:221
 msgid "User's Avatar"
-msgstr ""
+msgstr "Gebruiker ProfielFoto"
 
 #: Extensions/Commands/Information/userinfo/testing.py:223
 #: Extensions/Commands/Information/userinfo/userinfo.py:223
 msgid "User's Display Avatar"
-msgstr ""
+msgstr "Weergave avatar van gebruiker"
 
 #: Extensions/Commands/Information/userinfo/testing.py:225
 #: Extensions/Commands/Information/userinfo/userinfo.py:225
 msgid "User's Guild Avatar"
-msgstr ""
+msgstr "Users's Server ProfileFoto"
 
 #: Extensions/Commands/Information/userinfo/testing.py:226
 #: Extensions/Commands/Information/userinfo/userinfo.py:226
 msgid "User's Banner"
-msgstr ""
+msgstr "Gebruikers Banner"
 
 #: Extensions/Commands/Information/userinfo/testing.py:288
 #: Extensions/Commands/Information/userinfo/userinfo.py:288
 msgid "Mutual Servers"
-msgstr ""
+msgstr "Gemeenschappelijke servers"
 
 #: Extensions/Commands/Information/userinfo/testing.py:299
 #: Extensions/Commands/Information/userinfo/userinfo.py:299
 #, python-brace-format
 msgid "Guild {page} of {pages}"
-msgstr ""
+msgstr "Server {page} van {pages}"
 
 #: Extensions/Commands/Information/userinfo/testing.py:324
 #: Extensions/Commands/Information/userinfo/testing.py:332
 #: Extensions/Commands/Information/userinfo/userinfo.py:324
 #: Extensions/Commands/Information/userinfo/userinfo.py:332
 msgid "Joining Postition"
-msgstr ""
+msgstr "Gejoined position"
 
 #: Extensions/Commands/Information/userinfo/testing.py:335
 #: Extensions/Commands/Information/userinfo/userinfo.py:335
 msgid "Member's position"
-msgstr ""
+msgstr "Users's positie"
 
 #: Extensions/Commands/Information/userinfo/testing.py:352
 #: Extensions/Commands/Information/userinfo/userinfo.py:352
 msgid "Joined on"
-msgstr ""
+msgstr "Lid geworden op"
 
 #: Extensions/Commands/Information/userinfo/testing.py:391
 #: Extensions/Commands/Information/userinfo/userinfo.py:391
 #, python-brace-format
 msgid "Total of {items} Members"
-msgstr ""
+msgstr "Totaal van {items} leden"
 
 #: Extensions/Commands/Information/userinfo/testing.py:414
 #: Extensions/Commands/Information/userinfo/userinfo.py:414
 msgid "User Badges"
-msgstr ""
+msgstr "Gebruikers Badges"
 
 #: Extensions/Commands/Information/userinfo/testing.py:444
 #: Extensions/Commands/Information/userinfo/userinfo.py:444
 msgid "Counting"
-msgstr ""
+msgstr "Telling"
 
 #: Extensions/Commands/Information/userinfo/testing.py:450
 #: Extensions/Commands/Information/userinfo/userinfo.py:450
 msgid "Counting stats"
-msgstr ""
+msgstr "Telling Stats"
 
 #: Extensions/Commands/Information/userinfo/testing.py:481
 #: Extensions/Commands/Information/userinfo/testing.py:589
@@ -1789,7 +1838,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:589
 #, python-brace-format
 msgid "{user} scored a total of {score} valid counts (#{placement})"
-msgstr ""
+msgstr "{user} scoorde een totaal van {score} geldige aantallen (#{placement})"
 
 #: Extensions/Commands/Information/userinfo/testing.py:491
 #: Extensions/Commands/Information/userinfo/testing.py:599
@@ -1798,7 +1847,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:599
 #: Extensions/Commands/Information/userinfo/userinfo.py:703
 msgid "Total passed"
-msgstr ""
+msgstr "Totale passes"
 
 #: Extensions/Commands/Information/userinfo/testing.py:503
 #: Extensions/Commands/Information/userinfo/testing.py:611
@@ -1807,7 +1856,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:611
 #: Extensions/Commands/Information/userinfo/userinfo.py:715
 msgid "Total failed"
-msgstr ""
+msgstr "Totaal niet gelukt"
 
 #: Extensions/Commands/Information/userinfo/testing.py:515
 #: Extensions/Commands/Information/userinfo/testing.py:623
@@ -1816,7 +1865,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:623
 #: Extensions/Commands/Information/userinfo/userinfo.py:727
 msgid "Total rate"
-msgstr ""
+msgstr "Total Rate"
 
 #: Extensions/Commands/Information/userinfo/testing.py:524
 #: Extensions/Commands/Information/userinfo/testing.py:632
@@ -1825,12 +1874,12 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:632
 #: Extensions/Commands/Information/userinfo/userinfo.py:736
 msgid "Total last played"
-msgstr ""
+msgstr "Totaal meest gespeeld"
 
 #: Extensions/Commands/Information/userinfo/testing.py:535
 #: Extensions/Commands/Information/userinfo/userinfo.py:535
 msgid "Total highest count"
-msgstr ""
+msgstr "Totaal aantal hoogste"
 
 #: Extensions/Commands/Information/userinfo/testing.py:541
 #: Extensions/Commands/Information/userinfo/testing.py:642
@@ -1839,158 +1888,166 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:642
 #: Extensions/Commands/Information/userinfo/userinfo.py:754
 msgid "Information can update with time"
-msgstr ""
+msgstr "Informatie kan bijgewerkt worden met tijd"
 
 #: Extensions/Commands/Information/userinfo/testing.py:555
 #: Extensions/Commands/Information/userinfo/userinfo.py:555
 msgid "OneWord"
-msgstr ""
+msgstr "Één woord"
 
 #: Extensions/Commands/Information/userinfo/testing.py:561
 #: Extensions/Commands/Information/userinfo/userinfo.py:561
 msgid "OneWord stats"
-msgstr ""
+msgstr "OneWord statistieken"
 
 #: Extensions/Commands/Information/userinfo/testing.py:656
 #: Extensions/Commands/Information/userinfo/userinfo.py:656
 msgid "AboveMe"
-msgstr ""
+msgstr "AboveMe"
 
 #: Extensions/Commands/Information/userinfo/testing.py:662
 #: Extensions/Commands/Information/userinfo/userinfo.py:662
 msgid "AboveMe stats"
-msgstr ""
+msgstr "AboveMe statistieken"
 
 #: Extensions/Commands/Information/userinfo/testing.py:693
 #: Extensions/Commands/Information/userinfo/userinfo.py:693
 #, python-brace-format
 msgid "{user} scored a total of {score} valid phrases (#{placement})"
-msgstr ""
+msgstr "{user} scoorde een totaal van {score} geldige aantallen (#{placement})"
 
 #: Extensions/Commands/Information/userinfo/testing.py:747
 #: Extensions/Commands/Information/userinfo/userinfo.py:747
 msgid "Total longest sentance"
-msgstr ""
+msgstr "Totaal langste zin"
 
 #: Extensions/Commands/Information/userinfo/testing.py:776
 #: Extensions/Commands/Information/userinfo/userinfo.py:776
 msgid "Permissions"
-msgstr ""
+msgstr "Rechten"
 
 #: Extensions/Commands/Information/userinfo/testing.py:784
 #: Extensions/Commands/Information/userinfo/userinfo.py:784
 msgid "Members server permissions"
-msgstr ""
+msgstr "Ontbrekende server machtigingen"
 
 #: Extensions/Commands/Information/userinfo/testing.py:834
 #: Extensions/Commands/Information/userinfo/userinfo.py:834
 msgid "Member Activities"
-msgstr ""
+msgstr "Leden Activiteiten"
 
 #: Extensions/Commands/Information/userinfo/testing.py:846
 #: Extensions/Commands/Information/userinfo/userinfo.py:846
 #, python-brace-format
 msgid "to {name} by {author} on Spotify"
-msgstr ""
+msgstr "om {name} door {author} op Spotify"
 
 #: Extensions/Commands/Information/userinfo/testing.py:896
 #: Extensions/Commands/Information/userinfo/userinfo.py:896
 msgid "Discord System"
-msgstr ""
+msgstr "Discord status"
 
 #: Extensions/Commands/Information/userinfo/testing.py:899
 #: Extensions/Commands/Information/userinfo/userinfo.py:899
 msgid "Member"
-msgstr ""
-
-#: Extensions/Commands/Information/userinfo/testing.py:917
-#: Extensions/Commands/Information/userinfo/userinfo.py:917
-msgid "online"
-msgstr ""
+msgstr "Lid"
 
 #: Extensions/Commands/Information/userinfo/testing.py:918
 #: Extensions/Commands/Information/userinfo/userinfo.py:918
+msgid "online"
+msgstr "online"
+
+#: Extensions/Commands/Information/userinfo/testing.py:919
+#: Extensions/Commands/Information/userinfo/userinfo.py:919
 msgid "offline"
-msgstr ""
+msgstr "offline"
 
 #: Extensions/Commands/Information/userinfo/testing.py:920
 #: Extensions/Commands/Information/userinfo/userinfo.py:920
-msgid "idle"
-msgstr ""
+msgid "streaming"
+msgstr "streamen"
 
 #: Extensions/Commands/Information/userinfo/testing.py:921
 #: Extensions/Commands/Information/userinfo/userinfo.py:921
+msgid "idle"
+msgstr "inactief"
+
+#: Extensions/Commands/Information/userinfo/testing.py:922
+#: Extensions/Commands/Information/userinfo/userinfo.py:922
 msgid "dnd"
-msgstr ""
+msgstr "laat met rust"
 
-#: Extensions/Commands/Information/userinfo/testing.py:927
-#: Extensions/Commands/Information/userinfo/userinfo.py:927
+#: Extensions/Commands/Information/userinfo/testing.py:928
+#: Extensions/Commands/Information/userinfo/userinfo.py:928
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
-#: Extensions/Commands/Information/userinfo/testing.py:932
-#: Extensions/Commands/Information/userinfo/userinfo.py:932
+#: Extensions/Commands/Information/userinfo/testing.py:933
+#: Extensions/Commands/Information/userinfo/userinfo.py:933
 msgid "Top Role"
-msgstr ""
+msgstr "Hoogste rol"
 
-#: Extensions/Commands/Information/userinfo/testing.py:936
-#: Extensions/Commands/Information/userinfo/userinfo.py:936
+#: Extensions/Commands/Information/userinfo/testing.py:937
+#: Extensions/Commands/Information/userinfo/userinfo.py:937
 msgid "Server Owner"
-msgstr ""
-
-#: Extensions/Commands/Information/userinfo/testing.py:951
-#: Extensions/Commands/Information/userinfo/userinfo.py:951
-msgid "Display name"
-msgstr ""
+msgstr "Server Eigenaar"
 
 #: Extensions/Commands/Information/userinfo/testing.py:952
 #: Extensions/Commands/Information/userinfo/userinfo.py:952
-msgid "#Tag"
-msgstr ""
+msgid "Display name"
+msgstr "Weergavenaam"
 
 #: Extensions/Commands/Information/userinfo/testing.py:953
 #: Extensions/Commands/Information/userinfo/userinfo.py:953
-msgid "Migrated to username"
-msgstr ""
+msgid "#Tag"
+msgstr "Tag"
 
-#: Extensions/Commands/Information/userinfo/testing.py:959
-#: Extensions/Commands/Information/userinfo/userinfo.py:959
-msgid "Shared Servers"
-msgstr ""
+#: Extensions/Commands/Information/userinfo/testing.py:954
+#: Extensions/Commands/Information/userinfo/userinfo.py:954
+msgid "Migrated to username"
+msgstr "Migrate naar gebruiker"
 
 #: Extensions/Commands/Information/userinfo/testing.py:960
 #: Extensions/Commands/Information/userinfo/userinfo.py:960
+msgid "Shared Servers"
+msgstr "Gedeelde servers"
+
+#: Extensions/Commands/Information/userinfo/testing.py:961
+#: Extensions/Commands/Information/userinfo/userinfo.py:961
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
 #: Extensions/Commands/Information/vote/__init__.py:36
 msgid "Get information about Shake+.\n\n"
 "            Of course, you dont have to. It's like a tip"
-msgstr ""
+msgstr "Krijg informatie over Shake+.\n\n"
+"            Natuurlijk heb je het die niet nodig. Het is als een tip"
 
 #: Extensions/Commands/Information/vote/testing.py:15
 #: Extensions/Commands/Information/vote/vote.py:15
 msgid "> Help Shake on its way (Vote)"
-msgstr ""
+msgstr "> Help Shake onderweg (Stem)"
 
 #: Extensions/Commands/Information/vote/testing.py:18
 #: Extensions/Commands/Information/vote/vote.py:18
 #, python-brace-format
 msgid "{emoji} The benefit of supporting Shake with Voting"
-msgstr ""
+msgstr "{emoji} Het voordeel van het ondersteunen van Shake als Patreon"
 
 #: Extensions/Commands/Information/vote/testing.py:22
 #: Extensions/Commands/Information/vote/vote.py:22
 msgid "> _Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility and helps others discover Shake too._\n\n"
 "                **Thanks for every vote!!**\n"
 "                "
-msgstr ""
+msgstr "> _Het ondersteunen van de Bot met een Stem zal de motivatie voor de ontwikkeling van Shake behouden, verhoogt de zichtbaarheid en helpt anderen ook Shake te ontdekken.\n\n"
+"                **Bedankt voor elke stem! **\n"
+"                "
 
 #: Extensions/Commands/Information/vote/testing.py:30
 #: Extensions/Commands/Information/vote/vote.py:30
 #, python-brace-format
 msgid "{emoji} Sites I am listed at"
-msgstr ""
+msgstr "{emoji} Sites waar ik op sta"
 
 #: Extensions/Commands/Information/vote/testing.py:32
 #: Extensions/Commands/Information/vote/vote.py:32
@@ -1999,25 +2056,29 @@ msgid "**[Vote for Shake on Top.gg]({topgg})**\n"
 "                **[Vote for Shake on Discordbotlist.com]({discordbotlist})**\n"
 "                **[Vote for Shake on discord-botlist.eu]({botlisteu})**\n"
 "                **[Vote for Shake on infinitybots.gg]({infinitybots})**"
-msgstr ""
+msgstr "**[Stem voor Shake op Top.gg]({topgg})**\n"
+"                **[Stem voor Shake op Discordbotlist. [({discordbotlist})**\n"
+"                **[Stem voor Shake op discord-botlist. u]({botlisteu})**\n"
+"                **[Stem voor Shake op oneindige oneindige bots. g]({infinitybots})**"
 
 #: Extensions/Commands/Information/vote/testing.py:45
 #: Extensions/Commands/Information/vote/vote.py:45
 #, python-brace-format
 msgid "{emoji} Other related links"
-msgstr ""
+msgstr "{emoji} Overige gerelateerde links"
 
 #: Extensions/Commands/Information/vote/testing.py:47
 #: Extensions/Commands/Information/vote/vote.py:47
 #, python-brace-format
 msgid "**[Shake on Discord Bots]({discordbots})**\n"
 "                **[Shake's Server on Discords]({discords})**"
-msgstr ""
+msgstr "**[Shake op Discord Bots]({discordbots})**\n"
+"                **[Shake's Server op Discords]({discords})**"
 
 #: Extensions/Commands/Information/vote/testing.py:67
 #: Extensions/Commands/Information/vote/vote.py:67
 msgid "Vote for Shake"
-msgstr ""
+msgstr "Stem voor Shake"
 
 #: Extensions/Commands/Inviting/invites/__init__.py:36
 msgid "See the users amount of invites.\n\n"
@@ -2026,15 +2087,20 @@ msgid "See the users amount of invites.\n\n"
 "            member: discord.Member\n"
 "                the member\n"
 "            "
-msgstr ""
+msgstr "Zie de hoeveelheid uitnodigingen.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            lid: discord.Member\n"
+"                het lid\n"
+"            "
 
 #: Extensions/Commands/Inviting/inviting.py:14
 msgid "Useful Commands to track invites and and get some members with these"
-msgstr ""
+msgstr "Handige commando's om uitnodigingen te volgen en enkele leden te krijgen met deze"
 
 #: Extensions/Commands/Inviting/inviting.py:26
 msgid "Inviting"
-msgstr ""
+msgstr "Uitnodigen"
 
 #: Extensions/Commands/Moderation/kick/__init__.py:46
 msgid "kicks a member\n\n"
@@ -2046,28 +2112,37 @@ msgid "kicks a member\n\n"
 "            reason: Optional[str]\n"
 "                the reason why you kicked the member(s)\n"
 "                "
-msgstr ""
+msgstr "kickt een lid\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            lid: Grijze[discord.Member]\n"
+"                de lid(s) om\n"
+"                \n"
+"            reden te kicken: Optioneel[str]\n"
+"                de reden waarom je de lid(s)\n"
+"                eruit hebt gegooid                "
 
 #: Extensions/Commands/Moderation/kick/kick.py:17
 #: Extensions/Commands/Moderation/kick/testing.py:17
 #: Extensions/Commands/Moderation/timeout/testing.py:19
 #: Extensions/Commands/Moderation/timeout/timeout.py:19
 msgid "No reason provided"
-msgstr ""
+msgstr "Geen reden opgegeven"
 
 #: Extensions/Commands/Moderation/kick/kick.py:32
 #: Extensions/Commands/Moderation/kick/testing.py:32
 msgid "The specified member(s) got successfully kicked"
-msgstr ""
+msgstr "De opgegeven leden(en) zijn met succes verwijderd"
 
 #: Extensions/Commands/Moderation/moderation.py:13
 msgid "Moderation related commands.\n"
 "            (Each of these commands requires certain authorization)."
-msgstr ""
+msgstr "Moderatie gerelateerde opdrachten.\n"
+"            (Each van deze commando's vereist bepaalde autorisatie)."
 
 #: Extensions/Commands/Moderation/moderation.py:23
 msgid "Moderation"
-msgstr ""
+msgstr "Moderatie"
 
 #: Extensions/Commands/Moderation/sudo/__init__.py:45
 msgid "execute commands with the rights of another user\n\n"
@@ -2083,7 +2158,19 @@ msgid "execute commands with the rights of another user\n\n"
 "            arguments: Optional[str]\n"
 "                the arguments\n"
 "            "
-msgstr ""
+msgstr "voer opdrachten uit met de rechten van een andere gebruiker\n\n"
+"            Je kunt aangeven wie dit commando uitvoert in welke tekst kanaal \"\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            kanaal: Optioneel[TextChannel]\n"
+"                het kanaal\n\n"
+"            gebruiker: Lid LudUser]\n"
+"                de gebruiker\n\n"
+"            commando: str\n"
+"                het commando\n\n"
+"            argumenten: Optioneel[str]\n"
+"                de argumenten\n"
+"            "
 
 #: Extensions/Commands/Moderation/timeout/__init__.py:59
 msgid "Puts member(s) in the timeout of a given time (default 1h)\n\n"
@@ -2097,12 +2184,20 @@ msgid "Puts member(s) in the timeout of a given time (default 1h)\n\n"
 "            reason: Optional[str]\n"
 "                the reason why you put the member(s) in the timeout\n"
 "                "
-msgstr ""
+msgstr "Kickt een lid\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            lid: Grijze[discord.Member]\n"
+"                de lid(s) om\n"
+"                \n"
+"            reden te kicken: Optioneel[str]\n"
+"                de reden waarom je de lid(s)\n"
+"                eruit hebt gegooid                "
 
 #: Extensions/Commands/Moderation/timeout/testing.py:39
 #: Extensions/Commands/Moderation/timeout/timeout.py:39
 msgid "The specified members were successfully muted"
-msgstr ""
+msgstr "De opgegeven leden(en) zijn met succes verwijderd"
 
 #: Extensions/Commands/NotSafeForWork/nsfw/__init__.py:36
 msgid "Find NSFW content for predefined tags.\n\n"
@@ -2115,7 +2210,16 @@ msgid "Find NSFW content for predefined tags.\n\n"
 "                The NSFW command you want to run.\n\n"
 "            amount: Optional[int]\n"
 "                Amount of posts from 1 to 20 (or 30 with Shake+)."
-msgstr ""
+msgstr "Vind NSFW-inhoud voor vooraf gedefinieerde tags.\n\n"
+"            Dit commando laat je een aantal berichten van NSFW-inhoud vinden die je wilde.\n"
+"            NSFW: Niet Safe For Werk\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            commando: str\n"
+"                De NSFW commando die je wilt uitvoeren.\n\n"
+"            bedrag: Optioneel[int]\n"
+"                aantal berichten van 1 tot 20 (of 30 met Shake+)."
 
 #: Extensions/Commands/Other/bash/__init__.py:36
 msgid "Run shell commands.\n\n"
@@ -2123,7 +2227,11 @@ msgid "Run shell commands.\n\n"
 "            -----------\n"
 "            command: str\n"
 "                the command"
-msgstr ""
+msgstr "Voer shell commando's uit.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            commando: str\n"
+"                het commando"
 
 #: Extensions/Commands/Other/dispatch/__init__.py:37
 msgid "Send an event\n\n"
@@ -2133,11 +2241,17 @@ msgid "Send an event\n\n"
 "                the name of the event\n\n"
 "            kwargs: Any\n"
 "                event keyword arguments"
-msgstr ""
+msgstr "Stuur een gebeurtenis\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            gebeurtenis: Optioneel[str]\n"
+"                de naam van de gebeurtenis\n\n"
+"            kwargs: Een\n"
+"                gebeurtenis trefwoord argumenten"
 
 #: Extensions/Commands/Other/do/__init__.py:35
 msgid "run commands multiple times"
-msgstr ""
+msgstr "opdrachten meerdere keren uitvoeren"
 
 #: Extensions/Commands/Other/extensions/__init__.py:55
 msgid "Reloads, unloads or loads extensions/commands of the bot\n"
@@ -2148,7 +2262,14 @@ msgid "Reloads, unloads or loads extensions/commands of the bot\n"
 "                re- un- or loading the <extensions>\n\n"
 "            extension: Greedy[ValidCog]\n"
 "                the extension(s) you want to re- un- or load"
-msgstr ""
+msgstr "Herladen, lost extensies/commando's van de bot\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            commando: Letterlijk[laad, onbelast, herladen]\n"
+"                her- un- of laden van de <extensions>\n\n"
+"            extensie: Grijze[ValidCog]\n"
+"                de extensies die u wilt her- of laden"
 
 #: Extensions/Commands/Other/language/__init__.py:43
 msgid "Display a list of availible languages and locale codes.\n"
@@ -2156,7 +2277,11 @@ msgid "Display a list of availible languages and locale codes.\n"
 "            You can check if your language is available by comparing against [this list](https://saimana.com/list-of-country-locale-code/)\n"
 "            Some of these languages are no real languages but serve as a way to spice up the text.\n"
 "            (If something is not yet translated, the english original text is used.)"
-msgstr ""
+msgstr "Toon een lijst met beschikbare talen en lokale codes.\n"
+"            \n"
+"            Je kunt controleren of jouw taal beschikbaar is door te vergelijken met [deze lijst](https://saimana. om/list-of-country-locale-code/)\n"
+"            Sommige van deze talen zijn geen echte talen, maar dienen als een manier om de tekst te verspreiden.\n"
+"            (Als er nog iets niet is vertaald, wordt de Engelse originele tekst gebruikt.)"
 
 #: Extensions/Commands/Other/language/__init__.py:75
 #, python-brace-format
@@ -2170,7 +2295,16 @@ msgid "Set your language for Shake.\n"
 "            \n"
 "            server: Optional[bool]\n"
 "                If the language should be set for the whole server"
-msgstr ""
+msgstr "Stel je taal in voor Shake.\n"
+"            Volledige lijst met beschikbare talen kan gevonden worden met `{prefix}taal`\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            taal: str\n"
+"                De locale code van de taal die je\n"
+"            \n"
+"            server wilt instellen: Optionele[bool]\n"
+"                Als de taal moet worden ingesteld voor de hele server"
 
 #: Extensions/Commands/Other/language/__init__.py:120
 msgid "Reset your language for Shake to the good old language\n"
@@ -2180,49 +2314,68 @@ msgid "Reset your language for Shake to the good old language\n"
 "            -----------\n"
 "            server: Optional[bool]\n"
 "                If the language should be reset for the whole server"
-msgstr ""
+msgstr "Reset je taal voor Shake naar de goede, oude taal\n"
+"            Verander niets als er geen taal is ingesteld\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            server: Optioneel[bool]\n"
+"                Als de taal gereset moet worden voor de hele server"
 
-#: Extensions/Commands/Other/language/language.py:99
-#: Extensions/Commands/Other/language/testing.py:99
-msgid "Your given language is not valid."
-msgstr ""
-
-#: Extensions/Commands/Other/language/language.py:102
-#: Extensions/Commands/Other/language/testing.py:102
-#, python-brace-format
-msgid "Use {command} to get a list of all available languages"
-msgstr ""
-
-#: Extensions/Commands/Other/language/language.py:108
-#: Extensions/Commands/Other/language/testing.py:108
-msgid "I'm sorry to say that I dont have your given locale ready."
-msgstr ""
+#: Extensions/Commands/Other/language/language.py:110
+#: Extensions/Commands/Other/language/testing.py:110
+msgid "Available Translations"
+msgstr "Beschikbare Vertalingen"
 
 #: Extensions/Commands/Other/language/language.py:112
 #: Extensions/Commands/Other/language/testing.py:112
 #, python-brace-format
-msgid "Try to contribute [here]({link}) if you want to!"
-msgstr ""
-
-#: Extensions/Commands/Other/language/language.py:118
-#: Extensions/Commands/Other/language/testing.py:118
-#, python-brace-format
-msgid "{name} was successfully set as language!"
-msgstr ""
-
-#: Extensions/Commands/Other/language/language.py:145
-#: Extensions/Commands/Other/language/testing.py:145
-msgid "Available Translations"
-msgstr ""
-
-#: Extensions/Commands/Other/language/language.py:147
-#: Extensions/Commands/Other/language/testing.py:147
-#, python-brace-format
 msgid "There are currently translations for `{languages}` languages \n"
 "and your current language is **{current}**.\n\n"
-"{_}Don't you see your language or is incomplete?{_} \n"
+"{_}Don't you see your language or is it incomplete?{_} \n"
 "Then come help us out on [Crowdin]({link})!"
-msgstr ""
+msgstr "Er zijn momenteel vertalingen voor `{languages}` talen \n"
+"en jouw huidige taal is **{current}**.\n\n"
+"{_}Zie je je taal niet of is deze onvolledig?{_} \n"
+"Help ons dan met [Crowdin]({link})!"
+
+#: Extensions/Commands/Other/language/language.py:130
+#: Extensions/Commands/Other/language/language.py:164
+#: Extensions/Commands/Other/language/testing.py:130
+#: Extensions/Commands/Other/language/testing.py:164
+msgid "Your given language is not valid."
+msgstr "Uw opgegeven taal is niet geldig."
+
+#: Extensions/Commands/Other/language/language.py:133
+#: Extensions/Commands/Other/language/language.py:167
+#: Extensions/Commands/Other/language/testing.py:133
+#: Extensions/Commands/Other/language/testing.py:167
+#, python-brace-format
+msgid "Use {command} to get a list of all available languages"
+msgstr "Gebruik {command} om een lijst van alle beschikbare talen te krijgen"
+
+#: Extensions/Commands/Other/language/language.py:139
+#: Extensions/Commands/Other/language/language.py:173
+#: Extensions/Commands/Other/language/testing.py:139
+#: Extensions/Commands/Other/language/testing.py:173
+msgid "I'm sorry to say that I dont have your given locale ready."
+msgstr "Het spijt me te moeten zeggen dat ik je gegeven lokale niet klaar heb."
+
+#: Extensions/Commands/Other/language/language.py:143
+#: Extensions/Commands/Other/language/language.py:177
+#: Extensions/Commands/Other/language/testing.py:143
+#: Extensions/Commands/Other/language/testing.py:177
+#, python-brace-format
+msgid "Try to contribute [here]({link}) if you want to!"
+msgstr "Probeer bij te dragen [here]({link}) als je wilt!"
+
+#: Extensions/Commands/Other/language/language.py:150
+#: Extensions/Commands/Other/language/language.py:184
+#: Extensions/Commands/Other/language/testing.py:150
+#: Extensions/Commands/Other/language/testing.py:184
+#, python-brace-format
+msgid "{name} was successfully set as language!"
+msgstr "{name} is succesvol ingesteld als taal!"
 
 #: Extensions/Commands/Other/leave/__init__.py:37
 msgid "Leave a guild\n\n"
@@ -2230,55 +2383,59 @@ msgid "Leave a guild\n\n"
 "            -----------\n"
 "            guild: int\n"
 "                the ID of the server"
-msgstr ""
+msgstr "Verlaat een gilde\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guild: int\n"
+"                de ID van de server"
 
 #: Extensions/Commands/Other/leave/leave.py:23
 #: Extensions/Commands/Other/leave/testing.py:23
 #, python-brace-format
 msgid "{emoji} {prefix} The given server is not valid"
-msgstr ""
+msgstr "{emoji} {prefix} De opgegeven server is niet geldig"
 
 #: Extensions/Commands/Other/leave/leave.py:31
 #: Extensions/Commands/Other/leave/testing.py:31
 #, python-brace-format
 msgid "{emoji} {prefix} leaving the guild raised an error"
-msgstr ""
+msgstr "{emoji} {prefix} verlaten van de gilde heeft een fout veroorzaakt"
 
 #: Extensions/Commands/Other/leave/leave.py:37
 #: Extensions/Commands/Other/leave/testing.py:37
 #, python-brace-format
 msgid "{emoji} {prefix} I'll leave the given server"
-msgstr ""
+msgstr "{emoji} {prefix} Ik zal de gegeven server verlaten"
 
 #: Extensions/Commands/Other/other.py:12
 msgid "Other commands without categories"
-msgstr ""
+msgstr "Andere commando's zonder categorieën"
 
 #: Extensions/Commands/Other/other.py:20
 msgid "Other"
-msgstr ""
+msgstr "Andere"
 
 #: Extensions/Commands/Other/ptb/__init__.py:36
 msgid "Temporarily adds a server/channel/user to the public test build"
-msgstr ""
+msgstr "Voeg tijdelijk een server/kanaal/gebruiker toe aan de publieke test build"
 
 #: Extensions/Commands/Other/ptb/ptb.py:51
 msgid "Your input does not match any server/channel/user I can find"
-msgstr ""
+msgstr "Je invoer komt niet overeen met een server/kanaal/gebruiker die ik kan vinden"
 
 #: Extensions/Commands/Other/ptb/ptb.py:61
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: Extensions/Commands/Other/ptb/ptb.py:66
 #, python-brace-format
 msgid "{name} is __removed__ from the public test build"
-msgstr ""
+msgstr "{name} is __removed__ van de openbare test build"
 
 #: Extensions/Commands/Other/ptb/ptb.py:71
 #, python-brace-format
 msgid "{name} is temporarily __added__ to the public test build"
-msgstr ""
+msgstr "{name} is tijdelijk __added__ naar de openbare test build"
 
 #: Extensions/Commands/Other/repl/__init__.py:41
 msgid "Run your own xyz codes.\n\n"
@@ -2299,16 +2456,33 @@ msgid "Run your own xyz codes.\n\n"
 "            -----------\n"
 "            code: str\n"
 "                the code input to execute"
-msgstr ""
+msgstr "Voer je eigen xyz-codes uit.\n\n"
+"            Een read-eval-print lus (REPL), ook een interactieve toplevel of taalshell, genoemd\n"
+"            neemt enkele gebruiker invoer, Hiermee wordt deze uitgevoerd en retourneert het resultaat terug naar de gebruiker.\n\n"
+"            Je kunt deze code simpelweg opgeven als argument en ook in aanhalingstekens (`).\n"
+"            Optioneel kun je gemeenschappelijke kenmerken zoals ctx, bot etc. gebruiken. in de code.\n\n"
+"            Milieu Variabelen:\n"
+"                ctx - commando aanroep context\n"
+"                bot - ShakeBot\n"
+"                kanaal - huidige kanaal\n"
+"                auteur - bericht van de auteur van het lid\n"
+"                - bericht van de auteur van het commando\n"
+"                __ref - Refereer als je\n"
+"                __last__    - variabelen van de laatste repl\n"
+"                __ - resultaat van het laatste antwoord.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            code: str\n"
+"                de code input om uit te voeren"
 
 #: Extensions/Commands/Other/restart/__init__.py:37
 msgid "Stops and starts the bot like in a regular Restart"
-msgstr ""
+msgstr "Stopt en start de bot zoals in een gewone herstart"
 
 #: Extensions/Commands/Other/restart/restart.py:15
 #: Extensions/Commands/Other/restart/testing.py:15
 msgid "Bot will restart now"
-msgstr ""
+msgstr "Poweramp gaat nu herstarten"
 
 #: Extensions/Commands/Other/sync/__init__.py:43
 msgid "synchronize the bot with its commands\n\n"
@@ -2324,117 +2498,129 @@ msgid "synchronize the bot with its commands\n\n"
 "                the spec\n\n"
 "            dump: Optional[bool]\n"
 "                if dump"
-msgstr ""
+msgstr "synchroniseer de bot met de commando's\n\n"
+"            De synchronisatie wordt gebruikt om de wijzigingen te herladen.\n"
+"            Synchroniseren wanneer . .\n"
+"            - ... ommands, argumenten of permissies zijn toegevoegd, verwijderd of gewijzigd\n"
+"            - ... global/server commando wordt een server/globale opdracht\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            gilden: Optioneel[strl]\n"
+"                the guilds\n\n"
+"            spec: Optioneel[literal[\"~\", \"*\", \"^\"]]\n"
+"                de spec\n\n"
+"            dump: Optional[bool]\n"
+"                if dump"
 
 #: Extensions/Commands/Other/sync/sync.py:53
 #: Extensions/Commands/Other/sync/testing.py:53
 #, python-brace-format
 msgid "{amount} Command*s to the current guild synchronized."
-msgstr ""
+msgstr "{amount} Command*s naar de huidige gilde gesynchroniseerd."
 
 #: Extensions/Commands/Other/sync/sync.py:55
 #: Extensions/Commands/Other/sync/testing.py:55
 #, python-brace-format
 msgid "{amount} Command*s globally synchronized."
-msgstr ""
+msgstr "{amount} Command*s wereldwijd gesynchroniseerd."
 
 #: Extensions/Functions/Commands/command/completion/command_completion.py:28
 #: Extensions/Functions/Commands/command/completion/testing.py:28
 #, python-brace-format
 msgid "{_}Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!{_}"
-msgstr ""
+msgstr "{_}plezier met Shake? Ik zou het leuk vinden als jij </vote:1056920829620924439> voor mij of **deel** me met je vrienden hebt!{_}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:45
 #: Extensions/Functions/Commands/command/error/testing.py:45
 #, python-brace-format
 msgid "I am missing [`{permissions}`](https://support.discord.com/hc/en-us/articles/206029707) permission(s) to run this command."
-msgstr ""
+msgstr "Ik mis de [`{permissions}`](https://support.discord.com/hc/en-us/articles/206029707) permissie(s) om dit commando uit te voeren."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:50
 #: Extensions/Functions/Commands/command/error/testing.py:50
 #, python-brace-format
 msgid "You typed in some bad arguments, try {command}"
-msgstr ""
+msgstr "Je hebt een aantal slechte argumenten ingetypt, probeer {command}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:65
 #: Extensions/Functions/Commands/command/error/testing.py:65
 #, python-brace-format
 msgid "You did something wrong with the arguments, try {command}"
-msgstr ""
+msgstr "Je hebt iets verkeerd gedaan met de argumenten, probeer {command}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:70
 #: Extensions/Functions/Commands/command/error/testing.py:70
 #, python-brace-format
 msgid "I cannot see the server `{argument}` because it does not exist or I am not a member of it."
-msgstr ""
+msgstr "Ik kan de server `{argument}` niet zien omdat deze niet bestaat of omdat ik er geen lid van ben."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:78
 #: Extensions/Functions/Commands/command/error/testing.py:78
 #, python-brace-format
 msgid "This type of entity does not exist: {original.text}"
-msgstr ""
+msgstr "Dit type entiteit bestaat niet: {original.text}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:83
 #: Extensions/Functions/Commands/command/error/testing.py:83
 msgid "Somehow, an unexpected error occurred. Try again later?"
-msgstr ""
+msgstr "Er is een onverwachte fout opgetreden. Probeer het later opnieuw?"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:87
 #: Extensions/Functions/Commands/command/error/testing.py:87
 #, python-brace-format
 msgid "You can use this command in {retry} seconds."
-msgstr ""
+msgstr "Je kunt dit commando gebruiken in {retry} seconden."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:93
 #: Extensions/Functions/Commands/command/error/testing.py:93
 #, python-brace-format
 msgid "Only the bot owner can run the command `{command}`."
-msgstr ""
+msgstr "Alleen de eigenaar van de bot kan het commando `{command} ` uitvoeren."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:98
 #: Extensions/Functions/Commands/command/error/testing.py:98
 #, python-brace-format
 msgid "You are missing `{permission}` permission(s) to run this command."
-msgstr ""
+msgstr "Je mist `{permission}` toestemming(en) om deze opdracht uit te voeren."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:103
 #: Extensions/Functions/Commands/command/error/testing.py:103
 msgid "Something wrong happened"
-msgstr ""
+msgstr "Er is iets fout gegaan"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:125
 #: Extensions/Functions/Commands/command/error/testing.py:125
 #, python-brace-format
 msgid "No command named `{invoked}` found. Use {help} for help."
-msgstr ""
+msgstr "Geen commando genaamd `{invoked}` gevonden. Gebruik {help} voor hulp."
 
 #: Extensions/Functions/Commands/command/error/command_error.py:133
 #: Extensions/Functions/Commands/command/error/testing.py:133
 #, python-brace-format
 msgid "Nothing named `{invoked}` found. Did you mean {closest}?"
-msgstr ""
+msgstr "Niets genaamd `{invoked}` gevonden. Bedoelde je {closest}?"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:177
 #: Extensions/Functions/Commands/command/error/testing.py:177
 #, python-brace-format
 msgid "The {type} {error} was reported to the Shake-Team!"
-msgstr ""
+msgstr "De {type} {error} werd gemeld bij het Shake-Team!"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:182
 #: Extensions/Functions/Commands/command/error/testing.py:182
 msgid "error"
-msgstr ""
+msgstr "fout"
 
 #: Extensions/Functions/Members/member/join/member_join.py:27
 #: Extensions/Functions/Members/member/join/testing.py:27
 #, python-brace-format
 msgid "Welcome to {guild}"
-msgstr ""
+msgstr "Welkom bij {guild}"
 
 #: Extensions/Functions/Members/member/join/member_join.py:30
 #: Extensions/Functions/Members/member/join/testing.py:30
 msgid "Please send the captcha code here"
-msgstr ""
+msgstr "Vul de getoonde tekens in"
 
 #: Extensions/Functions/Members/member/join/member_join.py:34
 #: Extensions/Functions/Members/member/join/testing.py:34
@@ -2445,30 +2631,36 @@ msgid "Hello! You are required to complete a captcha before entering the server.
 "            targeted attacks using automated user accounts.\n"
 "            \n"
 "            **Your Captcha:**"
-msgstr ""
+msgstr "Hallo! Je moet eerst een captcha invullen voordat je de server binnenkomt.\n"
+"            __**NOTE:**__ Dit is **niet** Kaak gevoelig.\n\n"
+"            **Waarom? *\n"
+"            Dit is om de server te beschermen tegen\n"
+"            gerichte aanvallen met behulp van geautomatiseerde gebruikersaccounts.\n"
+"            \n"
+"            **Jouw Captcha:**"
 
 #: Extensions/Functions/Members/member/join/member_join.py:64
 #: Extensions/Functions/Members/member/join/testing.py:64
 #, python-brace-format
 msgid "{emoji} {prefix} Thank you! You have been verified in guild `{guild}`"
-msgstr ""
+msgstr "{emoji} {prefix} Dank je! Je bent geverifieerd in de server`{guild}`"
 
 #: Extensions/Functions/Messages/message/delete/delete.py:131
 #: Extensions/Functions/Messages/message/delete/testing.py:131
 #, python-brace-format
-msgid "{user} deleted their word. The word was {word}!"
+msgid "The word from {user} got deleted. The word was {word}!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/delete/delete.py:148
-#: Extensions/Functions/Messages/message/delete/testing.py:148
+#: Extensions/Functions/Messages/message/delete/delete.py:149
+#: Extensions/Functions/Messages/message/delete/testing.py:149
 #, python-brace-format
-msgid "{user} deleted their phrase. The phrase was „{phrase}“!"
+msgid "The phrase from {user} got deleted. The phrase was „{phrase}“!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/delete/delete.py:165
-#: Extensions/Functions/Messages/message/delete/testing.py:165
+#: Extensions/Functions/Messages/message/delete/delete.py:169
+#: Extensions/Functions/Messages/message/delete/testing.py:169
 #, python-brace-format
-msgid "{user} deleted their count of {count}. The next number is {next}!"
+msgid "The count of {count} from {user} got deleted. The next number is {next}!"
 msgstr ""
 
 #: Extensions/Functions/Messages/message/edit/edit.py:130
@@ -2483,8 +2675,8 @@ msgstr ""
 msgid "{user} edited their phrase. The phrase was „{phrase}“!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/edit/edit.py:168
-#: Extensions/Functions/Messages/message/edit/testing.py:168
+#: Extensions/Functions/Messages/message/edit/edit.py:171
+#: Extensions/Functions/Messages/message/edit/testing.py:171
 #, python-brace-format
 msgid "{user} edited their count of {count}. The next number is {next}!"
 msgstr ""
@@ -2522,9 +2714,9 @@ msgstr ""
 
 #: Extensions/Functions/Messages/message/message.py:467
 #: Extensions/Functions/Messages/message/testing.py:467
-#: Extensions/Functions/Messages/message/utils/systems.py:98
-#: Extensions/Functions/Messages/message/utils/systems.py:105
-#: Extensions/Functions/Messages/message/utils/systems.py:237
+#: Extensions/Functions/Messages/message/utils/systems.py:97
+#: Extensions/Functions/Messages/message/utils/systems.py:104
+#: Extensions/Functions/Messages/message/utils/systems.py:234
 msgid "the one above me"
 msgstr ""
 
@@ -2544,127 +2736,127 @@ msgstr ""
 msgid "Your message should be something new"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/message.py:664
-#: Extensions/Functions/Messages/message/testing.py:664
+#: Extensions/Functions/Messages/message/message.py:662
+#: Extensions/Functions/Messages/message/testing.py:662
 msgid "You can't use anything but arithmetic here."
 msgstr ""
 
-#: Extensions/Functions/Messages/message/message.py:675
-#: Extensions/Functions/Messages/message/testing.py:675
+#: Extensions/Functions/Messages/message/message.py:673
+#: Extensions/Functions/Messages/message/testing.py:673
 msgid "You are not allowed to count multiple numbers in a row."
 msgstr ""
 
-#: Extensions/Functions/Messages/message/message.py:688
-#: Extensions/Functions/Messages/message/testing.py:688
+#: Extensions/Functions/Messages/message/message.py:686
+#: Extensions/Functions/Messages/message/testing.py:686
 msgid "You failed to often. No stats have been changed!!"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/message.py:693
+#: Extensions/Functions/Messages/message/testing.py:693
+#, python-brace-format
+msgid "The streak of {streak} was broken!"
 msgstr ""
 
 #: Extensions/Functions/Messages/message/message.py:695
 #: Extensions/Functions/Messages/message/testing.py:695
 #, python-brace-format
-msgid "The streak of {streak} was broken!"
-msgstr ""
-
-#: Extensions/Functions/Messages/message/message.py:697
-#: Extensions/Functions/Messages/message/testing.py:697
-#, python-brace-format
 msgid "You've topped your best streak with {streak} numbers 🔥"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/message.py:705
-#: Extensions/Functions/Messages/message/testing.py:705
+#: Extensions/Functions/Messages/message/message.py:703
+#: Extensions/Functions/Messages/message/testing.py:703
 #, python-brace-format
 msgid "Incorrect number! The next number remains {start}. {streak}"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/message.py:715
-#: Extensions/Functions/Messages/message/testing.py:715
+#: Extensions/Functions/Messages/message/message.py:713
+#: Extensions/Functions/Messages/message/testing.py:713
 #, python-brace-format
 msgid "{user} ruined it at {count}. The next number is {start}. {streak}"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/message.py:735
-#: Extensions/Functions/Messages/message/testing.py:735
+#: Extensions/Functions/Messages/message/message.py:733
+#: Extensions/Functions/Messages/message/testing.py:733
 #, python-brace-format
 msgid "You've reached your goal of {goal} {emoji} Congratulations!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/message.py:741
-#: Extensions/Functions/Messages/message/testing.py:741
+#: Extensions/Functions/Messages/message/message.py:739
+#: Extensions/Functions/Messages/message/testing.py:739
 #, python-brace-format
 msgid "You've reached the end of the numbers until 0 {emoji} Congratulations!"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:73
+#: Extensions/Functions/Messages/message/utils/systems.py:72
 #, python-brace-format
 msgid "{user} you are not allowed show off multiple numbers in a row."
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:82
+#: Extensions/Functions/Messages/message/utils/systems.py:81
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
 "                    Someone should still go on."
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:102
+#: Extensions/Functions/Messages/message/utils/systems.py:101
 #, python-brace-format
 msgid "{emoji} Your message should start with **{trigger}**"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:115
+#: Extensions/Functions/Messages/message/utils/systems.py:114
 #, python-brace-format
 msgid "{emoji} Your message should be something new"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:200
+#: Extensions/Functions/Messages/message/utils/systems.py:197
 #, python-brace-format
 msgid "{user} you can't change the course of history several times in a row."
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:209
+#: Extensions/Functions/Messages/message/utils/systems.py:206
 #, python-brace-format
 msgid "{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
 "                    Someone should still go on."
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:234
+#: Extensions/Functions/Messages/message/utils/systems.py:231
 #, python-brace-format
 msgid "{emoji} your message should contain **only one** word"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:336
+#: Extensions/Functions/Messages/message/utils/systems.py:331
 #, python-brace-format
 msgid "{emoji} You're not allowed to use anything except numbers here"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:352
+#: Extensions/Functions/Messages/message/utils/systems.py:347
 #, python-brace-format
 msgid "{user} you are not allowed to count multiple numbers in a row."
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:379
+#: Extensions/Functions/Messages/message/utils/systems.py:374
 #, python-brace-format
 msgid "{user} ruined it at **{count}** {facepalm}. **You apparently can't count properly**. The __next__ number {verb} ` {last} `. {streak}"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:385
+#: Extensions/Functions/Messages/message/utils/systems.py:380
 msgid "**You've topped your best streak with {} 🔥**"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:391
+#: Extensions/Functions/Messages/message/utils/systems.py:386
 msgid "is"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:391
+#: Extensions/Functions/Messages/message/utils/systems.py:386
 msgid "remains"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:397
+#: Extensions/Functions/Messages/message/utils/systems.py:392
 #, python-brace-format
 msgid "Incorrect number! The __next__ number is ` {last} `. **No stats have been changed since the current number was {count}.**"
 msgstr ""
 
-#: Extensions/Functions/Messages/message/utils/systems.py:421
+#: Extensions/Functions/Messages/message/utils/systems.py:416
 #, python-brace-format
 msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
 msgstr ""
@@ -2719,86 +2911,86 @@ msgstr ""
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:144
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s name is now `{name}`!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** Uw kanaal naam is nu `{name}`!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:157
 msgid "CHOOSE A LIMIT FOR YOUR VOICE CHANNEL"
-msgstr ""
+msgstr "KIES EEN BEPERKEN VOOR JE KUNNEN"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:159
 msgid "Leave blank to reset the limit"
-msgstr ""
+msgstr "Laat leeg om de standaard te gebruiken"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:180
 #, python-brace-format
 msgid "{emoji} **Invalid!** ` {value} ` is not a valid Value!!"
-msgstr ""
+msgstr "{emoji} **Ongeldig!** ` {value} ` is geen geldige waarde!!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:194
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s limit is now ` {limit} `!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** Jouw limiet is nu ` {limit}`!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:199
 msgid "unlimited"
-msgstr ""
+msgstr "onbeperkt"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:213
 msgid "Select a Privacy Option"
-msgstr ""
+msgstr "Selecteer een privacyoptie"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:227
 msgid "unlocked"
-msgstr ""
+msgstr "ontgrendeld"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:228
 msgid "locked"
-msgstr ""
+msgstr "vergrendeld"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:229
 msgid "invisible"
-msgstr ""
+msgstr "onzichtbaar"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:230
 msgid "visible"
-msgstr ""
+msgstr "zichtbaar"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:271
 #, python-brace-format
 msgid "{emoji} **Updated!** {channel} is now ` {mode} `!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** {channel} is nu ` {mode}`!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:294
 msgid "Invisible"
-msgstr ""
+msgstr "Onzichtbaar"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:296
 msgid "Everyone will be able to view your voice channel"
-msgstr ""
+msgstr "Iedereen zal je spraakkanaal kunnen bekijken"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:303
 msgid "Visible"
-msgstr ""
+msgstr "Zichtbaar"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:305
 msgid "Only trusted users will be able to view your voice channel"
-msgstr ""
+msgstr "Alleen vertrouwde gebruikers kunnen je spraakkanaal bekijken"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:314
 msgid "Lock"
-msgstr ""
+msgstr "Beveiligd"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:316
 msgid "Only trusted users will be able to join your voice channel"
-msgstr ""
+msgstr "Alleen vertrouwde gebruikers kunnen naar je spraakkanaal gaan"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:323
 msgid "Unlock"
-msgstr ""
+msgstr "Ontgrendelen"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:325
 msgid "Everyone will be able to join your voice channel"
-msgstr ""
+msgstr "Iedereen zal in staat zijn om je spraakkanaal te betreden"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:341
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:439
@@ -2809,90 +3001,90 @@ msgstr ""
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:890
 #, python-brace-format
 msgid "{emoji} Use this menu to select an option:"
-msgstr ""
+msgstr "{emoji} Gebruik dit menu om een optie te selecteren:"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:369
 msgid "Selected user will own your tempvoice channel!"
-msgstr ""
+msgstr "Geselecteerde gebruiker zal eigenaar zijn van uw tempvoice kanaal!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:388
 #, python-brace-format
 msgid "{emoji} **Invalid**! The selected member is not a valid user in your temporary voice channel."
-msgstr ""
+msgstr "{emoji} **Ongeldig**! Het geselecteerde lid is geen geldige gebruiker in je tijdelijke spraakkanaal."
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:429
 #, python-brace-format
 msgid "{emoji} **Updated!** The {user} is now ` owner ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** De {user} is nu ` van jouw tijdelijke {channel} kanaal!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:463
 msgid "Selected users will be trusted to join!"
-msgstr ""
+msgstr "Geselecteerde gebruikers worden vertrouwd om mee te doen!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:507
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` trusted ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** De geselecteerde gebruikers zijn nu ` vertrouwde ` van uw tijdelijke {channel} kanaal!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:537
 msgid "Selected users will be kicked and blocked!"
-msgstr ""
+msgstr "Geselecteerde gebruikers worden gekickt en geblokkeerd!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:586
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` blocked ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** De geselecteerde gebruikers zijn nu ` geblokkeerd ` van uw tijdelijke {channel} kanaal!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:617
 msgid "Selected user will be kicked from your tempvoice channel!"
-msgstr ""
+msgstr "Geselecteerde gebruiker zal worden verwijderd uit uw tempvoice kanaal!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:641
 #, python-brace-format
 msgid "{emoji} **Invalid**! None of the selected users are valid members of your temporary voice channel."
-msgstr ""
+msgstr "{emoji} **Ongeldig**! Geen van de geselecteerde gebruikers zijn geldige leden van je tijdelijke spraakkanaal."
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:654
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users got kicked from your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** De geselecteerde gebruikers zijn nu ` geblokkeerd ` van uw tijdelijke {channel} kanaal!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:672
 #, python-brace-format
 msgid "{emoji} this option is only for admins!"
-msgstr ""
+msgstr "{emoji} deze optie is alleen voor admins!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:696
 #, python-brace-format
-msgid "{emoji} Selected user is alredy owner of a temporary channel!"
+msgid "{emoji} Selected user is already owner of a temporary channel!"
 msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:737
 #, python-brace-format
 msgid "{emoji} **Updated!** You are now ` owner ` of the temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** De {user} is nu ` van jouw tijdelijke {channel} kanaal!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:762
 msgid "Selected users will be untrusted from joining!"
-msgstr ""
+msgstr "Geselecteerde gebruikers zullen niet worden vertrouwd om toe te treden!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:808
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` untrusted ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** De geselecteerde gebruikers zijn nu ` onvertrouwde ` van uw tijdelijke {channel} kanaal!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:838
 msgid "Selected users will be unblocked from joining!"
-msgstr ""
+msgstr "Geselecteerde gebruikers zullen niet worden geblocked om toe te treden!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:884
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` unblocked ` of your temporary {channel} channel!"
-msgstr ""
+msgstr "{emoji} **Bijgewerkt!** De geselecteerde gebruikers zijn nu ` geblokkeerd ` van uw tijdelijke {channel} kanaal!"
 
 #: Testing/tempvoice/__init__.py:35
 msgid "Manage the tempvoice features of Shake"
-msgstr ""
+msgstr "Beheer de tempvoice functies van Shake"
 
 #: Testing/tempvoice/__init__.py:53
 msgid "Set up TempVoice with a wizard in seconds.\n\n"
@@ -2907,33 +3099,45 @@ msgid "Set up TempVoice with a wizard in seconds.\n\n"
 "            user_limit: Optional[int]\n"
 "                the user limit\n"
 "            "
-msgstr ""
+msgstr "Setup de TempVoice met een Tovenaar in een paar seconden.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            prefix: Optional[strl]\n"
+"                the prefix\n\n"
+"            suffix: Optional[str]\n"
+"                the suffix\n\n"
+"            locked: Optional[bool]\n"
+"                if locked\n\n"
+"            user_limit: Optional[int]\n"
+"                the user limit\n"
+"            "
 
 #: Testing/tempvoice/tempvoice.py:43 Testing/tempvoice/testing.py:43
 msgid "tempvoice category"
-msgstr ""
+msgstr "tempvoice-categorie"
 
 #: Testing/tempvoice/tempvoice.py:59 Testing/tempvoice/testing.py:59
 msgid "︱Creator Channel"
-msgstr ""
+msgstr "—Creator Kanaal"
 
 #: Testing/tempvoice/tempvoice.py:75 Testing/tempvoice/testing.py:75
 msgid "︱interface"
-msgstr ""
+msgstr "interface"
 
 #: Testing/tempvoice/tempvoice.py:102 Testing/tempvoice/testing.py:102
 msgid "TempVoice Interface"
-msgstr ""
+msgstr "TempVoice Interface"
 
 #: Testing/tempvoice/tempvoice.py:104 Testing/tempvoice/testing.py:104
 #, python-brace-format
 msgid "{emoji} This interface can be used to edit your temporary channel.\n"
 "                More options will be available with {command} commands."
-msgstr ""
+msgstr "{emoji} Deze interface kan worden gebruikt om uw tijdelijk kanaal te bewerken.\n"
+"                Meer opties zullen beschikbaar zijn bij {command} commando's."
 
 #: Testing/tempvoice/tempvoice.py:135 Testing/tempvoice/testing.py:135
 msgid "Support"
-msgstr ""
+msgstr "Hulp"
 
 #~ msgid "ID:"
 #~ msgstr "ID:"
