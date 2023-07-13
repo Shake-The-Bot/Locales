@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 22:39\n"
+"PO-Revision-Date: 2023-07-13 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -591,7 +591,7 @@ msgstr ""
 #: Extensions/Commands/Community/schedule/testing.py:99
 #: Extensions/Commands/Community/schedule/testing.py:135
 msgid "Repetition"
-msgstr ""
+msgstr "تكرار"
 
 #: Extensions/Commands/Community/schedule/testing.py:100
 #: Extensions/Commands/Community/schedule/testing.py:136
@@ -613,12 +613,12 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/count/count.py:12
 #: Extensions/Commands/Gimmicks/count/testing.py:12
 msgid "Start?"
-msgstr ""
+msgstr "بدء?"
 
 #: Extensions/Commands/Gimmicks/count/count.py:22
 #: Extensions/Commands/Gimmicks/count/testing.py:22
 msgid "Congratulation"
-msgstr ""
+msgstr "تهانينا"
 
 #: Extensions/Commands/Gimmicks/count/count.py:28
 #: Extensions/Commands/Gimmicks/count/testing.py:28
@@ -630,7 +630,7 @@ msgstr "نعم"
 #: Extensions/Commands/Gimmicks/count/count.py:31
 #: Extensions/Commands/Gimmicks/count/testing.py:31
 msgid "Have fun!"
-msgstr ""
+msgstr "استمتع!"
 
 #: Extensions/Commands/Gimmicks/countdown/__init__.py:33
 msgid "It's the final countdown"
@@ -1000,7 +1000,7 @@ msgstr ""
 
 #: Extensions/Commands/Information/information.py:28
 msgid "Information"
-msgstr ""
+msgstr "معلومات"
 
 #: Extensions/Commands/Information/invite/__init__.py:39
 msgid "Invite the bot to your server.\n\n"
@@ -1080,12 +1080,12 @@ msgstr ""
 #: Extensions/Commands/Information/ping/ping.py:64
 #: Extensions/Commands/Information/ping/testing.py:64
 msgid "Average Latency"
-msgstr ""
+msgstr "متوسط التأخير"
 
 #: Extensions/Commands/Information/ping/ping.py:79
 #: Extensions/Commands/Information/ping/testing.py:79
 msgid "Discord Status"
-msgstr ""
+msgstr "حالة ديسكورد"
 
 #: Extensions/Commands/Information/plus/__init__.py:41
 msgid "Get information about Shake+.\n\n"
@@ -1152,17 +1152,17 @@ msgstr ""
 #: Extensions/Commands/Information/rtfm/rtfm.py:136
 #: Extensions/Commands/Information/rtfm/testing.py:136
 msgid "Couldn't find anything."
-msgstr ""
+msgstr "تعذر العثور على أي شيء"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:168
 #: Extensions/Commands/Information/rtfm/testing.py:168
 msgid "Uses"
-msgstr ""
+msgstr "إستخدام"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:170
 #: Extensions/Commands/Information/rtfm/testing.py:170
 msgid "Total"
-msgstr ""
+msgstr "مجموع"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:181
 #: Extensions/Commands/Information/rtfm/testing.py:181
@@ -1198,17 +1198,17 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:50
 #: Extensions/Commands/Information/serverinfo/testing.py:50
 msgid "Text Channels"
-msgstr ""
+msgstr "القنوات النصية"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:59
 #: Extensions/Commands/Information/serverinfo/testing.py:59
 msgid "Voice Channels"
-msgstr ""
+msgstr "القنوات الصوتية"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:62
 #: Extensions/Commands/Information/serverinfo/testing.py:62
 msgid "Stages"
-msgstr ""
+msgstr "المراحل"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:63
 #: Extensions/Commands/Information/serverinfo/testing.py:63
@@ -1218,7 +1218,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:64
 #: Extensions/Commands/Information/serverinfo/testing.py:64
 msgid "Threads"
-msgstr ""
+msgstr "المواضيع"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:65
 #: Extensions/Commands/Information/serverinfo/testing.py:65
@@ -1284,21 +1284,21 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:189
 #: Extensions/Commands/Information/userinfo/userinfo.py:189
 msgid "Mention"
-msgstr ""
+msgstr "إشارة"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:173
 #: Extensions/Commands/Information/serverinfo/testing.py:173
 #: Extensions/Commands/Information/userinfo/testing.py:190
 #: Extensions/Commands/Information/userinfo/userinfo.py:190
 msgid "Colour"
-msgstr ""
+msgstr "لون"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:175
 #: Extensions/Commands/Information/serverinfo/testing.py:175
 #: Extensions/Commands/Information/userinfo/testing.py:192
 #: Extensions/Commands/Information/userinfo/userinfo.py:192
 msgid "Default"
-msgstr ""
+msgstr "افتراضي"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:182
 #: Extensions/Commands/Information/serverinfo/testing.py:182
@@ -1342,7 +1342,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/testing.py:255
 #: Extensions/Commands/Information/serverinfo/testing.py:682
 msgid "Emojis"
-msgstr ""
+msgstr "ايموجيات"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:263
 #: Extensions/Commands/Information/serverinfo/testing.py:263
@@ -1352,17 +1352,17 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:270
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "Twitch"
-msgstr ""
+msgstr "تويتش"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:270
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "No"
-msgstr ""
+msgstr "لا"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:271
 #: Extensions/Commands/Information/serverinfo/testing.py:271
 msgid "Added"
-msgstr ""
+msgstr "مضاف"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:284
 #: Extensions/Commands/Information/serverinfo/testing.py:284
@@ -1373,12 +1373,12 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:301
 #: Extensions/Commands/Information/serverinfo/testing.py:301
 msgid "Nitro Booster"
-msgstr ""
+msgstr "معزز نيترو"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:318
 #: Extensions/Commands/Information/serverinfo/testing.py:318
 msgid "Server Nitro Booster"
-msgstr ""
+msgstr "معزز نيترو الخادم"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:321
 #: Extensions/Commands/Information/serverinfo/testing.py:321
@@ -1389,7 +1389,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:348
 #: Extensions/Commands/Information/serverinfo/testing.py:348
 msgid "Channels"
-msgstr ""
+msgstr "القنوات"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:368
 #: Extensions/Commands/Information/serverinfo/testing.py:368
@@ -1400,7 +1400,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:377
 #: Extensions/Commands/Information/serverinfo/testing.py:377
 msgid "Server Channels"
-msgstr ""
+msgstr "قنوات الخادم"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:395
 #: Extensions/Commands/Information/serverinfo/testing.py:395
@@ -1418,57 +1418,57 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/testing.py:417
 #: Extensions/Commands/Information/serverinfo/testing.py:671
 msgid "Members"
-msgstr ""
+msgstr "الأعضاء"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:426
 #: Extensions/Commands/Information/serverinfo/testing.py:426
 msgid "Server Members"
-msgstr ""
+msgstr "أعضاء الخادم"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:434
 #: Extensions/Commands/Information/serverinfo/testing.py:434
 msgid "Total Members"
-msgstr ""
+msgstr "مجموع الأعضاء"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:437
 #: Extensions/Commands/Information/serverinfo/testing.py:437
 msgid "Total Humans"
-msgstr ""
+msgstr "مجموع البشر"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:442
 #: Extensions/Commands/Information/serverinfo/testing.py:442
 msgid "Total Bots"
-msgstr ""
+msgstr "مجموع البوتات"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:447
 #: Extensions/Commands/Information/serverinfo/testing.py:447
 msgid "Total Online"
-msgstr ""
+msgstr "مجموع المتصلين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:452
 #: Extensions/Commands/Information/serverinfo/testing.py:452
 msgid "Humans Online"
-msgstr ""
+msgstr "البشر المتصلين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:457
 #: Extensions/Commands/Information/serverinfo/testing.py:457
 msgid "Bots Online"
-msgstr ""
+msgstr "البوتات المتصلين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:462
 #: Extensions/Commands/Information/serverinfo/testing.py:462
 msgid "Total Idle"
-msgstr ""
+msgstr "مجموع الخاملين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:467
 #: Extensions/Commands/Information/serverinfo/testing.py:467
 msgid "Humans Idle"
-msgstr ""
+msgstr "البشر الخاملين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:472
 #: Extensions/Commands/Information/serverinfo/testing.py:472
 msgid "Bots Idle"
-msgstr ""
+msgstr "البوتات الخاملين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:477
 #: Extensions/Commands/Information/serverinfo/testing.py:477
@@ -1488,17 +1488,17 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:492
 #: Extensions/Commands/Information/serverinfo/testing.py:492
 msgid "Total Offline"
-msgstr ""
+msgstr "مجموع غير المتصلين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:497
 #: Extensions/Commands/Information/serverinfo/testing.py:497
 msgid "Humans Offline"
-msgstr ""
+msgstr "البشر غير المتصلين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:502
 #: Extensions/Commands/Information/serverinfo/testing.py:502
 msgid "Bots Offline"
-msgstr ""
+msgstr "البوتات غير المتصلين"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:533
 #: Extensions/Commands/Information/serverinfo/testing.py:533
@@ -1507,24 +1507,24 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:405
 #: Extensions/Commands/Information/userinfo/userinfo.py:963
 msgid "Badges"
-msgstr ""
+msgstr "شارات"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:539
 #: Extensions/Commands/Information/serverinfo/testing.py:539
 msgid "Server Member Badges"
-msgstr ""
+msgstr "شارات أعضاء الخادم"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:583
 #: Extensions/Commands/Information/serverinfo/testing.py:583
 #: Extensions/Commands/Information/userinfo/testing.py:826
 #: Extensions/Commands/Information/userinfo/userinfo.py:826
 msgid "Activities"
-msgstr ""
+msgstr "أنشطة"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:593
 #: Extensions/Commands/Information/serverinfo/testing.py:593
 msgid "Server Activities"
-msgstr ""
+msgstr "أنشطة الخادم"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:607
 #: Extensions/Commands/Information/serverinfo/testing.py:607
@@ -1537,12 +1537,12 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:888
 #: Extensions/Commands/Information/userinfo/userinfo.py:888
 msgid "General Overview"
-msgstr ""
+msgstr "نظرة عامة"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:657
 #: Extensions/Commands/Information/serverinfo/testing.py:657
 msgid "Region"
-msgstr ""
+msgstr "المنطقة"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:679
 #: Extensions/Commands/Information/serverinfo/testing.py:679
@@ -1554,24 +1554,24 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:680
 #: Extensions/Commands/Information/serverinfo/testing.py:680
 msgid "Owner"
-msgstr ""
+msgstr "المالك"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:683
 #: Extensions/Commands/Information/serverinfo/testing.py:683
 msgid "Stickers"
-msgstr ""
+msgstr "الملصقات"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:685
 #: Extensions/Commands/Information/serverinfo/testing.py:685
 msgid "Boost"
-msgstr ""
+msgstr "تسريع"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:690
 #: Extensions/Commands/Information/serverinfo/testing.py:690
 #: Extensions/Commands/Information/userinfo/testing.py:967
 #: Extensions/Commands/Information/userinfo/userinfo.py:967
 msgid "More Information"
-msgstr ""
+msgstr "مزيد من المعلومات"
 
 #: Extensions/Commands/Information/stats/__init__.py:61
 msgid "Get some basic information and statistics about me.\n"
@@ -1591,7 +1591,7 @@ msgstr "Bot"
 #: Extensions/Commands/Information/stats/stats.py:80
 #: Extensions/Commands/Information/stats/testing.py:80
 msgid "Bot Info"
-msgstr ""
+msgstr "معلومات البوت"
 
 #: Extensions/Commands/Information/stats/stats.py:83
 #: Extensions/Commands/Information/stats/testing.py:83
@@ -1611,89 +1611,89 @@ msgstr ""
 #: Extensions/Commands/Information/stats/stats.py:96
 #: Extensions/Commands/Information/stats/testing.py:96
 msgid "Servers"
-msgstr ""
+msgstr "الخوادم"
 
 #: Extensions/Commands/Information/stats/stats.py:103
 #: Extensions/Commands/Information/stats/testing.py:103
 msgid "Users"
-msgstr ""
+msgstr "المستخدمين"
 
 #: Extensions/Commands/Information/stats/stats.py:110
 #: Extensions/Commands/Information/stats/stats.py:207
 #: Extensions/Commands/Information/stats/testing.py:110
 #: Extensions/Commands/Information/stats/testing.py:207
 msgid "Commands"
-msgstr ""
+msgstr "اﻷوامر"
 
 #: Extensions/Commands/Information/stats/stats.py:127
 #: Extensions/Commands/Information/stats/testing.py:127
 msgid "System"
-msgstr ""
+msgstr "نظام"
 
 #: Extensions/Commands/Information/stats/stats.py:136
 #: Extensions/Commands/Information/stats/testing.py:136
 msgid "System Info"
-msgstr ""
+msgstr "معلومات النظام"
 
 #: Extensions/Commands/Information/stats/stats.py:146
 #: Extensions/Commands/Information/stats/testing.py:146
 msgid "Python version"
-msgstr ""
+msgstr "نسخة بايثون"
 
 #: Extensions/Commands/Information/stats/stats.py:153
 #: Extensions/Commands/Information/stats/testing.py:153
 msgid "Library version"
-msgstr ""
+msgstr "نسخة المكتبة"
 
 #: Extensions/Commands/Information/stats/stats.py:175
 #: Extensions/Commands/Information/stats/testing.py:175
 msgid "Memory Usage"
-msgstr ""
+msgstr "استخدام الذاكرة"
 
 #: Extensions/Commands/Information/stats/stats.py:182
 #: Extensions/Commands/Information/stats/testing.py:182
 msgid "CPU Usage"
-msgstr ""
+msgstr "استخدام المعالج"
 
 #: Extensions/Commands/Information/stats/stats.py:187
 #: Extensions/Commands/Information/stats/testing.py:187
 msgid "Plattform"
-msgstr ""
+msgstr "المنصة"
 
 #: Extensions/Commands/Information/stats/stats.py:222
 #: Extensions/Commands/Information/stats/testing.py:222
 msgid "Most used commands"
-msgstr ""
+msgstr "الأوامر الأكثر استخداما"
 
 #: Extensions/Commands/Information/stats/stats.py:258
 #: Extensions/Commands/Information/stats/testing.py:258
 msgid "Shake Statistics Overview"
-msgstr ""
+msgstr "نظرة عامة على إحصائيات شيك"
 
 #: Extensions/Commands/Information/stats/stats.py:262
 #: Extensions/Commands/Information/stats/testing.py:262
 msgid "Support Server Link"
-msgstr ""
+msgstr "رابط خادم الدعم"
 
 #: Extensions/Commands/Information/stats/stats.py:265
 #: Extensions/Commands/Information/stats/testing.py:265
 msgid "Shake Invition Link"
-msgstr ""
+msgstr "رابط دعوة شيك"
 
 #: Extensions/Commands/Information/stats/stats.py:275
 #: Extensions/Commands/Information/stats/testing.py:275
 msgid "Developer"
-msgstr ""
+msgstr "مطور"
 
 #: Extensions/Commands/Information/stats/stats.py:283
 #: Extensions/Commands/Information/stats/testing.py:283
 msgid "Bot name"
-msgstr ""
+msgstr "اسم البوت"
 
 #: Extensions/Commands/Information/stats/stats.py:289
 #: Extensions/Commands/Information/stats/testing.py:289
 msgid "Bot ID"
-msgstr ""
+msgstr "معرف البوت"
 
 #: Extensions/Commands/Information/stats/stats.py:297
 #: Extensions/Commands/Information/stats/testing.py:297
@@ -1712,7 +1712,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:221
 #: Extensions/Commands/Information/userinfo/userinfo.py:221
 msgid "User's Avatar"
-msgstr ""
+msgstr "الصورة الرمزية للعضو"
 
 #: Extensions/Commands/Information/userinfo/testing.py:223
 #: Extensions/Commands/Information/userinfo/userinfo.py:223
@@ -1755,7 +1755,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:352
 #: Extensions/Commands/Information/userinfo/userinfo.py:352
 msgid "Joined on"
-msgstr ""
+msgstr "انضم في"
 
 #: Extensions/Commands/Information/userinfo/testing.py:391
 #: Extensions/Commands/Information/userinfo/userinfo.py:391
@@ -1766,7 +1766,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:414
 #: Extensions/Commands/Information/userinfo/userinfo.py:414
 msgid "User Badges"
-msgstr ""
+msgstr "شارات المستخدم"
 
 #: Extensions/Commands/Information/userinfo/testing.py:444
 #: Extensions/Commands/Information/userinfo/userinfo.py:444
@@ -1839,7 +1839,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:555
 #: Extensions/Commands/Information/userinfo/userinfo.py:555
 msgid "OneWord"
-msgstr ""
+msgstr "كلمة واحدة"
 
 #: Extensions/Commands/Information/userinfo/testing.py:561
 #: Extensions/Commands/Information/userinfo/userinfo.py:561
@@ -1849,7 +1849,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:656
 #: Extensions/Commands/Information/userinfo/userinfo.py:656
 msgid "AboveMe"
-msgstr ""
+msgstr "فوقي"
 
 #: Extensions/Commands/Information/userinfo/testing.py:662
 #: Extensions/Commands/Information/userinfo/userinfo.py:662
@@ -1870,17 +1870,17 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:776
 #: Extensions/Commands/Information/userinfo/userinfo.py:776
 msgid "Permissions"
-msgstr ""
+msgstr "صلاحيات"
 
 #: Extensions/Commands/Information/userinfo/testing.py:784
 #: Extensions/Commands/Information/userinfo/userinfo.py:784
 msgid "Members server permissions"
-msgstr ""
+msgstr "صلاحيات أعضاء الخادم"
 
 #: Extensions/Commands/Information/userinfo/testing.py:834
 #: Extensions/Commands/Information/userinfo/userinfo.py:834
 msgid "Member Activities"
-msgstr ""
+msgstr "أنشطة العضو"
 
 #: Extensions/Commands/Information/userinfo/testing.py:846
 #: Extensions/Commands/Information/userinfo/userinfo.py:846
@@ -1891,12 +1891,12 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:896
 #: Extensions/Commands/Information/userinfo/userinfo.py:896
 msgid "Discord System"
-msgstr ""
+msgstr "نظام ديسكورد"
 
 #: Extensions/Commands/Information/userinfo/testing.py:899
 #: Extensions/Commands/Information/userinfo/userinfo.py:899
 msgid "Member"
-msgstr ""
+msgstr "عضو"
 
 #: Extensions/Commands/Information/userinfo/testing.py:918
 #: Extensions/Commands/Information/userinfo/userinfo.py:918
