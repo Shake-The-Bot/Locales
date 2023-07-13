@@ -19,7 +19,7 @@ German example:
 #: classes/help/pagesource.py:360
 #, python-brace-format
 msgid "You can get more help if you join the official server [here](https://discord.gg/shake)"
-msgstr "Weitere Hilfe erhalst du, wenn du dem offiziellen Server [hier](https://discord.gg/shake) beitreten"
+msgstr "Weitere Hilfe erhälst du, wenn du dem offiziellen Server [hier](https://discord.gg/shake) beitreten"
 ```
 
 ## What should I do with ...
