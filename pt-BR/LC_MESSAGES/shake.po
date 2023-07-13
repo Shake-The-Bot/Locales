@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 22:40\n"
+"PO-Revision-Date: 2023-07-13 13:31\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "Erro Regex: {e_msg}"
 #: Classes/helpful.py:629
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "Pedido por {user} • via Shake"
 
 #: Classes/useful.py:102
 msgid "or"
@@ -337,7 +337,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr ""
+msgstr "Regras de Contagem"
 
 #: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
@@ -358,7 +358,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
-msgstr ""
+msgstr "Métodos de Contagem"
 
 #: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
@@ -384,7 +384,7 @@ msgstr "Você pode voltar aqui na configuração para alterar as configurações
 #: Extensions/Commands/Community/counting/counting.py:332
 #: Extensions/Commands/Community/counting/testing.py:332
 msgid "Counting bot responses"
-msgstr ""
+msgstr "Respostas de bots de Contagem"
 
 #: Extensions/Commands/Community/counting/counting.py:333
 #: Extensions/Commands/Community/counting/testing.py:333
@@ -456,7 +456,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:566
 #: Extensions/Commands/Community/counting/testing.py:566
 msgid "The rules are simple"
-msgstr ""
+msgstr "As regras são simples"
 
 #: Extensions/Commands/Community/counting/counting.py:572
 #: Extensions/Commands/Community/counting/testing.py:572
@@ -478,36 +478,36 @@ msgstr "Comece usando o comando {command} para criar e configurar o canal princi
 #: Extensions/Commands/Community/oneword/oneword.py:349
 #: Extensions/Commands/Community/oneword/testing.py:349
 msgid "How to configure the game?"
-msgstr ""
+msgstr "Como configurar o jogo?"
 
 #: Extensions/Commands/Community/counting/counting.py:581
 #: Extensions/Commands/Community/counting/testing.py:581
 #, python-brace-format
 msgid "Customize all kind of properties for Counting by using the the command {command}!"
-msgstr ""
+msgstr "Personalize todos os tipos de propriedades de Contagem usando o comando {command}!"
 
 #: Extensions/Commands/Community/counting/counting.py:586
 #: Extensions/Commands/Community/counting/testing.py:586
 msgid "The higher the number, the harder you fall!"
-msgstr ""
+msgstr "Quanto maior o número, mais forte você cai!"
 
 #: Extensions/Commands/Community/counting/counting.py:604
 #: Extensions/Commands/Community/counting/testing.py:604
 #, python-brace-format
 msgid "There is no Counting-Game in the given channel {channel} that we could configure."
-msgstr ""
+msgstr "Não há nenhum jogo de Contagem no canal {channel} que poderíamos configurar."
 
 #: Extensions/Commands/Community/counting/counting.py:616
 #: Extensions/Commands/Community/counting/testing.py:616
 #, python-brace-format
 msgid "The next number in here has been set to {count}"
-msgstr ""
+msgstr "O próximo número aqui foi definido para {count}"
 
 #: Extensions/Commands/Community/counting/counting.py:621
 #: Extensions/Commands/Community/counting/testing.py:621
 #, python-brace-format
 msgid "The stats of the Counting-Game in {channel} has been successfully configured."
-msgstr ""
+msgstr "As estatísticas do Jogo de Contagem no {channel} foram configuradas com sucesso."
 
 #: Extensions/Commands/Community/counting/counting.py:719
 #: Extensions/Commands/Community/counting/testing.py:719
@@ -532,27 +532,27 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:92
 #: Extensions/Commands/Community/oneword/testing.py:92
 msgid "OneWord channel"
-msgstr ""
+msgstr "Canal do UmaPalavra"
 
 #: Extensions/Commands/Community/oneword/oneword.py:149
 #: Extensions/Commands/Community/oneword/testing.py:149
 msgid "OneWord bot reactions"
-msgstr ""
+msgstr "Reações de bots do UmaPalavra"
 
 #: Extensions/Commands/Community/oneword/oneword.py:315
 #: Extensions/Commands/Community/oneword/testing.py:315
 msgid "Welcome to „OneWord“"
-msgstr ""
+msgstr "Bem-vindo ao „UmaPalavra“"
 
 #: Extensions/Commands/Community/oneword/oneword.py:318
 #: Extensions/Commands/Community/oneword/testing.py:318
 msgid "Thanks for your interest in the game in this awesome place!"
-msgstr ""
+msgstr "Obrigado pelo seu interesse no jogo neste lugar incrível!"
 
 #: Extensions/Commands/Community/oneword/oneword.py:331
 #: Extensions/Commands/Community/oneword/testing.py:331
 msgid "How to use the game?"
-msgstr ""
+msgstr "Como utilizar o jogo?"
 
 #: Extensions/Commands/Community/oneword/oneword.py:333
 #: Extensions/Commands/Community/oneword/testing.py:333
@@ -572,7 +572,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:341
 #: Extensions/Commands/Community/oneword/testing.py:341
 msgid "There is no failing."
-msgstr ""
+msgstr "Não há falhas."
 
 #: Extensions/Commands/Community/oneword/oneword.py:344
 #: Extensions/Commands/Community/oneword/testing.py:344
@@ -640,23 +640,23 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "five"
-msgstr ""
+msgstr "cinco"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "two"
-msgstr ""
+msgstr "dois"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:12
 #: Extensions/Commands/Gimmicks/countdown/testing.py:12
 msgid "one"
-msgstr ""
+msgstr "um"
 
 #: Extensions/Commands/Gimmicks/countdown/countdown.py:13
 #: Extensions/Commands/Gimmicks/countdown/testing.py:13
 #, python-brace-format
 msgid "{__} Lets start this {__}"
-msgstr ""
+msgstr "{__} Vamos começar isto {__}"
 
 #: Extensions/Commands/Gimmicks/everyone/__init__.py:34
 msgid "Remind others how bad @everyone actually is\n\n"
@@ -695,14 +695,15 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/meme/testing.py:30
 #, python-brace-format
 msgid "„{title}“ by {author}"
-msgstr ""
+msgstr "„{title}“ por {author}"
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:36
 #: Extensions/Commands/Gimmicks/meme/testing.py:36
 #, python-brace-format
 msgid "Like this meme? Check out others at \n"
 "{subreddit}"
-msgstr ""
+msgstr "Gostou desse meme? Confira outros em \n"
+"{subreddit}"
 
 #: Extensions/Commands/Gimmicks/pp/__init__.py:34
 msgid "Reveal the length of a user's pp\n\n"
@@ -719,7 +720,7 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/pp/pp.py:23
 #: Extensions/Commands/Gimmicks/pp/testing.py:23
 msgid "Peepee lenght"
-msgstr ""
+msgstr "Comprimento do piupiu"
 
 #: Extensions/Commands/Gimmicks/rainbow/__init__.py:35
 msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
