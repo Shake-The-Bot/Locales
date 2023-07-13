@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-13 20:41\n"
+"PO-Revision-Date: 2023-07-13 21:58\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -80,25 +80,25 @@ msgstr "Ошибка выражения: {e_msg}"
 msgid "Requested by {user} • via Shake"
 msgstr "По запросу {user} • через встряхивание"
 
-#: Classes/useful.py:102
+#: Classes/useful.py:101
 msgid "or"
 msgstr "или"
 
-#: Classes/useful.py:103
+#: Classes/useful.py:102
 msgid "and"
 msgstr "и"
 
-#: Classes/useful.py:405
+#: Classes/useful.py:381
 #, python-brace-format
 msgid "[{name} (upload a file)]"
 msgstr "[{name} (загрузить файл)]"
 
-#: Classes/useful.py:411
+#: Classes/useful.py:387
 #, python-brace-format
 msgid "<{name} (upload a file)>"
 msgstr "[{name} (загрузить файл)]"
 
-#: Classes/useful.py:413
+#: Classes/useful.py:389
 #, python-brace-format
 msgid "[{name} (upload files)]…"
 msgstr "[{name} (загрузить файлы)]…"
@@ -213,8 +213,8 @@ msgstr "Вы можете разрешить мне реагировать, чт
 #: Extensions/Commands/Community/counting/testing.py:399
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
-msgid "You can also deny me reactions to suppress the spam of reactions."
-msgstr "Вы также можете запретить мне оставлять реакции, чтобы не создавать спам реакциями."
+msgid "You can also deny my reactions to suppress the spam of reactions."
+msgstr ""
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -278,8 +278,8 @@ msgstr "{game} успешно настроена для канала {channel}!"
 #: Extensions/Commands/Community/counting/testing.py:765
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
-msgid "Note: you can freely edit the text channel now"
-msgstr "Примечание: теперь вы можете свободно редактировать данный текстовый канал."
+msgid "Note: You can freely edit the text channel now."
+msgstr ""
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
@@ -484,8 +484,8 @@ msgstr "Как настроить игру?"
 #: Extensions/Commands/Community/counting/counting.py:581
 #: Extensions/Commands/Community/counting/testing.py:581
 #, python-brace-format
-msgid "Customize all kind of properties for Counting by using the the command {command}!"
-msgstr "Настройте все свойства для подсчета с помощью команды {command}!"
+msgid "Customize all kind of properties for Counting by using the command {command}!"
+msgstr ""
 
 #: Extensions/Commands/Community/counting/counting.py:586
 #: Extensions/Commands/Community/counting/testing.py:586
@@ -739,8 +739,8 @@ msgstr "Выявить длину пп пользователя\n\n"
 
 #: Extensions/Commands/Gimmicks/pp/pp.py:23
 #: Extensions/Commands/Gimmicks/pp/testing.py:23
-msgid "Peepee lenght"
-msgstr "Длина пиписьки"
+msgid "Peepee length"
+msgstr ""
 
 #: Extensions/Commands/Gimmicks/rainbow/__init__.py:35
 msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
@@ -1024,21 +1024,137 @@ msgstr "Как пользоваться ботом?"
 msgid "Reading the bot structure is pretty easy."
 msgstr "Чтение структуры бота довольно просто."
 
-#: Extensions/Commands/Information/channelinfo/__init__.py:37
+#: Extensions/Commands/Information/channelinfo/__init__.py:44
 msgid "Get information about a specific channel.\n"
 "            \n"
 "            This command will show you some information about a channel.\n\n"
 "            Parameters\n"
 "            -----------\n"
-"            guild: Optional[str]\n"
-"                the guild name or id to get information about"
-msgstr "Получение информации о конкретном канале.\n"
-"            \n"
-"            Эта команда покажет вам некоторую информацию о канале.\n\n"
-"            Параметры\n"
-"            -----------\n"
-"            гильдия: Необязательно[str]\n"
-"                название или идентификатор гильдии для получения информации о ней."
+"            channel: Optional[str]\n"
+"                the channel mention, name or id to get information about"
+msgstr ""
+
+#: Extensions/Commands/Information/channelinfo/__init__.py:69
+msgid "Either this channel does not exist or I cant see it."
+msgstr ""
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:50
+#: Extensions/Commands/Information/channelinfo/testing.py:88
+#: Extensions/Commands/Information/channelinfo/testing.py:169
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:640
+#: Extensions/Commands/Information/serverinfo/testing.py:640
+#: Extensions/Commands/Information/userinfo/testing.py:888
+#: Extensions/Commands/Information/userinfo/userinfo.py:888
+msgid "General Overview"
+msgstr "Общее описание"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:59
+#: Extensions/Commands/Information/channelinfo/testing.py:94
+#: Extensions/Commands/Information/channelinfo/testing.py:176
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:171
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:269
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:647
+#: Extensions/Commands/Information/serverinfo/testing.py:171
+#: Extensions/Commands/Information/serverinfo/testing.py:269
+#: Extensions/Commands/Information/serverinfo/testing.py:647
+#: Extensions/Commands/Information/userinfo/testing.py:188
+#: Extensions/Commands/Information/userinfo/testing.py:959
+#: Extensions/Commands/Information/userinfo/userinfo.py:188
+#: Extensions/Commands/Information/userinfo/userinfo.py:959
+msgid "Created"
+msgstr "Создано"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:67
+#: Extensions/Commands/Information/channelinfo/testing.py:108
+#: Extensions/Commands/Information/channelinfo/testing.py:189
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:657
+#: Extensions/Commands/Information/serverinfo/testing.py:657
+msgid "Region"
+msgstr "Регион"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:89
+#: Extensions/Commands/Information/channelinfo/testing.py:111
+#: Extensions/Commands/Information/channelinfo/testing.py:211
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:679
+#: Extensions/Commands/Information/serverinfo/testing.py:679
+#: Extensions/Commands/Information/userinfo/testing.py:958
+#: Extensions/Commands/Information/userinfo/userinfo.py:958
+msgid "ID"
+msgstr "ID"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:93
+#: Extensions/Commands/Information/channelinfo/testing.py:115
+#: Extensions/Commands/Information/channelinfo/testing.py:222
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:690
+#: Extensions/Commands/Information/serverinfo/testing.py:690
+#: Extensions/Commands/Information/userinfo/testing.py:967
+#: Extensions/Commands/Information/userinfo/userinfo.py:967
+msgid "More Information"
+msgstr "Дополнительная информация"
+
+#: Extensions/Commands/Information/channelinfo/testing.py:107
+#: Extensions/Commands/Information/channelinfo/testing.py:188
+msgid "No region supporting channels"
+msgstr ""
+
+#: Extensions/Commands/Information/channelinfo/testing.py:135
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:348
+#: Extensions/Commands/Information/serverinfo/testing.py:348
+msgid "Channels"
+msgstr "каналы"
+
+#: Extensions/Commands/Information/channelinfo/testing.py:148
+msgid "Category channels"
+msgstr ""
+
+#: Extensions/Commands/Information/channelinfo/testing.py:152
+#, python-brace-format
+msgid "Page {page}/{pages} (Total of {items} Channels)"
+msgstr ""
+
+#: Extensions/Commands/Information/channelinfo/testing.py:203
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:417
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:671
+#: Extensions/Commands/Information/serverinfo/testing.py:417
+#: Extensions/Commands/Information/serverinfo/testing.py:671
+msgid "Members"
+msgstr "Участники"
+
+#: Extensions/Commands/Information/channelinfo/testing.py:212
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:680
+#: Extensions/Commands/Information/serverinfo/testing.py:680
+msgid "Owner"
+msgstr "Владелец"
+
+#: Extensions/Commands/Information/channelinfo/testing.py:213
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:154
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:681
+#: Extensions/Commands/Information/serverinfo/testing.py:154
+#: Extensions/Commands/Information/serverinfo/testing.py:681
+#: Extensions/Commands/Information/userinfo/testing.py:171
+#: Extensions/Commands/Information/userinfo/userinfo.py:171
+msgid "Roles"
+msgstr "Роли"
+
+#: Extensions/Commands/Information/channelinfo/testing.py:214
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:255
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:682
+#: Extensions/Commands/Information/serverinfo/testing.py:255
+#: Extensions/Commands/Information/serverinfo/testing.py:682
+msgid "Emojis"
+msgstr "Эмодзи"
+
+#: Extensions/Commands/Information/channelinfo/testing.py:215
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:683
+#: Extensions/Commands/Information/serverinfo/testing.py:683
+msgid "Stickers"
+msgstr "Стикеры"
+
+#: Extensions/Commands/Information/channelinfo/testing.py:217
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:685
+#: Extensions/Commands/Information/serverinfo/testing.py:685
+msgid "Boost"
+msgstr "Буст"
 
 #: Extensions/Commands/Information/charinfo/__init__.py:34
 #: Extensions/Commands/Information/games/__init__.py:34
@@ -1352,34 +1468,12 @@ msgstr "Всплеск обнаружения на сервере"
 msgid "Servers's banner"
 msgstr "Баннер сервера"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:154
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:681
-#: Extensions/Commands/Information/serverinfo/testing.py:154
-#: Extensions/Commands/Information/serverinfo/testing.py:681
-#: Extensions/Commands/Information/userinfo/testing.py:171
-#: Extensions/Commands/Information/userinfo/userinfo.py:171
-msgid "Roles"
-msgstr "Роли"
-
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:162
 #: Extensions/Commands/Information/serverinfo/testing.py:162
 #: Extensions/Commands/Information/userinfo/testing.py:179
 #: Extensions/Commands/Information/userinfo/userinfo.py:179
 msgid "Server Roles"
 msgstr "Роли сервера"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:171
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:269
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:647
-#: Extensions/Commands/Information/serverinfo/testing.py:171
-#: Extensions/Commands/Information/serverinfo/testing.py:269
-#: Extensions/Commands/Information/serverinfo/testing.py:647
-#: Extensions/Commands/Information/userinfo/testing.py:188
-#: Extensions/Commands/Information/userinfo/testing.py:959
-#: Extensions/Commands/Information/userinfo/userinfo.py:188
-#: Extensions/Commands/Information/userinfo/userinfo.py:959
-msgid "Created"
-msgstr "Создано"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:172
 #: Extensions/Commands/Information/serverinfo/testing.py:172
@@ -1439,13 +1533,6 @@ msgstr "Открыть ссылку: {links}"
 msgid "Page {page} of {pages}"
 msgstr "Страница {page} из {pages}"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:255
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:682
-#: Extensions/Commands/Information/serverinfo/testing.py:255
-#: Extensions/Commands/Information/serverinfo/testing.py:682
-msgid "Emojis"
-msgstr "Эмодзи"
-
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:263
 #: Extensions/Commands/Information/serverinfo/testing.py:263
 msgid "Server Emojis"
@@ -1488,11 +1575,6 @@ msgstr "Серверный бустер Nitro"
 msgid "Page {page} of {pages} (Total of {items} Booster)"
 msgstr "Страница {page} из {pages} (Всего {items} бустера)"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:348
-#: Extensions/Commands/Information/serverinfo/testing.py:348
-msgid "Channels"
-msgstr "каналы"
-
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:368
 #: Extensions/Commands/Information/serverinfo/testing.py:368
 #, python-brace-format
@@ -1514,13 +1596,6 @@ msgstr "НЕТ КОТА"
 #, python-brace-format
 msgid "Page {page} of {pages} (Total of {items} Channels)"
 msgstr "Страница {page} из {pages} (Всего {items} каналов)"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:417
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:671
-#: Extensions/Commands/Information/serverinfo/testing.py:417
-#: Extensions/Commands/Information/serverinfo/testing.py:671
-msgid "Members"
-msgstr "Участники"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:426
 #: Extensions/Commands/Information/serverinfo/testing.py:426
@@ -1633,47 +1708,6 @@ msgstr "Активности сервера"
 #, python-brace-format
 msgid "Top {index} Activity ({type})"
 msgstr "Топ {index} Активность ({тип})"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:640
-#: Extensions/Commands/Information/serverinfo/testing.py:640
-#: Extensions/Commands/Information/userinfo/testing.py:888
-#: Extensions/Commands/Information/userinfo/userinfo.py:888
-msgid "General Overview"
-msgstr "Общее описание"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:657
-#: Extensions/Commands/Information/serverinfo/testing.py:657
-msgid "Region"
-msgstr "Регион"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:679
-#: Extensions/Commands/Information/serverinfo/testing.py:679
-#: Extensions/Commands/Information/userinfo/testing.py:958
-#: Extensions/Commands/Information/userinfo/userinfo.py:958
-msgid "ID"
-msgstr "ID"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:680
-#: Extensions/Commands/Information/serverinfo/testing.py:680
-msgid "Owner"
-msgstr "Владелец"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:683
-#: Extensions/Commands/Information/serverinfo/testing.py:683
-msgid "Stickers"
-msgstr "Стикеры"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:685
-#: Extensions/Commands/Information/serverinfo/testing.py:685
-msgid "Boost"
-msgstr "Буст"
-
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:690
-#: Extensions/Commands/Information/serverinfo/testing.py:690
-#: Extensions/Commands/Information/userinfo/testing.py:967
-#: Extensions/Commands/Information/userinfo/userinfo.py:967
-msgid "More Information"
-msgstr "Дополнительная информация"
 
 #: Extensions/Commands/Information/stats/__init__.py:61
 msgid "Get some basic information and statistics about me.\n"
@@ -2325,7 +2359,7 @@ msgstr "Перезагружает, выгружает или загружает
 "            расширение: Greedy[ValidCog]\n"
 "                расширение(я), которое вы хотите повторно выгрузить или загрузить"
 
-#: Extensions/Commands/Other/language/__init__.py:43
+#: Extensions/Commands/Other/language/__init__.py:79
 msgid "Display a list of availible languages and locale codes.\n"
 "            \n"
 "            You can check if your language is available by comparing against [this list](https://saimana.com/list-of-country-locale-code/)\n"
@@ -2337,7 +2371,7 @@ msgstr "Отображает список доступных языков и к�
 "            Некоторые из этих языков не являются настоящими языками, но служат для придания тексту остроты.\n"
 "            (Если что-то еще не переведено, используется английский оригинальный текст)."
 
-#: Extensions/Commands/Other/language/__init__.py:75
+#: Extensions/Commands/Other/language/__init__.py:111
 #, python-brace-format
 msgid "Set your language for Shake.\n"
 "            Full list of available languages can be found with `{prefix}language`\n"
@@ -2360,7 +2394,7 @@ msgstr "Установите свой язык для Shake.\n"
 "            сервер: Optional[bool]\n"
 "                Если язык должен быть установлен для всего сервера"
 
-#: Extensions/Commands/Other/language/__init__.py:120
+#: Extensions/Commands/Other/language/__init__.py:156
 msgid "Reset your language for Shake to the good old language\n"
 "            Doesn't change anything if no language is set\n"
 "            \n"
@@ -2376,57 +2410,59 @@ msgstr "Сброс языка для Shake на старый добрый язы
 "            сервер: Необязательно[bool].\n"
 "                Если язык должен быть сброшен для всего сервера."
 
-#: Extensions/Commands/Other/language/language.py:110
-#: Extensions/Commands/Other/language/testing.py:110
+#: Extensions/Commands/Other/language/language.py:41
+#: Extensions/Commands/Other/language/testing.py:41
 msgid "Available Translations"
 msgstr "Имеющиеся переводы"
 
-#: Extensions/Commands/Other/language/language.py:112
-#: Extensions/Commands/Other/language/testing.py:112
+#: Extensions/Commands/Other/language/language.py:44
+#: Extensions/Commands/Other/language/testing.py:44
 #, python-brace-format
-msgid "There are currently translations for `{languages}` languages \n"
-"and your current language is **{current}**.\n\n"
-"{_}Don't you see your language or is it incomplete?{_} \n"
-"Then come help us out on [Crowdin]({link})!"
-msgstr "В настоящее время существуют переводы для `{languages}` языков \n"
-"и ваш текущий язык - **{current}**.\n\n"
-"{_}Вы не видите свой язык или он неполный?{_} \n"
-"Тогда помогите нам на [Crowdin]({link})!"
+msgid "There are currently translations for `{languages}` languages\n"
+"and your current language is {current}."
+msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:130
-#: Extensions/Commands/Other/language/language.py:164
-#: Extensions/Commands/Other/language/testing.py:130
-#: Extensions/Commands/Other/language/testing.py:164
+#: Extensions/Commands/Other/language/language.py:51
+#: Extensions/Commands/Other/language/testing.py:51
+#, python-brace-format
+msgid "Don't you see your language or is it incomplete?\n"
+"Then come help us out on [Crowdin]({link})!"
+msgstr ""
+
+#: Extensions/Commands/Other/language/language.py:68
+#: Extensions/Commands/Other/language/language.py:102
+#: Extensions/Commands/Other/language/testing.py:68
+#: Extensions/Commands/Other/language/testing.py:102
 msgid "Your given language is not valid."
 msgstr "Приведенный вами язык недействителен."
 
-#: Extensions/Commands/Other/language/language.py:133
-#: Extensions/Commands/Other/language/language.py:167
-#: Extensions/Commands/Other/language/testing.py:133
-#: Extensions/Commands/Other/language/testing.py:167
+#: Extensions/Commands/Other/language/language.py:71
+#: Extensions/Commands/Other/language/language.py:105
+#: Extensions/Commands/Other/language/testing.py:71
+#: Extensions/Commands/Other/language/testing.py:105
 #, python-brace-format
 msgid "Use {command} to get a list of all available languages"
 msgstr "Используйте {command}, чтобы получить список всех доступных языков"
 
-#: Extensions/Commands/Other/language/language.py:139
-#: Extensions/Commands/Other/language/language.py:173
-#: Extensions/Commands/Other/language/testing.py:139
-#: Extensions/Commands/Other/language/testing.py:173
+#: Extensions/Commands/Other/language/language.py:77
+#: Extensions/Commands/Other/language/language.py:111
+#: Extensions/Commands/Other/language/testing.py:77
+#: Extensions/Commands/Other/language/testing.py:111
 msgid "I'm sorry to say that I dont have your given locale ready."
 msgstr "К сожалению, у меня нет готовой заданной вами локализации."
 
-#: Extensions/Commands/Other/language/language.py:143
-#: Extensions/Commands/Other/language/language.py:177
-#: Extensions/Commands/Other/language/testing.py:143
-#: Extensions/Commands/Other/language/testing.py:177
+#: Extensions/Commands/Other/language/language.py:81
+#: Extensions/Commands/Other/language/language.py:115
+#: Extensions/Commands/Other/language/testing.py:81
+#: Extensions/Commands/Other/language/testing.py:115
 #, python-brace-format
 msgid "Try to contribute [here]({link}) if you want to!"
 msgstr "Попробуйте внести свой вклад [[here]]({{link}}), если хотите!"
 
-#: Extensions/Commands/Other/language/language.py:150
-#: Extensions/Commands/Other/language/language.py:184
-#: Extensions/Commands/Other/language/testing.py:150
-#: Extensions/Commands/Other/language/testing.py:184
+#: Extensions/Commands/Other/language/language.py:88
+#: Extensions/Commands/Other/language/language.py:122
+#: Extensions/Commands/Other/language/testing.py:88
+#: Extensions/Commands/Other/language/testing.py:122
 #, python-brace-format
 msgid "{name} was successfully set as language!"
 msgstr "{name} успешно установлен в качестве языка бота!"
@@ -2578,32 +2614,31 @@ msgstr "{amount} Команды* текущей гильдии синхрони�
 msgid "{amount} Command*s globally synchronized."
 msgstr "{amount} Команды глобально синхронизированы."
 
-#: Extensions/Functions/Commands/command/completion/command_completion.py:28
-#: Extensions/Functions/Commands/command/completion/testing.py:28
-#, python-brace-format
-msgid "{_}Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!{_}"
-msgstr "{_}Нравится пользоваться Shake? Я буду рад, если вы проголосуете за меня </vote:1056920829620924439> или **поделитесь** со своими друзьями!{_}"
+#: Extensions/Functions/Commands/command/completion/command_completion.py:29
+#: Extensions/Functions/Commands/command/completion/testing.py:29
+msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!"
+msgstr ""
 
-#: Extensions/Functions/Commands/command/error/command_error.py:45
-#: Extensions/Functions/Commands/command/error/testing.py:45
+#: Extensions/Functions/Commands/command/error/command_error.py:54
+#: Extensions/Functions/Commands/command/error/testing.py:54
 #, python-brace-format
 msgid "I am missing [`{permissions}`](https://support.discord.com/hc/en-us/articles/206029707) permission(s) to run this command."
 msgstr "Мне не хватает [`{permissions}`](https://support.discord.com/hc/en-us/articles/206029707) разрешения (разрешений) на выполнение этой команды."
 
-#: Extensions/Functions/Commands/command/error/command_error.py:50
-#: Extensions/Functions/Commands/command/error/testing.py:50
+#: Extensions/Functions/Commands/command/error/command_error.py:59
+#: Extensions/Functions/Commands/command/error/testing.py:59
 #, python-brace-format
 msgid "You typed in some bad arguments, try {command}"
 msgstr "Вы ввели неправильные аргументы, попробуйте {command}"
 
-#: Extensions/Functions/Commands/command/error/command_error.py:65
-#: Extensions/Functions/Commands/command/error/testing.py:65
+#: Extensions/Functions/Commands/command/error/command_error.py:64
+#: Extensions/Functions/Commands/command/error/testing.py:64
 #, python-brace-format
 msgid "You did something wrong with the arguments, try {command}"
 msgstr "Вы что-то неправильно выполнили с аргументами, попробуйте {command}"
 
-#: Extensions/Functions/Commands/command/error/command_error.py:70
-#: Extensions/Functions/Commands/command/error/testing.py:70
+#: Extensions/Functions/Commands/command/error/command_error.py:69
+#: Extensions/Functions/Commands/command/error/testing.py:69
 #, python-brace-format
 msgid "I cannot see the server `{argument}` because it does not exist or I am not a member of it."
 msgstr "Я не вижу сервер `{argument}`, потому что он не существует, или я не являюсь его участником."
@@ -2611,59 +2646,53 @@ msgstr "Я не вижу сервер `{argument}`, потому что он н�
 #: Extensions/Functions/Commands/command/error/command_error.py:78
 #: Extensions/Functions/Commands/command/error/testing.py:78
 #, python-brace-format
-msgid "This type of entity does not exist: {original.text}"
-msgstr "Данный тип сущности не существует: {original.text}"
+msgid "This type of object does not exist: {self.original.text}"
+msgstr ""
 
-#: Extensions/Functions/Commands/command/error/command_error.py:83
-#: Extensions/Functions/Commands/command/error/testing.py:83
+#: Extensions/Functions/Commands/command/error/command_error.py:84
+#: Extensions/Functions/Commands/command/error/testing.py:84
 msgid "Somehow, an unexpected error occurred. Try again later?"
 msgstr "Итак, произошла непредвиденная ошибка. Повторите попытку позже?"
 
-#: Extensions/Functions/Commands/command/error/command_error.py:87
-#: Extensions/Functions/Commands/command/error/testing.py:87
+#: Extensions/Functions/Commands/command/error/command_error.py:88
+#: Extensions/Functions/Commands/command/error/testing.py:88
 #, python-brace-format
 msgid "You can use this command in {retry} seconds."
 msgstr "Вы можете использовать эту команду через {retry} секунд."
 
-#: Extensions/Functions/Commands/command/error/command_error.py:93
-#: Extensions/Functions/Commands/command/error/testing.py:93
+#: Extensions/Functions/Commands/command/error/command_error.py:94
+#: Extensions/Functions/Commands/command/error/testing.py:94
 #, python-brace-format
 msgid "Only the bot owner can run the command `{command}`."
 msgstr "Только владелец бота может выполнить команду `{command}`."
 
-#: Extensions/Functions/Commands/command/error/command_error.py:98
-#: Extensions/Functions/Commands/command/error/testing.py:98
+#: Extensions/Functions/Commands/command/error/command_error.py:99
+#: Extensions/Functions/Commands/command/error/testing.py:99
 #, python-brace-format
 msgid "You are missing `{permission}` permission(s) to run this command."
 msgstr "У вас недостаточно прав для выполнения этой команды `{permission}`."
 
-#: Extensions/Functions/Commands/command/error/command_error.py:103
-#: Extensions/Functions/Commands/command/error/testing.py:103
+#: Extensions/Functions/Commands/command/error/command_error.py:104
+#: Extensions/Functions/Commands/command/error/testing.py:104
 msgid "Something wrong happened"
 msgstr "Произошло что-то не так"
 
-#: Extensions/Functions/Commands/command/error/command_error.py:125
-#: Extensions/Functions/Commands/command/error/testing.py:125
+#: Extensions/Functions/Commands/command/error/command_error.py:126
+#: Extensions/Functions/Commands/command/error/testing.py:126
 #, python-brace-format
 msgid "No command named `{invoked}` found. Use {help} for help."
 msgstr "Команда `{invoked}`. Не найдена. Используйте {help} для помощи."
 
-#: Extensions/Functions/Commands/command/error/command_error.py:133
-#: Extensions/Functions/Commands/command/error/testing.py:133
+#: Extensions/Functions/Commands/command/error/command_error.py:134
+#: Extensions/Functions/Commands/command/error/testing.py:134
 #, python-brace-format
 msgid "Nothing named `{invoked}` found. Did you mean {closest}?"
 msgstr "Ничего с именем `{invoked}` не найдено. Вы имели в виду {closest}?"
 
-#: Extensions/Functions/Commands/command/error/command_error.py:177
-#: Extensions/Functions/Commands/command/error/testing.py:177
-#, python-brace-format
-msgid "The {type} {error} was reported to the Shake-Team!"
-msgstr "{type} {error} сообщили команде Shake-Team!"
-
-#: Extensions/Functions/Commands/command/error/command_error.py:182
-#: Extensions/Functions/Commands/command/error/testing.py:182
-msgid "error"
-msgstr "ошибка"
+#: Extensions/Functions/Commands/command/error/command_error.py:166
+#: Extensions/Functions/Commands/command/error/testing.py:166
+msgid "The error was reported to the Shake-Team!"
+msgstr ""
 
 #: Extensions/Functions/Members/member/join/member_join.py:27
 #: Extensions/Functions/Members/member/join/testing.py:27
@@ -2747,97 +2776,97 @@ msgstr "Здравствуйте, {user}! Мой префикс / или {mentio
 msgid "You should not write anything other than messages with text content!"
 msgstr "Вы не должны писать ничего, кроме сообщений с текстовым содержанием."
 
-#: Extensions/Functions/Messages/message/message.py:352
-#: Extensions/Functions/Messages/message/testing.py:352
+#: Extensions/Functions/Messages/message/message.py:314
+#: Extensions/Functions/Messages/message/testing.py:314
 msgid "You are not allowed show off multiple words in a row."
 msgstr "Вам не разрешено считать несколько чисел в строке."
 
-#: Extensions/Functions/Messages/message/message.py:358
-#: Extensions/Functions/Messages/message/testing.py:358
+#: Extensions/Functions/Messages/message/message.py:320
+#: Extensions/Functions/Messages/message/testing.py:320
 msgid "your message should contain only one word or punctuation marks."
 msgstr "ваше сообщение должно содержать только одно слово или знаки препинания."
 
-#: Extensions/Functions/Messages/message/message.py:364
-#: Extensions/Functions/Messages/message/testing.py:364
+#: Extensions/Functions/Messages/message/message.py:326
+#: Extensions/Functions/Messages/message/testing.py:326
 msgid "Your word should not already be in the sentance."
 msgstr "Ваше слово еще не должно быть в предложении."
 
-#: Extensions/Functions/Messages/message/message.py:372
-#: Extensions/Functions/Messages/message/testing.py:372
+#: Extensions/Functions/Messages/message/message.py:334
+#: Extensions/Functions/Messages/message/testing.py:334
 msgid "You've finally finished the sentence"
 msgstr "Вы наконец закончили предложение"
 
-#: Extensions/Functions/Messages/message/message.py:467
-#: Extensions/Functions/Messages/message/testing.py:467
+#: Extensions/Functions/Messages/message/message.py:429
+#: Extensions/Functions/Messages/message/testing.py:429
 #: Extensions/Functions/Messages/message/utils/systems.py:97
 #: Extensions/Functions/Messages/message/utils/systems.py:104
 #: Extensions/Functions/Messages/message/utils/systems.py:234
 msgid "the one above me"
 msgstr "тот, который над мной"
 
-#: Extensions/Functions/Messages/message/message.py:523
-#: Extensions/Functions/Messages/message/testing.py:523
+#: Extensions/Functions/Messages/message/message.py:485
+#: Extensions/Functions/Messages/message/testing.py:485
 msgid "You are not allowed show off multiple numbers in a row."
 msgstr "Вам не разрешено считать несколько чисел в строке."
 
-#: Extensions/Functions/Messages/message/message.py:529
-#: Extensions/Functions/Messages/message/testing.py:529
+#: Extensions/Functions/Messages/message/message.py:491
+#: Extensions/Functions/Messages/message/testing.py:491
 #, python-brace-format
 msgid "Your message should start with „{trigger}“ and should make sense."
 msgstr "Ваше сообщение должно начинаться с «{trigger}» и должно иметь смысл."
 
-#: Extensions/Functions/Messages/message/message.py:537
-#: Extensions/Functions/Messages/message/testing.py:537
+#: Extensions/Functions/Messages/message/message.py:499
+#: Extensions/Functions/Messages/message/testing.py:499
 msgid "Your message should be something new"
 msgstr "Ваше сообщение должно быть чем-то новым"
 
-#: Extensions/Functions/Messages/message/message.py:662
-#: Extensions/Functions/Messages/message/testing.py:662
+#: Extensions/Functions/Messages/message/message.py:624
+#: Extensions/Functions/Messages/message/testing.py:624
 msgid "You can't use anything but arithmetic here."
 msgstr "Вы ничего не можете использовать здесь, кроме арифметики."
 
-#: Extensions/Functions/Messages/message/message.py:673
-#: Extensions/Functions/Messages/message/testing.py:673
+#: Extensions/Functions/Messages/message/message.py:635
+#: Extensions/Functions/Messages/message/testing.py:635
 msgid "You are not allowed to count multiple numbers in a row."
 msgstr "Вам не разрешено считать несколько чисел в строке."
 
-#: Extensions/Functions/Messages/message/message.py:686
-#: Extensions/Functions/Messages/message/testing.py:686
+#: Extensions/Functions/Messages/message/message.py:648
+#: Extensions/Functions/Messages/message/testing.py:648
 msgid "You failed to often. No stats have been changed!!"
 msgstr "Вы не смогли часто. Никакой статистики не было изменено!!"
 
-#: Extensions/Functions/Messages/message/message.py:693
-#: Extensions/Functions/Messages/message/testing.py:693
+#: Extensions/Functions/Messages/message/message.py:655
+#: Extensions/Functions/Messages/message/testing.py:655
 #, python-brace-format
 msgid "The streak of {streak} was broken!"
 msgstr "Серия {streak} сломана!"
 
-#: Extensions/Functions/Messages/message/message.py:695
-#: Extensions/Functions/Messages/message/testing.py:695
+#: Extensions/Functions/Messages/message/message.py:657
+#: Extensions/Functions/Messages/message/testing.py:657
 #, python-brace-format
 msgid "You've topped your best streak with {streak} numbers 🔥"
 msgstr "Вы пополнили свою лучшую серию с номерами {streak}🔥"
 
-#: Extensions/Functions/Messages/message/message.py:703
-#: Extensions/Functions/Messages/message/testing.py:703
+#: Extensions/Functions/Messages/message/message.py:665
+#: Extensions/Functions/Messages/message/testing.py:665
 #, python-brace-format
 msgid "Incorrect number! The next number remains {start}. {streak}"
 msgstr "Неправильное число! Следующее число остается {start}. {streak}"
 
-#: Extensions/Functions/Messages/message/message.py:713
-#: Extensions/Functions/Messages/message/testing.py:713
+#: Extensions/Functions/Messages/message/message.py:675
+#: Extensions/Functions/Messages/message/testing.py:675
 #, python-brace-format
 msgid "{user} ruined it at {count}. The next number is {start}. {streak}"
 msgstr "{user} разрушил его в {count}. Следующее число равно {start}. {streak}"
 
-#: Extensions/Functions/Messages/message/message.py:733
-#: Extensions/Functions/Messages/message/testing.py:733
+#: Extensions/Functions/Messages/message/message.py:695
+#: Extensions/Functions/Messages/message/testing.py:695
 #, python-brace-format
 msgid "You've reached your goal of {goal} {emoji} Congratulations!"
 msgstr "Вы достигли цели {goal} - {emoji} Поздравляем!"
 
-#: Extensions/Functions/Messages/message/message.py:739
-#: Extensions/Functions/Messages/message/testing.py:739
+#: Extensions/Functions/Messages/message/message.py:701
+#: Extensions/Functions/Messages/message/testing.py:701
 #, python-brace-format
 msgid "You've reached the end of the numbers until 0 {emoji} Congratulations!"
 msgstr "Вы достигли конца числа до 0 {emoji} Поздравляем!"
