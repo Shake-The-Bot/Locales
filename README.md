@@ -21,7 +21,7 @@ German example:
 msgid ""
 "You can get more help if you join the official server [here](https://discord.gg/shake)"
 msgstr ""
-"Weitere Hilfe erhalten Sie, wenn Sie dem offiziellen Server [hier](https://discord.gg/shake) beitreten"
+"Weitere Hilfe erhalst du, wenn du dem offiziellen Server [hier](https://discord.gg/shake) beitreten"
 ```
 
 ## What should I do with ...
