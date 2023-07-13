@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-12 16:14\n"
+"PO-Revision-Date: 2023-07-13 12:11\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Crowdin-Project: shake\n"
 "X-Crowdin-Project-ID: 555309\n"
 "X-Crowdin-Language: ru\n"
-"X-Crowdin-File: /crowdin/template.pot\n"
-"X-Crowdin-File-ID: 375\n"
+"X-Crowdin-File: /crowdin/messages.pot\n"
+"X-Crowdin-File-ID: 389\n"
 "Language: ru_RU\n"
 
 #: Classes/accessoires/menu.py:221
@@ -113,7 +113,8 @@ msgstr "Пишите приятные, смешные, а иногда и над
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr ""
+msgstr "Настройте всю игру OneWord за несколько секунд\n"
+"            Получите дополнительную информацию об игре OneWord с помощью {command}"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
@@ -259,7 +260,7 @@ msgstr "Я не смог отредактировать текстовый ка�
 #: Extensions/Commands/Community/oneword/testing.py:286
 #, python-brace-format
 msgid "In {channel} is already a Counting game set up. Aborting..."
-msgstr ""
+msgstr "В {channel} уже установлен счетчик игры. Прерывание..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:299
 #: Extensions/Commands/Community/aboveme/testing.py:299
@@ -269,7 +270,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
 msgid "{game} is successfully set up in {channel}!"
-msgstr ""
+msgstr "{game} успешно настроена для канала {channel}!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:303
 #: Extensions/Commands/Community/aboveme/testing.py:303
@@ -507,7 +508,7 @@ msgstr "Следующий номер установлен на {count}"
 #: Extensions/Commands/Community/counting/testing.py:621
 #, python-brace-format
 msgid "The stats of the Counting-Game in {channel} has been successfully configured."
-msgstr ""
+msgstr "Статистика подсчета игры в {channel} успешно настроена."
 
 #: Extensions/Commands/Community/counting/counting.py:719
 #: Extensions/Commands/Community/counting/testing.py:719
@@ -2703,19 +2704,19 @@ msgstr "{emoji} {prefix} Спасибо! Вы были верифицирова�
 #: Extensions/Functions/Messages/message/delete/testing.py:131
 #, python-brace-format
 msgid "The word from {user} got deleted. The word was {word}!"
-msgstr ""
+msgstr "Слово от {user} было удалено. Слово составило {word}!"
 
 #: Extensions/Functions/Messages/message/delete/delete.py:149
 #: Extensions/Functions/Messages/message/delete/testing.py:149
 #, python-brace-format
 msgid "The phrase from {user} got deleted. The phrase was „{phrase}“!"
-msgstr ""
+msgstr "Фраза от {user} удалена. Фраза была указана как \"{phrase}“!"
 
 #: Extensions/Functions/Messages/message/delete/delete.py:169
 #: Extensions/Functions/Messages/message/delete/testing.py:169
 #, python-brace-format
 msgid "The count of {count} from {user} got deleted. The next number is {next}!"
-msgstr ""
+msgstr "Количество {count} из {user} удалено. Следующее число - {next}!"
 
 #: Extensions/Functions/Messages/message/edit/edit.py:130
 #: Extensions/Functions/Messages/message/edit/testing.py:130
@@ -3113,7 +3114,7 @@ msgstr "{emoji} - только для администраторов!"
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:696
 #, python-brace-format
 msgid "{emoji} Selected user is already owner of a temporary channel!"
-msgstr ""
+msgstr "{emoji} Выбранный пользователь уже является владельцем временного канала!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:737
 #, python-brace-format
