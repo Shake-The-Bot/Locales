@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-13 21:57\n"
+"PO-Revision-Date: 2023-07-14 13:49\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -214,7 +214,7 @@ msgstr "يمكنك السماح لي بردود الفعل حتى يعرف ال�
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny my reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "يمكنك أيضًا رفض ردود أفعالي لقمع ردود الفعل الغير مرغوب فيها."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -279,7 +279,7 @@ msgstr "تم إعداد {game} بنجاح في {channel}!"
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: You can freely edit the text channel now."
-msgstr ""
+msgstr "ملاحظة: يمكنك تعديل القناة النصية بحرية الآن."
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
@@ -297,15 +297,16 @@ msgstr "ابدأ بالرقم 1 ولا تتوقف عن العد مرة أخرى!
 #, python-brace-format
 msgid "Setup the whole Counting game in seconds\n"
 "            Get more information about the counting game with {command}"
-msgstr ""
+msgstr "قم بإعداد لعبة العد بأكملها في ثوانٍ\n"
+"            احصل على مزيد من المعلومات حول لعبة العد باستخدام {command}"
 
 #: Extensions/Commands/Community/counting/__init__.py:114
 msgid "Everything you need to know about the Counting game"
-msgstr ""
+msgstr "كل ما تحتاج لمعرفته حول لعبة العد"
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
-msgstr ""
+msgstr "قم بتغيير بعض الخصائص حول لعبة العد"
 
 #: Extensions/Commands/Community/counting/counting.py:116
 #: Extensions/Commands/Community/counting/testing.py:116
@@ -320,19 +321,19 @@ msgstr "اتجاه العد"
 #: Extensions/Commands/Community/counting/counting.py:170
 #: Extensions/Commands/Community/counting/testing.py:170
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "اختر في أي اتجاه يجب أن يبدأ العد!"
 
 #: Extensions/Commands/Community/counting/counting.py:173
 #: Extensions/Commands/Community/counting/testing.py:173
 #, python-brace-format
 msgid "You can start counting at the number 1 and continue {game} in ascending order."
-msgstr ""
+msgstr "يمكنك بدء العد من الرقم 1 ومتابعة {game} بترتيب تصاعدي."
 
 #: Extensions/Commands/Community/counting/counting.py:176
 #: Extensions/Commands/Community/counting/testing.py:176
 #, python-brace-format
 msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
-msgstr ""
+msgstr "بدلاً من ذلك ، يمكنك تحديد نقطة بداية تبدأ منها {game} بترتيب تنازلي."
 
 #: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
@@ -342,18 +343,18 @@ msgstr "قواعد العد"
 #: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
 msgid "Decide if text messages are allowed in Counting"
-msgstr ""
+msgstr "قرر ما إذا كان مسموحًا بالرسائل النصية في العد"
 
 #: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
-msgstr ""
+msgstr "يمكنك السماح بالرسائل النصية حتى يتمكن الأعضاء من التعليق على بعضهم البعض."
 
 #: Extensions/Commands/Community/counting/counting.py:228
 #: Extensions/Commands/Community/counting/testing.py:228
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
-msgstr ""
+msgstr "يمكنك رفض الرسائل النصية حتى تظل {game} أكثر وضوحًا."
 
 #: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
@@ -363,48 +364,48 @@ msgstr "طرق العد"
 #: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
 msgid "Decide if mathematical calculations are allowed in Counting"
-msgstr ""
+msgstr "قرر ما إذا كان مسموحًا بالحسابات الرياضية في العد"
 
 #: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:281
 msgid "You can allow mathematical calculations so that members can find new ways."
-msgstr ""
+msgstr "يمكنك السماح بالحسابات الرياضية حتى يتمكن الأعضاء من إيجاد طرق جديدة."
 
 #: Extensions/Commands/Community/counting/counting.py:284
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr ""
+msgstr "يمكنك رفض العمليات الحسابية حتى تظل {game} أكثر وضوحًا."
 
 #: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr ""
+msgstr "يمكنك العودة هنا في الإعداد لتغيير الإعدادات."
 
 #: Extensions/Commands/Community/counting/counting.py:332
 #: Extensions/Commands/Community/counting/testing.py:332
 msgid "Counting bot responses"
-msgstr ""
+msgstr "ردود بوت لعبة العد"
 
 #: Extensions/Commands/Community/counting/counting.py:333
 #: Extensions/Commands/Community/counting/testing.py:333
 msgid "Decide in which way I should response to fails, edits, etc."
-msgstr ""
+msgstr "قرر كيف يمكنني الرد على حالات الإخفاق والتعديلات وما إلى ذلك."
 
 #: Extensions/Commands/Community/counting/counting.py:337
 #: Extensions/Commands/Community/counting/testing.py:337
 msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
-msgstr ""
+msgstr "يمكنك السماح لي بإرسال الردود عبر خطافات الويب التي ستجعل الأمر برمته يبدو أكثر طبيعية"
 
 #: Extensions/Commands/Community/counting/counting.py:340
 #: Extensions/Commands/Community/counting/testing.py:340
 msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
-msgstr ""
+msgstr "يمكنك أيضًا السماح لي بإرسال جميع الرسائل كمستخدم ، لإنشاء نظرة عامة أسهل للإجراءات."
 
 #: Extensions/Commands/Community/counting/counting.py:392
 #: Extensions/Commands/Community/counting/testing.py:392
 msgid "Counting bot reactions"
-msgstr ""
+msgstr "ردود فعل بوت لعبة العد"
 
 #: Extensions/Commands/Community/counting/counting.py:532
 #: Extensions/Commands/Community/counting/testing.py:532
@@ -414,32 +415,32 @@ msgstr "مرحبا بكم في \"العد\""
 #: Extensions/Commands/Community/counting/counting.py:534
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "شكرا لاهتمامك باللعبة في هذا المكان الرائع!"
 
 #: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
 msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
-msgstr ""
+msgstr "لعبة العد هي لعبة ممتعة وتفاعلية حيث يتناوب المشاركون على نشر الأرقام بترتيب تصاعدي / تنازلي على قناة نصية خاصة. "
 
 #: Extensions/Commands/Community/counting/counting.py:545
 #: Extensions/Commands/Community/counting/testing.py:545
 msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
-msgstr ""
+msgstr "الغرض من اللعبة هو زيادة / تقليل التسلسل الرقمي باستمرار من خلال مساهمة كل لاعب. "
 
 #: Extensions/Commands/Community/counting/counting.py:548
 #: Extensions/Commands/Community/counting/testing.py:548
 msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
-msgstr ""
+msgstr "يمكن أن يتطلب الانتباه والتنسيق والعمل السريع للحفاظ على التدفق وتجنب الأخطاء. تشجع اللعبة العمل الجماعي والمنافسة الصحية والتواصل التفاعلي داخل المجتمع. "
 
 #: Extensions/Commands/Community/counting/counting.py:552
 #: Extensions/Commands/Community/counting/testing.py:552
 msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
-msgstr ""
+msgstr "قد يكون تحديًا ممتعًا أن ترى إلى أي مدى يمكن أن يرتفع التسلسل الرقمي حيث يعمل اللاعبون معًا لمواصلة لعبة العد."
 
 #: Extensions/Commands/Community/counting/counting.py:558
 #: Extensions/Commands/Community/counting/testing.py:558
 msgid "One person can't count numbers in a row (others are required)."
-msgstr ""
+msgstr "شخص واحد لا يستطيع عد الأرقام بشكل متكرر (هناك حاجة للآخرين)."
 
 #: Extensions/Commands/Community/counting/counting.py:559
 #: Extensions/Commands/Community/counting/testing.py:559
@@ -451,7 +452,7 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:561
 #: Extensions/Commands/Community/counting/testing.py:561
 msgid "If you break the count, the count will reset to a calculated checkpoint."
-msgstr ""
+msgstr "إذا كسرت العد ، فسيتم إعادة تعيين العد إلى نقطة حفظ محسوبة."
 
 #: Extensions/Commands/Community/counting/counting.py:566
 #: Extensions/Commands/Community/counting/testing.py:566
@@ -471,7 +472,7 @@ msgstr "كيفية إعداد اللعبة؟"
 #: Extensions/Commands/Community/oneword/testing.py:326
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
-msgstr ""
+msgstr "ابدأ باستخدام الأمر {command} لإنشاء القناة الأساسية وإعدادها"
 
 #: Extensions/Commands/Community/counting/counting.py:579
 #: Extensions/Commands/Community/counting/testing.py:579
@@ -881,7 +882,7 @@ msgstr ""
 #: Extensions/Commands/Help/help.py:837 Extensions/Commands/Help/testing.py:837
 #, python-brace-format
 msgid "{emoji} Bot Help"
-msgstr ""
+msgstr "{emoji} مساعدة البوت"
 
 #: Extensions/Commands/Help/help.py:844 Extensions/Commands/Help/testing.py:844
 #, python-brace-format
