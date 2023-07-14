@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-14 06:50\n"
+"PO-Revision-Date: 2023-07-14 11:12\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "Regex-Fehler: {e_msg}"
 #: Classes/helpful.py:629
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr "Anfrage von {user} • via Shake"
+msgstr "Angefragt von {user} • via Shake"
 
 #: Classes/useful.py:101
 msgid "or"
