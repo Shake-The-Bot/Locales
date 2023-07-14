@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-13 21:58\n"
+"PO-Revision-Date: 2023-07-14 09:28\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -214,7 +214,7 @@ msgstr "당신은 유저들이 자신의 채팅이 정확히 입력되었는지 
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny my reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "당신은 반응의 도배를 막기 위해 제 반응을 허용하지 않을 수도 있습니다."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -279,7 +279,7 @@ msgstr "{channel} 에서 {game} 이 성공적으로 준비되었습니다!"
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: You can freely edit the text channel now."
-msgstr ""
+msgstr "추신: 당신은 이제 자유롭게 채팅 채널을 편집할 수 있습니다."
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
@@ -369,33 +369,33 @@ msgstr "카운팅에서 수학적 계산식들이 허용될지 결정하세요"
 #: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:281
 msgid "You can allow mathematical calculations so that members can find new ways."
-msgstr ""
+msgstr "당신은 멤버들이 새로운 방식을 찾게끔 수학적 계산식들을 허용할 수 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:284
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr ""
+msgstr "당신은 {game} 이 더 깨끗해지도록 수학적 계산식들을 허용하지 않을 수 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr ""
+msgstr "당신은 설정을 바꾸기 위해 이곳으로 돌아올 수 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:332
 #: Extensions/Commands/Community/counting/testing.py:332
 msgid "Counting bot responses"
-msgstr ""
+msgstr "카운팅 봇 답변"
 
 #: Extensions/Commands/Community/counting/counting.py:333
 #: Extensions/Commands/Community/counting/testing.py:333
 msgid "Decide in which way I should response to fails, edits, etc."
-msgstr ""
+msgstr "제가 어떤 방식으로 실패, 편집 등에 반응해야 하는지 결정하세요,"
 
 #: Extensions/Commands/Community/counting/counting.py:337
 #: Extensions/Commands/Community/counting/testing.py:337
 msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
-msgstr ""
+msgstr "당신은 모든 것을 더 자연스럽게 보이게 하기 위해 제가 웹후크로 반응하도록 할 수 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:340
 #: Extensions/Commands/Community/counting/testing.py:340
