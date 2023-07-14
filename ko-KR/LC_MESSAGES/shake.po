@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-14 09:28\n"
+"PO-Revision-Date: 2023-07-14 10:43\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -400,47 +400,47 @@ msgstr "당신은 모든 것을 더 자연스럽게 보이게 하기 위해 제�
 #: Extensions/Commands/Community/counting/counting.py:340
 #: Extensions/Commands/Community/counting/testing.py:340
 msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
-msgstr ""
+msgstr "당신은 또한 모든 것을 더 쉽게 보게 하기 위해 제가 유저로서 메시지를 보내게 할 수도 있습니다."
 
 #: Extensions/Commands/Community/counting/counting.py:392
 #: Extensions/Commands/Community/counting/testing.py:392
 msgid "Counting bot reactions"
-msgstr ""
+msgstr "카운팅 봇 반응"
 
 #: Extensions/Commands/Community/counting/counting.py:532
 #: Extensions/Commands/Community/counting/testing.py:532
 msgid "Welcome to „Counting“"
-msgstr ""
+msgstr "\"카운팅\" 에 오신 걸 환영합니다"
 
 #: Extensions/Commands/Community/counting/counting.py:534
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "이 멋진 곳에서, 게임에 대한 관심에 감사드립니다!"
 
 #: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
 msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
-msgstr ""
+msgstr "카운팅 게임은 참가자들이 특수한 채팅 채널에서 순서대로 숫자들을 상승/하강시키는 재미있고 상호적인 게임입니다. "
 
 #: Extensions/Commands/Community/counting/counting.py:545
 #: Extensions/Commands/Community/counting/testing.py:545
 msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
-msgstr ""
+msgstr "게임의 목적은 각 플레이어의 순서에 따라 숫자를 지속적으로 증가/감소시키는 것입니다. "
 
 #: Extensions/Commands/Community/counting/counting.py:548
 #: Extensions/Commands/Community/counting/testing.py:548
 msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
-msgstr ""
+msgstr "흐름을 유지하고 실수를 방지하기 위해 집중, 정렬과 빠른 행동이 필요할 수 있습니다. 이 게임은 팀워크, 건전한 경쟁과 커뮤니티 내의 상호적 의사소통을 장려합니다. "
 
 #: Extensions/Commands/Community/counting/counting.py:552
 #: Extensions/Commands/Community/counting/testing.py:552
 msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
-msgstr ""
+msgstr "플레이어들 힘을 합쳐 카운트 게임을 계속하면 숫자가 얼마나 높아질 수 있는지 보는 것은 재미있는 도전이 될 것입니다."
 
 #: Extensions/Commands/Community/counting/counting.py:558
 #: Extensions/Commands/Community/counting/testing.py:558
 msgid "One person can't count numbers in a row (others are required)."
-msgstr ""
+msgstr "한 사람이 숫자를 연속으로 셀 수 없습니다 (다른 사람이 필요합니다)."
 
 #: Extensions/Commands/Community/counting/counting.py:559
 #: Extensions/Commands/Community/counting/testing.py:559
@@ -615,12 +615,12 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/count/count.py:12
 #: Extensions/Commands/Gimmicks/count/testing.py:12
 msgid "Start?"
-msgstr ""
+msgstr "시작할까요?"
 
 #: Extensions/Commands/Gimmicks/count/count.py:22
 #: Extensions/Commands/Gimmicks/count/testing.py:22
 msgid "Congratulation"
-msgstr ""
+msgstr "축하합니다"
 
 #: Extensions/Commands/Gimmicks/count/count.py:28
 #: Extensions/Commands/Gimmicks/count/testing.py:28
