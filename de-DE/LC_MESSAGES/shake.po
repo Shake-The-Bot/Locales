@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-14 11:12\n"
+"PO-Revision-Date: 2023-07-14 21:07\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,11 @@ msgstr ""
 #: Classes/accessoires/menu.py:221
 #: Extensions/Commands/Community/schedule/testing.py:208
 msgid "Before continuing you must click on the Setup button."
-msgstr "Bevor du fortfährst, musst du auf den Setup-Knopf klicken."
+msgstr "Drücke den Setup-Button, bevor du fortfährst."
 
 #: Classes/accessoires/menu.py:263
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr "Das ShakeMenu wurde wegen Inaktivität abgebrochen"
+msgstr "Das Shake-Menü wurde wegen Inaktivität geschlossen."
 
 #: Classes/accessoires/menu.py:268
 msgid "Start"
@@ -337,7 +337,7 @@ msgstr "Alternativ kannst du einen Startpunkt angeben, von dem aus das {game} in
 #: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr "Counting regeln"
+msgstr "Counting-Regeln"
 
 #: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
@@ -347,39 +347,39 @@ msgstr "Entscheide, ob Textnachrichten in Counting erlaubt sind."
 #: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
-msgstr "Du kannst Textnachrichten zulassen, damit Mitglieder sich gegenseitig kommentieren können."
+msgstr "Du kannst Textnachrichten zulassen, sodass Mitglieder sich gegenseitig kommentieren können."
 
 #: Extensions/Commands/Community/counting/counting.py:228
 #: Extensions/Commands/Community/counting/testing.py:228
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
-msgstr "Sie können Textnachrichten ablehnen, damit {game} klarer bleibt."
+msgstr "Du kannst Textnachrichten ablehnen, damit {game} spamfrei bleibt."
 
 #: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
-msgstr "Counting Möglichkeitne"
+msgstr "Counting-Möglichkeiten"
 
 #: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
 msgid "Decide if mathematical calculations are allowed in Counting"
-msgstr "Entscheide, ob mathematische Berechnungen in Counting erlaubt sind."
+msgstr "Entscheide, ob mathematische Rechnungen in Counting erlaubt sind."
 
 #: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:281
 msgid "You can allow mathematical calculations so that members can find new ways."
-msgstr "Du kannst mathematische Berechnungen zulassen, sodass die Mitglieder neue Wege finden können."
+msgstr "Du kannst mathematische Rechnungen zulassen, sodass die Mitglieder neue Wege finden können."
 
 #: Extensions/Commands/Community/counting/counting.py:284
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr "Du kannst mathematische Berechnungen ablehnen, damit {game} klarer bleibt."
+msgstr "Du kannst mathematische Rechnungen ablehnen, damit {game} spamfrei bleibt."
 
 #: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr "Du kannst hier im Setup zurückkehren, um Einstellungen zu ändern."
+msgstr "Du kannst zu diesem Punkt im Setup zurückkehren, um deine Einstellungen zu ändern."
 
 #: Extensions/Commands/Community/counting/counting.py:332
 #: Extensions/Commands/Community/counting/testing.py:332
