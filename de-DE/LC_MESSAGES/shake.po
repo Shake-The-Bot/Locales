@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-13 21:57\n"
+"PO-Revision-Date: 2023-07-14 06:50\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -214,7 +214,7 @@ msgstr "Du kannst mir Reaktionen gestatten, damit die Benutzer direkt wissen, ob
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny my reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "Du kannst auch meine Reaktionen deaktivieren, um Reaktionsspam zu vermeiden."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -279,7 +279,7 @@ msgstr "{game} wurde erfolgreich in {channel} aufgesetzt."
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: You can freely edit the text channel now."
-msgstr ""
+msgstr "Hinweis: Du kannst den Textkanal jetzt frei bearbeiten."
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
@@ -434,12 +434,12 @@ msgstr "Es erfordert Aufmerksamkeit, Koordination und schnelles Handeln, um den 
 #: Extensions/Commands/Community/counting/counting.py:552
 #: Extensions/Commands/Community/counting/testing.py:552
 msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
-msgstr ""
+msgstr "Es kann eine lustige Herausforderung sein zu sehen, wie hoch die Zahlenfolge gehen kann, während die Spieler zusammenarbeiten, um das Counting Spiel fortzusetzen."
 
 #: Extensions/Commands/Community/counting/counting.py:558
 #: Extensions/Commands/Community/counting/testing.py:558
 msgid "One person can't count numbers in a row (others are required)."
-msgstr ""
+msgstr "Eine Person kann keine Zahlen hintereinander zählen (andere sind erforderlich)."
 
 #: Extensions/Commands/Community/counting/counting.py:559
 #: Extensions/Commands/Community/counting/testing.py:559
@@ -456,14 +456,14 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:566
 #: Extensions/Commands/Community/counting/testing.py:566
 msgid "The rules are simple"
-msgstr ""
+msgstr "Die Regeln sind einfach"
 
 #: Extensions/Commands/Community/counting/counting.py:572
 #: Extensions/Commands/Community/counting/testing.py:572
 #: Extensions/Commands/Community/oneword/oneword.py:324
 #: Extensions/Commands/Community/oneword/testing.py:324
 msgid "How to setup the game?"
-msgstr ""
+msgstr "Wie wird das Spiel eingerichtet?"
 
 #: Extensions/Commands/Community/counting/counting.py:574
 #: Extensions/Commands/Community/counting/testing.py:574
@@ -471,14 +471,14 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:326
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
-msgstr ""
+msgstr "Beginne mit dem Befehl {command} um den essenziellen Kanal zu erstellen und einzurichten"
 
 #: Extensions/Commands/Community/counting/counting.py:579
 #: Extensions/Commands/Community/counting/testing.py:579
 #: Extensions/Commands/Community/oneword/oneword.py:349
 #: Extensions/Commands/Community/oneword/testing.py:349
 msgid "How to configure the game?"
-msgstr ""
+msgstr "Wie konfiguriert man das Spiel?"
 
 #: Extensions/Commands/Community/counting/counting.py:581
 #: Extensions/Commands/Community/counting/testing.py:581
