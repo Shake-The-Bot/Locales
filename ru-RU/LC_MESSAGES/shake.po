@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-13 21:58\n"
+"PO-Revision-Date: 2023-07-15 09:24\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -57,48 +57,48 @@ msgstr "Назад"
 msgid "This category either does not exist or has no items for you."
 msgstr "Этой категории либо не существует, либо в ней нет товаров для Вас."
 
-#: Classes/accessoires/source.py:249
+#: Classes/accessoires/source.py:245
 msgid "Please confirm your selection to exit the menu."
 msgstr "Пожалуйста, подтвердите свой выбор, чтобы выйти из данного меню"
 
-#: Classes/converter.py:94
+#: Classes/converter.py:96
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
 msgstr "`{duration}` не является длительной строкой."
 
-#: Classes/converter.py:124
+#: Classes/converter.py:126
 msgid "Regex pattern missing wrapping backticks"
 msgstr "Отсутствуют обратные галочки для Regex"
 
-#: Classes/converter.py:128
+#: Classes/converter.py:130
 #, python-brace-format
 msgid "Regex error: {e_msg}"
 msgstr "Ошибка выражения: {e_msg}"
 
-#: Classes/helpful.py:629
+#: Classes/helpful.py:631
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
 msgstr "По запросу {user} • через встряхивание"
 
-#: Classes/useful.py:101
+#: Classes/useful.py:104
 msgid "or"
 msgstr "или"
 
-#: Classes/useful.py:102
+#: Classes/useful.py:105
 msgid "and"
 msgstr "и"
 
-#: Classes/useful.py:381
+#: Classes/useful.py:406
 #, python-brace-format
 msgid "[{name} (upload a file)]"
 msgstr "[{name} (загрузить файл)]"
 
-#: Classes/useful.py:387
+#: Classes/useful.py:412
 #, python-brace-format
 msgid "<{name} (upload a file)>"
 msgstr "[{name} (загрузить файл)]"
 
-#: Classes/useful.py:389
+#: Classes/useful.py:414
 #, python-brace-format
 msgid "[{name} (upload files)]…"
 msgstr "[{name} (загрузить файлы)]…"
@@ -218,8 +218,8 @@ msgstr ""
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
-#: Extensions/Commands/Community/counting/counting.py:647
-#: Extensions/Commands/Community/counting/testing.py:647
+#: Extensions/Commands/Community/counting/counting.py:645
+#: Extensions/Commands/Community/counting/testing.py:645
 #: Extensions/Commands/Community/oneword/oneword.py:223
 #: Extensions/Commands/Community/oneword/testing.py:223
 msgid "CURRENT SERVER SCORES"
@@ -227,8 +227,8 @@ msgstr "ТЕКУЩИЕ ОЦЕНКИ СЕРВЕРА"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:225
 #: Extensions/Commands/Community/aboveme/testing.py:225
-#: Extensions/Commands/Community/counting/counting.py:649
-#: Extensions/Commands/Community/counting/testing.py:649
+#: Extensions/Commands/Community/counting/counting.py:647
+#: Extensions/Commands/Community/counting/testing.py:647
 #: Extensions/Commands/Community/oneword/oneword.py:225
 #: Extensions/Commands/Community/oneword/testing.py:225
 msgid "CURRENT USER SCORES"
@@ -236,8 +236,8 @@ msgstr "ТЕКУЩИЕ ОЦЕНКИ ПОЛЬЗОВАТЕЛЕЙ"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:264
 #: Extensions/Commands/Community/aboveme/testing.py:264
-#: Extensions/Commands/Community/counting/counting.py:693
-#: Extensions/Commands/Community/counting/testing.py:693
+#: Extensions/Commands/Community/counting/counting.py:691
+#: Extensions/Commands/Community/counting/testing.py:691
 #: Extensions/Commands/Community/oneword/oneword.py:262
 #: Extensions/Commands/Community/oneword/testing.py:262
 msgid "I could not create a TextChannel. Aborting..."
@@ -245,8 +245,8 @@ msgstr "Я не мог создать текстовый канал. Преры�
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:276
 #: Extensions/Commands/Community/aboveme/testing.py:276
-#: Extensions/Commands/Community/counting/counting.py:705
-#: Extensions/Commands/Community/counting/testing.py:705
+#: Extensions/Commands/Community/counting/counting.py:703
+#: Extensions/Commands/Community/counting/testing.py:703
 #: Extensions/Commands/Community/oneword/oneword.py:274
 #: Extensions/Commands/Community/oneword/testing.py:274
 msgid "I could not edit the TextChannel! Aborting..."
@@ -254,8 +254,8 @@ msgstr "Я не смог отредактировать текстовый ка�
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:288
 #: Extensions/Commands/Community/aboveme/testing.py:288
-#: Extensions/Commands/Community/counting/counting.py:734
-#: Extensions/Commands/Community/counting/testing.py:734
+#: Extensions/Commands/Community/counting/counting.py:732
+#: Extensions/Commands/Community/counting/testing.py:732
 #: Extensions/Commands/Community/oneword/oneword.py:286
 #: Extensions/Commands/Community/oneword/testing.py:286
 #, python-brace-format
@@ -264,8 +264,8 @@ msgstr "В {channel} уже установлен счетчик игры. Пре
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:299
 #: Extensions/Commands/Community/aboveme/testing.py:299
-#: Extensions/Commands/Community/counting/counting.py:761
-#: Extensions/Commands/Community/counting/testing.py:761
+#: Extensions/Commands/Community/counting/counting.py:759
+#: Extensions/Commands/Community/counting/testing.py:759
 #: Extensions/Commands/Community/oneword/oneword.py:297
 #: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
@@ -274,8 +274,8 @@ msgstr "{game} успешно настроена для канала {channel}!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:303
 #: Extensions/Commands/Community/aboveme/testing.py:303
-#: Extensions/Commands/Community/counting/counting.py:765
-#: Extensions/Commands/Community/counting/testing.py:765
+#: Extensions/Commands/Community/counting/counting.py:763
+#: Extensions/Commands/Community/counting/testing.py:763
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: You can freely edit the text channel now."
@@ -446,72 +446,72 @@ msgstr "Один человек не может считать числа под
 #: Extensions/Commands/Community/counting/testing.py:559
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
-msgid "No botting, if you have fail to often, you'll get muted."
-msgstr "Никаких ботов, если вы часто ошибаетесь, вам будет выдан мьют в счёте!"
+msgid "No botting, if you have failed to often, you'll get muted."
+msgstr ""
 
-#: Extensions/Commands/Community/counting/counting.py:561
-#: Extensions/Commands/Community/counting/testing.py:561
-msgid "If you break the count, the count will reset to a calculated checkpoint."
-msgstr "Если вы прервете счет, счетчик будет сброшен до расчета конечной точки, которой достиг сервер."
+#: Extensions/Commands/Community/counting/counting.py:560
+#: Extensions/Commands/Community/counting/testing.py:560
+msgid "If you break the count, the count will reset to the start."
+msgstr ""
 
-#: Extensions/Commands/Community/counting/counting.py:566
-#: Extensions/Commands/Community/counting/testing.py:566
+#: Extensions/Commands/Community/counting/counting.py:564
+#: Extensions/Commands/Community/counting/testing.py:564
 msgid "The rules are simple"
 msgstr "Правила очень просты"
 
-#: Extensions/Commands/Community/counting/counting.py:572
-#: Extensions/Commands/Community/counting/testing.py:572
+#: Extensions/Commands/Community/counting/counting.py:570
+#: Extensions/Commands/Community/counting/testing.py:570
 #: Extensions/Commands/Community/oneword/oneword.py:324
 #: Extensions/Commands/Community/oneword/testing.py:324
 msgid "How to setup the game?"
 msgstr "Как настроить игру?"
 
-#: Extensions/Commands/Community/counting/counting.py:574
-#: Extensions/Commands/Community/counting/testing.py:574
+#: Extensions/Commands/Community/counting/counting.py:572
+#: Extensions/Commands/Community/counting/testing.py:572
 #: Extensions/Commands/Community/oneword/oneword.py:326
 #: Extensions/Commands/Community/oneword/testing.py:326
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
 msgstr "Начните с использования команды {command} для создания и настройки основного канала для счёта, и начинайте считать вместе с участниками сервера."
 
-#: Extensions/Commands/Community/counting/counting.py:579
-#: Extensions/Commands/Community/counting/testing.py:579
+#: Extensions/Commands/Community/counting/counting.py:577
+#: Extensions/Commands/Community/counting/testing.py:577
 #: Extensions/Commands/Community/oneword/oneword.py:349
 #: Extensions/Commands/Community/oneword/testing.py:349
 msgid "How to configure the game?"
 msgstr "Как настроить игру?"
 
-#: Extensions/Commands/Community/counting/counting.py:581
-#: Extensions/Commands/Community/counting/testing.py:581
+#: Extensions/Commands/Community/counting/counting.py:579
+#: Extensions/Commands/Community/counting/testing.py:579
 #, python-brace-format
 msgid "Customize all kind of properties for Counting by using the command {command}!"
 msgstr ""
 
-#: Extensions/Commands/Community/counting/counting.py:586
-#: Extensions/Commands/Community/counting/testing.py:586
+#: Extensions/Commands/Community/counting/counting.py:584
+#: Extensions/Commands/Community/counting/testing.py:584
 msgid "The higher the number, the harder you fall!"
 msgstr "Чем выше число, тем сильнее вы падаете!"
 
-#: Extensions/Commands/Community/counting/counting.py:604
-#: Extensions/Commands/Community/counting/testing.py:604
+#: Extensions/Commands/Community/counting/counting.py:602
+#: Extensions/Commands/Community/counting/testing.py:602
 #, python-brace-format
 msgid "There is no Counting-Game in the given channel {channel} that we could configure."
 msgstr "В данном канале {channel} нет счётной игры, которую бот или администрация могли бы настроить!"
 
-#: Extensions/Commands/Community/counting/counting.py:616
-#: Extensions/Commands/Community/counting/testing.py:616
+#: Extensions/Commands/Community/counting/counting.py:614
+#: Extensions/Commands/Community/counting/testing.py:614
 #, python-brace-format
 msgid "The next number in here has been set to {count}"
 msgstr "Следующий номер установлен на {count}"
 
-#: Extensions/Commands/Community/counting/counting.py:621
-#: Extensions/Commands/Community/counting/testing.py:621
+#: Extensions/Commands/Community/counting/counting.py:619
+#: Extensions/Commands/Community/counting/testing.py:619
 #, python-brace-format
 msgid "The stats of the Counting-Game in {channel} has been successfully configured."
 msgstr "Статистика подсчета игры в {channel} успешно настроена."
 
-#: Extensions/Commands/Community/counting/counting.py:719
-#: Extensions/Commands/Community/counting/testing.py:719
+#: Extensions/Commands/Community/counting/counting.py:717
+#: Extensions/Commands/Community/counting/testing.py:717
 msgid "I could not create a webhook in the TextChannel! Aborting..."
 msgstr "Я не смог создать вебхук в текстовом канале! Ошибка..."
 
@@ -625,7 +625,7 @@ msgstr "Поздравляем"
 
 #: Extensions/Commands/Gimmicks/count/count.py:28
 #: Extensions/Commands/Gimmicks/count/testing.py:28
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:270
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:272
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "Yes"
 msgstr "Да"
@@ -634,31 +634,6 @@ msgstr "Да"
 #: Extensions/Commands/Gimmicks/count/testing.py:31
 msgid "Have fun!"
 msgstr "Веселитесь!"
-
-#: Extensions/Commands/Gimmicks/countdown/__init__.py:33
-msgid "It's the final countdown"
-msgstr "Это последний обратный отсчет"
-
-#: Extensions/Commands/Gimmicks/countdown/countdown.py:12
-#: Extensions/Commands/Gimmicks/countdown/testing.py:12
-msgid "five"
-msgstr "пять"
-
-#: Extensions/Commands/Gimmicks/countdown/countdown.py:12
-#: Extensions/Commands/Gimmicks/countdown/testing.py:12
-msgid "two"
-msgstr "два"
-
-#: Extensions/Commands/Gimmicks/countdown/countdown.py:12
-#: Extensions/Commands/Gimmicks/countdown/testing.py:12
-msgid "one"
-msgstr "один"
-
-#: Extensions/Commands/Gimmicks/countdown/countdown.py:13
-#: Extensions/Commands/Gimmicks/countdown/testing.py:13
-#, python-brace-format
-msgid "{__} Lets start this {__}"
-msgstr "{__} Давайте начнем с этого - {__}"
 
 #: Extensions/Commands/Gimmicks/everyone/__init__.py:34
 msgid "Remind others how bad @everyone actually is\n\n"
@@ -1041,9 +1016,9 @@ msgstr ""
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:50
 #: Extensions/Commands/Information/channelinfo/testing.py:88
 #: Extensions/Commands/Information/channelinfo/testing.py:169
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:640
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:642
 #: Extensions/Commands/Information/serverinfo/testing.py:640
-#: Extensions/Commands/Information/userinfo/testing.py:888
+#: Extensions/Commands/Information/userinfo/testing.py:890
 #: Extensions/Commands/Information/userinfo/userinfo.py:888
 msgid "General Overview"
 msgstr "Общее описание"
@@ -1052,13 +1027,13 @@ msgstr "Общее описание"
 #: Extensions/Commands/Information/channelinfo/testing.py:94
 #: Extensions/Commands/Information/channelinfo/testing.py:176
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:171
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:269
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:647
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:271
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:649
 #: Extensions/Commands/Information/serverinfo/testing.py:171
 #: Extensions/Commands/Information/serverinfo/testing.py:269
 #: Extensions/Commands/Information/serverinfo/testing.py:647
 #: Extensions/Commands/Information/userinfo/testing.py:188
-#: Extensions/Commands/Information/userinfo/testing.py:959
+#: Extensions/Commands/Information/userinfo/testing.py:961
 #: Extensions/Commands/Information/userinfo/userinfo.py:188
 #: Extensions/Commands/Information/userinfo/userinfo.py:959
 msgid "Created"
@@ -1067,7 +1042,7 @@ msgstr "Создано"
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:67
 #: Extensions/Commands/Information/channelinfo/testing.py:108
 #: Extensions/Commands/Information/channelinfo/testing.py:189
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:657
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:659
 #: Extensions/Commands/Information/serverinfo/testing.py:657
 msgid "Region"
 msgstr "Регион"
@@ -1075,9 +1050,9 @@ msgstr "Регион"
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:89
 #: Extensions/Commands/Information/channelinfo/testing.py:111
 #: Extensions/Commands/Information/channelinfo/testing.py:211
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:679
-#: Extensions/Commands/Information/serverinfo/testing.py:679
-#: Extensions/Commands/Information/userinfo/testing.py:958
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:684
+#: Extensions/Commands/Information/serverinfo/testing.py:682
+#: Extensions/Commands/Information/userinfo/testing.py:960
 #: Extensions/Commands/Information/userinfo/userinfo.py:958
 msgid "ID"
 msgstr "ID"
@@ -1085,9 +1060,9 @@ msgstr "ID"
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:93
 #: Extensions/Commands/Information/channelinfo/testing.py:115
 #: Extensions/Commands/Information/channelinfo/testing.py:222
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:690
-#: Extensions/Commands/Information/serverinfo/testing.py:690
-#: Extensions/Commands/Information/userinfo/testing.py:967
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:695
+#: Extensions/Commands/Information/serverinfo/testing.py:693
+#: Extensions/Commands/Information/userinfo/testing.py:969
 #: Extensions/Commands/Information/userinfo/userinfo.py:967
 msgid "More Information"
 msgstr "Дополнительная информация"
@@ -1098,7 +1073,7 @@ msgid "No region supporting channels"
 msgstr ""
 
 #: Extensions/Commands/Information/channelinfo/testing.py:135
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:348
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:350
 #: Extensions/Commands/Information/serverinfo/testing.py:348
 msgid "Channels"
 msgstr "каналы"
@@ -1113,46 +1088,46 @@ msgid "Page {page}/{pages} (Total of {items} Channels)"
 msgstr ""
 
 #: Extensions/Commands/Information/channelinfo/testing.py:203
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:417
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:671
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:419
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:676
 #: Extensions/Commands/Information/serverinfo/testing.py:417
-#: Extensions/Commands/Information/serverinfo/testing.py:671
+#: Extensions/Commands/Information/serverinfo/testing.py:674
 msgid "Members"
 msgstr "Участники"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:212
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:680
-#: Extensions/Commands/Information/serverinfo/testing.py:680
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:685
+#: Extensions/Commands/Information/serverinfo/testing.py:683
 msgid "Owner"
 msgstr "Владелец"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:213
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:154
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:681
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:686
 #: Extensions/Commands/Information/serverinfo/testing.py:154
-#: Extensions/Commands/Information/serverinfo/testing.py:681
+#: Extensions/Commands/Information/serverinfo/testing.py:684
 #: Extensions/Commands/Information/userinfo/testing.py:171
 #: Extensions/Commands/Information/userinfo/userinfo.py:171
 msgid "Roles"
 msgstr "Роли"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:214
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:255
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:682
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:257
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:687
 #: Extensions/Commands/Information/serverinfo/testing.py:255
-#: Extensions/Commands/Information/serverinfo/testing.py:682
+#: Extensions/Commands/Information/serverinfo/testing.py:685
 msgid "Emojis"
 msgstr "Эмодзи"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:215
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:683
-#: Extensions/Commands/Information/serverinfo/testing.py:683
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:688
+#: Extensions/Commands/Information/serverinfo/testing.py:686
 msgid "Stickers"
 msgstr "Стикеры"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:217
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:685
-#: Extensions/Commands/Information/serverinfo/testing.py:685
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:690
+#: Extensions/Commands/Information/serverinfo/testing.py:688
 msgid "Boost"
 msgstr "Буст"
 
@@ -1325,19 +1300,15 @@ msgstr "Поддержка бота в виде Patreon сохранит мот�
 msgid "{emoji} Helpful links for understanding Patreon"
 msgstr "{emoji} Полезные ссылки для понимания Покровителя"
 
-#: Extensions/Commands/Information/plus/plus.py:37
-#: Extensions/Commands/Information/plus/testing.py:37
-msgid "**[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
-"                **[What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
-"                **[How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
-"                "
-msgstr "**[Что такое Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
-"                **[Какие валюты поддерживает Patreon?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
-"                **[Как мне подключить Discord к Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
-"                "
+#: Extensions/Commands/Information/plus/plus.py:38
+#: Extensions/Commands/Information/plus/testing.py:38
+msgid "[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)\n"
+"                [What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)\n"
+"                [How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)"
+msgstr ""
 
-#: Extensions/Commands/Information/plus/plus.py:55
-#: Extensions/Commands/Information/plus/testing.py:55
+#: Extensions/Commands/Information/plus/plus.py:56
+#: Extensions/Commands/Information/plus/testing.py:56
 msgid "Add Shake to your server"
 msgstr "Добавить встряхивание на ваш сервер"
 
@@ -1376,17 +1347,17 @@ msgstr "Использовано"
 msgid "Total"
 msgstr "Итого"
 
-#: Extensions/Commands/Information/rtfm/rtfm.py:181
-#: Extensions/Commands/Information/rtfm/testing.py:181
+#: Extensions/Commands/Information/rtfm/rtfm.py:182
+#: Extensions/Commands/Information/rtfm/testing.py:182
 #, python-brace-format
-msgid "**Total uses**: {total_uses}"
-msgstr "**Всего использований**: {total_uses}"
+msgid "Total uses: {total_uses}"
+msgstr ""
 
-#: Extensions/Commands/Information/rtfm/rtfm.py:184
-#: Extensions/Commands/Information/rtfm/testing.py:184
+#: Extensions/Commands/Information/rtfm/rtfm.py:187
+#: Extensions/Commands/Information/rtfm/testing.py:187
 #, python-brace-format
-msgid "**Top {top} member**:"
-msgstr "**Топ {top} участник**:"
+msgid "Top {top} member:"
+msgstr ""
 
 #: Extensions/Commands/Information/serverinfo/__init__.py:43
 msgid "Get information about a specific server.\n"
@@ -1496,36 +1467,36 @@ msgstr "Цвет"
 msgid "Default"
 msgstr "По умолчанию"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:182
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:184
 #: Extensions/Commands/Information/serverinfo/testing.py:182
-#: Extensions/Commands/Information/userinfo/testing.py:199
+#: Extensions/Commands/Information/userinfo/testing.py:201
 #: Extensions/Commands/Information/userinfo/userinfo.py:199
 #, python-brace-format
 msgid "Page {page}/{pages} (Total of {items} Roles)"
 msgstr "Страница {page}/{pages} (Всего {items} ролей)"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:207
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:209
 #: Extensions/Commands/Information/serverinfo/testing.py:207
-#: Extensions/Commands/Information/userinfo/testing.py:233
+#: Extensions/Commands/Information/userinfo/testing.py:235
 #: Extensions/Commands/Information/userinfo/userinfo.py:233
 msgid "Avatar/Banner"
 msgstr "Аватар / Баннер"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:230
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:232
 #: Extensions/Commands/Information/serverinfo/testing.py:230
-#: Extensions/Commands/Information/userinfo/testing.py:256
+#: Extensions/Commands/Information/userinfo/testing.py:258
 #: Extensions/Commands/Information/userinfo/userinfo.py:256
 #, python-brace-format
 msgid "Open link: {links}"
 msgstr "Открыть ссылку: {links}"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:236
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:615
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:238
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:617
 #: Extensions/Commands/Information/serverinfo/testing.py:236
 #: Extensions/Commands/Information/serverinfo/testing.py:615
-#: Extensions/Commands/Information/userinfo/testing.py:263
-#: Extensions/Commands/Information/userinfo/testing.py:800
-#: Extensions/Commands/Information/userinfo/testing.py:863
+#: Extensions/Commands/Information/userinfo/testing.py:265
+#: Extensions/Commands/Information/userinfo/testing.py:802
+#: Extensions/Commands/Information/userinfo/testing.py:865
 #: Extensions/Commands/Information/userinfo/userinfo.py:263
 #: Extensions/Commands/Information/userinfo/userinfo.py:800
 #: Extensions/Commands/Information/userinfo/userinfo.py:863
@@ -1533,177 +1504,177 @@ msgstr "Открыть ссылку: {links}"
 msgid "Page {page} of {pages}"
 msgstr "Страница {page} из {pages}"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:263
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:265
 #: Extensions/Commands/Information/serverinfo/testing.py:263
 msgid "Server Emojis"
 msgstr "Эмодзи сервера"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:270
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:272
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "Twitch"
 msgstr "Twitch"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:270
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:272
 #: Extensions/Commands/Information/serverinfo/testing.py:270
 msgid "No"
 msgstr "Нет"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:271
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:273
 #: Extensions/Commands/Information/serverinfo/testing.py:271
 msgid "Added"
 msgstr "Добавлен"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:284
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:286
 #: Extensions/Commands/Information/serverinfo/testing.py:284
 #, python-brace-format
 msgid "Page {page} of {pages} (Total of {items} Emojis)"
 msgstr "Страница {page} из {pages} (Всего эмодзи {items})"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:301
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:303
 #: Extensions/Commands/Information/serverinfo/testing.py:301
 msgid "Nitro Booster"
 msgstr "Бустер при помощи Nitro"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:318
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:320
 #: Extensions/Commands/Information/serverinfo/testing.py:318
 msgid "Server Nitro Booster"
 msgstr "Серверный бустер Nitro"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:321
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:323
 #: Extensions/Commands/Information/serverinfo/testing.py:321
 #, python-brace-format
 msgid "Page {page} of {pages} (Total of {items} Booster)"
 msgstr "Страница {page} из {pages} (Всего {items} бустера)"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:368
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:370
 #: Extensions/Commands/Information/serverinfo/testing.py:368
 #, python-brace-format
 msgid "{categories} Categorie-, {voices} Voice-, {stages} Stage-, {forums} Forum- and {texts} Textchannel with {threads} Threads"
 msgstr "{categories} категории-, {voices} войс чаты-, {stages} трибуны-, {forums} форумы- и {texts} текстовые каналы с {threads} ветками"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:377
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:379
 #: Extensions/Commands/Information/serverinfo/testing.py:377
 msgid "Server Channels"
 msgstr "Каналы сервера"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:395
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:397
 #: Extensions/Commands/Information/serverinfo/testing.py:395
 msgid "NO CAT"
 msgstr "НЕТ КОТА"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:401
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:403
 #: Extensions/Commands/Information/serverinfo/testing.py:401
 #, python-brace-format
 msgid "Page {page} of {pages} (Total of {items} Channels)"
 msgstr "Страница {page} из {pages} (Всего {items} каналов)"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:426
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:428
 #: Extensions/Commands/Information/serverinfo/testing.py:426
 msgid "Server Members"
 msgstr "Серверные пользователи"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:434
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:436
 #: Extensions/Commands/Information/serverinfo/testing.py:434
 msgid "Total Members"
 msgstr "Всего пользователей"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:437
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:439
 #: Extensions/Commands/Information/serverinfo/testing.py:437
 msgid "Total Humans"
 msgstr "Всего людей"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:442
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:444
 #: Extensions/Commands/Information/serverinfo/testing.py:442
 msgid "Total Bots"
 msgstr "Всего ботов"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:447
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:449
 #: Extensions/Commands/Information/serverinfo/testing.py:447
 msgid "Total Online"
 msgstr "Всего в сети"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:452
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:454
 #: Extensions/Commands/Information/serverinfo/testing.py:452
 msgid "Humans Online"
 msgstr "Людей в сети"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:457
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:459
 #: Extensions/Commands/Information/serverinfo/testing.py:457
 msgid "Bots Online"
 msgstr "Ботов в сети"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:462
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:464
 #: Extensions/Commands/Information/serverinfo/testing.py:462
 msgid "Total Idle"
 msgstr "Всего не активных"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:467
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:469
 #: Extensions/Commands/Information/serverinfo/testing.py:467
 msgid "Humans Idle"
 msgstr "Людей не активно"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:472
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:474
 #: Extensions/Commands/Information/serverinfo/testing.py:472
 msgid "Bots Idle"
 msgstr "Ботов не активно"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:477
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:479
 #: Extensions/Commands/Information/serverinfo/testing.py:477
 msgid "Total DND"
 msgstr "Всего не беспокоить"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:482
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:484
 #: Extensions/Commands/Information/serverinfo/testing.py:482
 msgid "Humans DND"
 msgstr "Людей не беспокоить"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:487
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:489
 #: Extensions/Commands/Information/serverinfo/testing.py:487
 msgid "Bots DND"
 msgstr "Ботов не беспокоить"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:492
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:494
 #: Extensions/Commands/Information/serverinfo/testing.py:492
 msgid "Total Offline"
 msgstr "Всего оффлайн"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:497
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:499
 #: Extensions/Commands/Information/serverinfo/testing.py:497
 msgid "Humans Offline"
 msgstr "Людей оффлайн"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:502
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:504
 #: Extensions/Commands/Information/serverinfo/testing.py:502
 msgid "Bots Offline"
 msgstr "Ботов оффлайн"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:533
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:535
 #: Extensions/Commands/Information/serverinfo/testing.py:533
-#: Extensions/Commands/Information/userinfo/testing.py:405
-#: Extensions/Commands/Information/userinfo/testing.py:963
+#: Extensions/Commands/Information/userinfo/testing.py:407
+#: Extensions/Commands/Information/userinfo/testing.py:965
 #: Extensions/Commands/Information/userinfo/userinfo.py:405
 #: Extensions/Commands/Information/userinfo/userinfo.py:963
 msgid "Badges"
 msgstr "Значки"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:539
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:541
 #: Extensions/Commands/Information/serverinfo/testing.py:539
 msgid "Server Member Badges"
 msgstr "Значки участника сервера"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:583
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:585
 #: Extensions/Commands/Information/serverinfo/testing.py:583
-#: Extensions/Commands/Information/userinfo/testing.py:826
+#: Extensions/Commands/Information/userinfo/testing.py:828
 #: Extensions/Commands/Information/userinfo/userinfo.py:826
 msgid "Activities"
 msgstr "Активности"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:593
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:595
 #: Extensions/Commands/Information/serverinfo/testing.py:593
 msgid "Server Activities"
 msgstr "Активности сервера"
 
-#: Extensions/Commands/Information/serverinfo/serverinfo.py:607
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:609
 #: Extensions/Commands/Information/serverinfo/testing.py:607
 #, python-brace-format
 msgid "Top {index} Activity ({type})"
@@ -1721,7 +1692,7 @@ msgstr "Получите базовую информацию и статисти
 #: Extensions/Commands/Information/stats/stats.py:139
 #: Extensions/Commands/Information/stats/testing.py:71
 #: Extensions/Commands/Information/stats/testing.py:139
-#: Extensions/Commands/Information/userinfo/testing.py:894
+#: Extensions/Commands/Information/userinfo/testing.py:896
 #: Extensions/Commands/Information/userinfo/userinfo.py:894
 msgid "Bot"
 msgstr "Bot"
@@ -1853,256 +1824,256 @@ msgstr "Получение информации о конкретном серв
 "            гильдия: Необязательно[str]\n"
 "                название или идентификатор гильдии для получения информации о ней."
 
-#: Extensions/Commands/Information/userinfo/testing.py:221
+#: Extensions/Commands/Information/userinfo/testing.py:223
 #: Extensions/Commands/Information/userinfo/userinfo.py:221
 msgid "User's Avatar"
 msgstr "Аватар пользователя"
 
-#: Extensions/Commands/Information/userinfo/testing.py:223
+#: Extensions/Commands/Information/userinfo/testing.py:225
 #: Extensions/Commands/Information/userinfo/userinfo.py:223
 msgid "User's Display Avatar"
 msgstr "Отобразить аватар пользователя"
 
-#: Extensions/Commands/Information/userinfo/testing.py:225
+#: Extensions/Commands/Information/userinfo/testing.py:227
 #: Extensions/Commands/Information/userinfo/userinfo.py:225
 msgid "User's Guild Avatar"
 msgstr "Аватар гильдии"
 
-#: Extensions/Commands/Information/userinfo/testing.py:226
+#: Extensions/Commands/Information/userinfo/testing.py:228
 #: Extensions/Commands/Information/userinfo/userinfo.py:226
 msgid "User's Banner"
 msgstr "Баннер пользователя"
 
-#: Extensions/Commands/Information/userinfo/testing.py:288
+#: Extensions/Commands/Information/userinfo/testing.py:290
 #: Extensions/Commands/Information/userinfo/userinfo.py:288
 msgid "Mutual Servers"
 msgstr "Взаимные серверы"
 
-#: Extensions/Commands/Information/userinfo/testing.py:299
+#: Extensions/Commands/Information/userinfo/testing.py:301
 #: Extensions/Commands/Information/userinfo/userinfo.py:299
 #, python-brace-format
 msgid "Guild {page} of {pages}"
 msgstr "Страница {page} из {pages}"
 
-#: Extensions/Commands/Information/userinfo/testing.py:324
-#: Extensions/Commands/Information/userinfo/testing.py:332
+#: Extensions/Commands/Information/userinfo/testing.py:326
+#: Extensions/Commands/Information/userinfo/testing.py:334
 #: Extensions/Commands/Information/userinfo/userinfo.py:324
 #: Extensions/Commands/Information/userinfo/userinfo.py:332
 msgid "Joining Postition"
 msgstr "Присоединение к Postition"
 
-#: Extensions/Commands/Information/userinfo/testing.py:335
+#: Extensions/Commands/Information/userinfo/testing.py:337
 #: Extensions/Commands/Information/userinfo/userinfo.py:335
 msgid "Member's position"
 msgstr "Должность участника"
 
-#: Extensions/Commands/Information/userinfo/testing.py:352
+#: Extensions/Commands/Information/userinfo/testing.py:354
 #: Extensions/Commands/Information/userinfo/userinfo.py:352
 msgid "Joined on"
 msgstr "Дата регистрации"
 
-#: Extensions/Commands/Information/userinfo/testing.py:391
+#: Extensions/Commands/Information/userinfo/testing.py:393
 #: Extensions/Commands/Information/userinfo/userinfo.py:391
 #, python-brace-format
 msgid "Total of {items} Members"
 msgstr "Всего {items} участников"
 
-#: Extensions/Commands/Information/userinfo/testing.py:414
+#: Extensions/Commands/Information/userinfo/testing.py:416
 #: Extensions/Commands/Information/userinfo/userinfo.py:414
 msgid "User Badges"
 msgstr "Значки пользователя"
 
-#: Extensions/Commands/Information/userinfo/testing.py:444
+#: Extensions/Commands/Information/userinfo/testing.py:446
 #: Extensions/Commands/Information/userinfo/userinfo.py:444
 msgid "Counting"
 msgstr "Подсчёт"
 
-#: Extensions/Commands/Information/userinfo/testing.py:450
+#: Extensions/Commands/Information/userinfo/testing.py:452
 #: Extensions/Commands/Information/userinfo/userinfo.py:450
 msgid "Counting stats"
 msgstr "Способы подсчета"
 
-#: Extensions/Commands/Information/userinfo/testing.py:481
-#: Extensions/Commands/Information/userinfo/testing.py:589
+#: Extensions/Commands/Information/userinfo/testing.py:483
+#: Extensions/Commands/Information/userinfo/testing.py:591
 #: Extensions/Commands/Information/userinfo/userinfo.py:481
 #: Extensions/Commands/Information/userinfo/userinfo.py:589
 #, python-brace-format
 msgid "{user} scored a total of {score} valid counts (#{placement})"
 msgstr "{user} набрал в общей сложности {score} допустимых чисел (#{placement})"
 
-#: Extensions/Commands/Information/userinfo/testing.py:491
-#: Extensions/Commands/Information/userinfo/testing.py:599
-#: Extensions/Commands/Information/userinfo/testing.py:703
+#: Extensions/Commands/Information/userinfo/testing.py:493
+#: Extensions/Commands/Information/userinfo/testing.py:601
+#: Extensions/Commands/Information/userinfo/testing.py:705
 #: Extensions/Commands/Information/userinfo/userinfo.py:491
 #: Extensions/Commands/Information/userinfo/userinfo.py:599
 #: Extensions/Commands/Information/userinfo/userinfo.py:703
 msgid "Total passed"
 msgstr "Всего прошло"
 
-#: Extensions/Commands/Information/userinfo/testing.py:503
-#: Extensions/Commands/Information/userinfo/testing.py:611
-#: Extensions/Commands/Information/userinfo/testing.py:715
+#: Extensions/Commands/Information/userinfo/testing.py:505
+#: Extensions/Commands/Information/userinfo/testing.py:613
+#: Extensions/Commands/Information/userinfo/testing.py:717
 #: Extensions/Commands/Information/userinfo/userinfo.py:503
 #: Extensions/Commands/Information/userinfo/userinfo.py:611
 #: Extensions/Commands/Information/userinfo/userinfo.py:715
 msgid "Total failed"
 msgstr "Всего прошло"
 
-#: Extensions/Commands/Information/userinfo/testing.py:515
-#: Extensions/Commands/Information/userinfo/testing.py:623
-#: Extensions/Commands/Information/userinfo/testing.py:727
+#: Extensions/Commands/Information/userinfo/testing.py:517
+#: Extensions/Commands/Information/userinfo/testing.py:625
+#: Extensions/Commands/Information/userinfo/testing.py:729
 #: Extensions/Commands/Information/userinfo/userinfo.py:515
 #: Extensions/Commands/Information/userinfo/userinfo.py:623
 #: Extensions/Commands/Information/userinfo/userinfo.py:727
 msgid "Total rate"
 msgstr "Общий рейтинг"
 
-#: Extensions/Commands/Information/userinfo/testing.py:524
-#: Extensions/Commands/Information/userinfo/testing.py:632
-#: Extensions/Commands/Information/userinfo/testing.py:736
+#: Extensions/Commands/Information/userinfo/testing.py:526
+#: Extensions/Commands/Information/userinfo/testing.py:634
+#: Extensions/Commands/Information/userinfo/testing.py:738
 #: Extensions/Commands/Information/userinfo/userinfo.py:524
 #: Extensions/Commands/Information/userinfo/userinfo.py:632
 #: Extensions/Commands/Information/userinfo/userinfo.py:736
 msgid "Total last played"
 msgstr "Общее время игры"
 
-#: Extensions/Commands/Information/userinfo/testing.py:535
+#: Extensions/Commands/Information/userinfo/testing.py:537
 #: Extensions/Commands/Information/userinfo/userinfo.py:535
 msgid "Total highest count"
 msgstr "Общее максимальное количество"
 
-#: Extensions/Commands/Information/userinfo/testing.py:541
-#: Extensions/Commands/Information/userinfo/testing.py:642
-#: Extensions/Commands/Information/userinfo/testing.py:754
+#: Extensions/Commands/Information/userinfo/testing.py:543
+#: Extensions/Commands/Information/userinfo/testing.py:644
+#: Extensions/Commands/Information/userinfo/testing.py:756
 #: Extensions/Commands/Information/userinfo/userinfo.py:541
 #: Extensions/Commands/Information/userinfo/userinfo.py:642
 #: Extensions/Commands/Information/userinfo/userinfo.py:754
 msgid "Information can update with time"
 msgstr "Информация может быть обновлена со временем"
 
-#: Extensions/Commands/Information/userinfo/testing.py:555
+#: Extensions/Commands/Information/userinfo/testing.py:557
 #: Extensions/Commands/Information/userinfo/userinfo.py:555
 msgid "OneWord"
 msgstr "– Одно слово"
 
-#: Extensions/Commands/Information/userinfo/testing.py:561
+#: Extensions/Commands/Information/userinfo/testing.py:563
 #: Extensions/Commands/Information/userinfo/userinfo.py:561
 msgid "OneWord stats"
 msgstr "Статистика OneWord"
 
-#: Extensions/Commands/Information/userinfo/testing.py:656
+#: Extensions/Commands/Information/userinfo/testing.py:658
 #: Extensions/Commands/Information/userinfo/userinfo.py:656
 msgid "AboveMe"
 msgstr "Вверху"
 
-#: Extensions/Commands/Information/userinfo/testing.py:662
+#: Extensions/Commands/Information/userinfo/testing.py:664
 #: Extensions/Commands/Information/userinfo/userinfo.py:662
 msgid "AboveMe stats"
 msgstr "Статистика сверху"
 
-#: Extensions/Commands/Information/userinfo/testing.py:693
+#: Extensions/Commands/Information/userinfo/testing.py:695
 #: Extensions/Commands/Information/userinfo/userinfo.py:693
 #, python-brace-format
 msgid "{user} scored a total of {score} valid phrases (#{placement})"
 msgstr "{user} набрал в общей сложности {score} допустимых чисел (#{placement})"
 
-#: Extensions/Commands/Information/userinfo/testing.py:747
+#: Extensions/Commands/Information/userinfo/testing.py:749
 #: Extensions/Commands/Information/userinfo/userinfo.py:747
 msgid "Total longest sentance"
 msgstr "Общее самое длинное предложение"
 
-#: Extensions/Commands/Information/userinfo/testing.py:776
+#: Extensions/Commands/Information/userinfo/testing.py:778
 #: Extensions/Commands/Information/userinfo/userinfo.py:776
 msgid "Permissions"
 msgstr "Права доступа"
 
-#: Extensions/Commands/Information/userinfo/testing.py:784
+#: Extensions/Commands/Information/userinfo/testing.py:786
 #: Extensions/Commands/Information/userinfo/userinfo.py:784
 msgid "Members server permissions"
 msgstr "Права участника сервера"
 
-#: Extensions/Commands/Information/userinfo/testing.py:834
+#: Extensions/Commands/Information/userinfo/testing.py:836
 #: Extensions/Commands/Information/userinfo/userinfo.py:834
 msgid "Member Activities"
 msgstr "Активности сервера"
 
-#: Extensions/Commands/Information/userinfo/testing.py:846
+#: Extensions/Commands/Information/userinfo/testing.py:848
 #: Extensions/Commands/Information/userinfo/userinfo.py:846
 #, python-brace-format
 msgid "to {name} by {author} on Spotify"
 msgstr "в {name} от {author} в Spotify"
 
-#: Extensions/Commands/Information/userinfo/testing.py:896
+#: Extensions/Commands/Information/userinfo/testing.py:898
 #: Extensions/Commands/Information/userinfo/userinfo.py:896
 msgid "Discord System"
 msgstr "Система Discord"
 
-#: Extensions/Commands/Information/userinfo/testing.py:899
+#: Extensions/Commands/Information/userinfo/testing.py:901
 #: Extensions/Commands/Information/userinfo/userinfo.py:899
 msgid "Member"
 msgstr "Участник"
 
-#: Extensions/Commands/Information/userinfo/testing.py:918
+#: Extensions/Commands/Information/userinfo/testing.py:920
 #: Extensions/Commands/Information/userinfo/userinfo.py:918
 msgid "online"
 msgstr "онлайн"
 
-#: Extensions/Commands/Information/userinfo/testing.py:919
+#: Extensions/Commands/Information/userinfo/testing.py:921
 #: Extensions/Commands/Information/userinfo/userinfo.py:919
 msgid "offline"
 msgstr "оффлайн"
 
-#: Extensions/Commands/Information/userinfo/testing.py:920
+#: Extensions/Commands/Information/userinfo/testing.py:922
 #: Extensions/Commands/Information/userinfo/userinfo.py:920
 msgid "streaming"
 msgstr "Стримит"
 
-#: Extensions/Commands/Information/userinfo/testing.py:921
+#: Extensions/Commands/Information/userinfo/testing.py:923
 #: Extensions/Commands/Information/userinfo/userinfo.py:921
 msgid "idle"
 msgstr "не активен"
 
-#: Extensions/Commands/Information/userinfo/testing.py:922
+#: Extensions/Commands/Information/userinfo/testing.py:924
 #: Extensions/Commands/Information/userinfo/userinfo.py:922
 msgid "dnd"
 msgstr "не беспокоить"
 
-#: Extensions/Commands/Information/userinfo/testing.py:928
+#: Extensions/Commands/Information/userinfo/testing.py:930
 #: Extensions/Commands/Information/userinfo/userinfo.py:928
 msgid "Status"
 msgstr "Статус"
 
-#: Extensions/Commands/Information/userinfo/testing.py:933
+#: Extensions/Commands/Information/userinfo/testing.py:935
 #: Extensions/Commands/Information/userinfo/userinfo.py:933
 msgid "Top Role"
 msgstr "Верхняя Роль"
 
-#: Extensions/Commands/Information/userinfo/testing.py:937
+#: Extensions/Commands/Information/userinfo/testing.py:939
 #: Extensions/Commands/Information/userinfo/userinfo.py:937
 msgid "Server Owner"
 msgstr "Владелец сервера"
 
-#: Extensions/Commands/Information/userinfo/testing.py:952
+#: Extensions/Commands/Information/userinfo/testing.py:954
 #: Extensions/Commands/Information/userinfo/userinfo.py:952
 msgid "Display name"
 msgstr "Отображаемое имя"
 
-#: Extensions/Commands/Information/userinfo/testing.py:953
+#: Extensions/Commands/Information/userinfo/testing.py:955
 #: Extensions/Commands/Information/userinfo/userinfo.py:953
 msgid "#Tag"
 msgstr "#Тег"
 
-#: Extensions/Commands/Information/userinfo/testing.py:954
+#: Extensions/Commands/Information/userinfo/testing.py:956
 #: Extensions/Commands/Information/userinfo/userinfo.py:954
 msgid "Migrated to username"
 msgstr "Перенесено в имя пользователя"
 
-#: Extensions/Commands/Information/userinfo/testing.py:960
+#: Extensions/Commands/Information/userinfo/testing.py:962
 #: Extensions/Commands/Information/userinfo/userinfo.py:960
 msgid "Shared Servers"
 msgstr "Общие серверы"
 
-#: Extensions/Commands/Information/userinfo/testing.py:961
+#: Extensions/Commands/Information/userinfo/testing.py:963
 #: Extensions/Commands/Information/userinfo/userinfo.py:961
 msgid "None"
 msgstr "Нет"
@@ -2124,49 +2095,26 @@ msgstr "> Помогите Shake использовав голосование"
 msgid "{emoji} The benefit of supporting Shake with Voting"
 msgstr "{emoji} Выгода от поддержки Shake через голосование"
 
-#: Extensions/Commands/Information/vote/testing.py:22
-#: Extensions/Commands/Information/vote/vote.py:22
-msgid "> _Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility and helps others discover Shake too._\n\n"
-"                **Thanks for every vote!!**\n"
-"                "
-msgstr "> _Поддержка бота голосованием сохранит мотивацию для развития Shake, увеличит его видимость и поможет другим открыть для себя Shake тоже._\n\n"
-"                **Спасибо за каждый голос!!!**"
+#: Extensions/Commands/Information/vote/testing.py:24
+#: Extensions/Commands/Information/vote/vote.py:24
+msgid "Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility and helps others discover Shake too."
+msgstr ""
 
-#: Extensions/Commands/Information/vote/testing.py:30
-#: Extensions/Commands/Information/vote/vote.py:30
+#: Extensions/Commands/Information/vote/testing.py:31
+#: Extensions/Commands/Information/vote/vote.py:31
 #, python-brace-format
 msgid "{emoji} Sites I am listed at"
 msgstr "{emoji} \n"
 "Сайты, на которых я зарегистрирован"
 
-#: Extensions/Commands/Information/vote/testing.py:32
-#: Extensions/Commands/Information/vote/vote.py:32
-#, python-brace-format
-msgid "**[Vote for Shake on Top.gg]({topgg})**\n"
-"                **[Vote for Shake on Discordbotlist.com]({discordbotlist})**\n"
-"                **[Vote for Shake on discord-botlist.eu]({botlisteu})**\n"
-"                **[Vote for Shake on infinitybots.gg]({infinitybots})**"
-msgstr "**[Голосуйте за Shake на Top.gg]({topgg})**.\n"
-"                **[Голосуйте за Shake на Discordbotlist.com]({discordbotlist})**.\n"
-"                **[Голосуйте за Shake на discord-botlist.eu]({botlisteu})**.\n"
-"                **[Голосуйте за Shake на infinitybots.gg]({infinitybots})**."
-
-#: Extensions/Commands/Information/vote/testing.py:45
-#: Extensions/Commands/Information/vote/vote.py:45
+#: Extensions/Commands/Information/vote/testing.py:47
+#: Extensions/Commands/Information/vote/vote.py:47
 #, python-brace-format
 msgid "{emoji} Other related links"
 msgstr "{emoji} Другие соответствующие ссылки"
 
-#: Extensions/Commands/Information/vote/testing.py:47
-#: Extensions/Commands/Information/vote/vote.py:47
-#, python-brace-format
-msgid "**[Shake on Discord Bots]({discordbots})**\n"
-"                **[Shake's Server on Discords]({discords})**"
-msgstr "**[Shake на Discord-bots]({discordbots})**\n"
-"                **[Сервер shake в discord]({discords})**."
-
-#: Extensions/Commands/Information/vote/testing.py:67
-#: Extensions/Commands/Information/vote/vote.py:67
+#: Extensions/Commands/Information/vote/testing.py:69
+#: Extensions/Commands/Information/vote/vote.py:69
 msgid "Vote for Shake"
 msgstr "Голосуй за Shake"
 
@@ -2231,33 +2179,6 @@ msgstr "Команды, связанные с модерацией.\n"
 #: Extensions/Commands/Moderation/moderation.py:23
 msgid "Moderation"
 msgstr "Модерация"
-
-#: Extensions/Commands/Moderation/sudo/__init__.py:45
-msgid "execute commands with the rights of another user\n\n"
-"            You can specify who executes this command in which text channel\"\n\n"
-"            Parameters\n"
-"            -----------\n"
-"            channel: Optional[TextChannel]\n"
-"                the channel\n\n"
-"            user: Member | User]\n"
-"                the user\n\n"
-"            command: str\n"
-"                the command\n\n"
-"            arguments: Optional[str]\n"
-"                the arguments\n"
-"            "
-msgstr "выполнять команды с правами другого пользователя\n\n"
-"            Вы можете указать, кто выполняет эту команду в каком текстовом канале\".\n\n"
-"            Параметры\n"
-"            -----------\n"
-"            канал: Optional[TextChannel]\n"
-"                канал\n\n"
-"            пользователь: Член | Пользователь]\n"
-"                пользователь\n\n"
-"            команда: str\n"
-"                команда\n\n"
-"            аргументы: Optional[str]\n"
-"                аргументы"
 
 #: Extensions/Commands/Moderation/timeout/__init__.py:59
 msgid "Puts member(s) in the timeout of a given time (default 1h)\n\n"
@@ -2348,16 +2269,9 @@ msgid "Reloads, unloads or loads extensions/commands of the bot\n"
 "            -----------\n"
 "            command: Literal[load, unload, reload]\n"
 "                re- un- or loading the <extensions>\n\n"
-"            extension: Greedy[ValidCog]\n"
+"            extension: Greedy[ValidExt]\n"
 "                the extension(s) you want to re- un- or load"
-msgstr "Перезагружает, выгружает или загружает расширения/команды бота\n"
-"            \n"
-"            Параметры\n"
-"            -----------\n"
-"            команда: Literal[load, unload, reload]\n"
-"                перезагрузка, выгрузка или загрузка <расширения\n\n"
-"            расширение: Greedy[ValidCog]\n"
-"                расширение(я), которое вы хотите повторно выгрузить или загрузить"
+msgstr ""
 
 #: Extensions/Commands/Other/language/__init__.py:79
 msgid "Display a list of availible languages and locale codes.\n"
@@ -2394,7 +2308,7 @@ msgstr "Установите свой язык для Shake.\n"
 "            сервер: Optional[bool]\n"
 "                Если язык должен быть установлен для всего сервера"
 
-#: Extensions/Commands/Other/language/__init__.py:156
+#: Extensions/Commands/Other/language/__init__.py:160
 msgid "Reset your language for Shake to the good old language\n"
 "            Doesn't change anything if no language is set\n"
 "            \n"
@@ -2410,59 +2324,49 @@ msgstr "Сброс языка для Shake на старый добрый язы
 "            сервер: Необязательно[bool].\n"
 "                Если язык должен быть сброшен для всего сервера."
 
-#: Extensions/Commands/Other/language/language.py:41
-#: Extensions/Commands/Other/language/testing.py:41
+#: Extensions/Commands/Other/language/language.py:60
+#: Extensions/Commands/Other/language/testing.py:60
 msgid "Available Translations"
 msgstr "Имеющиеся переводы"
 
-#: Extensions/Commands/Other/language/language.py:44
-#: Extensions/Commands/Other/language/testing.py:44
+#: Extensions/Commands/Other/language/language.py:63
+#: Extensions/Commands/Other/language/testing.py:63
 #, python-brace-format
 msgid "There are currently translations for `{languages}` languages\n"
 "and your current language is {current}."
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:51
-#: Extensions/Commands/Other/language/testing.py:51
+#: Extensions/Commands/Other/language/language.py:70
+#: Extensions/Commands/Other/language/testing.py:70
 #, python-brace-format
 msgid "Don't you see your language or is it incomplete?\n"
 "Then come help us out on [Crowdin]({link})!"
 msgstr ""
 
-#: Extensions/Commands/Other/language/language.py:68
-#: Extensions/Commands/Other/language/language.py:102
-#: Extensions/Commands/Other/language/testing.py:68
-#: Extensions/Commands/Other/language/testing.py:102
+#: Extensions/Commands/Other/language/language.py:87
+#: Extensions/Commands/Other/language/testing.py:87
 msgid "Your given language is not valid."
 msgstr "Приведенный вами язык недействителен."
 
-#: Extensions/Commands/Other/language/language.py:71
-#: Extensions/Commands/Other/language/language.py:105
-#: Extensions/Commands/Other/language/testing.py:71
-#: Extensions/Commands/Other/language/testing.py:105
+#: Extensions/Commands/Other/language/language.py:88
+#: Extensions/Commands/Other/language/testing.py:88
 #, python-brace-format
 msgid "Use {command} to get a list of all available languages"
 msgstr "Используйте {command}, чтобы получить список всех доступных языков"
 
-#: Extensions/Commands/Other/language/language.py:77
-#: Extensions/Commands/Other/language/language.py:111
-#: Extensions/Commands/Other/language/testing.py:77
-#: Extensions/Commands/Other/language/testing.py:111
+#: Extensions/Commands/Other/language/language.py:98
+#: Extensions/Commands/Other/language/testing.py:98
 msgid "I'm sorry to say that I dont have your given locale ready."
 msgstr "К сожалению, у меня нет готовой заданной вами локализации."
 
-#: Extensions/Commands/Other/language/language.py:81
-#: Extensions/Commands/Other/language/language.py:115
-#: Extensions/Commands/Other/language/testing.py:81
-#: Extensions/Commands/Other/language/testing.py:115
+#: Extensions/Commands/Other/language/language.py:102
+#: Extensions/Commands/Other/language/testing.py:102
 #, python-brace-format
 msgid "Try to contribute [here]({link}) if you want to!"
 msgstr "Попробуйте внести свой вклад [[here]]({{link}}), если хотите!"
 
-#: Extensions/Commands/Other/language/language.py:88
-#: Extensions/Commands/Other/language/language.py:122
-#: Extensions/Commands/Other/language/testing.py:88
-#: Extensions/Commands/Other/language/testing.py:122
+#: Extensions/Commands/Other/language/language.py:113
+#: Extensions/Commands/Other/language/testing.py:113
 #, python-brace-format
 msgid "{name} was successfully set as language!"
 msgstr "{name} успешно установлен в качестве языка бота!"
@@ -2485,14 +2389,14 @@ msgstr "Покинуть гильдию\n\n"
 msgid "{emoji} {prefix} The given server is not valid"
 msgstr "{emoji} {prefix} Указанный сервер недействителен"
 
-#: Extensions/Commands/Other/leave/leave.py:31
-#: Extensions/Commands/Other/leave/testing.py:31
+#: Extensions/Commands/Other/leave/leave.py:32
+#: Extensions/Commands/Other/leave/testing.py:32
 #, python-brace-format
 msgid "{emoji} {prefix} leaving the guild raised an error"
 msgstr "{emoji} {prefix} выход из гильдии вызвал ошибку"
 
-#: Extensions/Commands/Other/leave/leave.py:37
-#: Extensions/Commands/Other/leave/testing.py:37
+#: Extensions/Commands/Other/leave/leave.py:39
+#: Extensions/Commands/Other/leave/testing.py:39
 #, python-brace-format
 msgid "{emoji} {prefix} I'll leave the given server"
 msgstr "{emoji} {prefix} Я покину данный сервер"
@@ -2574,6 +2478,33 @@ msgstr "Останавливает и запускает бота, как при
 msgid "Bot will restart now"
 msgstr "Бот будет перезапущен"
 
+#: Extensions/Commands/Other/sudo/__init__.py:45
+msgid "execute commands with the rights of another user\n\n"
+"            You can specify who executes this command in which text channel\"\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            channel: Optional[TextChannel]\n"
+"                the channel\n\n"
+"            user: Member | User]\n"
+"                the user\n\n"
+"            command: str\n"
+"                the command\n\n"
+"            arguments: Optional[str]\n"
+"                the arguments\n"
+"            "
+msgstr "выполнять команды с правами другого пользователя\n\n"
+"            Вы можете указать, кто выполняет эту команду в каком текстовом канале\".\n\n"
+"            Параметры\n"
+"            -----------\n"
+"            канал: Optional[TextChannel]\n"
+"                канал\n\n"
+"            пользователь: Член | Пользователь]\n"
+"                пользователь\n\n"
+"            команда: str\n"
+"                команда\n\n"
+"            аргументы: Optional[str]\n"
+"                аргументы"
+
 #: Extensions/Commands/Other/sync/__init__.py:43
 msgid "synchronize the bot with its commands\n\n"
 "            The synchronization is used to reload the changes.\n"
@@ -2615,6 +2546,9 @@ msgid "{amount} Command*s globally synchronized."
 msgstr "{amount} Команды глобально синхронизированы."
 
 #: Extensions/Functions/Commands/command/completion/command_completion.py:29
+msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or share me to your friends!"
+msgstr ""
+
 #: Extensions/Functions/Commands/command/completion/testing.py:29
 msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!"
 msgstr ""
@@ -2708,20 +2642,13 @@ msgstr "Пожалуйста, отправьте код captcha сюда"
 #: Extensions/Functions/Members/member/join/member_join.py:34
 #: Extensions/Functions/Members/member/join/testing.py:34
 msgid "Hello! You are required to complete a captcha before entering the server.\n"
-"            __**NOTE:**__ This is **not** Case Sensitive.\n\n"
-"            **Why?**\n"
+"            NOTE: This is not Case Sensitive.\n\n"
+"            Why?\n"
 "            This is to protect the server against\n"
 "            targeted attacks using automated user accounts.\n"
 "            \n"
-"            **Your Captcha:**"
-msgstr "Пожалуйста, отправьте код капчи здесь.\n\n"
-"            Здравствуйте! Вам необходимо заполнить капчу перед входом на сервер.\n"
-"            __**ПРИМЕЧАНИЕ:**__ Это **не** регистр.\n\n"
-"            **Почему? *\n"
-"            Это для защиты сервера от\n"
-"            целенаправленных атак с использованием автоматизированных учетных записей.\n"
-"            \n"
-"            **Ваша капча:**"
+"            Your Captcha:"
+msgstr ""
 
 #: Extensions/Functions/Members/member/join/member_join.py:64
 #: Extensions/Functions/Members/member/join/testing.py:64
@@ -2798,9 +2725,6 @@ msgstr "Вы наконец закончили предложение"
 
 #: Extensions/Functions/Messages/message/message.py:429
 #: Extensions/Functions/Messages/message/testing.py:429
-#: Extensions/Functions/Messages/message/utils/systems.py:97
-#: Extensions/Functions/Messages/message/utils/systems.py:104
-#: Extensions/Functions/Messages/message/utils/systems.py:234
 msgid "the one above me"
 msgstr "тот, который над мной"
 
@@ -2871,299 +2795,227 @@ msgstr "Вы достигли цели {goal} - {emoji} Поздравляем!"
 msgid "You've reached the end of the numbers until 0 {emoji} Congratulations!"
 msgstr "Вы достигли конца числа до 0 {emoji} Поздравляем!"
 
-#: Extensions/Functions/Messages/message/utils/systems.py:72
-#, python-brace-format
-msgid "{user} you are not allowed show off multiple numbers in a row."
-msgstr "{user} вам не разрешено считать несколько чисел в строке."
-
-#: Extensions/Functions/Messages/message/utils/systems.py:81
-#, python-brace-format
-msgid "{user} ruined it {facepalm} **You can't show off several times in a row**.\n"
-"                    Someone should still go on."
-msgstr "{user} разорвал {facepalm} **Вы не можете несколько раз появляться подряд**.\n"
-"                    Кто-то все еще должен продолжаться."
-
-#: Extensions/Functions/Messages/message/utils/systems.py:101
-#, python-brace-format
-msgid "{emoji} Your message should start with **{trigger}**"
-msgstr "{emoji} Ваше сообщение должно начинаться с **{trigger}**"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:114
-#, python-brace-format
-msgid "{emoji} Your message should be something new"
-msgstr "{emoji} Ваше сообщение должно быть чем-то новым"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:197
-#, python-brace-format
-msgid "{user} you can't change the course of history several times in a row."
-msgstr "{user} вы не можете несколько раз менять курс истории подряд."
-
-#: Extensions/Functions/Messages/message/utils/systems.py:206
-#, python-brace-format
-msgid "{user} ruined it {facepalm} **You can't change the course of history several times in a row**.\n"
-"                    Someone should still go on."
-msgstr "{user} разорвал {facepalm} **Вы не можете несколько раз появляться подряд**.\n"
-"                    Кто-то все еще должен продолжаться."
-
-#: Extensions/Functions/Messages/message/utils/systems.py:231
-#, python-brace-format
-msgid "{emoji} your message should contain **only one** word"
-msgstr "{emoji} ваше сообщение должно содержать **только один** слово"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:331
-#, python-brace-format
-msgid "{emoji} You're not allowed to use anything except numbers here"
-msgstr "{emoji} Вы не можете использовать ничего, кроме чисел здесь"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:347
-#, python-brace-format
-msgid "{user} you are not allowed to count multiple numbers in a row."
-msgstr "{user} вам не разрешено считать несколько чисел в строке."
-
-#: Extensions/Functions/Messages/message/utils/systems.py:374
-#, python-brace-format
-msgid "{user} ruined it at **{count}** {facepalm}. **You apparently can't count properly**. The __next__ number {verb} ` {last} `. {streak}"
-msgstr "{user} разорил его в **{count}** {facepalm}. **Похоже, вы не можете правильно посчитать**. __next__ номер {verb} ` {last} `. {streak}"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:380
-msgid "**You've topped your best streak with {} 🔥**"
-msgstr "**Вы пополнили свой список лучшей серии с помощью {} 🔥**"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:386
-msgid "is"
-msgstr "это"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:386
-msgid "remains"
-msgstr "останки"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:392
-#, python-brace-format
-msgid "Incorrect number! The __next__ number is ` {last} `. **No stats have been changed since the current number was {count}.**"
-msgstr "Неправильное число! Номер __next__ - ` {last} `. **Статистика не была изменена с момента текущего числа {count} раза.**"
-
-#: Extensions/Functions/Messages/message/utils/systems.py:416
-#, python-brace-format
-msgid "**You've reached your goal of {goal} {emoji} Congratulations**"
-msgstr "**Вы достигли цели {goal} {emoji} Поздравлений**"
-
-#: Extensions/Functions/Scheduled/freegames/freegames.py:42
+#: Extensions/Functions/Scheduled/freegames/freegames.py:47
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: Extensions/Functions/Scheduled/freegames/freegames.py:48
+#: Extensions/Functions/Scheduled/freegames/freegames.py:55
 msgid "Get free now"
 msgstr "Получить бесплатно"
 
-#: Extensions/Functions/Scheduled/freegames/freegames.py:49
+#: Extensions/Functions/Scheduled/freegames/freegames.py:58
 #, python-brace-format
 msgid "until **{datetime}** (GMT)"
 msgstr "до **{datetime}** (GMT)"
 
-#: Extensions/Functions/Scheduled/freegames/freegames.py:51
+#: Extensions/Functions/Scheduled/freegames/freegames.py:61
 msgid "Free"
 msgstr "Бесплатно"
 
-#: Extensions/Functions/Scheduled/freegames/freegames.py:59
+#: Extensions/Functions/Scheduled/freegames/freegames.py:73
 msgid "Or open directly in launcher"
 msgstr "Или открыть непосредственно в лаунчере"
 
-#: Extensions/Functions/Voice/voice_state_update/testing.py:94
-#: Extensions/Functions/Voice/voice_state_update/voice_state_update.py:95
+#: Extensions/Functions/Voice/voice_state_update/testing.py:96
+#: Extensions/Functions/Voice/voice_state_update/voice_state_update.py:97
 #, python-brace-format
 msgid "{emoji} {prefix} **Wait before you open another temp channel directly**"
 msgstr "{emoji} {prefix} **Подождите, прежде чем вы откроете другой временный канал напрямую**"
 
-#: Extensions/Functions/Voice/voice_state_update/testing.py:150
-#: Extensions/Functions/Voice/voice_state_update/voice_state_update.py:151
+#: Extensions/Functions/Voice/voice_state_update/testing.py:152
+#: Extensions/Functions/Voice/voice_state_update/voice_state_update.py:153
 #, python-brace-format
 msgid "{emoji} {prefix} **You've already registered a voice channel**"
 msgstr "{emoji} {prefix} **Вы уже зарегистрировали голосовой канал**"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:71
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:82
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:73
 #, python-brace-format
-msgid "{emoji} **Invalid**! You are not in a valid temporary voice channel."
-msgstr "{emoji} **Некорректный**! Вы не в действующем голосовом канале."
+msgid "{emoji} Invalid! You are not in a valid temporary voice channel."
+msgstr ""
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:105
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:84
+#, python-brace-format
+msgid "{emoji} **Invalid! You are not in a valid temporary voice channel."
+msgstr ""
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:107
 msgid "CHOOSE A NAME FOR YOUR VOICE CHANNEL"
 msgstr "ВЫБЕРИТЕ НАЗВАНИЕ ДЛЯ ВАШЕГО КАНАЛА"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:106
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:108
 msgid "Leave blank to reset the name"
 msgstr "Оставьте пустым, чтобы сбросить имя"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:144
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:146
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s name is now `{name}`!"
 msgstr "{emoji} **Обновлен!** Теперь имя вашего канала `{name}`!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:157
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:159
 msgid "CHOOSE A LIMIT FOR YOUR VOICE CHANNEL"
 msgstr "ВЫБЕРИТЕ НАЗВАНИЕ ДЛЯ ВАШЕГО КАНАЛА"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:159
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:161
 msgid "Leave blank to reset the limit"
 msgstr "Оставьте пустым, чтобы сбросить имя"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:180
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:182
 #, python-brace-format
 msgid "{emoji} **Invalid!** ` {value} ` is not a valid Value!!"
 msgstr "{emoji} **Неверно!** ` {value} ` не является допустимым значением!!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:194
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:196
 #, python-brace-format
 msgid "{emoji} **Updated!** Your channel’s limit is now ` {limit} `!"
 msgstr "{emoji} **Обновлен!** Теперь имя вашего канала `{limit} `!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:199
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:201
 msgid "unlimited"
 msgstr "неограниченное"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:213
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:215
 msgid "Select a Privacy Option"
 msgstr "Выберите опцию конфиденциальности"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:227
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:229
 msgid "unlocked"
 msgstr "разблокирован"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:228
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:230
 msgid "locked"
 msgstr "заблокирован"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:229
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:231
 msgid "invisible"
 msgstr "невидимый"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:230
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:232
 msgid "visible"
 msgstr "видимый"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:271
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:273
 #, python-brace-format
 msgid "{emoji} **Updated!** {channel} is now ` {mode} `!"
 msgstr "{emoji} **Обновлен!** Теперь имя вашего канала `{name} `!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:294
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:296
 msgid "Invisible"
 msgstr "Невидимый"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:296
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:298
 msgid "Everyone will be able to view your voice channel"
 msgstr "Каждый сможет просматривать ваш голосовой канал"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:303
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:305
 msgid "Visible"
 msgstr "Видимый"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:305
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:307
 msgid "Only trusted users will be able to view your voice channel"
 msgstr "Каждый сможет просматривать ваш голосовой канал"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:314
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:316
 msgid "Lock"
 msgstr "Заблокировать"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:316
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:318
 msgid "Only trusted users will be able to join your voice channel"
 msgstr "Каждый сможет просматривать ваш голосовой канал"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:323
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:325
 msgid "Unlock"
 msgstr "Разблокировать"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:325
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:327
 msgid "Everyone will be able to join your voice channel"
 msgstr "Каждый сможет просматривать ваш голосовой канал"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:341
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:439
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:513
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:592
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:660
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:814
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:890
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:343
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:441
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:515
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:594
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:662
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:816
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:892
 #, python-brace-format
 msgid "{emoji} Use this menu to select an option:"
 msgstr "{emoji} Используйте это меню для выбора опции:"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:369
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:371
 msgid "Selected user will own your tempvoice channel!"
 msgstr "Выбранному пользователю будет принадлежать ваш собеседник!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:388
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:390
 #, python-brace-format
 msgid "{emoji} **Invalid**! The selected member is not a valid user in your temporary voice channel."
 msgstr "{emoji} **Некорректный**! Выбранный участник не является допустимым пользователем во временном голосовом канале."
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:429
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:431
 #, python-brace-format
 msgid "{emoji} **Updated!** The {user} is now ` owner ` of your temporary {channel} channel!"
 msgstr "{emoji} **Обновлено!** Теперь {user} является `владельцем` вашего временного канала {channel}!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:463
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:465
 msgid "Selected users will be trusted to join!"
 msgstr "Выбранным пользователям будет доверено присоединиться!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:507
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:509
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` trusted ` of your temporary {channel} channel!"
 msgstr "{emoji} **Обновлено!** Теперь {user} является `владельцем` вашего временного канала {channel}!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:537
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:539
 msgid "Selected users will be kicked and blocked!"
 msgstr "Выбранные пользователи будут кикнуты и заблокированы!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:586
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:588
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` blocked ` of your temporary {channel} channel!"
 msgstr "{emoji} **Обновлено!** Теперь {user} является `владельцем` вашего временного канала {channel}!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:617
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:619
 msgid "Selected user will be kicked from your tempvoice channel!"
 msgstr "Выбранному пользователю будет принадлежать ваш собеседник!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:641
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:643
 #, python-brace-format
 msgid "{emoji} **Invalid**! None of the selected users are valid members of your temporary voice channel."
 msgstr "{emoji} **Некорректный**! Выбранный участник не является допустимым пользователем во временном голосовом канале."
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:654
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:656
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users got kicked from your temporary {channel} channel!"
 msgstr "{emoji} **Обновлено!** Теперь {user} является `владельцем` вашего временного канала {channel}!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:672
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:674
 #, python-brace-format
 msgid "{emoji} this option is only for admins!"
 msgstr "{emoji} - только для администраторов!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:696
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:698
 #, python-brace-format
 msgid "{emoji} Selected user is already owner of a temporary channel!"
 msgstr "{emoji} Выбранный пользователь уже является владельцем временного канала!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:737
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:739
 #, python-brace-format
 msgid "{emoji} **Updated!** You are now ` owner ` of the temporary {channel} channel!"
 msgstr "{emoji} **Обновлено!** Теперь {user} является `владельцем` вашего временного канала {channel}!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:762
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:764
 msgid "Selected users will be untrusted from joining!"
 msgstr "Выбранным пользователям будет доверено присоединиться!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:808
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:810
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` untrusted ` of your temporary {channel} channel!"
 msgstr "{emoji} **Обновлено!** Теперь {user} является `владельцем` вашего временного канала {channel}!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:838
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:840
 msgid "Selected users will be unblocked from joining!"
 msgstr "Выбранным пользователям будет доверено присоединиться!"
 
-#: Extensions/Functions/Voice/voice_state_update/utils/system.py:884
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:886
 #, python-brace-format
 msgid "{emoji} **Updated!** The selected users are now ` unblocked ` of your temporary {channel} channel!"
 msgstr "{emoji} **Обновлено!** Теперь {user} является `владельцем` вашего временного канала {channel}!"
