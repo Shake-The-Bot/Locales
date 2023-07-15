@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-15 12:09\n"
+"PO-Revision-Date: 2023-07-15 13:34\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -214,7 +214,7 @@ msgstr "Вы можете разрешить мне реагировать, чт
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny my reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "Вы также можете запретить мои реакции на спам."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -279,7 +279,7 @@ msgstr "{game} успешно настроена для канала {channel}!"
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: You can freely edit the text channel now."
-msgstr ""
+msgstr "Примечание: Теперь можно свободно редактировать текстовый канал."
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
@@ -485,7 +485,7 @@ msgstr "Как настроить игру?"
 #: Extensions/Commands/Community/counting/testing.py:579
 #, python-brace-format
 msgid "Customize all kind of properties for Counting by using the command {command}!"
-msgstr ""
+msgstr "Настройте все виды свойств для подсчета с помощью команды {command}!"
 
 #: Extensions/Commands/Community/counting/counting.py:584
 #: Extensions/Commands/Community/counting/testing.py:584
@@ -715,7 +715,7 @@ msgstr "Выявить длину пп пользователя\n\n"
 #: Extensions/Commands/Gimmicks/pp/pp.py:23
 #: Extensions/Commands/Gimmicks/pp/testing.py:23
 msgid "Peepee length"
-msgstr ""
+msgstr "Длина овечка"
 
 #: Extensions/Commands/Gimmicks/rainbow/__init__.py:35
 msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
@@ -1007,11 +1007,17 @@ msgid "Get information about a specific channel.\n"
 "            -----------\n"
 "            channel: Optional[str]\n"
 "                the channel mention, name or id to get information about"
-msgstr ""
+msgstr "Получение информации о конкретном канале.\n"
+"            \n"
+"            Эта команда покажет вам некоторую информацию о канале.\n\n"
+"            Параметры\n"
+"            -----------\n"
+"            гильдия: Необязательно[str]\n"
+"                название или идентификатор гильдии для получения информации о ней."
 
 #: Extensions/Commands/Information/channelinfo/__init__.py:69
 msgid "Either this channel does not exist or I cant see it."
-msgstr ""
+msgstr "Либо этот канал не существует, либо я не вижу."
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:50
 #: Extensions/Commands/Information/channelinfo/testing.py:88
@@ -1070,7 +1076,7 @@ msgstr "Дополнительная информация"
 #: Extensions/Commands/Information/channelinfo/testing.py:107
 #: Extensions/Commands/Information/channelinfo/testing.py:188
 msgid "No region supporting channels"
-msgstr ""
+msgstr "Нет каналов поддержки региона"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:135
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:350
@@ -1080,12 +1086,12 @@ msgstr "каналы"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:148
 msgid "Category channels"
-msgstr ""
+msgstr "Каналы категории"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:152
 #, python-brace-format
 msgid "Page {page}/{pages} (Total of {items} Channels)"
-msgstr ""
+msgstr "Страница {page}/{pages} (Всего {items} ролей)"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:203
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:419
@@ -2344,14 +2350,16 @@ msgstr "Имеющиеся переводы"
 #, python-brace-format
 msgid "There are currently translations for `{languages}` languages\n"
 "and your current language is {current}."
-msgstr ""
+msgstr "В настоящее время есть переводы для `{languages}` языков\n"
+"и ваш текущий язык {current}."
 
 #: Extensions/Commands/Other/language/language.py:70
 #: Extensions/Commands/Other/language/testing.py:70
 #, python-brace-format
 msgid "Don't you see your language or is it incomplete?\n"
 "Then come help us out on [Crowdin]({link})!"
-msgstr ""
+msgstr "Вы не видите свой язык или неполный?\n"
+"Тогда помогите нам на [Crowdin]({link})!"
 
 #: Extensions/Commands/Other/language/language.py:87
 #: Extensions/Commands/Other/language/testing.py:87
@@ -2561,7 +2569,7 @@ msgstr "Нравится пользоваться Shake? Мне бы хотел�
 
 #: Extensions/Functions/Commands/command/completion/testing.py:29
 msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!"
-msgstr ""
+msgstr "Нравится пользоваться Shake? Мне бы хотелось, если бы вы </vote:1056920829620924439> для меня или поделились мной со своими друзьями!"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:54
 #: Extensions/Functions/Commands/command/error/testing.py:54
@@ -2591,7 +2599,7 @@ msgstr "Я не вижу сервер `{argument}`, потому что он н�
 #: Extensions/Functions/Commands/command/error/testing.py:78
 #, python-brace-format
 msgid "This type of object does not exist: {self.original.text}"
-msgstr ""
+msgstr "Этот тип объекта не существует: {self.original.text}"
 
 #: Extensions/Functions/Commands/command/error/command_error.py:84
 #: Extensions/Functions/Commands/command/error/testing.py:84
@@ -2636,7 +2644,7 @@ msgstr "Ничего с именем `{invoked}` не найдено. Вы им�
 #: Extensions/Functions/Commands/command/error/command_error.py:166
 #: Extensions/Functions/Commands/command/error/testing.py:166
 msgid "The error was reported to the Shake-Team!"
-msgstr ""
+msgstr "Об ошибке сообщили команде Shake-Team!"
 
 #: Extensions/Functions/Members/member/join/member_join.py:27
 #: Extensions/Functions/Members/member/join/testing.py:27
