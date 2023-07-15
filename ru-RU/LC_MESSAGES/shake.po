@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-15 09:24\n"
+"PO-Revision-Date: 2023-07-15 12:09\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -447,12 +447,12 @@ msgstr "Один человек не может считать числа под
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
 msgid "No botting, if you have failed to often, you'll get muted."
-msgstr ""
+msgstr "Никакого бота, если вы часто не провалились, вы будете заглушены."
 
 #: Extensions/Commands/Community/counting/counting.py:560
 #: Extensions/Commands/Community/counting/testing.py:560
 msgid "If you break the count, the count will reset to the start."
-msgstr ""
+msgstr "Если вы сломаете счетчик, счетчик будет сброшен до начала."
 
 #: Extensions/Commands/Community/counting/counting.py:564
 #: Extensions/Commands/Community/counting/testing.py:564
@@ -1305,7 +1305,10 @@ msgstr "{emoji} Полезные ссылки для понимания Покр
 msgid "[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)\n"
 "                [What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)\n"
 "                [How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)"
-msgstr ""
+msgstr "[Что такое Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)**\n"
+"                **[Какие валюты поддерживает Patreon?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)**\n"
+"                **[Как мне подключить Discord к Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)**\n"
+"-)"
 
 #: Extensions/Commands/Information/plus/plus.py:56
 #: Extensions/Commands/Information/plus/testing.py:56
@@ -1351,13 +1354,13 @@ msgstr "Итого"
 #: Extensions/Commands/Information/rtfm/testing.py:182
 #, python-brace-format
 msgid "Total uses: {total_uses}"
-msgstr ""
+msgstr "Всего применений: {total_uses}"
 
 #: Extensions/Commands/Information/rtfm/rtfm.py:187
 #: Extensions/Commands/Information/rtfm/testing.py:187
 #, python-brace-format
 msgid "Top {top} member:"
-msgstr ""
+msgstr "Топ {top} участника:"
 
 #: Extensions/Commands/Information/serverinfo/__init__.py:43
 msgid "Get information about a specific server.\n"
@@ -2098,7 +2101,7 @@ msgstr "{emoji} Выгода от поддержки Shake через голос
 #: Extensions/Commands/Information/vote/testing.py:24
 #: Extensions/Commands/Information/vote/vote.py:24
 msgid "Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility and helps others discover Shake too."
-msgstr ""
+msgstr "Поддержка бота с голосованием будет держать мотивацию к развитию шейка, повышает его видимость и помогает другим обнаружить шейк."
 
 #: Extensions/Commands/Information/vote/testing.py:31
 #: Extensions/Commands/Information/vote/vote.py:31
@@ -2271,7 +2274,14 @@ msgid "Reloads, unloads or loads extensions/commands of the bot\n"
 "                re- un- or loading the <extensions>\n\n"
 "            extension: Greedy[ValidExt]\n"
 "                the extension(s) you want to re- un- or load"
-msgstr ""
+msgstr "Перезагружает, выгружает или загружает расширения/команды бота\n"
+"            \n"
+"            Параметры\n"
+"            -----------\n"
+"            команда: Literal[load, unload, reload]\n"
+"                перезагрузка, выгрузка или загрузка <расширения\n\n"
+"            расширение: Greedy[ValidExt]\n"
+"                расширение(я), которое вы хотите повторно выгрузить или загрузить"
 
 #: Extensions/Commands/Other/language/__init__.py:79
 msgid "Display a list of availible languages and locale codes.\n"
@@ -2547,7 +2557,7 @@ msgstr "{amount} Команды глобально синхронизирова�
 
 #: Extensions/Functions/Commands/command/completion/command_completion.py:29
 msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or share me to your friends!"
-msgstr ""
+msgstr "Нравится пользоваться Shake? Мне бы хотелось, если бы вы </vote:1056920829620924439> для меня или поделились мной со своими друзьями!"
 
 #: Extensions/Functions/Commands/command/completion/testing.py:29
 msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or **share** me to your friends!"
@@ -2648,7 +2658,14 @@ msgid "Hello! You are required to complete a captcha before entering the server.
 "            targeted attacks using automated user accounts.\n"
 "            \n"
 "            Your Captcha:"
-msgstr ""
+msgstr "Пожалуйста, отправьте код капчи здесь.\n\n"
+"            Здравствуйте! Вам необходимо заполнить капчу перед входом на сервер.\n"
+"            __**ПРИМЕЧАНИЕ:**__ Это **не** регистр.\n\n"
+"            **Почему? *\n"
+"            Это для защиты сервера от\n"
+"            целенаправленных атак с использованием автоматизированных учетных записей.\n"
+"            \n"
+"            **Ваша капча:"
 
 #: Extensions/Functions/Members/member/join/member_join.py:64
 #: Extensions/Functions/Members/member/join/testing.py:64
@@ -2831,12 +2848,12 @@ msgstr "{emoji} {prefix} **Вы уже зарегистрировали голо
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:73
 #, python-brace-format
 msgid "{emoji} Invalid! You are not in a valid temporary voice channel."
-msgstr ""
+msgstr "{emoji} недействителен! Вы не в действующем голосовом канале"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:84
 #, python-brace-format
 msgid "{emoji} **Invalid! You are not in a valid temporary voice channel."
-msgstr ""
+msgstr "{emoji} **Недействителен! Вы находитесь в некорректном голосовом канале."
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:107
 msgid "CHOOSE A NAME FOR YOUR VOICE CHANNEL"
