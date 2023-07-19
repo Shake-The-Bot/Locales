@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-19 11:24\n"
+"PO-Revision-Date: 2023-07-19 16:32\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +46,11 @@ msgstr "완료"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "카테고리를 선택하세요..."
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "선택할 카테고리가 없습니다..."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
@@ -451,24 +451,24 @@ msgstr "한 사람이 숫자를 연속으로 셀 수 없습니다 (다른 사람
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
 msgid "No botting, if you have failed to often, you'll get muted."
-msgstr ""
+msgstr "봇 사용은 금지되며, 실패한다면 채팅 금지될 것입니다."
 
 #: Extensions/Commands/Community/counting/counting.py:560
 #: Extensions/Commands/Community/counting/testing.py:560
 msgid "If you break the count, the count will reset to the start."
-msgstr ""
+msgstr "카운트를 끊는다면, 카운트는 시작점으로 리셋될 것입니다."
 
 #: Extensions/Commands/Community/counting/counting.py:564
 #: Extensions/Commands/Community/counting/testing.py:564
 msgid "The rules are simple"
-msgstr ""
+msgstr "규칙은 간단합니다"
 
 #: Extensions/Commands/Community/counting/counting.py:570
 #: Extensions/Commands/Community/counting/testing.py:570
 #: Extensions/Commands/Community/oneword/oneword.py:324
 #: Extensions/Commands/Community/oneword/testing.py:324
 msgid "How to setup the game?"
-msgstr ""
+msgstr "어떻게 게임을 셋업하나요?"
 
 #: Extensions/Commands/Community/counting/counting.py:572
 #: Extensions/Commands/Community/counting/testing.py:572
@@ -476,14 +476,14 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:326
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
-msgstr ""
+msgstr "{command} 명령어를 통해 중요한 채널을 만들고 셋업하기를 시작하세요"
 
 #: Extensions/Commands/Community/counting/counting.py:577
 #: Extensions/Commands/Community/counting/testing.py:577
 #: Extensions/Commands/Community/oneword/oneword.py:349
 #: Extensions/Commands/Community/oneword/testing.py:349
 msgid "How to configure the game?"
-msgstr ""
+msgstr "어떻게 게임을 구성하나요?"
 
 #: Extensions/Commands/Community/counting/counting.py:579
 #: Extensions/Commands/Community/counting/testing.py:579
@@ -557,7 +557,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:331
 #: Extensions/Commands/Community/oneword/testing.py:331
 msgid "How to use the game?"
-msgstr ""
+msgstr "어떻게 게임을 사용합니까?"
 
 #: Extensions/Commands/Community/oneword/oneword.py:333
 #: Extensions/Commands/Community/oneword/testing.py:333
@@ -577,7 +577,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:341
 #: Extensions/Commands/Community/oneword/testing.py:341
 msgid "There is no failing."
-msgstr ""
+msgstr "실패는 없습니다."
 
 #: Extensions/Commands/Community/oneword/oneword.py:344
 #: Extensions/Commands/Community/oneword/testing.py:344
@@ -627,7 +627,7 @@ msgstr ""
 
 #: Extensions/Commands/Developing/developing.py:28
 msgid "Developing"
-msgstr ""
+msgstr "개발 중"
 
 #: Extensions/Commands/Developing/dispatch/__init__.py:37
 msgid "Send an event\n\n"
@@ -660,12 +660,12 @@ msgstr ""
 
 #: Extensions/Commands/Developing/ptb/ptb.py:61
 msgid "Server"
-msgstr ""
+msgstr "서버"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:66
 #, python-brace-format
 msgid "{name} is __removed__ from the public test build"
-msgstr ""
+msgstr "{name} 이 공개 실험 빌드에서 __removed__ 되었습니다"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:71
 #, python-brace-format
@@ -700,7 +700,7 @@ msgstr ""
 #: Extensions/Commands/Developing/restart/restart.py:15
 #: Extensions/Commands/Developing/restart/testing.py:15
 msgid "Bot will restart now"
-msgstr ""
+msgstr "봇이 지금 다시 시작합니다"
 
 #: Extensions/Commands/Developing/rtfm/__init__.py:183
 msgid "RTFM is internet slang for the phrase \"read the damn manual\".\n"
@@ -732,7 +732,7 @@ msgstr ""
 #: Extensions/Commands/Developing/rtfm/rtfm.py:62
 #: Extensions/Commands/Developing/rtfm/testing.py:62
 msgid "Couldn't find anything."
-msgstr ""
+msgstr "아무것도 찾을 수 없었습니다."
 
 #: Extensions/Commands/Developing/rtfm/rtfm.py:66
 #: Extensions/Commands/Developing/rtfm/testing.py:65
@@ -920,7 +920,7 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/say/testing.py:25
 #, python-brace-format
 msgid "Hey, {user}. Urls or invites aren't allowed!"
-msgstr ""
+msgstr "{user} 님, Url이나 초대는 허용되지 않아요!"
 
 #: Extensions/Commands/Gimmicks/scenario/__init__.py:34
 msgid "What would you do in this scenario? Find out!\n\n"
@@ -973,7 +973,7 @@ msgstr ""
 
 #: Extensions/Commands/Help/help.py:64 Extensions/Commands/Help/testing.py:64
 msgid "Start a Shake+ subscription to run this command"
-msgstr ""
+msgstr "이 명령어를 실행하기 위해 Shake+ 구독을 시작하세요"
 
 #: Extensions/Commands/Help/help.py:68 Extensions/Commands/Help/testing.py:68
 msgid "This command requires certain rights from the user to be executed"
@@ -1026,16 +1026,16 @@ msgstr ""
 
 #: Extensions/Commands/Help/help.py:707 Extensions/Commands/Help/testing.py:707
 msgid "Necessary user permissions"
-msgstr ""
+msgstr "필수적 사용자 권한"
 
 #: Extensions/Commands/Help/help.py:709 Extensions/Commands/Help/testing.py:709
 msgid "Necessary bot permissions"
-msgstr ""
+msgstr "필수적 봇 권한"
 
 #: Extensions/Commands/Help/help.py:728 Extensions/Commands/Help/testing.py:728
 #, python-brace-format
 msgid "Commands of the {group} group"
-msgstr ""
+msgstr "{group} 그룹의 명령어"
 
 #: Extensions/Commands/Help/help.py:810 Extensions/Commands/Help/testing.py:810
 #, python-brace-format
@@ -1070,13 +1070,14 @@ msgstr ""
 
 #: Extensions/Commands/Help/help.py:877 Extensions/Commands/Help/testing.py:877
 msgid "Who am I?"
-msgstr ""
+msgstr "저는 누구인가요?"
 
 #: Extensions/Commands/Help/help.py:880 Extensions/Commands/Help/testing.py:880
 #, python-brace-format
 msgid "I am Shake, a bot that is partially intended for the public.\n"
 "Written with only {lines} lines of code. Please be nice"
-msgstr ""
+msgstr "저는 셰이크, 부분적으로 사람들을 위한 봇입니다.\n"
+"{lines} 줄의 코드로 짜여졌습니다. 친절히 대해 주세요"
 
 #: Extensions/Commands/Help/help.py:887 Extensions/Commands/Help/testing.py:887
 msgid "What am I for?"
