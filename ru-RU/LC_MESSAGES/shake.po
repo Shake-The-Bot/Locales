@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-19 11:24\n"
+"PO-Revision-Date: 2023-07-19 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +46,11 @@ msgstr "Выполено"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "Выберите категорию..."
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "Нет категорий для выбора."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
@@ -628,11 +628,12 @@ msgstr "Запуск команд командной оболочки.\n\n"
 #: Extensions/Commands/Developing/developing.py:14
 msgid "Dev commands to configure/set a lot of things of the bot.\n"
 "            Sometimes you have to list them as Dev 🤷."
-msgstr ""
+msgstr "Dev-команды для конфигурирования/настройки многих вещей бота.\n"
+"            Иногда их приходится перечислять как Dev 🤷."
 
 #: Extensions/Commands/Developing/developing.py:28
 msgid "Developing"
-msgstr ""
+msgstr "Разработка"
 
 #: Extensions/Commands/Developing/dispatch/__init__.py:37
 msgid "Send an event\n\n"
@@ -740,7 +741,8 @@ msgstr "Бот будет перезапущен"
 #: Extensions/Commands/Developing/rtfm/__init__.py:183
 msgid "RTFM is internet slang for the phrase \"read the damn manual\".\n"
 "            This also applies to this command, with the help of which you can get the URLs to the documentation for various things"
-msgstr ""
+msgstr "RTFM - это интернет-сленг для фразы \"читать руководство для пломбы\".\n"
+"            Это также применимо к этой команде, с помощью которых вы можете получить URL-адреса в документации для различных вещей"
 
 #: Extensions/Commands/Developing/rtfm/__init__.py:210
 msgid "View objects from certain documentation.\n\n"
@@ -753,7 +755,15 @@ msgid "View objects from certain documentation.\n\n"
 "                the thing you want to get information about (getattr, ctx.command, ...). \n"
 "                Defaults to ``None`` and returning the ``key`` website url\n"
 "            "
-msgstr ""
+msgstr "Просмотр объектов из определенной документации.\n\n"
+"            Параметры\n"
+"            -----------\n"
+"            ключ: Optional[str]\n"
+"                ключ документации (python, discord, ...). \n"
+"                По умолчанию ``python``.\n\n"
+"            entity: Optional[str]\n"
+"                объект, о котором вы хотите получить информацию (getattr, ctx.command, ...). \n"
+"                По умолчанию ``None`` и возврат url сайта ``key``."
 
 #: Extensions/Commands/Developing/rtfm/__init__.py:261
 msgid "View the members stats of the rtfm command.\n"
@@ -778,7 +788,7 @@ msgstr "Ничего не найдено."
 #: Extensions/Commands/Developing/rtfm/testing.py:65
 #, python-brace-format
 msgid "RTFM results on search „{query}“"
-msgstr ""
+msgstr "Результаты RTFM при поиске „{query}“"
 
 #: Extensions/Commands/Developing/rtfm/rtfm.py:109
 #: Extensions/Commands/Developing/rtfm/testing.py:110
@@ -1043,7 +1053,19 @@ msgid "Random selection of two counterparts \n"
 "            rather: Optional[bool]\n"
 "                ehm\n"
 "            "
-msgstr ""
+msgstr "Случайный выбор двух аналогов \n"
+"            \n"
+"            Команда представляет пользователю случайный выбор двух концепций, предметов или т.п., которые помечены как полезные или бесполезные. \n"
+"            Пользователи в чате могут выбрать, какой из двух аналогов, по их мнению, лучше или полезнее, после чего по истечении времени отображается общая тенденция мнений. \n"
+"            Эта команда может служить забавным способом расширить суждения и предпочтения пользователей.\n\n"
+"            Параметры\n"
+"            -----------\n"
+"            полезность: Literal['useful', 'useless'].\n"
+"                полезные или бесполезные аналоги?\n\n"
+"            голосование: Optional[bool]\n"
+"                следует ли сохранять ответы и сравнивать в конце?\n\n"
+"            скорее: Необязательно[bool]\n"
+"                эмм"
 
 #: Extensions/Commands/Help/__init__.py:55
 msgid "Shows all Shake bot commands and provides helpful links\n"
@@ -1092,7 +1114,7 @@ msgstr "Неизвестная команда `{argument}`. Используйт
 #: Extensions/Commands/Help/help.py:179 Extensions/Commands/Help/testing.py:179
 #, python-brace-format
 msgid "Unknown subcommand `{argument}`. Use \"/help\" for help."
-msgstr ""
+msgstr "Неизвестная команда `{argument}`. Используйте \"/help\" для получения справки."
 
 #: Extensions/Commands/Help/help.py:562 Extensions/Commands/Help/help.py:794
 #: Extensions/Commands/Help/testing.py:562
@@ -1118,12 +1140,12 @@ msgstr "Более подробное описание команды"
 #: Extensions/Commands/Help/help.py:680 Extensions/Commands/Help/testing.py:680
 #, python-brace-format
 msgid "Usage of the {command} command"
-msgstr ""
+msgstr "Использование команды {command}"
 
 #: Extensions/Commands/Help/help.py:690 Extensions/Commands/Help/testing.py:690
 #, python-brace-format
 msgid "Examples of the {command} command"
-msgstr ""
+msgstr "Примеры команды {command}"
 
 #: Extensions/Commands/Help/help.py:707 Extensions/Commands/Help/testing.py:707
 msgid "Necessary user permissions"
@@ -1253,7 +1275,7 @@ msgstr "Либо этот канал не существует, либо я не
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:70
 #: Extensions/Commands/Information/channelinfo/testing.py:70
 msgid "Parents Channel"
-msgstr ""
+msgstr "Родительский канал"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:117
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:251
@@ -1382,14 +1404,14 @@ msgstr "Каналы категории"
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:242
 #: Extensions/Commands/Information/channelinfo/testing.py:242
 msgid "Channel overview"
-msgstr ""
+msgstr "обзор канала"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:269
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:352
 #: Extensions/Commands/Information/channelinfo/testing.py:269
 #: Extensions/Commands/Information/channelinfo/testing.py:352
 msgid "NSFW"
-msgstr ""
+msgstr "NSFW"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:276
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:437
@@ -1398,7 +1420,7 @@ msgstr ""
 #: Extensions/Commands/Information/channelinfo/testing.py:437
 #: Extensions/Commands/Information/channelinfo/testing.py:525
 msgid "Channel's server"
-msgstr ""
+msgstr "Сервер каналов"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:282
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:443
@@ -1407,7 +1429,7 @@ msgstr ""
 #: Extensions/Commands/Information/channelinfo/testing.py:443
 #: Extensions/Commands/Information/channelinfo/testing.py:531
 msgid "Channel's category"
-msgstr ""
+msgstr "Категория канала"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:289
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:450
@@ -1416,36 +1438,36 @@ msgstr ""
 #: Extensions/Commands/Information/channelinfo/testing.py:450
 #: Extensions/Commands/Information/channelinfo/testing.py:538
 msgid "Channel's position"
-msgstr ""
+msgstr "Позиция канала"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:324
 #: Extensions/Commands/Information/channelinfo/testing.py:324
 msgid "Thread overview"
-msgstr ""
+msgstr "Обзор темы"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:359
 #: Extensions/Commands/Information/channelinfo/testing.py:359
 msgid "Threads's server"
-msgstr ""
+msgstr "Сервер темы"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:365
 #: Extensions/Commands/Information/channelinfo/testing.py:365
 msgid "Threads's category"
-msgstr ""
+msgstr "Категория темы"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:417
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:505
 #: Extensions/Commands/Information/channelinfo/testing.py:417
 #: Extensions/Commands/Information/channelinfo/testing.py:505
 msgid "Bitrate"
-msgstr ""
+msgstr "Битрейт"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:422
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:510
 #: Extensions/Commands/Information/channelinfo/testing.py:422
 #: Extensions/Commands/Information/channelinfo/testing.py:510
 msgid "User limit"
-msgstr ""
+msgstr "Лимит пользователей"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:611
 #: Extensions/Commands/Information/channelinfo/testing.py:611
@@ -1965,7 +1987,7 @@ msgstr "Топ {index} Активность ({тип})"
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:642
 #: Extensions/Commands/Information/serverinfo/testing.py:644
 msgid "Servers's position"
-msgstr ""
+msgstr "Должность участника"
 
 #: Extensions/Commands/Information/stats/__init__.py:61
 msgid "Get some basic information and statistics about me.\n"
