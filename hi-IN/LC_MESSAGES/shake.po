@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-22 16:24\n"
+"PO-Revision-Date: 2023-07-22 17:15\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -30,45 +30,45 @@ msgstr "निष्क्रियता के कारण ShakeMenu नि�
 
 #: Classes/accessoires/menu.py:265
 msgid "Start"
-msgstr ""
+msgstr "प्रारंभ"
 
 #: Classes/accessoires/menu.py:281
 msgid "Cancel"
-msgstr ""
+msgstr "रद्द करें"
 
 #: Classes/accessoires/menu.py:291
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "ShakeMenu निरसित कर दिया गया था।"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "समाप्त"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "कोई श्रेणी चुनें"
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "चुनने के लिए कोई श्रेणियाँ नहीं"
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
-msgstr ""
+msgstr "पीछे"
 
 #: Classes/accessoires/select.py:151 Extensions/Commands/Help/help.py:339
 #: Extensions/Commands/Help/testing.py:339
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "या तो यह श्रेणी मौजूद नहीं है या इस श्रेणी में कोई वस्तु नहीं है।"
 
 #: Classes/accessoires/source.py:245
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "मेन्यू से बाहर निकलने के लिए अपने चयन की पुष्टि करें।"
 
 #: Classes/converter.py:87
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr ""
+msgstr "`{duration}` मान्य लंबाई नहीं है।"
 
 #: Classes/converter.py:117
 msgid "Regex pattern missing wrapping backticks"
