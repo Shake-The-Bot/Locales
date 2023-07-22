@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-19 11:24\n"
+"PO-Revision-Date: 2023-07-22 16:24\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,11 @@ msgstr ""
 #: Classes/accessoires/menu.py:220
 #: Extensions/Commands/Community/schedule/testing.py:218
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "आगे बढ़ने से पहले Setup बटन पर क्लिक कीजिये।"
 
 #: Classes/accessoires/menu.py:261
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "निष्क्रियता के कारण ShakeMenu निरसित कर दिया गया था।"
 
 #: Classes/accessoires/menu.py:265
 msgid "Start"
