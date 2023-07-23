@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-19 11:24\n"
+"PO-Revision-Date: 2023-07-23 17:05\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Antes de continuar, você deve clicar no botão Configurar."
 
 #: Classes/accessoires/menu.py:261
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "O menu do Shake foi cancelado devido à inatividade"
 
 #: Classes/accessoires/menu.py:265
 msgid "Start"
@@ -38,7 +38,7 @@ msgstr "Cancelar"
 
 #: Classes/accessoires/menu.py:291
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "O menu do Shake foi cancelado"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
@@ -46,11 +46,11 @@ msgstr "Concluído"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "Escolha uma categoria..."
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "Nenhuma categoria para escolher..."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
@@ -59,11 +59,11 @@ msgstr "Voltar"
 #: Classes/accessoires/select.py:151 Extensions/Commands/Help/help.py:339
 #: Extensions/Commands/Help/testing.py:339
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Esta categoria não existe ou não tem nenhum item para você."
 
 #: Classes/accessoires/source.py:245
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "Por favor, confirme sua seleção para sair do menu."
 
 #: Classes/converter.py:87
 #, python-brace-format
@@ -117,7 +117,8 @@ msgstr "Faça comentários legais, engraçados e às vezes irritantes para o jog
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr ""
+msgstr "Configure todo o jogo AcimaDeMim em segundos\n"
+"            Obtenha mais informações sobre o jogo AcimaDeMim com {command}"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
@@ -185,7 +186,7 @@ msgstr "Alternamente, você tem a opção de criar um novo canal de voz."
 #: Extensions/Commands/Community/oneword/testing.py:103
 #: Extensions/Commands/Community/oneword/testing.py:161
 msgid "You can go back here in the setup to change settings.."
-msgstr ""
+msgstr "Você pode voltar aqui na configuração para alterar as configurações.."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
@@ -273,7 +274,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
 msgid "{game} is successfully set up in {channel}!"
-msgstr ""
+msgstr "{game} foi configurado com sucesso em {channel}!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:303
 #: Extensions/Commands/Community/aboveme/testing.py:303
@@ -282,7 +283,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: You can freely edit the text channel now."
-msgstr ""
+msgstr "Nota: Agora você pode editar livremente o canal de texto."
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
@@ -309,7 +310,7 @@ msgstr ""
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
-msgstr ""
+msgstr "Alterar algumas propriedades do jogo de Contagem"
 
 #: Extensions/Commands/Community/counting/counting.py:116
 #: Extensions/Commands/Community/counting/testing.py:116
@@ -319,12 +320,12 @@ msgstr "Canal de Contagem"
 #: Extensions/Commands/Community/counting/counting.py:169
 #: Extensions/Commands/Community/counting/testing.py:169
 msgid "Counting direction"
-msgstr ""
+msgstr "Direção de Contagem"
 
 #: Extensions/Commands/Community/counting/counting.py:170
 #: Extensions/Commands/Community/counting/testing.py:170
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "Escolha em que direção a Contagem deve ir!"
 
 #: Extensions/Commands/Community/counting/counting.py:173
 #: Extensions/Commands/Community/counting/testing.py:173
@@ -346,7 +347,7 @@ msgstr "Regras de Contagem"
 #: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
 msgid "Decide if text messages are allowed in Counting"
-msgstr ""
+msgstr "Decida se mensagens de texto são permitidas no jogo de Contagem"
 
 #: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
@@ -408,17 +409,17 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:392
 #: Extensions/Commands/Community/counting/testing.py:392
 msgid "Counting bot reactions"
-msgstr ""
+msgstr "Reações de bots de Contagem"
 
 #: Extensions/Commands/Community/counting/counting.py:532
 #: Extensions/Commands/Community/counting/testing.py:532
 msgid "Welcome to „Counting“"
-msgstr ""
+msgstr "Bem-vindo a „Contagem“"
 
 #: Extensions/Commands/Community/counting/counting.py:534
 #: Extensions/Commands/Community/counting/testing.py:534
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "Obrigado pelo seu interesse no jogo neste lugar incrível!"
 
 #: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
@@ -626,7 +627,7 @@ msgstr ""
 
 #: Extensions/Commands/Developing/developing.py:28
 msgid "Developing"
-msgstr ""
+msgstr "Desenvolvendo"
 
 #: Extensions/Commands/Developing/dispatch/__init__.py:37
 msgid "Send an event\n\n"
@@ -655,16 +656,16 @@ msgstr ""
 
 #: Extensions/Commands/Developing/ptb/ptb.py:51
 msgid "Your input does not match any server/channel/user I can find"
-msgstr ""
+msgstr "Sua entrada não corresponde a nenhum servidor/canal/usuário que eu possa encontrar"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:61
 msgid "Server"
-msgstr ""
+msgstr "Servidor"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:66
 #, python-brace-format
 msgid "{name} is __removed__ from the public test build"
-msgstr ""
+msgstr "{name} foi __removed__ da versão pública de teste"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:71
 #, python-brace-format
