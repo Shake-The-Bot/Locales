@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-23 17:05\n"
+"PO-Revision-Date: 2023-07-23 18:09\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -652,7 +652,7 @@ msgstr ""
 
 #: Extensions/Commands/Developing/ptb/__init__.py:36
 msgid "Temporarily adds a server/channel/user to the public test build"
-msgstr ""
+msgstr "Adiciona temporariamente um servidor/canal/usuário à versão de teste pública"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:51
 msgid "Your input does not match any server/channel/user I can find"
@@ -665,7 +665,7 @@ msgstr "Servidor"
 #: Extensions/Commands/Developing/ptb/ptb.py:66
 #, python-brace-format
 msgid "{name} is __removed__ from the public test build"
-msgstr "{name} foi __removed__ da versão pública de teste"
+msgstr "{name} foi __removed__ da versão de teste pública"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:71
 #, python-brace-format
@@ -878,7 +878,7 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/pp/pp.py:21
 #: Extensions/Commands/Gimmicks/pp/testing.py:21
 msgid "Peepee length"
-msgstr ""
+msgstr "Comprimento do piupiu"
 
 #: Extensions/Commands/Gimmicks/rainbow/__init__.py:35
 msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
@@ -886,7 +886,11 @@ msgid "Show your support to LGBT+ with a rainbow filter! ^^\n\n"
 "            -----------\n"
 "            member: discord.Member\n"
 "                the member to add"
-msgstr ""
+msgstr "Mostre seu apoio ao LGBT+ com um filtro arco-íris! ^^\n\n"
+"            Parâmetros\n"
+"            -----------\n"
+"            membro: discord.Member\n"
+"                membro para adicionar"
 
 #: Extensions/Commands/Gimmicks/random/__init__.py:35
 msgid "Picks a random online user\n\n"
@@ -921,7 +925,7 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/say/testing.py:25
 #, python-brace-format
 msgid "Hey, {user}. Urls or invites aren't allowed!"
-msgstr ""
+msgstr "Ei, {user}. Urls ou convites não são permitidos!"
 
 #: Extensions/Commands/Gimmicks/scenario/__init__.py:34
 msgid "What would you do in this scenario? Find out!\n\n"
@@ -1051,7 +1055,7 @@ msgstr ""
 #: Extensions/Commands/Help/help.py:854 Extensions/Commands/Help/testing.py:854
 #, python-brace-format
 msgid "{emoji} Bot Help"
-msgstr ""
+msgstr "{emoji} Ajuda do Bot"
 
 #: Extensions/Commands/Help/help.py:861 Extensions/Commands/Help/testing.py:861
 #, python-brace-format
@@ -1094,7 +1098,7 @@ msgstr ""
 #: Extensions/Commands/Help/testing.py:898
 #: Extensions/Commands/Help/testing.py:902
 msgid "argument"
-msgstr ""
+msgstr "argumento"
 
 #: Extensions/Commands/Help/help.py:899 Extensions/Commands/Help/testing.py:899
 msgid "Stands for the argument being __**necessary**__."
@@ -1158,7 +1162,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:910
 #: Extensions/Commands/Information/userinfo/userinfo.py:910
 msgid "General Overview"
-msgstr ""
+msgstr "Visão geral"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:123
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:258
@@ -1203,7 +1207,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:666
 #: Extensions/Commands/Information/serverinfo/testing.py:668
 msgid "Region"
-msgstr ""
+msgstr "Região"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:146
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:302
@@ -1250,7 +1254,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:311
 #: Extensions/Commands/Information/serverinfo/testing.py:313
 msgid "Channels"
-msgstr ""
+msgstr "Canais"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:186
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:221
@@ -1263,12 +1267,12 @@ msgstr ""
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:217
 #: Extensions/Commands/Information/channelinfo/testing.py:217
 msgid "Category channels"
-msgstr ""
+msgstr "Categoria de canais"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:242
 #: Extensions/Commands/Information/channelinfo/testing.py:242
 msgid "Channel overview"
-msgstr ""
+msgstr "Visão geral do canal"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:269
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:352
