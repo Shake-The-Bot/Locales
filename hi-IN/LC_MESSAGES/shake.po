@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-22 17:15\n"
+"PO-Revision-Date: 2023-07-23 05:46\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "`{duration}` मान्य लंबाई नहीं है।"
 
 #: Classes/converter.py:117
 msgid "Regex pattern missing wrapping backticks"
-msgstr ""
+msgstr "Regex स्वरूप में अंतिम बैकटिक्स गायब हैं।"
 
 #: Classes/converter.py:121
 #, python-brace-format
