@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-19 11:24\n"
+"PO-Revision-Date: 2023-07-23 12:21\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "Annuler"
 
 #: Classes/accessoires/menu.py:291
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "Le ShakeMenu a été annulé."
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
@@ -46,11 +46,11 @@ msgstr "Terminé"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "Choisissez une catégorie..."
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "Aucune catégorie à choisir..."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
@@ -59,7 +59,7 @@ msgstr "Retour"
 #: Classes/accessoires/select.py:151 Extensions/Commands/Help/help.py:339
 #: Extensions/Commands/Help/testing.py:339
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Cette catégorie n'existe pas ou n'a pas d'article pour vous."
 
 #: Classes/accessoires/source.py:245
 msgid "Please confirm your selection to exit the menu."
@@ -82,7 +82,7 @@ msgstr "Erreur de regex: {e_msg}"
 #: Classes/helpful.py:631
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "Demandé par {user} • via Shake"
 
 #: Classes/useful.py:104
 msgid "or"
@@ -105,7 +105,7 @@ msgstr "[{name} (télécharger un fichier)]"
 #: Classes/useful.py:430
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (télécharger des fichiers)]..."
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
