@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-23 07:18\n"
+"PO-Revision-Date: 2023-07-23 11:26\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,8 @@ msgstr "[{name} (फाइलें अपलोड करें)]..."
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "अपने ऊपर वाले व्यक्ति को अच्छी, मज़ेदार और कभी-कभी कष्टप्रद संदेशों भेजो! \n"
+"            AboveMe खेल बहुत मज़ा देता है और एक दूसरे के बीच मनोरंजक क्षण बनाते हैं!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 #, python-brace-format
