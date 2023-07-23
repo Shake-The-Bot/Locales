@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-19 11:24\n"
+"PO-Revision-Date: 2023-07-23 13:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -22,48 +22,48 @@ msgstr ""
 #: Classes/accessoires/menu.py:220
 #: Extensions/Commands/Community/schedule/testing.py:218
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "Antes de continuar, debe hacer clic en el botón Configurar."
 
 #: Classes/accessoires/menu.py:261
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "El ShakeMenu fue cancelado debido a inactividad"
 
 #: Classes/accessoires/menu.py:265
 msgid "Start"
-msgstr ""
+msgstr "Comenzar"
 
 #: Classes/accessoires/menu.py:281
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: Classes/accessoires/menu.py:291
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "El ShakeMenu fue cancelado"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Hecho"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "Elige una categoría..."
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "No hay categorías para elegir..."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
-msgstr ""
+msgstr "Atrás"
 
 #: Classes/accessoires/select.py:151 Extensions/Commands/Help/help.py:339
 #: Extensions/Commands/Help/testing.py:339
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Esta categoría no existe o no tiene artículos para usted."
 
 #: Classes/accessoires/source.py:245
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "Confirme su selección para salir del menú."
 
 #: Classes/converter.py:87
 #, python-brace-format
@@ -82,11 +82,11 @@ msgstr "Error de regex: {e_msg}"
 #: Classes/helpful.py:631
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "Solicitado por {user} • vía Shake"
 
 #: Classes/useful.py:104
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #: Classes/useful.py:105
 msgid "and"
@@ -105,7 +105,7 @@ msgstr "[{name} (subir un archivo)]"
 #: Classes/useful.py:430
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (subir archivos)]…"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
@@ -131,7 +131,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "Crea uno"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
@@ -289,7 +289,7 @@ msgstr ""
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
-msgstr ""
+msgstr "Características"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
