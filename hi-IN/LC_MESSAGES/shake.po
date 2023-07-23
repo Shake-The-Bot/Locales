@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-23 11:26\n"
+"PO-Revision-Date: 2023-07-23 12:21\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -117,7 +117,8 @@ msgstr "अपने ऊपर वाले व्यक्ति को अच�
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr ""
+msgstr "AboveMe खेल को सेकंड्स में शुरू कीजिये।\n"
+"            {command} के साथ AboveMe खेल के बारे में और जानकारी प्राप्त करें।"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
