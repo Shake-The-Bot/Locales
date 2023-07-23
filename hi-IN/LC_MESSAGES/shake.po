@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-23 05:46\n"
+"PO-Revision-Date: 2023-07-23 07:18\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -77,35 +77,35 @@ msgstr "Regex स्वरूप में अंतिम बैकटिक्
 #: Classes/converter.py:121
 #, python-brace-format
 msgid "Regex error: {e_msg}"
-msgstr ""
+msgstr "Regex गलती : {e_msg}"
 
 #: Classes/helpful.py:631
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "{user} ने अनुरोध किया • Shake के द्वारा"
 
 #: Classes/useful.py:104
 msgid "or"
-msgstr ""
+msgstr "या"
 
 #: Classes/useful.py:105
 msgid "and"
-msgstr ""
+msgstr "और"
 
 #: Classes/useful.py:424
 #, python-brace-format
 msgid "[{name} (upload a file)]"
-msgstr ""
+msgstr "[{name} (फ़ाइल अपलोड करें)]"
 
 #: Classes/useful.py:428
 #, python-brace-format
 msgid "<{name} (upload a file)>"
-msgstr ""
+msgstr "<{name} (फ़ाइल अपलोड करें)>"
 
 #: Classes/useful.py:430
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (फाइलें अपलोड करें)]..."
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
