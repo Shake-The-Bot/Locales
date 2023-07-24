@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-24 11:21\n"
+"PO-Revision-Date: 2023-07-24 14:07\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -153,7 +153,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "एक तयार करें"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
@@ -265,7 +265,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:262
 #: Extensions/Commands/Community/oneword/testing.py:262
 msgid "I could not create a TextChannel. Aborting..."
-msgstr ""
+msgstr "मैं चैनल नहीं बना सका। निरस्त ..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:276
 #: Extensions/Commands/Community/aboveme/testing.py:276
@@ -274,7 +274,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:274
 #: Extensions/Commands/Community/oneword/testing.py:274
 msgid "I could not edit the TextChannel! Aborting..."
-msgstr ""
+msgstr "मैं चैनल संपादित नहीं कर सका। निरस्त ..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:288
 #: Extensions/Commands/Community/aboveme/testing.py:288
