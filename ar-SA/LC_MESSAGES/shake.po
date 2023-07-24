@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-24 11:21\n"
+"PO-Revision-Date: 2023-07-24 14:28\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +46,11 @@ msgstr "تم"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "اختر فئة..."
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "لا توجد فئات لاختيارها..."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
@@ -87,22 +87,22 @@ msgstr "طلب من {user} • عن طريق شيك"
 #: Classes/tomls/configuration.py:279
 #, python-brace-format
 msgid "[Invite]({authentication})"
-msgstr ""
+msgstr "[Invite]({authentication})"
 
 #: Classes/tomls/configuration.py:282
 #, python-brace-format
 msgid "[Support]({server})"
-msgstr ""
+msgstr "[Support]({server})"
 
 #: Classes/tomls/configuration.py:283
 #, python-brace-format
 msgid "[Vote]({vote})"
-msgstr ""
+msgstr "[Vote]({vote})"
 
 #: Classes/tomls/configuration.py:284
 #, python-brace-format
 msgid "[Shake+]({donate})"
-msgstr ""
+msgstr "[شيك+]({donate})"
 
 #: Classes/useful.py:107
 msgid "or"
@@ -601,12 +601,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:344
 #: Extensions/Commands/Community/oneword/testing.py:344
 msgid "OneWord rules"
-msgstr ""
+msgstr "قواعد لعبة كلمة واحدة"
 
 #: Extensions/Commands/Community/oneword/oneword.py:350
 #: Extensions/Commands/Community/oneword/testing.py:350
 msgid "Currently there is nothing to configure!"
-msgstr ""
+msgstr "حاليا لا يوجد شيء للتعديل!"
 
 #: Extensions/Commands/Community/schedule/__init__.py:38
 msgid "Scheduled Events are Reminders, which you can let recurr on a chosen Interval. \n"
@@ -646,7 +646,7 @@ msgstr ""
 
 #: Extensions/Commands/Developing/developing.py:28
 msgid "Developing"
-msgstr ""
+msgstr "تطوير"
 
 #: Extensions/Commands/Developing/dispatch/__init__.py:37
 msgid "Send an event\n\n"
@@ -1432,7 +1432,7 @@ msgstr "إشارة"
 #: Extensions/Commands/Information/channelinfo/testing.py:262
 #: Extensions/Commands/Information/channelinfo/testing.py:437
 msgid "Position"
-msgstr ""
+msgstr "الموضع"
 
 #: Extensions/Commands/Information/charinfo/__init__.py:34
 #: Extensions/Commands/Information/games/__init__.py:34
@@ -1619,7 +1619,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:69
 #: Extensions/Commands/Information/serverinfo/testing.py:69
 msgid "Servers's icon"
-msgstr ""
+msgstr "أيقونة الخوادم"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:70
 #: Extensions/Commands/Information/serverinfo/testing.py:70
