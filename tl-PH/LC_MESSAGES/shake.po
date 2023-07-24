@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-24 08:48\n"
+"PO-Revision-Date: 2023-07-24 10:25\n"
 "Last-Translator: \n"
 "Language-Team: Tagalog\n"
 "MIME-Version: 1.0\n"
@@ -22,107 +22,109 @@ msgstr ""
 #: Classes/accessoires/menu.py:220
 #: Extensions/Commands/Community/schedule/testing.py:218
 msgid "Before continuing you must click on the Setup button."
-msgstr ""
+msgstr "Bago mag simula. Pindutin muna ang Setup button."
 
 #: Classes/accessoires/menu.py:261
 msgid "The ShakeMenu was canceled due inactivity"
-msgstr ""
+msgstr "Ang ShakeMenu ay tumigil dahil sa kawalan ng aktibidad"
 
 #: Classes/accessoires/menu.py:265
 msgid "Start"
-msgstr ""
+msgstr "Simula"
 
 #: Classes/accessoires/menu.py:281
 msgid "Cancel"
-msgstr ""
+msgstr "Kanselahin"
 
 #: Classes/accessoires/menu.py:291
 msgid "The ShakeMenu was canceled"
-msgstr ""
+msgstr "Ang ShakeMenu ay nakansela"
 
 #: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
 msgid "Done"
-msgstr ""
+msgstr "Tapos"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "Pumili ng kategorya"
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "Walang kategorya na mapili..."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
-msgstr ""
+msgstr "Balik"
 
 #: Classes/accessoires/select.py:151 Extensions/Commands/Help/help.py:339
 #: Extensions/Commands/Help/testing.py:339
 msgid "This category either does not exist or has no items for you."
-msgstr ""
+msgstr "Ang kategoryang ito ay maaaring wala o walang mga item para sa iyo."
 
 #: Classes/accessoires/source.py:245
 msgid "Please confirm your selection to exit the menu."
-msgstr ""
+msgstr "Mangyaring kumpirmahin ang iyong pagpili upang lumabas sa menu."
 
 #: Classes/converter.py:87
 #, python-brace-format
 msgid "`{duration}` is not a valid duration string."
-msgstr ""
+msgstr "`{duration}` ay hindi isang wastong string ng tagal."
 
 #: Classes/converter.py:117
 msgid "Regex pattern missing wrapping backticks"
-msgstr ""
+msgstr "Ang pattern ng Regex ay nawawalan nang wrapping backticks."
 
 #: Classes/converter.py:121
 #, python-brace-format
 msgid "Regex error: {e_msg}"
-msgstr ""
+msgstr "May nagkamali sa Regex: {e_msg}"
 
 #: Classes/helpful.py:631
 #, python-brace-format
 msgid "Requested by {user} • via Shake"
-msgstr ""
+msgstr "Hiniling ni {user} • gamit Shake"
 
 #: Classes/useful.py:104
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #: Classes/useful.py:105
 msgid "and"
-msgstr ""
+msgstr "at"
 
 #: Classes/useful.py:424
 #, python-brace-format
 msgid "[{name} (upload a file)]"
-msgstr ""
+msgstr "[{name} (i-upload ang file)]"
 
 #: Classes/useful.py:428
 #, python-brace-format
 msgid "<{name} (upload a file)>"
-msgstr ""
+msgstr "<{name} (i-upload ang file)>"
 
 #: Classes/useful.py:430
 #, python-brace-format
 msgid "[{name} (upload files)]…"
-msgstr ""
+msgstr "[{name} (mag upload ng files)]..."
 
 #: Extensions/Commands/Community/aboveme/__init__.py:36
 msgid "Throw nice, funny and sometimes annoying comments to the user above you! \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "Magtapon ng maganda, nakakatawa at minsan nakakainis na mga komento sa gumagamit na nasa itaas mo!\n"
+"            Ang larong AboveMe ay nag-aalok ng maraming saya at lumilikha ng mga nakakaaliw na sandali sa isa't isa!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr ""
+msgstr "I-Setup ang AboveMe na laro sa ilang segundo\n"
+"            Kumuha ng impormasyon sa aboveme laro gamit ang {command}"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "Tingnan ang pinaka mataas na Counting user at servers"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:61
 #: Extensions/Commands/Community/aboveme/testing.py:61
@@ -131,12 +133,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:63
 #: Extensions/Commands/Community/oneword/testing.py:63
 msgid "Create one"
-msgstr ""
+msgstr "Gumawa ng isa"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:90
 #: Extensions/Commands/Community/aboveme/testing.py:90
 msgid "AboveMe channel"
-msgstr ""
+msgstr "AboveMe channel"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:91
 #: Extensions/Commands/Community/aboveme/testing.py:91
@@ -145,7 +147,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "Pumilli kung saan text channel ilalagay ang laro"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -154,7 +156,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:95
 #: Extensions/Commands/Community/oneword/testing.py:95
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "Maaari kang mag-set up ng kasalukuyang text channel mula sa iyong server."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
@@ -163,7 +165,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:97
 #: Extensions/Commands/Community/oneword/testing.py:97
 msgid "Alternatively, you have the option to have a new text channel created for it."
-msgstr ""
+msgstr "Alternatibo option ay paggawa ng bagong text channel"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:101
 #: Extensions/Commands/Community/aboveme/aboveme.py:159
@@ -184,12 +186,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:103
 #: Extensions/Commands/Community/oneword/testing.py:161
 msgid "You can go back here in the setup to change settings.."
-msgstr ""
+msgstr "Pwede bumalik sa setup at ibahin ang settings"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "AboveMe bot reaksyon"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:148
 #: Extensions/Commands/Community/aboveme/testing.py:148
@@ -198,7 +200,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "Magpasya kung pinapayagan akong mag-react sa mga post sa laro"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:152
 #: Extensions/Commands/Community/aboveme/testing.py:152
@@ -207,7 +209,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:154
 #: Extensions/Commands/Community/oneword/testing.py:154
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "Pwede ka magpasya kung pwede ako mag react para malaman ng tao kung saan ang post na korrekto"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
@@ -216,7 +218,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:156
 #: Extensions/Commands/Community/oneword/testing.py:156
 msgid "You can also deny my reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "Maaari mo ring tanggihan ang aking mga reaksyon upang sugpuin ang spam ng mga reaksyon."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:223
 #: Extensions/Commands/Community/aboveme/testing.py:223
@@ -225,7 +227,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:223
 #: Extensions/Commands/Community/oneword/testing.py:223
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "NGAYONG SCORES NG SERVER"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:225
 #: Extensions/Commands/Community/aboveme/testing.py:225
@@ -234,7 +236,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:225
 #: Extensions/Commands/Community/oneword/testing.py:225
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "NGAYONG SCORES NG MGA TAO"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:264
 #: Extensions/Commands/Community/aboveme/testing.py:264
@@ -243,7 +245,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:262
 #: Extensions/Commands/Community/oneword/testing.py:262
 msgid "I could not create a TextChannel. Aborting..."
-msgstr ""
+msgstr "Hindi ako makagawa ng TextChannel. Titigil..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:276
 #: Extensions/Commands/Community/aboveme/testing.py:276
@@ -252,7 +254,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:274
 #: Extensions/Commands/Community/oneword/testing.py:274
 msgid "I could not edit the TextChannel! Aborting..."
-msgstr ""
+msgstr "Hindi ko ma edit ang TextChannel! Titigil..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:288
 #: Extensions/Commands/Community/aboveme/testing.py:288
@@ -262,7 +264,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:286
 #, python-brace-format
 msgid "In {channel} is already a Counting game set up. Aborting..."
-msgstr ""
+msgstr "Ang channel na {channel} ay na setup para sa Counting Game..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:299
 #: Extensions/Commands/Community/aboveme/testing.py:299
@@ -272,7 +274,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:297
 #, python-brace-format
 msgid "{game} is successfully set up in {channel}!"
-msgstr ""
+msgstr "Matagumpay na na-set up ang {game} sa {channel}!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:303
 #: Extensions/Commands/Community/aboveme/testing.py:303
@@ -281,54 +283,55 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:301
 #: Extensions/Commands/Community/oneword/testing.py:301
 msgid "Note: You can freely edit the text channel now."
-msgstr ""
+msgstr "Note: Kaya mo na i edit ang text channel"
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
-msgstr ""
+msgstr "Mga Command para sa mga feature ng Komunidad na inaalok ko"
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
-msgstr ""
+msgstr "Features"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
-msgstr ""
+msgstr "Magsimula sa 1 at wag na mag count ulit!"
 
 #: Extensions/Commands/Community/counting/__init__.py:58
 #, python-brace-format
 msgid "Setup the whole Counting game in seconds\n"
 "            Get more information about the counting game with {command}"
-msgstr ""
+msgstr "I-setup ang buong laro ng Pagbibilang sa ilang segundo\n"
+"            Kumuha nang higit pang impormasyon tungkol sa laro ng pagbibilang gamit ang {command}"
 
 #: Extensions/Commands/Community/counting/__init__.py:114
 msgid "Everything you need to know about the Counting game"
-msgstr ""
+msgstr "Lahat na kailangan mo malaman sa Counting game"
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
-msgstr ""
+msgstr "Magiba ng property sa Counting game"
 
 #: Extensions/Commands/Community/counting/counting.py:116
 #: Extensions/Commands/Community/counting/testing.py:116
 msgid "Counting channel"
-msgstr ""
+msgstr "Counting na channel"
 
 #: Extensions/Commands/Community/counting/counting.py:169
 #: Extensions/Commands/Community/counting/testing.py:169
 msgid "Counting direction"
-msgstr ""
+msgstr "Direksyon nang pag Count"
 
 #: Extensions/Commands/Community/counting/counting.py:170
 #: Extensions/Commands/Community/counting/testing.py:170
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "Pumili kung anong direksyon pupunta ang pag count"
 
 #: Extensions/Commands/Community/counting/counting.py:173
 #: Extensions/Commands/Community/counting/testing.py:173
 #, python-brace-format
 msgid "You can start counting at the number 1 and continue {game} in ascending order."
-msgstr ""
+msgstr "Maaari kang magsimulang magbilang sa numero 1 at magpatuloy sa {game} sa pataas na pagkakasunod-sunod."
 
 #: Extensions/Commands/Community/counting/counting.py:176
 #: Extensions/Commands/Community/counting/testing.py:176
