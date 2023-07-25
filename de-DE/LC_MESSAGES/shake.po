@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-24 11:21\n"
+"PO-Revision-Date: 2023-07-25 11:50\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +46,11 @@ msgstr "Fertig"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "Wähle eine Kategorie..."
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "Es stehen keine Kategorien zur Auswahl..."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
@@ -87,22 +87,22 @@ msgstr "Angefragt von {user} • via Shake"
 #: Classes/tomls/configuration.py:279
 #, python-brace-format
 msgid "[Invite]({authentication})"
-msgstr ""
+msgstr "[Invite]({authentication})"
 
 #: Classes/tomls/configuration.py:282
 #, python-brace-format
 msgid "[Support]({server})"
-msgstr ""
+msgstr "[Support]({server})"
 
 #: Classes/tomls/configuration.py:283
 #, python-brace-format
 msgid "[Vote]({vote})"
-msgstr ""
+msgstr "[Vote]({vote})"
 
 #: Classes/tomls/configuration.py:284
 #, python-brace-format
 msgid "[Shake+]({donate})"
-msgstr ""
+msgstr "[Shake+]({donate})"
 
 #: Classes/useful.py:107
 msgid "or"
