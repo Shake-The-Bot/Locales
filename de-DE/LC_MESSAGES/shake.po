@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-25 11:50\n"
+"PO-Revision-Date: 2023-07-25 12:47\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -470,7 +470,7 @@ msgstr "Eine Person kann keine Zahlen hintereinander zählen (andere sind erford
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
 msgid "No botting, if you have failed to often, you'll get muted."
-msgstr ""
+msgstr "Kein Botting, wenn du zu oft versagt hast, wirst du stummgeschalten."
 
 #: Extensions/Commands/Community/counting/counting.py:560
 #: Extensions/Commands/Community/counting/testing.py:560
