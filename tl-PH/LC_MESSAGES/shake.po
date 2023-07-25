@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-24 11:21\n"
+"PO-Revision-Date: 2023-07-25 06:44\n"
 "Last-Translator: \n"
 "Language-Team: Tagalog\n"
 "MIME-Version: 1.0\n"
@@ -87,22 +87,22 @@ msgstr "Hiniling ni {user} • gamit Shake"
 #: Classes/tomls/configuration.py:279
 #, python-brace-format
 msgid "[Invite]({authentication})"
-msgstr ""
+msgstr "[Invite]({authentication})"
 
 #: Classes/tomls/configuration.py:282
 #, python-brace-format
 msgid "[Support]({server})"
-msgstr ""
+msgstr "[Support]({server})"
 
 #: Classes/tomls/configuration.py:283
 #, python-brace-format
 msgid "[Vote]({vote})"
-msgstr ""
+msgstr "[Vote]({vote})"
 
 #: Classes/tomls/configuration.py:284
 #, python-brace-format
 msgid "[Shake+]({donate})"
-msgstr ""
+msgstr "[Shake+]({donate})"
 
 #: Classes/useful.py:107
 msgid "or"
@@ -357,59 +357,59 @@ msgstr "Maaari kang magsimulang magbilang sa numero 1 at magpatuloy sa {game} sa
 #: Extensions/Commands/Community/counting/testing.py:176
 #, python-brace-format
 msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
-msgstr ""
+msgstr "Alternatibo, pwede po ilipat ang pinag simula kung saan ay {game} ay mag sisimula pababa"
 
 #: Extensions/Commands/Community/counting/counting.py:224
 #: Extensions/Commands/Community/counting/testing.py:224
 msgid "Counting rules"
-msgstr ""
+msgstr "Counting rules"
 
 #: Extensions/Commands/Community/counting/counting.py:225
 #: Extensions/Commands/Community/counting/testing.py:225
 msgid "Decide if text messages are allowed in Counting"
-msgstr ""
+msgstr "Magpasya kung ang text message ay pwede a Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:227
 #: Extensions/Commands/Community/counting/testing.py:227
 msgid "You can allow text messages so that members can comment to each other."
-msgstr ""
+msgstr "Pwede mo payagan ang text message sa mga miyembro para makapagusap"
 
 #: Extensions/Commands/Community/counting/counting.py:228
 #: Extensions/Commands/Community/counting/testing.py:228
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
-msgstr ""
+msgstr "Maaari mong tanggihan ang mga text message upang ang {game} ay manatiling mas malinaw."
 
 #: Extensions/Commands/Community/counting/counting.py:277
 #: Extensions/Commands/Community/counting/testing.py:277
 msgid "Counting ways"
-msgstr ""
+msgstr "Counting ways"
 
 #: Extensions/Commands/Community/counting/counting.py:278
 #: Extensions/Commands/Community/counting/testing.py:278
 msgid "Decide if mathematical calculations are allowed in Counting"
-msgstr ""
+msgstr "Pumaya kung ang mathematical calculation ay pwede sa Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:281
 #: Extensions/Commands/Community/counting/testing.py:281
 msgid "You can allow mathematical calculations so that members can find new ways."
-msgstr ""
+msgstr "Maaari mong payagan ang mga kalkulasyon sa matematika upang ang mga miyembro ay makahanap ng mga bagong paraan."
 
 #: Extensions/Commands/Community/counting/counting.py:284
 #: Extensions/Commands/Community/counting/testing.py:284
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr ""
+msgstr "Maaari mong tanggihan ang mga mathematical na kalkulasyon upang ang {game} ay manatiling mas malinaw."
 
 #: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can go back here in the setup to change settings."
-msgstr ""
+msgstr "Pwede ka bumalik sa settings para maiba ang setup"
 
 #: Extensions/Commands/Community/counting/counting.py:332
 #: Extensions/Commands/Community/counting/testing.py:332
 msgid "Counting bot responses"
-msgstr ""
+msgstr "Counting bot responses"
 
 #: Extensions/Commands/Community/counting/counting.py:333
 #: Extensions/Commands/Community/counting/testing.py:333
