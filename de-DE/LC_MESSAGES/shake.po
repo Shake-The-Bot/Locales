@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-25 12:47\n"
+"PO-Revision-Date: 2023-07-26 15:06\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1126,7 +1126,8 @@ msgstr "Wer bin ich?"
 #, python-brace-format
 msgid "I am Shake, a bot that is partially intended for the public.\n"
 "Written with only {lines} lines of code. Please be nice"
-msgstr ""
+msgstr "Ich bin Shake, ein Bot, der teilweise für die Öffentlichkeit bestimmt ist.\n"
+"Geschrieben mit nur {lines} Codezeilen. Bitte sei nett"
 
 #: Extensions/Commands/Help/help.py:855 Extensions/Commands/Help/testing.py:855
 msgid "What am I for?"
