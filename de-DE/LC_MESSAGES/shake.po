@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-26 15:06\n"
+"PO-Revision-Date: 2023-07-27 11:44\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1106,7 +1106,8 @@ msgstr ""
 #, python-brace-format
 msgid "Hello and welcome to my help page\n"
 "Type `{prefix}help <command/category>` to get more information on a command/category."
-msgstr ""
+msgstr "Hallo und herzlich willkommen auf meiner Hilfeseite\n"
+"Tippe `{prefix}help <Command/Kategory>` um mehr informationen zu einem Befehl/einer Kategorie zu erhalten."
 
 #: Extensions/Commands/Help/help.py:833 Extensions/Commands/Help/testing.py:833
 msgid "Support Server"
@@ -1116,7 +1117,8 @@ msgstr "Support-Server"
 #, python-brace-format
 msgid "You can get more help if you join the official server at\n"
 "{support_server}"
-msgstr ""
+msgstr "Du kannst mehr Hilfe erhalten, wenn du dem offiziellen Server unter \n"
+"{support_server} beitritst"
 
 #: Extensions/Commands/Help/help.py:845 Extensions/Commands/Help/testing.py:845
 msgid "Who am I?"
@@ -1138,7 +1140,9 @@ msgstr "Wofür bin ich da?"
 msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n"
 "                    I have been created at {created_at} & I have functions like games, utilities, gimmicks & much more. \n"
 "                    You can get more information by using the dropdown menu below."
-msgstr ""
+msgstr "Ich bin ein funktionaler All-In-One Bot, der das Einrichten deines Servers für dich vereinfacht!\n"
+"                    Ich wurde am {created_at} erstellt &  habe Funktionen wie Spiele, Utilities, Gimmicks & vieles mehr. \n"
+"                    Mehr Informationen erhältst du über das Dropdown-Menü unten."
 
 #: Extensions/Commands/Help/help.py:866 Extensions/Commands/Help/help.py:870
 #: Extensions/Commands/Help/testing.py:866
@@ -1162,7 +1166,9 @@ msgstr "Das Argument kann __****entweder A oder B**___ sein."
 msgid "Stands for the fact that you can use multiple arguments.\n\n"
 "                        Now that you know the basics, you should still know that...\n"
 "                        __**You don't include the parentheses!**__"
-msgstr ""
+msgstr "Steht für die Tatsache, dass du mehrere Argumente verwenden kannst.\n\n"
+"                    Nun, da du die Grundlagen kennst, sollten du immer noch wissen, dass...\n"
+"                    __**Du die Klammern nicht einnimmst! *__"
 
 #: Extensions/Commands/Help/help.py:891 Extensions/Commands/Help/testing.py:891
 msgid "How do I use the bot?"
