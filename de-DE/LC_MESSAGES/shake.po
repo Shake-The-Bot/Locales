@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-30 23:39\n"
+"PO-Revision-Date: 2023-08-01 20:46\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -206,7 +206,7 @@ msgstr "Alternativ hast du die Möglichkeit, einen neuen Textkanal erstellen zu 
 #: Extensions/Commands/Community/oneword/testing.py:102
 #: Extensions/Commands/Community/oneword/testing.py:160
 msgid "You can come back here in the setup to change settings.."
-msgstr ""
+msgstr "Du kannst hier im Setup zurückkehren, um Einstellungen zu ändern.."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:146
 #: Extensions/Commands/Community/aboveme/testing.py:146
@@ -403,7 +403,7 @@ msgstr "Du kannst mathematische Rechnungen ablehnen, damit {game} spamfrei bleib
 #: Extensions/Commands/Community/counting/counting.py:289
 #: Extensions/Commands/Community/counting/testing.py:289
 msgid "You can come back here in the setup to change settings."
-msgstr ""
+msgstr "Du kannst hier im Setup zurückkehren, um Einstellungen zu ändern."
 
 #: Extensions/Commands/Community/counting/counting.py:331
 #: Extensions/Commands/Community/counting/testing.py:331
@@ -475,7 +475,7 @@ msgstr "Kein Botting, wenn du zu oft versagt hast, wirst du stummgeschalten."
 #: Extensions/Commands/Community/counting/counting.py:559
 #: Extensions/Commands/Community/counting/testing.py:559
 msgid "If you break the count, the count will reset to the start."
-msgstr ""
+msgstr "Wenn du den Zähler unterbrichst, wird der Zähler auf Anfang zurückgesetzt."
 
 #: Extensions/Commands/Community/counting/counting.py:563
 #: Extensions/Commands/Community/counting/testing.py:563
