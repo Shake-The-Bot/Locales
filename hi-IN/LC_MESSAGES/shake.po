@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-03 04:46\n"
+"PO-Revision-Date: 2023-08-03 05:42\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -229,7 +229,7 @@ msgstr "तय करें कि क्या मुझे गेम में
 #: Extensions/Commands/Community/oneword/oneword.py:153
 #: Extensions/Commands/Community/oneword/testing.py:153
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "आप मुझे रिएक्शन की अनुमति दे सकते हैं ताकि यूज़र को सीधे पता चले कि पोस्ट को सही माना गया है या नहीं।"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:153
 #: Extensions/Commands/Community/aboveme/testing.py:153
@@ -238,7 +238,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:155
 #: Extensions/Commands/Community/oneword/testing.py:155
 msgid "You can also deny my reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "रिएक्शन के स्पैम को दबाने के लिए आप मेरी रिएक्शन को अस्वीकार भी कर सकते हैं।"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:222
 #: Extensions/Commands/Community/aboveme/testing.py:222
@@ -247,7 +247,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:222
 #: Extensions/Commands/Community/oneword/testing.py:222
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "वर्तमान सर्वर स्कोर"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:224
 #: Extensions/Commands/Community/aboveme/testing.py:224
@@ -256,7 +256,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:224
 #: Extensions/Commands/Community/oneword/testing.py:224
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "वर्तमान यूज़र स्कोर"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:263
 #: Extensions/Commands/Community/aboveme/testing.py:263
