@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-30 23:39\n"
+"PO-Revision-Date: 2023-08-03 04:46\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -431,12 +431,12 @@ msgstr ""
 #: Extensions/Commands/Community/counting/counting.py:531
 #: Extensions/Commands/Community/counting/testing.py:531
 msgid "Welcome to „Counting“"
-msgstr ""
+msgstr "Bienvenido a Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:533
 #: Extensions/Commands/Community/counting/testing.py:533
 msgid "Thanks for your interest about the game in this awesome place!"
-msgstr ""
+msgstr "¡Gracias por tu interés en el juego en este lugar impresionante!"
 
 #: Extensions/Commands/Community/counting/counting.py:540
 #: Extensions/Commands/Community/counting/testing.py:540
