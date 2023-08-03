@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-30 23:39\n"
+"PO-Revision-Date: 2023-08-03 04:46\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -206,12 +206,12 @@ msgstr "या, आपके पास इसके लिए एक नया �
 #: Extensions/Commands/Community/oneword/testing.py:102
 #: Extensions/Commands/Community/oneword/testing.py:160
 msgid "You can come back here in the setup to change settings.."
-msgstr ""
+msgstr "समायोजन बदलने के लिए आप यहां सेटअप में वापस आ सकते हैं.."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:146
 #: Extensions/Commands/Community/aboveme/testing.py:146
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "AboveMe बॉट का रिएक्शन"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:147
 #: Extensions/Commands/Community/aboveme/testing.py:147
@@ -220,7 +220,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:149
 #: Extensions/Commands/Community/oneword/testing.py:149
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "तय करें कि क्या मुझे गेम में पोस्ट पर प्रतिक्रिया देने की अनुमति है"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:151
 #: Extensions/Commands/Community/aboveme/testing.py:151
