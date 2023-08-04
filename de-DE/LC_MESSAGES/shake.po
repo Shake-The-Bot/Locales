@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-04 12:32\n"
+"PO-Revision-Date: 2023-08-04 12:35\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1428,7 +1428,7 @@ msgstr "Das Shake Team und ich danke Ihnen für Ihr Interesse"
 #: Extensions/Commands/Information/plus/plus.py:56
 #: Extensions/Commands/Information/plus/testing.py:56
 msgid "Add Shake to your server"
-msgstr "Schütteln zu Ihrem Server hinzufügen"
+msgstr "Shake zu deinem Server hinzufügen"
 
 #: Extensions/Commands/Information/invite/invite.py:42
 #: Extensions/Commands/Information/invite/testing.py:42
