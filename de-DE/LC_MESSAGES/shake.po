@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-03 11:21\n"
+"PO-Revision-Date: 2023-08-04 12:20\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -996,7 +996,7 @@ msgstr "Dieser Befehl ist neu und befindet sich in seiner Beta-Version"
 
 #: Extensions/Commands/Help/help.py:60 Extensions/Commands/Help/testing.py:60
 msgid "Only the owner of the shake bot can run this command"
-msgstr "Nur der Besitzer des Schüttelbots kann diesen Befehl ausführen"
+msgstr "Nur der Besitzer von Shake kann diesen Befehl ausführen"
 
 #: Extensions/Commands/Help/help.py:64 Extensions/Commands/Help/testing.py:64
 msgid "Start a Shake+ subscription to run this command"
