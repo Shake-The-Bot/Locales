@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-04 12:32\n"
+"PO-Revision-Date: 2023-08-06 15:14\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -131,19 +131,20 @@ msgstr "[{name} (subir archivos)]…"
 msgid "Throw nice, funny and sometimes annoying comments to the user above you!\n"
 "            \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "¡Lanza comentarios agradables, divertidos y, a veces, fastidiosos al usuario arriba de ti!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 #, python-brace-format
 msgid "Setup the whole AboveMe game in seconds\n"
 "            Get more information about the aboveme game with {command}"
-msgstr ""
+msgstr "Configura todo el juego en segundos\n"
+"            Obtén más información sobre el juego AboveMe con {command}"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:84
 #: Extensions/Commands/Community/counting/__init__.py:90
 #: Extensions/Commands/Community/oneword/__init__.py:106
 msgid "View the top Counting users and servers"
-msgstr ""
+msgstr "Ver los usarios y servidores con el mayor puntaje en Counting."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:63
 #: Extensions/Commands/Community/aboveme/testing.py:63
@@ -157,7 +158,7 @@ msgstr "Crea uno"
 #: Extensions/Commands/Community/aboveme/aboveme.py:92
 #: Extensions/Commands/Community/aboveme/testing.py:92
 msgid "AboveMe channel"
-msgstr ""
+msgstr "Canal AboveMe"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -166,7 +167,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:94
 #: Extensions/Commands/Community/oneword/testing.py:94
 msgid "Choose in which text channel this game should be!"
-msgstr ""
+msgstr "¡Elige en qué canal de texto debe ser este juego!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
@@ -175,7 +176,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:96
 #: Extensions/Commands/Community/oneword/testing.py:96
 msgid "You can set up an existing text channel from your server."
-msgstr ""
+msgstr "Puedes configurar un canal de texto existente en tu servidor."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:97
 #: Extensions/Commands/Community/aboveme/testing.py:97
@@ -184,7 +185,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:98
 #: Extensions/Commands/Community/oneword/testing.py:98
 msgid "Alternatively, you have the option to have a new text channel created for it."
-msgstr ""
+msgstr "También hay la opción para tener un nuevo canal de texto creado por él."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:103
 #: Extensions/Commands/Community/aboveme/aboveme.py:161
@@ -205,12 +206,12 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:104
 #: Extensions/Commands/Community/oneword/testing.py:162
 msgid "You can come back here in the setup to change settings.."
-msgstr ""
+msgstr "Puede volver aquí en la configuración para cambiar los ajustes.."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:149
 #: Extensions/Commands/Community/aboveme/testing.py:149
 msgid "AboveMe bot reactions"
-msgstr ""
+msgstr "AboveMe reacciones del bot"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:150
 #: Extensions/Commands/Community/aboveme/testing.py:150
@@ -219,7 +220,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:151
 #: Extensions/Commands/Community/oneword/testing.py:151
 msgid "Decide if I am allowed to react to the posts in the game"
-msgstr ""
+msgstr "Decide si puedo reaccionar a los mensajes del juego"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:154
 #: Extensions/Commands/Community/aboveme/testing.py:154
@@ -228,7 +229,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:155
 #: Extensions/Commands/Community/oneword/testing.py:155
 msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
-msgstr ""
+msgstr "Puedes permitirme reacciones para que los usuarios sepan directamente si los mensajes son aceptados como correctos."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:156
 #: Extensions/Commands/Community/aboveme/testing.py:156
@@ -237,7 +238,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:157
 #: Extensions/Commands/Community/oneword/testing.py:157
 msgid "You can also deny my reactions to suppress the spam of reactions."
-msgstr ""
+msgstr "Puedes negar mis reacciones para suprimir el spam de las reacciones."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:225
 #: Extensions/Commands/Community/aboveme/testing.py:225
@@ -246,7 +247,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:224
 #: Extensions/Commands/Community/oneword/testing.py:224
 msgid "CURRENT SERVER SCORES"
-msgstr ""
+msgstr "PUNTAJE ACTUAL DEL SERVIDOR"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:227
 #: Extensions/Commands/Community/aboveme/testing.py:227
@@ -255,7 +256,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:226
 #: Extensions/Commands/Community/oneword/testing.py:226
 msgid "CURRENT USER SCORES"
-msgstr ""
+msgstr "PUNTAJE ACTUAL DEL USARIO"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:266
 #: Extensions/Commands/Community/aboveme/testing.py:266
@@ -264,7 +265,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:263
 #: Extensions/Commands/Community/oneword/testing.py:263
 msgid "I could not create a TextChannel. Aborting..."
-msgstr ""
+msgstr "No pude crear un TextChannel canal de texto. Abortando..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:278
 #: Extensions/Commands/Community/aboveme/testing.py:278
@@ -273,7 +274,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:275
 #: Extensions/Commands/Community/oneword/testing.py:275
 msgid "I could not edit the TextChannel! Aborting..."
-msgstr ""
+msgstr "¡No pude editar el TextChannel canal de texto! Abortando..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:291
 #: Extensions/Commands/Community/aboveme/testing.py:291
@@ -283,7 +284,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:288
 #, python-brace-format
 msgid "There is already a game set up in {channel}. Aborting..."
-msgstr ""
+msgstr "Ya hay un juego configurado en {channel}. Abortando..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:302
 #: Extensions/Commands/Community/aboveme/testing.py:302
@@ -293,7 +294,7 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:299
 #, python-brace-format
 msgid "{game} is successfully set up in {channel}!"
-msgstr ""
+msgstr "¡{game} ha sido exitosamente configurado en {channel}!"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:306
 #: Extensions/Commands/Community/aboveme/testing.py:306
@@ -302,11 +303,11 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/oneword.py:303
 #: Extensions/Commands/Community/oneword/testing.py:303
 msgid "Note: You can freely edit the text channel now."
-msgstr ""
+msgstr "Nota: Ahora puede editar libremente el canal de texto."
 
 #: Extensions/Commands/Community/community.py:13
 msgid "Commands for the the Community features I offer"
-msgstr ""
+msgstr "Comandos para las características de la Comunidad | oferta"
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
@@ -314,120 +315,121 @@ msgstr "Características"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
-msgstr ""
+msgstr "¡Comienza con 1 y no dejan de contar de nuevo!"
 
 #: Extensions/Commands/Community/counting/__init__.py:58
 #, python-brace-format
 msgid "Setup the whole Counting game in seconds\n"
 "            Get more information about the counting game with {command}"
-msgstr ""
+msgstr "Configurar todo el juego Counting en segundos\n"
+"            Obten más información sobre el juego Counting con {command}"
 
 #: Extensions/Commands/Community/counting/__init__.py:114
 msgid "Everything you need to know about the Counting game"
-msgstr ""
+msgstr "Todo lo que necesita saber sobre el juego Counting"
 
 #: Extensions/Commands/Community/counting/__init__.py:146
 msgid "Change some properties about the Counting game"
-msgstr ""
+msgstr "Cambiar algunas propiedades sobre el juego de Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:125
 #: Extensions/Commands/Community/counting/testing.py:125
 msgid "Counting channel"
-msgstr ""
+msgstr "Canal Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:178
 #: Extensions/Commands/Community/counting/testing.py:178
 msgid "Counting direction"
-msgstr ""
+msgstr "Dirección de Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:179
 #: Extensions/Commands/Community/counting/testing.py:179
 msgid "Choose in which direction Counting should go!"
-msgstr ""
+msgstr "¡Elige en qué dirección Counting deberia ir!"
 
 #: Extensions/Commands/Community/counting/counting.py:182
 #: Extensions/Commands/Community/counting/testing.py:182
 #, python-brace-format
 msgid "You can start counting at the number 1 and continue {game} in ascending order."
-msgstr ""
+msgstr "Puedes comenzar a contar en el número 1 y continuar con {game} en orden ascendente."
 
 #: Extensions/Commands/Community/counting/counting.py:185
 #: Extensions/Commands/Community/counting/testing.py:185
 #, python-brace-format
 msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
-msgstr ""
+msgstr "También puedes especificar un punto de comienzo desde el cual la {game} comienza en orden descendente."
 
 #: Extensions/Commands/Community/counting/counting.py:233
 #: Extensions/Commands/Community/counting/testing.py:233
 msgid "Counting rules"
-msgstr ""
+msgstr "Reglas de Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:234
 #: Extensions/Commands/Community/counting/testing.py:234
 msgid "Decide if text messages are allowed in Counting"
-msgstr ""
+msgstr "Decide si los mensajes de texto están permitidos en Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:236
 #: Extensions/Commands/Community/counting/testing.py:236
 msgid "You can allow text messages so that members can comment to each other."
-msgstr ""
+msgstr "Puedes permitir mensajes de texto para que los miembros puedan comentarse unos a otros."
 
 #: Extensions/Commands/Community/counting/counting.py:237
 #: Extensions/Commands/Community/counting/testing.py:237
 #, python-brace-format
 msgid "You can deny text messages so that {game} remains clearer."
-msgstr ""
+msgstr "Puedes negar mensajes de texto para que {game} sea más claro."
 
 #: Extensions/Commands/Community/counting/counting.py:286
 #: Extensions/Commands/Community/counting/testing.py:286
 msgid "Counting ways"
-msgstr ""
+msgstr "Formas de Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:287
 #: Extensions/Commands/Community/counting/testing.py:287
 msgid "Decide if mathematical calculations are allowed in Counting"
-msgstr ""
+msgstr "Decide si los cálculos matemáticos están permitidos en Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:290
 #: Extensions/Commands/Community/counting/testing.py:290
 msgid "You can allow mathematical calculations so that members can find new ways."
-msgstr ""
+msgstr "Puedes permitir cálculos matemáticos para que los miembros puedan encontrar nuevas formas."
 
 #: Extensions/Commands/Community/counting/counting.py:293
 #: Extensions/Commands/Community/counting/testing.py:293
 #, python-brace-format
 msgid "You can deny mathematical calculations so that {game} remains clearer."
-msgstr ""
+msgstr "Puedes negar cálculos matemáticos para que {game} sea más claro."
 
 #: Extensions/Commands/Community/counting/counting.py:299
 #: Extensions/Commands/Community/counting/testing.py:299
 msgid "You can come back here in the setup to change settings."
-msgstr ""
+msgstr "Puede volver aquí en la configuración para cambiar los ajustes."
 
 #: Extensions/Commands/Community/counting/counting.py:341
 #: Extensions/Commands/Community/counting/testing.py:341
 msgid "Counting bot responses"
-msgstr ""
+msgstr "Respuestas del bot Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:342
 #: Extensions/Commands/Community/counting/testing.py:342
 msgid "Decide in which way I should response to fails, edits, etc."
-msgstr ""
+msgstr "Decide de qué manera debo responder a fallos, ediciones, etc."
 
 #: Extensions/Commands/Community/counting/counting.py:346
 #: Extensions/Commands/Community/counting/testing.py:346
 msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
-msgstr ""
+msgstr "Puedes permitirme enviar las respuestas a través de webhooks para que todo el aspecto aparece más natural"
 
 #: Extensions/Commands/Community/counting/counting.py:349
 #: Extensions/Commands/Community/counting/testing.py:349
 msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
-msgstr ""
+msgstr "También puede permitirme enviar todos los mensajes como usuario, para crear una descripción general más fácil de las acciones."
 
 #: Extensions/Commands/Community/counting/counting.py:401
 #: Extensions/Commands/Community/counting/testing.py:401
 msgid "Counting bot reactions"
-msgstr ""
+msgstr "Reacciones del bot Counting"
 
 #: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
@@ -442,51 +444,51 @@ msgstr "¡Gracias por tu interés en el juego en este lugar impresionante!"
 #: Extensions/Commands/Community/counting/counting.py:550
 #: Extensions/Commands/Community/counting/testing.py:550
 msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
-msgstr ""
+msgstr "Counting es un juego divertido e interactivo donde los participantes tomen turnos publicando números en orden de ascendencia/descendencia a un canal de texto específico. "
 
 #: Extensions/Commands/Community/counting/counting.py:554
 #: Extensions/Commands/Community/counting/testing.py:554
 msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
-msgstr ""
+msgstr "El objetivo del juego es aumentar o disminuir continuamente la secuencia numérica por la contribución de cada jugador. "
 
 #: Extensions/Commands/Community/counting/counting.py:557
 #: Extensions/Commands/Community/counting/testing.py:557
 msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
-msgstr ""
+msgstr "Puede requerir atención, coordinación y acción rápida para mantener el flujo y evitar errores. El juego fomenta el trabajo en equipo, la competencia sana y la comunicación interactiva dentro de la comunidad. "
 
 #: Extensions/Commands/Community/counting/counting.py:561
 #: Extensions/Commands/Community/counting/testing.py:561
 msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
-msgstr ""
+msgstr "Puede ser un reto divertido ver lo alta que puede llegar la secuencia numérica mientras los jugadores trabajan juntos para continuar el juego de contar."
 
 #: Extensions/Commands/Community/counting/counting.py:567
 #: Extensions/Commands/Community/counting/testing.py:567
 msgid "One person can't count numbers in a row (others are required)."
-msgstr ""
+msgstr "Una persona no puede contar números seguidos (se requieren múltiples)."
 
 #: Extensions/Commands/Community/counting/counting.py:568
 #: Extensions/Commands/Community/counting/testing.py:568
 #: Extensions/Commands/Community/oneword/oneword.py:342
 #: Extensions/Commands/Community/oneword/testing.py:342
 msgid "No botting, if you have failed to often, you'll get muted."
-msgstr ""
+msgstr "Sin botting, si has fallado con frecuencia, te quedarás silenciado."
 
 #: Extensions/Commands/Community/counting/counting.py:569
 #: Extensions/Commands/Community/counting/testing.py:569
 msgid "If you break the count, the count will reset to the start."
-msgstr ""
+msgstr "Si rompes el recuento se empezara de nuevo."
 
 #: Extensions/Commands/Community/counting/counting.py:573
 #: Extensions/Commands/Community/counting/testing.py:573
 msgid "The rules are simple"
-msgstr ""
+msgstr "Las reglas son simples"
 
 #: Extensions/Commands/Community/counting/counting.py:579
 #: Extensions/Commands/Community/counting/testing.py:579
 #: Extensions/Commands/Community/oneword/oneword.py:326
 #: Extensions/Commands/Community/oneword/testing.py:326
 msgid "How to setup the game?"
-msgstr ""
+msgstr "¿Cómo configurar el juego?"
 
 #: Extensions/Commands/Community/counting/counting.py:581
 #: Extensions/Commands/Community/counting/testing.py:581
@@ -494,52 +496,52 @@ msgstr ""
 #: Extensions/Commands/Community/oneword/testing.py:328
 #, python-brace-format
 msgid "Get started by using the command {command} to create and setup the essential channel"
-msgstr ""
+msgstr "Comienza usando el comando {command} para crear y configurar el canal esencial"
 
 #: Extensions/Commands/Community/counting/counting.py:586
 #: Extensions/Commands/Community/counting/testing.py:586
 #: Extensions/Commands/Community/oneword/oneword.py:351
 #: Extensions/Commands/Community/oneword/testing.py:351
 msgid "How to configure the game?"
-msgstr ""
+msgstr "¿Cómo configurar el juego?"
 
 #: Extensions/Commands/Community/counting/counting.py:588
 #: Extensions/Commands/Community/counting/testing.py:588
 #, python-brace-format
 msgid "Customize all kind of properties for Counting by using the command {command}!"
-msgstr ""
+msgstr "¡Personalice todo tipo de propiedades para Counting usando el comando {command}!"
 
 #: Extensions/Commands/Community/counting/counting.py:593
 #: Extensions/Commands/Community/counting/testing.py:593
 msgid "The higher the number, the harder you fall!"
-msgstr ""
+msgstr "Lo más alto el número, la más fuerte la caída."
 
 #: Extensions/Commands/Community/counting/counting.py:611
 #: Extensions/Commands/Community/counting/testing.py:611
 #, python-brace-format
 msgid "There is no Counting-Game in the given channel {channel} that we could configure."
-msgstr ""
+msgstr "No hay juego de Counting en el canal {channel} que podamos configurar."
 
 #: Extensions/Commands/Community/counting/counting.py:623
 #: Extensions/Commands/Community/counting/testing.py:623
 #, python-brace-format
 msgid "The next number in here has been set to {count}"
-msgstr ""
+msgstr "El siguiente número aquí ha sido asignado a {count}"
 
 #: Extensions/Commands/Community/counting/counting.py:628
 #: Extensions/Commands/Community/counting/testing.py:628
 #, python-brace-format
 msgid "The stats of the Counting-Game in {channel} has been successfully configured."
-msgstr ""
+msgstr "Las estadísticas del juego de cuenta en {channel} se han configurado correctamente."
 
 #: Extensions/Commands/Community/counting/counting.py:726
 #: Extensions/Commands/Community/counting/testing.py:726
 msgid "I could not create a webhook in the TextChannel! Aborting..."
-msgstr ""
+msgstr "¡No pude crear un webook en TextChannel canal de texto! Abortando..."
 
 #: Extensions/Commands/Community/oneword/__init__.py:35
 msgid "Create some funny sentances with the help of other users!"
-msgstr ""
+msgstr "¡Crea algunas frases divertidas con la ayuda de otros usuarios!"
 
 #: Extensions/Commands/Community/oneword/__init__.py:50
 #, python-brace-format
