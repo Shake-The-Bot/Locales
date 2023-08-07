@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-07 21:56\n"
+"PO-Revision-Date: 2023-08-07 23:00\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -593,22 +593,22 @@ msgstr "Eine Person kann keine Wörter hintereinander schreiben (andere sind erf
 #: Extensions/Commands/Community/oneword/oneword.py:341
 #: Extensions/Commands/Community/oneword/testing.py:341
 msgid "The sentance is done with punctuation marks (eg. „!“)."
-msgstr ""
+msgstr "Die Satzung erfolgt mit Satzzeichen (z. B. „!“)."
 
 #: Extensions/Commands/Community/oneword/oneword.py:343
 #: Extensions/Commands/Community/oneword/testing.py:343
 msgid "There is no failing."
-msgstr ""
+msgstr "Es gibt kein verlieren."
 
 #: Extensions/Commands/Community/oneword/oneword.py:346
 #: Extensions/Commands/Community/oneword/testing.py:346
 msgid "OneWord rules"
-msgstr ""
+msgstr "OneWord Regeln"
 
 #: Extensions/Commands/Community/oneword/oneword.py:352
 #: Extensions/Commands/Community/oneword/testing.py:352
 msgid "Currently there is nothing to configure!"
-msgstr ""
+msgstr "Derzeit gibt es nichts zu konfigurieren!"
 
 #: Extensions/Commands/Community/schedule/__init__.py:38
 msgid "Scheduled Events are Reminders, which you can let recurr on a chosen Interval. \n"
