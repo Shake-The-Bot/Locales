@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-07 16:41\n"
+"PO-Revision-Date: 2023-08-07 18:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -582,7 +582,7 @@ msgstr "¿Como jugar?"
 #: Extensions/Commands/Community/oneword/oneword.py:335
 #: Extensions/Commands/Community/oneword/testing.py:335
 msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance"
-msgstr "Este juego trata de palabras, que se publican una tras otra en el chat para crear una oración creativa"
+msgstr "Este juego trata de palabras, que se publican una tras otra en el chat para crear una frase creativa"
 
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
@@ -592,45 +592,46 @@ msgstr "Una persona no puede publicar palabras seguidas (se requieren múltiples
 #: Extensions/Commands/Community/oneword/oneword.py:341
 #: Extensions/Commands/Community/oneword/testing.py:341
 msgid "The sentance is done with punctuation marks (eg. „!“)."
-msgstr ""
+msgstr "La frase se hace con signos de puntuación (por ejemplo, „!“)."
 
 #: Extensions/Commands/Community/oneword/oneword.py:343
 #: Extensions/Commands/Community/oneword/testing.py:343
 msgid "There is no failing."
-msgstr ""
+msgstr "No puedes fallar."
 
 #: Extensions/Commands/Community/oneword/oneword.py:346
 #: Extensions/Commands/Community/oneword/testing.py:346
 msgid "OneWord rules"
-msgstr ""
+msgstr "Reglas de OneWord"
 
 #: Extensions/Commands/Community/oneword/oneword.py:352
 #: Extensions/Commands/Community/oneword/testing.py:352
 msgid "Currently there is nothing to configure!"
-msgstr ""
+msgstr "No hay nada para configurar."
 
 #: Extensions/Commands/Community/schedule/__init__.py:38
 msgid "Scheduled Events are Reminders, which you can let recurr on a chosen Interval. \n"
 "            With a set timezone, you can choose the Start Time and the Message with the corresponding TextChannel."
-msgstr ""
+msgstr "Los eventos programados son recordatorios, que puede dejar que se repita en intervalos elegidos. \n"
+"            Con una zona horaria definida, puedes elegir la Hora de Inicio y el Mensaje con el TextChannel correspondiente."
 
 #: Extensions/Commands/Community/schedule/testing.py:99
 #: Extensions/Commands/Community/schedule/testing.py:139
 msgid "Repetition"
-msgstr ""
+msgstr "Repetición"
 
 #: Extensions/Commands/Community/schedule/testing.py:102
 #: Extensions/Commands/Community/schedule/testing.py:142
 msgid "Decide to only get alerted once or choose the interval between the alerts!"
-msgstr ""
+msgstr "¡Decide sólo recibir alertas una vez o elegir el intervalo entre las alertas!"
 
 #: Extensions/Commands/Community/schedule/testing.py:176
 msgid "Second step: Choose the duration"
-msgstr ""
+msgstr "Segundo paso: Elija la duración"
 
 #: Extensions/Commands/Community/schedule/testing.py:200
 msgid "Third step: Choose the Message Type"
-msgstr ""
+msgstr "Tercer paso: Elegir el tipo de mensaje"
 
 #: Extensions/Commands/Developing/bash/__init__.py:36
 msgid "Run shell commands.\n\n"
@@ -638,16 +639,21 @@ msgid "Run shell commands.\n\n"
 "            -----------\n"
 "            command: str\n"
 "                the command"
-msgstr ""
+msgstr "Ejecuta comandos de shell.\n\n"
+"            Parámetros\n"
+"            -----------\n"
+"            comando: str\n"
+"                el comando"
 
 #: Extensions/Commands/Developing/developing.py:14
 msgid "Dev commands to configure/set a lot of things of the bot.\n"
 "            Sometimes you have to list them as Dev 🤷."
-msgstr ""
+msgstr "Comandos Dev para configurar/establecer muchas cosas del bot.\n"
+"            A veces tienes que listarlas como Dev 🤷."
 
 #: Extensions/Commands/Developing/developing.py:28
 msgid "Developing"
-msgstr ""
+msgstr "Desarrollo"
 
 #: Extensions/Commands/Developing/dispatch/__init__.py:37
 msgid "Send an event\n\n"
@@ -657,7 +663,13 @@ msgid "Send an event\n\n"
 "                the name of the event\n\n"
 "            kwargs: Any\n"
 "                event keyword arguments"
-msgstr ""
+msgstr "Envía un evento\n"
+"            Parámetros\n"
+"            -----------\n"
+"            evento: Opcional[str]\n"
+"                nombre del evento\n\n"
+"            kwargs: Cualquiera\n\n"
+"                evento palabras claves argumentos"
 
 #: Extensions/Commands/Developing/extensions/__init__.py:55
 msgid "Reloads, unloads or loads extensions/commands of the bot\n"
@@ -668,7 +680,14 @@ msgid "Reloads, unloads or loads extensions/commands of the bot\n"
 "                re- un- or loading the <extensions>\n\n"
 "            extension: Greedy[ValidExt]\n"
 "                the extension(s) you want to re- un- or load"
-msgstr ""
+msgstr "Recarga, descarga o carga extensiones/comandos del bot\n"
+"            \n"
+"            Parámetros\n"
+"            ----------- Comando\n"
+"            : Literal[load, descargar, recarga]\n"
+"                volver a deshacer o cargar la extensión <extensions>\n\n"
+"            :[ValidExt]\n"
+"                codiciosa las extension(es) que desea volver a des- deshacer o cargar"
 
 #: Extensions/Commands/Developing/leave/__init__.py:37
 msgid "Leave a guild\n\n"
@@ -676,44 +695,48 @@ msgid "Leave a guild\n\n"
 "            -----------\n"
 "            guild: int\n"
 "                the ID of the server"
-msgstr ""
+msgstr "Deja un gremio\n\n"
+"            Parámetros\n"
+"            -----------\n"
+"            guild: int\n"
+"                el ID del servidor"
 
 #: Extensions/Commands/Developing/leave/leave.py:24
 #: Extensions/Commands/Developing/leave/testing.py:24
 msgid "The given server is not valid"
-msgstr ""
+msgstr "El servidor dado no es válido"
 
 #: Extensions/Commands/Developing/leave/leave.py:31
 #: Extensions/Commands/Developing/leave/testing.py:31
 msgid "leaving the guild raised an error"
-msgstr ""
+msgstr "Dejando el gremio subio un error"
 
 #: Extensions/Commands/Developing/leave/leave.py:36
 #: Extensions/Commands/Developing/leave/testing.py:36
 msgid "I'll leave the given server"
-msgstr ""
+msgstr "Voy a abandonar el servidor dado"
 
 #: Extensions/Commands/Developing/ptb/__init__.py:36
 msgid "Temporarily adds a server/channel/user to the public test build"
-msgstr ""
+msgstr "Agrega temporalmente un servidor/canal/usuario a la construcción pública de pruebas"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:51
 msgid "Your input does not match any server/channel/user I can find"
-msgstr ""
+msgstr "Su entrada no coincide con ningún servidor/canal/usuario que pueda encontrar"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:61
 msgid "Server"
-msgstr ""
+msgstr "Servidor"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:66
 #, python-brace-format
 msgid "{name} is __removed__ from the public test build"
-msgstr ""
+msgstr "{name} es __removed__ de la construcción pública de pruebas"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:71
 #, python-brace-format
 msgid "{name} is temporarily __added__ to the public test build"
-msgstr ""
+msgstr "{name} es temporalmente __added__ para la construcción pública de pruebas"
 
 #: Extensions/Commands/Developing/repl/__init__.py:41
 msgid "Run your own xyz codes.\n\n"
