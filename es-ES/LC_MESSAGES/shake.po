@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-06 20:27\n"
+"PO-Revision-Date: 2023-08-07 16:41\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -552,42 +552,42 @@ msgstr "Configura todo el juego OneWord en segundos\n"
 
 #: Extensions/Commands/Community/oneword/__init__.py:76
 msgid "Everything you need to know about the OneWord game"
-msgstr ""
+msgstr "Todo lo que necesita saber sobre el juego OneWord"
 
 #: Extensions/Commands/Community/oneword/oneword.py:93
 #: Extensions/Commands/Community/oneword/testing.py:93
 msgid "OneWord channel"
-msgstr ""
+msgstr "Canal OneWord"
 
 #: Extensions/Commands/Community/oneword/oneword.py:150
 #: Extensions/Commands/Community/oneword/testing.py:150
 msgid "OneWord bot reactions"
-msgstr ""
+msgstr "Reacciones del bot OneWord"
 
 #: Extensions/Commands/Community/oneword/oneword.py:317
 #: Extensions/Commands/Community/oneword/testing.py:317
 msgid "Welcome to „OneWord“"
-msgstr ""
+msgstr "Bienvenido a „OneWord“"
 
 #: Extensions/Commands/Community/oneword/oneword.py:320
 #: Extensions/Commands/Community/oneword/testing.py:320
 msgid "Thanks for your interest in the game in this awesome place!"
-msgstr ""
+msgstr "¡Gracias por tu interés en el juego en este lugar impresionante!"
 
 #: Extensions/Commands/Community/oneword/oneword.py:333
 #: Extensions/Commands/Community/oneword/testing.py:333
 msgid "How to use the game?"
-msgstr ""
+msgstr "¿Como jugar?"
 
 #: Extensions/Commands/Community/oneword/oneword.py:335
 #: Extensions/Commands/Community/oneword/testing.py:335
 msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance"
-msgstr ""
+msgstr "Este juego trata de palabras, que se publican una tras otra en el chat para crear una oración creativa"
 
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
 msgid "One person can't post words in a row (others are required)."
-msgstr ""
+msgstr "Una persona no puede publicar palabras seguidas (se requieren múltiples)."
 
 #: Extensions/Commands/Community/oneword/oneword.py:341
 #: Extensions/Commands/Community/oneword/testing.py:341
