@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-04 12:32\n"
+"PO-Revision-Date: 2023-08-07 12:17\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "MIME-Version: 1.0\n"
@@ -284,7 +284,7 @@ msgstr "मैं चैनल संपादित नहीं कर सक�
 #: Extensions/Commands/Community/oneword/testing.py:288
 #, python-brace-format
 msgid "There is already a game set up in {channel}. Aborting..."
-msgstr ""
+msgstr "{channel} में पहले से ही एक खेल है। रद्द किया जा रहा है..."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:302
 #: Extensions/Commands/Community/aboveme/testing.py:302
@@ -311,7 +311,7 @@ msgstr ""
 
 #: Extensions/Commands/Community/community.py:21
 msgid "Features"
-msgstr ""
+msgstr "विशेषताएँ"
 
 #: Extensions/Commands/Community/counting/__init__.py:44
 msgid "Start with 1 and never stop counting again!"
