@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-08 00:08\n"
+"PO-Revision-Date: 2023-08-08 18:22\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -2415,7 +2415,7 @@ msgstr ""
 #: Extensions/Commands/Other/language/language.py:79
 #: Extensions/Commands/Other/language/testing.py:79
 msgid "Available Translations"
-msgstr ""
+msgstr "الترجمات المتوفرة"
 
 #: Extensions/Commands/Other/language/language.py:82
 #: Extensions/Commands/Other/language/testing.py:82
