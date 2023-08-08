@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-07 23:00\n"
+"PO-Revision-Date: 2023-08-08 08:46\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -613,25 +613,26 @@ msgstr "Derzeit gibt es nichts zu konfigurieren!"
 #: Extensions/Commands/Community/schedule/__init__.py:38
 msgid "Scheduled Events are Reminders, which you can let recurr on a chosen Interval. \n"
 "            With a set timezone, you can choose the Start Time and the Message with the corresponding TextChannel."
-msgstr ""
+msgstr "Geplante Termine sind Erinnerungen, die Sie im ausgewählten Intervall wiederholen können. \n"
+"            mit einer bestimmten Zeitzone können sie die Startzeit und die Nachricht mit dem entsprechenden Textkanal wählen."
 
 #: Extensions/Commands/Community/schedule/testing.py:99
 #: Extensions/Commands/Community/schedule/testing.py:139
 msgid "Repetition"
-msgstr ""
+msgstr "Wiederholung"
 
 #: Extensions/Commands/Community/schedule/testing.py:102
 #: Extensions/Commands/Community/schedule/testing.py:142
 msgid "Decide to only get alerted once or choose the interval between the alerts!"
-msgstr ""
+msgstr "Entscheiden Sie sich, nur einmal benachrichtigt zu werden, oder wählen Sie das Intervall zwischen den Benachrichtigungen!"
 
 #: Extensions/Commands/Community/schedule/testing.py:176
 msgid "Second step: Choose the duration"
-msgstr ""
+msgstr "Zweiter Schritt: Wählen Sie die Dauer"
 
 #: Extensions/Commands/Community/schedule/testing.py:200
 msgid "Third step: Choose the Message Type"
-msgstr ""
+msgstr "Dritter Schritt: Wählen Sie den Nachrichtentyp"
 
 #: Extensions/Commands/Developing/bash/__init__.py:36
 msgid "Run shell commands.\n\n"
@@ -639,16 +640,21 @@ msgid "Run shell commands.\n\n"
 "            -----------\n"
 "            command: str\n"
 "                the command"
-msgstr ""
+msgstr "Shell Befehle ausführen.\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Befehl: str\n"
+"                der Befehl"
 
 #: Extensions/Commands/Developing/developing.py:14
 msgid "Dev commands to configure/set a lot of things of the bot.\n"
 "            Sometimes you have to list them as Dev 🤷."
-msgstr ""
+msgstr "Dev-Befehle, um viele Dinge des Bots zu konfigurieren/setzen.\n"
+"            Manchmal musst du sie als Dev 🤷auflisten."
 
 #: Extensions/Commands/Developing/developing.py:28
 msgid "Developing"
-msgstr ""
+msgstr "Entwicklung"
 
 #: Extensions/Commands/Developing/dispatch/__init__.py:37
 msgid "Send an event\n\n"
@@ -658,7 +664,13 @@ msgid "Send an event\n\n"
 "                the name of the event\n\n"
 "            kwargs: Any\n"
 "                event keyword arguments"
-msgstr ""
+msgstr "Sende ein Ereignis\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Event: Optionale[str]\n"
+"                den Namen des Ereignisses\n\n"
+"            kwargs: Irgendwelche\n"
+"                Ereignisbegriff Argumente"
 
 #: Extensions/Commands/Developing/extensions/__init__.py:55
 msgid "Reloads, unloads or loads extensions/commands of the bot\n"
@@ -669,7 +681,14 @@ msgid "Reloads, unloads or loads extensions/commands of the bot\n"
 "                re- un- or loading the <extensions>\n\n"
 "            extension: Greedy[ValidExt]\n"
 "                the extension(s) you want to re- un- or load"
-msgstr ""
+msgstr "Lädt, entlädt oder lädt Erweiterungen/Befehle des Bots neu\n"
+"            \n"
+"            Parameter\n"
+"            -----------\n"
+"            Befehl: Literal[load, unload, reload]\n"
+"                Ent- oder Laden der <Erweiterungen>\n\n"
+"            Erweiterung: Greedy[ValidExt]\n"
+"                die Erweiterung(en), die Sie ent- oder laden wollen"
 
 #: Extensions/Commands/Developing/leave/__init__.py:37
 msgid "Leave a guild\n\n"
@@ -677,39 +696,43 @@ msgid "Leave a guild\n\n"
 "            -----------\n"
 "            guild: int\n"
 "                the ID of the server"
-msgstr ""
+msgstr "Verlasse eine Gilde\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Gilde: int\n"
+"                die ID des Servers"
 
 #: Extensions/Commands/Developing/leave/leave.py:24
 #: Extensions/Commands/Developing/leave/testing.py:24
 msgid "The given server is not valid"
-msgstr ""
+msgstr "Die angegebene Gild ID ist nicht gültig."
 
 #: Extensions/Commands/Developing/leave/leave.py:31
 #: Extensions/Commands/Developing/leave/testing.py:31
 msgid "leaving the guild raised an error"
-msgstr ""
+msgstr "das Verlassen der Gilde hat einen Fehler gemeldet"
 
 #: Extensions/Commands/Developing/leave/leave.py:36
 #: Extensions/Commands/Developing/leave/testing.py:36
 msgid "I'll leave the given server"
-msgstr ""
+msgstr "Ich verlasse den angegebenen Server"
 
 #: Extensions/Commands/Developing/ptb/__init__.py:36
 msgid "Temporarily adds a server/channel/user to the public test build"
-msgstr ""
+msgstr "Fügt vorübergehend einen Server/Kanal/Benutzer der öffentlichen Testversion hinzu"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:51
 msgid "Your input does not match any server/channel/user I can find"
-msgstr ""
+msgstr "Deine Eingabe entspricht keinem Server/Kanal/Benutzer, den ich finden kann"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:61
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:66
 #, python-brace-format
 msgid "{name} is __removed__ from the public test build"
-msgstr ""
+msgstr "{name} ist __removed__ vom öffentlichen Test-Build"
 
 #: Extensions/Commands/Developing/ptb/ptb.py:71
 #, python-brace-format
