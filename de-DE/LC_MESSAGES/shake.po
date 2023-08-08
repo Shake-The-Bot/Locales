@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-08 08:46\n"
+"PO-Revision-Date: 2023-08-08 10:35\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -737,7 +737,7 @@ msgstr "{name} ist __removed__ vom öffentlichen Test-Build"
 #: Extensions/Commands/Developing/ptb/ptb.py:71
 #, python-brace-format
 msgid "{name} is temporarily __added__ to the public test build"
-msgstr ""
+msgstr "{name} ist vorübergehend __added__ zum öffentlichen Test-Build"
 
 #: Extensions/Commands/Developing/repl/__init__.py:41
 msgid "Run your own xyz codes.\n\n"
@@ -758,16 +758,33 @@ msgid "Run your own xyz codes.\n\n"
 "            -----------\n"
 "            code: str\n"
 "                the code input to execute"
-msgstr ""
+msgstr "Führen Sie Ihre eigenen xyz Codes.\n\n"
+"            Eine Lese-eval-Druckschleife (REPL), auch als interaktive Toplevel oder Sprach-Shell bezeichnet,\n"
+"            nimmt einzelne Benutzereingaben an, führt sie aus und gibt dem Benutzer das Ergebnis zurück.\n\n"
+"            Sie können diesen Code einfach als Argument angeben und auch in Anführungszeichen (`).\n"
+"            Optional können Sie gemeinsame Attribute wie ctx, Bot usw. verwenden. in den Code.\n\n"
+"            Umgebungsvariablen:\n"
+"                ctx - Befehlsanruf Kontext\n"
+"                Bot - ShakeBot\n"
+"                Kanal - aktueller Kanal\n"
+"                Autor - Autorenmitglied\n"
+"                Nachricht - Befehlsmeldung\n"
+"                __ref - Referenz wenn\n"
+"                __last__    - Variablen der letzten Repl\n"
+"                __ - Ergebnisse der letzten Antwort.\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Code: str\n"
+"                der auszuführende Code"
 
 #: Extensions/Commands/Developing/restart/__init__.py:37
 msgid "Stops and starts the bot like in a regular Restart"
-msgstr ""
+msgstr "Stoppt und startet den Bot wie bei einem regulären Neustart"
 
 #: Extensions/Commands/Developing/restart/restart.py:15
 #: Extensions/Commands/Developing/restart/testing.py:15
 msgid "Bot will restart now"
-msgstr ""
+msgstr "Bot wird jetzt neu gestartet"
 
 #: Extensions/Commands/Developing/rtfm/__init__.py:117
 msgid "View objects from certain documentation.\n\n"
@@ -782,11 +799,21 @@ msgid "View objects from certain documentation.\n\n"
 "                the thing you want to get information about (getattr, ctx.command, ...). \n"
 "                Defaults to ``None`` and returning the ``key`` website url\n"
 "            "
-msgstr ""
+msgstr "Objekte aus bestimmten Dokumentationen anzeigen.\n\n"
+"            RTFM ist der Internet-Slang für die Phrase \"Lies das verdammte Handbuch\".\n"
+"            Das gilt auch für diesen Befehl, mit dessen Hilfe Sie die URLs zu den Dokumentationen für verschiedene Dinge erhalten können\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Schlüssel: Optional[str]\n"
+"                das Modul (Python, Discord, ...).\n"
+"                Standardwert ist ``Python``.\n\n"
+"            Entität: Optional[str]\n"
+"                die Sache, über die Sie Informationen erhalten wollen (getattr, ctx.command, ...).\n"
+"                Der Standardwert ist ``None`` und gibt die ``key`` Website url zurück            "
 
 #: Extensions/Commands/Developing/rtfm/__init__.py:172
 msgid "View all modules"
-msgstr ""
+msgstr "Alle Module anzeigen"
 
 #: Extensions/Commands/Developing/rtfm/rtfm.py:94
 #: Extensions/Commands/Developing/rtfm/testing.py:94
@@ -796,12 +823,12 @@ msgstr "Konnte nichts finden."
 #: Extensions/Commands/Developing/rtfm/rtfm.py:138
 #: Extensions/Commands/Developing/rtfm/testing.py:138
 msgid "Choose a symbol..."
-msgstr ""
+msgstr "Symbol auswählen"
 
 #: Extensions/Commands/Developing/rtfm/rtfm.py:162
 #: Extensions/Commands/Developing/rtfm/testing.py:162
 msgid "No symbols to choose..."
-msgstr ""
+msgstr "Keine Symbole zum Auswählen..."
 
 #: Extensions/Commands/Developing/sync/__init__.py:43
 msgid "synchronize the bot with its commands\n\n"
@@ -835,13 +862,13 @@ msgstr "synchronisieren Sie den Bot mit seinen Befehlen\n\n"
 #: Extensions/Commands/Developing/sync/testing.py:53
 #, python-brace-format
 msgid "{amount} Command*s to the current guild synchronized."
-msgstr ""
+msgstr "{amount} Befehle zur aktuellen Gilde synchronisiert."
 
 #: Extensions/Commands/Developing/sync/sync.py:55
 #: Extensions/Commands/Developing/sync/testing.py:55
 #, python-brace-format
 msgid "{amount} Command*s globally synchronized."
-msgstr ""
+msgstr "{amount} Befehle global synchronisiert."
 
 #: Extensions/Commands/Gimmicks/count/__init__.py:33
 msgid "Count for yourself"
@@ -876,14 +903,19 @@ msgid "Remind others how bad @everyone actually is\n\n"
 "            -----------\n"
 "            member: commands.Greedy[Member]\n"
 "                the member to blame"
-msgstr ""
+msgstr "Erinnern Sie andere daran, wie schlecht @everyone tatsächlich ist\n\n"
+"            Mit diesem Befehl können Sie anderen Leuten mit einem Bild/Gif zeigen, wie unnötig ein @everyone-Ping ist oder ausdrücken, dass jemand wieder @everyone spammt.\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Mitglied: commands.Greedy[Member]\n"
+"                das zu beschuldigende Mitglied"
 
 #: Extensions/Commands/Gimmicks/everyone/everyone.py:22
 #: Extensions/Commands/Gimmicks/everyone/testing.py:22
 #, python-brace-format
 msgid "{members} stop spamming @everyone! \n"
 "It's not that important..."
-msgstr ""
+msgstr "{members} Hör auf @everyone zu spammen! Es ist nicht so wichtig..."
 
 #: Extensions/Commands/Gimmicks/gimmicks.py:12
 msgid "Commands for fun and distraction"
@@ -903,12 +935,20 @@ msgid "Get a random length depending on the user\n\n"
 "            -----------\n"
 "            member: Greedy[Member]\n"
 "                the member to reveal the lenght of"
-msgstr ""
+msgstr "Ermittelt eine zufällige Länge in Abhängigkeit vom Benutzer\n\n"
+"            Mit diesem Befehl können Sie mit Hilfe eines sehr cleveren und definitiv nicht zufälligen Generators herausfinden,\n"
+"            welche Länge zu einem Benutzer passen würde.\n"
+"            \n"
+"            _Bitte beachten__: Wenn du keinen Benutzer angibst, kann es sein, dass ich auch deine Länge verrate.\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Mitglied: Gierig[Member]\n"
+"                das Mitglied, dessen Länge angezeigt werden soll"
 
 #: Extensions/Commands/Gimmicks/lenght/lenght.py:21
 #: Extensions/Commands/Gimmicks/lenght/testing.py:21
 msgid "Length"
-msgstr ""
+msgstr "Länge"
 
 #: Extensions/Commands/Gimmicks/meme/__init__.py:37
 msgid "Get the latest funny memes of reddit\n\n"
@@ -917,20 +957,26 @@ msgid "Get the latest funny memes of reddit\n\n"
 "            subreddit: Optional[str]\n"
 "                an optional argument to pass a subreddit\n"
 "            "
-msgstr ""
+msgstr "Holen Sie sich die neuesten lustigen Memes von reddit\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            subreddit: Optionales[str]\n"
+"                ein optionales Argument um ein Subreddit\n"
+"            zu übergeben            "
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:30
 #: Extensions/Commands/Gimmicks/meme/testing.py:30
 #, python-brace-format
 msgid "„{title}“ by {author}"
-msgstr ""
+msgstr "„{title}“ von {author}"
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:36
 #: Extensions/Commands/Gimmicks/meme/testing.py:36
 #, python-brace-format
 msgid "Like this meme? Check out others at \n"
 "{subreddit}"
-msgstr ""
+msgstr "Gefällt dir dieser Meme? Schau dir andere unter \n"
+"{subreddit} an"
 
 #: Extensions/Commands/Gimmicks/rainbow/__init__.py:35
 msgid "Get your avatar a rainbow filter! ^^\n\n"
@@ -938,7 +984,11 @@ msgid "Get your avatar a rainbow filter! ^^\n\n"
 "            -----------\n"
 "            member: discord.Member\n"
 "                the member to add"
-msgstr ""
+msgstr "Erhalte deinen Avatar einen Regenbogenfilter! ^^\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Mitglied: discord.Member\n"
+"                Mitglied hinzufügen"
 
 #: Extensions/Commands/Gimmicks/random/__init__.py:34
 msgid "Picks a random online user\n\n"
@@ -946,7 +996,11 @@ msgid "Picks a random online user\n\n"
 "            -----------\n"
 "            offline: bool\n"
 "                if offline is ok"
-msgstr ""
+msgstr "Wählt einen zufälligen Online-Benutzer\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            offline: bool\n"
+"                wenn offline ok ist"
 
 #: Extensions/Commands/Gimmicks/roll/__init__.py:36
 msgid "Displays a random number in a specified range of values. (Default: 1-6)\n\n"
@@ -956,7 +1010,13 @@ msgid "Displays a random number in a specified range of values. (Default: 1-6)\n
 "                the start to roll at\n\n"
 "            end: Optional[int]\n"
 "                the endlimit to roll till"
-msgstr ""
+msgstr "Zeigt eine zufällige Zahl in einem genau angegebenen Wertebereich an. (Standard: 1-6)\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Start: Optional:[int]\n"
+"                der zu würfelnde Beginn unter\n\n"
+"            Limit: Optional:[int]\n"
+"                das zu würfelnde Limit bis"
 
 #: Extensions/Commands/Gimmicks/say/__init__.py:34
 msgid "I will say whatever you tell me to say, except...\n"
@@ -967,13 +1027,20 @@ msgid "I will say whatever you tell me to say, except...\n"
 "                True or False whether the bot should reply to you\n\n"
 "            text: str\n"
 "                What the bot should echo"
-msgstr ""
+msgstr "Ich werde sagen, was Sie mir sagen, ausgenommen ...\n"
+"            Sprich so, als ob du ich wärst. URLs/Einladungen sind nicht erlaubt!\n\n"
+"            Parameter\n"
+"            -----------\n"
+"            Antwort: Optionale[bool]\n"
+"                Richtig oder falsch, ob der Bot Ihnen antworten soll\n\n"
+"            Text: str\n"
+"                Was der Bot bestätigen soll"
 
 #: Extensions/Commands/Gimmicks/say/say.py:25
 #: Extensions/Commands/Gimmicks/say/testing.py:25
 #, python-brace-format
 msgid "Hey, {user}. Urls or invites aren't allowed!"
-msgstr ""
+msgstr "Hey, {user}. Urls oder Einladungen sind nicht erlaubt!"
 
 #: Extensions/Commands/Gimmicks/scenario/__init__.py:33
 msgid "What would you do in this scenario? Find out!\n\n"
