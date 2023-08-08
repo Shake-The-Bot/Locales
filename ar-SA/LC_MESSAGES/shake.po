@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-04 12:32\n"
+"PO-Revision-Date: 2023-08-08 00:08\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
@@ -2786,7 +2786,7 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:201
 msgid "unlimited"
-msgstr ""
+msgstr "غير محدود"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:215
 msgid "Select a Privacy Option"
