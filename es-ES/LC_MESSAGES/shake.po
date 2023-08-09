@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-09 22:44\n"
+"PO-Revision-Date: 2023-08-09 23:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -771,7 +771,7 @@ msgstr "Comienza tus propios codigos de xyz\n\n"
 "                __ref - referencia si se da\n"
 "                __last__ - variables del utlimo REPL\n"
 "                __ - resultados del ultimo REPL\n\n"
-"            Paramitres\n"
+"            Parametros\n"
 "            -----------------\n"
 "            codigo: str\n"
 "                el aporte codigo para ejecutar"
@@ -798,11 +798,22 @@ msgid "View objects from certain documentation.\n\n"
 "                the thing you want to get information about (getattr, ctx.command, ...). \n"
 "                Defaults to ``None`` and returning the ``key`` website url\n"
 "            "
-msgstr ""
+msgstr "Ver objetos de cierta documentación.\n\n"
+"            RTFM es un dicho del Internet para la frase \"leer el maldita manual\".\n"
+"            Esto también se aplica a este comando, con la ayuda de la cual puedes conseguir las URLs a la documentación de varias cosas\n\n"
+"            Parámetros\n"
+"            -----------\n"
+"            clave:[str]A opcional el módulo (Python,\n"
+"                Discord, . .). \n"
+"                Por defecto es ``Python``\n\n"
+"            entidad: Opcional[str]\n"
+"                de lo que quieres obtener información (getattr, ctx. ommand, ...). \n"
+"                Por defecto es ``nunca`` y devuelve la URL del sitio web ``clave``\n"
+"            "
 
 #: Extensions/Commands/Developing/rtfm/__init__.py:172
 msgid "View all modules"
-msgstr ""
+msgstr "Ver todos los módulos"
 
 #: Extensions/Commands/Developing/rtfm/rtfm.py:94
 #: Extensions/Commands/Developing/rtfm/testing.py:94
@@ -812,12 +823,12 @@ msgstr "No se pudo encontrar nada."
 #: Extensions/Commands/Developing/rtfm/rtfm.py:138
 #: Extensions/Commands/Developing/rtfm/testing.py:138
 msgid "Choose a symbol..."
-msgstr ""
+msgstr "Elija un símbolo..."
 
 #: Extensions/Commands/Developing/rtfm/rtfm.py:162
 #: Extensions/Commands/Developing/rtfm/testing.py:162
 msgid "No symbols to choose..."
-msgstr ""
+msgstr "No hay símbolos para elegir..."
 
 #: Extensions/Commands/Developing/sync/__init__.py:43
 msgid "synchronize the bot with its commands\n\n"
@@ -833,19 +844,31 @@ msgid "synchronize the bot with its commands\n\n"
 "                the spec\n\n"
 "            dump: Optional[bool]\n"
 "                if dump"
-msgstr ""
+msgstr "Sincroniza el bot con sus Comandos.\n\n"
+"            La sincronización se usa para recargar los cambios.\n"
+"            Sincroniza cuando...\n"
+"            - ... Comandos, argumentos, permisos han sido agregados, cambiados, o removidos\n"
+"            ... -Un comando de global/servidor se convierta en servidor/global\n\n"
+"            Paramitros\n"
+"            -----------------\n"
+"            guilds: Optional[strl]\n"
+"                the guilds\n\n"
+"            spec: Optional[Literal[\"~\", \"*\", \"^\"]]\n"
+"                the spec\n\n"
+"            dump: Optional[bool]\n"
+"                if dump"
 
 #: Extensions/Commands/Developing/sync/sync.py:53
 #: Extensions/Commands/Developing/sync/testing.py:53
 #, python-brace-format
 msgid "{amount} Command*s to the current guild synchronized."
-msgstr ""
+msgstr "{amount} Comando*s para el gremio actual sincronizado."
 
 #: Extensions/Commands/Developing/sync/sync.py:55
 #: Extensions/Commands/Developing/sync/testing.py:55
 #, python-brace-format
 msgid "{amount} Command*s globally synchronized."
-msgstr ""
+msgstr "Comando*s {amount} sincronizados globalmente."
 
 #: Extensions/Commands/Gimmicks/count/__init__.py:33
 msgid "Count for yourself"
@@ -880,14 +903,20 @@ msgid "Remind others how bad @everyone actually is\n\n"
 "            -----------\n"
 "            member: commands.Greedy[Member]\n"
 "                the member to blame"
-msgstr ""
+msgstr "Recuerda a otros lo mal @everyone es realmente\n\n"
+"            Con este comando puedes mostrar a otras personas una imagen/gif que enseña lo innecesario que es un ping @everyone o expresar que alguien está enviando spamming a @everyone otra vez.\n\n"
+"            Parámetros\n"
+"            -----------\n"
+"            member: comandos. reedy[Member]\n"
+"                el miembro a culpar"
 
 #: Extensions/Commands/Gimmicks/everyone/everyone.py:22
 #: Extensions/Commands/Gimmicks/everyone/testing.py:22
 #, python-brace-format
 msgid "{members} stop spamming @everyone! \n"
 "It's not that important..."
-msgstr ""
+msgstr "{members}¡Deja de enviar spamming a @everyone!\n"
+"No es tan importante..."
 
 #: Extensions/Commands/Gimmicks/gimmicks.py:12
 msgid "Commands for fun and distraction"
@@ -1178,12 +1207,12 @@ msgstr ""
 
 #: Extensions/Commands/Information/channelinfo/__init__.py:93
 msgid "Either this channel does not exist or I cant see it."
-msgstr ""
+msgstr "Este canal no existe o no puedo verlo."
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:73
 #: Extensions/Commands/Information/channelinfo/testing.py:73
 msgid "Parents Channel"
-msgstr ""
+msgstr "Canal de origen:"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:120
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:256
@@ -1200,7 +1229,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:960
 #: Extensions/Commands/Information/userinfo/userinfo.py:910
 msgid "General Overview"
-msgstr ""
+msgstr "Resumen general"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:126
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:291
@@ -1228,7 +1257,7 @@ msgstr "Creado"
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:145
 #: Extensions/Commands/Information/channelinfo/testing.py:145
 msgid "No region supporting channels"
-msgstr ""
+msgstr "Ninguna región compatible con canales"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:146
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:502
@@ -1239,7 +1268,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:670
 #: Extensions/Commands/Information/serverinfo/testing.py:670
 msgid "Region"
-msgstr ""
+msgstr "Región"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:149
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:325
@@ -1273,7 +1302,7 @@ msgstr "ID"
 #: Extensions/Commands/Information/userinfo/testing.py:1064
 #: Extensions/Commands/Information/userinfo/userinfo.py:1014
 msgid "More Information"
-msgstr ""
+msgstr "Más información"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:175
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:209
@@ -1282,7 +1311,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:313
 #: Extensions/Commands/Information/serverinfo/testing.py:313
 msgid "Channels"
-msgstr ""
+msgstr "Canales"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:191
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:226
@@ -1292,17 +1321,17 @@ msgstr ""
 #: Extensions/Commands/Information/channelinfo/testing.py:389
 #, python-brace-format
 msgid "Page {page}/{pages} (Total of {items} Channels)"
-msgstr ""
+msgstr "Página {page}/{pages} (Total de canales {items})"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:222
 #: Extensions/Commands/Information/channelinfo/testing.py:238
 msgid "Category channels"
-msgstr ""
+msgstr "Canales de categorías"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:247
 #: Extensions/Commands/Information/channelinfo/testing.py:263
 msgid "Channel overview"
-msgstr ""
+msgstr "Resumen del canal"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:266
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:484
@@ -1313,21 +1342,21 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:236
 #: Extensions/Commands/Information/userinfo/userinfo.py:186
 msgid "Mention"
-msgstr ""
+msgstr "Mencionar"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:269
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:487
 #: Extensions/Commands/Information/channelinfo/testing.py:285
 #: Extensions/Commands/Information/channelinfo/testing.py:515
 msgid "Position"
-msgstr ""
+msgstr "Posición"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:284
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:409
 #: Extensions/Commands/Information/channelinfo/testing.py:300
 #: Extensions/Commands/Information/channelinfo/testing.py:430
 msgid "NSFW"
-msgstr ""
+msgstr "El contenido es NSFW, no seguro para ver en el trabajo, 'not safe for work'"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:302
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:516
@@ -1336,7 +1365,7 @@ msgstr ""
 #: Extensions/Commands/Information/channelinfo/testing.py:544
 #: Extensions/Commands/Information/channelinfo/testing.py:640
 msgid "Channel's server"
-msgstr ""
+msgstr "Servidor del canal"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:314
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:528
@@ -1345,55 +1374,55 @@ msgstr ""
 #: Extensions/Commands/Information/channelinfo/testing.py:556
 #: Extensions/Commands/Information/channelinfo/testing.py:648
 msgid "Channel's category"
-msgstr ""
+msgstr "Categoría del canal"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:351
 #: Extensions/Commands/Information/channelinfo/testing.py:372
 msgid "Threads"
-msgstr ""
+msgstr "Discusiones"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:384
 #: Extensions/Commands/Information/channelinfo/testing.py:405
 msgid "Thread overview"
-msgstr ""
+msgstr "Resumen del tema"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:405
 #: Extensions/Commands/Information/channelinfo/testing.py:426
 msgid "Thread's mention"
-msgstr ""
+msgstr "Mención del tema"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:427
 #: Extensions/Commands/Information/channelinfo/testing.py:448
 msgid "Thread's server"
-msgstr ""
+msgstr "Servidor del tema"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:439
 #: Extensions/Commands/Information/channelinfo/testing.py:460
 msgid "Thread's category"
-msgstr ""
+msgstr "Categoría del tema"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:542
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:587
 #: Extensions/Commands/Information/channelinfo/testing.py:570
 #: Extensions/Commands/Information/channelinfo/testing.py:620
 msgid "Bitrate"
-msgstr ""
+msgstr "Bitraje"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:543
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:592
 #: Extensions/Commands/Information/channelinfo/testing.py:571
 #: Extensions/Commands/Information/channelinfo/testing.py:625
 msgid "User limit"
-msgstr ""
+msgstr "Límite de usuarios"
 
 #: Extensions/Commands/Information/channelinfo/channelinfo.py:620
 #: Extensions/Commands/Information/channelinfo/testing.py:655
 msgid "Channel's position"
-msgstr ""
+msgstr "Posición del canal"
 
 #: Extensions/Commands/Information/channelinfo/testing.py:149
 msgid "Category's server"
-msgstr ""
+msgstr "Servidor de la categoría"
 
 #: Extensions/Commands/Information/charinfo/__init__.py:34
 #: Extensions/Commands/Information/games/__init__.py:34
@@ -1456,16 +1485,16 @@ msgstr "Añadir Shake a tu servidor"
 #: Extensions/Commands/Information/invite/invite.py:42
 #: Extensions/Commands/Information/invite/testing.py:42
 msgid "Join Shake's Server"
-msgstr ""
+msgstr "Unirse al servidor de Shake"
 
 #: Extensions/Commands/Information/list/__init__.py:35
 msgid "list all guilds"
-msgstr ""
+msgstr "listar todos los gremios"
 
 #: Extensions/Commands/Information/list/list.py:20
 #: Extensions/Commands/Information/list/testing.py:20
 msgid "Current Guilds"
-msgstr ""
+msgstr "Gremios actuales"
 
 #: Extensions/Commands/Information/list/list.py:22
 #: Extensions/Commands/Information/list/testing.py:22
@@ -1481,22 +1510,22 @@ msgstr ""
 
 #: Extensions/Commands/Information/ping/__init__.py:33
 msgid "Get some ping"
-msgstr ""
+msgstr "Obtener un ping"
 
 #: Extensions/Commands/Information/ping/ping.py:16
 #: Extensions/Commands/Information/ping/testing.py:16
 msgid "Waiting for the \"Pong! 🏓\""
-msgstr ""
+msgstr "Esperando a \"Pong! 🏓\""
 
 #: Extensions/Commands/Information/ping/ping.py:45
 #: Extensions/Commands/Information/ping/testing.py:45
 msgid "Pong! 🏓"
-msgstr ""
+msgstr "Pong! 🏓"
 
 #: Extensions/Commands/Information/ping/ping.py:48
 #: Extensions/Commands/Information/ping/testing.py:48
 msgid "Discord Gateway"
-msgstr ""
+msgstr "Portal de Discord"
 
 #: Extensions/Commands/Information/ping/ping.py:52
 #: Extensions/Commands/Information/ping/testing.py:52
@@ -1506,22 +1535,22 @@ msgstr ""
 #: Extensions/Commands/Information/ping/ping.py:56
 #: Extensions/Commands/Information/ping/testing.py:56
 msgid "Discord Messaging"
-msgstr ""
+msgstr "Mensajes de Discord"
 
 #: Extensions/Commands/Information/ping/ping.py:60
 #: Extensions/Commands/Information/ping/testing.py:60
 msgid "Postgres Database"
-msgstr ""
+msgstr "Base de datos de Postgres"
 
 #: Extensions/Commands/Information/ping/ping.py:64
 #: Extensions/Commands/Information/ping/testing.py:64
 msgid "Average Latency"
-msgstr ""
+msgstr "Latencia Promedio"
 
 #: Extensions/Commands/Information/ping/ping.py:79
 #: Extensions/Commands/Information/ping/testing.py:79
 msgid "Discord Status"
-msgstr ""
+msgstr "Estados de Discord"
 
 #: Extensions/Commands/Information/plus/__init__.py:41
 msgid "Get information about Shake+.\n\n"
@@ -1531,7 +1560,7 @@ msgstr ""
 #: Extensions/Commands/Information/plus/plus.py:14
 #: Extensions/Commands/Information/plus/testing.py:14
 msgid "> Shake Plus (Shake+)"
-msgstr ""
+msgstr "> Shake Plus (Shake+)"
 
 #: Extensions/Commands/Information/plus/plus.py:16
 #: Extensions/Commands/Information/plus/testing.py:16
@@ -1578,12 +1607,12 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:69
 #: Extensions/Commands/Information/serverinfo/testing.py:69
 msgid "Servers's icon"
-msgstr ""
+msgstr "Icono del servidor"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:70
 #: Extensions/Commands/Information/serverinfo/testing.py:70
 msgid "Servers's splash"
-msgstr ""
+msgstr "Presentación de servidores"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:71
 #: Extensions/Commands/Information/serverinfo/testing.py:71
@@ -1593,7 +1622,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:72
 #: Extensions/Commands/Information/serverinfo/testing.py:72
 msgid "Servers's banner"
-msgstr ""
+msgstr "Banner de los servidores"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:117
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:675
@@ -1609,21 +1638,21 @@ msgstr "Roles"
 #: Extensions/Commands/Information/userinfo/testing.py:226
 #: Extensions/Commands/Information/userinfo/userinfo.py:176
 msgid "Server Roles"
-msgstr ""
+msgstr "Roles del servidor"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:136
 #: Extensions/Commands/Information/serverinfo/testing.py:136
 #: Extensions/Commands/Information/userinfo/testing.py:237
 #: Extensions/Commands/Information/userinfo/userinfo.py:187
 msgid "Colour"
-msgstr ""
+msgstr "Color"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:138
 #: Extensions/Commands/Information/serverinfo/testing.py:138
 #: Extensions/Commands/Information/userinfo/testing.py:239
 #: Extensions/Commands/Information/userinfo/userinfo.py:189
 msgid "Default"
-msgstr ""
+msgstr "Predeterminado"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:147
 #: Extensions/Commands/Information/serverinfo/testing.py:147
@@ -1631,14 +1660,14 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:198
 #, python-brace-format
 msgid "Page {page}/{pages} (Total of {items} Roles)"
-msgstr ""
+msgstr "Página {page}/{pages} (Total de {items} Roles)"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:172
 #: Extensions/Commands/Information/serverinfo/testing.py:172
 #: Extensions/Commands/Information/userinfo/testing.py:282
 #: Extensions/Commands/Information/userinfo/userinfo.py:232
 msgid "Avatar/Banner"
-msgstr ""
+msgstr "Avatar/Banner"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:195
 #: Extensions/Commands/Information/serverinfo/testing.py:195
@@ -1646,7 +1675,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:255
 #, python-brace-format
 msgid "Open link: {links}"
-msgstr ""
+msgstr "Abrir link: {links}"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:201
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:578
@@ -1660,56 +1689,56 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:898
 #, python-brace-format
 msgid "Page {page} of {pages}"
-msgstr ""
+msgstr "Pagina {page} de {pages}"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:220
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:676
 #: Extensions/Commands/Information/serverinfo/testing.py:220
 #: Extensions/Commands/Information/serverinfo/testing.py:676
 msgid "Emojis"
-msgstr ""
+msgstr "Emojis"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:228
 #: Extensions/Commands/Information/serverinfo/testing.py:228
 msgid "Server Emojis"
-msgstr ""
+msgstr "Emojis del servidor"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:235
 #: Extensions/Commands/Information/serverinfo/testing.py:235
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:235
 #: Extensions/Commands/Information/serverinfo/testing.py:235
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:236
 #: Extensions/Commands/Information/serverinfo/testing.py:236
 msgid "Added"
-msgstr ""
+msgstr "Añadido"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:249
 #: Extensions/Commands/Information/serverinfo/testing.py:249
 #, python-brace-format
 msgid "Page {page} of {pages} (Total of {items} Emojis)"
-msgstr ""
+msgstr "Página {page}/{pages} (Total de canales {items})"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:266
 #: Extensions/Commands/Information/serverinfo/testing.py:266
 msgid "Nitro Booster"
-msgstr ""
+msgstr "Nitro Booster"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:283
 #: Extensions/Commands/Information/serverinfo/testing.py:283
 msgid "Server Nitro Booster"
-msgstr ""
+msgstr "Servidor Nitro Booster"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:286
 #: Extensions/Commands/Information/serverinfo/testing.py:286
 #, python-brace-format
 msgid "Page {page} of {pages} (Total of {items} Booster)"
-msgstr ""
+msgstr "Página {page} de {pages} (Total de {items} Booster)"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:333
 #: Extensions/Commands/Information/serverinfo/testing.py:333
@@ -1720,105 +1749,105 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:342
 #: Extensions/Commands/Information/serverinfo/testing.py:342
 msgid "Server Channels"
-msgstr ""
+msgstr "Canales del servidor"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:360
 #: Extensions/Commands/Information/serverinfo/testing.py:360
 msgid "NO CAT"
-msgstr ""
+msgstr "SIN CAT"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:366
 #: Extensions/Commands/Information/serverinfo/testing.py:366
 #, python-brace-format
 msgid "Page {page} of {pages} (Total of {items} Channels)"
-msgstr ""
+msgstr "Página {page}/{pages} (Total de canales {items})"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:382
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:637
 #: Extensions/Commands/Information/serverinfo/testing.py:382
 #: Extensions/Commands/Information/serverinfo/testing.py:637
 msgid "Members"
-msgstr ""
+msgstr "Miembros"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:391
 #: Extensions/Commands/Information/serverinfo/testing.py:391
 msgid "Server Members"
-msgstr ""
+msgstr "Miembros del servidor"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:397
 #: Extensions/Commands/Information/serverinfo/testing.py:397
 msgid "Total Members"
-msgstr ""
+msgstr "Total de Miembros"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:400
 #: Extensions/Commands/Information/serverinfo/testing.py:400
 msgid "Total Humans"
-msgstr ""
+msgstr "Total de humanos"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:405
 #: Extensions/Commands/Information/serverinfo/testing.py:405
 msgid "Total Bots"
-msgstr ""
+msgstr "Total de bots"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:410
 #: Extensions/Commands/Information/serverinfo/testing.py:410
 msgid "Total Online"
-msgstr ""
+msgstr "Total en línea"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:415
 #: Extensions/Commands/Information/serverinfo/testing.py:415
 msgid "Humans Online"
-msgstr ""
+msgstr "Humanos en línea"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:420
 #: Extensions/Commands/Information/serverinfo/testing.py:420
 msgid "Bots Online"
-msgstr ""
+msgstr "Bots en línea"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:425
 #: Extensions/Commands/Information/serverinfo/testing.py:425
 msgid "Total Idle"
-msgstr ""
+msgstr "Total inactivo"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:430
 #: Extensions/Commands/Information/serverinfo/testing.py:430
 msgid "Humans Idle"
-msgstr ""
+msgstr "Humanos inactivos"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:435
 #: Extensions/Commands/Information/serverinfo/testing.py:435
 msgid "Bots Idle"
-msgstr ""
+msgstr "Botes inactivos"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:440
 #: Extensions/Commands/Information/serverinfo/testing.py:440
 msgid "Total DND"
-msgstr ""
+msgstr "Total DND"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:445
 #: Extensions/Commands/Information/serverinfo/testing.py:445
 msgid "Humans DND"
-msgstr ""
+msgstr "DND de humanos"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:450
 #: Extensions/Commands/Information/serverinfo/testing.py:450
 msgid "Bots DND"
-msgstr ""
+msgstr "Bots DND"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:455
 #: Extensions/Commands/Information/serverinfo/testing.py:455
 msgid "Total Offline"
-msgstr ""
+msgstr "Total desconectado"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:460
 #: Extensions/Commands/Information/serverinfo/testing.py:460
 msgid "Humans Offline"
-msgstr ""
+msgstr "Humanos desconectados"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:465
 #: Extensions/Commands/Information/serverinfo/testing.py:465
 msgid "Bots Offline"
-msgstr ""
+msgstr "Botes desconectados"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:496
 #: Extensions/Commands/Information/serverinfo/testing.py:496
@@ -1827,7 +1856,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:404
 #: Extensions/Commands/Information/userinfo/userinfo.py:1010
 msgid "Badges"
-msgstr ""
+msgstr "Medallas"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:502
 #: Extensions/Commands/Information/serverinfo/testing.py:502
@@ -1839,12 +1868,12 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:911
 #: Extensions/Commands/Information/userinfo/userinfo.py:861
 msgid "Activities"
-msgstr ""
+msgstr "Actividades"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:556
 #: Extensions/Commands/Information/serverinfo/testing.py:556
 msgid "Server Activities"
-msgstr ""
+msgstr "Actividades del servidor"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:570
 #: Extensions/Commands/Information/serverinfo/testing.py:570
@@ -1855,7 +1884,7 @@ msgstr ""
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:646
 #: Extensions/Commands/Information/serverinfo/testing.py:646
 msgid "Servers's position"
-msgstr ""
+msgstr "Posición de los servidores"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:674
 #: Extensions/Commands/Information/serverinfo/testing.py:674
@@ -1865,12 +1894,12 @@ msgstr "Propietario"
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:677
 #: Extensions/Commands/Information/serverinfo/testing.py:677
 msgid "Stickers"
-msgstr ""
+msgstr "Stickers"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:679
 #: Extensions/Commands/Information/serverinfo/testing.py:679
 msgid "Boost"
-msgstr ""
+msgstr "Boost"
 
 #: Extensions/Commands/Information/stats/__init__.py:61
 msgid "Get some basic information and statistics about me.\n"
@@ -1892,89 +1921,89 @@ msgstr "Bot"
 #: Extensions/Commands/Information/stats/stats.py:80
 #: Extensions/Commands/Information/stats/testing.py:80
 msgid "Bot Info"
-msgstr ""
+msgstr "Info del bot:"
 
 #: Extensions/Commands/Information/stats/stats.py:83
 #: Extensions/Commands/Information/stats/testing.py:83
 msgid "Started"
-msgstr ""
+msgstr "Inició"
 
 #: Extensions/Commands/Information/stats/stats.py:85
 #: Extensions/Commands/Information/stats/testing.py:85
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 #: Extensions/Commands/Information/stats/stats.py:91
 #: Extensions/Commands/Information/stats/testing.py:91
 msgid "Lines of Code"
-msgstr ""
+msgstr "Líneas de código"
 
 #: Extensions/Commands/Information/stats/stats.py:96
 #: Extensions/Commands/Information/stats/testing.py:96
 msgid "Servers"
-msgstr ""
+msgstr "Servidores"
 
 #: Extensions/Commands/Information/stats/stats.py:103
 #: Extensions/Commands/Information/stats/testing.py:103
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #: Extensions/Commands/Information/stats/stats.py:110
 #: Extensions/Commands/Information/stats/stats.py:205
 #: Extensions/Commands/Information/stats/testing.py:110
 #: Extensions/Commands/Information/stats/testing.py:205
 msgid "Commands"
-msgstr ""
+msgstr "Comandos"
 
 #: Extensions/Commands/Information/stats/stats.py:127
 #: Extensions/Commands/Information/stats/testing.py:127
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #: Extensions/Commands/Information/stats/stats.py:136
 #: Extensions/Commands/Information/stats/testing.py:136
 msgid "System Info"
-msgstr ""
+msgstr "Información del sistema"
 
 #: Extensions/Commands/Information/stats/stats.py:146
 #: Extensions/Commands/Information/stats/testing.py:146
 msgid "Python version"
-msgstr ""
+msgstr "Versión de Python"
 
 #: Extensions/Commands/Information/stats/stats.py:153
 #: Extensions/Commands/Information/stats/testing.py:153
 msgid "Library version"
-msgstr ""
+msgstr "Versión de librería"
 
 #: Extensions/Commands/Information/stats/stats.py:175
 #: Extensions/Commands/Information/stats/testing.py:175
 msgid "Memory Usage"
-msgstr ""
+msgstr "Uso de Memoria"
 
 #: Extensions/Commands/Information/stats/stats.py:180
 #: Extensions/Commands/Information/stats/testing.py:180
 msgid "CPU Usage"
-msgstr ""
+msgstr "Uso de CPU"
 
 #: Extensions/Commands/Information/stats/stats.py:185
 #: Extensions/Commands/Information/stats/testing.py:185
 msgid "Plattform"
-msgstr ""
+msgstr "Plataforma"
 
 #: Extensions/Commands/Information/stats/stats.py:220
 #: Extensions/Commands/Information/stats/testing.py:220
 msgid "Most used commands"
-msgstr ""
+msgstr "Comandos más usados"
 
 #: Extensions/Commands/Information/stats/stats.py:256
 #: Extensions/Commands/Information/stats/testing.py:256
 msgid "Shake Statistics Overview"
-msgstr ""
+msgstr "Resumen de estadísticas de Shake"
 
 #: Extensions/Commands/Information/stats/stats.py:259
 #: Extensions/Commands/Information/stats/testing.py:259
 msgid "Support Server Link"
-msgstr ""
+msgstr "URL del Servidor de Soporte"
 
 #: Extensions/Commands/Information/stats/stats.py:261
 #: Extensions/Commands/Information/stats/testing.py:261
@@ -1984,22 +2013,22 @@ msgstr ""
 #: Extensions/Commands/Information/stats/stats.py:269
 #: Extensions/Commands/Information/stats/testing.py:269
 msgid "Developer"
-msgstr ""
+msgstr "Desarrollador"
 
 #: Extensions/Commands/Information/stats/stats.py:277
 #: Extensions/Commands/Information/stats/testing.py:277
 msgid "Bot name"
-msgstr ""
+msgstr "Nombre de bot"
 
 #: Extensions/Commands/Information/stats/stats.py:281
 #: Extensions/Commands/Information/stats/testing.py:281
 msgid "Bot ID"
-msgstr ""
+msgstr "ID del bot"
 
 #: Extensions/Commands/Information/stats/stats.py:289
 #: Extensions/Commands/Information/stats/testing.py:289
 msgid "Bot creation"
-msgstr ""
+msgstr "Creación de bot"
 
 #: Extensions/Commands/Information/userinfo/__init__.py:56
 msgid "Get information about you or a specified user.\n"
@@ -2021,17 +2050,17 @@ msgstr "Total"
 #: Extensions/Commands/Information/userinfo/testing.py:74
 #, python-brace-format
 msgid "Total uses: {total_uses}"
-msgstr ""
+msgstr "Uso total: {total_uses}"
 
 #: Extensions/Commands/Information/userinfo/testing.py:78
 #, python-brace-format
 msgid "Top {top} member:"
-msgstr ""
+msgstr "Top {top} miembro:"
 
 #: Extensions/Commands/Information/userinfo/testing.py:270
 #: Extensions/Commands/Information/userinfo/userinfo.py:220
 msgid "User's Avatar"
-msgstr ""
+msgstr "Avatar de usuario"
 
 #: Extensions/Commands/Information/userinfo/testing.py:272
 #: Extensions/Commands/Information/userinfo/userinfo.py:222
@@ -2051,13 +2080,13 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:337
 #: Extensions/Commands/Information/userinfo/userinfo.py:287
 msgid "Mutual Servers"
-msgstr ""
+msgstr "Servidores mutuos"
 
 #: Extensions/Commands/Information/userinfo/testing.py:348
 #: Extensions/Commands/Information/userinfo/userinfo.py:298
 #, python-brace-format
 msgid "Guild {page} of {pages}"
-msgstr ""
+msgstr "Gremio {page} de {pages}"
 
 #: Extensions/Commands/Information/userinfo/testing.py:373
 #: Extensions/Commands/Information/userinfo/testing.py:381
@@ -2074,13 +2103,13 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/testing.py:401
 #: Extensions/Commands/Information/userinfo/userinfo.py:351
 msgid "Joined on"
-msgstr ""
+msgstr "Se unió el"
 
 #: Extensions/Commands/Information/userinfo/testing.py:440
 #: Extensions/Commands/Information/userinfo/userinfo.py:390
 #, python-brace-format
 msgid "Total of {items} Members"
-msgstr ""
+msgstr "Total de miembros {items}"
 
 #: Extensions/Commands/Information/userinfo/testing.py:463
 #: Extensions/Commands/Information/userinfo/userinfo.py:413
@@ -2112,7 +2141,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:627
 #: Extensions/Commands/Information/userinfo/userinfo.py:740
 msgid "Total passed"
-msgstr ""
+msgstr "Total pasado"
 
 #: Extensions/Commands/Information/userinfo/testing.py:571
 #: Extensions/Commands/Information/userinfo/testing.py:689
@@ -2121,7 +2150,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:639
 #: Extensions/Commands/Information/userinfo/userinfo.py:752
 msgid "Total failed"
-msgstr ""
+msgstr "Total fallado"
 
 #: Extensions/Commands/Information/userinfo/testing.py:583
 #: Extensions/Commands/Information/userinfo/testing.py:701
@@ -2130,7 +2159,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:651
 #: Extensions/Commands/Information/userinfo/userinfo.py:764
 msgid "Total rate"
-msgstr ""
+msgstr "Tasa total"
 
 #: Extensions/Commands/Information/userinfo/testing.py:592
 #: Extensions/Commands/Information/userinfo/testing.py:708
