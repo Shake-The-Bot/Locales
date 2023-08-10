@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-04 12:32\n"
+"PO-Revision-Date: 2023-08-10 09:29\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +46,11 @@ msgstr "Voltooid"
 
 #: Classes/accessoires/select.py:56
 msgid "Choose a category..."
-msgstr ""
+msgstr "Kies een categorie..."
 
 #: Classes/accessoires/select.py:83
 msgid "No categories to choose..."
-msgstr ""
+msgstr "Geen categorieën te kiezen..."
 
 #: Classes/accessoires/select.py:101
 msgid "Back"
@@ -87,22 +87,22 @@ msgstr "Aangevraagd door {user} • via Shake"
 #: Classes/tomls/configuration.py:279
 #, python-brace-format
 msgid "[Invite]({authentication})"
-msgstr ""
+msgstr "[Invite]({authentication})"
 
 #: Classes/tomls/configuration.py:282
 #, python-brace-format
 msgid "[Support]({server})"
-msgstr ""
+msgstr "[Support]({server})"
 
 #: Classes/tomls/configuration.py:283
 #, python-brace-format
 msgid "[Vote]({vote})"
-msgstr ""
+msgstr "[Vote]({vote})"
 
 #: Classes/tomls/configuration.py:284
 #, python-brace-format
 msgid "[Shake+]({donate})"
-msgstr ""
+msgstr "[Shake+]({donate})"
 
 #: Classes/useful.py:158
 msgid "or"
@@ -131,7 +131,8 @@ msgstr "[{name} (upload wat bestanden)]…"
 msgid "Throw nice, funny and sometimes annoying comments to the user above you!\n"
 "            \n"
 "            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
-msgstr ""
+msgstr "Vertel wat aardige, grappige en soms irritante commentaar tegen the gebruiker boven jou!\n"
+"Het bovenmij spel geeft jou veel leuke en entertaining momenten samen!"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:52
 #, python-brace-format
