@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-04 12:32\n"
+"PO-Revision-Date: 2023-08-16 11:08\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -81,8 +81,8 @@ msgstr "정규 표현식 오류: {e_msg}"
 
 #: Classes/helpful.py:655
 #, python-brace-format
-msgid "Requested by {user} • via Shake"
-msgstr "{user} 에 의해 요청됨 • 셰이크를 통해"
+msgid "Requested by {user} вЂў via Shake"
+msgstr ""
 
 #: Classes/tomls/configuration.py:279
 #, python-brace-format
@@ -124,8 +124,8 @@ msgstr "<{name} (파일을 업로드)>"
 
 #: Classes/useful.py:806
 #, python-brace-format
-msgid "[{name} (upload files)]…"
-msgstr "[{name} (파일을 업로드)]…"
+msgid "[{name} (upload files)]вЂ¦"
+msgstr ""
 
 #: Extensions/Commands/Community/aboveme/__init__.py:35
 msgid "Throw nice, funny and sometimes annoying comments to the user above you!\n"
@@ -433,8 +433,8 @@ msgstr "카운팅 봇 반응"
 
 #: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
-msgid "Welcome to „Counting“"
-msgstr "\"카운팅\" 에 오신 걸 환영합니다"
+msgid "Welcome to вЂћCountingвЂњ"
+msgstr ""
 
 #: Extensions/Commands/Community/counting/counting.py:543
 #: Extensions/Commands/Community/counting/testing.py:543
@@ -566,7 +566,7 @@ msgstr ""
 
 #: Extensions/Commands/Community/oneword/oneword.py:317
 #: Extensions/Commands/Community/oneword/testing.py:317
-msgid "Welcome to „OneWord“"
+msgid "Welcome to вЂћOneWordвЂњ"
 msgstr ""
 
 #: Extensions/Commands/Community/oneword/oneword.py:320
@@ -591,7 +591,7 @@ msgstr ""
 
 #: Extensions/Commands/Community/oneword/oneword.py:341
 #: Extensions/Commands/Community/oneword/testing.py:341
-msgid "The sentance is done with punctuation marks (eg. „!“)."
+msgid "The sentance is done with punctuation marks (eg. вЂћ!вЂњ)."
 msgstr ""
 
 #: Extensions/Commands/Community/oneword/oneword.py:343
@@ -642,7 +642,7 @@ msgstr ""
 
 #: Extensions/Commands/Developing/developing.py:14
 msgid "Dev commands to configure/set a lot of things of the bot.\n"
-"            Sometimes you have to list them as Dev 🤷."
+"            Sometimes you have to list them as Dev рџ¤·."
 msgstr ""
 
 #: Extensions/Commands/Developing/developing.py:28
@@ -886,7 +886,7 @@ msgstr ""
 #: Extensions/Commands/Gimmicks/meme/meme.py:30
 #: Extensions/Commands/Gimmicks/meme/testing.py:30
 #, python-brace-format
-msgid "„{title}“ by {author}"
+msgid "вЂћ{title}вЂњ by {author}"
 msgstr ""
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:36
@@ -1389,7 +1389,7 @@ msgstr ""
 
 #: Extensions/Commands/Information/information.py:14
 msgid "Informative commands about a wide variety of things.\n"
-"            Sometimes you find out new things 🤷"
+"            Sometimes you find out new things рџ¤·"
 msgstr ""
 
 #: Extensions/Commands/Information/information.py:28
@@ -1445,12 +1445,12 @@ msgstr ""
 
 #: Extensions/Commands/Information/ping/ping.py:16
 #: Extensions/Commands/Information/ping/testing.py:16
-msgid "Waiting for the \"Pong! 🏓\""
+msgid "Waiting for the \"Pong! рџЏ“\""
 msgstr ""
 
 #: Extensions/Commands/Information/ping/ping.py:45
 #: Extensions/Commands/Information/ping/testing.py:45
-msgid "Pong! 🏓"
+msgid "Pong! рџЏ“"
 msgstr ""
 
 #: Extensions/Commands/Information/ping/ping.py:48
@@ -2591,7 +2591,7 @@ msgstr ""
 #: Extensions/Functions/Messages/message/aboveme/aboveme.py:210
 #: Extensions/Functions/Messages/message/aboveme/testing.py:210
 #, python-brace-format
-msgid "Your message should start with „{trigger}“ and should make sense."
+msgid "Your message should start with вЂћ{trigger}вЂњ and should make sense."
 msgstr ""
 
 #: Extensions/Functions/Messages/message/aboveme/aboveme.py:217
@@ -2623,7 +2623,7 @@ msgstr ""
 #: Extensions/Functions/Messages/message/counting/counting.py:232
 #: Extensions/Functions/Messages/message/counting/testing.py:232
 #, python-brace-format
-msgid "You've topped your best streak with {streak} numbers 🔥"
+msgid "You've topped your best streak with {streak} numbers рџ”Ґ"
 msgstr ""
 
 #: Extensions/Functions/Messages/message/counting/counting.py:240
@@ -2659,7 +2659,7 @@ msgstr ""
 #: Extensions/Functions/Messages/message/delete/delete.py:149
 #: Extensions/Functions/Messages/message/delete/testing.py:149
 #, python-brace-format
-msgid "The phrase from {user} got deleted. The phrase was „{phrase}“!"
+msgid "The phrase from {user} got deleted. The phrase was вЂћ{phrase}вЂњ!"
 msgstr ""
 
 #: Extensions/Functions/Messages/message/delete/delete.py:167
@@ -2677,7 +2677,7 @@ msgstr ""
 #: Extensions/Functions/Messages/message/edit/edit.py:148
 #: Extensions/Functions/Messages/message/edit/testing.py:148
 #, python-brace-format
-msgid "{user} edited their phrase. The phrase was „{phrase}“!"
+msgid "{user} edited their phrase. The phrase was вЂћ{phrase}вЂњ!"
 msgstr ""
 
 #: Extensions/Functions/Messages/message/edit/edit.py:171
@@ -2765,7 +2765,7 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:146
 #, python-brace-format
-msgid "{emoji} **Updated!** Your channel’s name is now `{name}`!"
+msgid "{emoji} **Updated!** Your channelвЂ™s name is now `{name}`!"
 msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:159
@@ -2783,7 +2783,7 @@ msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:196
 #, python-brace-format
-msgid "{emoji} **Updated!** Your channel’s limit is now ` {limit} `!"
+msgid "{emoji} **Updated!** Your channelвЂ™s limit is now ` {limit} `!"
 msgstr ""
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:201
@@ -2998,11 +2998,11 @@ msgid "tempvoice category"
 msgstr ""
 
 #: Testing/tempvoice/tempvoice.py:59 Testing/tempvoice/testing.py:59
-msgid "︱Creator Channel"
+msgid "пё±Creator Channel"
 msgstr ""
 
 #: Testing/tempvoice/tempvoice.py:75 Testing/tempvoice/testing.py:75
-msgid "︱interface"
+msgid "пё±interface"
 msgstr ""
 
 #: Testing/tempvoice/tempvoice.py:102 Testing/tempvoice/testing.py:102
@@ -3116,14 +3116,14 @@ msgstr ""
 
 #~ msgid ""
 #~ "\n"
-#~ "            Zufällige Zahl würfeln\n"
-#~ "            Mit diesem Befehl wird eine zufällige Zahl in einem "
+#~ "            ZufГ¤llige Zahl wГјrfeln\n"
+#~ "            Mit diesem Befehl wird eine zufГ¤llige Zahl in einem "
 #~ "bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
 #~ "        "
 #~ msgstr ""
 #~ "\n"
-#~ "            Zufällige Zahl würfeln\n"
-#~ "            Mit diesem Befehl wird eine zufällige Zahl in einem "
+#~ "            ZufГ¤llige Zahl wГјrfeln\n"
+#~ "            Mit diesem Befehl wird eine zufГ¤llige Zahl in einem "
 #~ "bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
 #~ "        "
 
