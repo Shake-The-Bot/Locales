@@ -1,0 +1,3135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shake\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-08-16 13:59\n"
+"Last-Translator: \n"
+"Language-Team: Tagalog\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: shake\n"
+"X-Crowdin-Project-ID: 555309\n"
+"X-Crowdin-Language: tl\n"
+"X-Crowdin-File: /crowdin/messages.pot\n"
+"X-Crowdin-File-ID: 389\n"
+"Language: tl_PH\n"
+
+#: Classes/accessoires/menu.py:213
+#: Extensions/Commands/Community/schedule/testing.py:218
+msgid "Before continuing you must click on the Setup button."
+msgstr "Bago mag simula. Pindutin muna ang Setup button."
+
+#: Classes/accessoires/menu.py:254
+msgid "The ShakeMenu was canceled due inactivity"
+msgstr "Ang ShakeMenu ay tumigil dahil sa kawalan ng aktibidad"
+
+#: Classes/accessoires/menu.py:258
+msgid "Start"
+msgstr "Simula"
+
+#: Classes/accessoires/menu.py:274
+msgid "Cancel"
+msgstr "Kanselahin"
+
+#: Classes/accessoires/menu.py:284
+msgid "The ShakeMenu was canceled"
+msgstr "Ang ShakeMenu ay nakansela"
+
+#: Classes/accessoires/page.py:110 Classes/accessoires/page.py:232
+msgid "Done"
+msgstr "Tapos"
+
+#: Classes/accessoires/select.py:56
+msgid "Choose a category..."
+msgstr "Pumili ng kategorya"
+
+#: Classes/accessoires/select.py:83
+msgid "No categories to choose..."
+msgstr "Walang kategorya na mapili..."
+
+#: Classes/accessoires/select.py:101
+msgid "Back"
+msgstr "Balik"
+
+#: Classes/accessoires/select.py:151 Extensions/Commands/Help/help.py:342
+#: Extensions/Commands/Help/testing.py:342
+msgid "This category either does not exist or has no items for you."
+msgstr "Ang kategoryang ito ay maaaring wala o walang mga item para sa iyo."
+
+#: Classes/accessoires/source.py:247
+msgid "Please confirm your selection to exit the menu."
+msgstr "Mangyaring kumpirmahin ang iyong pagpili upang lumabas sa menu."
+
+#: Classes/converter.py:168
+#, python-brace-format
+msgid "`{duration}` is not a valid duration string."
+msgstr "`{duration}` ay hindi isang wastong string ng tagal."
+
+#: Classes/converter.py:198
+msgid "Regex pattern missing wrapping backticks"
+msgstr "Ang pattern ng Regex ay nawawalan nang wrapping backticks."
+
+#: Classes/converter.py:202
+#, python-brace-format
+msgid "Regex error: {e_msg}"
+msgstr "May nagkamali sa Regex: {e_msg}"
+
+#: Classes/helpful.py:655
+#, python-brace-format
+msgid "Requested by {user} вЂў via Shake"
+msgstr ""
+
+#: Classes/tomls/configuration.py:279
+#, python-brace-format
+msgid "[Invite]({authentication})"
+msgstr "[Invite]({authentication})"
+
+#: Classes/tomls/configuration.py:282
+#, python-brace-format
+msgid "[Support]({server})"
+msgstr "[Support]({server})"
+
+#: Classes/tomls/configuration.py:283
+#, python-brace-format
+msgid "[Vote]({vote})"
+msgstr "[Vote]({vote})"
+
+#: Classes/tomls/configuration.py:284
+#, python-brace-format
+msgid "[Shake+]({donate})"
+msgstr "[Shake+]({donate})"
+
+#: Classes/useful.py:158
+msgid "or"
+msgstr "o"
+
+#: Classes/useful.py:159
+msgid "and"
+msgstr "at"
+
+#: Classes/useful.py:800
+#, python-brace-format
+msgid "[{name} (upload a file)]"
+msgstr "[{name} (i-upload ang file)]"
+
+#: Classes/useful.py:804
+#, python-brace-format
+msgid "<{name} (upload a file)>"
+msgstr "<{name} (i-upload ang file)>"
+
+#: Classes/useful.py:806
+#, python-brace-format
+msgid "[{name} (upload files)]вЂ¦"
+msgstr ""
+
+#: Extensions/Commands/Community/aboveme/__init__.py:35
+msgid "Throw nice, funny and sometimes annoying comments to the user above you!\n"
+"            \n"
+"            The AboveMe game offers a lot of fun and creats entertaining moments among each other!"
+msgstr "Maghagis ng maganda, nakakatawa at minsan nakakainis na mga komento sa gumagamit na nasa itaas mo!\n"
+
+#: Extensions/Commands/Community/aboveme/__init__.py:52
+#, python-brace-format
+msgid "Setup the whole AboveMe game in seconds\n"
+"            Get more information about the aboveme game with {command}"
+msgstr "I-Setup ang AboveMe na laro sa ilang segundo\n"
+"            Kumuha ng impormasyon sa aboveme laro gamit ang {command}"
+
+#: Extensions/Commands/Community/aboveme/__init__.py:84
+#: Extensions/Commands/Community/counting/__init__.py:90
+#: Extensions/Commands/Community/oneword/__init__.py:106
+msgid "View the top Counting users and servers"
+msgstr "Tingnan ang pinaka mataas na Counting user at servers"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:63
+#: Extensions/Commands/Community/aboveme/testing.py:63
+#: Extensions/Commands/Community/counting/counting.py:96
+#: Extensions/Commands/Community/counting/testing.py:96
+#: Extensions/Commands/Community/oneword/oneword.py:64
+#: Extensions/Commands/Community/oneword/testing.py:64
+msgid "Create one"
+msgstr "Gumawa ng isa"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:92
+#: Extensions/Commands/Community/aboveme/testing.py:92
+msgid "AboveMe channel"
+msgstr "AboveMe channel"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:93
+#: Extensions/Commands/Community/aboveme/testing.py:93
+#: Extensions/Commands/Community/counting/counting.py:126
+#: Extensions/Commands/Community/counting/testing.py:126
+#: Extensions/Commands/Community/oneword/oneword.py:94
+#: Extensions/Commands/Community/oneword/testing.py:94
+msgid "Choose in which text channel this game should be!"
+msgstr "Pumilli kung saan text channel ilalagay ang laro"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:95
+#: Extensions/Commands/Community/aboveme/testing.py:95
+#: Extensions/Commands/Community/counting/counting.py:128
+#: Extensions/Commands/Community/counting/testing.py:128
+#: Extensions/Commands/Community/oneword/oneword.py:96
+#: Extensions/Commands/Community/oneword/testing.py:96
+msgid "You can set up an existing text channel from your server."
+msgstr "Maaari kang mag-set up ng kasalukuyang text channel mula sa iyong server."
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:97
+#: Extensions/Commands/Community/aboveme/testing.py:97
+#: Extensions/Commands/Community/counting/counting.py:130
+#: Extensions/Commands/Community/counting/testing.py:130
+#: Extensions/Commands/Community/oneword/oneword.py:98
+#: Extensions/Commands/Community/oneword/testing.py:98
+msgid "Alternatively, you have the option to have a new text channel created for it."
+msgstr "Alternatibo option ay paggawa ng bagong text channel"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:103
+#: Extensions/Commands/Community/aboveme/aboveme.py:161
+#: Extensions/Commands/Community/aboveme/testing.py:103
+#: Extensions/Commands/Community/aboveme/testing.py:161
+#: Extensions/Commands/Community/counting/counting.py:136
+#: Extensions/Commands/Community/counting/counting.py:191
+#: Extensions/Commands/Community/counting/counting.py:244
+#: Extensions/Commands/Community/counting/counting.py:355
+#: Extensions/Commands/Community/counting/counting.py:413
+#: Extensions/Commands/Community/counting/testing.py:136
+#: Extensions/Commands/Community/counting/testing.py:191
+#: Extensions/Commands/Community/counting/testing.py:244
+#: Extensions/Commands/Community/counting/testing.py:355
+#: Extensions/Commands/Community/counting/testing.py:413
+#: Extensions/Commands/Community/oneword/oneword.py:104
+#: Extensions/Commands/Community/oneword/oneword.py:162
+#: Extensions/Commands/Community/oneword/testing.py:104
+#: Extensions/Commands/Community/oneword/testing.py:162
+msgid "You can come back here in the setup to change settings.."
+msgstr "Maaari kang bumalik dito sa setup para baguhin ang mga setting.."
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:149
+#: Extensions/Commands/Community/aboveme/testing.py:149
+msgid "AboveMe bot reactions"
+msgstr "AboveMe bot reaksyon"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:150
+#: Extensions/Commands/Community/aboveme/testing.py:150
+#: Extensions/Commands/Community/counting/counting.py:402
+#: Extensions/Commands/Community/counting/testing.py:402
+#: Extensions/Commands/Community/oneword/oneword.py:151
+#: Extensions/Commands/Community/oneword/testing.py:151
+msgid "Decide if I am allowed to react to the posts in the game"
+msgstr "Magpasya kung pinapayagan akong mag-react sa mga post sa laro"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:154
+#: Extensions/Commands/Community/aboveme/testing.py:154
+#: Extensions/Commands/Community/counting/counting.py:406
+#: Extensions/Commands/Community/counting/testing.py:406
+#: Extensions/Commands/Community/oneword/oneword.py:155
+#: Extensions/Commands/Community/oneword/testing.py:155
+msgid "You can allow me reactions so that users know directly whether posts are accepted as correct."
+msgstr "Pwede ka magpasya kung pwede ako mag react para malaman ng tao kung saan ang post na korrekto"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:156
+#: Extensions/Commands/Community/aboveme/testing.py:156
+#: Extensions/Commands/Community/counting/counting.py:408
+#: Extensions/Commands/Community/counting/testing.py:408
+#: Extensions/Commands/Community/oneword/oneword.py:157
+#: Extensions/Commands/Community/oneword/testing.py:157
+msgid "You can also deny my reactions to suppress the spam of reactions."
+msgstr "Maaari mo ring tanggihan ang aking mga reaksyon upang sugpuin ang spam ng mga reaksyon."
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:225
+#: Extensions/Commands/Community/aboveme/testing.py:225
+#: Extensions/Commands/Community/counting/counting.py:654
+#: Extensions/Commands/Community/counting/testing.py:654
+#: Extensions/Commands/Community/oneword/oneword.py:224
+#: Extensions/Commands/Community/oneword/testing.py:224
+msgid "CURRENT SERVER SCORES"
+msgstr "NGAYONG SCORES NG SERVER"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:227
+#: Extensions/Commands/Community/aboveme/testing.py:227
+#: Extensions/Commands/Community/counting/counting.py:656
+#: Extensions/Commands/Community/counting/testing.py:656
+#: Extensions/Commands/Community/oneword/oneword.py:226
+#: Extensions/Commands/Community/oneword/testing.py:226
+msgid "CURRENT USER SCORES"
+msgstr "NGAYONG SCORES NG MGA TAO"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:266
+#: Extensions/Commands/Community/aboveme/testing.py:266
+#: Extensions/Commands/Community/counting/counting.py:700
+#: Extensions/Commands/Community/counting/testing.py:700
+#: Extensions/Commands/Community/oneword/oneword.py:263
+#: Extensions/Commands/Community/oneword/testing.py:263
+msgid "I could not create a TextChannel. Aborting..."
+msgstr "Hindi ako makagawa ng TextChannel. Titigil..."
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:278
+#: Extensions/Commands/Community/aboveme/testing.py:278
+#: Extensions/Commands/Community/counting/counting.py:712
+#: Extensions/Commands/Community/counting/testing.py:712
+#: Extensions/Commands/Community/oneword/oneword.py:275
+#: Extensions/Commands/Community/oneword/testing.py:275
+msgid "I could not edit the TextChannel! Aborting..."
+msgstr "Hindi ko ma edit ang TextChannel! Titigil..."
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:291
+#: Extensions/Commands/Community/aboveme/testing.py:291
+#: Extensions/Commands/Community/counting/counting.py:742
+#: Extensions/Commands/Community/counting/testing.py:742
+#: Extensions/Commands/Community/oneword/oneword.py:288
+#: Extensions/Commands/Community/oneword/testing.py:288
+#, python-brace-format
+msgid "There is already a game set up in {channel}. Aborting..."
+msgstr "Mayroon nang naka-set up na laro sa {channel}. "
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:302
+#: Extensions/Commands/Community/aboveme/testing.py:302
+#: Extensions/Commands/Community/counting/counting.py:769
+#: Extensions/Commands/Community/counting/testing.py:769
+#: Extensions/Commands/Community/oneword/oneword.py:299
+#: Extensions/Commands/Community/oneword/testing.py:299
+#, python-brace-format
+msgid "{game} is successfully set up in {channel}!"
+msgstr "Matagumpay na na-set up ang {game} sa {channel}!"
+
+#: Extensions/Commands/Community/aboveme/aboveme.py:306
+#: Extensions/Commands/Community/aboveme/testing.py:306
+#: Extensions/Commands/Community/counting/counting.py:773
+#: Extensions/Commands/Community/counting/testing.py:773
+#: Extensions/Commands/Community/oneword/oneword.py:303
+#: Extensions/Commands/Community/oneword/testing.py:303
+msgid "Note: You can freely edit the text channel now."
+msgstr "Note: Kaya mo na i edit ang text channel"
+
+#: Extensions/Commands/Community/community.py:13
+msgid "Commands for the the Community features I offer"
+msgstr "Mga Command para sa mga feature ng Komunidad na inaalok ko"
+
+#: Extensions/Commands/Community/community.py:21
+msgid "Features"
+msgstr "Features"
+
+#: Extensions/Commands/Community/counting/__init__.py:44
+msgid "Start with 1 and never stop counting again!"
+msgstr "Magsimula sa 1 at wag na mag count ulit!"
+
+#: Extensions/Commands/Community/counting/__init__.py:58
+#, python-brace-format
+msgid "Setup the whole Counting game in seconds\n"
+"            Get more information about the counting game with {command}"
+msgstr "I-setup ang buong laro ng Pagbibilang sa ilang segundo\n"
+"            Kumuha nang higit pang impormasyon tungkol sa laro ng pagbibilang gamit ang {command}"
+
+#: Extensions/Commands/Community/counting/__init__.py:114
+msgid "Everything you need to know about the Counting game"
+msgstr "Lahat na kailangan mo malaman sa Counting game"
+
+#: Extensions/Commands/Community/counting/__init__.py:146
+msgid "Change some properties about the Counting game"
+msgstr "Magiba ng property sa Counting game"
+
+#: Extensions/Commands/Community/counting/counting.py:125
+#: Extensions/Commands/Community/counting/testing.py:125
+msgid "Counting channel"
+msgstr "Counting na channel"
+
+#: Extensions/Commands/Community/counting/counting.py:178
+#: Extensions/Commands/Community/counting/testing.py:178
+msgid "Counting direction"
+msgstr "Direksyon nang pag Count"
+
+#: Extensions/Commands/Community/counting/counting.py:179
+#: Extensions/Commands/Community/counting/testing.py:179
+msgid "Choose in which direction Counting should go!"
+msgstr "Pumili kung anong direksyon pupunta ang pag count"
+
+#: Extensions/Commands/Community/counting/counting.py:182
+#: Extensions/Commands/Community/counting/testing.py:182
+#, python-brace-format
+msgid "You can start counting at the number 1 and continue {game} in ascending order."
+msgstr "Maaari kang magsimulang magbilang sa numero 1 at magpatuloy sa {game} sa pataas na pagkakasunod-sunod."
+
+#: Extensions/Commands/Community/counting/counting.py:185
+#: Extensions/Commands/Community/counting/testing.py:185
+#, python-brace-format
+msgid "Alternatively, you can specify a starting point from which {game} starts in descending order."
+msgstr "Alternatibo, pwede po ilipat ang pinag simula kung saan ay {game} ay mag sisimula pababa"
+
+#: Extensions/Commands/Community/counting/counting.py:233
+#: Extensions/Commands/Community/counting/testing.py:233
+msgid "Counting rules"
+msgstr "Counting rules"
+
+#: Extensions/Commands/Community/counting/counting.py:234
+#: Extensions/Commands/Community/counting/testing.py:234
+msgid "Decide if text messages are allowed in Counting"
+msgstr "Magpasya kung ang text message ay pwede a Counting"
+
+#: Extensions/Commands/Community/counting/counting.py:236
+#: Extensions/Commands/Community/counting/testing.py:236
+msgid "You can allow text messages so that members can comment to each other."
+msgstr "Pwede mo payagan ang text message sa mga miyembro para makapagusap"
+
+#: Extensions/Commands/Community/counting/counting.py:237
+#: Extensions/Commands/Community/counting/testing.py:237
+#, python-brace-format
+msgid "You can deny text messages so that {game} remains clearer."
+msgstr "Maaari mong tanggihan ang mga text message upang ang {game} ay manatiling mas malinaw."
+
+#: Extensions/Commands/Community/counting/counting.py:286
+#: Extensions/Commands/Community/counting/testing.py:286
+msgid "Counting ways"
+msgstr "Counting ways"
+
+#: Extensions/Commands/Community/counting/counting.py:287
+#: Extensions/Commands/Community/counting/testing.py:287
+msgid "Decide if mathematical calculations are allowed in Counting"
+msgstr "Pumaya kung ang mathematical calculation ay pwede sa Counting"
+
+#: Extensions/Commands/Community/counting/counting.py:290
+#: Extensions/Commands/Community/counting/testing.py:290
+msgid "You can allow mathematical calculations so that members can find new ways."
+msgstr "Maaari mong payagan ang mga kalkulasyon sa matematika upang ang mga miyembro ay makahanap ng mga bagong paraan."
+
+#: Extensions/Commands/Community/counting/counting.py:293
+#: Extensions/Commands/Community/counting/testing.py:293
+#, python-brace-format
+msgid "You can deny mathematical calculations so that {game} remains clearer."
+msgstr "Maaari mong tanggihan ang mga mathematical na kalkulasyon upang ang {game} ay manatiling mas malinaw."
+
+#: Extensions/Commands/Community/counting/counting.py:299
+#: Extensions/Commands/Community/counting/testing.py:299
+msgid "You can come back here in the setup to change settings."
+msgstr "Maaari kang bumalik dito sa setup upang baguhin ang mga setting."
+
+#: Extensions/Commands/Community/counting/counting.py:341
+#: Extensions/Commands/Community/counting/testing.py:341
+msgid "Counting bot responses"
+msgstr "Counting bot responses"
+
+#: Extensions/Commands/Community/counting/counting.py:342
+#: Extensions/Commands/Community/counting/testing.py:342
+msgid "Decide in which way I should response to fails, edits, etc."
+msgstr "Magpasya kung saang paraan ako dapat tumugon sa mga nabigo, pag-edit, atbp."
+
+#: Extensions/Commands/Community/counting/counting.py:346
+#: Extensions/Commands/Community/counting/testing.py:346
+msgid "You can let me send the responses via webhooks that will make the whole thing look more natural"
+msgstr "Maaari mong hayaan akong ipadala ang mga tugon sa pamamagitan ng webhooks na gagawing mas natural ang buong bagay."
+
+#: Extensions/Commands/Community/counting/counting.py:349
+#: Extensions/Commands/Community/counting/testing.py:349
+msgid "You can also let me send all messages as a user, to create an easier overview of the actions."
+msgstr "Maaari mo ring hayaan akong ipadala ang lahat ng mensahe bilang isang user, upang lumikha ng mas madaling pangkalahatang-ideya ng mga aksyon."
+
+#: Extensions/Commands/Community/counting/counting.py:401
+#: Extensions/Commands/Community/counting/testing.py:401
+msgid "Counting bot reactions"
+msgstr "Nagbibilang ng mga reaksyon ng bot"
+
+#: Extensions/Commands/Community/counting/counting.py:541
+#: Extensions/Commands/Community/counting/testing.py:541
+msgid "Welcome to вЂћCountingвЂњ"
+msgstr ""
+
+#: Extensions/Commands/Community/counting/counting.py:543
+#: Extensions/Commands/Community/counting/testing.py:543
+msgid "Thanks for your interest about the game in this awesome place!"
+msgstr "Salamat sa iyong interes tungkol sa laro sa kahanga-hangang lugar na ito!"
+
+#: Extensions/Commands/Community/counting/counting.py:550
+#: Extensions/Commands/Community/counting/testing.py:550
+msgid "The Counting Game is a fun and interactive game where participants take turns posting numbers in ascending/descending order to a special text channel. "
+msgstr "Ang Counting Game ay isang masaya at interactive na laro kung saan ang mga kalahok ay naghahalinhinan sa pag-post ng mga numero sa pataas/pababang pagkakasunud-sunod sa isang espesyal na text channel."
+
+#: Extensions/Commands/Community/counting/counting.py:554
+#: Extensions/Commands/Community/counting/testing.py:554
+msgid "The purpose of the game is to continuously increase/decrease the number sequence by each player's contribution. "
+msgstr "Ang layunin ng laro ay patuloy na dagdagan/babawasan ang pagkakasunod-sunod ng numero sa pamamagitan ng kontribusyon ng bawat manlalaro."
+
+#: Extensions/Commands/Community/counting/counting.py:557
+#: Extensions/Commands/Community/counting/testing.py:557
+msgid "It can requires attention, coordination and quick action to maintain the flow and avoid mistakes. The game encourages teamwork, healthy competition and interactive communication within the community. "
+msgstr "Ito ay maaaring mangailangan ng pansin, koordinasyon at mabilis na pagkilos upang mapanatili ang daloy at maiwasan ang mga pagkakamali. "
+
+#: Extensions/Commands/Community/counting/counting.py:561
+#: Extensions/Commands/Community/counting/testing.py:561
+msgid "It can be a fun challenge to see how high the number sequence can go as players work together to continue the counting game."
+msgstr "Maaari itong maging isang nakakatuwang hamon na makita kung gaano kataas ang pagkakasunod-sunod ng numero habang nagtutulungan ang mga manlalaro upang ipagpatuloy ang laro ng pagbibilang."
+
+#: Extensions/Commands/Community/counting/counting.py:567
+#: Extensions/Commands/Community/counting/testing.py:567
+msgid "One person can't count numbers in a row (others are required)."
+msgstr "Hindi mabilang ng isang tao ang mga numero sa isang hilera (kinakailangan ang iba)."
+
+#: Extensions/Commands/Community/counting/counting.py:568
+#: Extensions/Commands/Community/counting/testing.py:568
+#: Extensions/Commands/Community/oneword/oneword.py:342
+#: Extensions/Commands/Community/oneword/testing.py:342
+msgid "No botting, if you have failed to often, you'll get muted."
+msgstr "Walang botting, kung madalas kang nabigo, mamu-mute ka."
+
+#: Extensions/Commands/Community/counting/counting.py:569
+#: Extensions/Commands/Community/counting/testing.py:569
+msgid "If you break the count, the count will reset to the start."
+msgstr "Kung masira mo ang bilang, ang bilang ay magre-reset sa simula."
+
+#: Extensions/Commands/Community/counting/counting.py:573
+#: Extensions/Commands/Community/counting/testing.py:573
+msgid "The rules are simple"
+msgstr "Ang mga patakaran ay simple"
+
+#: Extensions/Commands/Community/counting/counting.py:579
+#: Extensions/Commands/Community/counting/testing.py:579
+#: Extensions/Commands/Community/oneword/oneword.py:326
+#: Extensions/Commands/Community/oneword/testing.py:326
+msgid "How to setup the game?"
+msgstr "Paano i-setup ang laro?"
+
+#: Extensions/Commands/Community/counting/counting.py:581
+#: Extensions/Commands/Community/counting/testing.py:581
+#: Extensions/Commands/Community/oneword/oneword.py:328
+#: Extensions/Commands/Community/oneword/testing.py:328
+#, python-brace-format
+msgid "Get started by using the command {command} to create and setup the essential channel"
+msgstr "Magsimula sa pamamagitan ng paggamit ng command na {command} upang gawin at i-set up ang mahalagang channel"
+
+#: Extensions/Commands/Community/counting/counting.py:586
+#: Extensions/Commands/Community/counting/testing.py:586
+#: Extensions/Commands/Community/oneword/oneword.py:351
+#: Extensions/Commands/Community/oneword/testing.py:351
+msgid "How to configure the game?"
+msgstr "Paano i-configure ang laro?"
+
+#: Extensions/Commands/Community/counting/counting.py:588
+#: Extensions/Commands/Community/counting/testing.py:588
+#, python-brace-format
+msgid "Customize all kind of properties for Counting by using the command {command}!"
+msgstr "I-customize ang lahat ng uri ng property para sa Pagbibilang sa pamamagitan ng paggamit ng command na {command}!"
+
+#: Extensions/Commands/Community/counting/counting.py:593
+#: Extensions/Commands/Community/counting/testing.py:593
+msgid "The higher the number, the harder you fall!"
+msgstr "Kung mas mataas ang numero, mas mahirap kang mahulog!"
+
+#: Extensions/Commands/Community/counting/counting.py:611
+#: Extensions/Commands/Community/counting/testing.py:611
+#, python-brace-format
+msgid "There is no Counting-Game in the given channel {channel} that we could configure."
+msgstr "Walang Counting-Game sa ibinigay na channel {channel} na maaari naming i-configure."
+
+#: Extensions/Commands/Community/counting/counting.py:623
+#: Extensions/Commands/Community/counting/testing.py:623
+#, python-brace-format
+msgid "The next number in here has been set to {count}"
+msgstr "Ang susunod na numero dito ay itinakda sa {count}"
+
+#: Extensions/Commands/Community/counting/counting.py:628
+#: Extensions/Commands/Community/counting/testing.py:628
+#, python-brace-format
+msgid "The stats of the Counting-Game in {channel} has been successfully configured."
+msgstr "Ang mga istatistika ng Counting-Game sa {channel} ay matagumpay na na-configure."
+
+#: Extensions/Commands/Community/counting/counting.py:726
+#: Extensions/Commands/Community/counting/testing.py:726
+msgid "I could not create a webhook in the TextChannel! Aborting..."
+msgstr "Hindi ako makagawa ng webhook sa TextChannel! "
+
+#: Extensions/Commands/Community/oneword/__init__.py:35
+msgid "Create some funny sentances with the help of other users!"
+msgstr "Gumawa ng ilang nakakatawang pangungusap sa tulong ng ibang mga user!"
+
+#: Extensions/Commands/Community/oneword/__init__.py:50
+#, python-brace-format
+msgid "Setup the whole OneWord game in seconds\n"
+"            Get more information about the OneWord game with {command}"
+msgstr "I-set up ang buong laro ng OneWord sa ilang segundo\n"
+
+#: Extensions/Commands/Community/oneword/__init__.py:76
+msgid "Everything you need to know about the OneWord game"
+msgstr "Lahat ng kailangan mong malaman tungkol sa laro ng OneWord"
+
+#: Extensions/Commands/Community/oneword/oneword.py:93
+#: Extensions/Commands/Community/oneword/testing.py:93
+msgid "OneWord channel"
+msgstr "OneWord channel"
+
+#: Extensions/Commands/Community/oneword/oneword.py:150
+#: Extensions/Commands/Community/oneword/testing.py:150
+msgid "OneWord bot reactions"
+msgstr "Mga reaksyon sa bot ng OneWord"
+
+#: Extensions/Commands/Community/oneword/oneword.py:317
+#: Extensions/Commands/Community/oneword/testing.py:317
+msgid "Welcome to вЂћOneWordвЂњ"
+msgstr ""
+
+#: Extensions/Commands/Community/oneword/oneword.py:320
+#: Extensions/Commands/Community/oneword/testing.py:320
+msgid "Thanks for your interest in the game in this awesome place!"
+msgstr "Salamat sa iyong interes sa laro sa kahanga-hangang lugar na ito!"
+
+#: Extensions/Commands/Community/oneword/oneword.py:333
+#: Extensions/Commands/Community/oneword/testing.py:333
+msgid "How to use the game?"
+msgstr "Paano gamitin ang laro?"
+
+#: Extensions/Commands/Community/oneword/oneword.py:335
+#: Extensions/Commands/Community/oneword/testing.py:335
+msgid "This game is all about words, which are posted one after the other in the chat to create a creative sentance"
+msgstr "Ang larong ito ay tungkol sa mga salita, na sunod-sunod na nai-post sa chat upang lumikha ng isang malikhaing pangungusap"
+
+#: Extensions/Commands/Community/oneword/oneword.py:340
+#: Extensions/Commands/Community/oneword/testing.py:340
+msgid "One person can't post words in a row (others are required)."
+msgstr "Ang isang tao ay hindi maaaring mag-post ng mga salita sa isang hilera (ang iba ay kinakailangan)."
+
+#: Extensions/Commands/Community/oneword/oneword.py:341
+#: Extensions/Commands/Community/oneword/testing.py:341
+msgid "The sentance is done with punctuation marks (eg. вЂћ!вЂњ)."
+msgstr ""
+
+#: Extensions/Commands/Community/oneword/oneword.py:343
+#: Extensions/Commands/Community/oneword/testing.py:343
+msgid "There is no failing."
+msgstr "Walang bagsak."
+
+#: Extensions/Commands/Community/oneword/oneword.py:346
+#: Extensions/Commands/Community/oneword/testing.py:346
+msgid "OneWord rules"
+msgstr "Mga panuntunan ng OneWord"
+
+#: Extensions/Commands/Community/oneword/oneword.py:352
+#: Extensions/Commands/Community/oneword/testing.py:352
+msgid "Currently there is nothing to configure!"
+msgstr "Sa kasalukuyan ay walang dapat i-configure!"
+
+#: Extensions/Commands/Community/schedule/__init__.py:38
+msgid "Scheduled Events are Reminders, which you can let recurr on a chosen Interval. \n"
+"            With a set timezone, you can choose the Start Time and the Message with the corresponding TextChannel."
+msgstr "Ang Mga Naka-iskedyul na Kaganapan ay Mga Paalala, na maaari mong hayaang maulit sa napiling Pagitan. "
+
+#: Extensions/Commands/Community/schedule/testing.py:99
+#: Extensions/Commands/Community/schedule/testing.py:139
+msgid "Repetition"
+msgstr "Pag-uulit"
+
+#: Extensions/Commands/Community/schedule/testing.py:102
+#: Extensions/Commands/Community/schedule/testing.py:142
+msgid "Decide to only get alerted once or choose the interval between the alerts!"
+msgstr "Magpasya na isang beses lang maalerto o piliin ang pagitan sa pagitan ng mga alerto!"
+
+#: Extensions/Commands/Community/schedule/testing.py:176
+msgid "Second step: Choose the duration"
+msgstr "Ikalawang hakbang: Piliin ang tagal"
+
+#: Extensions/Commands/Community/schedule/testing.py:200
+msgid "Third step: Choose the Message Type"
+msgstr "Ikatlong hakbang: Piliin ang Uri ng Mensahe"
+
+#: Extensions/Commands/Developing/bash/__init__.py:36
+msgid "Run shell commands.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            command: str\n"
+"                the command"
+msgstr "Patakbuhin ang mga utos ng shell.\n\n"
+
+#: Extensions/Commands/Developing/developing.py:14
+msgid "Dev commands to configure/set a lot of things of the bot.\n"
+"            Sometimes you have to list them as Dev рџ¤·."
+msgstr ""
+
+#: Extensions/Commands/Developing/developing.py:28
+msgid "Developing"
+msgstr "Pagbuo"
+
+#: Extensions/Commands/Developing/dispatch/__init__.py:37
+msgid "Send an event\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            event: Optional[str]\n"
+"                the name of the event\n\n"
+"            kwargs: Any\n"
+"                event keyword arguments"
+msgstr "Magpadala ng kaganapan\n\n"
+
+#: Extensions/Commands/Developing/extensions/__init__.py:55
+msgid "Reloads, unloads or loads extensions/commands of the bot\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            command: Literal[load, unload, reload]\n"
+"                re- un- or loading the <extensions>\n\n"
+"            extension: Greedy[ValidExt]\n"
+"                the extension(s) you want to re- un- or load"
+msgstr "Nagre-reload, nag-aalis o naglo-load ng mga extension/utos ng bot\n"
+
+#: Extensions/Commands/Developing/leave/__init__.py:37
+msgid "Leave a guild\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guild: int\n"
+"                the ID of the server"
+msgstr "Umalis sa isang guild\n\n"
+
+#: Extensions/Commands/Developing/leave/leave.py:24
+#: Extensions/Commands/Developing/leave/testing.py:24
+msgid "The given server is not valid"
+msgstr "Ang ibinigay na server ay hindi wasto"
+
+#: Extensions/Commands/Developing/leave/leave.py:31
+#: Extensions/Commands/Developing/leave/testing.py:31
+msgid "leaving the guild raised an error"
+msgstr "ang pag-alis sa guild ay nagtaas ng pagkakamali"
+
+#: Extensions/Commands/Developing/leave/leave.py:36
+#: Extensions/Commands/Developing/leave/testing.py:36
+msgid "I'll leave the given server"
+msgstr "Aalis ako sa ibinigay na server"
+
+#: Extensions/Commands/Developing/ptb/__init__.py:36
+msgid "Temporarily adds a server/channel/user to the public test build"
+msgstr "Pansamantalang nagdaragdag ng server/channel/user sa pampublikong pagsubok na build"
+
+#: Extensions/Commands/Developing/ptb/ptb.py:51
+msgid "Your input does not match any server/channel/user I can find"
+msgstr "Ang iyong input ay hindi tumutugma sa anumang server/channel/user na mahahanap ko"
+
+#: Extensions/Commands/Developing/ptb/ptb.py:61
+msgid "Server"
+msgstr ""
+
+#: Extensions/Commands/Developing/ptb/ptb.py:66
+#, python-brace-format
+msgid "{name} is __removed__ from the public test build"
+msgstr "Si {name} ay __removed__ mula sa public test build"
+
+#: Extensions/Commands/Developing/ptb/ptb.py:71
+#, python-brace-format
+msgid "{name} is temporarily __added__ to the public test build"
+msgstr "Si {name} ay pansamantalang __idinagdag__ sa pampublikong pagsubok na build"
+
+#: Extensions/Commands/Developing/repl/__init__.py:41
+msgid "Run your own xyz codes.\n\n"
+"            A read-eval-print loop (REPL), also termed an interactive toplevel or language shell,\n"
+"            takes single user inputs, executes them, and returns the result to the user.\n\n"
+"            You can simply specify this code as an argument and also in quotes (`).\n"
+"            Optionally you can use common attributes like ctx, bot etc. in the code.\n\n"
+"            Environment Variables:\n"
+"                ctx         - command invocation context\n"
+"                bot         - ShakeBot\n"
+"                channel     - current channel\n"
+"                author      - command author's member\n"
+"                message     - command's message\n"
+"                __ref       - reference if given\n"
+"                __last__    - variables of the last repl\n"
+"                __          - results of the last repl.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            code: str\n"
+"                the code input to execute"
+msgstr "Patakbuhin ang sarili mong mga xyz code.\n\n"
+
+#: Extensions/Commands/Developing/restart/__init__.py:37
+msgid "Stops and starts the bot like in a regular Restart"
+msgstr "Huminto at sinimulan ang bot tulad ng sa isang regular na I-restart"
+
+#: Extensions/Commands/Developing/restart/restart.py:15
+#: Extensions/Commands/Developing/restart/testing.py:15
+msgid "Bot will restart now"
+msgstr "Ang bot ay magre-restart ngayon"
+
+#: Extensions/Commands/Developing/rtfm/__init__.py:117
+msgid "View objects from certain documentation.\n\n"
+"            RTFM is internet slang for the phrase \"read the damn manual\".\n"
+"            This also applies to this command, with the help of which you can get the URLs to the documentation for various things\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            key: Optional[str]\n"
+"                the module (Python, Discord, ...). \n"
+"                Defaults to ``Python``\n\n"
+"            entity: Optional[str]\n"
+"                the thing you want to get information about (getattr, ctx.command, ...). \n"
+"                Defaults to ``None`` and returning the ``key`` website url\n"
+"            "
+msgstr "Tingnan ang mga bagay mula sa ilang partikular na dokumentasyon.\n\n"
+
+#: Extensions/Commands/Developing/rtfm/__init__.py:172
+msgid "View all modules"
+msgstr "Tingnan ang lahat ng mga module"
+
+#: Extensions/Commands/Developing/rtfm/rtfm.py:94
+#: Extensions/Commands/Developing/rtfm/testing.py:94
+msgid "Couldn't find anything."
+msgstr "Walang mahanap."
+
+#: Extensions/Commands/Developing/rtfm/rtfm.py:138
+#: Extensions/Commands/Developing/rtfm/testing.py:138
+msgid "Choose a symbol..."
+msgstr "Pumili ng simbolo..."
+
+#: Extensions/Commands/Developing/rtfm/rtfm.py:162
+#: Extensions/Commands/Developing/rtfm/testing.py:162
+msgid "No symbols to choose..."
+msgstr "Walang mga simbolo na pipiliin..."
+
+#: Extensions/Commands/Developing/sync/__init__.py:43
+msgid "synchronize the bot with its commands\n\n"
+"            The synchronization is used to reload the changes.\n"
+"            Synchronize when ...\n"
+"            - ...commands, arguments or permissions have been added, removed or changed\n"
+"            - ...a global/server command becomes a server/global command\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guilds: Optional[strl]\n"
+"                the guilds\n\n"
+"            spec: Optional[Literal[\"~\", \"*\", \"^\"]]\n"
+"                the spec\n\n"
+"            dump: Optional[bool]\n"
+"                if dump"
+msgstr "i-synchronize ang bot sa mga command nito\n\n"
+
+#: Extensions/Commands/Developing/sync/sync.py:53
+#: Extensions/Commands/Developing/sync/testing.py:53
+#, python-brace-format
+msgid "{amount} Command*s to the current guild synchronized."
+msgstr "{amount} Mga command*s sa kasalukuyang guild na naka-synchronize."
+
+#: Extensions/Commands/Developing/sync/sync.py:55
+#: Extensions/Commands/Developing/sync/testing.py:55
+#, python-brace-format
+msgid "{amount} Command*s globally synchronized."
+msgstr "{amount} Command*s globally synchronize."
+
+#: Extensions/Commands/Gimmicks/count/__init__.py:33
+msgid "Count for yourself"
+msgstr "Bilangin mo ang iyong sarili"
+
+#: Extensions/Commands/Gimmicks/count/count.py:12
+#: Extensions/Commands/Gimmicks/count/testing.py:12
+msgid "Start?"
+msgstr "Simulan?"
+
+#: Extensions/Commands/Gimmicks/count/count.py:22
+#: Extensions/Commands/Gimmicks/count/testing.py:22
+msgid "Congratulation"
+msgstr "Binabati kita"
+
+#: Extensions/Commands/Gimmicks/count/count.py:28
+#: Extensions/Commands/Gimmicks/count/testing.py:28
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:235
+#: Extensions/Commands/Information/serverinfo/testing.py:235
+msgid "Yes"
+msgstr "Oo"
+
+#: Extensions/Commands/Gimmicks/count/count.py:31
+#: Extensions/Commands/Gimmicks/count/testing.py:31
+msgid "Have fun!"
+msgstr "Magsaya ka!"
+
+#: Extensions/Commands/Gimmicks/everyone/__init__.py:34
+msgid "Remind others how bad @everyone actually is\n\n"
+"            With this command you can show other people with a picture/gif how unnecessary a @everyone ping is or express that someone is spamming @everyone again.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: commands.Greedy[Member]\n"
+"                the member to blame"
+msgstr "Ipaalala sa iba kung gaano kalubha ang @lahat ng tao\n\n"
+
+#: Extensions/Commands/Gimmicks/everyone/everyone.py:22
+#: Extensions/Commands/Gimmicks/everyone/testing.py:22
+#, python-brace-format
+msgid "{members} stop spamming @everyone! \n"
+"It's not that important..."
+msgstr "{mga miyembro} ihinto ang pag-spam sa @lahat! "
+
+#: Extensions/Commands/Gimmicks/gimmicks.py:12
+msgid "Commands for fun and distraction"
+msgstr "Mga utos para sa kasiyahan at pagkagambala"
+
+#: Extensions/Commands/Gimmicks/gimmicks.py:20
+msgid "Gimmicks"
+msgstr "Mga gimik"
+
+#: Extensions/Commands/Gimmicks/lenght/__init__.py:34
+msgid "Get a random length depending on the user\n\n"
+"            With this command you can find out, using a very clever and definitely not random generator,\n"
+"            which lenght would with to an user.\n"
+"            \n"
+"            __Please note__: If you don't specify a user, I might reveal your lenght as well.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: Greedy[Member]\n"
+"                the member to reveal the lenght of"
+msgstr "Kumuha ng random na haba depende sa user\n\n"
+
+#: Extensions/Commands/Gimmicks/lenght/lenght.py:21
+#: Extensions/Commands/Gimmicks/lenght/testing.py:21
+msgid "Length"
+msgstr "Haba"
+
+#: Extensions/Commands/Gimmicks/meme/__init__.py:37
+msgid "Get the latest funny memes of reddit\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            subreddit: Optional[str]\n"
+"                an optional argument to pass a subreddit\n"
+"            "
+msgstr "Kunin ang pinakabagong nakakatawang meme ng reddit\n\n"
+
+#: Extensions/Commands/Gimmicks/meme/meme.py:30
+#: Extensions/Commands/Gimmicks/meme/testing.py:30
+#, python-brace-format
+msgid "вЂћ{title}вЂњ by {author}"
+msgstr ""
+
+#: Extensions/Commands/Gimmicks/meme/meme.py:36
+#: Extensions/Commands/Gimmicks/meme/testing.py:36
+#, python-brace-format
+msgid "Like this meme? Check out others at \n"
+"{subreddit}"
+msgstr "Tulad ng meme na ito? "
+
+#: Extensions/Commands/Gimmicks/rainbow/__init__.py:35
+msgid "Get your avatar a rainbow filter! ^^\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: discord.Member\n"
+"                the member to add"
+msgstr "Kunin ang iyong avatar ng rainbow filter! "
+
+#: Extensions/Commands/Gimmicks/random/__init__.py:34
+msgid "Picks a random online user\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            offline: bool\n"
+"                if offline is ok"
+msgstr "Pumili ng random na online user\n\n"
+
+#: Extensions/Commands/Gimmicks/roll/__init__.py:36
+msgid "Displays a random number in a specified range of values. (Default: 1-6)\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            start: Optional[int]\n"
+"                the start to roll at\n\n"
+"            end: Optional[int]\n"
+"                the endlimit to roll till"
+msgstr "Nagpapakita ng random na numero sa isang tinukoy na hanay ng mga halaga. "
+
+#: Extensions/Commands/Gimmicks/say/__init__.py:34
+msgid "I will say whatever you tell me to say, except...\n"
+"            Speak as if you were me. URLs/Invites not allowed!\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            reply: Optional[bool]\n"
+"                True or False whether the bot should reply to you\n\n"
+"            text: str\n"
+"                What the bot should echo"
+msgstr "Sasabihin ko ang anumang sasabihin mo sa akin, maliban sa...\n"
+
+#: Extensions/Commands/Gimmicks/say/say.py:25
+#: Extensions/Commands/Gimmicks/say/testing.py:25
+#, python-brace-format
+msgid "Hey, {user}. Urls or invites aren't allowed!"
+msgstr "Uy, {user}. "
+
+#: Extensions/Commands/Gimmicks/scenario/__init__.py:33
+msgid "What would you do in this scenario? Find out!\n\n"
+"            With this command, you are presented with a hypothetical situation and asked to say what you would do. \n"
+"            Each time, you will be presented with a situation, so you will be challenged over and over again.\n"
+"            "
+msgstr "Ano ang gagawin mo sa senaryo na ito? "
+
+#: Extensions/Commands/Gimmicks/scenario/scenario.py:18
+#: Extensions/Commands/Gimmicks/scenario/testing.py:18
+msgid "Put yourself to the test! What would you do and why ?"
+msgstr "Subukan ang iyong sarili! "
+
+#: Extensions/Commands/Gimmicks/wouldyou/__init__.py:41
+msgid "Random selection of two counterparts \n"
+"            \n"
+"            The command presents the user with a random selection of two concepts, items, or the like, both of which are labeled as either useful or useless. \n"
+"            Users in the chat can then choose which of the two counterparts they think is better or more useful before the overall trend of opinions is displayed after the timeout expires. \n"
+"            This command can serve as a fun way to expand users judgment and preferences.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            utility: Literal['useful', 'useless']\n"
+"                useful or useless counterparts?\n\n"
+"            voting: Optional[bool]\n"
+"                should we save answers and compare at the end?\n\n"
+"            rather: Optional[bool]\n"
+"                ehm\n"
+"            "
+msgstr "Random na pagpili ng dalawang katapat \n"
+
+#: Extensions/Commands/Help/__init__.py:55
+msgid "Shows all Shake bot commands and provides helpful links\n"
+"        \n"
+"            Parameters\n"
+"            -----------\n"
+"            category: Optional[str]\n"
+"                the name of a category you want information about\n\n"
+"            command: Optional[str]\n"
+"                the name of a command you want information about\n"
+"            "
+msgstr "Ipinapakita ang lahat ng Shake bot command at nagbibigay ng mga kapaki-pakinabang na link\n"
+
+#: Extensions/Commands/Help/help.py:56 Extensions/Commands/Help/testing.py:56
+msgid "This command is new and is in its beta version"
+msgstr "Ang utos na ito ay bago at nasa beta na bersyon nito"
+
+#: Extensions/Commands/Help/help.py:60 Extensions/Commands/Help/testing.py:60
+msgid "Only the owner of the shake bot can run this command"
+msgstr "Tanging ang may-ari ng shake bot ang maaaring magpatakbo ng utos na ito"
+
+#: Extensions/Commands/Help/help.py:64 Extensions/Commands/Help/testing.py:64
+msgid "Start a Shake+ subscription to run this command"
+msgstr "Magsimula ng subscription sa Shake upang patakbuhin ang utos na ito"
+
+#: Extensions/Commands/Help/help.py:68 Extensions/Commands/Help/testing.py:68
+msgid "This command requires certain rights from the user to be executed"
+msgstr "Ang utos na ito ay nangangailangan ng ilang mga karapatan mula sa gumagamit upang maisakatuparan"
+
+#: Extensions/Commands/Help/help.py:72 Extensions/Commands/Help/testing.py:72
+msgid "This group-command has sub-commands"
+msgstr "Ang pangkat-utos na ito ay may mga sub-utos"
+
+#: Extensions/Commands/Help/help.py:139 Extensions/Commands/Help/testing.py:139
+#, python-brace-format
+msgid "Unknown command `{argument}`. Use \"/help\" for help."
+msgstr "Hindi kilalang utos `{argument}`. "
+
+#: Extensions/Commands/Help/help.py:182 Extensions/Commands/Help/testing.py:182
+#, python-brace-format
+msgid "Unknown subcommand `{argument}`. Use \"/help\" for help."
+msgstr "Hindi kilalang subcommand `{argument}`. "
+
+#: Extensions/Commands/Help/help.py:504 Extensions/Commands/Help/help.py:771
+#: Extensions/Commands/Help/testing.py:504
+#: Extensions/Commands/Help/testing.py:771
+msgid "No more detailed description given."
+msgstr "Wala nang ibinigay na detalyadong paglalarawan."
+
+#: Extensions/Commands/Help/help.py:524 Extensions/Commands/Help/testing.py:524
+msgid "More detailed command description"
+msgstr "Higit pang detalyadong paglalarawan ng utos"
+
+#: Extensions/Commands/Help/help.py:558 Extensions/Commands/Help/testing.py:558
+#, python-brace-format
+msgid "Usage of the {command} command"
+msgstr "Paggamit ng {command} command"
+
+#: Extensions/Commands/Help/help.py:568 Extensions/Commands/Help/testing.py:568
+#, python-brace-format
+msgid "Examples of the {command} command"
+msgstr "Mga halimbawa ng {command} command"
+
+#: Extensions/Commands/Help/help.py:585 Extensions/Commands/Help/testing.py:585
+msgid "Necessary user permissions"
+msgstr "Mga kinakailangang pahintulot ng user"
+
+#: Extensions/Commands/Help/help.py:587 Extensions/Commands/Help/testing.py:587
+msgid "Necessary bot permissions"
+msgstr "Mga kinakailangang pahintulot sa bot"
+
+#: Extensions/Commands/Help/help.py:641 Extensions/Commands/Help/testing.py:641
+msgid "No help given... (You should report this)"
+msgstr "Walang ibinigay na tulong... (Dapat mong iulat ito)"
+
+#: Extensions/Commands/Help/help.py:762 Extensions/Commands/Help/testing.py:762
+#, python-brace-format
+msgid "Commands of the {group} group"
+msgstr "Mga utos ng grupong {group}."
+
+#: Extensions/Commands/Help/help.py:827 Extensions/Commands/Help/testing.py:827
+#, python-brace-format
+msgid "{emoji} Bot Help (Timeouted type /help again!)"
+msgstr "{emoji} Bot Help (Na-timeout na uri /help muli!)"
+
+#: Extensions/Commands/Help/help.py:829 Extensions/Commands/Help/testing.py:829
+#, python-brace-format
+msgid "{emoji} Bot Help"
+msgstr ""
+
+#: Extensions/Commands/Help/help.py:836 Extensions/Commands/Help/testing.py:836
+#, python-brace-format
+msgid "Hello and welcome to my help page\n"
+"Type `{prefix}help <command/category>` to get more information on a command/category."
+msgstr "Kumusta at maligayang pagdating sa aking pahina ng tulong\n"
+
+#: Extensions/Commands/Help/help.py:840 Extensions/Commands/Help/testing.py:840
+msgid "Support Server"
+msgstr "Server ng Suporta"
+
+#: Extensions/Commands/Help/help.py:843 Extensions/Commands/Help/testing.py:843
+#, python-brace-format
+msgid "You can get more help if you join the official server at\n"
+"{support_server}"
+msgstr "Makakakuha ka ng higit pang tulong kung sasali ka sa opisyal na server sa\n"
+
+#: Extensions/Commands/Help/help.py:852 Extensions/Commands/Help/testing.py:852
+msgid "Who am I?"
+msgstr "Sino ako?"
+
+#: Extensions/Commands/Help/help.py:855 Extensions/Commands/Help/testing.py:855
+#, python-brace-format
+msgid "I am Shake, a bot that is partially intended for the public.\n"
+"Written with only {lines} lines of code. Please be nice"
+msgstr "Ako si Shake, isang bot na bahagyang inilaan para sa publiko.\n"
+
+#: Extensions/Commands/Help/help.py:862 Extensions/Commands/Help/testing.py:862
+msgid "What am I for?"
+msgstr "Para saan ako?"
+
+#: Extensions/Commands/Help/help.py:865 Extensions/Commands/Help/testing.py:865
+#, python-brace-format
+msgid "I am a functional all-in-one bot that will simplify setting up your server for you!\n"
+"                    I have been created at {created_at} & I have functions like games, utilities, gimmicks & much more. \n"
+"                    You can get more information by using the dropdown menu below."
+msgstr "Isa akong functional all-in-one na bot na magpapasimple sa pagse-set up ng iyong server para sa iyo!\n"
+
+#: Extensions/Commands/Help/help.py:873 Extensions/Commands/Help/help.py:877
+#: Extensions/Commands/Help/testing.py:873
+#: Extensions/Commands/Help/testing.py:877
+msgid "argument"
+msgstr "argumento"
+
+#: Extensions/Commands/Help/help.py:874 Extensions/Commands/Help/testing.py:874
+msgid "Stands for the argument being __**necessary**__."
+msgstr "Sinindigan ang argumento na __**kailangan**__."
+
+#: Extensions/Commands/Help/help.py:878 Extensions/Commands/Help/testing.py:878
+msgid "Stands for that the argument is __**optional**__."
+msgstr "Nangangahulugan na ang argumento ay __**opsyonal**__."
+
+#: Extensions/Commands/Help/help.py:882 Extensions/Commands/Help/testing.py:882
+msgid "Stands for the argument can be __**either A or B**__."
+msgstr "Ang ibig sabihin ng argumento ay maaaring __**alinman sa A o B**__."
+
+#: Extensions/Commands/Help/help.py:888 Extensions/Commands/Help/testing.py:888
+msgid "Stands for the fact that you can use multiple arguments.\n\n"
+"                        Now that you know the basics, you should still know that...\n"
+"                        __**You don't include the parentheses!**__"
+msgstr "Sinindigan ang katotohanan na maaari kang gumamit ng maraming argumento.\n\n"
+
+#: Extensions/Commands/Help/help.py:898 Extensions/Commands/Help/testing.py:898
+msgid "How do I use the bot?"
+msgstr "Paano ko gagamitin ang bot?"
+
+#: Extensions/Commands/Help/help.py:899 Extensions/Commands/Help/testing.py:899
+msgid "Reading the bot structure is pretty easy."
+msgstr "Ang pagbabasa ng istraktura ng bot ay medyo madali."
+
+#: Extensions/Commands/Information/channelinfo/__init__.py:66
+msgid "Get information about a specific channel.\n"
+"            \n"
+"            This command will show you some information about a channel.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            channel: Optional[str]\n"
+"                the channel mention, name or id to get information about"
+msgstr "Kumuha ng impormasyon tungkol sa isang partikular na channel.\n"
+
+#: Extensions/Commands/Information/channelinfo/__init__.py:93
+msgid "Either this channel does not exist or I cant see it."
+msgstr "Maaaring wala ang channel na ito o hindi ko ito nakikita."
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:73
+#: Extensions/Commands/Information/channelinfo/testing.py:73
+msgid "Parents Channel"
+msgstr "Channel ng Mga Magulang"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:120
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:256
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:394
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:478
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:568
+#: Extensions/Commands/Information/channelinfo/testing.py:120
+#: Extensions/Commands/Information/channelinfo/testing.py:272
+#: Extensions/Commands/Information/channelinfo/testing.py:415
+#: Extensions/Commands/Information/channelinfo/testing.py:506
+#: Extensions/Commands/Information/channelinfo/testing.py:601
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:603
+#: Extensions/Commands/Information/serverinfo/testing.py:603
+#: Extensions/Commands/Information/userinfo/testing.py:960
+#: Extensions/Commands/Information/userinfo/userinfo.py:910
+msgid "General Overview"
+msgstr "Pangkalahatang-ideya"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:126
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:291
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:416
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:505
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:575
+#: Extensions/Commands/Information/channelinfo/testing.py:126
+#: Extensions/Commands/Information/channelinfo/testing.py:307
+#: Extensions/Commands/Information/channelinfo/testing.py:437
+#: Extensions/Commands/Information/channelinfo/testing.py:533
+#: Extensions/Commands/Information/channelinfo/testing.py:608
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:134
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:234
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:612
+#: Extensions/Commands/Information/serverinfo/testing.py:134
+#: Extensions/Commands/Information/serverinfo/testing.py:234
+#: Extensions/Commands/Information/serverinfo/testing.py:612
+#: Extensions/Commands/Information/userinfo/testing.py:235
+#: Extensions/Commands/Information/userinfo/testing.py:1029
+#: Extensions/Commands/Information/userinfo/userinfo.py:185
+#: Extensions/Commands/Information/userinfo/userinfo.py:979
+msgid "Created"
+msgstr "Nilikha"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:145
+#: Extensions/Commands/Information/channelinfo/testing.py:145
+msgid "No region supporting channels"
+msgstr "Walang rehiyong sumusuporta sa mga channel"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:146
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:502
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:602
+#: Extensions/Commands/Information/channelinfo/testing.py:146
+#: Extensions/Commands/Information/channelinfo/testing.py:530
+#: Extensions/Commands/Information/channelinfo/testing.py:635
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:670
+#: Extensions/Commands/Information/serverinfo/testing.py:670
+msgid "Region"
+msgstr "Rehiyon"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:149
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:325
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:450
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:541
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:633
+#: Extensions/Commands/Information/channelinfo/testing.py:160
+#: Extensions/Commands/Information/channelinfo/testing.py:341
+#: Extensions/Commands/Information/channelinfo/testing.py:473
+#: Extensions/Commands/Information/channelinfo/testing.py:569
+#: Extensions/Commands/Information/channelinfo/testing.py:668
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:673
+#: Extensions/Commands/Information/serverinfo/testing.py:673
+#: Extensions/Commands/Information/userinfo/testing.py:1056
+#: Extensions/Commands/Information/userinfo/userinfo.py:1006
+msgid "ID"
+msgstr ""
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:153
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:329
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:454
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:547
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:637
+#: Extensions/Commands/Information/channelinfo/testing.py:164
+#: Extensions/Commands/Information/channelinfo/testing.py:345
+#: Extensions/Commands/Information/channelinfo/testing.py:477
+#: Extensions/Commands/Information/channelinfo/testing.py:575
+#: Extensions/Commands/Information/channelinfo/testing.py:672
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:684
+#: Extensions/Commands/Information/serverinfo/testing.py:684
+#: Extensions/Commands/Information/userinfo/testing.py:1064
+#: Extensions/Commands/Information/userinfo/userinfo.py:1014
+msgid "More Information"
+msgstr "Karagdagang Impormasyon"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:175
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:209
+#: Extensions/Commands/Information/channelinfo/testing.py:191
+#: Extensions/Commands/Information/channelinfo/testing.py:225
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:313
+#: Extensions/Commands/Information/serverinfo/testing.py:313
+msgid "Channels"
+msgstr "Mga Channel"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:191
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:226
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:368
+#: Extensions/Commands/Information/channelinfo/testing.py:207
+#: Extensions/Commands/Information/channelinfo/testing.py:242
+#: Extensions/Commands/Information/channelinfo/testing.py:389
+#, python-brace-format
+msgid "Page {page}/{pages} (Total of {items} Channels)"
+msgstr "Pahina {page}/{pages} (Kabuuan ng {items} Channels)"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:222
+#: Extensions/Commands/Information/channelinfo/testing.py:238
+msgid "Category channels"
+msgstr "Mga channel ng kategorya"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:247
+#: Extensions/Commands/Information/channelinfo/testing.py:263
+msgid "Channel overview"
+msgstr "Pangkalahatang-ideya ng channel"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:266
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:484
+#: Extensions/Commands/Information/channelinfo/testing.py:282
+#: Extensions/Commands/Information/channelinfo/testing.py:512
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:135
+#: Extensions/Commands/Information/serverinfo/testing.py:135
+#: Extensions/Commands/Information/userinfo/testing.py:236
+#: Extensions/Commands/Information/userinfo/userinfo.py:186
+msgid "Mention"
+msgstr "Banggitin"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:269
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:487
+#: Extensions/Commands/Information/channelinfo/testing.py:285
+#: Extensions/Commands/Information/channelinfo/testing.py:515
+msgid "Position"
+msgstr "Posisyon"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:284
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:409
+#: Extensions/Commands/Information/channelinfo/testing.py:300
+#: Extensions/Commands/Information/channelinfo/testing.py:430
+msgid "NSFW"
+msgstr ""
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:302
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:516
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:607
+#: Extensions/Commands/Information/channelinfo/testing.py:318
+#: Extensions/Commands/Information/channelinfo/testing.py:544
+#: Extensions/Commands/Information/channelinfo/testing.py:640
+msgid "Channel's server"
+msgstr "Server ng Channel"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:314
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:528
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:613
+#: Extensions/Commands/Information/channelinfo/testing.py:330
+#: Extensions/Commands/Information/channelinfo/testing.py:556
+#: Extensions/Commands/Information/channelinfo/testing.py:648
+msgid "Channel's category"
+msgstr "Kategorya ng Channel"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:351
+#: Extensions/Commands/Information/channelinfo/testing.py:372
+msgid "Threads"
+msgstr "Mga Thread"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:384
+#: Extensions/Commands/Information/channelinfo/testing.py:405
+msgid "Thread overview"
+msgstr "Pangkalahatang-ideya ng thread"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:405
+#: Extensions/Commands/Information/channelinfo/testing.py:426
+msgid "Thread's mention"
+msgstr "Pagbanggit ng thread"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:427
+#: Extensions/Commands/Information/channelinfo/testing.py:448
+msgid "Thread's server"
+msgstr "Server ng thread"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:439
+#: Extensions/Commands/Information/channelinfo/testing.py:460
+msgid "Thread's category"
+msgstr "Kategorya ng Thread"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:542
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:587
+#: Extensions/Commands/Information/channelinfo/testing.py:570
+#: Extensions/Commands/Information/channelinfo/testing.py:620
+msgid "Bitrate"
+msgstr ""
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:543
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:592
+#: Extensions/Commands/Information/channelinfo/testing.py:571
+#: Extensions/Commands/Information/channelinfo/testing.py:625
+msgid "User limit"
+msgstr "Limitasyon ng gumagamit"
+
+#: Extensions/Commands/Information/channelinfo/channelinfo.py:620
+#: Extensions/Commands/Information/channelinfo/testing.py:655
+msgid "Channel's position"
+msgstr "Posisyon ng Channel"
+
+#: Extensions/Commands/Information/channelinfo/testing.py:149
+msgid "Category's server"
+msgstr "Server ng kategorya"
+
+#: Extensions/Commands/Information/charinfo/__init__.py:34
+#: Extensions/Commands/Information/games/__init__.py:34
+msgid "Displays information about a set of characters.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            characters: str\n"
+"                the symbols to get information about"
+msgstr "Nagpapakita ng impormasyon tungkol sa isang set ng mga character.\n"
+
+#: Extensions/Commands/Information/charinfo/charinfo.py:20
+#: Extensions/Commands/Information/charinfo/testing.py:20
+#: Extensions/Commands/Information/games/charinfo.py:20
+#: Extensions/Commands/Information/games/testing.py:20
+msgid "Charinfo Command"
+msgstr ""
+
+#: Extensions/Commands/Information/hoisters/__init__.py:33
+msgid "Shows a sorted list of members that have a nicknname"
+msgstr "Nagpapakita ng pinagsunod-sunod na listahan ng mga miyembro na may palayaw"
+
+#: Extensions/Commands/Information/hoisters/hoisters.py:21
+#: Extensions/Commands/Information/hoisters/testing.py:21
+msgid "There are no members with a nick."
+msgstr "Walang mga miyembro na may nick."
+
+#: Extensions/Commands/Information/hoisters/hoisters.py:26
+#: Extensions/Commands/Information/hoisters/testing.py:26
+msgid "Here are all members with a nick, sorted by name."
+msgstr "Narito ang lahat ng miyembro na may palayaw, pinagsunod-sunod ayon sa pangalan."
+
+#: Extensions/Commands/Information/information.py:14
+msgid "Informative commands about a wide variety of things.\n"
+"            Sometimes you find out new things рџ¤·"
+msgstr ""
+
+#: Extensions/Commands/Information/information.py:28
+msgid "Information"
+msgstr "Impormasyon"
+
+#: Extensions/Commands/Information/invite/__init__.py:39
+msgid "Invite the bot to your server.\n\n"
+"            Of course, you can also simply add the bot via its user profile."
+msgstr "Imbitahan ang bot sa iyong server.\n\n"
+
+#: Extensions/Commands/Information/invite/invite.py:14
+#: Extensions/Commands/Information/invite/testing.py:14
+msgid "The Shake Team and I thank you for your interest"
+msgstr "Ang Shake Team at ako ay nagpapasalamat sa iyong interes"
+
+#: Extensions/Commands/Information/invite/invite.py:34
+#: Extensions/Commands/Information/invite/testing.py:34
+#: Extensions/Commands/Information/plus/plus.py:56
+#: Extensions/Commands/Information/plus/testing.py:56
+msgid "Add Shake to your server"
+msgstr "Idagdag ang Shake sa iyong server"
+
+#: Extensions/Commands/Information/invite/invite.py:42
+#: Extensions/Commands/Information/invite/testing.py:42
+msgid "Join Shake's Server"
+msgstr "Sumali sa Shake's Server"
+
+#: Extensions/Commands/Information/list/__init__.py:35
+msgid "list all guilds"
+msgstr "ilista ang lahat ng mga guild"
+
+#: Extensions/Commands/Information/list/list.py:20
+#: Extensions/Commands/Information/list/testing.py:20
+msgid "Current Guilds"
+msgstr "Kasalukuyang Guild"
+
+#: Extensions/Commands/Information/list/list.py:22
+#: Extensions/Commands/Information/list/testing.py:22
+#, python-brace-format
+msgid "I'm currently in `{guilds}` guilds & this one is in top **{current}**."
+msgstr "Ako ay kasalukuyang nasa `{guilds}` guilds"
+
+#: Extensions/Commands/Information/list/list.py:42
+#: Extensions/Commands/Information/list/testing.py:42
+#, python-brace-format
+msgid "**ID**: `{id}` **OWNER**: `{owner}` **MEMBERS**: `{members}`"
+msgstr ""
+
+#: Extensions/Commands/Information/ping/__init__.py:33
+msgid "Get some ping"
+msgstr ""
+
+#: Extensions/Commands/Information/ping/ping.py:16
+#: Extensions/Commands/Information/ping/testing.py:16
+msgid "Waiting for the \"Pong! рџЏ“\""
+msgstr ""
+
+#: Extensions/Commands/Information/ping/ping.py:45
+#: Extensions/Commands/Information/ping/testing.py:45
+msgid "Pong! рџЏ“"
+msgstr ""
+
+#: Extensions/Commands/Information/ping/ping.py:48
+#: Extensions/Commands/Information/ping/testing.py:48
+msgid "Discord Gateway"
+msgstr ""
+
+#: Extensions/Commands/Information/ping/ping.py:52
+#: Extensions/Commands/Information/ping/testing.py:52
+msgid "Discord Typing"
+msgstr ""
+
+#: Extensions/Commands/Information/ping/ping.py:56
+#: Extensions/Commands/Information/ping/testing.py:56
+msgid "Discord Messaging"
+msgstr ""
+
+#: Extensions/Commands/Information/ping/ping.py:60
+#: Extensions/Commands/Information/ping/testing.py:60
+msgid "Postgres Database"
+msgstr ""
+
+#: Extensions/Commands/Information/ping/ping.py:64
+#: Extensions/Commands/Information/ping/testing.py:64
+msgid "Average Latency"
+msgstr ""
+
+#: Extensions/Commands/Information/ping/ping.py:79
+#: Extensions/Commands/Information/ping/testing.py:79
+msgid "Discord Status"
+msgstr ""
+
+#: Extensions/Commands/Information/plus/__init__.py:41
+msgid "Get information about Shake+.\n\n"
+"            Of course, you dont need it tho. It's like a tip"
+msgstr ""
+
+#: Extensions/Commands/Information/plus/plus.py:14
+#: Extensions/Commands/Information/plus/testing.py:14
+msgid "> Shake Plus (Shake+)"
+msgstr ""
+
+#: Extensions/Commands/Information/plus/plus.py:16
+#: Extensions/Commands/Information/plus/testing.py:16
+#, python-brace-format
+msgid "{emoji} This Discord server has no premium activated."
+msgstr ""
+
+#: Extensions/Commands/Information/plus/plus.py:21
+#: Extensions/Commands/Information/plus/testing.py:21
+#, python-brace-format
+msgid "{emoji} The benefit of supporting Shake as Patreon"
+msgstr ""
+
+#: Extensions/Commands/Information/plus/plus.py:25
+#: Extensions/Commands/Information/plus/testing.py:25
+msgid "Supporting the Bot as Patreon will keep the motivation for the development of Shake and make sure that all hosting costs are covered.\n\n"
+"                Plus makes **voting no longer necessary** and gives you **more creator channel** to customize! \n"
+"                "
+msgstr ""
+
+#: Extensions/Commands/Information/plus/plus.py:33
+#: Extensions/Commands/Information/plus/testing.py:33
+#, python-brace-format
+msgid "{emoji} Helpful links for understanding Patreon"
+msgstr ""
+
+#: Extensions/Commands/Information/plus/plus.py:38
+#: Extensions/Commands/Information/plus/testing.py:38
+msgid "[What is Patreon?](https://support.patreon.com/hc/articles/204606315-What-is-Patreon-)\n"
+"                [What currencies does Patreon support?](https://support.patreon.com/hc/articles/360039589091-Patreon-s-supported-currencies)\n"
+"                [How do I connect Discord to Patreon?](https://support.patreon.com/hc/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-)"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/__init__.py:43
+msgid "Get information about a specific server.\n"
+"            \n"
+"            This command will show you some information about a server.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guild: Optional[str]\n"
+"                the guild name or id to get information about"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:69
+#: Extensions/Commands/Information/serverinfo/testing.py:69
+msgid "Servers's icon"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:70
+#: Extensions/Commands/Information/serverinfo/testing.py:70
+msgid "Servers's splash"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:71
+#: Extensions/Commands/Information/serverinfo/testing.py:71
+msgid "Server's discovery splash"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:72
+#: Extensions/Commands/Information/serverinfo/testing.py:72
+msgid "Servers's banner"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:117
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:675
+#: Extensions/Commands/Information/serverinfo/testing.py:117
+#: Extensions/Commands/Information/serverinfo/testing.py:675
+#: Extensions/Commands/Information/userinfo/testing.py:218
+#: Extensions/Commands/Information/userinfo/userinfo.py:168
+msgid "Roles"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:125
+#: Extensions/Commands/Information/serverinfo/testing.py:125
+#: Extensions/Commands/Information/userinfo/testing.py:226
+#: Extensions/Commands/Information/userinfo/userinfo.py:176
+msgid "Server Roles"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:136
+#: Extensions/Commands/Information/serverinfo/testing.py:136
+#: Extensions/Commands/Information/userinfo/testing.py:237
+#: Extensions/Commands/Information/userinfo/userinfo.py:187
+msgid "Colour"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:138
+#: Extensions/Commands/Information/serverinfo/testing.py:138
+#: Extensions/Commands/Information/userinfo/testing.py:239
+#: Extensions/Commands/Information/userinfo/userinfo.py:189
+msgid "Default"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:147
+#: Extensions/Commands/Information/serverinfo/testing.py:147
+#: Extensions/Commands/Information/userinfo/testing.py:248
+#: Extensions/Commands/Information/userinfo/userinfo.py:198
+#, python-brace-format
+msgid "Page {page}/{pages} (Total of {items} Roles)"
+msgstr "Pahina {page}/{pages} (Kabuuan ng {items} Tungkulin)"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:172
+#: Extensions/Commands/Information/serverinfo/testing.py:172
+#: Extensions/Commands/Information/userinfo/testing.py:282
+#: Extensions/Commands/Information/userinfo/userinfo.py:232
+msgid "Avatar/Banner"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:195
+#: Extensions/Commands/Information/serverinfo/testing.py:195
+#: Extensions/Commands/Information/userinfo/testing.py:305
+#: Extensions/Commands/Information/userinfo/userinfo.py:255
+#, python-brace-format
+msgid "Open link: {links}"
+msgstr "Buksan ang link: {links}"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:201
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:578
+#: Extensions/Commands/Information/serverinfo/testing.py:201
+#: Extensions/Commands/Information/serverinfo/testing.py:578
+#: Extensions/Commands/Information/userinfo/testing.py:312
+#: Extensions/Commands/Information/userinfo/testing.py:885
+#: Extensions/Commands/Information/userinfo/testing.py:948
+#: Extensions/Commands/Information/userinfo/userinfo.py:262
+#: Extensions/Commands/Information/userinfo/userinfo.py:835
+#: Extensions/Commands/Information/userinfo/userinfo.py:898
+#, python-brace-format
+msgid "Page {page} of {pages}"
+msgstr "Pahina {page} ng {pages}"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:220
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:676
+#: Extensions/Commands/Information/serverinfo/testing.py:220
+#: Extensions/Commands/Information/serverinfo/testing.py:676
+msgid "Emojis"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:228
+#: Extensions/Commands/Information/serverinfo/testing.py:228
+msgid "Server Emojis"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:235
+#: Extensions/Commands/Information/serverinfo/testing.py:235
+msgid "Twitch"
+msgstr "Kumibot"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:235
+#: Extensions/Commands/Information/serverinfo/testing.py:235
+msgid "No"
+msgstr "Hindi"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:236
+#: Extensions/Commands/Information/serverinfo/testing.py:236
+msgid "Added"
+msgstr "Idinagdag"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:249
+#: Extensions/Commands/Information/serverinfo/testing.py:249
+#, python-brace-format
+msgid "Page {page} of {pages} (Total of {items} Emojis)"
+msgstr "Pahina {page} ng {pages} (Kabuuan ng {items} Emojis)"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:266
+#: Extensions/Commands/Information/serverinfo/testing.py:266
+msgid "Nitro Booster"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:283
+#: Extensions/Commands/Information/serverinfo/testing.py:283
+msgid "Server Nitro Booster"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:286
+#: Extensions/Commands/Information/serverinfo/testing.py:286
+#, python-brace-format
+msgid "Page {page} of {pages} (Total of {items} Booster)"
+msgstr "Pahina {page} ng {pages} (Kabuuan ng {items} Booster)"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:333
+#: Extensions/Commands/Information/serverinfo/testing.py:333
+#, python-brace-format
+msgid "{categories} Categorie-, {voices} Voice-, {stages} Stage-, {forums} Forum- and {texts} Textchannel with {threads} Threads"
+msgstr "{categories} Categorie-, {voices} Voice-, {stages} Stage-, {forums} Forum- and {texts} Textchannel na may {threads} Threads"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:342
+#: Extensions/Commands/Information/serverinfo/testing.py:342
+msgid "Server Channels"
+msgstr "Mga Channel ng Server"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:360
+#: Extensions/Commands/Information/serverinfo/testing.py:360
+msgid "NO CAT"
+msgstr "WALANG PUSA"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:366
+#: Extensions/Commands/Information/serverinfo/testing.py:366
+#, python-brace-format
+msgid "Page {page} of {pages} (Total of {items} Channels)"
+msgstr "Pahina {page} ng {pages} (Kabuuan ng {items} Channels)"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:382
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:637
+#: Extensions/Commands/Information/serverinfo/testing.py:382
+#: Extensions/Commands/Information/serverinfo/testing.py:637
+msgid "Members"
+msgstr "Mga miyembro"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:391
+#: Extensions/Commands/Information/serverinfo/testing.py:391
+msgid "Server Members"
+msgstr "Mga Miyembro ng Server"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:397
+#: Extensions/Commands/Information/serverinfo/testing.py:397
+msgid "Total Members"
+msgstr "Kabuuang Miyembro"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:400
+#: Extensions/Commands/Information/serverinfo/testing.py:400
+msgid "Total Humans"
+msgstr "Kabuuang Tao"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:405
+#: Extensions/Commands/Information/serverinfo/testing.py:405
+msgid "Total Bots"
+msgstr "Kabuuang Mga Bot"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:410
+#: Extensions/Commands/Information/serverinfo/testing.py:410
+msgid "Total Online"
+msgstr "Kabuuang Online"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:415
+#: Extensions/Commands/Information/serverinfo/testing.py:415
+msgid "Humans Online"
+msgstr "Mga Tao Online"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:420
+#: Extensions/Commands/Information/serverinfo/testing.py:420
+msgid "Bots Online"
+msgstr "Mga Bot Online"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:425
+#: Extensions/Commands/Information/serverinfo/testing.py:425
+msgid "Total Idle"
+msgstr "Kabuuang Idle"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:430
+#: Extensions/Commands/Information/serverinfo/testing.py:430
+msgid "Humans Idle"
+msgstr "Mga Tao Idle"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:435
+#: Extensions/Commands/Information/serverinfo/testing.py:435
+msgid "Bots Idle"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:440
+#: Extensions/Commands/Information/serverinfo/testing.py:440
+msgid "Total DND"
+msgstr "Kabuuang DND"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:445
+#: Extensions/Commands/Information/serverinfo/testing.py:445
+msgid "Humans DND"
+msgstr "Mga Tao DND"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:450
+#: Extensions/Commands/Information/serverinfo/testing.py:450
+msgid "Bots DND"
+msgstr ""
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:455
+#: Extensions/Commands/Information/serverinfo/testing.py:455
+msgid "Total Offline"
+msgstr "Kabuuang Offline"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:460
+#: Extensions/Commands/Information/serverinfo/testing.py:460
+msgid "Humans Offline"
+msgstr "Mga Tao Offline"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:465
+#: Extensions/Commands/Information/serverinfo/testing.py:465
+msgid "Bots Offline"
+msgstr "Mga Bot Offline"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:496
+#: Extensions/Commands/Information/serverinfo/testing.py:496
+#: Extensions/Commands/Information/userinfo/testing.py:454
+#: Extensions/Commands/Information/userinfo/testing.py:1060
+#: Extensions/Commands/Information/userinfo/userinfo.py:404
+#: Extensions/Commands/Information/userinfo/userinfo.py:1010
+msgid "Badges"
+msgstr "Mga Badge"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:502
+#: Extensions/Commands/Information/serverinfo/testing.py:502
+msgid "Server Member Badges"
+msgstr "Mga Badge ng Miyembro ng Server"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:546
+#: Extensions/Commands/Information/serverinfo/testing.py:546
+#: Extensions/Commands/Information/userinfo/testing.py:911
+#: Extensions/Commands/Information/userinfo/userinfo.py:861
+msgid "Activities"
+msgstr "Mga Aktibidad"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:556
+#: Extensions/Commands/Information/serverinfo/testing.py:556
+msgid "Server Activities"
+msgstr "Mga Aktibidad ng Server"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:570
+#: Extensions/Commands/Information/serverinfo/testing.py:570
+#, python-brace-format
+msgid "Top {index} Activity ({type})"
+msgstr "Nangungunang {index} na Aktibidad ({type})"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:646
+#: Extensions/Commands/Information/serverinfo/testing.py:646
+msgid "Servers's position"
+msgstr "Posisyon ng mga server"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:674
+#: Extensions/Commands/Information/serverinfo/testing.py:674
+msgid "Owner"
+msgstr "May-ari"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:677
+#: Extensions/Commands/Information/serverinfo/testing.py:677
+msgid "Stickers"
+msgstr "Mga sticker"
+
+#: Extensions/Commands/Information/serverinfo/serverinfo.py:679
+#: Extensions/Commands/Information/serverinfo/testing.py:679
+msgid "Boost"
+msgstr "Palakasin"
+
+#: Extensions/Commands/Information/stats/__init__.py:61
+msgid "Get some basic information and statistics about me.\n"
+"            \n"
+"            very useful to stalk"
+msgstr "Kumuha ng ilang pangunahing impormasyon at istatistika tungkol sa akin.\n"
+
+#: Extensions/Commands/Information/stats/stats.py:71
+#: Extensions/Commands/Information/stats/stats.py:139
+#: Extensions/Commands/Information/stats/testing.py:71
+#: Extensions/Commands/Information/stats/testing.py:139
+#: Extensions/Commands/Information/userinfo/testing.py:967
+#: Extensions/Commands/Information/userinfo/userinfo.py:917
+msgid "Bot"
+msgstr ""
+
+#: Extensions/Commands/Information/stats/stats.py:80
+#: Extensions/Commands/Information/stats/testing.py:80
+msgid "Bot Info"
+msgstr "Impormasyon ng Bot"
+
+#: Extensions/Commands/Information/stats/stats.py:83
+#: Extensions/Commands/Information/stats/testing.py:83
+msgid "Started"
+msgstr "Nagsimula"
+
+#: Extensions/Commands/Information/stats/stats.py:85
+#: Extensions/Commands/Information/stats/testing.py:85
+msgid "Ping"
+msgstr ""
+
+#: Extensions/Commands/Information/stats/stats.py:91
+#: Extensions/Commands/Information/stats/testing.py:91
+msgid "Lines of Code"
+msgstr "Mga Linya ng Kodigo"
+
+#: Extensions/Commands/Information/stats/stats.py:96
+#: Extensions/Commands/Information/stats/testing.py:96
+msgid "Servers"
+msgstr "Mga Server"
+
+#: Extensions/Commands/Information/stats/stats.py:103
+#: Extensions/Commands/Information/stats/testing.py:103
+msgid "Users"
+msgstr "Mga Gumagamit"
+
+#: Extensions/Commands/Information/stats/stats.py:110
+#: Extensions/Commands/Information/stats/stats.py:205
+#: Extensions/Commands/Information/stats/testing.py:110
+#: Extensions/Commands/Information/stats/testing.py:205
+msgid "Commands"
+msgstr "Mga Utos"
+
+#: Extensions/Commands/Information/stats/stats.py:127
+#: Extensions/Commands/Information/stats/testing.py:127
+msgid "System"
+msgstr "Sistema"
+
+#: Extensions/Commands/Information/stats/stats.py:136
+#: Extensions/Commands/Information/stats/testing.py:136
+msgid "System Info"
+msgstr "Impormasyon ng System"
+
+#: Extensions/Commands/Information/stats/stats.py:146
+#: Extensions/Commands/Information/stats/testing.py:146
+msgid "Python version"
+msgstr "Bersyon ng Python"
+
+#: Extensions/Commands/Information/stats/stats.py:153
+#: Extensions/Commands/Information/stats/testing.py:153
+msgid "Library version"
+msgstr "Bersyon ng aklatan"
+
+#: Extensions/Commands/Information/stats/stats.py:175
+#: Extensions/Commands/Information/stats/testing.py:175
+msgid "Memory Usage"
+msgstr "Paggamit ng Memorya"
+
+#: Extensions/Commands/Information/stats/stats.py:180
+#: Extensions/Commands/Information/stats/testing.py:180
+msgid "CPU Usage"
+msgstr "Paggamit ng CPU"
+
+#: Extensions/Commands/Information/stats/stats.py:185
+#: Extensions/Commands/Information/stats/testing.py:185
+msgid "Plattform"
+msgstr "Platform"
+
+#: Extensions/Commands/Information/stats/stats.py:220
+#: Extensions/Commands/Information/stats/testing.py:220
+msgid "Most used commands"
+msgstr "Karamihan sa ginagamit na mga utos"
+
+#: Extensions/Commands/Information/stats/stats.py:256
+#: Extensions/Commands/Information/stats/testing.py:256
+msgid "Shake Statistics Overview"
+msgstr "Pangkalahatang-ideya ng Mga Istatistika ng Shake"
+
+#: Extensions/Commands/Information/stats/stats.py:259
+#: Extensions/Commands/Information/stats/testing.py:259
+msgid "Support Server Link"
+msgstr "Link ng Server ng Suporta"
+
+#: Extensions/Commands/Information/stats/stats.py:261
+#: Extensions/Commands/Information/stats/testing.py:261
+msgid "Shake Invition Link"
+msgstr "Iling ang Link ng Imbitasyon"
+
+#: Extensions/Commands/Information/stats/stats.py:269
+#: Extensions/Commands/Information/stats/testing.py:269
+msgid "Developer"
+msgstr "Nag-develop"
+
+#: Extensions/Commands/Information/stats/stats.py:277
+#: Extensions/Commands/Information/stats/testing.py:277
+msgid "Bot name"
+msgstr "Pangalan ng bot"
+
+#: Extensions/Commands/Information/stats/stats.py:281
+#: Extensions/Commands/Information/stats/testing.py:281
+msgid "Bot ID"
+msgstr ""
+
+#: Extensions/Commands/Information/stats/stats.py:289
+#: Extensions/Commands/Information/stats/testing.py:289
+msgid "Bot creation"
+msgstr "Paglikha ng bot"
+
+#: Extensions/Commands/Information/userinfo/__init__.py:56
+msgid "Get information about you or a specified user.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            user: Optional[Member | User]\n"
+"                @mention, ID or name of the user you want to get information about."
+msgstr "Kumuha ng impormasyon tungkol sa iyo o sa isang tinukoy na user.\n"
+
+#: Extensions/Commands/Information/userinfo/testing.py:60
+msgid "Uses"
+msgstr "Mga gamit"
+
+#: Extensions/Commands/Information/userinfo/testing.py:62
+msgid "Total"
+msgstr "Kabuuan"
+
+#: Extensions/Commands/Information/userinfo/testing.py:74
+#, python-brace-format
+msgid "Total uses: {total_uses}"
+msgstr "Kabuuang gamit: {total_uses}"
+
+#: Extensions/Commands/Information/userinfo/testing.py:78
+#, python-brace-format
+msgid "Top {top} member:"
+msgstr "Nangungunang {top} na miyembro:"
+
+#: Extensions/Commands/Information/userinfo/testing.py:270
+#: Extensions/Commands/Information/userinfo/userinfo.py:220
+msgid "User's Avatar"
+msgstr "Avatar ng User"
+
+#: Extensions/Commands/Information/userinfo/testing.py:272
+#: Extensions/Commands/Information/userinfo/userinfo.py:222
+msgid "User's Display Avatar"
+msgstr "Display Avatar ng User"
+
+#: Extensions/Commands/Information/userinfo/testing.py:274
+#: Extensions/Commands/Information/userinfo/userinfo.py:224
+msgid "User's Guild Avatar"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:275
+#: Extensions/Commands/Information/userinfo/userinfo.py:225
+msgid "User's Banner"
+msgstr "Banner ng Gumagamit"
+
+#: Extensions/Commands/Information/userinfo/testing.py:337
+#: Extensions/Commands/Information/userinfo/userinfo.py:287
+msgid "Mutual Servers"
+msgstr "Mga Mutual Server"
+
+#: Extensions/Commands/Information/userinfo/testing.py:348
+#: Extensions/Commands/Information/userinfo/userinfo.py:298
+#, python-brace-format
+msgid "Guild {page} of {pages}"
+msgstr "Guild {page} ng {pages}"
+
+#: Extensions/Commands/Information/userinfo/testing.py:373
+#: Extensions/Commands/Information/userinfo/testing.py:381
+#: Extensions/Commands/Information/userinfo/userinfo.py:323
+#: Extensions/Commands/Information/userinfo/userinfo.py:331
+msgid "Joining Postition"
+msgstr "Pagsali sa Posisyon"
+
+#: Extensions/Commands/Information/userinfo/testing.py:384
+#: Extensions/Commands/Information/userinfo/userinfo.py:334
+msgid "Member's position"
+msgstr "Posisyon ng miyembro"
+
+#: Extensions/Commands/Information/userinfo/testing.py:401
+#: Extensions/Commands/Information/userinfo/userinfo.py:351
+msgid "Joined on"
+msgstr "Sumali sa"
+
+#: Extensions/Commands/Information/userinfo/testing.py:440
+#: Extensions/Commands/Information/userinfo/userinfo.py:390
+#, python-brace-format
+msgid "Total of {items} Members"
+msgstr "Kabuuan ng {items} na Miyembro"
+
+#: Extensions/Commands/Information/userinfo/testing.py:463
+#: Extensions/Commands/Information/userinfo/userinfo.py:413
+msgid "User Badges"
+msgstr "Mga Badge ng User"
+
+#: Extensions/Commands/Information/userinfo/testing.py:493
+#: Extensions/Commands/Information/userinfo/userinfo.py:443
+msgid "Counting"
+msgstr "Nagbibilang"
+
+#: Extensions/Commands/Information/userinfo/testing.py:546
+#: Extensions/Commands/Information/userinfo/userinfo.py:496
+msgid "Counting stats"
+msgstr "Nagbibilang ng mga istatistika"
+
+#: Extensions/Commands/Information/userinfo/testing.py:549
+#: Extensions/Commands/Information/userinfo/testing.py:667
+#: Extensions/Commands/Information/userinfo/userinfo.py:499
+#: Extensions/Commands/Information/userinfo/userinfo.py:617
+#, python-brace-format
+msgid "{user} scored a total of {score} valid counts (#{placement})"
+msgstr "{user} ay nakakuha ng kabuuang {score} mga wastong bilang ("
+
+#: Extensions/Commands/Information/userinfo/testing.py:559
+#: Extensions/Commands/Information/userinfo/testing.py:677
+#: Extensions/Commands/Information/userinfo/testing.py:790
+#: Extensions/Commands/Information/userinfo/userinfo.py:509
+#: Extensions/Commands/Information/userinfo/userinfo.py:627
+#: Extensions/Commands/Information/userinfo/userinfo.py:740
+msgid "Total passed"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:571
+#: Extensions/Commands/Information/userinfo/testing.py:689
+#: Extensions/Commands/Information/userinfo/testing.py:802
+#: Extensions/Commands/Information/userinfo/userinfo.py:521
+#: Extensions/Commands/Information/userinfo/userinfo.py:639
+#: Extensions/Commands/Information/userinfo/userinfo.py:752
+msgid "Total failed"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:583
+#: Extensions/Commands/Information/userinfo/testing.py:701
+#: Extensions/Commands/Information/userinfo/testing.py:814
+#: Extensions/Commands/Information/userinfo/userinfo.py:533
+#: Extensions/Commands/Information/userinfo/userinfo.py:651
+#: Extensions/Commands/Information/userinfo/userinfo.py:764
+msgid "Total rate"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:592
+#: Extensions/Commands/Information/userinfo/testing.py:708
+#: Extensions/Commands/Information/userinfo/testing.py:821
+#: Extensions/Commands/Information/userinfo/userinfo.py:542
+#: Extensions/Commands/Information/userinfo/userinfo.py:658
+#: Extensions/Commands/Information/userinfo/userinfo.py:771
+msgid "Total last played"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:605
+#: Extensions/Commands/Information/userinfo/userinfo.py:555
+msgid "Total highest count"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:609
+#: Extensions/Commands/Information/userinfo/testing.py:719
+#: Extensions/Commands/Information/userinfo/testing.py:839
+#: Extensions/Commands/Information/userinfo/userinfo.py:559
+#: Extensions/Commands/Information/userinfo/userinfo.py:669
+#: Extensions/Commands/Information/userinfo/userinfo.py:789
+msgid "Information can update with time"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:623
+#: Extensions/Commands/Information/userinfo/userinfo.py:573
+msgid "OneWord"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:660
+#: Extensions/Commands/Information/userinfo/userinfo.py:610
+msgid "OneWord stats"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:733
+#: Extensions/Commands/Information/userinfo/userinfo.py:683
+msgid "AboveMe"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:773
+#: Extensions/Commands/Information/userinfo/userinfo.py:723
+msgid "AboveMe stats"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:780
+#: Extensions/Commands/Information/userinfo/userinfo.py:730
+#, python-brace-format
+msgid "{user} scored a total of {score} valid phrases (#{placement})"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:834
+#: Extensions/Commands/Information/userinfo/userinfo.py:784
+msgid "Total longest sentance"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:861
+#: Extensions/Commands/Information/userinfo/userinfo.py:811
+msgid "Permissions"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:869
+#: Extensions/Commands/Information/userinfo/userinfo.py:819
+msgid "Members server permissions"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:919
+#: Extensions/Commands/Information/userinfo/userinfo.py:869
+msgid "Member Activities"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:931
+#: Extensions/Commands/Information/userinfo/userinfo.py:881
+#, python-brace-format
+msgid "to {name} by {author} on Spotify"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:973
+#: Extensions/Commands/Information/userinfo/userinfo.py:923
+msgid "Discord System"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:979
+#: Extensions/Commands/Information/userinfo/userinfo.py:929
+msgid "Member"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1001
+#: Extensions/Commands/Information/userinfo/userinfo.py:951
+msgid "online"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1002
+#: Extensions/Commands/Information/userinfo/userinfo.py:952
+msgid "offline"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1003
+#: Extensions/Commands/Information/userinfo/userinfo.py:953
+msgid "streaming"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1004
+#: Extensions/Commands/Information/userinfo/userinfo.py:954
+msgid "idle"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1005
+#: Extensions/Commands/Information/userinfo/userinfo.py:955
+msgid "dnd"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1011
+#: Extensions/Commands/Information/userinfo/userinfo.py:961
+msgid "Status"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1016
+#: Extensions/Commands/Information/userinfo/userinfo.py:966
+msgid "Top Role"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1020
+#: Extensions/Commands/Information/userinfo/userinfo.py:970
+msgid "Server Owner"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1050
+#: Extensions/Commands/Information/userinfo/userinfo.py:1000
+msgid "Display name"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1051
+#: Extensions/Commands/Information/userinfo/userinfo.py:1001
+msgid "#Tag"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1052
+#: Extensions/Commands/Information/userinfo/userinfo.py:1002
+msgid "Migrated to username"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1057
+#: Extensions/Commands/Information/userinfo/userinfo.py:1007
+msgid "Shared Servers"
+msgstr ""
+
+#: Extensions/Commands/Information/userinfo/testing.py:1058
+#: Extensions/Commands/Information/userinfo/userinfo.py:1008
+msgid "None"
+msgstr ""
+
+#: Extensions/Commands/Information/vote/__init__.py:36
+msgid "Get information about Shake+.\n\n"
+"            Of course, you dont have to. It's like a tip"
+msgstr ""
+
+#: Extensions/Commands/Information/vote/testing.py:15
+#: Extensions/Commands/Information/vote/vote.py:15
+msgid "> Help Shake on its way (Vote)"
+msgstr ""
+
+#: Extensions/Commands/Information/vote/testing.py:18
+#: Extensions/Commands/Information/vote/vote.py:18
+#, python-brace-format
+msgid "{emoji} The benefit of supporting Shake with Voting"
+msgstr ""
+
+#: Extensions/Commands/Information/vote/testing.py:24
+#: Extensions/Commands/Information/vote/vote.py:24
+msgid "Supporting the Bot with a Vote will keep the motivation for the development of Shake, increases it's visibility and helps others discover Shake too."
+msgstr ""
+
+#: Extensions/Commands/Information/vote/testing.py:31
+#: Extensions/Commands/Information/vote/vote.py:31
+#, python-brace-format
+msgid "{emoji} Sites I am listed at"
+msgstr ""
+
+#: Extensions/Commands/Information/vote/testing.py:47
+#: Extensions/Commands/Information/vote/vote.py:47
+#, python-brace-format
+msgid "{emoji} Other related links"
+msgstr ""
+
+#: Extensions/Commands/Information/vote/testing.py:69
+#: Extensions/Commands/Information/vote/vote.py:69
+msgid "Vote for Shake"
+msgstr "Bumoto para sa Shake"
+
+#: Extensions/Commands/Inviting/invites/__init__.py:36
+msgid "See the users amount of invites.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: discord.Member\n"
+"                the member\n"
+"            "
+msgstr "Tingnan ang dami ng mga imbitasyon ng mga user.\n\n"
+
+#: Extensions/Commands/Inviting/inviting.py:14
+msgid "Useful Commands to track invites and and get some members with these"
+msgstr "Mga Kapaki-pakinabang na Utos upang subaybayan ang mga imbitasyon at at makuha ang ilang miyembro ng mga ito"
+
+#: Extensions/Commands/Inviting/inviting.py:26
+msgid "Inviting"
+msgstr "Nag-aanyaya"
+
+#: Extensions/Commands/Moderation/kick/__init__.py:46
+msgid "kicks a member\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: Greedy[discord.Member]\n"
+"                the member(s) to kick\n"
+"                \n"
+"            reason: Optional[str]\n"
+"                the reason why you kicked the member(s)\n"
+"                "
+msgstr "sipa sa isang miyembro\n\n"
+
+#: Extensions/Commands/Moderation/kick/kick.py:17
+#: Extensions/Commands/Moderation/kick/testing.py:17
+#: Extensions/Commands/Moderation/timeout/testing.py:19
+#: Extensions/Commands/Moderation/timeout/timeout.py:19
+msgid "No reason provided"
+msgstr "Walang ibinigay na dahilan"
+
+#: Extensions/Commands/Moderation/kick/kick.py:32
+#: Extensions/Commands/Moderation/kick/testing.py:32
+msgid "The specified member(s) got successfully kicked"
+msgstr "Ang tinukoy na (mga) miyembro ay matagumpay na nasipa"
+
+#: Extensions/Commands/Moderation/moderation.py:13
+msgid "Moderation related commands.\n"
+"            (Each of these commands requires certain authorization)."
+msgstr "Mga utos na nauugnay sa pagmo-moderate.\n"
+
+#: Extensions/Commands/Moderation/moderation.py:23
+msgid "Moderation"
+msgstr "Pag-moderate"
+
+#: Extensions/Commands/Moderation/timeout/__init__.py:59
+msgid "Puts member(s) in the timeout of a given time (default 1h)\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            member: Greedy[discord.Member]\n"
+"                the member(s) to timeout\n\n"
+"            time: DurationDelta\n"
+"                the time you want to timeout the member(s)\n"
+"                \n"
+"            reason: Optional[str]\n"
+"                the reason why you put the member(s) in the timeout\n"
+"                "
+msgstr "Inilalagay ang (mga) miyembro sa timeout ng isang partikular na oras (default 1h)\n\n"
+
+#: Extensions/Commands/Moderation/timeout/testing.py:39
+#: Extensions/Commands/Moderation/timeout/timeout.py:39
+msgid "The specified members were successfully muted"
+msgstr "Ang mga tinukoy na miyembro ay matagumpay na na-mute"
+
+#: Extensions/Commands/NotSafeForWork/nsfw/__init__.py:36
+msgid "Find NSFW content for predefined tags.\n\n"
+"            This command let you find a amount of posts of NSFW content that you wanted.\n"
+"            NSFW: Not Safe For Work\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            command: str\n"
+"                The NSFW command you want to run.\n\n"
+"            amount: Optional[int]\n"
+"                Amount of posts from 1 to 20 (or 30 with Shake+)."
+msgstr "Humanap ng nilalamang NSFW para sa mga paunang natukoy na tag.\n\n"
+
+#: Extensions/Commands/Other/do/__init__.py:35
+msgid "run commands multiple times"
+msgstr "magpatakbo ng mga utos nang maraming beses"
+
+#: Extensions/Commands/Other/language/__init__.py:108
+#, python-brace-format
+msgid "Set your language for Shake.\n"
+"            Full list of available languages can be found with `{prefix}language`\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            language: str\n"
+"                The locale code of the language you want to set\n"
+"            \n"
+"            server: Optional[bool]\n"
+"                If the language should be set for the whole server"
+msgstr "Itakda ang iyong wika para sa Shake.\n"
+
+#: Extensions/Commands/Other/language/__init__.py:153
+msgid "Display a list of availible languages and locale codes.\n"
+"            \n"
+"            You can check if your language is available by comparing against [this list](https://saimana.com/list-of-country-locale-code/)\n"
+"            Some of these languages are no real languages but serve as a way to spice up the text.\n"
+"            (If something is not yet translated, the english original text is used.)"
+msgstr "Magpakita ng listahan ng mga magagamit na wika at lokal na code.\n"
+
+#: Extensions/Commands/Other/language/language.py:34
+#: Extensions/Commands/Other/language/testing.py:34
+msgid "Your given language is not valid."
+msgstr "Ang iyong ibinigay na wika ay hindi wasto."
+
+#: Extensions/Commands/Other/language/language.py:35
+#: Extensions/Commands/Other/language/testing.py:35
+#, python-brace-format
+msgid "Use {command} to get a list of all available languages"
+msgstr "Gumamit ng {command} upang makakuha ng listahan ng lahat ng magagamit na mga wika"
+
+#: Extensions/Commands/Other/language/language.py:45
+#: Extensions/Commands/Other/language/testing.py:45
+msgid "I'm sorry to say that I dont have your given locale ready."
+msgstr "Ikinalulungkot kong sabihin na hindi ko nakahanda ang iyong ibinigay na lokal."
+
+#: Extensions/Commands/Other/language/language.py:49
+#: Extensions/Commands/Other/language/testing.py:49
+#, python-brace-format
+msgid "Try to contribute [here]({link}) if you want to!"
+msgstr "Subukang mag-ambag [dito]({link}) kung gusto mo!"
+
+#: Extensions/Commands/Other/language/language.py:60
+#: Extensions/Commands/Other/language/testing.py:60
+#, python-brace-format
+msgid "{name} was successfully set as language!"
+msgstr "Matagumpay na naitakda si {name} bilang wika!"
+
+#: Extensions/Commands/Other/language/language.py:79
+#: Extensions/Commands/Other/language/testing.py:79
+msgid "Available Translations"
+msgstr "Mga Magagamit na Pagsasalin"
+
+#: Extensions/Commands/Other/language/language.py:82
+#: Extensions/Commands/Other/language/testing.py:82
+#, python-brace-format
+msgid "There are currently translations for `{languages}` languages\n"
+"and your current language is {current}."
+msgstr "Kasalukuyang may mga pagsasalin para sa mga wikang `{languages}`\n"
+
+#: Extensions/Commands/Other/language/language.py:89
+#: Extensions/Commands/Other/language/testing.py:89
+#, python-brace-format
+msgid "Don't you see your language or is it incomplete?\n"
+"Then come help us out on [Crowdin]({link})!"
+msgstr "Hindi mo ba nakikita ang iyong wika o hindi ito kumpleto?\n"
+
+#: Extensions/Commands/Other/other.py:12
+msgid "Other commands without categories"
+msgstr "Iba pang mga utos na walang mga kategorya"
+
+#: Extensions/Commands/Other/other.py:20
+msgid "Other"
+msgstr "Iba pa"
+
+#: Extensions/Commands/Other/sudo/__init__.py:45
+msgid "execute commands with the rights of another user\n\n"
+"            You can specify who executes this command in which text channel\"\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            channel: Optional[TextChannel]\n"
+"                the channel\n\n"
+"            user: Member | User]\n"
+"                the user\n\n"
+"            command: str\n"
+"                the command\n\n"
+"            arguments: Optional[str]\n"
+"                the arguments\n"
+"            "
+msgstr "isagawa ang mga utos na may mga karapatan ng ibang user\n\n"
+
+#: Extensions/Functions/Commands/command/completion/command_completion.py:33
+#: Extensions/Functions/Commands/command/completion/testing.py:33
+msgid "Enjoying using Shake? I would love it if you </vote:1056920829620924439> for me or share me to your friends!"
+msgstr "Nag-e-enjoy sa paggamit ng Shake? "
+
+#: Extensions/Functions/Commands/command/error/command_error.py:58
+#: Extensions/Functions/Commands/command/error/testing.py:58
+#, python-brace-format
+msgid "I am missing [`{permissions}`](https://support.discord.com/hc/en-us/articles/206029707) permission(s) to run this command."
+msgstr "Nawawalan ako ng (mga) pahintulot na [`{permissions}`](https://support.discord.com/hc/en-us/articles/206029707) na patakbuhin ang command na ito."
+
+#: Extensions/Functions/Commands/command/error/command_error.py:63
+#: Extensions/Functions/Commands/command/error/testing.py:63
+msgid "Either this server does not exist or I am not on it."
+msgstr "Maaaring wala ang server na ito o wala ako dito."
+
+#: Extensions/Functions/Commands/command/error/command_error.py:67
+#: Extensions/Functions/Commands/command/error/testing.py:67
+msgid "Either this channel does not exist or I can't see it."
+msgstr "Maaaring wala ang channel na ito o hindi ko ito nakikita."
+
+#: Extensions/Functions/Commands/command/error/command_error.py:71
+#: Extensions/Functions/Commands/command/error/testing.py:71
+#, python-brace-format
+msgid "You did something wrong with the arguments, try {command}"
+msgstr "May ginawa kang mali sa mga argumento, subukan ang {command}"
+
+#: Extensions/Functions/Commands/command/error/command_error.py:80
+#: Extensions/Functions/Commands/command/error/testing.py:80
+#, python-brace-format
+msgid "This type of object does not exist: {self.original.text}"
+msgstr "Walang ganitong uri ng bagay: {self.original.text}"
+
+#: Extensions/Functions/Commands/command/error/command_error.py:86
+#: Extensions/Functions/Commands/command/error/testing.py:86
+msgid "Somehow, an unexpected error occurred. Try again later?"
+msgstr "Kahit papaano, may naganap na hindi inaasahang error. "
+
+#: Extensions/Functions/Commands/command/error/command_error.py:90
+#: Extensions/Functions/Commands/command/error/testing.py:90
+#, python-brace-format
+msgid "You can use this command in {retry} seconds."
+msgstr "Maaari mong gamitin ang utos na ito sa {retry} segundo."
+
+#: Extensions/Functions/Commands/command/error/command_error.py:96
+#: Extensions/Functions/Commands/command/error/testing.py:96
+#, python-brace-format
+msgid "Only the bot owner can run the command `{command}`."
+msgstr "Tanging ang may-ari ng bot ang maaaring magpatakbo ng command na `{command}`."
+
+#: Extensions/Functions/Commands/command/error/command_error.py:101
+#: Extensions/Functions/Commands/command/error/testing.py:101
+#, python-brace-format
+msgid "You are missing `{permission}` permission(s) to run this command."
+msgstr "Nawawalan ka ng pahintulot (mga) `{permission}` na patakbuhin ang command na ito."
+
+#: Extensions/Functions/Commands/command/error/command_error.py:106
+#: Extensions/Functions/Commands/command/error/testing.py:106
+#, python-brace-format
+msgid "You typed in some bad arguments, try {command}"
+msgstr "Nag-type ka ng ilang masamang argumento, subukan ang {command}"
+
+#: Extensions/Functions/Commands/command/error/command_error.py:111
+#: Extensions/Functions/Commands/command/error/testing.py:111
+msgid "Something wrong happened"
+msgstr "May nangyaring mali"
+
+#: Extensions/Functions/Commands/command/error/command_error.py:133
+#: Extensions/Functions/Commands/command/error/testing.py:133
+#, python-brace-format
+msgid "No command named `{invoked}` found. Use {help} for help."
+msgstr "Walang nakitang command na pinangalanang `{invoked}`. "
+
+#: Extensions/Functions/Commands/command/error/command_error.py:141
+#: Extensions/Functions/Commands/command/error/testing.py:141
+#, python-brace-format
+msgid "Nothing named `{invoked}` found. Did you mean {closest}?"
+msgstr "Walang nakitang pinangalanang `{invoked}`. "
+
+#: Extensions/Functions/Commands/command/error/command_error.py:173
+#: Extensions/Functions/Commands/command/error/testing.py:173
+msgid "The error was reported to the Shake-Team!"
+msgstr "Ang pagkakamali ay iniulat sa Shake-Team!"
+
+#: Extensions/Functions/Members/member/join/member_join.py:27
+#: Extensions/Functions/Members/member/join/testing.py:27
+#, python-brace-format
+msgid "Welcome to {guild}"
+msgstr "Maligayang pagdating sa {guild}"
+
+#: Extensions/Functions/Members/member/join/member_join.py:30
+#: Extensions/Functions/Members/member/join/testing.py:30
+msgid "Please send the captcha code here"
+msgstr "Mangyaring ipadala ang captcha code dito"
+
+#: Extensions/Functions/Members/member/join/member_join.py:34
+#: Extensions/Functions/Members/member/join/testing.py:34
+msgid "Hello! You are required to complete a captcha before entering the server.\n"
+"            NOTE: This is not Case Sensitive.\n\n"
+"            Why?\n"
+"            This is to protect the server against\n"
+"            targeted attacks using automated user accounts.\n"
+"            \n"
+"            Your Captcha:"
+msgstr "Kumusta! "
+
+#: Extensions/Functions/Members/member/join/member_join.py:64
+#: Extensions/Functions/Members/member/join/testing.py:64
+#, python-brace-format
+msgid "{emoji} {prefix} Thank you! You have been verified in guild `{guild}`"
+msgstr "{emoji} {prefix} Salamat! "
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:63
+#: Extensions/Functions/Messages/message/aboveme/testing.py:63
+#: Extensions/Functions/Messages/message/counting/counting.py:76
+#: Extensions/Functions/Messages/message/counting/testing.py:76
+#: Extensions/Functions/Messages/message/oneword/oneword.py:76
+#: Extensions/Functions/Messages/message/oneword/testing.py:76
+msgid "You should not write anything other than messages with text content!"
+msgstr "Hindi ka dapat magsulat ng anuman maliban sa mga mensaheng may nilalamang teksto!"
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:148
+#: Extensions/Functions/Messages/message/aboveme/testing.py:148
+msgid "the one above me"
+msgstr "yung nasa itaas ko"
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:204
+#: Extensions/Functions/Messages/message/aboveme/testing.py:204
+msgid "You are not allowed show off multiple numbers in a row."
+msgstr "Hindi ka pinapayagang magpakita ng maraming numero sa isang hilera."
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:210
+#: Extensions/Functions/Messages/message/aboveme/testing.py:210
+#, python-brace-format
+msgid "Your message should start with вЂћ{trigger}вЂњ and should make sense."
+msgstr ""
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:217
+#: Extensions/Functions/Messages/message/aboveme/testing.py:217
+msgid "Your message should be something new"
+msgstr "Dapat ay bago ang iyong mensahe"
+
+#: Extensions/Functions/Messages/message/counting/counting.py:198
+#: Extensions/Functions/Messages/message/counting/testing.py:198
+msgid "You can't use anything but arithmetic here."
+msgstr "Wala kang magagamit dito kundi aritmetika."
+
+#: Extensions/Functions/Messages/message/counting/counting.py:208
+#: Extensions/Functions/Messages/message/counting/testing.py:208
+msgid "You are not allowed to count multiple numbers in a row."
+msgstr "Hindi ka pinapayagang magbilang ng maraming numero sa isang hilera."
+
+#: Extensions/Functions/Messages/message/counting/counting.py:223
+#: Extensions/Functions/Messages/message/counting/testing.py:223
+msgid "You failed to often. No stats have been changed!!"
+msgstr "Madalas kang nabigo. "
+
+#: Extensions/Functions/Messages/message/counting/counting.py:230
+#: Extensions/Functions/Messages/message/counting/testing.py:230
+#, python-brace-format
+msgid "The streak of {streak} was broken!"
+msgstr "Naputol ang streak ng {streak}!"
+
+#: Extensions/Functions/Messages/message/counting/counting.py:232
+#: Extensions/Functions/Messages/message/counting/testing.py:232
+#, python-brace-format
+msgid "You've topped your best streak with {streak} numbers рџ”Ґ"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:240
+#: Extensions/Functions/Messages/message/counting/testing.py:240
+#, python-brace-format
+msgid "Incorrect number! The next number remains {start}. {streak}"
+msgstr "Maling numero! "
+
+#: Extensions/Functions/Messages/message/counting/counting.py:250
+#: Extensions/Functions/Messages/message/counting/testing.py:250
+#, python-brace-format
+msgid "{user} ruined it at {count}. The next number is {start}. {streak}"
+msgstr "Sinira ito ni {user} sa {count}. "
+
+#: Extensions/Functions/Messages/message/counting/counting.py:270
+#: Extensions/Functions/Messages/message/counting/testing.py:270
+#, python-brace-format
+msgid "You've reached your goal of {goal} {emoji} Congratulations!"
+msgstr "Naabot mo na ang iyong layunin ng {goal} {emoji} Binabati kita!"
+
+#: Extensions/Functions/Messages/message/counting/counting.py:276
+#: Extensions/Functions/Messages/message/counting/testing.py:276
+#, python-brace-format
+msgid "You've reached the end of the numbers until 0 {emoji} Congratulations!"
+msgstr "Naabot mo na ang dulo ng mga numero hanggang 0 {emoji} Binabati kita!"
+
+#: Extensions/Functions/Messages/message/delete/delete.py:131
+#: Extensions/Functions/Messages/message/delete/testing.py:131
+#, python-brace-format
+msgid "The word from {user} got deleted. The word was {word}!"
+msgstr "Ang salita mula kay {user} ay tinanggal. "
+
+#: Extensions/Functions/Messages/message/delete/delete.py:149
+#: Extensions/Functions/Messages/message/delete/testing.py:149
+#, python-brace-format
+msgid "The phrase from {user} got deleted. The phrase was вЂћ{phrase}вЂњ!"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/delete/delete.py:167
+#: Extensions/Functions/Messages/message/delete/testing.py:167
+#, python-brace-format
+msgid "The count of {count} from {user} got deleted. The next number is {next}!"
+msgstr "Ang bilang ng {count} mula kay {user} ay tinanggal. "
+
+#: Extensions/Functions/Messages/message/edit/edit.py:130
+#: Extensions/Functions/Messages/message/edit/testing.py:130
+#, python-brace-format
+msgid "{user} edited their word. The word was {word}!"
+msgstr "In-edit ni {user} ang kanilang salita. "
+
+#: Extensions/Functions/Messages/message/edit/edit.py:148
+#: Extensions/Functions/Messages/message/edit/testing.py:148
+#, python-brace-format
+msgid "{user} edited their phrase. The phrase was вЂћ{phrase}вЂњ!"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/edit/edit.py:171
+#: Extensions/Functions/Messages/message/edit/testing.py:171
+#, python-brace-format
+msgid "{user} edited their count of {count}. The next number is {next}!"
+msgstr "In-edit ni {user} ang kanilang bilang ng {count}. "
+
+#: Extensions/Functions/Messages/message/message.py:41
+#: Extensions/Functions/Messages/message/testing.py:41
+#, python-brace-format
+msgid "Hey {user}! My prefix is / or {mention}"
+msgstr "Hoy {user}! "
+
+#: Extensions/Functions/Messages/message/oneword/oneword.py:212
+#: Extensions/Functions/Messages/message/oneword/testing.py:212
+msgid "You are not allowed show off multiple words in a row."
+msgstr "Hindi ka pinapayagang magpakita ng maraming salita sa isang hilera."
+
+#: Extensions/Functions/Messages/message/oneword/oneword.py:218
+#: Extensions/Functions/Messages/message/oneword/testing.py:218
+msgid "your message should contain only one word or punctuation marks."
+msgstr "Ang iyong mensahe ay dapat maglaman lamang ng isang salita o mga bantas."
+
+#: Extensions/Functions/Messages/message/oneword/oneword.py:224
+#: Extensions/Functions/Messages/message/oneword/testing.py:224
+msgid "Your word should not already be in the sentance."
+msgstr "Ang iyong salita ay hindi dapat nasa pangungusap."
+
+#: Extensions/Functions/Messages/message/oneword/oneword.py:232
+#: Extensions/Functions/Messages/message/oneword/testing.py:232
+msgid "You've finally finished the sentence"
+msgstr "Sa wakas natapos mo na ang pangungusap"
+
+#: Extensions/Functions/Scheduled/freegames/freegames.py:47
+msgid "Unknown"
+msgstr "Hindi alam"
+
+#: Extensions/Functions/Scheduled/freegames/freegames.py:55
+msgid "Get free now"
+msgstr "Magbakante ngayon"
+
+#: Extensions/Functions/Scheduled/freegames/freegames.py:58
+#, python-brace-format
+msgid "until **{datetime}** (GMT)"
+msgstr "hanggang **{datetime}** (GMT)"
+
+#: Extensions/Functions/Scheduled/freegames/freegames.py:61
+msgid "Free"
+msgstr "Libre"
+
+#: Extensions/Functions/Scheduled/freegames/freegames.py:73
+msgid "Or open directly in launcher"
+msgstr "O direktang buksan sa launcher"
+
+#: Extensions/Functions/Voice/voice_state_update/testing.py:96
+#: Extensions/Functions/Voice/voice_state_update/voice_state_update.py:97
+#, python-brace-format
+msgid "{emoji} {prefix} **Wait before you open another temp channel directly**"
+msgstr "{emoji} {prefix} **Maghintay bago ka direktang magbukas ng isa pang temp channel**"
+
+#: Extensions/Functions/Voice/voice_state_update/testing.py:152
+#: Extensions/Functions/Voice/voice_state_update/voice_state_update.py:153
+#, python-brace-format
+msgid "{emoji} {prefix} **You've already registered a voice channel**"
+msgstr "{emoji} {prefix} **Nagrehistro ka na ng voice channel**"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:73
+#, python-brace-format
+msgid "{emoji} Invalid! You are not in a valid temporary voice channel."
+msgstr "{emoji} Di-wasto! "
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:84
+#, python-brace-format
+msgid "{emoji} **Invalid! You are not in a valid temporary voice channel."
+msgstr "{emoji} **Di-wasto! "
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:107
+msgid "CHOOSE A NAME FOR YOUR VOICE CHANNEL"
+msgstr "PUMILI NG PANGALAN PARA SA IYONG VOICE CHANNEL"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:108
+msgid "Leave blank to reset the name"
+msgstr "Iwanang blangko upang i-reset ang pangalan"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:146
+#, python-brace-format
+msgid "{emoji} **Updated!** Your channelвЂ™s name is now `{name}`!"
+msgstr ""
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:159
+msgid "CHOOSE A LIMIT FOR YOUR VOICE CHANNEL"
+msgstr "PUMILI NG LIMITAS PARA SA IYONG VOICE CHANNEL"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:161
+msgid "Leave blank to reset the limit"
+msgstr "Iwanang blangko upang i-reset ang limitasyon"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:182
+#, python-brace-format
+msgid "{emoji} **Invalid!** ` {value} ` is not a valid Value!!"
+msgstr ""
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:196
+#, python-brace-format
+msgid "{emoji} **Updated!** Your channelвЂ™s limit is now ` {limit} `!"
+msgstr ""
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:201
+msgid "unlimited"
+msgstr "walang limitasyon"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:215
+msgid "Select a Privacy Option"
+msgstr "Pumili ng Opsyon sa Privacy"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:229
+msgid "unlocked"
+msgstr "naka-unlock"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:230
+msgid "locked"
+msgstr "naka-lock"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:231
+msgid "invisible"
+msgstr "hindi nakikita"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:232
+msgid "visible"
+msgstr "nakikita"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:273
+#, python-brace-format
+msgid "{emoji} **Updated!** {channel} is now ` {mode} `!"
+msgstr "{emoji} **Na-update!** Ang {channel} ay ` {mode} ` na ngayon!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:296
+msgid "Invisible"
+msgstr ""
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:298
+msgid "Everyone will be able to view your voice channel"
+msgstr "Makikita ng lahat ang iyong voice channel"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:305
+msgid "Visible"
+msgstr "Nakikita"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:307
+msgid "Only trusted users will be able to view your voice channel"
+msgstr "Ang mga pinagkakatiwalaang user lang ang makakatingin sa iyong voice channel"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:316
+msgid "Lock"
+msgstr ""
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:318
+msgid "Only trusted users will be able to join your voice channel"
+msgstr "Tanging mga pinagkakatiwalaang user ang makakasali sa iyong voice channel"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:325
+msgid "Unlock"
+msgstr "I-unlock"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:327
+msgid "Everyone will be able to join your voice channel"
+msgstr "Lahat ay makakasali sa iyong voice channel"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:343
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:441
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:515
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:594
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:662
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:816
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:892
+#, python-brace-format
+msgid "{emoji} Use this menu to select an option:"
+msgstr "{emoji} Gamitin ang menu na ito upang pumili ng opsyon:"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:371
+msgid "Selected user will own your tempvoice channel!"
+msgstr "Pagmamay-ari ng napiling user ang iyong tempvoice channel!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:390
+#, python-brace-format
+msgid "{emoji} **Invalid**! The selected member is not a valid user in your temporary voice channel."
+msgstr "{emoji} **Di-wasto**! "
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:431
+#, python-brace-format
+msgid "{emoji} **Updated!** The {user} is now ` owner ` of your temporary {channel} channel!"
+msgstr "{emoji} **Na-update!** Ang {user} ay ` may-ari ` ng iyong pansamantalang {channel} channel!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:465
+msgid "Selected users will be trusted to join!"
+msgstr "Pagkakatiwalaan ang mga napiling user na sumali!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:509
+#, python-brace-format
+msgid "{emoji} **Updated!** The selected users are now ` trusted ` of your temporary {channel} channel!"
+msgstr "{emoji} **Na-update!** Ang mga napiling user ay ` pinagkakatiwalaan ` ng iyong pansamantalang channel sa {channel}!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:539
+msgid "Selected users will be kicked and blocked!"
+msgstr "Sisipain at haharangan ang mga napiling user!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:588
+#, python-brace-format
+msgid "{emoji} **Updated!** The selected users are now ` blocked ` of your temporary {channel} channel!"
+msgstr "{emoji} **Na-update!** Ang mga napiling user ay ` naka-block ` ngayon sa iyong pansamantalang {channel} channel!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:619
+msgid "Selected user will be kicked from your tempvoice channel!"
+msgstr "Sisipain ang napiling user mula sa iyong tempvoice channel!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:643
+#, python-brace-format
+msgid "{emoji} **Invalid**! None of the selected users are valid members of your temporary voice channel."
+msgstr "{emoji} **Di-wasto**! "
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:656
+#, python-brace-format
+msgid "{emoji} **Updated!** The selected users got kicked from your temporary {channel} channel!"
+msgstr "{emoji} **Na-update!** Ang mga napiling user ay sinipa mula sa iyong pansamantalang channel sa {channel}!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:674
+#, python-brace-format
+msgid "{emoji} this option is only for admins!"
+msgstr "{emoji} ang opsyong ito ay para lang sa mga admin!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:698
+#, python-brace-format
+msgid "{emoji} Selected user is already owner of a temporary channel!"
+msgstr "{emoji} Ang napiling user ay may-ari na ng pansamantalang channel!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:739
+#, python-brace-format
+msgid "{emoji} **Updated!** You are now ` owner ` of the temporary {channel} channel!"
+msgstr "{emoji} **Na-update!** Ikaw na ngayon ang ` may-ari ` ng pansamantalang {channel} channel!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:764
+msgid "Selected users will be untrusted from joining!"
+msgstr "Ang mga napiling user ay hindi mapagkakatiwalaan sa pagsali!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:810
+#, python-brace-format
+msgid "{emoji} **Updated!** The selected users are now ` untrusted ` of your temporary {channel} channel!"
+msgstr "{emoji} **Na-update!** Ang mga napiling user ay ` hindi pinagkakatiwalaan ` ng iyong pansamantalang {channel} channel!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:840
+msgid "Selected users will be unblocked from joining!"
+msgstr "Ang mga napiling user ay ia-unblock sa pagsali!"
+
+#: Extensions/Functions/Voice/voice_state_update/utils/system.py:886
+#, python-brace-format
+msgid "{emoji} **Updated!** The selected users are now ` unblocked ` of your temporary {channel} channel!"
+msgstr "{emoji} **Na-update!** Ang mga napiling user ay ` na-unblock ` na ngayon sa iyong pansamantalang {channel} channel!"
+
+#: Testing/clear/__init__.py:40
+msgid "Command to empty messages in text channels.\n\n"
+"            This command deletes a certain number of messages while various filters can be applied.\n"
+"            Pinned messages are ignored. You can also filter by one or more members.\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            users: Greedy[User]\n"
+"                @mentions, IDs or names.\n\n"
+"            first_limit: Union[Message, Age, None]\n"
+"                one message, one delta or ISO datetime each.\n\n"
+"            second_limit: Union[Message, Age, None]\n"
+"                one message, one delta or ISO datetime each.\n\n"
+"            regex: Optional[Regex]\n"
+"                A regex pattern that the message must contain to be deleted.\n\n"
+"            bots_only: Optional[bool]\n"
+"                Whether only bots should be deleted. Specify `bots_only` or `users`.\n\n"
+"            channels: Greedy[TextChannel]\n"
+"                #textchannels or * for all text channels in which to delete."
+msgstr "Mag-utos sa mga walang laman na mensahe sa mga text channel.\n\n"
+
+#: Testing/clear/do.py:82
+msgid "Message limits are in different channels."
+msgstr "Ang mga limitasyon ng mensahe ay nasa iba't ibang channel."
+
+#: Testing/clear/do.py:83
+msgid "Marked as bots only, but users were specified."
+msgstr "Minarkahan bilang mga bot lamang, ngunit tinukoy ang mga user."
+
+#: Testing/clear/do.py:86
+msgid ":x: Bitte warte, bis der derzeit laufende Bereinigungsvorgang abgeschlossen ist."
+msgstr "x: Bitte warte, bis der derzeit laufende Bereinigungsvorgang abgeschlossen ist."
+
+#: Testing/clear/do.py:109
+msgid "An attempt was made to delete the call message, but it has already been deleted."
+msgstr "Isang pagtatangka ay ginawa upang tanggalin ang mensahe ng tawag, ngunit ito ay natanggal na."
+
+#: Testing/tempvoice/__init__.py:35
+msgid "Manage the tempvoice features of Shake"
+msgstr "Pamahalaan ang mga tampok na tempvoice ng Shake"
+
+#: Testing/tempvoice/__init__.py:53
+msgid "Set up TempVoice with a wizard in seconds.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            prefix: Optional[strl]\n"
+"                the prefix\n\n"
+"            suffix: Optional[str]\n"
+"                the suffix\n\n"
+"            locked: Optional[bool]\n"
+"                if locked\n\n"
+"            user_limit: Optional[int]\n"
+"                the user limit\n"
+"            "
+msgstr "I-set up ang TempVoice gamit ang isang wizard sa ilang segundo.\n\n"
+
+#: Testing/tempvoice/tempvoice.py:43 Testing/tempvoice/testing.py:43
+msgid "tempvoice category"
+msgstr ""
+
+#: Testing/tempvoice/tempvoice.py:59 Testing/tempvoice/testing.py:59
+msgid "пё±Creator Channel"
+msgstr ""
+
+#: Testing/tempvoice/tempvoice.py:75 Testing/tempvoice/testing.py:75
+msgid "пё±interface"
+msgstr ""
+
+#: Testing/tempvoice/tempvoice.py:102 Testing/tempvoice/testing.py:102
+msgid "TempVoice Interface"
+msgstr ""
+
+#: Testing/tempvoice/tempvoice.py:104 Testing/tempvoice/testing.py:104
+#, python-brace-format
+msgid "{emoji} This interface can be used to edit your temporary channel.\n"
+"                More options will be available with {command} commands."
+msgstr "{emoji} Maaaring gamitin ang interface na ito para i-edit ang iyong pansamantalang channel.\n"
+
+#: Testing/tempvoice/tempvoice.py:135 Testing/tempvoice/testing.py:135
+msgid "Support"
+msgstr "Suporta"
+
+#~ msgid "ID:"
+#~ msgstr "ID:"
+
+#~ msgid "Bot?"
+#~ msgstr "Bot?"
+
+#~ msgid "Created:"
+#~ msgstr "Created:"
+
+#, python-brace-format
+#~| msgid ""
+#~| "\n"
+#~| "            Changes the language the bot replies for you.\n"
+#~| "            \n"
+#~| "            `<locale>` - The locale code of the language you want to "
+#~| "use; full list can be found in `{prefix}language`\n"
+#~| "            "
+#~ msgid ""
+#~ "Changes the language the bot replies for you in games and other guild "
+#~ "stuff.\n"
+#~ "\n"
+#~ "            `<locale>` - The locale code of the language you want to use; "
+#~ "full list can be found in `{prefix}language`"
+#~ msgstr ""
+#~ "Changes the language the bot replies for you in games and other guild "
+#~ "stuff.\n"
+#~ "\n"
+#~ "            `<locale>` - The locale code of the language you want to use; "
+#~ "full list can be found in `{prefix}language`"
+
+#~ msgid "Setup the bot"
+#~ msgstr "Setup the bot"
+
+#~ msgid "TEMPVOICE INTERFACE"
+#~ msgstr "TEMPVOICE INTERFACE"
+
+#~ msgid "Shutdown the bot"
+#~ msgstr "Shutdown the bot"
+
+#~ msgid "Tests the bot"
+#~ msgstr "Tests the bot"
+
+#~ msgid ""
+#~ "\n"
+#~ "            Siehe dir deinen aktuellen Level Stand an\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "            Siehe dir deinen aktuellen Level Stand an\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "            Send an event\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "            Send an event\n"
+#~ "        "
+
+#, python-brace-format
+#~ msgid ""
+#~ "To permanently choose a language, please create a character and enter "
+#~ "this command again. I set it to {language} temporarily."
+#~ msgstr ""
+#~ "To permanently choose a language, please create a character and enter "
+#~ "this command again. I set it to {language} temporarily."
+
+#~ msgid ""
+#~ "\n"
+#~ "            Setup the bot \n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "            Setup the bot \n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "            Shutdown the bot\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "            Shutdown the bot\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "            Tests the bot\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "            Tests the bot\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "            ZufГ¤llige Zahl wГјrfeln\n"
+#~ "            Mit diesem Befehl wird eine zufГ¤llige Zahl in einem "
+#~ "bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "            ZufГ¤llige Zahl wГјrfeln\n"
+#~ "            Mit diesem Befehl wird eine zufГ¤llige Zahl in einem "
+#~ "bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "            biggo configuration\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "            biggo configuration\n"
+#~ "        "

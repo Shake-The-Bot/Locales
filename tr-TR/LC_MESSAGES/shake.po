@@ -1,8 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
+<<<<<<< Updated upstream
 "POT-Creation-Date: 2023-07-09 00:15+0200\n"
 "PO-Revision-Date: 2023-07-08 22:16\n"
+=======
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-08-04 12:32\n"
+>>>>>>> Stashed changes
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -76,8 +81,14 @@ msgstr "Regex-Muster fehlende Umwickeln Backticks"
 msgid "Regex error: {e_msg}"
 msgstr "Regex-Fehler: {e_msg}"
 
+<<<<<<< Updated upstream
 #: Classes/types.py:39
 msgid "unknown"
+=======
+#: Classes/helpful.py:655
+#, python-brace-format
+msgid "Requested by {user} • via Shake"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: Classes/types.py:40
@@ -407,8 +418,13 @@ msgstr ""
 msgid "Counting bot reactions"
 msgstr ""
 
+<<<<<<< Updated upstream
 #: Extensions/Commands/Community/counting/counting.py:467
 #: Extensions/Commands/Community/counting/testing.py:532
+=======
+#: Extensions/Commands/Community/counting/counting.py:541
+#: Extensions/Commands/Community/counting/testing.py:541
+>>>>>>> Stashed changes
 msgid "Welcome to „Counting“"
 msgstr ""
 
@@ -561,6 +577,14 @@ msgstr ""
 
 #: Extensions/Commands/Community/oneword/oneword.py:317
 #: Extensions/Commands/Community/oneword/testing.py:317
+<<<<<<< Updated upstream
+=======
+msgid "Welcome to „OneWord“"
+msgstr ""
+
+#: Extensions/Commands/Community/oneword/oneword.py:320
+#: Extensions/Commands/Community/oneword/testing.py:320
+>>>>>>> Stashed changes
 msgid "Thanks for your interest in the game in this awesome place!"
 msgstr ""
 
@@ -586,7 +610,16 @@ msgstr ""
 
 #: Extensions/Commands/Community/oneword/oneword.py:340
 #: Extensions/Commands/Community/oneword/testing.py:340
+<<<<<<< Updated upstream
 msgid "There is no failing."
+=======
+msgid "One person can't post words in a row (others are required)."
+msgstr ""
+
+#: Extensions/Commands/Community/oneword/oneword.py:341
+#: Extensions/Commands/Community/oneword/testing.py:341
+msgid "The sentance is done with punctuation marks (eg. „!“)."
+>>>>>>> Stashed changes
 msgstr ""
 
 #: Extensions/Commands/Community/oneword/oneword.py:343
@@ -622,6 +655,184 @@ msgstr ""
 msgid "Third step: Choose the Message Type"
 msgstr ""
 
+<<<<<<< Updated upstream
+=======
+#: Extensions/Commands/Developing/bash/__init__.py:36
+msgid "Run shell commands.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            command: str\n"
+"                the command"
+msgstr ""
+
+#: Extensions/Commands/Developing/developing.py:14
+msgid "Dev commands to configure/set a lot of things of the bot.\n"
+"            Sometimes you have to list them as Dev 🤷."
+msgstr ""
+
+#: Extensions/Commands/Developing/developing.py:28
+msgid "Developing"
+msgstr ""
+
+#: Extensions/Commands/Developing/dispatch/__init__.py:37
+msgid "Send an event\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            event: Optional[str]\n"
+"                the name of the event\n\n"
+"            kwargs: Any\n"
+"                event keyword arguments"
+msgstr ""
+
+#: Extensions/Commands/Developing/extensions/__init__.py:55
+msgid "Reloads, unloads or loads extensions/commands of the bot\n"
+"            \n"
+"            Parameters\n"
+"            -----------\n"
+"            command: Literal[load, unload, reload]\n"
+"                re- un- or loading the <extensions>\n\n"
+"            extension: Greedy[ValidExt]\n"
+"                the extension(s) you want to re- un- or load"
+msgstr ""
+
+#: Extensions/Commands/Developing/leave/__init__.py:37
+msgid "Leave a guild\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guild: int\n"
+"                the ID of the server"
+msgstr ""
+
+#: Extensions/Commands/Developing/leave/leave.py:24
+#: Extensions/Commands/Developing/leave/testing.py:24
+msgid "The given server is not valid"
+msgstr ""
+
+#: Extensions/Commands/Developing/leave/leave.py:31
+#: Extensions/Commands/Developing/leave/testing.py:31
+msgid "leaving the guild raised an error"
+msgstr ""
+
+#: Extensions/Commands/Developing/leave/leave.py:36
+#: Extensions/Commands/Developing/leave/testing.py:36
+msgid "I'll leave the given server"
+msgstr ""
+
+#: Extensions/Commands/Developing/ptb/__init__.py:36
+msgid "Temporarily adds a server/channel/user to the public test build"
+msgstr ""
+
+#: Extensions/Commands/Developing/ptb/ptb.py:51
+msgid "Your input does not match any server/channel/user I can find"
+msgstr ""
+
+#: Extensions/Commands/Developing/ptb/ptb.py:61
+msgid "Server"
+msgstr ""
+
+#: Extensions/Commands/Developing/ptb/ptb.py:66
+#, python-brace-format
+msgid "{name} is __removed__ from the public test build"
+msgstr ""
+
+#: Extensions/Commands/Developing/ptb/ptb.py:71
+#, python-brace-format
+msgid "{name} is temporarily __added__ to the public test build"
+msgstr ""
+
+#: Extensions/Commands/Developing/repl/__init__.py:41
+msgid "Run your own xyz codes.\n\n"
+"            A read-eval-print loop (REPL), also termed an interactive toplevel or language shell,\n"
+"            takes single user inputs, executes them, and returns the result to the user.\n\n"
+"            You can simply specify this code as an argument and also in quotes (`).\n"
+"            Optionally you can use common attributes like ctx, bot etc. in the code.\n\n"
+"            Environment Variables:\n"
+"                ctx         - command invocation context\n"
+"                bot         - ShakeBot\n"
+"                channel     - current channel\n"
+"                author      - command author's member\n"
+"                message     - command's message\n"
+"                __ref       - reference if given\n"
+"                __last__    - variables of the last repl\n"
+"                __          - results of the last repl.\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            code: str\n"
+"                the code input to execute"
+msgstr ""
+
+#: Extensions/Commands/Developing/restart/__init__.py:37
+msgid "Stops and starts the bot like in a regular Restart"
+msgstr ""
+
+#: Extensions/Commands/Developing/restart/restart.py:15
+#: Extensions/Commands/Developing/restart/testing.py:15
+msgid "Bot will restart now"
+msgstr ""
+
+#: Extensions/Commands/Developing/rtfm/__init__.py:117
+msgid "View objects from certain documentation.\n\n"
+"            RTFM is internet slang for the phrase \"read the damn manual\".\n"
+"            This also applies to this command, with the help of which you can get the URLs to the documentation for various things\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            key: Optional[str]\n"
+"                the module (Python, Discord, ...). \n"
+"                Defaults to ``Python``\n\n"
+"            entity: Optional[str]\n"
+"                the thing you want to get information about (getattr, ctx.command, ...). \n"
+"                Defaults to ``None`` and returning the ``key`` website url\n"
+"            "
+msgstr ""
+
+#: Extensions/Commands/Developing/rtfm/__init__.py:172
+msgid "View all modules"
+msgstr ""
+
+#: Extensions/Commands/Developing/rtfm/rtfm.py:94
+#: Extensions/Commands/Developing/rtfm/testing.py:94
+msgid "Couldn't find anything."
+msgstr ""
+
+#: Extensions/Commands/Developing/rtfm/rtfm.py:138
+#: Extensions/Commands/Developing/rtfm/testing.py:138
+msgid "Choose a symbol..."
+msgstr ""
+
+#: Extensions/Commands/Developing/rtfm/rtfm.py:162
+#: Extensions/Commands/Developing/rtfm/testing.py:162
+msgid "No symbols to choose..."
+msgstr ""
+
+#: Extensions/Commands/Developing/sync/__init__.py:43
+msgid "synchronize the bot with its commands\n\n"
+"            The synchronization is used to reload the changes.\n"
+"            Synchronize when ...\n"
+"            - ...commands, arguments or permissions have been added, removed or changed\n"
+"            - ...a global/server command becomes a server/global command\n\n"
+"            Parameters\n"
+"            -----------\n"
+"            guilds: Optional[strl]\n"
+"                the guilds\n\n"
+"            spec: Optional[Literal[\"~\", \"*\", \"^\"]]\n"
+"                the spec\n\n"
+"            dump: Optional[bool]\n"
+"                if dump"
+msgstr ""
+
+#: Extensions/Commands/Developing/sync/sync.py:53
+#: Extensions/Commands/Developing/sync/testing.py:53
+#, python-brace-format
+msgid "{amount} Command*s to the current guild synchronized."
+msgstr ""
+
+#: Extensions/Commands/Developing/sync/sync.py:55
+#: Extensions/Commands/Developing/sync/testing.py:55
+#, python-brace-format
+msgid "{amount} Command*s globally synchronized."
+msgstr ""
+
+>>>>>>> Stashed changes
 #: Extensions/Commands/Gimmicks/count/__init__.py:33
 msgid "Count for yourself"
 msgstr ""
@@ -2453,6 +2664,90 @@ msgstr ""
 msgid "{emoji} {prefix} Thank you! You have been verified in guild `{guild}`"
 msgstr ""
 
+<<<<<<< Updated upstream
+=======
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:63
+#: Extensions/Functions/Messages/message/aboveme/testing.py:63
+#: Extensions/Functions/Messages/message/counting/counting.py:76
+#: Extensions/Functions/Messages/message/counting/testing.py:76
+#: Extensions/Functions/Messages/message/oneword/oneword.py:76
+#: Extensions/Functions/Messages/message/oneword/testing.py:76
+msgid "You should not write anything other than messages with text content!"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:148
+#: Extensions/Functions/Messages/message/aboveme/testing.py:148
+msgid "the one above me"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:204
+#: Extensions/Functions/Messages/message/aboveme/testing.py:204
+msgid "You are not allowed show off multiple numbers in a row."
+msgstr ""
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:210
+#: Extensions/Functions/Messages/message/aboveme/testing.py:210
+#, python-brace-format
+msgid "Your message should start with „{trigger}“ and should make sense."
+msgstr ""
+
+#: Extensions/Functions/Messages/message/aboveme/aboveme.py:217
+#: Extensions/Functions/Messages/message/aboveme/testing.py:217
+msgid "Your message should be something new"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:198
+#: Extensions/Functions/Messages/message/counting/testing.py:198
+msgid "You can't use anything but arithmetic here."
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:208
+#: Extensions/Functions/Messages/message/counting/testing.py:208
+msgid "You are not allowed to count multiple numbers in a row."
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:223
+#: Extensions/Functions/Messages/message/counting/testing.py:223
+msgid "You failed to often. No stats have been changed!!"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:230
+#: Extensions/Functions/Messages/message/counting/testing.py:230
+#, python-brace-format
+msgid "The streak of {streak} was broken!"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:232
+#: Extensions/Functions/Messages/message/counting/testing.py:232
+#, python-brace-format
+msgid "You've topped your best streak with {streak} numbers 🔥"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:240
+#: Extensions/Functions/Messages/message/counting/testing.py:240
+#, python-brace-format
+msgid "Incorrect number! The next number remains {start}. {streak}"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:250
+#: Extensions/Functions/Messages/message/counting/testing.py:250
+#, python-brace-format
+msgid "{user} ruined it at {count}. The next number is {start}. {streak}"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:270
+#: Extensions/Functions/Messages/message/counting/testing.py:270
+#, python-brace-format
+msgid "You've reached your goal of {goal} {emoji} Congratulations!"
+msgstr ""
+
+#: Extensions/Functions/Messages/message/counting/counting.py:276
+#: Extensions/Functions/Messages/message/counting/testing.py:276
+#, python-brace-format
+msgid "You've reached the end of the numbers until 0 {emoji} Congratulations!"
+msgstr ""
+
+>>>>>>> Stashed changes
 #: Extensions/Functions/Messages/message/delete/delete.py:131
 #: Extensions/Functions/Messages/message/delete/testing.py:131
 #, python-brace-format
@@ -2462,7 +2757,11 @@ msgstr ""
 #: Extensions/Functions/Messages/message/delete/delete.py:148
 #: Extensions/Functions/Messages/message/delete/testing.py:148
 #, python-brace-format
+<<<<<<< Updated upstream
 msgid "{user} deleted their phrase. The phrase was „{phrase}“!"
+=======
+msgid "The phrase from {user} got deleted. The phrase was „{phrase}“!"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: Extensions/Functions/Messages/message/delete/delete.py:165
