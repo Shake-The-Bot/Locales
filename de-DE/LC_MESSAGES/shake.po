@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-20 16:05\n"
+"PO-Revision-Date: 2023-08-20 17:03\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1726,21 +1726,21 @@ msgstr "Rolle"
 #: Extensions/Commands/Information/userinfo/testing.py:226
 #: Extensions/Commands/Information/userinfo/userinfo.py:176
 msgid "Server Roles"
-msgstr ""
+msgstr "Server Rollen"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:136
 #: Extensions/Commands/Information/serverinfo/testing.py:136
 #: Extensions/Commands/Information/userinfo/testing.py:237
 #: Extensions/Commands/Information/userinfo/userinfo.py:187
 msgid "Colour"
-msgstr ""
+msgstr "Farbe"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:138
 #: Extensions/Commands/Information/serverinfo/testing.py:138
 #: Extensions/Commands/Information/userinfo/testing.py:239
 #: Extensions/Commands/Information/userinfo/userinfo.py:189
 msgid "Default"
-msgstr ""
+msgstr "Standart"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:147
 #: Extensions/Commands/Information/serverinfo/testing.py:147
@@ -1748,14 +1748,14 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:198
 #, python-brace-format
 msgid "Page {page}/{pages} (Total of {items} Roles)"
-msgstr ""
+msgstr "Seite {page}/{pages} (Insgesamt {items} Rollen)"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:172
 #: Extensions/Commands/Information/serverinfo/testing.py:172
 #: Extensions/Commands/Information/userinfo/testing.py:282
 #: Extensions/Commands/Information/userinfo/userinfo.py:232
 msgid "Avatar/Banner"
-msgstr ""
+msgstr "Avater/Banner"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:195
 #: Extensions/Commands/Information/serverinfo/testing.py:195
@@ -1763,7 +1763,7 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:255
 #, python-brace-format
 msgid "Open link: {links}"
-msgstr ""
+msgstr "Link öffnen: {links}"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:201
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:578
@@ -1777,24 +1777,24 @@ msgstr ""
 #: Extensions/Commands/Information/userinfo/userinfo.py:898
 #, python-brace-format
 msgid "Page {page} of {pages}"
-msgstr ""
+msgstr "Seite {page} von {pages}"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:220
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:676
 #: Extensions/Commands/Information/serverinfo/testing.py:220
 #: Extensions/Commands/Information/serverinfo/testing.py:676
 msgid "Emojis"
-msgstr ""
+msgstr "Emojis"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:228
 #: Extensions/Commands/Information/serverinfo/testing.py:228
 msgid "Server Emojis"
-msgstr ""
+msgstr "Server Emojis"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:235
 #: Extensions/Commands/Information/serverinfo/testing.py:235
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:235
 #: Extensions/Commands/Information/serverinfo/testing.py:235
