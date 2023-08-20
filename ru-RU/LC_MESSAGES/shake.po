@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-16 11:08\n"
+"PO-Revision-Date: 2023-08-20 16:05\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -81,8 +81,8 @@ msgstr "Ошибка выражения: {e_msg}"
 
 #: Classes/helpful.py:655
 #, python-brace-format
-msgid "Requested by {user} вЂў via Shake"
-msgstr ""
+msgid "Requested by {user} • via Shake"
+msgstr "По запросу {user} • через встряхивание"
 
 #: Classes/tomls/configuration.py:279
 #, python-brace-format
@@ -124,8 +124,8 @@ msgstr "[{name} (загрузить файл)]"
 
 #: Classes/useful.py:806
 #, python-brace-format
-msgid "[{name} (upload files)]вЂ¦"
-msgstr ""
+msgid "[{name} (upload files)]…"
+msgstr "[{name} (загрузить файлы)]…"
 
 #: Extensions/Commands/Community/aboveme/__init__.py:35
 msgid "Throw nice, funny and sometimes annoying comments to the user above you!\n"
@@ -434,8 +434,8 @@ msgstr "Подсчет реакций которые оставили боты"
 
 #: Extensions/Commands/Community/counting/counting.py:541
 #: Extensions/Commands/Community/counting/testing.py:541
-msgid "Welcome to вЂћCountingвЂњ"
-msgstr ""
+msgid "Welcome to „Counting“"
+msgstr "Добро пожаловать в «Подсчет»"
 
 #: Extensions/Commands/Community/counting/counting.py:543
 #: Extensions/Commands/Community/counting/testing.py:543
@@ -567,8 +567,8 @@ msgstr "Реакции бота на \"Одно слово\""
 
 #: Extensions/Commands/Community/oneword/oneword.py:317
 #: Extensions/Commands/Community/oneword/testing.py:317
-msgid "Welcome to вЂћOneWordвЂњ"
-msgstr ""
+msgid "Welcome to „OneWord“"
+msgstr "Приветствуем в игре \"Одно слово\""
 
 #: Extensions/Commands/Community/oneword/oneword.py:320
 #: Extensions/Commands/Community/oneword/testing.py:320
@@ -592,8 +592,8 @@ msgstr "Один человек не может играть в \"Одно сл�
 
 #: Extensions/Commands/Community/oneword/oneword.py:341
 #: Extensions/Commands/Community/oneword/testing.py:341
-msgid "The sentance is done with punctuation marks (eg. вЂћ!вЂњ)."
-msgstr ""
+msgid "The sentance is done with punctuation marks (eg. „!“)."
+msgstr "Передача предложения осуществляется с помощью знаков препинания (например, \"!\")."
 
 #: Extensions/Commands/Community/oneword/oneword.py:343
 #: Extensions/Commands/Community/oneword/testing.py:343
@@ -648,8 +648,9 @@ msgstr "Запуск команд командной оболочки.\n\n"
 
 #: Extensions/Commands/Developing/developing.py:14
 msgid "Dev commands to configure/set a lot of things of the bot.\n"
-"            Sometimes you have to list them as Dev рџ¤·."
-msgstr ""
+"            Sometimes you have to list them as Dev 🤷."
+msgstr "Dev-команды для конфигурирования/настройки многих вещей бота.\n"
+"            Иногда их приходится перечислять как Dev 🤷."
 
 #: Extensions/Commands/Developing/developing.py:28
 msgid "Developing"
@@ -967,8 +968,8 @@ msgstr "Получайте последние смешные мемы с reddit\
 #: Extensions/Commands/Gimmicks/meme/meme.py:30
 #: Extensions/Commands/Gimmicks/meme/testing.py:30
 #, python-brace-format
-msgid "вЂћ{title}вЂњ by {author}"
-msgstr ""
+msgid "„{title}“ by {author}"
+msgstr "\"{title}\" от {author}"
 
 #: Extensions/Commands/Gimmicks/meme/meme.py:36
 #: Extensions/Commands/Gimmicks/meme/testing.py:36
@@ -1531,8 +1532,9 @@ msgstr "Здесь представлены все пользователи с �
 
 #: Extensions/Commands/Information/information.py:14
 msgid "Informative commands about a wide variety of things.\n"
-"            Sometimes you find out new things рџ¤·"
-msgstr ""
+"            Sometimes you find out new things 🤷"
+msgstr "Информативные команды о самых разных вещах.\n"
+"            Иногда вы узнаете что-то новое 🤷."
 
 #: Extensions/Commands/Information/information.py:28
 msgid "Information"
@@ -1588,13 +1590,13 @@ msgstr "Получите пинг"
 
 #: Extensions/Commands/Information/ping/ping.py:16
 #: Extensions/Commands/Information/ping/testing.py:16
-msgid "Waiting for the \"Pong! рџЏ“\""
-msgstr ""
+msgid "Waiting for the \"Pong! 🏓\""
+msgstr "В ожидании \"Pong! 🏓\""
 
 #: Extensions/Commands/Information/ping/ping.py:45
 #: Extensions/Commands/Information/ping/testing.py:45
-msgid "Pong! рџЏ“"
-msgstr ""
+msgid "Pong! 🏓"
+msgstr "Pong! 🏓"
 
 #: Extensions/Commands/Information/ping/ping.py:48
 #: Extensions/Commands/Information/ping/testing.py:48
@@ -2818,8 +2820,8 @@ msgstr "Вам не разрешено считать несколько чис�
 #: Extensions/Functions/Messages/message/aboveme/aboveme.py:210
 #: Extensions/Functions/Messages/message/aboveme/testing.py:210
 #, python-brace-format
-msgid "Your message should start with вЂћ{trigger}вЂњ and should make sense."
-msgstr ""
+msgid "Your message should start with „{trigger}“ and should make sense."
+msgstr "Ваше сообщение должно начинаться с «{trigger}» и должно иметь смысл."
 
 #: Extensions/Functions/Messages/message/aboveme/aboveme.py:217
 #: Extensions/Functions/Messages/message/aboveme/testing.py:217
@@ -2850,8 +2852,8 @@ msgstr "Серия {streak} сломана!"
 #: Extensions/Functions/Messages/message/counting/counting.py:232
 #: Extensions/Functions/Messages/message/counting/testing.py:232
 #, python-brace-format
-msgid "You've topped your best streak with {streak} numbers рџ”Ґ"
-msgstr ""
+msgid "You've topped your best streak with {streak} numbers 🔥"
+msgstr "Вы пополнили свою лучшую серию с номерами {streak}🔥"
 
 #: Extensions/Functions/Messages/message/counting/counting.py:240
 #: Extensions/Functions/Messages/message/counting/testing.py:240
@@ -2886,8 +2888,8 @@ msgstr "Слово от {user} было удалено. Слово состав�
 #: Extensions/Functions/Messages/message/delete/delete.py:149
 #: Extensions/Functions/Messages/message/delete/testing.py:149
 #, python-brace-format
-msgid "The phrase from {user} got deleted. The phrase was вЂћ{phrase}вЂњ!"
-msgstr ""
+msgid "The phrase from {user} got deleted. The phrase was „{phrase}“!"
+msgstr "Фраза от {user} удалена. Фраза была указана как \"{phrase}“!"
 
 #: Extensions/Functions/Messages/message/delete/delete.py:167
 #: Extensions/Functions/Messages/message/delete/testing.py:167
@@ -2904,8 +2906,8 @@ msgstr "{user} отредактировал свое слово. Слово {wor
 #: Extensions/Functions/Messages/message/edit/edit.py:148
 #: Extensions/Functions/Messages/message/edit/testing.py:148
 #, python-brace-format
-msgid "{user} edited their phrase. The phrase was вЂћ{phrase}вЂњ!"
-msgstr ""
+msgid "{user} edited their phrase. The phrase was „{phrase}“!"
+msgstr "{user} отредактировал свою фразу. Фраза была „{phrase}“!"
 
 #: Extensions/Functions/Messages/message/edit/edit.py:171
 #: Extensions/Functions/Messages/message/edit/testing.py:171
@@ -2992,8 +2994,8 @@ msgstr "Оставьте пустым, чтобы сбросить имя"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:146
 #, python-brace-format
-msgid "{emoji} **Updated!** Your channelвЂ™s name is now `{name}`!"
-msgstr ""
+msgid "{emoji} **Updated!** Your channel’s name is now `{name}`!"
+msgstr "{emoji} **Обновлен!** Теперь имя вашего канала `{name}`!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:159
 msgid "CHOOSE A LIMIT FOR YOUR VOICE CHANNEL"
@@ -3010,8 +3012,8 @@ msgstr "{emoji} **Неверно!** ` {value} ` не является допус
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:196
 #, python-brace-format
-msgid "{emoji} **Updated!** Your channelвЂ™s limit is now ` {limit} `!"
-msgstr ""
+msgid "{emoji} **Updated!** Your channel’s limit is now ` {limit} `!"
+msgstr "{emoji} **Обновлен!** Теперь имя вашего канала `{limit} `!"
 
 #: Extensions/Functions/Voice/voice_state_update/utils/system.py:201
 msgid "unlimited"
@@ -3253,12 +3255,12 @@ msgid "tempvoice category"
 msgstr "временная категория"
 
 #: Testing/tempvoice/tempvoice.py:59 Testing/tempvoice/testing.py:59
-msgid "пё±Creator Channel"
-msgstr ""
+msgid "︱Creator Channel"
+msgstr "– Канал создателя"
 
 #: Testing/tempvoice/tempvoice.py:75 Testing/tempvoice/testing.py:75
-msgid "пё±interface"
-msgstr ""
+msgid "︱interface"
+msgstr "– интерфейс"
 
 #: Testing/tempvoice/tempvoice.py:102 Testing/tempvoice/testing.py:102
 msgid "TempVoice Interface"
@@ -3372,14 +3374,14 @@ msgstr "Поддержка"
 
 #~ msgid ""
 #~ "\n"
-#~ "            ZufГ¤llige Zahl wГјrfeln\n"
-#~ "            Mit diesem Befehl wird eine zufГ¤llige Zahl in einem "
+#~ "            Zufällige Zahl würfeln\n"
+#~ "            Mit diesem Befehl wird eine zufällige Zahl in einem "
 #~ "bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
 #~ "        "
 #~ msgstr ""
 #~ "\n"
-#~ "            ZufГ¤llige Zahl wГјrfeln\n"
-#~ "            Mit diesem Befehl wird eine zufГ¤llige Zahl in einem "
+#~ "            Zufällige Zahl würfeln\n"
+#~ "            Mit diesem Befehl wird eine zufällige Zahl in einem "
 #~ "bestimmten Wertebereich angezeigt. (Standard: 1-6)\n"
 #~ "        "
 
