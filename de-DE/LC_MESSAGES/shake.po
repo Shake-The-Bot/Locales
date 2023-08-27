@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-20 17:03\n"
+"PO-Revision-Date: 2023-08-27 11:47\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -155,12 +155,12 @@ msgstr "Die Top Counting Benutzer und Server ansehen"
 #: Extensions/Commands/Community/oneword/oneword.py:64
 #: Extensions/Commands/Community/oneword/testing.py:64
 msgid "Create one"
-msgstr "Erstelle eins"
+msgstr "Erstelle eines"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:92
 #: Extensions/Commands/Community/aboveme/testing.py:92
 msgid "AboveMe channel"
-msgstr "AboveMe Kanal"
+msgstr "AboveMe-Kanal"
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:93
 #: Extensions/Commands/Community/aboveme/testing.py:93
@@ -169,7 +169,7 @@ msgstr "AboveMe Kanal"
 #: Extensions/Commands/Community/oneword/oneword.py:94
 #: Extensions/Commands/Community/oneword/testing.py:94
 msgid "Choose in which text channel this game should be!"
-msgstr "Wähle in welchem Text-Kanal dieses Spiel sein soll!"
+msgstr "Wähle, in welchem Textkanal dieses Spiel gespielt werden soll."
 
 #: Extensions/Commands/Community/aboveme/aboveme.py:95
 #: Extensions/Commands/Community/aboveme/testing.py:95
@@ -1799,12 +1799,12 @@ msgstr "Twitch"
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:235
 #: Extensions/Commands/Information/serverinfo/testing.py:235
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:236
 #: Extensions/Commands/Information/serverinfo/testing.py:236
 msgid "Added"
-msgstr ""
+msgstr "Hinzugefügt"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:249
 #: Extensions/Commands/Information/serverinfo/testing.py:249
