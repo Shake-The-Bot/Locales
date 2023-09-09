@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shake\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-27 11:47\n"
+"PO-Revision-Date: 2023-09-09 17:48\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1810,7 +1810,7 @@ msgstr "Hinzugefügt"
 #: Extensions/Commands/Information/serverinfo/testing.py:249
 #, python-brace-format
 msgid "Page {page} of {pages} (Total of {items} Emojis)"
-msgstr ""
+msgstr "Seite {page} von {pages} (Gesamt von {items} Emojis)"
 
 #: Extensions/Commands/Information/serverinfo/serverinfo.py:266
 #: Extensions/Commands/Information/serverinfo/testing.py:266
